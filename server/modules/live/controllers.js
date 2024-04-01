@@ -882,6 +882,35 @@ class io_zoom extends IO {
         }
     }
 }
+class io_jump extends IO {
+    constructor(body, opts = {}) {
+        super(body);
+        this.distance = opts.distance || 225;
+        this.jump = opts.jump;
+        this.cooldown = false; // To track if cooldown is active
+    }
+
+    think(input) {
+        if (input.jump || (input.alt && input.target)) {
+            if (!this.cooldown && input.target.x !== undefined && input.target.y !== undefined) {
+                this.body.x = input.target.x + this.body.x;
+                this.body.y = input.target.y + this.body.y;
+                this.cooldown = true; // Start cooldown
+                setTimeout(() => {
+                    this.cooldown = false; // Reset cooldown after 3 seconds
+                }, 3000);
+            }
+        } else {
+            if (this.body.target) {
+                this.body.target.x = null;
+                this.body.target.y = null;
+            }
+        }
+    }
+}
+
+
+
 class io_wanderAroundMap extends IO {
     constructor(b, opts = {}) {
         super(b);
@@ -912,6 +941,7 @@ class io_wanderAroundMap extends IO {
 let ioTypes = {
     //misc
     zoom: io_zoom,
+    jump: io_jump,
     doNothing: io_doNothing,
     listenToPlayer: io_listenToPlayer,
     alwaysFire: io_alwaysFire,
