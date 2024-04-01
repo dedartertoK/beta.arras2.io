@@ -3,7 +3,7 @@ module.exports = {
 
     // Game server domain.
     // If 'localhost:NUMBER', the port must equal the port setting.
-    host: "p2ht2z-3000.csb.app",
+    host: "beta-arras2-io.onrender.com",
 
     // Which port to run the web server on.
     port: 3000,
