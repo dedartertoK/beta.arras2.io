@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Properties -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Arras2.io is a fan-made sequel of arras.io. Escape from attackers and shoot at everyone while staying alive!">
+    <meta property="og:image" content="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
+    <!-- ... (other meta tags) ... -->
+    <title>Arras2.io</title>
+    <!-- CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel="stylesheet" href="/main.css">
+   <link rel="icon" type="image/png" sizes="16x16 32x32 64x64 128x128 256x256" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
+    <style>
+        body {
+            text-align: center;
+            font-family: Ubuntu;
+            font-size: 14px;
+            background-image: url(NOCAP.jpg);
+            background-position: center;
+            background-size: 110% 110%; /* Adjust the zoom level as needed */
+  -webkit-animation: AnimationName 1.5s ease infinite;
+  -moz-animation: AnimationName 1.5s ease infinite;
+  -o-animation: AnimationName 1.5s ease infinite;
+  animation: AnimationName 1.5s ease infinite;
+        }
+        #loading {
+            color: #FFFFFF;
+            position: fixed;
+            top: 50%;
+            background-color: #000000;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 48pt;
+            font-family: sans-serif;
+            font-weight: bold;
+            cursor: default;
+            z-index: 9999;
+        }
+        .icon {
+            display: block;
+            margin: 0 auto;
+            margin-top: 200px;
+            max-width: 100%;
+            height: auto;
+        }
+
+        h1 {
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            font: bold 70px/1.5 Ubuntu;
+        }
+
+        .textinthebeggining {
+            font-size: 50px;
+            text-align: center;
+            color: white;
+            font-family: 'Press Start 2P', cursive;
+        }
+
+        .credits {
+            font-size: 20px;
+            text-align: center;
+            color: white;
+            font-family: 'Press Start 2P', cursive;
+        }
+
+        .black-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* Align items to the top */
+            align-items: center;
+            z-index: 9999;
+            animation: fadeOut 1s 1s forwards;
+        }
+
+        .redirect {
+            text-decoration: none;
+            font-size: 30px;
+            color: black;
+            font-family: 'Press Start 2P', cursive;
+            opacity: 1; /* Initial opacity */
+            transition: color 0.5s; /* Add transition property for opacity and color change */
+            animation:  colorTransition 0.5s infinite alternate; 
+        }
+.color-transition {
+    animation:  color-Transition 0.6s infinite alternate; 
+    transition: color 0.6s; /* Add transition property for opacity and color change */
+    opacity: 1; /* Initial opacity */
+}
+
+        .redirect:hover {
+            opacity: 0.5; /* Change opacity on hover */
+        }
+
+        .redirect.clicked {
+            color: grey; /* Change color when the link is active (clicked) */
+            opacity: 1; /* Reset opacity after color change */
+        }
+
+        @keyframes fadeInOut {
+            from {
+                opacity: 1;
+            }
+            to {
+                opacity: 0.5;
+            }
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeOut {
+            from {
+                opacity: 1;
+            }
+            to {
+                opacity: 0;
+            }
+        }
+
+        @keyframes pfpDefault { 
+            /* ... (existing keyframes) ... */
+        }
+
+        @keyframes colorTransition {
+            from {
+                color: black;
+            }
+            to {
+                color: grey;
+            }
+        }
+        @keyframes color-Transition {
+            from {
+                color: grey;
+            }
+            to {
+                color: rgb(0, 255, 64);
+            }
+        }
+    </style>
+</head>
+<body oncontextmenu="return event.target.tagName === 'A'">
+    <div class="black-screen">
+        <a class="textinthebeggining" style="color: white;">Arras2.io</a>
+        <p class="credits">Made by LA3T!</p>
+        <p class="credits">Credit to Æ🚫Ḧ̸́̐ë̴̑l̵̐̋lo?, YanisDiss and TrickyArrasGames.</p>
+    </div>
+    <img width=150 height=150 src="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268" class="icon" alt="arras icon">
+    <h1>Arras<b class="color-transition">2</b>.io</h1>
+    <a class="redirect" href="/loading">PRESS PLAY!</a>
+    <script>
+        window.onload = function () {
+            var blackScreen = document.querySelector('.black-screen');
+            var body = document.body;
+
+            // Remove the black screen after the fadeOut animation
+            blackScreen.addEventListener('animationend', function () {
+                blackScreen.style.display = 'none';
+            });
+        };
+    </script>
+</body>
+</html>
