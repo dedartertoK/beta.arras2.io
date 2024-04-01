@@ -1372,6 +1372,7 @@ exports.jumpSmasher = {
     LABEL: "Jump Smasher",
     DANGER: 5,
     CONTROLLERS: ["jump"],
+    TOOLTIP: "Right Click to jump.",
     BODY: {
       SPEED: base.SPEED * 1.15,
       FOV: base.FOV * 1.05,
@@ -1387,23 +1388,13 @@ exports.jumpSmasher = {
     IS_SMASHER: true,
     SKILL_CAP: [smshskl, 0, 0, 0, 0, smshskl, smshskl, smshskl, smshskl, smshskl],
     STAT_NAMES: statnames.smasher,
-    TOOLTIP: "Right Click to jump.",
-    GUNS: [
-      {
-        POSITION: [2, 2, 1, 0, 0, 180, 0],
-        PROPERTIES: {
-          SHOOT_SETTINGS: combineStats([g.basic, g.jump]),
-          TYPE: [
-            "bullet",
-            {
-              ALPHA: 0,
-            },
-          ],
+
+
 
         },
-      },
-    ],
-  };
+      
+    
+  
 exports.healer = {
     PARENT: ["genericTank"],
     LABEL: "Healer",
