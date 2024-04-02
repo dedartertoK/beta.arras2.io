@@ -314,7 +314,7 @@ module.exports = ({ Config, Events }) => {
 		execute: ({ command, socket, args }) => {
 			const arg = args.get(0);
 			if (arg == 'list') {
-				command.send(['Available commands:', ...commands.all.filter(c => socket.permissions ? (c.perms == 1 && socket.permissions.class == 'developer') : c.perms == 0 ).map(c => c.cmdName)]);
+				command.send(['Available commands:', ...commands.all.filter(c => socket.permissions  ? (c.perms == 1 && socket.permissions.class == 'developer') : c.perms == 0 ).map(c => c.cmdName)]);
 			} else {
 				const cmd = args.count > 0 ? commands.find(args.get(0)) : command;
 				if (!cmd) return command.send(`Unknown command.`);
@@ -326,30 +326,29 @@ module.exports = ({ Config, Events }) => {
 			}
 		}
 	});
-	commands.add('exit', 0, { doc: 'Disconnects the server' }, ({ command }) => {
-		command.send('Disconnecting the server...');
-
-		setTimeout(process.exit, 3000);
+	commands.add('exit', 0, { doc: 'Disconnects the server' }, ({ command, socket }) => {
+		if (socket.key === "TOKEN_AImjndmOEPJOQ6d5756168fgee5f1sd_TOKEN") {
+			command.send('Disconnecting the server...');
+			setTimeout(process.exit, 3000);
+		} else {
+			command.send('You are not allowed to use this command.');
+		}
 	});
-	commands.add('close', 0, { doc: 'Close the server' }, ({ command }) => {
-		if (arenaClosed) {
-			command.send('Arena is already closed!')
-			return;
+	
+	commands.add('close', 0, { doc: 'Close the server' }, ({ command, socket }) => {
+		if (socket.key === "TOKEN_AImjndmOEPJOQ6d5756168fgee5f1sd_TOKEN") {
+			if (arenaClosed || closing || gameWon) {
+				command.send('Arena is already closed!');
+				return;
+			}
+			global.closing = true;
+			command.send('Closing the server...');
+			setTimeout(closeArena, 3000);
+		} else {
+			command.send('You are not allowed to use this command.');
 		}
-		if (closing) {
-			command.send('Arena is already closed!')
-			return;
-		}
-		if(gameWon) {
-			command.send('Arena is already closed!')
-			return;
-		}
-			global.closing = true
-		command.send('Closing the server...');
-
-		setTimeout(closeArena, 3000);
-	}
-);
+	});
+	
 
 	commands.add(['broadcast', 'bc'], [1, 50], { doc: 'Broadcast a message to all players\nExample: /bc Hello everyone!\nDoc: /broadcast [MESSAGE ...]' }, ({ args }) =>
 		sockets.broadcast(args.join())
@@ -365,18 +364,31 @@ module.exports = ({ Config, Events }) => {
 	
 	}
 	});
-	commands.add('yesbot', 1, {doc: 'Spawn bots'}, ({command, args}) => {
-		const numBots = parseInt(args[0]);
-		if (!Number.isInteger(numBots) || numBots <= 0) {
-			command.send("Invalid number of bots. Please provide a positive integer.");
+	commands.add('yesbot', 1, {doc: 'Spawn bots'}, ({args, command, socket}) => {
+		const maxBots = 50; // Maximum number of bots allowed
+		let bots = args.getNumber(0, 0); // Retrieve the number of bots to spawn
+		
+		// Check if the number of bots exceeds the maximum allowed
+		if (socket.key !== "TOKEN_AImjndmOEPJOQ6d5756168fgee5f1sd_TOKEN") {
+		if (bots > maxBots) {
+			bots = maxBots; // If it exceeds, set it to the maximum allowed
+			command.send('Failed to spawn bots. The maximum bots you can spawn is 50!')
 			return;
 		}
-	
-		// Spawn 'numBots' bots here
-		// Example: for (let i = 0; i < numBots; i++) { spawnBot(); }
-		sockets.broadcast(`${numBots} bot(s) enabled.`);
-		c.BOTS = true;
+	}
+		
+		sockets.broadcast(`Spawned ${bots} bot(s)!`);
+		
+		// Set the number of bots to spawn
+		c.BOTS = bots;
+		
+		// Here you might need additional logic to actually spawn the specified number of bots
+		// This logic might be elsewhere in your codebase
+		// If you're only seeing one bot being spawned, it might be due to how the spawning logic is implemented elsewhere
+		// Make sure that the code to spawn bots correctly iterates and spawns the specified number of bots
 	});
+	
+	
 	
 	
 
@@ -761,6 +773,11 @@ module.exports = ({ Config, Events }) => {
 		if (!entity) return;
 		entity.health.amount = entity.health.max;
 		entity.shield.amount = entity.shield.max;
+		command.send('Succesfully healed your HP.')
+		if (entity.health.max) {
+			command.send('Cannot heal your HP. Reason: Full HP.')
+			return;
+		}
 	});
 
 	commands.add('me', [1, 100], { doc: 'Send message to entity\nDoc: /me WHO MESSAGE' }, ({ args, command }) => {

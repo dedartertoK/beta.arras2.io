@@ -182,7 +182,8 @@ module.exports = {
     } else {
         return "You have spawned! Welcome to the game.\n"
              + "You will be invulnerable until you move or shoot for 60 seconds.\n"
-             + "The gamemode changes everytimes the server restarts.";
+             + "The gamemode changes everytimes the server restarts.\n"
+             + "Use /help list to see the available commands, some of the commands are useless.";
     }
 }
 

@@ -4,25 +4,14 @@ let output = require("../../config.js");
 // To change specific things about specific gamemodes (such as team count for tdm), visit their config file in \gamemodeconfigs\
 
 
-var modes = Math.floor(Math.random() * 5);
+var modes = Math.floor(Math.random() * 1);
 
 switch (modes) {
 
     case 0:
-    gamemodes = ['d-Day_Trenches'];
+    gamemodes = ['beta'];
     break;
-    case 1:
-        gamemodes = ['siege'];
-        break;
-        case 2:
-            gamemodes = ['domination'];
-            break;
-            case 3:
-                gamemodes = ['mothership'];
-                break;
-                case 4:
-                    gamemodes = ['d-Day_Bastron'];
-                    break;
+
             default:
                 break;
  }
@@ -48,7 +37,7 @@ module.exports = { output };
 
 // Everything past this handles the display name in the main menu
 const nameMap = {
-
+'beta': "Closed Beta",
     'soccer': "Soccer",
     'siege': "Boss Rush",
                 'd-Day_Trenches': "D-Day Trenches",

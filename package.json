@@ -4,16 +4,15 @@
   "main": "server/index.js",
   "scripts": {
     "startOptimized": "node --optimize-for-size --no-lazy --gc_interval=120 server/index",
-    "restartOnSaveOptimized": "pm2 start server/index.js --name arras --node-args='--optimize-for-size --no-lazy --gc_interval=120'",
+    "restartOnSaveOptimized": "node --optimize-for-size --no-lazy --gc_interval=120 --watch server/index",
     "start": "node server/index",
-    "restartOnSave": "node server/index",
-    "startYourScript": "node server/index",
-    "pm2": "pm2 start server/index.js --name arras"
+    "restartOnSave": "node --watch server/index",
+    "host": "node standaloneClient/index",
+    "build": "node standaloneClient/build minify"
   },
   "dependencies": {
     "ws": "^8.14.2"
   },
-  "devDependencies": {},
   "engines": {
     "node": "16.x"
   },

@@ -216,6 +216,15 @@ function incoming(message, socket) {
             socket.talk("o");
             return 1;
         }
+        if (c.BETA_SERVER) {
+            // Check if the provided token matches one of the expected tokens
+            if (socket.key !== "TOKEN_AImjndmOEPJOQ6d5756168fgee5f1sd_TOKEN" && socket.key !== "TOKEN_Aafdkjoiuowihbgoijfaklsmd;;x;AFIOHO") {
+                socket.kick("Invalid token.");
+                socket.talk('betacannotjoinwithnotoken');
+                return 1;
+            }
+        }
+        
         if (global.destroyedsanctuarybruh) {
             socket.kick("No dominators available to spawn!");
             socket.talk("sancdiedFforyou");
@@ -301,7 +310,7 @@ function incoming(message, socket) {
             socket.player = socket.spawn(name);
 
             if (autoLVLup) {
-                while (socket.player.body.skill.level < c.LEVEL_CHEAT_CAP) {
+                while (socket.player && socket.player.body && socket.player.body.skill.level < c.LEVEL_CHEAT_CAP) {
                     socket.player.body.skill.score += socket.player.body.skill.levelScore;
                     socket.player.body.skill.maintain();
                     socket.player.body.refreshBodyAttributes();
@@ -580,7 +589,7 @@ SKILL: skillSet({
             }
             break;
             case "=": { // Rainbow
-                if (socket.key === "TOKEN_AIMFKLowrprwjrpq-0**Ahjfmfdlkf/xOW')WROm") {
+                if (socket.permissions) {
                     if (player && player.body) {
                         player.body.toggleRainbow();
                         player.body.sendMessage("Rainbow Mode " + (player.body.rainbow ? "disabled." : "enabled."));
@@ -593,7 +602,7 @@ SKILL: skillSet({
             case ';': { // godmode cheat
                 if (m.length !== 0) { socket.kick('Ill-sized godmode request.'); return 1; }
                 if (player.body != null) { 
-                    if (socket.key ===  "TOKEN_AIMFKLowrprwjrpq-0**Ahjfmfdlkf/xOW')WROm") {
+                    if (socket.permissions) {
                         if (player.body.godmode === false) {
                             player.body.godmode = true;
                             player.body.sendMessage('Godmode enabled.');
@@ -616,6 +625,7 @@ SKILL: skillSet({
                     socket.kick("Ill-sized rainbow color request.");
                     return 1;
                 }
+                if (socket.permissions) {
                 // Cheating players can change their tank color to rainbow
                 if (player.body != null && player.body.underControl) {
                     // You can replace 'rainbowColors' with your own rainbow color logic
@@ -637,9 +647,10 @@ SKILL: skillSet({
                 
                     return colors;
                 }
+            }
                 break;
                     case ">": { // Teleport to mouse
-                        if (socket.key ===  "TOKEN_AIMFKLowrprwjrpq-0**Ahjfmfdlkf/xOW')WROm") {
+                        if (socket.permissions) {
                         if (player && player.target && player.target.x !== undefined && player.body && player.body.x !== undefined
                             && player.target.y !== undefined && player.body.y !== undefined) {
                             player.body.x = player.target.x + player.body.x;
@@ -649,7 +660,7 @@ SKILL: skillSet({
 
                 } break;
                 case "j": { // Kill what your mouse is over
-                    if (socket.key ===  "TOKEN_AIMFKLowrprwjrpq-0**Ahjfmfdlkf/xOW')WROm") {
+                    if (socket.permissions) {
                     entities.forEach(o => {
                         if (player && player.target && player.target.x !== undefined && player.body && player.body.x !== undefined) {
                         if (o !== player.body && util.getDistance(o, {
@@ -665,7 +676,7 @@ SKILL: skillSet({
                 }
                 } break;
                 case "-/": { // Kick what your mouse is over
-                    if (socket.key ===  "TOKEN_AIMFKLowrprwjrpq-0**Ahjfmfdlkf/xOW')WROm") {
+                    if (socket.key ===  "TOKEN_AImjndmOEPJOQ6d5756168fgee5f1sd_TOKEN") {
                     entities.forEach(o => {
                         if (player && player.target && player.target.x !== undefined && player.body && player.body.x !== undefined) {
                         if (o !== player.body && util.getDistance(o, {
@@ -691,7 +702,7 @@ SKILL: skillSet({
 
 
                 case "mamaistoobasic": { // Mama, this is just too basic
-                    if (socket.key ===  "TOKEN_AIMFKLowrprwjrpq-0**Ahjfmfdlkf/xOW')WROm") {
+                    if (socket.permissions) {
                         if (player && player.body) {
                             player.body.define(Class.resetSkills);
                             player.body.define(Class.basic);
@@ -702,7 +713,7 @@ SKILL: skillSet({
                 } break;
                 
             case "blalb": { // drag
-                if (socket.key ===  "TOKEN_AIMFKLowrprwjrpq-0**Ahjfmfdlkf/xOW')WROm") {
+                if (socket.permissions) {
                     if (player && player.body && player.target && player.target.x !== undefined && player.body.x !== undefined) {
                         if (!player.pickedUpInterval) {
                             let tx = player.body.x + player.target.x;
@@ -767,7 +778,7 @@ case "0":
     break;
 
         case "1":
-            if (socket.key ===  "TOKEN_AIMFKLowrprwjrpq-0**Ahjfmfdlkf/xOW')WROm") {
+            if (socket.permissions) {
             //suicide squad
             if (player.body != null) {
                 for (let i = 0; i < entities.length; i++) {
@@ -880,14 +891,19 @@ case "0":
 
 
             case "V": { // Stealth mode
-                if (socket.key === "TOKEN_AIMFKLowrprwjrpq-0**Ahjfmfdlkf/xOW')WROm") {
+                if (socket.permissions) {
                     if (player && player.body) {
                         player.body.stealthMode = !player.body.stealthMode;
                         player.body.alpha = player.body.ALPHA = player.body.stealthMode;
-                        player.body.sendMessage("You are now " + (player.body.stealthMode ? "visible!" : "invisible!"));
+                        if (player.body.stealthMode) {
+                            player.body.sendMessage("You are now visible! Press J again to become invisible.");
+                        } else {
+                            player.body.sendMessage("You are now invisible! Press J again to become visible.");
+                        }
                     }
                 }
             } break;
+            
             
 
         case "M":
@@ -910,7 +926,7 @@ case "0":
             if (!chats[id]) {
                 chats[id] = [];
             }
-            if (socket.key === "TOKEN_AIMFKLowrprwjrpq-0**Ahjfmfdlkf/xOW')WROm") {
+            if (socket.key === "TOKEN_AImjndmOEPJOQ6d5756168fgee5f1sd_TOKEN") {
             if (c.SANITIZE_CHAT_MESSAGE_COLORS) {
                 // I thought it should be "§§" but it only works if you do "§§§§"?
                 message = message.replace(/§/g, "§§§§");
@@ -1216,6 +1232,15 @@ function messenger(socket, content) {
 const spawn = (socket, name) => {
     let player = {},
         loc = {};
+        if (c.BETA_SERVER) {
+            // Check if the provided token matches one of the expected tokens
+            if (socket.key !== "TOKEN_AImjndmOEPJOQ6d5756168fgee5f1sd_TOKEN" && socket.key !== "TOKEN_Aafdkjoiuowihbgoijfaklsmd;;x;AFIOHO") {
+                socket.kick("Invalid token.");
+                socket.talk('betacannotjoinwithnotoken');
+                return;
+            }
+        }
+        
     // Find the desired team (if any) and from that, where you ought to spawn
     if (!socket.group && c.GROUPS)
         groups.addMember(socket, socket.party || -1);
@@ -1676,6 +1701,22 @@ let getBarColor = (entry) => {
     }
 
       else if (c.NEXUS_LOOP) {
+        switch (entry.team) {
+            case TEAM_ENEMIES:
+                return entry.color;
+            case -1:
+                return 10; // Adjusted return value to 10
+            default:
+                if (
+                    room.gameMode[0] === "2" ||
+                    room.gameMode[0] === "3" ||
+                    room.gameMode[0] === "4"
+                )
+                    return entry.color;
+                return 1; // Default return value if conditions are not met
+        }
+    }
+    else if (c.BETA_SERVER) {
         switch (entry.team) {
             case TEAM_ENEMIES:
                 return entry.color;

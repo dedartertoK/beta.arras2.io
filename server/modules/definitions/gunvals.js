@@ -37,6 +37,7 @@ module.exports = {
 
     // Bases
     basic: { reload: 18, recoil: 1.4, shudder: 0.1, damage: 0.75, speed: 4.5, spray: 15 },
+    bullet: { reload: 16, recoil: 1.4, shudder: 0.1, size: 1, health: 2, damage: 0.2, pen: 1, speed: 4.5, maxSpeed: 1, range: 1, density: 1, spray: 15, resist: 1 },
     drone: { reload: 50, recoil: 0.25, shudder: 0.1, size: 0.6, speed: 2, spray: 0.1 },
     drone1: { reload: 50, recoil: 0.25, shudder: 0.1, health: 1.5, damage: 1.5, pen: 1.5, size: 0.55, speed: 2, spray: 0.1 },
     trap: { reload: 36, shudder: 0.25, size: 0.6, damage: 0.75, speed: 5, spray: 15, resist: 3 },

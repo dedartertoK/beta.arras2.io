@@ -22,7 +22,7 @@ global.locked = false;
 global.diedbyac = false;
 global.gameWon = false;
 global.gameLost = false;
-
+global.nobtforyou = false;
 global.destroyedsanctuarybruh = false;
 global.allthesanctuarieskilled = false;
 global.fps = "Unknown";

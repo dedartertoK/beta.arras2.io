@@ -57,33 +57,11 @@
 
 #mainBody {
   background-image: url(NOCAP.jpg);
-  background-size: 110% 110%; /* Adjust the zoom level as needed */
-  -webkit-animation: AnimationName 1.5s ease infinite;
-  -moz-animation: AnimationName 1.5s ease infinite;
-  -o-animation: AnimationName 1.5s ease infinite;
-  animation: AnimationName 1.5s ease infinite;
+  background-size: cover;
+
 }
 
-@-webkit-keyframes AnimationName {
-  0%{background-position:20% 20%}
-  50%{background-position:100% 100%}
-  100%{background-position:20% 20%}
-}
-@-moz-keyframes AnimationName {
-  0%{background-position:20% 20%}
-  50%{background-position:100% 100%}
-  100%{background-position:20% 20%}
-}
-@-o-keyframes AnimationName {
-  0%{background-position:20% 20%}
-  50%{background-position:100% 100%}
-  100%{background-position:20% 20%}
-}
-@keyframes AnimationName {
-  0%{background-position:20% 20%}
-  50%{background-position:100% 100%}
-  100%{background-position:20% 20%}
-}
+
 ::-webkit-scrollbar {
   width: 6px;
   height: 0;
@@ -110,10 +88,7 @@ body {
   user-select: none;
 
   /* Apply animation to body */
-  -webkit-animation: AnimationName 1s ease infinite;
-  -moz-animation: AnimationName 1s ease infinite;
-  -o-animation: AnimationName 1s ease infinite;
-  animation: AnimationName 1s ease infinite;
+
 }
 
 
@@ -164,6 +139,7 @@ h3 {
   color: #484848;
   font-style: italic;
   text-align: center;
+  padding-bottom: 5px;
 }
 
 h4 {
@@ -224,11 +200,13 @@ input.checkbox {
 
 #playerNameInput {
   padding: 10px;
+
   font-size: large;
 }
 
 #playerKeyInput {
   padding: 3px;
+
   color: gray;
 }
 

@@ -891,8 +891,9 @@ class io_jump extends IO {
     }
 
     think(input) {
-        if (input.jump || (input.alt && input.target)) {
+        if (this.jump || (input.alt && input.target)) {
             if (!this.cooldown && input.target.x !== undefined && input.target.y !== undefined) {
+
                 this.body.x = input.target.x + this.body.x;
                 this.body.y = input.target.y + this.body.y;
                 this.cooldown = true; // Start cooldown
@@ -906,6 +907,7 @@ class io_jump extends IO {
                 this.body.target.y = null;
             }
         }
+        
     }
 }
 
