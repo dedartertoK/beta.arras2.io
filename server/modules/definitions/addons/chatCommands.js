@@ -774,10 +774,6 @@ module.exports = ({ Config, Events }) => {
 		entity.health.amount = entity.health.max;
 		entity.shield.amount = entity.shield.max;
 		command.send('Succesfully healed your HP.')
-		if (entity.health.max) {
-			command.send('Cannot heal your HP. Reason: Full HP.')
-			return;
-		}
 	});
 
 	commands.add('me', [1, 100], { doc: 'Send message to entity\nDoc: /me WHO MESSAGE' }, ({ args, command }) => {
