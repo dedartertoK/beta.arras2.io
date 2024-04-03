@@ -183,10 +183,6 @@ animation:  colorTransition 0.5s infinite alternate;
     <h1><a class="d-day" href="/loading">MOTHERSHIP</a></h1>
     <h1><a class="d-day" href="/loading">DOMINATION</a></h1>
     <h1><a class="d-day" href="/loading">CLOSED BETA (Only for beta-testers)</a></h1>
-    <h1><a>ㅤ</a></h1>
-    <h1><a>ㅤ</a></h1>
-    <h1><a>ㅤ</a></h1>
-    <h1><a>ㅤ</a></h1>
     <a class="redirect1">If nothing happens when clicking the gamemode, wait a few seconds.</a>
 </body>
 </html>
