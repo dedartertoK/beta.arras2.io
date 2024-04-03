@@ -265,7 +265,6 @@ const gameloop = () => {
     }
 };
 
-setTimeout(closeArena, 60000 * 120); // Restart every 2 hours
 
 function placeRoids() {
     function placeRoid(type, entityClass) {
