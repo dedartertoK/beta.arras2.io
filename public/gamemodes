@@ -168,7 +168,7 @@ animation:  colorTransition 0.5s infinite alternate;
 </head>
 <body oncontextmenu="return event.target.tagName === 'A'">
     <a class="redirect">Select Gamemode:</a>
-    <h1><a class="d-day" href="/loading">D-DAY</a></h1>
+    <h1><a class="d-day" href="/dday.arras2.io">D-DAY</a></h1>
     <h1><a class="d-day" href="https://beta.arras2.io">BOSS RUSH</a></h1>
     <h1><a class="d-day" href="/loading">MOTHERSHIP</a></h1>
     <h1><a class="d-day" href="/loading">DOMINATION</a></h1>
