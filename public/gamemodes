@@ -183,6 +183,6 @@ animation:  colorTransition 0.5s infinite alternate;
     <h1><a class="d-day" href="https://mothership.arras2.io">MOTHERSHIP</a></h1>
     <h1><a class="d-day" href="https://domination.arras2.io">DOMINATION</a></h1>
     <h1><a class="d-day" href="https://closed.arras2.io">CLOSED BETA (Required permissions)</a></h1>
-    <a class="redirect1">If nothing happens when clicking the gamemode, wait a few seconds.</a>
+    <h1><a class="d-day" href="https://hideandseek.arras2.io">HIDE AND SEEK</a></h1>
 </body>
 </html>
