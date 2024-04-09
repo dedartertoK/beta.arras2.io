@@ -14,7 +14,7 @@
     "ws": "^8.14.2"
   },
   "engines": {
-    "node": "16.x"
+    "node": "20.x"
   },
   "license": "GPL-3.0"
 }
