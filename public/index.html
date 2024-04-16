@@ -1,80 +1,138 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
     <!-- Meta Properties -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description"
-        content="Arras2.io is a fan-made sequel of arras.io. Escape from attackers and shoot everyone while staying alive!">
-    <meta property="og:image"
-        content="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
+    <meta name="description" content="Arras2.io is a fan-made sequel of arras.io. Escape from attackers and shoot everyone while staying alive!">
+    <meta property="og:image" content="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
+    <!-- ... (other meta tags) ... -->
     <title>Arras2.io</title>
     <!-- CSS -->
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
     <link rel="stylesheet" href="/main.css">
-    <link rel="icon" type="image/png" sizes="16x16 32x32 64x64 128x128 256x256"
-        href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
+   <link rel="icon" type="image/png" sizes="16x16 32x32 64x64 128x128 256x256" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
+
     <style>
         body {
-            background-color: #000000;
-        }
+            text-align: center;
+            font-family: Ubuntu;
+            font-size: 14px;
+            background-image: url(NOCAP.jpg);
+            background-position: center;
+            background-size: cover;
 
-        #canvas {
-            border: 0;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
         }
-
         #loading {
             color: #FFFFFF;
-            position: absolute;
+            position: fixed;
             top: 50%;
+            background-color: #000000;
             left: 50%;
             transform: translate(-50%, -50%);
             font-size: 48pt;
             font-family: sans-serif;
             font-weight: bold;
             cursor: default;
-            animation: fadeIn 1s forwards;
-
+            z-index: 9999;
+        }
+        .icon {
+            display: block;
+            margin: 0 auto;
+            margin-top: 200px;
+            max-width: 100%;
+            height: auto;
         }
 
-        #canvas {
-            position: absolute;
+        h1 {
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            font: bold 70px/1.5 Ubuntu;
+        }
+
+        .textinthebeggining {
+            font-size: 50px;
+            text-align: center;
+            color: white;
+            font-family: 'Press Start 2P', cursive;
+        }
+
+        .credits {
+            font-size: 20px;
+            text-align: center;
+            color: white;
+            font-family: 'Press Start 2P', cursive;
+        }
+
+        .black-screen {
+            position: fixed;
             top: 0;
             left: 0;
-            right: 0;
-            bottom: 0;
             width: 100%;
             height: 100%;
-            cursor: default;
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* Align items to the top */
+            align-items: center;
+            z-index: 9999;
+            animation: fadeOut 1s 2s forwards;
+        }
+        .d-day {
+
+text-decoration: none;
+font-size: 30px;
+color: black;
+font-family: 'Press Start 2P', cursive;
+opacity: 1; /* Initial opacity */
+transition: color 0.5s; /* Add transition property for opacity and color change */
+animation:  colorTransition 0.5s infinite alternate; 
+}
+.d-day:hover {
+    cursor: pointer;
+            opacity: 0.5; /* Change opacity on hover */
         }
 
-        #textInputContainer {
-            display: none;
-            position: absolute;
+        .d-day.clicked {
+            color: grey; /* Change color when the link is active (clicked) */
+            opacity: 1; /* Reset opacity after color change */
+        }
+        .redirect {
+            text-decoration: none;
+            font-size: 30px;
+            color: black;
+            font-family: 'Press Start 2P', cursive;
+            opacity: 1; /* Initial opacity */
+            transition: color 0.5s; /* Add transition property for opacity and color change */
+            animation:  colorTransition 0.5s infinite alternate; 
+        }
+.color-transition {
+    animation:  color-Transition 0.6s infinite alternate; 
+    transition: color 0.6s; /* Add transition property for opacity and color change */
+    opacity: 1; /* Initial opacity */
+}
+
+        .redirect:hover {
+            opacity: 0.5; /* Change opacity on hover */
+            
         }
 
-        #textInput {
-            background-color: transparent;
-            font-family: "Ubuntu";
-            padding: 0;
-            border: 0;
-            outline: none;
+        .redirect.clicked {
+            color: grey; /* Change color when the link is active (clicked) */
+            opacity: 1; /* Reset opacity after color change */
         }
-        
+
         @keyframes fadeInOut {
             from {
-                opacity: 0;
-            }
-            to {
                 opacity: 1;
             }
+            to {
+                opacity: 0.5;
+            }
         }
+
         @keyframes fadeIn {
             0% {
                 opacity: 0;
@@ -84,10 +142,35 @@
             }
         }
 
-        @keyframes pfpDefault { 
-            /* ... (existing keyframes) ... */
+        @keyframes fadeOut {
+            from {
+                opacity: 1;
+            }
+            to {
+                opacity: 0;
+            }
         }
 
+@keyframes fade-up-no-up {
+  0% {
+    opacity: 0;
+      transform: translate(-50%, -50%) translateY(0px) scale(0.9);
+  }
+    100% {
+    opacity: 1;
+      transform: translate(-50%, -50%) translateY(0px) scale(1);
+  }
+}
+@keyframes fade-up-in-no-up {
+  0% {
+    opacity: 0;
+      transform: translate(0%, 0%) translateY(0px) scale(0.9);
+  }
+    100% {
+    opacity: 1;
+      transform: translate(0%, 0%) translateY(0px) scale(1);
+  }
+}
         @keyframes colorTransition {
             from {
                 color: black;
@@ -104,34 +187,245 @@
                 color: rgb(0, 255, 64);
             }
         }
+        
+        .links-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 40px; /* Gap between links */
+            margin-top: 20px; /* Space above the links */
+        }
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            z-index: 1000;
+        }
+
+        .modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #23d300;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    overflow-y: auto; /* Add scrollability */
+    max-height: 20vh; /* Set maximum height to 80% of viewport height */
+    animation: fade-up-no-up 0.5s; 
+    border: 5px rgb(108, 255, 108) solid;
+}
+        h2 {
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
+}
+.close-btn {
+    position: absolute;
+    top: 200px;
+    right: 200px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 20%;
+    animation: fade-up-in-no-up 0.5s; 
+}
+.close-btn:hover {
+
+    background-color: rgb(192, 0, 0);
+
+}
+h20 {
+    text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
+    color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  font: bold 70px/1.5 Ubuntu;
+}
+
     </style>
-
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu:700" rel="stylesheet" type="text/css" />
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            var loading = document.getElementById('loading');
-            var loadingTimeout = 3000; // Set the timeout to 3 seconds (adjust as needed)
-
-            // Set the timeout for the specified duration
-            var timeout = setTimeout(function () {
-                loading.innerHTML = "Too long? Refresh the page!";
-            }, loadingTimeout);
-
-            // Redirect to play.html after 2 seconds
-            setTimeout(function () {
-                window.location.href = 'play';
-                clearTimeout(timeout); // Clear the timeout when redirecting
-            }, 2000);
-        });
-    </script>
 </head>
+<body oncontextmenu="return event.target.tagName === 'A'">
+    <div class="black-screen">
+        <a class="textinthebeggining" style="color: white;">Arras2.io</a>
+        <p class="credits">Made by LA3T!</p>
+        <p class="credits">Credit to Æ🚫Ḧ̸́̐ë̴̑l̵̐̋lo?, YanisDiss and TrickyArrasGames.</p>
+    </div>
+    <img width=150 height=150 src="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268" class="icon" alt="arras icon">
+    <h1>Arras<b class="color-transition">2</b>.io</h1>
+    <div class="links-container">
+        <a class="redirect" href="/gamemodes.html">PLAY</a>
+        <a class="d-day" id="changelog-btn">CHANGELOG</a>
+        <a class="d-day" id="about-btn">ABOUT</a>
 
-<body>
-    <span id="loading">Loading...</span>
-    <
-    <canvas id="canvas" width="800" height="800"></canvas>
-    <div style="font-family:'Ubuntu'">&nbsp;</div>
-    <div id="textInputContainer"><input id="textInput"></div>
+    </div>
+    <!-- Modal for Changelog -->
+    <div class="modal" id="changelog-modal">
+        <button class="close-btn">&times;</button> <!-- Close button (X button) -->
+        <div class="modal-content">
+
+            <!-- ... (existing content) ... -->
+            <h20>Changelog</h20>
+            <h2>April 9th 2024 update:</h2>
+            <ul>
+                <li>Moved servers to main arras2.io!</li>
+                <li>Servers are now optimized and much more smooth</li>
+                <li>Client and server are now separated! (Credit to AE HELLO!)</li>
+            </ul>
+            <h2>April 6th 2024 update:</h2>
+            <ul>
+                <li>Added 3 new tanks! Machine Gun MK. II, Flamethrower and Courser!</li>
+                <li>Machine Gun MK. II and Flamethrower are branches from Machine Gun but Courser is branch from Gunner!</li>
+                <li>Added color messages! You can see the color messages from the win screen and arena closed screen</li>
+                <li>Main arras2.io servers got closed and will be reopened in a few days or weeks</li>
+            </ul>
+            <h2>April 5th 2024 update:</h2>
+            <ul>
+                <li>Reworked on Hide and Seek and Boss Rush!</li>
+                <li>On the hide and seek, the seekers already spawn and count to 183</li>
+                Once they finished counting to 183, they'll start eating hiders so make sure you stay alive for 5 minutes!
+                <li>Fixed bosses from boss rush ramming into dominators!</li>
+            </ul>
+            <h2>April 4th 2024 update:</h2>
+            <ul>
+                <li>Added a new event! Hide and Seek</li>
+                <li>On this event, you are a hider and you have to hide from the seeker for 5 minutes!</li>
+                <li>If there are no hiders, your team loses!</li>
+                <li>Improved the client and the performance</li>
+            </ul>
+            <h2>April 3rd 2024 update:</h2>
+            <ul>
+                <li>The gamemode selector has arrived!</li>
+                You can now change gamemode anytimes by just clicking on the switch gamemode button! After some fixes, it will be imported to main arras2.io server!
+                <li>Added closed beta!</li>
+                This gamemode is only for beta tester, you need a token to access to this server. Don't begging for the token.
+            </ul>
+            <h2>April 2nd 2024 update:</h2>
+            <ul>
+                <li>Reopened arras2.io servers!</li>
+                I wanted to add some extra updates like gamemode selector but I didn't have time to finish so I will upload them in the beta.arras2.io in a few days!
+            </ul>
+            <h2>April 1st 2024 update:</h2>
+            <ul>
+                <li>Reworked on the Jump Smasher tank!</li>
+                <li>By right-clicking, you really jump on the way your mouse is</li>
+                There's a cooldown of 3 seconds when you've jumped
+                <li>Fixed some bugs</li>
+                More tanks and gamemodes coming soon!
+            </ul>
+            <h2>March 10th 2024 update:</h2>
+            <ul>
+                <li>This is an announcement</li>
+                <li>There will be no updates till 2nd April due to credits</li>
+                You can still play the game but there won't be any updates until April
+                <li>I planned many things for the next update and this is gonna be a big update!</li>
+                The updates will be applied at 3 pm UTC-4 
+            </ul>
+            <h2>March 7th 2024 update:</h2>
+            <ul>
+                <li>Disabled the ability to play as red team in D-Day</li>
+                <li>The reason is because the game is very unpopular</li>
+                <li>When there will be many players, red team will be playable again</li>
+            </ul>
+            <h2>March 6th 2024 update:</h2>
+            <ul>
+                <li>The ban update has been canceled due to problems</li>
+                <li>It will be coming soon!</li>
+            </ul>
+            <h2>March 5th 2024 update:</h2>
+            <ul>
+                <li>Reworked on Boss Rush and Mothership!</li>
+                <li>On Boss Rush, blue has to defend their 9 sanctuaries from the bosses</li>
+                <li>Fixed some leaderboard color issues</li>
+            </ul>
+            <h2>March 4th 2024 update:</h2>
+            <ul>
+                <li>Added a new gamemode called Boss Rush!</li>
+                <li>Just like siege, blue team has to protect 9 of their sanctuaries from the bosses.</li>
+            </ul>
+            <h2>March 3rd 2024 update:</h2>
+            <ul>
+                <li>Fixed the glitch that was making the health bars and messages not following the player.</li>
+                <li>Some files have been obfuscated so that nobody can steal the source code of this game.</li>
+                <li>Mobile support coming soon!</li>
+            </ul>
+            <h2>March 2nd 2024 update:</h2>
+            <ul>
+                <li>Added a new gamemode called Mothership! Also added a new map called D-Day Bastron!</li>
+            </ul>
+            <h2>February 29th 2024 update:</h2>
+            <ul>
+                <li>Fixed the glitch that was crashing D-Day server.</li>
+            </ul>
+            <h2>February 28th 2024 update:</h2>
+            <ul>
+                <li>Added a gamemode randomizer! Now everytimes the server closes, it changes gamemode</li>
+                More gamemodes coming soon!
+            </ul>
+            <h2>February 25th 2024 update:</h2>
+            <ul>
+                <li>Fixed the auto-turret that was shooting from the dominator.</li>
+
+            </ul>
+        </div>
+        
+    </div>
+<!-- Modal for About -->
+<div class="modal" id="about-modal">
+    <button class="close-btn">&times;</button> <!-- Close button (X button) -->
+    <div class="modal-content">
+        <h20>About Arras2.io</h20>
+        <ul>Arras2.io is a fan-made sequel of arras.io. Escape from attackers and shoot everyone while staying alive!</ul>
+        <ul>For any problems, contact the developer LA3T on discord at LA3T#4868.</ul>
+    </div>
+</div>
+
+    <script>
+       // Existing JavaScript code
+window.onload = function () {
+    var blackScreen = document.querySelector('.black-screen');
+    var changelogBtn = document.getElementById('changelog-btn');
+    var changelogModal = document.getElementById('changelog-modal');
+    var aboutBtn = document.getElementById('about-btn'); // New About button
+    var aboutModal = document.getElementById('about-modal'); // New About modal
+    var closeBtn = document.querySelectorAll('.close-btn'); // Close buttons
+
+    // Remove the black screen after the fadeOut animation
+    blackScreen.addEventListener('animationend', function () {
+        blackScreen.style.display = 'none';
+    });
+
+    // Show/hide changelog modal
+    changelogBtn.addEventListener('click', function () {
+        changelogModal.style.display = 'block';
+    });
+
+    // Show/hide about modal
+    aboutBtn.addEventListener('click', function () {
+        aboutModal.style.display = 'block';
+    });
+
+    // Close modals when close button is clicked
+    closeBtn.forEach(function(btn) {
+        btn.addEventListener('click', function () {
+            changelogModal.style.display = 'none';
+            aboutModal.style.display = 'none';
+        });
+    });
+};
+
+    </script>
+    
+    
 </body>
-
 </html>

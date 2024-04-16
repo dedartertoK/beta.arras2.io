@@ -117,12 +117,7 @@ canvas {
   font-weight: bolder;
 }
 
-h2 {
-  font-size: small;
-  color: #000000;
-  font-weight: bold;
-  text-align: center;
-}
+
 
 options_header {
   padding: 0;
@@ -139,7 +134,7 @@ h3 {
   color: #484848;
   font-style: italic;
   text-align: center;
-margin-top: 5px;
+  padding-bottom: 5px;
 }
 
 h4 {
@@ -170,6 +165,9 @@ a:hover {
 ul {
   padding-left: 15px;
   margin-left: 10px;
+  font-size: 20px;
+  text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
+  color: #ffffff;
 }
 
 input {
@@ -199,14 +197,14 @@ input.checkbox {
 }
 
 #playerNameInput {
-  padding: 8px;
+  padding: 10px;
 
   font-size: large;
 }
 
 #playerKeyInput {
   padding: 3px;
-margin-top: -50px;
+
   color: gray;
 }
 
@@ -740,7 +738,7 @@ a.link {
 
 .nopadding {
   padding: 0;
-  margin: -10px;
+  margin: 0;
 }
 
 #startMenu ul {
