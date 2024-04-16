@@ -1,1 +1,1138 @@
-const _0x2d84cc=_0x557b;(function(_0x54384a,_0x14ebe3){const _0x302f87=_0x557b,_0x34d407=_0x54384a();while(!![]){try{const _0x183767=parseInt(_0x302f87(0x18c))/0x1*(-parseInt(_0x302f87(0xf4))/0x2)+parseInt(_0x302f87(0x162))/0x3*(parseInt(_0x302f87(0x120))/0x4)+-parseInt(_0x302f87(0x1ad))/0x5*(parseInt(_0x302f87(0x199))/0x6)+parseInt(_0x302f87(0x184))/0x7+parseInt(_0x302f87(0x1b3))/0x8*(-parseInt(_0x302f87(0x192))/0x9)+-parseInt(_0x302f87(0x136))/0xa+-parseInt(_0x302f87(0x119))/0xb*(-parseInt(_0x302f87(0x144))/0xc);if(_0x183767===_0x14ebe3)break;else _0x34d407['push'](_0x34d407['shift']());}catch(_0x180f3f){_0x34d407['push'](_0x34d407['shift']());}}}(_0xd087,0x979fb));import{global}from'./global.js';import{util}from'./util.js';import{config}from'./config.js';import{protocol}from'./protocol.js';window['fakeLagMS']=0x0;var sync=[],clockDiff=0x0;let truscore=0x0,levelscore=0x0,deduction=0x0,level=0x0,sscore=util[_0x2d84cc(0x188)](0x0,0xa);var serverStart=0x0,gui={'getStatNames':_0x5349bd=>{const _0x54b24d=_0x2d84cc;return[_0x5349bd?.[_0x54b24d(0x1a1)]??_0x54b24d(0x112),_0x5349bd?.[_0x54b24d(0xe7)]??_0x54b24d(0x142),_0x5349bd?.[_0x54b24d(0x14f)]??_0x54b24d(0x195),_0x5349bd?.[_0x54b24d(0x138)]??'Bullet\x20Health',_0x5349bd?.[_0x54b24d(0x128)]??'Bullet\x20Penetration',_0x5349bd?.[_0x54b24d(0x1c3)]??_0x54b24d(0xfc),_0x5349bd?.[_0x54b24d(0x13e)]??_0x54b24d(0x121),_0x5349bd?.[_0x54b24d(0x197)]??_0x54b24d(0x12d),_0x5349bd?.[_0x54b24d(0x154)]??'Shield\x20Regeneration',_0x5349bd?.[_0x54b24d(0x1b9)]??'Shield\x20Capacity'];},'skills':[{'amount':0x0,'color':_0x2d84cc(0x1ce),'cap':0x1,'softcap':0x1},{'amount':0x0,'color':_0x2d84cc(0x103),'cap':0x1,'softcap':0x1},{'amount':0x0,'color':_0x2d84cc(0x12b),'cap':0x1,'softcap':0x1},{'amount':0x0,'color':_0x2d84cc(0x1aa),'cap':0x1,'softcap':0x1},{'amount':0x0,'color':_0x2d84cc(0xe0),'cap':0x1,'softcap':0x1},{'amount':0x0,'color':_0x2d84cc(0x157),'cap':0x1,'softcap':0x1},{'amount':0x0,'color':'green','cap':0x1,'softcap':0x1},{'amount':0x0,'color':_0x2d84cc(0x14d),'cap':0x1,'softcap':0x1},{'amount':0x0,'color':_0x2d84cc(0x1ae),'cap':0x1,'softcap':0x1},{'amount':0x0,'color':_0x2d84cc(0x114),'cap':0x1,'softcap':0x1}],'points':0x0,'upgrades':[],'playerid':-0x1,'__s':{'setScore':_0x103856=>{const _0x1ae814=_0x2d84cc;_0x103856?(sscore[_0x1ae814(0x163)](_0x103856),deduction>sscore[_0x1ae814(0x1ac)]()&&(level=0x0,deduction=0x0)):(sscore=util[_0x1ae814(0x188)](0x0,0xa),level=0x0);},'update':()=>{const _0x8e351f=_0x2d84cc;levelscore=Math[_0x8e351f(0x10e)](1.8*Math[_0x8e351f(0x1a4)](level+0x1,1.8)-0x2*level+0x1),sscore[_0x8e351f(0x1ac)]()-deduction>=levelscore-0.001&&(deduction+=levelscore,level+=0x1);},'getProgress':()=>levelscore?Math[_0x2d84cc(0xe1)](0x1,Math[_0x2d84cc(0x172)](0x0,(sscore[_0x2d84cc(0x1ac)]()-deduction)/levelscore)):0x0,'getScore':()=>sscore['get'](),'getLevel':()=>level},'type':0x0,'root':'','class':'','fps':0x0,'color':0x0,'accel':0x0,'topspeed':0x1};let xx=0x0,yy=0x0,_vx=0x0,_vy=0x0;var moveCompensation={'reset':()=>{xx=0x0,yy=0x0;},'get':()=>{const _0xf371c8=_0x2d84cc;if(config[_0xf371c8(0x177)]['unresponsive'])return{'x':0x0,'y':0x0};return{'x':xx,'y':yy};},'iterate':_0x245f1b=>{const _0x2bcb00=_0x2d84cc;if(global['died']||global[_0x2bcb00(0x1bc)])return 0x0;let _0x3f08d6=gui['accel']/gui[_0x2bcb00(0x1b6)],_0xb5e18b=Math[_0x2bcb00(0x19f)](_0x245f1b['x']*_0x245f1b['x']+_0x245f1b['y']*_0x245f1b['y']);_vx+=gui[_0x2bcb00(0x160)]*_0x245f1b['x']/_0xb5e18b,_vy+=gui[_0x2bcb00(0x160)]*_0x245f1b['y']/_0xb5e18b;let _0x2f57d0=Math[_0x2bcb00(0x19f)](_vx*_vx+_vy*_vy);if(_0x2f57d0>0x0&&_0x3f08d6){let _0x8c3f6e=_0x2f57d0/(_0x3f08d6/config[_0x2bcb00(0x14a)]+0x1);_vx=_0x8c3f6e*_vx/_0x2f57d0,_vy=_0x8c3f6e*_vy/_0x2f57d0;}xx+=_vx,yy+=_vy;}};const Integrate=class{constructor(_0x3871a4){const _0x43b159=_0x2d84cc;this['dataLength']=_0x3871a4,this[_0x43b159(0x124)]={};}[_0x2d84cc(0x169)](){const _0x3c5fef=_0x2d84cc;this[_0x3c5fef(0x124)]={};}[_0x2d84cc(0x153)](_0x2ae319,_0x37a83c=0x0){const _0x889dfe=_0x2d84cc;let _0x5091e1=_0x2ae319[_0x37a83c++];for(let _0x11423d=0x0;_0x11423d<_0x5091e1;_0x11423d++)delete this[_0x889dfe(0x124)][_0x2ae319[_0x37a83c++]];let _0x2532fb=_0x2ae319[_0x37a83c++];for(let _0x4d1ba6=0x0;_0x4d1ba6<_0x2532fb;_0x4d1ba6++){let _0x5e7444=_0x2ae319[_0x37a83c++],_0x5645a1=_0x2ae319['slice'](_0x37a83c,_0x37a83c+this[_0x889dfe(0x143)]);_0x37a83c+=this['dataLength'],this[_0x889dfe(0x124)][_0x5e7444]=_0x5645a1;}return _0x37a83c;}[_0x2d84cc(0x1bb)](){const _0x10a993=_0x2d84cc;return Object['entries'](this[_0x10a993(0x124)])[_0x10a993(0x117)](([_0x510ead,_0x5c3782])=>({'id':+_0x510ead,'data':_0x5c3782}));}},Minimap=class{constructor(_0x1cf677=0xfa){const _0x12b8d2=_0x2d84cc;this[_0x12b8d2(0x1c0)]=_0x1cf677,this[_0x12b8d2(0x117)]={},this[_0x12b8d2(0x17d)]=Date['now']();}[_0x2d84cc(0x153)](_0x3d10b6){const _0x12c9fc=_0x2d84cc;this[_0x12c9fc(0x17d)]=Date[_0x12c9fc(0x111)]();for(let [_0x393802,_0x5a048e]of Object[_0x12c9fc(0x1bb)](this[_0x12c9fc(0x117)]))_0x5a048e[_0x12c9fc(0x111)]?(_0x5a048e['old']=_0x5a048e[_0x12c9fc(0x111)],_0x5a048e['now']=null):delete this[_0x12c9fc(0x117)][_0x393802];for(let _0x311966 of _0x3d10b6)this[_0x12c9fc(0x117)][_0x311966['id']]?this[_0x12c9fc(0x117)][_0x311966['id']]['now']=_0x311966:this[_0x12c9fc(0x117)][_0x311966['id']]={'old':null,'now':_0x311966};}[_0x2d84cc(0x1ac)](){const _0x5b432c=_0x2d84cc;let _0x2f8973=Math[_0x5b432c(0xe1)](0x1,(Date['now']()-this[_0x5b432c(0x17d)])/this[_0x5b432c(0x1c0)]),_0x2079b4=0x1-_0x2f8973;return Object['values'](this[_0x5b432c(0x117)])['map'](({old:_0x48677b,now:_0x66f734})=>{const _0x588960=_0x5b432c;if(!_0x66f734)return{'type':_0x48677b[_0x588960(0xfa)],'id':_0x48677b['id'],'x':_0x48677b['x'],'y':_0x48677b['y'],'color':_0x48677b['color'],'size':_0x48677b['size'],'alpha':_0x2079b4,'width':_0x48677b[_0x588960(0x1c2)],'height':_0x48677b['height']};if(!_0x48677b)return{'type':_0x66f734[_0x588960(0xfa)],'id':_0x66f734['id'],'x':_0x66f734['x'],'y':_0x66f734['y'],'color':_0x66f734['color'],'size':_0x66f734[_0x588960(0x146)],'alpha':_0x2f8973,'width':_0x66f734[_0x588960(0x1c2)],'height':_0x66f734[_0x588960(0x16f)]};return{'type':_0x66f734[_0x588960(0xfa)],'id':_0x66f734['id'],'x':_0x2f8973*_0x66f734['x']+_0x2079b4*_0x48677b['x'],'y':_0x2f8973*_0x66f734['y']+_0x2079b4*_0x48677b['y'],'color':_0x66f734[_0x588960(0x18d)],'size':_0x2f8973*_0x66f734[_0x588960(0x146)]+_0x2079b4*_0x48677b[_0x588960(0x146)],'alpha':0x1,'width':_0x2f8973*_0x66f734['width']+_0x2079b4*_0x48677b[_0x588960(0x1c2)],'height':_0x2f8973*_0x66f734[_0x588960(0x16f)]+_0x2079b4*_0x48677b[_0x588960(0x16f)]};});}},Entry=class{constructor(_0x1a27b6){const _0x31748c=_0x2d84cc;this[_0x31748c(0xfd)]=util['Smoothbar'](0x0,0xa,0x3,0.03),this[_0x31748c(0x153)](_0x1a27b6);}[_0x2d84cc(0x153)](_0x34ec45){const _0x1e2a3f=_0x2d84cc;this[_0x1e2a3f(0x166)]=_0x34ec45['name'],this['bar']=_0x34ec45[_0x1e2a3f(0x17c)];if(typeof _0x34ec45[_0x1e2a3f(0x17c)]===_0x1e2a3f(0x13d)&&_0x34ec45[_0x1e2a3f(0x17c)][_0x1e2a3f(0x1d1)](',\x20'))this[_0x1e2a3f(0x17c)]=+_0x34ec45[_0x1e2a3f(0x17c)][_0x1e2a3f(0x156)](',\x20')[0x0];this['color']=_0x34ec45[_0x1e2a3f(0x18d)],this['index']=_0x34ec45[_0x1e2a3f(0x179)],this['score'][_0x1e2a3f(0x163)](_0x34ec45[_0x1e2a3f(0xfd)]),this[_0x1e2a3f(0xdb)]=![],this[_0x1e2a3f(0x1b2)]=_0x34ec45['nameColor'],this['id']=_0x34ec45['id'],this['label']=_0x34ec45[_0x1e2a3f(0x122)];}[_0x2d84cc(0x168)](){const _0x3aa94f=_0x2d84cc;let _0x5aca29=this['index']['split']('-'),_0xf1f42=global[_0x3aa94f(0x115)][parseInt(_0x5aca29[0x0])];return{'image':util[_0x3aa94f(0xef)](this[_0x3aa94f(0x179)],this[_0x3aa94f(0x18d)]),'position':_0xf1f42[_0x3aa94f(0x151)],'barColor':this[_0x3aa94f(0x17c)],'label':this[_0x3aa94f(0x166)]?this['name']+_0x3aa94f(0x10f)+this['label']:this[_0x3aa94f(0x122)],'score':this[_0x3aa94f(0xfd)][_0x3aa94f(0x1ac)](),'nameColor':this[_0x3aa94f(0x1b2)]};}},Leaderboard=class{constructor(){const _0x572e8d=_0x2d84cc;this[_0x572e8d(0x1bb)]={};}['get'](){const _0x1b19c5=_0x2d84cc;let _0x12d829=[],_0x5704ac=0x1;for(let _0x52c53b of Object['values'](this[_0x1b19c5(0x1bb)])){let _0xbc8ad6=_0x52c53b[_0x1b19c5(0x168)]();_0x12d829[_0x1b19c5(0x190)](_0xbc8ad6);if(_0xbc8ad6[_0x1b19c5(0xfd)]>_0x5704ac)_0x5704ac=_0xbc8ad6[_0x1b19c5(0xfd)];}return _0x12d829[_0x1b19c5(0x171)]((_0x70090e,_0x481427)=>_0x481427[_0x1b19c5(0xfd)]-_0x70090e[_0x1b19c5(0xfd)]),{'data':_0x12d829,'max':_0x5704ac};}[_0x2d84cc(0x153)](_0x539b28){const _0x3e2a97=_0x2d84cc;_0x539b28['sort']((_0xfb1166,_0xa7316c)=>_0xa7316c[_0x3e2a97(0xfd)]-_0xfb1166[_0x3e2a97(0xfd)]);for(let _0x4b7316 of Object['values'](this['entries']))_0x4b7316['old']=!![];for(let _0x16909d of _0x539b28)if(this['entries'][_0x16909d['id']])this[_0x3e2a97(0x1bb)][_0x16909d['id']][_0x3e2a97(0x153)](_0x16909d);else this[_0x3e2a97(0x1bb)][_0x16909d['id']]=new Entry(_0x16909d);for(let [_0x5910f2,_0x467651]of Object['entries'](this['entries']))if(_0x467651[_0x3e2a97(0xdb)])delete this[_0x3e2a97(0x1bb)][_0x5910f2];}};let minimapAllInt=new Integrate(0x5),minimapTeamInt=new Integrate(0x3),leaderboardInt=new Integrate(0x7),leaderboard=new Leaderboard(),minimap=new Minimap(0xc8),lags=[];function _0xd087(){const _0x558e96=['getEntityImageFromMockup','rendery','add','isUpdated','LONGSUSSYCHANGE','6ympDbj','kicked\x20for\x20using\x20a\x20long\x20name','sizeFactor','Arena\x20is\x20closed.\x20You\x20can\x20wait\x20until\x20the\x20server\x20restarts\x20or\x20try\x20another\x20server.','Mismatch\x20between\x20data\x20gun\x20number\x20and\x20remembered\x20gun\x20number!','playerid','type','badname','Bullet\x20Damage','score','You\x20got\x20kicked\x20of\x20the\x20game,\x20rejoin!','Red\x20has\x20lost\x20the\x20game\x20so\x20cannot\x20spawn!','view','layer','killed','pink','renderx','onerror','drawAbove','lastlag','skills','You\x20got\x20kicked\x20from\x20the\x20game\x20for\x20sending\x20an\x20inappropriate\x20message.\x20You\x20can\x20rejoin\x20by\x20reloading\x20the\x20page\x20or\x20try\x20another\x20server.','findIndex','motion','roomSetup','begin','ceil','\x20-\x20','injured','now','Body\x20Damage','lastRender','orange','mockups','normal','map','The\x20server\x20has\x20been\x20overloaded!\x20You\x20can\x20rejoin\x20reload\x20the\x20page\x20or\x20try\x20another\x20server.','18007fhMoBd','time','You\x20are\x20using\x20an\x20inappropriate\x20name.\x20Please\x20change\x20your\x20name\x20and\x20do\x20not\x20use\x20offensive\x20names.','The\x20game\x20will\x20reconnect\x20soon.','game','closingSplash','Socket\x20error.\x20Please\x20try\x20another\x20server\x20or\x20clear\x20your\x20cache.','4vpzZFo','Reload','label','kicked\x20for\x20sending\x20bad\x20word','elements','take',';\x20offered\x20packet\x20timestamp:\x20','borderless','bullet_pen','sin','disconnected','blue','message','Movement\x20Speed','serverAdd','dying','setConfig','The\x20connection\x20has\x20closed\x20due\x20to\x20AFK\x20timeout.','isInView','slice','Please\x20wait\x20while\x20a\x20connection\x20attempt\x20is\x20being\x20made.','arraybuffer','7113850QiyFKp','gameWidth','bullet_health','OPED','commandCycle','upgrades','error','string','reload','talk','direction','offset','Max\x20Health','dataLength','22092Essvwd','updateTimes','size','You\x20got\x20temporarily\x20banned\x20from\x20the\x20game.\x20You\x20will\x20be\x20able\x20to\x20rejoin\x20after\x20a\x20server\x20restart.','Syncing\x20clocks,\x20please\x20do\x20not\x20tab\x20away!\x20','You\x20got\x20kicked\x20from\x20the\x20game.\x20You\x20can\x20rejoin\x20by\x20reloading\x20the\x20page\x20or\x20try\x20another\x20server.','roomSpeed','The\x20connection\x20has\x20closed.\x20You\x20may\x20attempt\x20to\x20regain\x20your\x20score\x20by\x20rejoining,\x20or\x20you\x20can\x20try\x20another\x20server.','bansussy','teal','drawsHealth','bullet_speed','facing','position','died','update','shield_regen','textobjs','split','yellow','getRatio','getState','chats','next','renderv','animations','lastvx','kickthisnub','accel','gameHeight','403563cuZGtA','set','You\x20got\x20disconnected\x20for\x20being\x20afk!','shield','name','splice','publish','reset','cmd','topspeed','softcap','rendergap','realSize','height','nameplate','sort','max','target','onbeforeunload','autoLevelUp','MozWebSocket','lag','metrics','index','Unknown\x20message\x20index.','drawFill','bar','lastUpdate','Malformed\x20packet.','kicked\x20for\x20using\x20a\x20bad\x20name','setScore','Token\x20submitted\x20to\x20the\x20server\x20for\x20validation.','resizeEvent','gui','443317BJOmai','You\x20are\x20using\x20a\x20long\x20name.\x20Please\x20make\x20sure\x20your\x20name\x20is\x20not\x20higher\x20than\x2048\x20characters.','You\x20cannot\x20respawn\x20as\x20all\x20of\x20your\x20sanctuaries\x20died.\x20You\x20need\x20at\x20least\x201\x20sanctuary\x20to\x20respawn.','playerKey','Smoothbar','invuln','parse','lastf','66889iCoSgX','color','oldIndex','Mismatch\x20between\x20data\x20turret\x20number\x20and\x20remembered\x20turret\x20number!','push','finalKills','2232306ktwNHr','__s','entities','Bullet\x20Speed','root','move_speed','angle','60wVKnYp','cap','CHAT_MESSAGE_ENTITY','fps','round','betacannotjoinwithnotoken','sqrt','alpha','body_damage','Trying\x20to\x20crawl\x20past\x20the\x20end\x20of\x20the\x20provided\x20data!','health','pow','data','mirrorMasterAngle','The\x20server\x20has\x20welcomed\x20us\x20to\x20the\x20game\x20room.\x20Sending\x20spawn\x20request.','latency','all','lgreen','ms.\x20Beginning\x20game.','get','343165wvQzzE','gold','You\x20cannot\x20get\x20access\x20to\x20the\x20server\x20as\x20you\x20need\x20a\x20valid\x20token.','defaultAngle','ws://','nameColor','32DcYmLI','#FFFFFF','configLoaded','topSpeed','aspect','Restart\x20the\x20page\x20to\x20continue\x20playing!','shield_cap','lastx','entries','gameStart','wss://','class','WebSocket\x20error:\x20','speed','points','width','bullet_damage','render','messages','length','playerName','check','shift','floor','finalKillers','sancdiedFforyou','open','purple','delta','status','includes','kicked\x20for\x20joining\x20without\x20token','guns','Camera\x20moved!','canvas','abs','old','memory','onclose','WebSocket','finalScore','red','min','finalLifetime','player','lastvy','You\x20got\x20temporarily\x20banned\x20of\x20the\x20game,\x20wait\x20now!','reduce','max_health','turrets','tha\x20fuq\x20is\x20up\x20now','getFade','/10...','broadcast','amount','log'];_0xd087=function(){return _0x558e96;};return _0xd087();}var lag={'get':()=>lags['length']?lags[_0x2d84cc(0xe6)]((_0x1fc8c2,_0x1bba57)=>_0x1fc8c2+_0x1bba57)/lags[_0x2d84cc(0x1c6)]:0x0,'add':_0x5556c7=>{const _0xe0b313=_0x2d84cc;lags[_0xe0b313(0x190)](_0x5556c7),lags['length']>config['lag'][_0xe0b313(0xdc)]&&lags['splice'](0x0,0x1);}},getNow=()=>Date['now']()-clockDiff-serverStart;window[_0x2d84cc(0xde)]=window[_0x2d84cc(0xde)]||window[_0x2d84cc(0x176)];let crawlIndex=0x0,crawlData=[];const get={'next':()=>{const _0x3b6071=_0x2d84cc;if(crawlIndex>=crawlData[_0x3b6071(0x1c6)]){console['log'](crawlData);throw new Error('Trying\x20to\x20crawl\x20past\x20the\x20end\x20of\x20the\x20provided\x20data!');}else return crawlData[crawlIndex++];},'set':_0x2dbcc5=>{crawlData=_0x2dbcc5,crawlIndex=0x0;},'all':()=>crawlData[_0x2d84cc(0x133)](crawlIndex),'take':_0x28d14c=>{const _0x40787c=_0x2d84cc;crawlIndex+=_0x28d14c;if(crawlIndex>crawlData[_0x40787c(0x1c6)]){console[_0x40787c(0x13c)](crawlData);throw new Error(_0x40787c(0x1a2));}}};function physics(_0x14a534){const _0x2a20cc=_0x2d84cc;_0x14a534['isUpdated']=!![],(_0x14a534[_0x2a20cc(0x10b)]||_0x14a534[_0x2a20cc(0x151)])&&(_0x14a534[_0x2a20cc(0x10b)]-=0.2*_0x14a534[_0x2a20cc(0x151)],_0x14a534[_0x2a20cc(0x151)]+=_0x14a534['motion'],_0x14a534[_0x2a20cc(0x151)]<0x0&&(_0x14a534[_0x2a20cc(0x151)]=0x0,_0x14a534['motion']=-_0x14a534[_0x2a20cc(0x10b)]),_0x14a534['motion']>0x0&&(_0x14a534[_0x2a20cc(0x10b)]*=0.5));}const GunContainer=_0x40cc4a=>{const _0x3189b4=_0x2d84cc;let _0x5495dc=[];for(let _0x2f2577=0x0;_0x2f2577<_0x40cc4a;_0x2f2577++){_0x5495dc[_0x3189b4(0x190)]({'motion':0x0,'position':0x0,'isUpdated':!![],'configLoaded':![],'color':'','borderless':![],'drawFill':!![],'drawAbove':![],'length':0x0,'width':0x0,'aspect':0x0,'angle':0x0,'direction':0x0,'offset':0x0});}return{'getPositions':()=>_0x5495dc[_0x3189b4(0x117)](_0x2a60eb=>{const _0x48befa=_0x3189b4;return _0x2a60eb[_0x48befa(0x151)];}),'getConfig':()=>_0x5495dc[_0x3189b4(0x117)](_0x4f96d8=>{const _0x113e73=_0x3189b4;return{'color':_0x4f96d8[_0x113e73(0x18d)],'borderless':_0x4f96d8['borderless'],'drawFill':_0x4f96d8[_0x113e73(0x17b)],'drawAbove':_0x4f96d8[_0x113e73(0x106)],'length':_0x4f96d8[_0x113e73(0x1c6)],'width':_0x4f96d8['width'],'aspect':_0x4f96d8['aspect'],'angle':_0x4f96d8[_0x113e73(0x198)],'direction':_0x4f96d8[_0x113e73(0x140)],'offset':_0x4f96d8[_0x113e73(0x141)]};}),'setConfig':(_0xc4731,_0x58ef41)=>{const _0x46bd3a=_0x3189b4;let _0x32460d=_0x5495dc[_0xc4731];!_0x32460d[_0x46bd3a(0x1b5)]&&(_0x32460d['configLoaded']=!![],_0x32460d[_0x46bd3a(0x18d)]=_0x58ef41['color'],_0x32460d[_0x46bd3a(0x127)]=_0x58ef41['borderless'],_0x32460d['drawFill']=_0x58ef41[_0x46bd3a(0x17b)],_0x32460d[_0x46bd3a(0x106)]=_0x58ef41['drawAbove'],_0x32460d[_0x46bd3a(0x1c6)]=_0x58ef41[_0x46bd3a(0x1c6)],_0x32460d[_0x46bd3a(0x1c2)]=_0x58ef41[_0x46bd3a(0x1c2)],_0x32460d[_0x46bd3a(0x1b7)]=_0x58ef41[_0x46bd3a(0x1b7)],_0x32460d[_0x46bd3a(0x198)]=_0x58ef41['angle'],_0x32460d[_0x46bd3a(0x140)]=_0x58ef41[_0x46bd3a(0x140)],_0x32460d[_0x46bd3a(0x141)]=_0x58ef41[_0x46bd3a(0x141)]);},'update':()=>{for(let _0x4419d6 of _0x5495dc){physics(_0x4419d6);}},'fire':(_0x1c0735,_0x2bd4df)=>{const _0x1d3da6=_0x3189b4;if(_0x5495dc[_0x1c0735][_0x1d3da6(0xf2)])_0x5495dc[_0x1c0735][_0x1d3da6(0x10b)]+=Math[_0x1d3da6(0x19f)](_0x2bd4df)/0x14;_0x5495dc[_0x1c0735][_0x1d3da6(0xf2)]=![];},'length':_0x5495dc['length']};};function Status(){const _0x4affef=_0x2d84cc;let _0x156cc4=_0x4affef(0x116),_0x10aff9=getNow();return{'set':_0x23528a=>{const _0x48ad21=_0x4affef;if(_0x23528a!==_0x156cc4||_0x156cc4===_0x48ad21(0x110)){if(_0x156cc4!==_0x48ad21(0x12f))_0x10aff9=getNow();_0x156cc4=_0x23528a;}},'getState':()=>_0x156cc4,'getFade':()=>{const _0xfed595=_0x4affef;return _0x156cc4===_0xfed595(0x12f)||_0x156cc4===_0xfed595(0x102)?0x1-Math[_0xfed595(0xe1)](0x1,(getNow()-_0x10aff9)/0x12c):0x1;},'getColor':()=>{const _0x14ca8e=_0x4affef;return _0x14ca8e(0x1b4);},'getBlend':()=>{const _0x9b9df9=_0x4affef;let _0x26169b=_0x156cc4==='normal'||_0x156cc4===_0x9b9df9(0x12f)?0x0:_0x156cc4==='invuln'?0.125+Math[_0x9b9df9(0x129)]((getNow()-_0x10aff9)/0x21)/0x8:0x1-Math[_0x9b9df9(0xe1)](0x1,(getNow()-_0x10aff9)/0x50);return getNow()-_0x10aff9>0x1f4&&_0x156cc4===_0x9b9df9(0x110)&&(_0x156cc4=_0x9b9df9(0x116)),_0x26169b;}};}function _0x557b(_0xd032b8,_0x5ac44d){const _0xd08793=_0xd087();return _0x557b=function(_0x557b53,_0x1c0bd1){_0x557b53=_0x557b53-0xdb;let _0x5958e3=_0xd08793[_0x557b53];return _0x5958e3;},_0x557b(_0xd032b8,_0x5ac44d);}const process=(_0x34c568={})=>{const _0x910edd=_0x2d84cc;let _0x4c05bf=_0x34c568['facing']==null,_0x31163f=get[_0x910edd(0x15b)]();if(_0x31163f&0x1)_0x34c568[_0x910edd(0x150)]=get['next'](),_0x34c568['layer']=get[_0x910edd(0x15b)](),_0x34c568[_0x910edd(0x179)]=get[_0x910edd(0x15b)](),_0x34c568['color']=get['next'](),_0x34c568[_0x910edd(0x146)]=get[_0x910edd(0x15b)](),_0x34c568[_0x910edd(0x16e)]=get[_0x910edd(0x15b)](),_0x34c568[_0x910edd(0xf6)]=get['next'](),_0x34c568[_0x910edd(0x198)]=get[_0x910edd(0x15b)](),_0x34c568[_0x910edd(0x140)]=get[_0x910edd(0x15b)](),_0x34c568[_0x910edd(0x141)]=get[_0x910edd(0x15b)](),_0x34c568[_0x910edd(0x1a6)]=get[_0x910edd(0x15b)]();else{_0x34c568['interval']=global[_0x910edd(0x178)]['rendergap'],_0x34c568['id']=get[_0x910edd(0x15b)]();let _0x12daf8=global[_0x910edd(0x194)][_0x910edd(0x10a)](_0x5ca9d1=>_0x5ca9d1['id']===_0x34c568['id']);_0x12daf8!==-0x1&&(_0x34c568=global[_0x910edd(0x194)][_0x910edd(0x167)](_0x12daf8,0x1)[0x0]);_0x4c05bf=_0x12daf8===-0x1;!_0x4c05bf&&(_0x34c568[_0x910edd(0x1c4)]['draws']=!![],_0x34c568[_0x910edd(0x1c4)][_0x910edd(0x1ba)]=_0x34c568['x'],_0x34c568['render']['lasty']=_0x34c568['y'],_0x34c568[_0x910edd(0x1c4)][_0x910edd(0x15e)]=_0x34c568['vx'],_0x34c568['render']['lastvy']=_0x34c568['vy'],_0x34c568[_0x910edd(0x1c4)][_0x910edd(0x18b)]=_0x34c568[_0x910edd(0x150)],_0x34c568['render'][_0x910edd(0x113)]=global[_0x910edd(0xe3)][_0x910edd(0x11a)]);_0x34c568[_0x910edd(0x179)]=get[_0x910edd(0x15b)](),_0x34c568['x']=get[_0x910edd(0x15b)](),_0x34c568['y']=get[_0x910edd(0x15b)](),_0x34c568['vx']=get[_0x910edd(0x15b)](),_0x34c568['vy']=get[_0x910edd(0x15b)](),_0x34c568[_0x910edd(0x146)]=get['next'](),_0x34c568[_0x910edd(0x150)]=get[_0x910edd(0x15b)](),_0x34c568['perceptionAngleIndependence']=get[_0x910edd(0x15b)](),_0x34c568[_0x910edd(0x1b0)]=get['next'](),_0x34c568['twiggle']=get[_0x910edd(0x15b)](),_0x34c568[_0x910edd(0x101)]=get[_0x910edd(0x15b)](),_0x34c568[_0x910edd(0x18d)]=get[_0x910edd(0x15b)]();let _0x1cdc7c=get[_0x910edd(0x15b)]();if(_0x4c05bf)_0x34c568[_0x910edd(0x1a3)]=get[_0x910edd(0x15b)]()/0xffff,_0x34c568[_0x910edd(0x165)]=get[_0x910edd(0x15b)]()/0xffff;else{let _0x28c2eb=_0x34c568['health'],_0x166af9=_0x34c568[_0x910edd(0x165)];_0x34c568['health']=get[_0x910edd(0x15b)]()/0xffff,_0x34c568[_0x910edd(0x165)]=get[_0x910edd(0x15b)]()/0xffff;if(_0x34c568[_0x910edd(0x1a3)]<_0x28c2eb||_0x34c568[_0x910edd(0x165)]<_0x166af9)_0x34c568[_0x910edd(0x1c4)][_0x910edd(0x1d0)]['set'](_0x910edd(0x110));else _0x34c568['render']['status']['getFade']()!==0x1&&_0x34c568[_0x910edd(0x1c4)][_0x910edd(0x1d0)][_0x910edd(0x163)](_0x910edd(0x116));}_0x34c568[_0x910edd(0x1a0)]=get[_0x910edd(0x15b)]()/0xff,_0x34c568[_0x910edd(0x14e)]=!!(_0x31163f&0x2);_0x31163f&0x4&&(_0x34c568[_0x910edd(0x166)]=get[_0x910edd(0x15b)](),_0x34c568['score']=get[_0x910edd(0x15b)]());_0x34c568[_0x910edd(0x170)]=_0x31163f&0x4;_0x4c05bf&&(_0x34c568[_0x910edd(0x1c4)]={'draws':![],'expandsWithDeath':_0x34c568[_0x910edd(0x14e)],'lastRender':global[_0x910edd(0xe3)]['time'],'x':_0x34c568['x'],'y':_0x34c568['y'],'lastx':_0x34c568['x']-global[_0x910edd(0x178)][_0x910edd(0x16d)]*config['roomSpeed']*(0x3e8/0x1e)*_0x34c568['vx'],'lasty':_0x34c568['y']-global['metrics'][_0x910edd(0x16d)]*config[_0x910edd(0x14a)]*(0x3e8/0x1e)*_0x34c568['vy'],'lastvx':_0x34c568['vx'],'lastvy':_0x34c568['vy'],'lastf':_0x34c568['facing'],'f':_0x34c568[_0x910edd(0x150)],'h':_0x34c568[_0x910edd(0x1a3)],'s':_0x34c568[_0x910edd(0x165)],'interval':global[_0x910edd(0x178)]['rendergap'],'slip':0x0,'status':Status(),'health':util[_0x910edd(0x188)](_0x34c568['health'],0.5,0x5,0.15),'shield':util['Smoothbar'](_0x34c568[_0x910edd(0x165)],0.5,0x5,0.15)});if(_0x1cdc7c)_0x34c568[_0x910edd(0x1c4)][_0x910edd(0x1d0)][_0x910edd(0x163)]('invuln');else _0x34c568['render'][_0x910edd(0x1d0)][_0x910edd(0x159)]()===_0x910edd(0x189)&&_0x34c568['render'][_0x910edd(0x1d0)]['set']('normal');_0x34c568[_0x910edd(0x1c4)][_0x910edd(0x1a3)]['set'](_0x34c568[_0x910edd(0x1a3)]),_0x34c568[_0x910edd(0x1c4)][_0x910edd(0x165)][_0x910edd(0x163)](_0x34c568[_0x910edd(0x165)]);if(!_0x4c05bf&&_0x34c568['oldIndex']!==_0x34c568[_0x910edd(0x179)])_0x4c05bf=!![];_0x34c568[_0x910edd(0x18e)]=_0x34c568[_0x910edd(0x179)];}let _0x571c0d=get[_0x910edd(0x15b)]();if(_0x4c05bf)_0x34c568['guns']=GunContainer(_0x571c0d);else{if(_0x571c0d!==_0x34c568[_0x910edd(0x1d3)][_0x910edd(0x1c6)])throw new Error(_0x910edd(0xf8));}for(let _0x2de432=0x0;_0x2de432<_0x571c0d;_0x2de432++){let _0x16b4f5=get[_0x910edd(0x15b)](),_0x331a8d=get[_0x910edd(0x15b)](),_0x692a72=get['next'](),_0x229a57=get[_0x910edd(0x15b)](),_0x4f7595=get[_0x910edd(0x15b)](),_0x467c02=get[_0x910edd(0x15b)](),_0x20eb2f=get[_0x910edd(0x15b)](),_0x5e607d=get[_0x910edd(0x15b)](),_0xd65355=get['next'](),_0x41acd7=get[_0x910edd(0x15b)](),_0x1261fd=get['next'](),_0x309195=get['next']();_0x34c568['guns'][_0x910edd(0x130)](_0x2de432,{'color':_0x692a72,'borderless':_0x229a57,'drawFill':_0x4f7595,'drawAbove':_0x467c02,'length':_0x20eb2f,'width':_0x5e607d,'aspect':_0xd65355,'angle':_0x41acd7,'direction':_0x1261fd,'offset':_0x309195});if(_0x16b4f5>global[_0x910edd(0xe3)][_0x910edd(0x17d)]-global[_0x910edd(0x178)][_0x910edd(0x16d)])_0x34c568[_0x910edd(0x1d3)]['fire'](_0x2de432,_0x331a8d);}let _0x3e62f3=get[_0x910edd(0x15b)]();if(_0x3e62f3){let _0x24a1d1=0x1;}if(_0x4c05bf){_0x34c568[_0x910edd(0xe8)]=[];for(let _0x44827f=0x0;_0x44827f<_0x3e62f3;_0x44827f++){_0x34c568[_0x910edd(0xe8)][_0x910edd(0x190)](process());}}else{if(_0x34c568['turrets']['length']!==_0x3e62f3)throw new Error(_0x910edd(0x18f));for(let _0xe9d1cc of _0x34c568[_0x910edd(0xe8)]){_0xe9d1cc=process(_0xe9d1cc);}}return _0x34c568;},convert={'begin':_0x32aab3=>get[_0x2d84cc(0x163)](_0x32aab3),'data':()=>{const _0x1c7595=_0x2d84cc;let _0x313ff8=[];for(let _0x2d07f8=0x0,_0x2193aa=get[_0x1c7595(0x15b)]();_0x2d07f8<_0x2193aa;_0x2d07f8++){_0x313ff8[_0x1c7595(0x190)](process());}for(let _0x9ac0d5 of global[_0x1c7595(0x194)]){_0x9ac0d5[_0x1c7595(0x1c4)][_0x1c7595(0x1d0)][_0x1c7595(0x163)](_0x9ac0d5[_0x1c7595(0x1a3)]===0x1?_0x1c7595(0x12f):'killed');if(_0x9ac0d5[_0x1c7595(0x1c4)][_0x1c7595(0x1d0)][_0x1c7595(0xea)]()!==0x0&&util[_0x1c7595(0x132)](_0x9ac0d5[_0x1c7595(0x1c4)]['x']-global[_0x1c7595(0xe3)][_0x1c7595(0x104)],_0x9ac0d5[_0x1c7595(0x1c4)]['y']-global[_0x1c7595(0xe3)][_0x1c7595(0xf0)],_0x9ac0d5['size'],!![]))_0x313ff8['push'](_0x9ac0d5);else{if(_0x9ac0d5[_0x1c7595(0x1c4)][_0x1c7595(0x155)]!=null)for(let _0x3e7c14 of _0x9ac0d5[_0x1c7595(0x1c4)][_0x1c7595(0x155)]){_0x3e7c14['remove']();}}}global[_0x1c7595(0x194)]=_0x313ff8,global[_0x1c7595(0x194)][_0x1c7595(0x171)]((_0xc536c2,_0xae9cfd)=>{const _0x33d8fd=_0x1c7595;let _0x2e7176=_0xc536c2[_0x33d8fd(0x101)]-_0xae9cfd[_0x33d8fd(0x101)];if(!_0x2e7176)_0x2e7176=_0xae9cfd['id']-_0xc536c2['id'];if(!_0x2e7176)throw new Error(_0x33d8fd(0xe9));return _0x2e7176;});},'gui':()=>{const _0x16a335=_0x2d84cc;let _0x1f45d0=get[_0x16a335(0x15b)](),_0x3e4983={'class':_0x1f45d0&0x400,'root':_0x1f45d0&0x200,'topspeed':_0x1f45d0&0x100,'accel':_0x1f45d0&0x80,'skills':_0x1f45d0&0x40,'statsdata':_0x1f45d0&0x20,'upgrades':_0x1f45d0&0x10,'points':_0x1f45d0&0x8,'score':_0x1f45d0&0x4,'label':_0x1f45d0&0x2,'fps':_0x1f45d0&0x1};_0x3e4983['fps']&&(gui[_0x16a335(0x19c)]=get['next']());_0x3e4983[_0x16a335(0x122)]&&(gui[_0x16a335(0xfa)]=get[_0x16a335(0x15b)](),gui[_0x16a335(0x18d)]=get[_0x16a335(0x15b)](),gui[_0x16a335(0xf9)]=get[_0x16a335(0x15b)]());_0x3e4983[_0x16a335(0xfd)]&&gui[_0x16a335(0x193)][_0x16a335(0x180)](get[_0x16a335(0x15b)]());_0x3e4983[_0x16a335(0x1c1)]&&(gui[_0x16a335(0x1c1)]=get[_0x16a335(0x15b)]());if(_0x3e4983['upgrades']){gui[_0x16a335(0x13b)]=[];for(let _0x332c33=0x0,_0x3e9df8=get['next']();_0x332c33<_0x3e9df8;_0x332c33++){gui[_0x16a335(0x13b)][_0x16a335(0x190)](get['next']()[_0x16a335(0x156)]('_'));}}if(_0x3e4983['statsdata'])for(let _0x24133e=0x9;_0x24133e>=0x0;_0x24133e--){gui[_0x16a335(0x108)][_0x24133e][_0x16a335(0x166)]=get[_0x16a335(0x15b)](),gui[_0x16a335(0x108)][_0x24133e][_0x16a335(0x19a)]=get['next'](),gui[_0x16a335(0x108)][_0x24133e][_0x16a335(0x16c)]=get[_0x16a335(0x15b)]();}if(_0x3e4983[_0x16a335(0x108)]){let _0x4eeff6=get['next']();gui['skills'][0x0][_0x16a335(0xed)]=parseInt(_0x4eeff6[_0x16a335(0x133)](0x0,0x2),0x10),gui[_0x16a335(0x108)][0x1][_0x16a335(0xed)]=parseInt(_0x4eeff6[_0x16a335(0x133)](0x2,0x4),0x10),gui[_0x16a335(0x108)][0x2][_0x16a335(0xed)]=parseInt(_0x4eeff6[_0x16a335(0x133)](0x4,0x6),0x10),gui[_0x16a335(0x108)][0x3]['amount']=parseInt(_0x4eeff6['slice'](0x6,0x8),0x10),gui[_0x16a335(0x108)][0x4]['amount']=parseInt(_0x4eeff6[_0x16a335(0x133)](0x8,0xa),0x10),gui[_0x16a335(0x108)][0x5]['amount']=parseInt(_0x4eeff6['slice'](0xa,0xc),0x10),gui[_0x16a335(0x108)][0x6][_0x16a335(0xed)]=parseInt(_0x4eeff6['slice'](0xc,0xe),0x10),gui[_0x16a335(0x108)][0x7]['amount']=parseInt(_0x4eeff6[_0x16a335(0x133)](0xe,0x10),0x10),gui[_0x16a335(0x108)][0x8][_0x16a335(0xed)]=parseInt(_0x4eeff6[_0x16a335(0x133)](0x10,0x12),0x10),gui[_0x16a335(0x108)][0x9][_0x16a335(0xed)]=parseInt(_0x4eeff6[_0x16a335(0x133)](0x12,0x14),0x10);}_0x3e4983['accel']&&(gui['accel']=get[_0x16a335(0x15b)]()),_0x3e4983[_0x16a335(0x16b)]&&(gui[_0x16a335(0x16b)]=get['next']()),_0x3e4983[_0x16a335(0x196)]&&(gui['root']=get['next']()),_0x3e4983[_0x16a335(0x1be)]&&(gui[_0x16a335(0x1be)]=get[_0x16a335(0x15b)]());},'broadcast':()=>{const _0x3bcdc3=_0x2d84cc;let _0x25ed3f=get[_0x3bcdc3(0x1a9)](),_0x1f7e96=minimapAllInt[_0x3bcdc3(0x153)](_0x25ed3f);minimapTeamInt[_0x3bcdc3(0x169)](),_0x1f7e96=minimapTeamInt[_0x3bcdc3(0x153)](_0x25ed3f,_0x1f7e96),_0x1f7e96=leaderboardInt[_0x3bcdc3(0x153)](_0x25ed3f,_0x1f7e96),get[_0x3bcdc3(0x125)](_0x1f7e96);let _0x4991d8=[];for(let {id:_0x295bb8,data:_0x54acd8}of minimapAllInt['entries']()){_0x4991d8['push']({'id':_0x295bb8,'type':_0x54acd8[0x0],'x':_0x54acd8[0x1]*global[_0x3bcdc3(0x137)]/0xff,'y':_0x54acd8[0x2]*global[_0x3bcdc3(0x161)]/0xff,'color':_0x54acd8[0x3],'size':_0x54acd8[0x4]});}for(let {id:_0x223b1d,data:_0x2d9859}of minimapTeamInt['entries']()){_0x4991d8['push']({'id':_0x223b1d,'type':0x0,'x':_0x2d9859[0x0]*global[_0x3bcdc3(0x137)]/0xff,'y':_0x2d9859[0x1]*global[_0x3bcdc3(0x161)]/0xff,'color':_0x2d9859[0x2],'size':0x0});}minimap['update'](_0x4991d8);let _0x2b4cd1=[];for(let {id:_0x18d678,data:_0xf10f9b}of leaderboardInt['entries']()){_0x2b4cd1[_0x3bcdc3(0x190)]({'id':_0x18d678,'score':_0xf10f9b[0x0],'index':_0xf10f9b[0x1],'name':_0xf10f9b[0x2],'color':_0xf10f9b[0x3],'bar':_0xf10f9b[0x4],'nameColor':_0xf10f9b[0x5],'label':_0xf10f9b[0x6]});}leaderboard[_0x3bcdc3(0x153)](_0x2b4cd1);}},protocols={'http:':_0x2d84cc(0x1b1),'https:':_0x2d84cc(0x1bd)},socketInit=_0x53a04c=>{const _0x5b7f10=_0x2d84cc;window[_0x5b7f10(0x182)]();let _0x384959=new WebSocket(protocols[location['protocol']]+window[_0x5b7f10(0x12e)]);_0x384959['binaryType']=_0x5b7f10(0x135),_0x384959['open']=![];let _0x36d0a0=![],_0x26952e=[![],![],![],![],![],![],![],![]];return _0x384959[_0x5b7f10(0x16a)]={'set':(_0x554d1f,_0x2cd3c2)=>{_0x26952e[_0x554d1f]!==_0x2cd3c2&&(_0x26952e[_0x554d1f]=_0x2cd3c2,_0x36d0a0=!![]);},'talk':()=>{const _0x1af714=_0x5b7f10;_0x36d0a0=![];let _0x6e0084=0x0;for(let _0x4b3342=0x0;_0x4b3342<0x8;_0x4b3342++){if(_0x26952e[_0x4b3342])_0x6e0084+=Math[_0x1af714(0x1a4)](0x2,_0x4b3342);}let _0x4667f0=util[_0x1af714(0x158)]();_0x384959[_0x1af714(0x13f)]('C',Math[_0x1af714(0x19d)](window[_0x1af714(0x1d5)][_0x1af714(0x173)]['x']/_0x4667f0),Math['round'](window[_0x1af714(0x1d5)][_0x1af714(0x173)]['y']/_0x4667f0),_0x6e0084);},'check':()=>_0x36d0a0,'getMotion':()=>({'x':_0x26952e[0x3]-_0x26952e[0x2],'y':_0x26952e[0x1]-_0x26952e[0x0]})},_0x384959[_0x5b7f10(0x13f)]=async(..._0x941417)=>{const _0x571d20=_0x5b7f10;await new Promise(_0x2441ca=>setTimeout(_0x2441ca,window['fakeLagMS']));if(!_0x384959[_0x571d20(0x1cd)])return 0x1;_0x384959['send'](protocol['encode'](_0x941417));},_0x384959['onopen']=function _0x32d174(){const _0x2635ff=_0x5b7f10;_0x384959[_0x2635ff(0x1cd)]=!![],global[_0x2635ff(0x12c)]=_0x2635ff(0x134),_0x384959[_0x2635ff(0x13f)]('k',global[_0x2635ff(0x187)]),console[_0x2635ff(0xee)](_0x2635ff(0x181)),_0x384959['ping']=_0x37cd3a=>_0x384959[_0x2635ff(0x13f)]('p',_0x37cd3a),_0x384959[_0x2635ff(0x13a)]=setInterval(()=>{const _0xd9651e=_0x2635ff;if(_0x384959[_0xd9651e(0x16a)][_0xd9651e(0x1c8)]())_0x384959[_0xd9651e(0x16a)][_0xd9651e(0x13f)]();});},_0x384959['onmessage']=async function _0x3f64ab(_0x1616e5){const _0x3b8e7f=_0x5b7f10;await new Promise(_0x44cf3c=>setTimeout(_0x44cf3c,window['fakeLagMS']));let _0x55690f=protocol['decode'](_0x1616e5[_0x3b8e7f(0x1a5)]);if(_0x55690f===-0x1)throw new Error(_0x3b8e7f(0x17e));switch(_0x55690f[_0x3b8e7f(0x1c9)]()){case'w':_0x55690f[0x0]&&(console[_0x3b8e7f(0xee)](_0x3b8e7f(0x1a7)),_0x384959[_0x3b8e7f(0x13f)]('s',global[_0x3b8e7f(0x1c7)],0x1,0x1*config[_0x3b8e7f(0x11d)][_0x3b8e7f(0x175)]),global[_0x3b8e7f(0x12c)]='');break;case'o':console[_0x3b8e7f(0xee)](_0x3b8e7f(0x11c)),global[_0x3b8e7f(0x12c)]=_0x3b8e7f(0xf7),global[_0x3b8e7f(0x11e)]=_0x55690f[0x1]||'';break;case _0x3b8e7f(0x1cc):console[_0x3b8e7f(0xee)](_0x3b8e7f(0xff)),global[_0x3b8e7f(0x12c)]=_0x3b8e7f(0x186),global['sancdiedripforyouanyways']=_0x55690f[0x1]||'';break;case'|':console[_0x3b8e7f(0xee)](_0x3b8e7f(0x1b8)),global['message']='The\x20connection\x20has\x20closed.\x20You\x20can\x20rejoin\x20to\x20regain\x20your\x20score.';break;case'$':console[_0x3b8e7f(0xee)](_0x3b8e7f(0x164)),global[_0x3b8e7f(0x12c)]=_0x3b8e7f(0x131);break;case'?':console[_0x3b8e7f(0xee)](_0x3b8e7f(0xfe)),global[_0x3b8e7f(0x12c)]=_0x3b8e7f(0x149);break;case _0x3b8e7f(0x15f):console[_0x3b8e7f(0xee)](_0x3b8e7f(0x123)),global[_0x3b8e7f(0x12c)]=_0x3b8e7f(0x109);break;case _0x3b8e7f(0xf3):console[_0x3b8e7f(0xee)](_0x3b8e7f(0xf5)),global[_0x3b8e7f(0x12c)]=_0x3b8e7f(0x185);break;case _0x3b8e7f(0xfb):console[_0x3b8e7f(0xee)](_0x3b8e7f(0x17f)),global[_0x3b8e7f(0x12c)]=_0x3b8e7f(0x11b);break;case _0x3b8e7f(0x19e):console[_0x3b8e7f(0xee)](_0x3b8e7f(0x1d2)),global[_0x3b8e7f(0x12c)]=_0x3b8e7f(0x1af);break;case _0x3b8e7f(0x14c):console[_0x3b8e7f(0xee)](_0x3b8e7f(0xe5)),global[_0x3b8e7f(0x12c)]=_0x3b8e7f(0x147);break;case'overload':console['log']('Server\x20overloaded!\x20Restarting...'),global[_0x3b8e7f(0x12c)]=_0x3b8e7f(0x118);break;case'R':global[_0x3b8e7f(0x137)]=_0x55690f[0x0],global[_0x3b8e7f(0x161)]=_0x55690f[0x1],global['roomSetup']=JSON[_0x3b8e7f(0x18a)](_0x55690f[0x2]),serverStart=JSON[_0x3b8e7f(0x18a)](_0x55690f[0x3]),config[_0x3b8e7f(0x14a)]=_0x55690f[0x4],console[_0x3b8e7f(0xee)]('Room\x20data\x20recieved.\x20Commencing\x20syncing\x20process.'),_0x384959[_0x3b8e7f(0x13f)]('S',getNow());break;case'r':global[_0x3b8e7f(0x137)]=_0x55690f[0x0],global[_0x3b8e7f(0x161)]=_0x55690f[0x1],global[_0x3b8e7f(0x10c)]=JSON[_0x3b8e7f(0x18a)](_0x55690f[0x2]);break;case'c':global[_0x3b8e7f(0xe3)][_0x3b8e7f(0x104)]=global[_0x3b8e7f(0xe3)]['cx']=_0x55690f[0x0],global[_0x3b8e7f(0xe3)]['rendery']=global[_0x3b8e7f(0xe3)]['cy']=_0x55690f[0x1],global['player'][_0x3b8e7f(0x15c)]=global['player'][_0x3b8e7f(0x100)]=_0x55690f[0x2],global[_0x3b8e7f(0xe3)][_0x3b8e7f(0x1b2)]=_0x55690f[0x3],console[_0x3b8e7f(0xee)](_0x3b8e7f(0x1d4));break;case'S':let _0x350d9c=_0x55690f[0x0],_0x9e3ef4=_0x55690f[0x1],_0x46dafd=(getNow()-_0x350d9c)/0x2,_0xe3cfec=getNow()-_0x46dafd-_0x9e3ef4;sync['push']({'delta':_0xe3cfec,'latency':_0x46dafd});if(sync[_0x3b8e7f(0x1c6)]<0xa)setTimeout(()=>_0x384959['talk']('S',getNow()),0xa),global['message']=_0x3b8e7f(0x148)+sync[_0x3b8e7f(0x1c6)]+_0x3b8e7f(0xeb);else{sync[_0x3b8e7f(0x171)]((_0x37dfe3,_0x46d842)=>_0x37dfe3[_0x3b8e7f(0x1a8)]-_0x46d842[_0x3b8e7f(0x1a8)]);let _0x50bae9=sync[Math[_0x3b8e7f(0x1ca)](sync[_0x3b8e7f(0x1c6)]/0x2)]['latency'],_0x504060=0x0,_0x185829=0x0,_0x9d5880=0x0;for(let _0x12e887 of sync){_0x504060+=Math[_0x3b8e7f(0x1a4)](_0x12e887['latency']-_0x50bae9,0x2);}_0x504060=Math[_0x3b8e7f(0x19f)](_0x504060/sync[_0x3b8e7f(0x1c6)]);for(let _0x3ca658 of sync){Math[_0x3b8e7f(0x1d6)](_0x3ca658[_0x3b8e7f(0x1a8)]-_0x50bae9)<_0x504060&&(_0x185829+=_0x3ca658[_0x3b8e7f(0x1cf)],_0x9d5880++);}clockDiff=Math[_0x3b8e7f(0x19d)](_0x185829/_0x9d5880),console[_0x3b8e7f(0xee)](sync),console[_0x3b8e7f(0xee)]('Syncing\x20complete,\x20calculated\x20clock\x20difference\x20'+clockDiff+_0x3b8e7f(0x1ab)),global[_0x3b8e7f(0x1bc)]=!![],global[_0x3b8e7f(0x194)]=[],global[_0x3b8e7f(0x12c)]='',setTimeout(()=>{const _0x341a8b=_0x3b8e7f;global['message']=_0x341a8b(0x14b);},0x82);}break;case'm':global[_0x3b8e7f(0x1c5)][_0x3b8e7f(0x190)]({'text':_0x55690f[0x0],'status':0x2,'alpha':0x0,'time':Date['now']()});break;case'u':let _0x1d7d9a=_0x55690f[0x0],_0x7e81ac=_0x55690f[0x1],_0x40a88e=_0x55690f[0x2],_0x4c3122=_0x55690f[0x3],_0x57aa79=_0x55690f[0x4],_0x55d868=_0x55690f[0x5],_0x365c0c=_0x55690f[_0x3b8e7f(0x133)](0x6);_0x1d7d9a>global['player'][_0x3b8e7f(0x17d)]?(lag[_0x3b8e7f(0xf1)](getNow()-_0x1d7d9a),global['player'][_0x3b8e7f(0x11a)]=_0x1d7d9a+lag[_0x3b8e7f(0x1ac)](),global[_0x3b8e7f(0x178)][_0x3b8e7f(0x16d)]=_0x1d7d9a-global[_0x3b8e7f(0xe3)][_0x3b8e7f(0x17d)],global['metrics'][_0x3b8e7f(0x16d)]<=0x0&&console[_0x3b8e7f(0xee)]('yo\x20some\x20bullshit\x20is\x20up\x20wtf'),global[_0x3b8e7f(0xe3)][_0x3b8e7f(0x17d)]=_0x1d7d9a,convert['begin'](_0x365c0c),convert[_0x3b8e7f(0x183)](),convert[_0x3b8e7f(0x1a5)](),global[_0x3b8e7f(0xe3)]['lastx']=global[_0x3b8e7f(0xe3)]['cx'],global[_0x3b8e7f(0xe3)]['lasty']=global[_0x3b8e7f(0xe3)]['cy'],global[_0x3b8e7f(0xe3)][_0x3b8e7f(0x15e)]=global[_0x3b8e7f(0xe3)]['vx'],global[_0x3b8e7f(0xe3)][_0x3b8e7f(0xe4)]=global[_0x3b8e7f(0xe3)]['vy'],global['player']['cx']=_0x7e81ac,global['player']['cy']=_0x40a88e,global['player']['vx']=global[_0x3b8e7f(0x152)]?0x0:_0x57aa79,global['player']['vy']=global[_0x3b8e7f(0x152)]?0x0:_0x55d868,isNaN(global[_0x3b8e7f(0xe3)][_0x3b8e7f(0x104)])&&(global[_0x3b8e7f(0xe3)]['renderx']=global[_0x3b8e7f(0xe3)]['cx']),isNaN(global[_0x3b8e7f(0xe3)][_0x3b8e7f(0xf0)])&&(global['player'][_0x3b8e7f(0xf0)]=global[_0x3b8e7f(0xe3)]['cy']),moveCompensation[_0x3b8e7f(0x169)](),global[_0x3b8e7f(0xe3)][_0x3b8e7f(0x100)]=_0x4c3122,(isNaN(global[_0x3b8e7f(0xe3)]['renderv'])||global[_0x3b8e7f(0xe3)]['renderv']===0x0)&&(global['player']['renderv']=0x7d0),global[_0x3b8e7f(0x178)][_0x3b8e7f(0x107)]=global[_0x3b8e7f(0x178)][_0x3b8e7f(0x177)],global[_0x3b8e7f(0x178)]['lastuplink']=getNow()):console[_0x3b8e7f(0xee)]('Old\x20data!\x20Last\x20given\x20time:\x20'+global[_0x3b8e7f(0xe3)][_0x3b8e7f(0x11a)]+_0x3b8e7f(0x126)+_0x1d7d9a+'.');_0x384959[_0x3b8e7f(0x13f)]('d',Math[_0x3b8e7f(0x172)](global['player'][_0x3b8e7f(0x17d)],_0x1d7d9a)),_0x384959[_0x3b8e7f(0x16a)][_0x3b8e7f(0x13f)](),global[_0x3b8e7f(0x145)]++;break;case'b':convert[_0x3b8e7f(0x10d)](_0x55690f),convert[_0x3b8e7f(0xec)]();break;case'p':global['metrics']['latency']=global[_0x3b8e7f(0x11a)]-_0x55690f[0x0];break;case'F':global['finalScore']=util[_0x3b8e7f(0x188)](0x0,0x4),global[_0x3b8e7f(0xdf)][_0x3b8e7f(0x163)](_0x55690f[0x0]),global['finalLifetime']=util[_0x3b8e7f(0x188)](0x0,0x5),global[_0x3b8e7f(0xe2)][_0x3b8e7f(0x163)](_0x55690f[0x1]),global[_0x3b8e7f(0x191)]=[util[_0x3b8e7f(0x188)](0x0,0x3),util[_0x3b8e7f(0x188)](0x0,4.5),util[_0x3b8e7f(0x188)](0x0,2.5),util[_0x3b8e7f(0x188)](0x0,0xa)],global[_0x3b8e7f(0x191)][0x0][_0x3b8e7f(0x163)](_0x55690f[0x2]),global[_0x3b8e7f(0x191)][0x1][_0x3b8e7f(0x163)](_0x55690f[0x3]),global[_0x3b8e7f(0x191)][0x2]['set'](_0x55690f[0x4]),global['finalKills'][0x3]['set'](_0x55690f[0x5]),global[_0x3b8e7f(0x1cb)]=[];for(let _0x59d0d1=0x0;_0x59d0d1<_0x55690f[0x6];_0x59d0d1++){global[_0x3b8e7f(0x1cb)][_0x3b8e7f(0x190)](_0x55690f[0x7+_0x59d0d1]);}window[_0x3b8e7f(0x15d)]['deathScreen'][_0x3b8e7f(0x169)](),global['died']=!![],window[_0x3b8e7f(0x174)]=()=>![];break;case'K':window[_0x3b8e7f(0x174)]=()=>![];break;case _0x3b8e7f(0x139):window[_0x3b8e7f(0x174)]=()=>![];break;case'z':console[_0x3b8e7f(0xee)](_0x55690f[0x0]),global[_0x3b8e7f(0x1b2)]=_0x55690f[0x0];break;case _0x3b8e7f(0x19b):get['set'](_0x55690f),global['chats']={};for(let _0x218163=get[_0x3b8e7f(0x15b)]();_0x218163;_0x218163--){let _0x21b755=[];global[_0x3b8e7f(0x15a)][get[_0x3b8e7f(0x15b)]()]=_0x21b755;for(let _0x3bd045=get[_0x3b8e7f(0x15b)]();_0x3bd045;_0x3bd045--){_0x21b755[_0x3b8e7f(0x190)]({'text':get['next'](),'expires':parseFloat(get[_0x3b8e7f(0x15b)]())});}}break;default:throw new Error(_0x3b8e7f(0x17a));}},_0x384959[_0x5b7f10(0xdd)]=()=>{const _0x4273ee=_0x5b7f10;_0x384959['open']=![],global[_0x4273ee(0x12a)]=!![],clearInterval(_0x384959['commandCycle']),window[_0x4273ee(0x174)]=()=>![],console[_0x4273ee(0xee)]('The\x20connection\x20has\x20closed.');},_0x384959[_0x5b7f10(0x105)]=_0x1cdc2d=>{const _0x638cf2=_0x5b7f10;console['log'](_0x638cf2(0x1bf)+_0x1cdc2d),global[_0x638cf2(0x12c)]=_0x638cf2(0x11f);},_0x384959;};export{socketInit,gui,leaderboard,minimap,moveCompensation,lag,getNow};
+import { global } from "./global.js";
+import { util } from "./util.js";
+import { config } from "./config.js";
+import { protocol } from "./protocol.js";
+window.fakeLagMS = 0;
+var sync = [];
+var clockDiff = 0;
+let truscore = 0;
+let levelscore = 0;
+let deduction = 0;
+let level = 0;
+let sscore = util.Smoothbar(0, 10);
+var serverStart = 0,
+    gui = {
+        getStatNames: data => {
+            return [
+                    data?.body_damage ?? 'Body Damage',
+                    data?.max_health ?? 'Max Health',
+                    data?.bullet_speed ?? 'Bullet Speed',
+                    data?.bullet_health ?? 'Bullet Health',
+                    data?.bullet_pen ?? 'Bullet Penetration',
+                    data?.bullet_damage ?? 'Bullet Damage',
+                    data?.reload ?? 'Reload',
+                    data?.move_speed ?? 'Movement Speed',
+                    data?.shield_regen ?? 'Shield Regeneration',
+                    data?.shield_cap ?? 'Shield Capacity',
+                ]
+        },
+        skills: [
+            { amount: 0, color: 'purple', cap: 1, softcap: 1 },
+            { amount: 0, color: 'pink'  , cap: 1, softcap: 1 },
+            { amount: 0, color: 'blue'  , cap: 1, softcap: 1 },
+            { amount: 0, color: 'lgreen', cap: 1, softcap: 1 },
+            { amount: 0, color: 'red'   , cap: 1, softcap: 1 },
+            { amount: 0, color: 'yellow', cap: 1, softcap: 1 },
+            { amount: 0, color: 'green' , cap: 1, softcap: 1 },
+            { amount: 0, color: 'teal'  , cap: 1, softcap: 1 },
+            { amount: 0, color: 'gold'  , cap: 1, softcap: 1 },
+            { amount: 0, color: 'orange', cap: 1, softcap: 1 }
+        ],
+        points: 0,
+        upgrades: [],
+        playerid: -1,
+        __s: {
+            setScore: s => {
+                if (s) {
+                    sscore.set(s);
+                    if (deduction > sscore.get()) {
+                        level = 0;
+                        deduction = 0;
+                    }
+                } else {
+                    sscore = util.Smoothbar(0, 10);
+                    level = 0;
+                }
+            },
+            update: () => {
+                levelscore = Math.ceil(1.8 * Math.pow(level + 1, 1.8) - 2 * level + 1);
+                if (sscore.get() - deduction >= levelscore - 0.001) {
+                    deduction += levelscore;
+                    level += 1;
+                }
+            },
+            getProgress: () => levelscore ? Math.min(1, Math.max(0, (sscore.get() - deduction) / levelscore)) : 0,
+            getScore: () => sscore.get(),
+            getLevel: () => level,
+        },
+        type: 0,
+        root: "",
+        class: "",
+        fps: 0,
+        color: 0,
+        accel: 0,
+        topspeed: 1,
+    };
+let xx = 0,
+    yy = 0,
+    _vx = 0,
+    _vy = 0;
+var moveCompensation = {
+    reset: () => {
+        xx = 0;
+        yy = 0;
+    },
+    get: () => {
+        if (config.lag.unresponsive) {
+            return {
+                x: 0,
+                y: 0,
+            };
+        }
+        return {
+            x: xx,
+            y: yy,
+        };
+    },
+    iterate: (g) => {
+        if (global.died || global.gameStart) return 0;
+        // Add motion
+        let damp = gui.accel / gui.topSpeed,
+            len = Math.sqrt(g.x * g.x + g.y * g.y);
+        _vx += gui.accel * g.x / len;
+        _vy += gui.accel * g.y / len;
+        // Dampen motion
+        let motion = Math.sqrt(_vx * _vx + _vy * _vy);
+        if (motion > 0 && damp) {
+            let finalvelocity = motion / (damp / config.roomSpeed + 1);
+            _vx = finalvelocity * _vx / motion;
+            _vy = finalvelocity * _vy / motion;
+        }
+        xx += _vx;
+        yy += _vy;
+    },
+};
+const Integrate = class {
+    constructor(dataLength) {
+        this.dataLength = dataLength;
+        this.elements = {};
+    }
+    reset() {
+        this.elements = {};
+    }
+    update(delta, index = 0) {
+        let deletedLength = delta[index++]
+        for (let i = 0; i < deletedLength; i++) delete this.elements[delta[index++]]
+        let updatedLength = delta[index++]
+        for (let i = 0; i < updatedLength; i++) {
+            let id = delta[index++]
+            let data = delta.slice(index, index + this.dataLength)
+            index += this.dataLength
+            this.elements[id] = data
+        }
+        return index
+    }
+    entries() {
+        return Object.entries(this.elements).map(([id, data]) => ({
+            id: +id,
+            data
+        }))
+    }
+}
+const Minimap = class {
+    constructor(speed = 250) {
+        this.speed = speed
+        this.map = {}
+        this.lastUpdate = Date.now()
+    }
+    update(elements) {
+        this.lastUpdate = Date.now()
+        for (let [key, value] of Object.entries(this.map))
+            if (value.now) {
+                value.old = value.now
+                value.now = null
+            } else {
+                delete this.map[key]
+            }
+        for (let element of elements)
+            if (this.map[element.id]) {
+                this.map[element.id].now = element
+            } else {
+                this.map[element.id] = {
+                    old: null,
+                    now: element
+                }
+            }
+    }
+    get() {
+        let state = Math.min(1, (Date.now() - this.lastUpdate) / this.speed)
+        let stateOld = 1 - state
+        return Object.values(this.map).map(({ old, now }) => {
+            if (!now) return {
+                type: old.type,
+                id: old.id,
+                x: old.x,
+                y: old.y,
+                color: old.color,
+                size: old.size,
+                alpha: stateOld,
+                width: old.width,
+                height: old.height
+            }
+            if (!old) return {
+                type: now.type,
+                id: now.id,
+                x: now.x,
+                y: now.y,
+                color: now.color,
+                size: now.size,
+                alpha: state,
+                width: now.width,
+                height: now.height
+            }
+            return {
+                type: now.type,
+                id: now.id,
+                x: state * now.x + stateOld * old.x,
+                y: state * now.y + stateOld * old.y,
+                color: now.color,
+                size: state * now.size + stateOld * old.size,
+                alpha: 1,
+                width: state * now.width + stateOld * old.width,
+                height: state * now.height + stateOld * old.height
+            }
+        })
+    }
+}
+// Build the leaderboard object
+const Entry = class {
+    constructor(to) {
+        this.score = util.Smoothbar(0, 10, 3, .03);
+        this.update(to);
+    }
+    update(to) {
+        this.name = to.name;
+        this.bar = to.bar;
+        if (typeof to.bar === "string" && to.bar.includes(", ")) this.bar = +to.bar.split(", ")[0];
+        this.color = to.color;
+        this.index = to.index;
+        this.score.set(to.score);
+        this.old = false;
+        this.nameColor = to.nameColor;
+        this.id = to.id;
+        this.label = to.label;
+    }
+    publish() {
+        let indexes = this.index.split("-"),
+            ref = global.mockups[parseInt(indexes[0])];
+        return {
+            image: util.getEntityImageFromMockup(this.index, this.color),
+            position: ref.position,
+            barColor: this.bar,
+            label: this.name ? this.name + " - " + this.label : this.label,
+            score: this.score.get(),
+            nameColor: this.nameColor,
+        };
+    }
+};
+const Leaderboard = class {
+    constructor() {
+        this.entries = {};
+    }
+    get() {
+        let out = [];
+        let max = 1;
+        for (let value of Object.values(this.entries)) {
+            let data = value.publish();
+            out.push(data);
+            if (data.score > max) max = data.score;
+        }
+        out.sort((a, b) => b.score - a.score);
+        return {
+            data: out,
+            max
+        };
+    }
+    update(elements) {
+        elements.sort((a, b) => b.score - a.score);
+        for (let value of Object.values(this.entries)) value.old = true;
+        for (let element of elements)
+            if (this.entries[element.id]) this.entries[element.id].update(element);
+            else this.entries[element.id] = new Entry(element);
+        for (let [id, value] of Object.entries(this.entries))
+            if (value.old) delete this.entries[id];
+    }
+};
+let minimapAllInt = new Integrate(5),
+    minimapTeamInt = new Integrate(3),
+    leaderboardInt = new Integrate(7),
+    leaderboard = new Leaderboard(),
+    minimap = new Minimap(200);
+let lags = [];
+var lag = {
+    get: () => lags.length ? lags.reduce((a, b) => a + b) / lags.length : 0,
+    add: l => {
+        lags.push(l);
+        if (lags.length > config.lag.memory) {
+            lags.splice(0, 1);
+        }
+    }
+};
+var getNow = () => Date.now() - clockDiff - serverStart;
+// Inital setup stuff
+window.WebSocket = window.WebSocket || window.MozWebSocket;
+// Make a data crawler
+let crawlIndex = 0,
+    crawlData = [];
+const get = {
+    next: () => {
+        if (crawlIndex >= crawlData.length) {
+            console.log(crawlData);
+            throw new Error('Trying to crawl past the end of the provided data!');
+        } else {
+            return crawlData[crawlIndex++];
+        }
+    },
+    set: (data) => {
+        crawlData = data;
+        crawlIndex = 0;
+    },
+    all: () => crawlData.slice(crawlIndex),
+    take: amount => {
+        crawlIndex += amount;
+        if (crawlIndex > crawlData.length) {
+            console.error(crawlData);
+            throw new Error("Trying to crawl past the end of the provided data!");
+        }
+    }
+};
+function physics(g) {
+    g.isUpdated = true;
+    if (g.motion || g.position) {
+        // Simulate recoil
+        g.motion -= 0.2 * g.position;
+        g.position += g.motion;
+        if (g.position < 0) { // Bouncing off the back
+            g.position = 0;
+            g.motion = -g.motion;
+        }
+        if (g.motion > 0) {
+            g.motion *= 0.5;
+        }
+    }
+}
+// Some status manager constructors
+const GunContainer = n => {
+    let a = [];
+    for (let i = 0; i < n; i++) {
+        a.push({
+            motion: 0,
+            position: 0,
+            isUpdated: true,
+            configLoaded: false,
+            color: "",
+            borderless: false, 
+            drawFill: true, 
+            drawAbove: false,
+            length: 0,
+            width: 0,
+            aspect: 0,
+            angle: 0,
+            direction: 0,
+            offset: 0,
+        });
+    }
+    return {
+        getPositions: () => a.map(g => {
+            return g.position;
+        }),
+        getConfig: () => a.map(g => {
+            return {
+                color: g.color,
+                borderless: g.borderless, 
+                drawFill: g.drawFill,
+                drawAbove: g.drawAbove,
+                length: g.length,
+                width: g.width,
+                aspect: g.aspect,
+                angle: g.angle,
+                direction: g.direction,
+                offset: g.offset,
+            };
+        }),
+        setConfig: (ind, c) => {
+            let g = a[ind];
+            if (!g.configLoaded) {
+                g.configLoaded = true;
+                g.color = c.color;
+                g.borderless = c.borderless; 
+                g.drawFill = c.drawFill;
+                g.drawAbove = c.drawAbove;
+                g.length = c.length;
+                g.width = c.width;
+                g.aspect = c.aspect;
+                g.angle = c.angle;
+                g.direction = c.direction;
+                g.offset = c.offset;
+            }
+        },
+        update: () => {
+            for (let instance of a) {
+                physics(instance);
+            }
+        },
+        fire: (i, power) => {
+            if (a[i].isUpdated) a[i].motion += Math.sqrt(power) / 20;
+            a[i].isUpdated = false;
+        },
+        length: a.length,
+    };
+};
+function Status() {
+    let statState = 'normal',
+        statTime = getNow();
+    return {
+        set: val => {
+            if (val !== statState || statState === 'injured') {
+                if (statState !== 'dying') statTime = getNow();
+                statState = val;
+            }
+        },
+        getState: () => statState,
+        getFade: () => {
+            return (statState === 'dying' || statState === 'killed') ? 1 - Math.min(1, (getNow() - statTime) / 300) : 1;
+        },
+        getColor: () => {
+            return '#FFFFFF';
+        },
+        getBlend: () => {
+            let o = (statState === 'normal' || statState === 'dying') ? 0 :
+                statState === 'invuln' ? 0.125 + Math.sin((getNow() - statTime) / 33) / 8 :
+                1 - Math.min(1, (getNow() - statTime) / 80);
+            if (getNow() - statTime > 500 && statState === 'injured') {
+                statState = 'normal';
+            }
+            return o;
+        }
+    };
+}
+// Make a converter
+const process = (z = {}) => {
+    let isNew = z.facing == null; // For whatever reason arguments.length is uglified poorly...
+    // Figure out what kind of data we're looking at
+    let type = get.next();
+    // Handle it appropiately
+    if (type & 0x01) { // issa turret
+        z.facing = get.next();
+        z.layer = get.next();
+        z.index = get.next();
+        z.color = get.next();
+        z.size = get.next();
+        z.realSize = get.next();
+        z.sizeFactor = get.next();
+        z.angle = get.next();
+        z.direction = get.next();
+        z.offset = get.next();
+        z.mirrorMasterAngle = get.next();
+    } else { // issa something real
+        z.interval = global.metrics.rendergap;
+        z.id = get.next();
+        // Determine if this is an new entity or if we already know about it
+        let i = global.entities.findIndex(x => x.id === z.id);
+        if (i !== -1) {
+            // remove it if needed (this way we'll only be left with the dead/unused entities)
+            z = global.entities.splice(i, 1)[0];
+        }
+        // Change the use of the variable
+        isNew = i === -1;
+        // If it's not new, save the memory data
+        if (!isNew) {
+            z.render.draws = true; // yay!!
+            z.render.lastx = z.x;
+            z.render.lasty = z.y;
+            z.render.lastvx = z.vx;
+            z.render.lastvy = z.vy;
+            z.render.lastf = z.facing;
+            z.render.lastRender = global.player.time;
+        }
+        // Either way, keep pulling information
+        z.index = get.next();
+        z.x = get.next();
+        z.y = get.next();
+        z.vx = get.next();
+        z.vy = get.next();
+        z.size = get.next();
+        z.facing = get.next();
+        z.perceptionAngleIndependence = get.next(); //z.vfacing = get.next();
+        z.defaultAngle = get.next();
+        z.twiggle = get.next();
+        z.layer = get.next();
+        z.color = get.next();
+        let invuln = get.next();
+        // Update health, flagging as injured if needed
+        if (isNew) {
+            z.health = get.next() / 65535;
+            z.shield = get.next() / 65535;
+        } else {
+            let hh = z.health,
+                ss = z.shield;
+            z.health = get.next() / 65535;
+            z.shield = get.next() / 65535;
+            // Update stuff
+            if (z.health < hh || z.shield < ss) {
+                z.render.status.set('injured');
+            } else if (z.render.status.getFade() !== 1) {
+                // If it turns out that we thought it was dead and it wasn't
+                z.render.status.set('normal');
+            }
+        }
+        z.alpha = get.next() / 255;
+        z.drawsHealth = !!(type & 0x02); // force to boolean
+        // Nameplates
+        if (type & 0x04) { // has a nameplate
+            z.name = get.next();
+            z.score = get.next();
+        }
+        z.nameplate = type & 0x04;
+        // If it's new, give it rendering information
+        if (isNew) {
+            z.render = {
+                draws: false,
+                expandsWithDeath: z.drawsHealth,
+                lastRender: global.player.time,
+                x: z.x,
+                y: z.y,
+                lastx: z.x - global.metrics.rendergap * config.roomSpeed * (1000 / 30) * z.vx,
+                lasty: z.y - global.metrics.rendergap * config.roomSpeed * (1000 / 30) * z.vy,
+                lastvx: z.vx,
+                lastvy: z.vy,
+                lastf: z.facing,
+                f: z.facing,
+                h: z.health,
+                s: z.shield,
+                interval: global.metrics.rendergap,
+                slip: 0,
+                status: Status(),
+                health: util.Smoothbar(z.health, 0.5, 5, .15),
+                shield: util.Smoothbar(z.shield, 0.5, 5, .15),
+            };
+        }
+        if (invuln) {
+            z.render.status.set('invuln');
+        } else if (z.render.status.getState() === 'invuln') {
+            z.render.status.set('normal');
+        }
+        // Update the rendering healthbars
+        z.render.health.set(z.health);
+        z.render.shield.set(z.shield);
+        // Figure out if the class changed (and if so, refresh the guns and turrets)
+        if (!isNew && z.oldIndex !== z.index) isNew = true;
+        z.oldIndex = z.index;
+    }
+    // If it needs to have a gun container made, make one
+    let gunnumb = get.next();
+    if (isNew) {
+        z.guns = GunContainer(gunnumb);
+    } else if (gunnumb !== z.guns.length) {
+        throw new Error('Mismatch between data gun number and remembered gun number!');
+    }
+    // Decide if guns need to be fired one by one
+    for (let i = 0; i < gunnumb; i++) {
+        let time = get.next(),
+            power = get.next(),
+            color = get.next(),
+            borderless = get.next(),
+            drawFill = get.next(),
+            drawAbove = get.next(),
+            length = get.next(),
+            width = get.next(),
+            aspect = get.next(),
+            angle = get.next(),
+            direction = get.next(),
+            offset = get.next();
+        z.guns.setConfig(i, {color, borderless, drawFill, drawAbove, length, width, aspect, angle, direction, offset}); // Load gun config into container
+        if (time > global.player.lastUpdate - global.metrics.rendergap) z.guns.fire(i, power); // Shoot it
+    }
+    // Update turrets
+    let turnumb = get.next();
+    if (turnumb) {
+        let b = 1;
+    }
+    if (isNew) {
+        z.turrets = [];
+        for (let i = 0; i < turnumb; i++) {
+            z.turrets.push(process());
+        }
+    } else {
+        if (z.turrets.length !== turnumb) {
+            throw new Error('Mismatch between data turret number and remembered turret number!');
+        }
+        for (let tur of z.turrets) {
+            tur = process(tur);
+        }
+    }
+    // Return our monsterous creation
+    return z;
+};
+// This is what we use to figure out what the hell the server is telling us to look at
+const convert = {
+    begin: data => get.set(data),
+    // Make a data convertor
+    data: () => {
+        // Set up the output thingy+
+        let output = [];
+        // Get the number of entities and work through them
+        for (let i = 0, len = get.next(); i < len; i++) {
+            output.push(process());
+        }
+        // Handle the dead/leftover entities
+        for (let e of global.entities) {
+            // Kill them
+            e.render.status.set(e.health === 1 ? 'dying' : 'killed');
+            // And only push them if they're not entirely dead and still visible
+            if (e.render.status.getFade() !== 0 && util.isInView(e.render.x - global.player.renderx, e.render.y - global.player.rendery, e.size, true)) {
+                output.push(e);
+            } else {
+                if (e.render.textobjs != null) {
+                    for (let o of e.render.textobjs) {
+                        o.remove();
+                    }
+                }
+            }
+        }
+        // Save the new entities list
+        global.entities = output;
+        global.entities.sort((a, b) => {
+            let sort = a.layer - b.layer;
+            if (!sort) sort = b.id - a.id;
+            if (!sort) throw new Error('tha fuq is up now');
+            return sort;
+        });
+    },
+    // Define our gui convertor
+    gui: () => {
+        let index = get.next(),
+            // Translate the encoded index
+            indices = {
+                class: index & 0x0400,
+                root: index & 0x0200,
+                topspeed: index & 0x0100,
+                accel: index & 0x0080,
+                skills: index & 0x0040,
+                statsdata: index & 0x0020,
+                upgrades: index & 0x0010,
+                points: index & 0x0008,
+                score: index & 0x0004,
+                label: index & 0x0002,
+                fps: index & 0x0001,
+            };
+        // Operate only on the values provided
+        if (indices.fps) {
+            gui.fps = get.next();
+        }
+        if (indices.label) {
+            gui.type = get.next();
+            gui.color = get.next();
+            gui.playerid = get.next();
+        }
+        if (indices.score) {
+            gui.__s.setScore(get.next());
+        }
+        if (indices.points) {
+            gui.points = get.next();
+        }
+        if (indices.upgrades) {
+            gui.upgrades = [];
+            for (let i = 0, len = get.next(); i < len; i++) {
+                gui.upgrades.push(get.next().split("_"));
+            }
+        }
+        if (indices.statsdata) {
+            for (let i = 9; i >= 0; i--) {
+                gui.skills[i].name = get.next();
+                gui.skills[i].cap = get.next();
+                gui.skills[i].softcap = get.next();
+            }
+        }
+        if (indices.skills) {
+            let skk = get.next();
+            gui.skills[0].amount = parseInt(skk.slice( 0,  2), 16);
+            gui.skills[1].amount = parseInt(skk.slice( 2,  4), 16);
+            gui.skills[2].amount = parseInt(skk.slice( 4,  6), 16);
+            gui.skills[3].amount = parseInt(skk.slice( 6,  8), 16);
+            gui.skills[4].amount = parseInt(skk.slice( 8, 10), 16);
+            gui.skills[5].amount = parseInt(skk.slice(10, 12), 16);
+            gui.skills[6].amount = parseInt(skk.slice(12, 14), 16);
+            gui.skills[7].amount = parseInt(skk.slice(14, 16), 16);
+            gui.skills[8].amount = parseInt(skk.slice(16, 18), 16);
+            gui.skills[9].amount = parseInt(skk.slice(18, 20), 16);
+        }
+        if (indices.accel) {
+            gui.accel = get.next();
+        }
+        if (indices.topspeed) {
+            gui.topspeed = get.next();
+        }
+        if (indices.root) {
+            gui.root = get.next();
+        }
+        if (indices.class) {
+            gui.class = get.next();
+        }
+    },
+    broadcast: () => {
+        let all = get.all();
+        let by = minimapAllInt.update(all);
+        minimapTeamInt.reset();
+        by = minimapTeamInt.update(all, by);
+        by = leaderboardInt.update(all, by);
+        get.take(by);
+        let map = [];
+        for (let {
+            id,
+            data
+        } of minimapAllInt.entries()) {
+            map.push({
+                id,
+                type: data[0],
+                x: (data[1] * global.gameWidth) / 255,
+                y: (data[2] * global.gameHeight) / 255,
+                color: data[3],
+                size: data[4]
+            });
+        }
+        for (let {
+            id,
+            data
+        } of minimapTeamInt.entries()) {
+            map.push({
+                id,
+                type: 0,
+                x: (data[0] * global.gameWidth) / 255,
+                y: (data[1] * global.gameHeight) / 255,
+                color: data[2],
+                size: 0
+            });
+        }
+        minimap.update(map);
+        let entries = [];
+        for (let {
+            id,
+            data
+        } of leaderboardInt.entries()) {
+            entries.push({
+                id,
+                score: data[0],
+                index: data[1],
+                name: data[2],
+                color: data[3],
+                bar: data[4],
+                nameColor: data[5],
+                label: data[6],
+            })
+        }
+        leaderboard.update(entries);
+    }
+};
+
+const protocols = {
+    "http:": "ws://",
+    "https:": "wss://"
+};
+const socketInit = port => {
+    window.resizeEvent();
+    let socket = new WebSocket(protocols[location.protocol] + window.serverAdd);
+    // Set up our socket
+    socket.binaryType = 'arraybuffer';
+    socket.open = false;
+    // Handle commands
+    let flag = false;
+    let commands = [
+        false, // up
+        false, // down
+        false, // left
+        false, // right
+        false, // lmb
+        false, // mmb
+        false, // rmb
+        false,
+    ];
+    socket.cmd = {
+        set: (index, value) => {
+            if (commands[index] !== value) {
+                commands[index] = value;
+                flag = true;
+            }
+        },
+        talk: () => {
+            flag = false;
+            let o = 0;
+            for (let i = 0; i < 8; i++) {
+                if (commands[i]) o += Math.pow(2, i);
+            }
+            let ratio = util.getRatio();
+            socket.talk('C', Math.round(window.canvas.target.x / ratio), Math.round(window.canvas.target.y / ratio), o);
+        },
+        check: () => flag,
+        getMotion: () => ({
+            x: commands[3] - commands[2],
+            y: commands[1] - commands[0],
+        }),
+    };
+    // Learn how to talk
+    socket.talk = async (...message) => {
+        await new Promise(Resolve => setTimeout(Resolve, window.fakeLagMS));
+        // Make sure the socket is open before we do anything
+        if (!socket.open) return 1;
+        socket.send(protocol.encode(message));
+    };
+    // Websocket functions for when stuff happens
+    // This is for when the socket first opens
+    socket.onopen = function socketOpen() {
+        socket.open = true;
+        global.message = 'Please wait while a connection attempt is being made.';
+        socket.talk('k', global.playerKey);
+        console.log('Token submitted to the server for validation.');
+        // define a pinging function
+        socket.ping = payload => socket.talk('p', payload);
+        socket.commandCycle = setInterval(() => {
+            if (socket.cmd.check()) socket.cmd.talk();
+        });
+    };
+    // Handle incoming messages
+    socket.onmessage = async function socketMessage(message) {
+        await new Promise(Resolve => setTimeout(Resolve, window.fakeLagMS));
+        // Make sure it looks legit.
+        let m = protocol.decode(message.data);
+        if (m === -1) {
+            throw new Error('Malformed packet.');
+        }
+        // Decide how to interpret it
+        switch (m.shift()) {
+            case 'w': // welcome to the game
+                if (m[0]) { // Ask to spawn
+                    console.log('The server has welcomed us to the game room. Sending spawn request.');
+                    socket.talk('s', global.playerName, 1, 1 * config.game.autoLevelUp);
+                    global.message = '';
+                }
+            break;
+            case 'o':
+                console.log('The game will reconnect soon.');
+                global.message = 'Arena is closed. You can wait until the server restarts or try another server.';
+                global.closingSplash = m[1] || "";
+                break;
+                case 'sancdiedFforyou':
+                    console.log('Red has lost the game so cannot spawn!');
+                    global.message = 'You cannot respawn as all of your sanctuaries died. You need at least 1 sanctuary to respawn.';
+                    global.sancdiedripforyouanyways = m[1] || "";
+                    break;
+                case '|':
+                    console.log('Restart the page to continue playing!');
+                    global.message = 'The connection has closed. You can rejoin to regain your score.';
+                    
+                    break;
+                    case '$': // afk
+                    console.log('You got disconnected for being afk!');
+                    global.message = 'The connection has closed due to AFK timeout.'
+                    break;
+                    case '?': // kicked
+                    console.log('You got kicked of the game, rejoin!');
+                    global.message = 'You got kicked from the game. You can rejoin by reloading the page or try another server.'
+                    break;
+                    case 'kickthisnub': // kicked
+                    console.log('kicked for sending bad word');
+                    global.message = 'You got kicked from the game for sending an inappropriate message. You can rejoin by reloading the page or try another server.'
+                    break;
+                    case 'LONGSUSSYCHANGE': // kicked
+                    console.log('kicked for using a long name');
+                    global.message = 'You are using a long name. Please make sure your name is not higher than 48 characters.'
+                    break;
+                    case 'badname': // kicked
+                    console.log('kicked for using a bad name');
+                    global.message = 'You are using an inappropriate name. Please change your name and do not use offensive names.'
+                    break;
+                    case 'betacannotjoinwithnotoken': // kicked
+                    console.log('kicked for joining without token');
+                    global.message = 'You cannot get access to the server as you need a valid token.'
+                    break;
+                    case 'toomanytabswtf': // kicked
+                    console.log('kicked for having more than 2 tabs');
+                    global.message = 'You have too many tabs open. Please close some tabs and then try rejoining again.'
+                    break;
+                    case 'seekyboy': // kicked
+                    console.log('kicked for trying to join while hideandseek already started');
+                    global.message = 'You cannot join the server as the game has already started. Wait a few minutes until the server restarts.'
+                    break;
+                    case 'bansussy':
+                        console.log('You got temporarily banned of the game, wait now!');
+                        global.message = 'You got temporarily banned from the game. You will be able to rejoin after a server restart.'
+                        break;
+                        case 'vpnissoweird':
+                            console.log('You have a vpn, kicking!');
+                            global.message = "For suspicious activities, your IP address has been blacklisted. If you're using a VPN/Proxy, please turn it off."
+                            break;
+                        case 'overload':
+                            console.log('Server overloaded! Restarting...');
+                            global.message = 'The server has been overloaded! You can rejoin reload the page or try another server.'
+                            break;
+            case 'R': // room setup
+                global.gameWidth = m[0];
+                global.gameHeight = m[1];
+                global.roomSetup = JSON.parse(m[2]);
+                serverStart = JSON.parse(m[3]);
+                config.roomSpeed = m[4];
+                console.log('Room data recieved. Commencing syncing process.');
+                // Start the syncing process
+                socket.talk('S', getNow());
+                break;
+            case "r":
+                global.gameWidth = m[0];
+                global.gameHeight = m[1];
+                global.roomSetup = JSON.parse(m[2]);
+                break;
+            case 'c': // force camera move
+                global.player.renderx = global.player.cx = m[0];
+                global.player.rendery = global.player.cy = m[1];
+                global.player.renderv = global.player.view = m[2];
+                global.player.nameColor = m[3];
+                console.log('Camera moved!');
+                break;
+                case 'S': // clock syncing
+                let clientTime = m[0],
+                    serverTime = m[1],
+                    laten = (getNow() - clientTime) / 2,
+                    delta = getNow() - laten - serverTime;
+                // Add the datapoint to the syncing data
+                sync.push({ delta: delta, latency: laten });
+                // Do it again a couple times
+                if (sync.length < 100) {
+                    // Wait a bit just to space things out
+                    setTimeout(() => socket.talk('S', getNow()), -1);
+                    global.message = "Loading... " + sync.length + "%";
+                } else {
+                    // Calculate the clock error
+                    sync.sort((e, f) => e.latency - f.latency);
+                    let median = sync[Math.floor(sync.length / 2)].latency;
+                    let sd = 0,
+                        sum = 0,
+                        valid = 0;
+                    for (let e of sync) {
+                        sd += Math.pow(e.latency - median, 2);
+                    }
+                    sd = Math.sqrt(sd / sync.length);
+                    for (let e of sync) {
+                        if (Math.abs(e.latency - median) < sd) {
+                            sum += e.delta;
+                            valid++;
+                        }
+                    }
+                    clockDiff = Math.round(sum / valid);
+                    // Start the game
+                    console.log(sync);
+                    console.log('Syncing complete, calculated clock difference ' + clockDiff + 'ms. Beginning game.');
+                    global.gameStart = true;
+                    global.entities = [];
+                    global.message = '';
+                    setTimeout(() => {
+                        global.message = "The connection has closed. You may attempt to regain your score by rejoining, or you can try another server.";
+                    }, 130);
+                }
+                setTimeout(() => {
+                    if (!global.AllowStartGame) {
+                        setTimeout(() => {
+                            global.connectingmsg = "Connecting...";
+                        }, 1000);
+                        
+                    }
+                });
+                break;
+            
+            case 'm': // message
+                global.messages.push({
+                    text: m[0],
+                    status: 2,
+                    alpha: 0,
+                    time: Date.now(),
+                    
+                });
+                break;
+                case 'jkljk': // message
+                global.messages1.push({
+                    text: m[0],
+                    status: 2,
+                    alpha: 0,
+                    time: Date.now(),
+                    
+                });
+                break;
+                case 'qawanei': // message
+                global.messages2.push({
+                    text: m[0],
+                    status: 2,
+                    alpha: 0,
+                    time: Date.now(),
+                    
+                });
+                break;
+                case 'qawanei1': // message
+                global.messages3.push({
+                    text: m[0],
+                    status: 2,
+                    alpha: 0,
+                    time: Date.now(),
+                    
+                });
+                break;
+                case 'qawanei2': // message
+                global.messages4.push({
+                    text: m[0],
+                    status: 2,
+                    alpha: 0,
+                    time: Date.now(),
+                    
+                });
+                break;
+                case 'qawanei3': // message
+                global.messages5.push({
+                    text: m[0],
+                    status: 2,
+                    alpha: 0,
+                    time: Date.now(),
+                    
+                });
+                break;
+                
+            case 'u': // uplink
+                // Pull the camera info
+                let camtime = m[0],
+                    camx = m[1],
+                    camy = m[2],
+                    camfov = m[3],
+                    camvx = m[4],
+                    camvy = m[5],
+                    // We'll have to do protocol decoding on the remaining data
+                    theshit = m.slice(6);
+                // Process the data
+                if (camtime > global.player.lastUpdate) { // Don't accept out-of-date information.
+                    // Time shenanigans
+                    lag.add(getNow() - camtime);
+                    global.player.time = camtime + lag.get();
+                    global.metrics.rendergap = camtime - global.player.lastUpdate;
+                    if (global.metrics.rendergap <= 0) {
+                        console.log('yo some bullshit is up wtf');
+                    }
+                    global.player.lastUpdate = camtime;
+                    // Convert the gui and entities
+                    convert.begin(theshit);
+                    convert.gui();
+                    convert.data();
+                    // Save old physics values
+                    global.player.lastx = global.player.cx;
+                    global.player.lasty = global.player.cy;
+                    global.player.lastvx = global.player.vx;
+                    global.player.lastvy = global.player.vy;
+                    // Get new physics values
+                    global.player.cx = camx;
+                    global.player.cy = camy;
+                    global.player.vx = global.died ? 0 : camvx;
+                    global.player.vy = global.died ? 0 : camvy;
+                    // Figure out where we're rendering if we don't yet know
+                    if (isNaN(global.player.renderx)) {
+                        global.player.renderx = global.player.cx;
+                    }
+                    if (isNaN(global.player.rendery)) {
+                        global.player.rendery = global.player.cy;
+                    }
+                    moveCompensation.reset();
+                    // Fov stuff
+                    global.player.view = camfov;
+                    if (isNaN(global.player.renderv) || global.player.renderv === 0) {
+                        global.player.renderv = 2000;
+                    }
+                    // Metrics
+                    global.metrics.lastlag = global.metrics.lag;
+                    global.metrics.lastuplink = getNow();
+                } else {
+                    console.log("Old data! Last given time: " + global.player.time + "; offered packet timestamp: " + camtime + ".");
+                }
+                // Send the downlink and the target
+                socket.talk('d', Math.max(global.player.lastUpdate, camtime));
+                socket.cmd.talk();
+                global.updateTimes++; // metrics
+                break;
+            case "b":
+                convert.begin(m);
+                convert.broadcast();
+                break;
+
+            case 'p': // ping
+                global.metrics.latency = global.time - m[0];
+                break;
+            case 'F': // to pay respects
+                global.finalScore = util.Smoothbar(0, 4);
+                global.finalScore.set(m[0]);
+                global.finalLifetime = util.Smoothbar(0, 5);
+                global.finalLifetime.set(m[1]);
+                global.finalKills = [util.Smoothbar(0, 3), util.Smoothbar(0, 4.5), util.Smoothbar(0, 2.5), util.Smoothbar(0, 10)];
+                global.finalKills[0].set(m[2]);
+                global.finalKills[1].set(m[3]);
+                global.finalKills[2].set(m[4]);
+                global.finalKills[3].set(m[5]);
+                global.finalKillers = [];
+                for (let i = 0; i < m[6]; i++) {
+                    global.finalKillers.push(m[7 + i]);
+                }
+                window.animations.deathScreen.reset();
+                global.died = true;
+                window.onbeforeunload = () => false;
+                break;
+            case 'K': // kicked
+                window.onbeforeunload = () => false;
+                break;
+                case 'OPED':
+                    window.onbeforeunload = () => false;
+                    break;
+            case 'z': // name color
+                console.log(m[0]);
+                global.nameColor = m[0];
+                break;
+            case 'CHAT_MESSAGE_ENTITY':
+                get.set(m);
+                global.chats = {};
+
+                for (let i = get.next(); i; i--) {
+                    let spamCollection = [];
+                    global.chats[get.next()] = spamCollection;
+
+                    for (let j = get.next(); j; j--) {
+                        spamCollection.push({
+                            text: get.next(),
+                            expires: parseFloat(get.next())
+                        });
+                    }
+                }
+                break;
+            default:
+                throw new Error('Unknown message index.');
+        }
+    };
+    // Handle closing
+    socket.onclose = () => {
+        socket.open = false;
+        global.disconnected = true;
+        clearInterval(socket.commandCycle);
+        window.onbeforeunload = () => false;
+        console.log('The connection has closed.');
+    };
+
+
+    // Notify about errors
+    socket.onerror = error => {
+        console.log('WebSocket error: ' + error);
+        global.message = 'Socket error. Please try another server or clear your cache.';
+    };
+    // Gift it to the rest of the world
+    return socket;
+};
+
+export { socketInit, gui, leaderboard, minimap, moveCompensation, lag, getNow };
