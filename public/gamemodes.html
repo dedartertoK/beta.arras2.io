@@ -86,6 +86,7 @@
             text-decoration: none;
             font-size: 30px;
             color: black;
+            
             font-family: 'Press Start 2P', cursive;
             opacity: 1; /* Initial opacity */
             transition: color 0.5s; /* Add transition property for opacity and color change */
@@ -203,20 +204,50 @@ animation:  colorTransition 0.5s infinite alternate;
                     color: rgb(0, 255, 64);
                 }
             }
+            .back-to-home {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            padding: 10px;
+text-decoration: none;
+            border: 2px solid white;
+            border-radius: 5px;
+            cursor: pointer;
+            z-index: 10000;
+            font-family: 'Press Start 2P', cursive;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-to-home::before {
+            content: '🡲';
+            color: white;
+            font-size: 20px;
+            display: inline-block;
+            vertical-align: middle;
+
+            transform: scaleX(-1); /* Flip the character horizontally */
+
+        }
+
+        .back-to-home:hover {
+            background-color: rgb(41, 207, 0);
+        }
     </style>
 </head>
 <body oncontextmenu="return event.target.tagName === 'A'">
     <a class="redirect">Select Gamemode:</a>
+    <a href="https://arras2.io" class="back-to-home"></a>
     <h1>
         <a class="d-day" href="https://dday.arras2.io" data-tooltip="D-Day: The allies, which are blue, have more tanks than the Axis powers, which are red.<br>For the allies to win, they must invade and destroy the red central base on the bottom right, which is unlocked by destroying all of their dominators scattered on the map.<br>For the Axis powers to win, they must guard all of their dominators and base and keep at least 4 of them continuously for 8 minutes.">
             D-DAY
             <span class="tooltip">D-Day: The allies, which are blue, have more tanks than the Axis powers, which are red.<br>For the allies to win, they must invade and destroy the red central base on the bottom right, which is unlocked by destroying all of their dominators scattered on the map.<br>For the Axis powers to win, they must guard all of their dominators and base and keep at least 4 of them continuously for 8 minutes.</span>
         </a>
     </h1>
-    <h1><a class="d-day" href="https://boss.arras2.io" data-tooltip="Boss Rush: You're all on the same team and you will have to kill the bosses that spawn to kill all your 9 sanctuaries! There are 100 waves and each waves bosses spawn and if you pass the 100th wave, you win the game! If all of your sanctuaries are dead by the bosses, there will be a timer of 90 seconds to let you recover at least 1 of your sanctuary to respawn back. You will not be able to respawn once you die until one of your team recovers at least 1 of the sanctuaries. If the 90 seconds are passed and you haven't recovered 1 of the sanctuaries, you lose the game! To make the gamemode easier and fun, there are some eggs that spawn and if they die, a friendly boss spawn and join your team! There are 2 types of eggs: Mysterious Egg and Ultra Mysterious Egg. It will spawn 5 mysterious eggs at the same time on a random wave and 3 ultra mysterious egg on a random wave!">BOSS RUSH<span class="tooltip">Boss Rush: You're all on the same team and you will have to kill the bosses that spawn to kill all your 9 sanctuaries! There are 100 waves and each waves bosses spawn and if you pass the 100th wave, you win the game! If all of your sanctuaries are dead by the bosses, there will be a timer of 90 seconds to let you recover at least 1 of your sanctuary to respawn back. You will not be able to respawn once you die until one of your team recovers at least 1 of the sanctuaries. If the 90 seconds are passed and you haven't recovered 1 of the sanctuaries, you lose the game! To make the gamemode easier and fun, there are some eggs that spawn and if they die, a friendly boss spawn and join your team! There are 2 types of eggs: Mysterious Egg and Ultra Mysterious Egg. It will spawn 5 mysterious eggs at the same time on a random wave and 3 ultra mysterious egg on a random wave!</span></a></h1>
+    <h1><a class="d-day" href="https://boss.arras2.io" data-tooltip="Boss Rush: You're all on the same team and you will have to kill the bosses that spawn to kill all your 9 sanctuaries! There are 100 waves and each waves bosses spawn and if you pass the 100th wave, you win the game! If all of your sanctuaries are dead by the bosses, there will be a timer of 90 seconds to let you recover at least 1 of your sanctuary to respawn back. You will not be able to respawn once you die until one of your team recovers at least 1 of the sanctuaries. If the 90 seconds are passed and you haven't recovered 1 of the sanctuaries, you lose the game! To make the gamemode easier and fun, there are some eggs that spawn and if they die, a friendly boss spawn and join your team! There are 3 types of eggs: Mysterious Egg, Ultra Mysterious Egg and Legendary Mysterious Egg. It will spawn 5 mysterious eggs at the same time on a random wave, 3 ultra mysterious egg on a random wave and 1 legendary mysterious egg on a random wave!">BOSS RUSH<span class="tooltip">Boss Rush: You're all on the same team and you will have to kill the bosses that spawn to kill all your 9 sanctuaries! There are 100 waves and each waves bosses spawn and if you pass the 100th wave, you win the game! If all of your sanctuaries are dead by the bosses, there will be a timer of 90 seconds to let you recover at least 1 of your sanctuary to respawn back. You will not be able to respawn once you die until one of your team recovers at least 1 of the sanctuaries. If the 90 seconds are passed and you haven't recovered 1 of the sanctuaries, you lose the game! To make the gamemode easier and fun, there are some eggs that spawn and if they die, a friendly boss spawn and join your team! There are 3 types of eggs: Mysterious Egg, Ultra Mysterious Egg and Legendary Mysterious Egg. It will spawn 5 mysterious eggs at the same time on a random wave, 3 ultra mysterious egg on a random wave and 1 legendary mysterious egg on a random wave!</span></a></h1>
     <h1><a class="d-day" href="https://mothership.arras2.io" data-tooltip="Mothership: There are 2 teams: Blue and Red. Each team will be attended by a ship which is called mothership! A team has to kill the opponent's mothership to win the game!">MOTHERSHIP<span class="tooltip">Mothership: There are 2 teams: Blue and Red. Each team will be attended by a ship which is called mothership! A team has to kill the opponent's mothership to win the game!</span></a></h1>
     <h1><a class="d-day" href="https://domination.arras2.io" data-tooltip="Domination: There are 2 teams: Blue and Red. There are 4 yellow dominators on the map and a team has to kill all the 4 of them to win the game!">DOMINATION<span class="tooltip">Domination: There are 2 teams: Blue and Red. There are 4 yellow dominators on the map and a team has to kill all the 4 of them to win the game!</span></a></h1>
     <h1><a class="d-day" href="https://closed.arras2.io" data-tooltip="Closed Beta: A server only accesible for people who have the token, in this server you will be able to see the future updates of this game! If you want to get access, ask me on discord but don't begging for it">CLOSED BETA (Required permissions)<span class="tooltip">Closed Beta: A server only accesible for people who have the token, in this server you will be able to see the future updates of this game! If you want to get access, ask me on discord but don't begging for it</span></a></h1>
-    <h1><a class="d-day" href="https://hideandseek.arras2.io" data-tooltip="Hide and Seek: You're a hider and you will have to hide from a dangerous entity: The seeker, for 3 minutes. If all of the hiders get killed by the seekers, you lose the game! To win, you must escape from the seekers for 3 minutes. There will be a timer of 3 minutes before the game starts to let you chooose the spot you want to hide. You cannot play as a seeker for now. This is an event that will be removed in a few days and might comeback in the future so don't miss it!">HIDE AND SEEK<span class="tooltip">Hide and Seek: You're a hider and you will have to hide from a dangerous entity: The seeker, for 3 minutes. If all of the hiders get killed by the seekers, you lose the game! To win, you must escape from the seekers for 3 minutes. There will be a timer of 3 minutes before the game starts to let you chooose the spot you want to hide. You cannot play as a seeker for now. This is an event that will be removed in a few days and might comeback in the future so don't miss it!</span></a></h1>
+    <h1><a class="d-day" href="https://hideandseek.arras2.io" data-tooltip="Hide and Seek: You're a hider and you will have to hide from a dangerous entity: The seeker, for 3 minutes. If all of the hiders get killed by the seekers, you lose the game! To win, you must escape from the seekers for 3 minutes. There will be a timer of 3 minutes before the game starts to let you choose the spot you want to hide. You cannot play as a seeker for now. This is an event that will be removed in a few days and might comeback in the future so don't miss it!">HIDE AND SEEK<span class="tooltip">Hide and Seek: You're a hider and you will have to hide from a dangerous entity: The seeker, for 3 minutes. If all of the hiders get killed by the seekers, you lose the game! To win, you must escape from the seekers for 3 minutes. There will be a timer of 3 minutes before the game starts to let you choose the spot you want to hide. You cannot play as a seeker for now. This is an event that will be removed in a few days and might comeback in the future so don't miss it!</span></a></h1>
 </body>
 </html>
