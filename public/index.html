@@ -122,12 +122,12 @@ animation:  colorTransition 0.5s infinite alternate;
             opacity: 1; /* Reset opacity after color change */
         }
 
-        .redirect {
+        .redirect5 {
             text-decoration: none;
             font-size: 30px;
             color: black;
             font-family: 'Press Start 2P', cursive;
-
+cursor: pointer;
             opacity: 1; /* Initial opacity */
             transition: color 0.5s; /* Add transition property for opacity and color change */
             animation:  colorTransition 0.5s infinite alternate; 
@@ -138,9 +138,12 @@ animation:  colorTransition 0.5s infinite alternate;
     opacity: 1; /* Initial opacity */
 }
 
-     
+.redirect5:hover {
+      
+            opacity: 0.5; /* Reset opacity after color change */
+        }
 
-        .redirect.clicked {
+        .redirect5.clicked {
             color: grey; /* Change color when the link is active (clicked) */
             opacity: 1; /* Reset opacity after color change */
         }
@@ -297,7 +300,7 @@ h20 {
     <img width=150 height=150 src="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268" class="icon" alt="arras icon">
     <h1>Arras<b class="color-transition">2</b>.io</h1>
     <div class="links-container">
-        <a id="play-btn" class="redirect">PLAY</a>
+        <a id="play-btn" class="redirect5">PLAY</a>
         <a class="d-day" id="changelog-btn">CHANGELOG</a>
         <a class="d-day" id="about-btn">ABOUT</a>
 
