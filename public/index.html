@@ -1,811 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Meta Properties -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Arras2.io is a fan-made sequel of arras.io. Escape from attackers and shoot everyone while staying alive!">
-    <meta property="og:image" content="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
-    <!-- ... (other meta tags) ... -->
-    <title>Arras2.io</title>
-    <!-- CSS -->
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
-    <link rel="stylesheet" href="/main.css">
-   <link rel="icon" type="image/png" sizes="16x16 32x32 64x64 128x128 256x256" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
-	<style>.btn,.checkbox,.dialog{background-color:#5865f2!important}.checkbox:after{background-color:hsla(0,0%,100%,.3)!important;transition:.2s all!important}[stroke]:after{color:#eee!important}.btn-icon{display:none!important}.gamemodes,.gold-preview,.squad-btn{transition:.5s all}.grid-pushup .gamemodes,.grid-pushup .gold-preview,.grid-pushup .squad-btn{opacity:0!important;transform:scale(0)}.squad .dialog-content{overflow-x:hidden}.gamemodes{background:rgba(0,0,0,.3)!important}.gamemodes .btn{font-size:12px!important;padding:4px 3px!important}.shop{background:#813400!important}.btn-disabled{opacity:.5;pointer-events:none}.lb{right:15px!important;top:15px!important;width:180px!important}.lb-content,.lb-header{border:none!important;padding:0!important;background:0 0!important}.lb-header{margin-bottom:10px;font-size:18px}.lb-item{border-width:2px!important}.ad-overlay{display:none!important}.menu{position:fixed;left:0;top:0;width:100vw;height:100vh;background-color:#754200}.game{position:fixed;left:50vw;top:50vh;width:0;height:0;transform:translate(-50%,-50%);border-radius:50%;background:#333;overflow:hidden;transition-property:width,height;pointer-events:none;z-index:11}.game:after{content:' ';position:absolute;left:0;top:0;width:100%;height:100%;border-radius:inherit;box-shadow:inset 0 0 0 7px #000;pointer-events:none}.game-show{pointer-events:all}.game-content{position:absolute;left:50%;top:50%;width:100vw;height:100vh;transform:translate(-50%,-50%)}.menu-btns{position:absolute;left:10px;bottom:10px;display:grid;grid-gap:7px;grid-auto-flow:row}.btn{color:#fff;font-size:25px;display:flex;justify-content:center;align-items:center;background:#aeaeae;border:3px solid rgba(0,0,0,.2);padding:8px;border-radius:4px;cursor:pointer;position:relative}.btn,label{-webkit-tap-highlight-color:transparent}.btn:after{content:' ';position:absolute;left:0;top:0;width:100%;height:100%}.btn:not(.btn-active):hover:after{background:hsla(0,0%,100%,.2)}.btn:not(.btn-active):active:after,.tabs .btn-active:after{background:rgba(0,0,0,.1)}.gamemodes .btn-active{border-color:hsla(0,0%,100%,.4)}.btn>*{z-index:1}[tooltip]{position:relative}[tooltip]:before{content:attr(tooltip);position:absolute;left:50%;bottom:100%;transform:translate(-50%,-5px);font-family: Ubuntu1;background:rgba(0,0,0,.5);color:#fff;white-space:nowrap;pointer-events:none;opacity:0;transition:opacity .5s;text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;padding:5px;border-radius:4px;font-size:20px;z-index:2}[tooltip]:hover:before{opacity:1}.menu-btns [tooltip]:before{left:100%;top:50%;bottom:unset;transform:translate(10px,-50%);font-size:20px}[stroke]{position:relative}[stroke]:before{content:attr(stroke);-webkit-text-stroke:0.1em #000}[stroke]:after{content:attr(stroke);color:#fff;position:absolute;left:0;top:0}.dialog{position:absolute;left:70px;background:#aeaeae;border:5px solid rgba(0,0,0,.2);border-radius:5px;padding:5px;bottom:0;transform:translate(0,100%);transition:all .2s;display:flex;flex-direction:column;opacity:0}.dialog-show{opacity:1;bottom:10px;transform:none;z-index:1}.dialog-header{display:flex;flex-direction:row;margin-bottom:10px}.dialog-title{font-size:20px;width:100%;display:grid;place-items:center}.dialog-close{width:20px;height:20px;font-size:18px;padding:0;background:#b55;color:hsla(0,0%,100%,.6)}.dialog-content{font-size:13px;max-height:200px;overflow-y:auto}.dialog-btns{display:grid;grid-auto-flow:row;grid-gap:4px}.dialog-btns .btn{padding:4px;font-size:inherit}label{display:flex;align-items:center;cursor:pointer;margin-bottom:5px}.checkbox{width:24px;height:24px;background:#666;border:4px solid rgba(0,0,0,.2);border-radius:2px;appearance:none;-webkit-appearance:none;position:relative;margin-right:8px;cursor:pointer}.checkbox:after{content:' ';position:absolute;left:50%;top:50%;width:0;height:0;background:#ccc;transition:all .5s;transform:translate(-50%,-50%)}.checkbox:checked:after{width:100%;height:100%}.log-line{width:100%;height:5px;border-radius:2.5px;background:rgba(0,0,0,.2);margin-bottom:5px}.log-title{font-size:16px}.log-content{margin:10px 7px;font-size:12px}::-webkit-scrollbar{width:5px}::-webkit-scrollbar-thumb{background:rgba(0,0,0,.2);border-radius:2.5px}.grid{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);display:grid;place-items:center;grid-gap:5px;grid-template-areas:"game-title game-title game-title" ". nickname-info ." "shop-btn nickname play-btn" ". gamemodes squad-btn";opacity:0;transition:all .4s}.grid-show{opacity:1}.grid-show .nickname{margin-bottom:0}.grid-pushup{margin-top:-125px}.mobile .grid-pushup{margin-top:-145px}.game-title{top:0;transition:all .4s}.mobile .grid-pushup .game-title{top:-50px}.mobile .grid{transform:translate(-50%,-50%) scale(.85)}.connecting{position:absolute;left:50%;top:-200px;transform:translate(-50%,-100%);font-size:40px;opacity:0}.connecting-show{top:50%;opacity:1}.connecting,.nickname{transition:all 1s cubic-bezier(.11, .69, .3, .98)}.game-title{font-size:50px;margin-bottom:20px;grid-area:game-title}.nickname-info{grid-area:nickname-info}.nickname{grid-area:nickname;place-self:stretch;font-size:24px;margin-bottom:800px}.play-btn,.shop-btn,.squad-btn{border-width:4px;border-radius:6px;font-size:23px;padding:5px 7px;place-self:start}.shop-btn{grid-area:shop-btn;background:#d1cb1d}.play-btn{grid-area:play-btn;background:#1dd129}.squad-btn{grid-area:squad-btn;background:#d1801d;font-size:17px}.gamemodes{grid-area:gamemodes;background:rgba(0,0,0,.5);padding:5px;border-radius:5px;display:grid;grid-auto-flow:column;grid-gap:10px}.gamemodes .btn{border-width:3.5px;padding:3px;border-radius:5px;font-size:15px;width:50px}.continue-btn{background:#1dd129;border-width:4px;border-radius:6px;font-size:18px;padding:4px 12px}.textbox{border:4px solid #000;padding:4px;width:250px;background:#eee;font-family:inherit;outline:0}.btn-icon{color:rgba(0,0,0,.2);font-size:1.15em;margin-left:8px}.gold-preview{position:absolute;bottom:5px;left:5px;border-radius:4px;font-size:12px;padding:4px 8px;background:rgba(0,0,0,.5);color:#fff;pointer-events:none;display:flex;flex-direction:row;align-items:center}.gold-preview i{color:#e9e21c;margin-left:0;margin-right:6px}.gold-preview span{margin:0 auto}.shop-btn .gold-preview{bottom:unset;top:100%;left:50%;transform:translate(-50%,0);margin-top:4px;border-top-left-radius:0;border-top-right-radius:0;min-width:42px}::selection{color:#fff;background:rgba(0,0,0,.5)}::placeholder{color:rgba(0,0,0,.3)}.settings .dialog-content{width:200px;max-height:100%}.changelog{width:300px;background:#5a9fdb}.lb{position:absolute;right:10px;top:10px;width:160px;opacity:.9}.lb,.lb-btn{transition:.5s}.slide-up{transform:translate(0,-150%)}.lb-btn{position:absolute;right:10px;top:10px;background:#50a650;color:#dfdfdf;border-width:4px;border-radius:6px;padding:6px;pointer-events:all}.lb-header{border:4px solid #a1a1a1;border-radius:4px 4px 0 0;background:#c7c7c7;padding:4px;font-size:15px;text-align:center}.lb-content{border:4px solid #454545;background:#555;padding:9px;border-top:none;border-radius:0 0 4px 4px;display:grid;grid-gap:6px;grid-auto-flow:row}.lb-item{background:#444;width:100%;height:12px;border-radius:6px;font-size:11px;display:flex;align-items:center;justify-content:center;position:relative;box-shadow:0 0 0 1px #444;overflow:hidden}.lb span{white-space:nowrap}.my-lb-item{background:#fff;box-shadow:0 0 0 1px #fff}.lb-bar{position:absolute;top:0;left:0;width:0;min-width:12px;height:100%;background:#bbb;border-radius:inherit}.score .overlay{transition-duration:1s}.gameover{position:absolute;left:0;top:0;width:100%;height:100%;display:grid;place-items:center;animation:gameover .5s forwards}@keyframes gameover{from{background:rgba(0,0,0,0)}to{background:rgba(0,0,0,.3)}}.gameover-info{display:grid;place-items:center;grid-gap:4px;grid-auto-flow:row;position:relative;animation:gameover-info 1s forwards;font-size:13px}@keyframes gameover-info{from{bottom:80vh}to{bottom:0}}.killer{font-size:18px;margin-bottom:6px}.stats{position:absolute;left:15px;padding-bottom:15px;display:grid;grid-gap:4px;font-size:11px}.stats-title{font-size:17px;margin-bottom:2px}.score-graph{position:absolute;left:0;width:100%;height:100px}.score-graph,.stats{bottom:0;animation:slide-up 1s forwards}@keyframes slide-up{from{transform:translate(0,100%)}to{transform:none}}.overlay{position:absolute;left:0;top:0;width:100%;height:100%;background:rgba(0,0,0,.5);opacity:0;pointer-events:none;transition:all .4s}.overlay-show{opacity:1;pointer-events:all}.modal1{z-index:10;transition-duration:.4s;transform:scale(0);opacity:0}.modal1.dialog-show{transform:scale(1);opacity:1}.shop{position:absolute;left:50%;top:50%;width:500px;height:380px;margin-left:-250px;margin-top:-190px;background:#784400;padding:0}.fullsize-shop{top:0;left:0;width:100%;height:100%;margin-left:0;margin-top:0;box-sizing:border-box;transform-origin:center}.shop .dialog-header{padding:4px}.shop .dialog-content{height:100%;max-height:unset;margin:7px;margin-top:0;display:grid;grid-auto-flow:row;grid-gap:10px;align-items:start;align-content:start}.shop-row{display:grid;grid-auto-flow:column;place-content:center;grid-gap:10px}.tabs{background:rgba(0,0,0,.35);padding:5px 0;display:grid;grid-auto-flow:column;place-items:center;place-content:center;grid-gap:10px;margin-bottom:15px}.tabs .btn{background:#784400;font-size:13px;width:65px;padding:5px 0;border-radius:5px;border-width:3.5px}.row{display:grid;grid-auto-flow:column;place-items:center;place-content:space-between;grid-gap:5px}.squad{position:absolute;left:0;bottom:-249px;width:100%;height:min-content;background:#d1801d;box-sizing:border-box;transform-origin:100% 0}.squad .dialog-content{padding:5px;padding-top:0;max-height:unset}.squad .dialog-content .btn{background:inherit;padding:4px 17px;font-size:13px}.squad label{font-size:15px;margin-bottom:0}.squad-code{width:100px;border-width:3px;font-size:14px;padding:3px}.copy-code{cursor:pointer}.copy-code:active{background:rgba(0,0,0,.3);box-shadow:0 0 0 3px rgba(0,0,0,.3)}.squad-status{font-size:18px;align-self:center;display:none}.squad-loading .squad-status{display:unset}.squad-loading .member{display:none}.members{margin:10px 0;height:150px;display:grid;grid-auto-flow:column;place-content:center;align-content:stretch;grid-gap:6px}.member{background:rgba(0,0,0,.2);width:100px;height:100%;border-radius:2px;display:grid;grid-auto-flow:row;place-items:center;place-content:center;grid-gap:3px;overflow:hidden}.member .player-preview{margin:0;margin-bottom:5px}.shop-item{border-radius:3px;background:rgba(0,0,0,.35);padding:10px;display:grid;place-items:center;overflow:hidden}.player-preview{width:45px;height:45px;margin:15px}.shop-item-name{margin-bottom:8px}.shop-item .btn{font-size:13px;padding:3px 8px;place-self:stretch}.shop-item .btn i{margin-right:8px;color:#e9e21c}.shop-item .btn i+span{flex:1}.gold-btn{background:#d1cb1d}.blue-btn{background:#5a9fdb}.btn-disabled:after{display:none}[disabled]{pointer-events:none}.shop-row:first-child [tooltip]:before{bottom:unset;top:100%;transform:translate(-50%,5px)}.reward-btns{display:grid;grid-auto-flow:column;grid-gap:5px}.reward-btns .btn{padding:4px;margin-top:10px;margin-bottom:22px;position:relative}.arrow{position:absolute;left:50%;top:100%;transform:translate(-50%,6px);font-size:14px!important;color:rgba(0,0,0,.4)!important;pointer-events:none}.reward-area{margin-left:15px}.reward-area>span{font-size:11px}.loader{position:fixed;left:0;top:0;width:100%;height:100%;background:#000;color:#fff;font-size:50px;font-family:Arial;font-weight:bolder;display:grid;place-items:center;z-index:999}.discord-btn{background:#5865f2}.reddit-btn{background:#ff6900}.changelog-btn{background:#5a9fdb}.hud{position:absolute;left:0;top:0;width:100%;height:100%;pointer-events:none}#goldCanvas{position:fixed;left:0;top:0;width:100%;height:100%;pointer-events:none;z-index:999}.minimize{display:grid;grid-gap:10px;grid-template-areas:"title title" ". .";place-items:center;position:absolute;left:50%;top:120%;transform:translate(-50%,-50%);transition:.5s}.minimize-show{top:50%}.minimize-title{grid-area:title;font-size:1.1em}.minimize .btn{font-size:20px;padding:5px 13px}.resume{background:#1dd129}.giveup{background:#ad1a07}.coming-soon:before{top:100%;bottom:unset;transform:translate(-50%,10px)}.gamemodes .coming-soon:before{margin-top:5px}.minimize-btn{position:absolute;left:5px;top:5px;font-size:12px;border-width:3px;pointer-events:auto;padding:5px 8px}.hud-common{position:absolute;left:0;top:0;width:100%;height:100%;pointer-events:none}.lb-footer{position:absolute;left:50%;top:100%;transform:translate(-50%,5px);white-space:nowrap;font-size:11px}.touch-btn{position:absolute;pointer-events:all;border-radius:50%;background:rgba(0,0,0,.5);color:#999;font-size:36px;display:grid;place-items:center}.angry-btn{right:110px;bottom:60px;width:120px;height:120px}.sad-btn{width:75px;height:75px;right:25px;bottom:25px}.joystick{width:130px;height:130px;transform:translate(-50%,-50%)}.joystick-knob{position:absolute;left:50%;top:50%;height:16px;margin-top:-8px;border-radius:8px;background:#000;width:50%;opacity:.7;transform-origin:left center}.joystick-knob:after{content:' ';position:absolute;top:50%;left:100%;transform:translate(-50%,-50%);width:60px;height:60px;border-radius:50%;background:#000}#canvas{touch-action:none}.alert{position:fixed;left:0;top:0;width:100%;height:100%;background-color:#a81a04;display:grid;place-items:center;z-index:999}.alert-dialog{width:210px;height:100px;padding:16px;background:#764500;border:5px solid rgba(0,0,0,.3);display:flex;flex-direction:column;align-items:center;justify-content:space-between;font-size:14px;border-radius:5px}.alert-title{font-size:25px;margin-bottom:5px}.alert-desc{flex:1}.login-btn{position:absolute;right:8px;top:8px;background:#5865f2;font-size:13px;padding:4px 8px}.login-btn i{font-size:17px;margin-right:9px}.login-btn:before{right:100%;top:50%;bottom:unset;left:unset;transform:translate(-8px,-50%)}.user{position:absolute;right:15px;top:15px;display:flex;align-items:center}.avatar{width:40px;height:40px;background-size:100% 100%;border-radius:50%;background-color:#000}.username{margin-left:10px;font-size:18px}.logout-btn{background:#d26b6b}#deadWorm{width:200px;height:50px;margin-bottom:5px}#digworm-io_300x600{position:absolute;right:10px;top:50%;transform-origin:100% 50%;transform:translate(0,-50%) scale(.7)}.mobile #digworm-io_300x600{transform-origin:100% 100%;transform:scale(.4);top:unset;bottom:10px}#digworm-io_970x250{position:absolute;bottom:10px;left:50%;transform-origin:50% 100%;transform:translate(-50%,0) scale(.5)}.mobile #digworm-io_970x250{transform:translate(-50%,0) scale(.25)}.ad-overlay{position:absolute;left:0;top:0;width:100%;height:100%;background:rgba(0,0,0,.4);display:flex;flex-direction:column;align-items:center}.ad-title{font-size:26px;margin-top:20px}.ad-desc{font-size:14px;margin-top:6px}.only-ad{background:#714000}.only-ad #digworm-io_300x600{transform-origin:100% 0;transform:scale(.8);top:10px}.only-ad #digworm-io_970x250{transform:translate(-50%,0) scale(.8)}@media only screen and (max-width:900px){.only-ad #digworm-io_300x600{transform:scale(.3)}.only-ad #digworm-io_970x250{transform:translate(-50%,0) scale(.3)}}.verify{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);display:flex;justify-content:center;align-items:center;flex-direction:column;text-align:center;z-index:999;background:inherit;font-family:Arial!important;font-weight:bolder}.verify-btn{background:#1dd129;margin-top:10px;padding:10px 20px;border-radius:5px;border-width:5px}</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maintenance</title>
+    <link rel="apple-touch-icon" sizes="60x60" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
+    <link rel="icon" type="image/png" sizes="64x64" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
+    <link rel="icon" type="image/png" sizes="128x128" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
+    <link rel="icon" type="image/png" sizes="256x256" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
+    <link rel="icon" type="image/png" sizes="512x512" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
+    <link rel="icon" type="image/png" sizes="1024x1024" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
+    <link rel="icon" type="image/png" sizes="2048x2048" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
+    <link rel="icon" type="image/svg+xml" sizes="400x400" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
+    <link href="https://fonts.gstatic.com/s/ubuntu/v20/4iCv6KVjbNBYlgoCxCvjvWyNL4U.woff2" rel="stylesheet">
+    <link rel="manifest" href="/favicon/manifest.json">
     <style>
-       .discord-btn {
-    background: #5865f2;
-    width: 50px; /* Increase the width */
-    height: 50px; /* Increase the height */
-    font-size: 20px; /* Increase the font size */
-    padding: 0; /* Increase the padding */
-    display: flex; /* Ensure it maintains flex properties for alignment */
-    justify-content: center; /* Center the content horizontally */
-    align-items: center; /* Center the content vertically */
-    border-radius: 5px; /* Add some border radius if needed */
-    
+        /* cyrillic-ext */
+@font-face {
+  font-family: "Ubuntu1";
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/ubuntu/v20/4iCv6KVjbNBYlgoCxCvjvWyNL4U.woff2)
+    format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+    U+FE2E-FE2F;
 }
-
-
-.discord-btn:hover {
-    background: #4752c4;
+/* cyrillic */
+@font-face {
+  font-family: "Ubuntu1";
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/ubuntu/v20/4iCv6KVjbNBYlgoCxCvjtGyNL4U.woff2)
+    format("woff2");
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
-
-.discord-logo {
-    width: 40px;
-    height: 30px;
+/* greek-ext */
+@font-face {
+  font-family: "Ubuntu1";
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/ubuntu/v20/4iCv6KVjbNBYlgoCxCvjvGyNL4U.woff2)
+    format("woff2");
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: "Ubuntu1";
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/ubuntu/v20/4iCv6KVjbNBYlgoCxCvjs2yNL4U.woff2)
+    format("woff2");
+  unicode-range: U+0370-03FF;
+}
+/* latin-ext */
+@font-face {
+  font-family: "Ubuntu1";
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/ubuntu/v20/4iCv6KVjbNBYlgoCxCvjvmyNL4U.woff2)
+    format("woff2");
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF,
+    U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Ubuntu1";
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/ubuntu/v20/4iCv6KVjbNBYlgoCxCvjsGyN.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
         body {
-            text-align: center;
-            font-family: Ubuntu;
-            font-size: 14px;
-            background-image: url(NOCAP.jpg);
-            background-position: center;
-            background-size: cover;
-
-        }
-        #loading {
-            color: #FFFFFF;
-            position: fixed;
-            top: 50%;
             background-color: #000000;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            font-size: 48pt;
-            font-family: sans-serif;
-            font-weight: bold;
-            cursor: default;
-            z-index: 9999;
+            font-family: "Ubuntu1";
+            text-align: center;
+            padding: 50px;
         }
-        .icon {
-            display: block;
-            margin: 0 auto;
-            margin-top: 200px;
-            max-width: 100%;
-            height: auto;
-        }
-  
         h1 {
-            padding: 0;
-            margin: 0;
-            text-align: center;
-            font: bold 70px/1.5 Ubuntu;
-        }
-
-        .textinthebeggining {
+            margin-top: 200px;
             font-size: 50px;
-            text-align: center;
-            color: white;
-            font-family: 'Press Start 2P', cursive;
+            font-family: "Ubuntu1";
+            color: #ffffff;
         }
-
-        .credits {
+        p {
             font-size: 20px;
-            text-align: center;
-            color: white;
-            font-family: 'Press Start 2P', cursive;
+            font-family: "Ubuntu1";
+            color: #ffffff;
         }
-
-        .black-screen {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: black;
-            display: flex;
-            flex-direction: column;
-            justify-content: center; /* Align items to the top */
-            align-items: center;
-            z-index: 9999;
-            animation: fadeOut 1s 2s forwards;
-        }
-        .d-day {
-
-text-decoration: none;
-font-size: 30px;
-color: black;
-font-family: 'Press Start 2P', cursive;
-opacity: 1; /* Initial opacity */
-transition: color 0.5s; /* Add transition property for opacity and color change */
-animation:  colorTransition 0.5s infinite alternate; 
-}
-.d-day:hover {
-    cursor: pointer;
-            opacity: 0.5; /* Change opacity on hover */
-        }
-
-        .d-day.clicked {
-            color: grey; /* Change color when the link is active (clicked) */
-            opacity: 1; /* Reset opacity after color change */
-        }
-
-        .redirect5 {
-            text-decoration: none;
-            font-size: 30px;
-            color: black;
-            font-family: 'Press Start 2P', cursive;
-cursor: pointer;
-            opacity: 1; /* Initial opacity */
-            transition: color 0.5s; /* Add transition property for opacity and color change */
-            animation:  colorTransition 0.5s infinite alternate; 
-        }
-.color-transition {
-    animation:  color-Transition 0.6s infinite alternate; 
-    transition: color 0.6s; /* Add transition property for opacity and color change */
-    opacity: 1; /* Initial opacity */
-}
-
-.redirect5:hover {
-      
-            opacity: 0.5; /* Reset opacity after color change */
-        }
-
-        .redirect5.clicked {
-            color: grey; /* Change color when the link is active (clicked) */
-            opacity: 1; /* Reset opacity after color change */
-        }
-
-        @keyframes fadeInOut {
-            from {
-                opacity: 1;
-            }
-            to {
-                opacity: 0.5;
-            }
-        }
-
-        @keyframes fadeIn {
-            0% {
-                opacity: 0;
-            }
-            100% {
-                opacity: 1;
-            }
-        }
-
-        @keyframes fadeOut {
-            from {
-                opacity: 1;
-            }
-            to {
-                opacity: 0;
-            }
-        }
-        @keyframes fade-no-up-no-up {
-  0% {
-    opacity: 0;
-    transform: translate(-50%, -50%) scale(0.9);
-  }
-  100% {
-    opacity: 1;
-    transform: translate(-50%, -50%) scale(1);
-  }
-}
-
-@keyframes fade-up-no-up {
-  0% {
-    opacity: 0;
-      transform: translate(-50%, -50%) translateY(0px) scale(0.9);
-  }
-    100% {
-    opacity: 1;
-      transform: translate(-50%, -50%) translateY(0px) scale(1);
-  }
-}
-@keyframes fade-up-in-no-up {
-  0% {
-    opacity: 0;
-      transform: translate(0%, 0%) translateY(0px) scale(0.9);
-  }
-    100% {
-    opacity: 1;
-      transform: translate(0%, 0%) translateY(0px) scale(1);
-  }
-}
-        @keyframes colorTransition {
-            from {
-                color: black;
-            }
-            to {
-                color: grey;
-            }
-        }
-        @keyframes color-Transition {
-            from {
-                color: grey;
-            }
-            to {
-                color: rgb(0, 255, 64);
-            }
-        }
-        
-        .links-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 40px; /* Gap between links */
-            margin-top: 20px; /* Space above the links */
-        }
-        .modal {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.7);
-            z-index: 1000;
-        }
-
-        .modal-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #23d300;
-    padding: 20px;
-    border-radius: 5px;
-    color: white;
-    overflow-y: auto; /* Add scrollability */
-    max-height: 20vh; /* Set maximum height to 80% of viewport height */
-    animation: fade-up-no-up 0.5s; 
- 
-    border: 5px rgb(108, 255, 108) solid;
-}
-
-        h2 {
-  font-size: 30px;
-  color: #ffffff;
-  font-weight: bold;
-  text-align: center;
-  text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
-}
-.close-btn {
-    position: absolute;
-    top: 200px;
-    right: 200px;
-    background-color: red;
-    color: white;
-    border: none;
-    font-size: 30px;
-    cursor: pointer;
-    padding: 5px 10px;
-    border-radius: 20%;
-    animation: fade-up-in-no-up 0.5s; 
-}
-.close-btn:hover {
-
-    background-color: rgb(192, 0, 0);
-
-}
-h20 {
-    text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
-    color: #ffffff;
-  font-weight: bold;
-  text-align: center;
-  font: bold 70px/1.5 Ubuntu;
-}
-
-    </style>
-</head>
-<body oncontextmenu="return event.target.tagName === 'A'">
-    <div class="black-screen">
-        <a class="textinthebeggining" style="color: white;">Arras2.io</a>
-        <p class="credits">Made by LA3T!</p>
-        <p class="credits">Credit to AE HELLO, YanisDiss and TrickyArrasGames.</p>
-    </div>
-    <img width=150 height=150 src="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268" class="icon" alt="arras icon">
-    <h1>Arras<b class="color-transition">2</b>.io</h1>
-    <div class="links-container">
-        <a id="play-btn" class="redirect5">PLAY</a>
-        <a class="d-day" id="changelog-btn">CHANGELOG</a>
-        <a class="d-day" id="about-btn">ABOUT</a>
-
-    </div>
-    <div class="menu-btns">
-        <a class="btn discord-btn" href="https://discord.gg/F2ZuJPQwQG" target="_blank" tooltip="Join the Discord server!">
-            <img src="discord.png" alt="Discord" class="discord-logo">
-        </a>
-    </div>
-    <!-- Modal for Changelog -->
-    <div class="modal" id="changelog-modal">
-        <button class="close-btn">&times;</button> <!-- Close button (X button) -->
-        <div class="modal-content">
-
-            <!-- ... (existing content) ... -->
-            <h20>Changelog</h20>
-            <h2>August 1st 2024 update:</h2>
-            <ul>
-                <li>This has to be the biggest update ever made in Arras<b class="color-transition">2</b>.io!</li>
-                Added many new tanks! (Over 200+ tanks)
-                <li>Arras<b class="color-transition">2</b>.io has now 1 year!</li>
-                For celebrating it, many elements have been added and reworked!
-                <li>Added new maps for D-Day! D-Day Apocalypse and D-Day Portal.</li>
-                <li>The hide and seek event has ended. It is now replaced by Kill Race event!</li>
-                On the Kill Race event, there is a huge labyrinth which you have to reach the green zone to win.
-                <li>There is a timer of 60 seconds. Once the timer runs out, the brown wall gets destroyed and you can complete the labyrinth.</li>
-                After the destruction of the wall, a timer of 3 minutes will start which will be the killer's apparition.
-                <li>When the 3 minutes are passed, you can no longer respawn back and a huge killer appears on the base and you will have to hurry up. You will have 3 more minutes to reach the green zone.</li>
-                <li>If you still didn't reach the green zone after the 3 minutes or all your teammates die by the killer, you lose!</li>
-                <li>Completely reworked the UI and it's now similar to diep.io</li>
-                <li>Next update is going to be the mobile support.</li>
-            </ul>
-            <h2>April 19th 2024 update:</h2>
-            <ul>
-                <li>Reworked on the boss rush mode!</li>
-                <li>Added 2 new types of eggs! Deadly mysterious egg and Ultimate mysterious egg!</li>
-                The eggs will spawn more than usual
-                <li>Waves now last to 150!</li>
-                <li>Are you ready to dive into the ultimate Boss Rush challenge, where formidable bosses await at every turn?</li>
-            </ul>
-            <h2>April 9th 2024 update:</h2>
-            <ul>
-                <li>Moved servers to main arras2.io!</li>
-                <li>Servers are now optimized and much more smooth</li>
-                <li>Client and server are now separated! (Credit to AE HELLO!)</li>
-            </ul>
-            <h2>April 6th 2024 update:</h2>
-            <ul>
-                <li>Added 3 new tanks! Machine Gun MK. II, Flamethrower and Courser!</li>
-                <li>Machine Gun MK. II and Flamethrower are branches from Machine Gun but Courser is branch from Gunner!</li>
-                <li>Added color messages! You can see the color messages from the win screen and arena closed screen</li>
-                <li>Main arras2.io servers got closed and will be reopened in a few days or weeks</li>
-            </ul>
-            <h2>April 5th 2024 update:</h2>
-            <ul>
-                <li>Reworked on Hide and Seek and Boss Rush!</li>
-                <li>On the hide and seek, the seekers already spawn and count to 183</li>
-                Once they finished counting to 183, they'll start eating hiders so make sure you stay alive for 5 minutes!
-                <li>Fixed bosses from boss rush ramming into dominators!</li>
-            </ul>
-            <h2>April 4th 2024 update:</h2>
-            <ul>
-                <li>Added a new event! Hide and Seek</li>
-                <li>On this event, you are a hider and you have to hide from the seeker for 5 minutes!</li>
-                <li>If there are no hiders, your team loses!</li>
-                <li>Improved the client and the performance</li>
-            </ul>
-            <h2>April 3rd 2024 update:</h2>
-            <ul>
-                <li>The gamemode selector has arrived!</li>
-                You can now change gamemode anytimes by just clicking on the switch gamemode button! After some fixes, it will be imported to main arras2.io server!
-                <li>Added closed beta!</li>
-                This gamemode is only for beta tester, you need a token to access to this server. Don't begging for the token.
-            </ul>
-            <h2>April 2nd 2024 update:</h2>
-            <ul>
-                <li>Reopened arras2.io servers!</li>
-                I wanted to add some extra updates like gamemode selector but I didn't have time to finish so I will upload them in the beta.arras2.io in a few days!
-            </ul>
-            <h2>April 1st 2024 update:</h2>
-            <ul>
-                <li>Reworked on the Jump Smasher tank!</li>
-                <li>By right-clicking, you really jump on the way your mouse is</li>
-                There's a cooldown of 3 seconds when you've jumped
-                <li>Fixed some bugs</li>
-                More tanks and gamemodes coming soon!
-            </ul>
-            <h2>March 10th 2024 update:</h2>
-            <ul>
-                <li>This is an announcement</li>
-                <li>There will be no updates till 2nd April due to credits</li>
-                You can still play the game but there won't be any updates until April
-                <li>I planned many things for the next update and this is gonna be a big update!</li>
-                The updates will be applied at 3 pm UTC-4 
-            </ul>
-            <h2>March 7th 2024 update:</h2>
-            <ul>
-                <li>Disabled the ability to play as red team in D-Day</li>
-                <li>The reason is because the game is very unpopular</li>
-                <li>When there will be many players, red team will be playable again</li>
-            </ul>
-            <h2>March 6th 2024 update:</h2>
-            <ul>
-                <li>The ban update has been canceled due to problems</li>
-                <li>It will be coming soon!</li>
-            </ul>
-            <h2>March 5th 2024 update:</h2>
-            <ul>
-                <li>Reworked on Boss Rush and Mothership!</li>
-                <li>On Boss Rush, blue has to defend their 9 sanctuaries from the bosses</li>
-                <li>Fixed some leaderboard color issues</li>
-            </ul>
-            <h2>March 4th 2024 update:</h2>
-            <ul>
-                <li>Added a new gamemode called Boss Rush!</li>
-                <li>Just like siege, blue team has to protect 9 of their sanctuaries from the bosses.</li>
-            </ul>
-            <h2>March 3rd 2024 update:</h2>
-            <ul>
-                <li>Fixed the glitch that was making the health bars and messages not following the player.</li>
-                <li>Some files have been obfuscated so that nobody can steal the source code of this game.</li>
-                <li>Mobile support coming soon!</li>
-            </ul>
-            <h2>March 2nd 2024 update:</h2>
-            <ul>
-                <li>Added a new gamemode called Mothership! Also added a new map called D-Day Bastron!</li>
-            </ul>
-            <h2>February 29th 2024 update:</h2>
-            <ul>
-                <li>Fixed the glitch that was crashing D-Day server.</li>
-            </ul>
-            <h2>February 28th 2024 update:</h2>
-            <ul>
-                <li>Added a gamemode randomizer! Now everytimes the server closes, it changes gamemode</li>
-                More gamemodes coming soon!
-            </ul>
-            <h2>February 25th 2024 update:</h2>
-            <ul>
-                <li>Fixed the auto-turret that was shooting from the dominator.</li>
-
-            </ul>
-        </div>
-        
-    </div>
-<!-- Modal for About -->
-<div class="modal" id="about-modal">
-    <button class="close-btn">&times;</button> <!-- Close button (X button) -->
-    <div class="modal-content">
-        <h20>About Arras2.io</h20>
-        <ul>Arras2.io is a fan-made sequel of arras.io. Escape from attackers and shoot everyone while staying alive!</ul>
-        <ul>For any problems, contact the developer LA3T on discord at LA3T#4868.</ul>
-    </div>
-</div>
-
-    <script>
-       // Existing JavaScript code
-window.onload = function () {
-    var blackScreen = document.querySelector('.black-screen');
-    var changelogBtn = document.getElementById('changelog-btn');
-    var changelogModal = document.getElementById('changelog-modal');
-    var aboutBtn = document.getElementById('about-btn'); // New About button
-    var aboutModal = document.getElementById('about-modal'); // New About modal
-    var closeBtn = document.querySelectorAll('.close-btn'); // Close buttons
-    var playBtn = document.getElementById('play-btn');
-    document.querySelector('.discord-btn').addEventListener('click', function(e) {
-    e.preventDefault();
-    window.open(this.href, '_blank');
-});
-    // Remove the black screen after the fadeOut animation
-    blackScreen.addEventListener('animationend', function () {
-        blackScreen.style.display = 'none';
-    });
-
-    // Show/hide changelog modal
-    changelogBtn.addEventListener('click', function () {
-        changelogModal.style.display = 'block';
-    });
-
-    // Show/hide about modal
-    aboutBtn.addEventListener('click', function () {
-        aboutModal.style.display = 'block';
-    });
-
-    // Close modals when close button is clicked
-    closeBtn.forEach(function(btn) {
-        btn.addEventListener('click', function () {
-            changelogModal.style.display = 'none';
-            aboutModal.style.display = 'none';
-  
-           
-        });
-    });
-           
-
-              // Replace content on "PLAY" button click
-              playBtn.addEventListener('click', function (e) {
-                e.preventDefault();
-                document.body.innerHTML = `
-        <!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Meta Properties -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Arras2.io is a fan-made sequel of arras.io. Escape from attackers and shoot everyone while staying alive!">
-    <meta property="og:image" content="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
-    <!-- ... (other meta tags) ... -->
-    <title>Arras2.io</title>
-    <!-- CSS -->
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
-    <link rel="stylesheet" href="/main.css">
-   <link rel="icon" type="image/png" sizes="16x16 32x32 64x64 128x128 256x256" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
-
-    <style>
-        body {
-            text-align: center;
-            font-family: Ubuntu;
-            font-size: 14px;
-            background-image: url(NOCAP.jpg);
-            background-position: center;
-            background-size: cover;
-
-        }
-        #loading {
-            color: #FFFFFF;
-            position: fixed;
-            top: 50%;
+        .container {
             background-color: #000000;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            font-size: 48pt;
-            font-family: sans-serif;
-            font-weight: bold;
-            cursor: default;
-            z-index: 9999;
-        }
-        .icon {
-            display: block;
-            margin: 0 auto;
-            margin-top: 200px;
-            max-width: 100%;
-            height: auto;
-        }
-
-        h1 {
-            padding: 0;
-            margin: 0;
-            text-align: center;
-            font: bold 70px/1.5 Ubuntu;
-        }
-
-        .textinthebeggining {
-            font-size: 50px;
-            text-align: center;
-            color: white;
-            font-family: 'Press Start 2P', cursive;
-        }
-
-        .credits {
-            font-size: 20px;
-            text-align: center;
-            color: white;
-            font-family: 'Press Start 2P', cursive;
-        }
-
-        .black-screen {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: black;
-            display: flex;
-            flex-direction: column;
-            justify-content: center; /* Align items to the top */
-            align-items: center;
-            z-index: 9999;
-            animation: fadeOut 1s 1s forwards;
-        }
-
-        .redirect {
-
-            text-decoration: none;
-            font-size: 30px;
-            color: black;
-            
-            font-family: 'Press Start 2P', cursive;
-            opacity: 1; /* Initial opacity */
-            transition: color 0.5s; /* Add transition property for opacity and color change */
-            animation:  colorTransition 0.5s infinite alternate; 
-        }
-        .redirect1 {
-
-text-decoration: none;
-font-size: 30px;
-color: black;
-font-family: 'Press Start 2P', cursive;
-opacity: 1; /* Initial opacity */
-transition: color 0.5s; /* Add transition property for opacity and color change */
-animation:  colorTransition 0.5s infinite alternate; 
-}
-            .d-day {
-
-    text-decoration: none;
-    font-size: 30px;
-    color: black;
-    font-family: 'Press Start 2P', cursive;
-    opacity: 1; /* Initial opacity */
-    transition: color 0.5s; /* Add transition property for opacity and color change */
-    animation:  colorTransition 0.5s infinite alternate; 
-    }
-    .d-day:hover {
-        opacity: 0.9; /* Change opacity on hover */
-    }
-
-            .d-day.clicked {
-                color: grey; /* Change color when the link is active (clicked) */
-                opacity: 1; /* Reset opacity after color change */
-            }
-            .new {
-
-text-decoration: none;
-font-size: 30px;
-color: black;
-font-family: 'Press Start 2P', cursive;
-opacity: 1; /* Initial opacity */
-transition: color 0.5s; /* Add transition property for opacity and color change */
-animation:  colorTransitionnew 0.5s infinite alternate; 
-}
-.new:hover {
-    cursor: pointer;
-            opacity: 0.9; /* Change opacity on hover */
-        }
-
-        .new.clicked {
-            color: grey; /* Change color when the link is active (clicked) */
-            opacity: 1; /* Reset opacity after color change */
-        }
-    .color-transition {
-        animation:  color-Transition 0.6s infinite alternate; 
-        transition: color 0.6s; /* Add transition property for opacity and color change */
-        opacity: 1; /* Initial opacity */
-    }
-
-.tooltip {
-    position: absolute;
-    background-color: rgba(51, 51, 51, 0.5); /* Semi-transparent background */
-                color: #fff;
-                padding: 5px;
-                border-radius: 5px;
-                font-size: 20px;
-                width: 500px;
-                top: 50px;
-                left: 200px;
-                z-index: 9999;
-                transition: opacity 0.5s;
-                
-opacity: 0;
-                text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
-                font-family: 'Ubuntu1';
-               
-   
-}
-
-
-
-
-
-
-
-            .d-day:hover .tooltip {
-                display: block;
-opacity: 1;
-            }
-            .new:hover .tooltip {
-                display: block;
-                opacity: 1;
-            }
-
-            @keyframes fadeInOut {
-                from {
-                    opacity: 1;
-                }
-                to {
-                    opacity: 0.5;
-                }
-            }
-
-            @keyframes fadeIn {
-                0% {
-                    opacity: 0;
-                }
-                100% {
-                    opacity: 1;
-                }
-            }
-
-            @keyframes fadeOut {
-                from {
-                    opacity: 1;
-                }
-                to {
-                    opacity: 0;
-                }
-            }
-
-            @keyframes pfpDefault { 
-                /* ... (existing keyframes) ... */
-            }
-
-            @keyframes colorTransition {
-                from {
-                    color: black;
-                }
-                to {
-                    color: grey;
-                }
-            }
-            @keyframes colorTransition1 {
-                from {
-                    color: rgb(128, 128, 128);
-                }
-                to {
-                    color: rgb(202, 202, 202);
-                }
-            }
-            @keyframes color-Transition {
-                from {
-                    color: grey;
-                }
-                to {
-                    color: rgb(0, 255, 64);
-                }
-            }
-            @keyframes color-Transition {
-                from {
-                    color: grey;
-                }
-                to {
-                    color: rgb(0, 255, 64);
-                }
-            }
-            @keyframes colorTransitionnew {
-                from {
-                    color: rgb(255, 196, 0);
-                }
-                to {
-                    color: rgb(254, 216, 88);
-                 
-                }
-            }
-            .back-to-home {
-            position: fixed;
-            top: 20px;
-            left: 20px;
-            padding: 10px;
-text-decoration: none;
-            border: 2px solid white;
-            border-radius: 5px;
-            cursor: pointer;
-            z-index: 10000;
-            font-family: 'Press Start 2P', cursive;
-            text-align: center;
-            transition: background-color 0.3s ease;
-        }
-
-        .back-to-home::before {
-            content: '>';
-            color: white;
-            font-size: 20px;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             display: inline-block;
-            vertical-align: middle;
-
-            transform: scaleX(-1); /* Flip the character horizontally */
-
+            margin-top: 100px;
         }
-
-        .back-to-home:hover {
-            background-color: rgb(41, 207, 0);
+        .logo {
+            max-width: 150px;
+            margin-bottom: 20px;
         }
     </style>
 </head>
-<body oncontextmenu="return event.target.tagName === 'A'">
-    <a class="redirect">Select Gamemode:</a>
-    <a href="https://arras2.io" class="back-to-home"></a>
-    <h1>
-        <a class="d-day" href="https://dday.arras2.io" data-tooltip="D-Day: The allies, which are blue, have more tanks than the Axis powers, which are red.<br>For the allies to win, they must invade and destroy the red central base on the bottom right, which is unlocked by destroying all of their dominators scattered on the map.<br>For the Axis powers to win, they must guard all of their dominators and base and keep at least 4 of them continuously for 8 minutes.">
-            D-DAY
-            <span class="tooltip">D-Day: The allies, which are blue, have more tanks than the Axis powers, which are red.<br>For the allies to win, they must invade and destroy the red central base on the bottom right, which is unlocked by destroying all of their dominators scattered on the map.<br>For the Axis powers to win, they must guard all of their dominators and base and keep at least 4 of them continuously for 8 minutes.</span> 
-        </a>
-    </h1>
-    <h1><a class="d-day" href="https://boss.arras2.io" data-tooltip="Boss Rush: You're all on the same team and you will have to kill the bosses that spawn to kill all your 9 sanctuaries! There are 100 waves and each waves bosses spawn and if you pass the 100th wave, you win the game! If all of your sanctuaries are dead by the bosses, there will be a timer of 90 seconds to let you recover at least 1 of your sanctuary to respawn back. You will not be able to respawn once you die until one of your team recovers at least 1 of the sanctuaries. If the 90 seconds are passed and you haven't recovered 1 of the sanctuaries, you lose the game! To make the gamemode easier and fun, there are some eggs that spawn and if they die, a friendly boss spawn and join your team! There are 3 types of eggs: Mysterious Egg, Ultra Mysterious Egg and Legendary Mysterious Egg. It will spawn 5 mysterious eggs at the same time on a random wave, 3 ultra mysterious egg on a random wave and 1 legendary mysterious egg on a random wave!">BOSS RUSH<span class="tooltip">Boss Rush: You're all on the same team and you will have to kill the bosses that spawn to kill all your 9 sanctuaries! There are 100 waves and each waves bosses spawn and if you pass the 100th wave, you win the game! If all of your sanctuaries are dead by the bosses, there will be a timer of 90 seconds to let you recover at least 1 of your sanctuary to respawn back. You will not be able to respawn once you die until one of your team recovers at least 1 of the sanctuaries. If the 90 seconds are passed and you haven't recovered 1 of the sanctuaries, you lose the game! To make the gamemode easier and fun, there are some eggs that spawn and if they die, a friendly boss spawn and join your team! There are 3 types of eggs: Mysterious Egg, Ultra Mysterious Egg and Legendary Mysterious Egg. It will spawn 5 mysterious eggs at the same time on a random wave, 3 ultra mysterious egg on a random wave and 1 legendary mysterious egg on a random wave!</span></a></h1>
-    <h1><a class="d-day" href="https://mothership.arras2.io" data-tooltip="Mothership: There are 2 teams: Blue and Red. Each team will be attended by a ship which is called mothership! A team has to kill the opponent's mothership to win the game!">MOTHERSHIP<span class="tooltip">Mothership: There are 2 teams: Blue and Red. Each team will be attended by a ship which is called mothership! A team has to kill the opponent's mothership to win the game!</span></a></h1>
-    <h1><a class="d-day" href="https://domination.arras2.io" data-tooltip="Domination: There are 2 teams: Blue and Red. There are 4 yellow dominators on the map and a team has to kill all the 4 of them to win the game!">DOMINATION<span class="tooltip">Domination: There are 2 teams: Blue and Red. There are 4 yellow dominators on the map and a team has to kill all the 4 of them to win the game!</span></a></h1>
-    
-    <h1><a class="new" href="https://killrace.arras2.io" data-tooltip="Kill Race: There is a huge labyrinth which you have to reach the green zone to win. There is also a timer of 60 seconds. Once the timer runs out, the brown wall gets destroyed and you can complete the labyrinth. After the destruction of the wall, a timer of 3 minutes will start which will be the killer's apparition. When the 3 minutes are passed, you can no longer respawn back and a huge killer appears on the base and you will have to hurry up. You will have 3 more minutes to reach the green zone. If you still didn't reach the green zone after the 3 minutes or all your teammates die by the killer, you lose!">KILL RACE<span class="tooltip">Kill Race: There is a huge labyrinth which you have to reach the green zone to win. There is also a timer of 60 seconds. Once the timer runs out, the brown wall gets destroyed and you can complete the labyrinth. After the destruction of the wall, a timer of 3 minutes will start which will be the killer's apparition. When the 3 minutes are passed, you can no longer respawn back and a huge killer appears on the base and you will have to hurry up. You will have 3 more minutes to reach the green zone. If you still haven't reached the green zone after the 3 minutes or all your teammates die by the killer, you lose!</span></a></h1>
-</body>
-</html>
-`
-    });
-};
+<body>
+    <div class="container">
 
-    </script>
-    
-    
+        <h1>THE GAME WILL COMEBACK SOON!</h1>
+        <p>THE GAME IS CURRENTLY IN MAINTENANCE AND WILL BE BACK IN A FEW HOURS.</p>
+        <p>IF YOU HAVE ANY QUESTIONS, FEEL FREE TO CONTACT LA3T#4868 ON DISCORD.</p>
+    </div>
 </body>
 </html>
