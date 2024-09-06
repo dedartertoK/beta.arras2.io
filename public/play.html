@@ -1,0 +1,1233 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <style>
+        #gameName .color-changing {
+            color: rgb(0, 255, 64); /* Initial color (green) */
+            transition: color 1s; /* Transition effect with a duration of 1 second */
+        }
+
+        #gameName .color-changing:hover {
+            color: grey; /* Color on hover (grey) */
+        }
+
+        .color-transition {
+            animation: color-Transition 0.6s infinite alternate; 
+            transition: color 0.6s; /* Add transition property for opacity and color change */
+            opacity: 1; /* Initial opacity */
+        }
+
+        .switchButton {
+    display: block;
+
+
+    font-size: 18px;
+    text-decoration: underline;
+    cursor: pointer;
+    text-align: center;
+}
+#modalsWrapper {
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	background: rgba(0, 0, 0, 0.9);
+}
+#modalsScaleWrapper {
+	width: 100%;
+	height: 100%;
+}
+.totalplayer {
+  width: 100%;
+  height: 100%;
+  margin: 0 20px;
+margin-left: 700px;
+  font-size: 25px;
+  padding: 0;
+  font-family: "Ubuntu1";
+  color: white;
+  animation: fadeIn 1s forwards;
+  text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+}
+.totalplayer1 {
+  width: 100%;
+  height: 100%;
+
+margin-top: 30px;
+  font-size: 22px;
+  padding: 0;
+  font-family: "Ubuntu1";
+  color: white;
+  animation: fadeIn 1s forwards;
+  text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+}
+
+        .icon {
+            display: block;
+            margin: 0 auto;
+            margin-top: 200px;
+            max-width: 100%;
+            height: auto;
+        }
+
+        @keyframes color-Transition {
+            from {
+                color: grey;
+            }
+            to {
+                color: rgb(0, 255, 64);
+            }
+        }
+    /* Style for the mobile message */
+/* Style for the mobile message */
+#mobileMessage {
+    display: none;
+    position: fixed; /* Full viewport coverage */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: red;
+    z-index: 9999; /* Ensure it appears on top of other content */
+    text-align: center;
+}
+@keyframes fade-up-no-up {
+  0% {
+    opacity: 0;
+      transform: translate(0%, 0%) translateY(0px) scale(0.9);
+  }
+    100% {
+    opacity: 1;
+      transform: translate(0%, 0%) translateY(0px) scale(1);
+  }
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fbff00;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #778000;
+  width: 80%;
+  max-width: 800px;
+
+  border: 5px rgb(255, 245, 108) solid;
+}
+.modal.show {
+  animation: fade-up-no-up 0.5s; 
+}
+.modal.hide {
+  animation: fade-down-no-up 0.5s; 
+}
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.slider {
+  display: block;
+  width: 100%;
+  overflow: auto;
+}
+
+.slider table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.slider table, .slider th, .slider td {
+  border: 1px solid #ccc;
+  border-width: 0 1px;
+  padding: 6px;
+  text-align: left;
+}
+
+.slider th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #f2f2f2;
+}
+
+.slider td input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.slider label {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.slider options_header {
+    text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
+    color: white;
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+.close-btn {
+    position: absolute;
+    top: 200px;
+    right: 200px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 20%;
+    animation: fade-up-in-no-up 0.5s; 
+}
+@keyframes shrinkAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+.button-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    right: 100vh;
+    animation: shrinkAnimation 0.2s forwards;
+}
+.button-container1 {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    animation: shrinkAnimation 0.2s forwards;
+}
+.red-button {
+	background: linear-gradient(
+		0deg,
+		#b10000 40%,
+		#f05f5f 40%
+	);
+
+  position: fixed; /* Stay in place */
+
+  font: bold 70px/1.5 Ubuntu;
+  color: #fff;
+  top: -18.5%;
+  left: 41%;
+  font-size: 14px;
+  padding: 2px 22px;
+  border: 4px solid #353430;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
+}
+
+
+
+.red-button:after {
+  content: "";
+	
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #c63c3c;
+  z-index: -2;
+}
+
+.red-button:hover {
+    cursor: pointer;
+    border: 4px solid #353430;
+	filter: brightness(106%);
+}
+.blue-button {
+	background: linear-gradient(
+		0deg,
+		#0012b1 40%,
+		#5f69f0 40%
+	);
+
+  position: fixed; /* Stay in place */
+
+  font: bold 70px/1.5 Ubuntu;
+  color: #fff;
+  top: -18.5%;
+  left: 42%;
+  font-size: 14px;
+  padding: 2px 15px;
+  border: 4px solid #353430;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
+}
+
+
+
+.blue-button:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #3c3ec6;
+  z-index: -2;
+}
+
+.blue-button:hover {
+    cursor: pointer;
+    border: 4px solid #353430;
+	filter: brightness(106%);
+}
+.green-button {
+	background: linear-gradient(
+		0deg,
+		#0fb100 40%,
+		#6bf05f 40%
+	);
+
+  position: fixed; /* Stay in place */
+  margin-top: 10000px; /* Add margin to separate buttons */
+  font: bold 70px/1.5 Ubuntu;
+  color: #fff;
+  top: -1000%;
+  left: 43%;
+  margin-top: 0px;
+  font-size: 14px;
+  padding: 2px 15px;
+  border: 4px solid #353430;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
+}
+
+
+
+.green-button:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #41c63c;
+  z-index: -2;
+}
+
+.green-button:hover {
+    cursor: pointer;
+    border: 4px solid #353430;
+	filter: brightness(106%);
+}
+.brown-button {
+	background: linear-gradient(
+		0deg,
+		#582000 40%,
+		#a83e00 40%
+	);
+
+  position: fixed; /* Stay in place */
+  margin-top: 10000px; /* Add margin to separate buttons */
+  font: bold 70px/1.5 Ubuntu;
+  color: #fff;
+  top: -1000%;
+  left: 44%;
+  margin-top: 0px;
+  font-size: 14px;
+  padding: 2px 15px;
+  border: 4px solid #353430;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
+}
+
+
+
+.brown-button:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #c68f3c;
+  z-index: -2;
+}
+
+.brown-button:hover {
+    cursor: pointer;
+    border: 4px solid #353430;
+	filter: brightness(106%);
+}
+.yellow-button {
+background: linear-gradient(
+		0deg,
+		#c6d038 40%,
+		#fff566 40%
+	);
+	  position: fixed; /* Stay in place */
+  font: bold 70px/1.5 Ubuntu;
+  color: #fff;
+  top: -18.5%;
+  left: 41.5%;
+  font-size: 14px;
+  padding: 2px 12px;
+  border: 4px solid #353430;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
+}
+
+
+.yellow-button:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  
+  width: 100%;
+  height: 1px;
+  background-color: #c4c63c;
+  
+  z-index: -2;
+}
+
+.yellow-button:hover {
+    cursor: pointer;
+    border: 4px solid #353430;
+	filter: brightness(106%);
+}
+
+.myBtn {
+	  position: fixed; /* Stay in place */
+  background-color: #fff566;
+  font: bold 70px/1.5 Ubuntu;
+  color: #fff;
+  top: -18.5%;
+  left: 39%;
+  font-size: 14px;
+  padding: 2px 12px;
+  border: 4px solid #353430;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
+}
+@keyframes fade-down-no-up {
+  0% {
+    opacity: 1;
+    transform: translate(0%, 0%) translateY(0px) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(0%, 0%) translateY(0px) scale(0.9);
+  }
+}
+.myBtn:before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background-color: #c4c63c;
+  z-index: -1;
+  transform: skewY(2deg);
+  transform-origin: bottom left;
+}
+
+.myBtn:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #c4c63c;
+  z-index: -2;
+}
+
+.myBtn:hover {
+  background-color: #fffd80;
+}
+
+.myBtn:active {
+  background-color: #fff566;
+  box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+
+.close-btn:hover {
+
+    background-color: rgb(192, 0, 0);
+
+}
+h20 {
+    text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
+    color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  font: bold 70px/1.5 Ubuntu;
+}
+#viewOptionsButton {
+    background-color: #fff566;
+  font: bold 70px/1.5 Ubuntu;
+  color: #fff;
+  top: -40.5%;
+  left: 0.1%;
+  width: 100%;
+  font-size: 20px;
+  margin-top: -40px;
+  padding: 5px 100px;
+  box-shadow: 0 0 20px #fff566;
+  border: 2px solid #353430;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
+}
+#viewOptionsButton:before {
+    content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background-color: #c4c63c;
+  z-index: -4;
+  transform: skewY(2deg);
+  transform-origin: bottom left;
+}
+
+#viewOptionsButton:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #c4c63c;
+  z-index: -2;
+}
+
+#viewOptionsButton:hover {
+    cursor: pointer;
+  background-color: #fffd80;
+}
+
+#viewOptionsButton:active {
+  background-color: #fff566;
+  box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+#settingsButtonContainer {
+  position: fixed;
+  top: -420px;
+  right: 0%;
+}
+
+#settingsButton {
+  position: absolute;
+  top: 0;
+
+  right: 0;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+
+#settingsButton:hover {
+
+  filter: brightness(106%);
+}
+
+#settingsButton:active {
+  transform: scale(0.9);
+}
+
+.settings-icon {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+.settings-icon:before,
+.settings-icon:after {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 10px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.settings-icon:after {
+  width: 10px;
+  height: 2px;
+  transform: translate(-50%, -50%) rotate(0deg);
+}
+@keyframes growToSize {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+#settingsMenu {
+  position: absolute;
+  top: -100%; /* Move the menu off-screen at the start */
+  right: 0%;
+  width: auto;
+  height: auto;
+  background: #C6C6C6;
+  border: 5px solid #767676;
+  user-select: none;
+  /* Add transition properties */
+  transition: top 1s ease;
+}
+
+/* Add keyframes for the animation */
+@keyframes slideDown {
+  0% { top: -100%; }
+  100% { top: 45px; }
+}
+
+@keyframes slideUp {
+  0% { top: 45px; }
+  100% { top: -100%; }
+}
+
+/* Add the animation to the settingsMenu */
+#settingsMenu.slide-in {
+  animation: slideDown 1s forwards;
+}
+
+#settingsMenu.slide-out {
+  animation: slideUp 1s forwards;
+}
+
+#settingsMenu.open {
+  display: block;
+  transform: scale(1);
+}
+#settingsButton i {
+  transition: transform 0.2s ease-in-out;
+}
+
+#settingsButton.close i {
+  transform: rotate(45deg);
+}
+
+
+h1.game-mode {
+  position: absolute; /* Stay in place */
+top: -7%;
+    left: 49.5%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+  
+    color: white;
+    text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
+    pointer-events: none; /* make the text non-clickable */
+  }
+  h1.game-mode1 {
+  position: absolute; /* Stay in place */
+top: 15%;
+    left: 49.5%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+  
+    color: white;
+    text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
+    pointer-events: none; /* make the text non-clickable */
+  }
+  #advancedcontrols {
+    position: absolute;
+  font-size: 30px;
+  text-align: center;
+  top: -2%;
+  left: 29%;
+  color: #ffffff;
+  text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
+  }
+  .moveright {
+    text-align: center;
+  }
+  h1.game-mode2 {
+  position: absolute; /* Stay in place */
+top: 22%;
+    left: 49.5%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+  
+    color: white;
+    text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
+    pointer-events: none; /* make the text non-clickable */
+  }
+  .taleof {
+    position: absolute;
+    font: bold 70px/1.5 Ubuntu;
+    font-size: 20px;
+    margin-top: 0px;
+    left: 25%;
+    color: white;
+    text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
+    pointer-events: none; /* make the text non-clickable */
+  }
+#mobileMessage .messageContent {
+    position: absolute; /* Position relative to the #mobileMessage */
+    top: 50%; /* Margin from the top of the viewport */
+    left: 50%;
+    transform: translateX(-50%); /* Center horizontally */
+    font-size: 24px;
+}
+#optColorsChange {
+  position: relative;
+
+    width: 215px;
+  height: 20px;
+}
+#optBordersChange {
+  position: relative;
+
+    width: 215px;
+  height: 20px;
+}
+        /* Style for the placeholder text color */
+        #chatInput::placeholder {
+            color: white; /* Set the placeholder text color to white */
+        }
+
+    </style>
+      <div id="Changeloge">
+        <div class="Changelog"><b>Changelog</b></div>
+        <div class="Changelog2"><b>Last updated: September 6th 2024</b></div>
+        <div class="Changelog1"><b><p></p><li>Improved vpn security and proxy!</li></b></div>
+        <div class="Changelog1"><b>All the vpns and proxies are now fully banned and unbypassable.</b></div>
+        <div class="Changelog1"><b><p></p><li>Added captcha.</li></b></div>
+        <div class="Changelog1"><b><p></p><li>Friendly bosses on boss rush now follow leader tank and go to sanctuary on low hp.</li></b></div>
+        <div class="Changelog1"><b>Idea from Ryan The Tiny King</b></div>
+        <div class="Changelog1"><b><p></p><li>Menu is now similar to diep.io</li></b></div>
+        <div class="Changelog1"><b><p></p><li>Fixed some glitches and balanced some tanks.</li></b></div>
+        <div class="Changelog1"><b><p></p><li>Reworked ban system (Credit to bruhman for testing).</li></b></div>
+	      	              <div class="Changelog1"><b><p></p><li>Disabled ability to level up instantly in all gamemodes except for boss rush and kill race</li></b></div>
+	              <div class="Changelog1"><b><p></p><li>Added new maps for Domination and Mothership!</li></b></div>
+	              <div class="Changelog1"><b><p></p><li>Readded shapes.</li></b></div>
+	                <div class="Changelog1"><b><p></p><li>Removed bots except for boss rush.</li></b></div>
+          <div class="Changelog1"><b><p></p><li>Removed tokens.</li></b></div>
+        </div>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta name="description" content="Arras2.io is a fan-made sequel of arras.io. Escape from attackers and shoot everyone while staying alive!">
+    <meta property="og:image" content="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
+    <meta property="og:image:width" content="54">
+    <meta property="og:image:height" content="54">
+    <meta name="robots" content="index, follow">
+    <title>Arras2.io</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:400,700">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQq7Ml8WsgGqQYGK397Dh6MQk/6/zD8vEiGw==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/main.css" />
+    <link rel="icon" type="image/png" sizes="16x16 32x32 64x64 128x128 256x256" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
+    <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="60x60" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
+  <link rel="apple-touch-icon" sizes="120x120" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
+  <link rel="icon" type="image/png" sizes="64x64" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
+  <link rel="icon" type="image/png" sizes="96x96" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
+  <link rel="icon" type="image/png" sizes="128x128" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
+  <link rel="icon" type="image/png" sizes="192x192"  href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
+  <link rel="icon" type="image/png" sizes="256x256" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
+  <link rel="icon" type="image/png" sizes="512x512" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
+  <link rel="icon" type="image/png" sizes="1024x1024" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
+  <link rel="icon" type="image/png" sizes="2048x2048" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
+  <link rel="icon" type="image/svg+xml" sizes="400x400" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
+    <link rel="manifest" href="/lib/json/manifest.json">
+    <meta name="msapplication-TileColor" content="#8abc3f">
+    <meta name="theme-color" content="#8abc3f">
+</head>
+<body oncontextmenu="return false" id="mainBody">
+
+    <div id="gameAreaWrapper">
+        <canvas id="gameCanvas" tabindex="1"></canvas>
+        <input id="chatInput" type="text" placeholder="Press enter to send a message. press ESC to cancel." maxlength="54" hidden="true" />
+    </div>
+   
+    <div id="settingsButtonContainer">
+      <button id="settingsButton">
+        <img width=35 height=35 src="https://icon-library.com/images/white-settings-icon/white-settings-icon-2.jpg" alt="Settings">
+      </button>
+    </div>
+    
+    
+    <div id="settingsMenu" class="slide-in">
+      <br>
+      <h1 class="moveright">Advanced controls</h1>
+      <table>
+        <tr> <td><b>E</b> - auto-fire</td>     <td><b>C</b> - auto-spin</td> </tr>
+        <tr> <td><b>R</b> - disable AI</td>    <td><b>N</b> - level up</td> </tr>
+        <tr> <td><b>V</b> - reverse tank</td>  <td><b>F</b> - auto-alt</td> </tr>
+        <tr> <td><b>B</b> - reverse mouse</td> <td><b>O</b> - self-destruct</td> </tr>
+        <tr> <td><b>T</b> - show tank tree</td><td><b>M</b> - maximize stat</td> </tr>
+        <tr> <td><b>X</b> - spin lock</td>     
+      </table>
+      <h1 class="moveright">Options</h1>
+     
+        <select id="optColorsChange" tabindex="-1">
+        <option value="DiepIO">Arras2.io (by LA3T)</option>
+        <option value="REALDIEP">Diep.io (by M28)</option>
+        <option value="normal">Light Colors (by Neph)</option>
+        <option value="dark">Dark Colors (by Neph)</option>
+        <option value="natural">Natural (by Neph)</option>
+        <option value="classic">Classic (by Neph)</option>
+        <option value="forest">Forest (by Sterlon)</option>
+        <option value="midnight">Midnight (by uoiea)</option>
+        <option value="pastel">Snow (by Deolveopoler)</option>
+        <option value="ocean">Coral Reef (by Celestea)</option>
+        <option value="badlands">Badlands (by Incognious)</option>
+        <option value="bleach">Bleach (by definitelynot.)</option>
+   
+        </select>
+  
+      
+    
+      <input style="display:none" placeholder="Insert Your Custom Theme Code here" id="optCustom" />
+      <select id="optBordersChange" tabindex="-1">
+        <option value="normal">Soft Borders</option>
+        <option value="dark">Dark Borders</option>
+        <option value="neon">Neon Mode</option>
+        <option value="glass">Glass Mode</option>
+      </select>
+
+      <table>
+ 
+          <td><div><label><input id="optScreenshotMode"   tabindex="-1" class="checkbox" type="checkbox"> Screenshot Mode</label></div></td>
+          <td><div><label><input id="optNoPointy"         tabindex="-1" class="checkbox" type="checkbox"> Classic Traps</label></div></td>
+        </tr>
+        <tr>
+          <td><div><label><input id="optFancy"            tabindex="-1" class="checkbox" type="checkbox"> No FPS Drop (Not recommended)</label></div></td>
+          <td><div><label><input id="chk3d"     tabindex="-1" class="checkbox" type="checkbox">Lower Resolution</label></div></td>
+        </tr>
+        <tr>
+          <td><div><label><input id="coloredHealthbars"   tabindex="-1" class="checkbox" type="checkbox"> Colored Health Bars</label></div></td>
+          <td><div><label><input id="seperatedHealthbars" tabindex="-1" class="checkbox" type="checkbox"> Seperated Health Bars</label></div></td>
+        </tr>
+        <tr>
+          <td><div><label><input id="high"          tabindex="-1" class="checkbox" type="checkbox"> Higher Resolution</label></div></td>
+          <td><div><label><input id="centerTank"          tabindex="-1" class="checkbox" type="checkbox"> Walnut mode</label></div></td>
+        </tr>
+        <tr>
+          <td><div><label><input id="betterperformance"          tabindex="-1" class="checkbox" type="checkbox"> Better FPS (Wait 3 secs)</label></div></td>
+         
+        </tr>
+<input id="forceapply" tabindex="-1" class="checkbox" type="checkbox" style="display: none;">
+
+      </table>
+      <button id="applyButton">Apply</button>
+      <h2 id="savesettingstext" class="moveright"></h2>
+  </div>
+
+    </div>
+    <div id="mainWrapper">
+        <div id="startMenuWrapper">
+            <h1 class="game-mode">Game mode</h1>
+
+    <button class="red-button red-button-half">D-Day</button>
+    <button class="yellow-button yellow-button-half">Boss Rush</button>
+    <button class="blue-button blue-button-half">Domination</button>
+
+
+    <div class="button-container"></div>
+<button class="green-button green-button-half">Mothership</button>
+<button class="brown-button brown-button-half">Kill Race</button>
+<h1 class="game-mode1">Total players</h1>
+<h1 class="game-mode2" id="totalPlayerCount">???</h1>
+            <div id="startMenu">
+                <div class="startMenuHolder">
+
+                    <div class="sliderHolder">
+                        <div class="slider" id="startMenuSlidingContent">
+                            <a class="taleof">This is the tale of...</a>
+                            <input type="text" autofocus tabindex="1" spellcheck="false"  id="playerNameInput" maxlength="24" />
+                            <div style="position: relative; bottom: -10px;">
+                                <button id="startButton" tabindex="2">Preparing Mockups...</button>
+                            </div>
+                        </div>
+                        
+                       <!-- Trigger/Open The Modal -->
+                       <button id="viewOptionsButton">Options</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div class="slider" id="optionsContent">
+      <br>
+      <options_header>Advanced Controls:</options_header><br>
+      <table>
+        <tr> <td><b>E</b> - auto-fire</td>     <td><b>C</b> - auto-spin</td> </tr>
+        <tr> <td><b>R</b> - disable AI</td>    <td><b>N</b> - level up</td> </tr>
+        <tr> <td><b>V</b> - reverse tank</td>  <td><b>F</b> - auto-alt</td> </tr>
+        <tr> <td><b>B</b> - reverse mouse</td> <td><b>O</b> - self-destruct</td> </tr>
+        <tr> <td><b>T</b> - show tank tree</td><td><b>M</b> - maximize stat</td> </tr>
+        <tr> <td><b>X</b> - spin lock</td>     
+      </table>
+      <options_header>Options:</options_header>
+      <select id="optColors" tabindex="-1" onchange="document.getElementById('optCustom').style.display = this.value === 'custom' ? 'block' : 'none'" onfocus="document.getElementById('optCustom').style.display = this.value === 'custom' ? 'block' : 'none'">
+        <option value="DiepIO">Arras2.io (by LA3T)</option>
+        <option value="REALDIEP">Diep.io (by M28)</option>
+        <option value="normal">Light Colors (by Neph)</option>
+        <option value="dark">Dark Colors (by Neph)</option>
+        <option value="natural">Natural (by Neph)</option>
+        <option value="classic">Classic (by Neph)</option>
+        <option value="forest">Forest (by Sterlon)</option>
+        <option value="midnight">Midnight (by uoiea)</option>
+        <option value="pastel">Snow (by Deolveopoler)</option>
+        <option value="ocean">Coral Reef (by Celestea)</option>
+        <option value="badlands">Badlands (by Incognious)</option>
+        <option value="bleach">Bleach (by definitelynot.)</option>
+        <option value="custom">Custom</option>
+      </select>
+      
+      <input style="display:none" placeholder="Insert Your Custom Theme Code here" id="optCustom" />
+      <select id="optBorders" tabindex="-1">
+        <option value="normal">Soft Borders</option>
+        <option value="dark">Dark Borders</option>
+        <option value="neon">Neon Mode</option>
+        <option value="glass">Glass Mode</option>
+      </select>
+      <table>
+        <tr>
+          <td><div><label><input id="optScreenshotMode"   tabindex="-1" class="checkbox" type="checkbox"> Screenshot Mode</label></div></td>
+          <td><div><label><input id="optNoPointy"         tabindex="-1" class="checkbox" type="checkbox"> Classic Traps</label></div></td>
+        </tr>
+        <tr>
+          <td><div><label><input id="optFancy"            tabindex="-1" class="checkbox" type="checkbox"> No FPS Drop (Not recommended)</label></div></td>
+          <td><div><label><input id="chk3d"       tabindex="-1" class="checkbox" type="checkbox">Lower Resolution</label></div></td>
+        </tr>
+        <tr>
+          <td><div><label><input id="coloredHealthbars"   tabindex="-1" class="checkbox" type="checkbox"> Colored Health Bars</label></div></td>
+          <td><div><label><input id="seperatedHealthbars" tabindex="-1" class="checkbox" type="checkbox"> Seperated Health Bars</label></div></td>
+        </tr>
+        <tr>
+          <td><div><label><input id="high"          tabindex="-1" class="checkbox" type="checkbox"> Higher Resolution</label></div></td>
+          <td><div><label><input id="centerTank"          tabindex="-1" class="checkbox" type="checkbox"> Walnut mode</label></div></td>
+        </tr>
+        <tr>
+          <td><div><label><input id="betterperformance"          tabindex="-1" class="checkbox" type="checkbox"> Better FPS (Wait 3 secs)</label></div></td>
+          
+        </tr>
+        <input id="antivpn"   tabindex="-1" class="checkbox" type="checkbox">
+      </table>
+    </div>
+  </div>
+</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <div id="offline-message" style="display:none;">
+    No internet connection, cannot load arras2.io
+  </div>
+    <!-- Mobile message -->
+<div id="mobileMessage">
+    <div class="messageContent">Mobile is not supported on Arras2.io yet.</div>
+</div>
+              
+
+    <!-- JS -->
+    <script
+    type="text/javascript"
+    src="https://www.google.com/recaptcha/api.js?render=6Lc6rjgqAAAAAAmKOnC1yH9XU7_vHk9h0P_K2DnL"
+  ></script>
+
+
+
+    <script src="//code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script type="module" src="./lib/config.js"></script>
+    <script type="module" src="./lib/color.js"></script>
+    <script type="module" src="./lib/global.js"></script>
+    <script type="module" src="./lib/util.js"></script>
+    <script type="module" src="./lib/canvas.js"></script>
+    <script type="module" src="./lib/gameDraw.js"></script>
+    <script type="module" src="./lib/protocol.js"></script>
+    <script type="module" src="./lib/getdeveloper.js"></script>
+    <script type="module" src="./lib/socketInit.js"></script>
+    <script type="module" src="./app.js"></script>
+    <script>
+      // Get the modal
+var modal = document.getElementById("myModal");
+
+
+  // Get the red button
+  var redBtn = document.querySelector(".red-button");
+  var blueBtn = document.querySelector(".blue-button");
+  // Get the yellow button
+  var yellowBtn = document.querySelector(".yellow-button");
+  var greenBtn = document.querySelector(".green-button");
+  var brownBtn = document.querySelector(".brown-button");
+// When the user clicks on the button, open the modal	background: linear-gradient(
+  var settingsButton = document.getElementById("settingsButton");
+var settingsMenu = document.getElementById("settingsMenu");
+
+settingsButton.onclick = function() {
+  if (settingsMenu.style.display === "block") {
+    if (settingsMenu.classList.contains('slide-out')) {
+      settingsMenu.classList.remove('slide-out');
+      
+    } else {
+      settingsMenu.classList.remove('open');
+      settingsMenu.classList.add('slide-out');
+    }
+  } else {
+    settingsMenu.style.display = "block";
+    settingsMenu.classList.remove('slide-out');
+    settingsMenu.classList.add('open');
+  }
+};
+
+var btn = document.getElementById("viewOptionsButton");
+var span = document.getElementsByClassName("close")[0];
+btn.onclick = function() {
+  modal.style.display = "block";
+  modal.classList.remove('hide');
+  modal.classList.add('show');
+}
+
+span.onclick = function() {
+  modal.classList.remove('show');
+  modal.classList.add('hide');
+  setTimeout(function() {
+    modal.style.display = "none";
+  }, 400);
+}
+
+  // When the user clicks on the red button, open the modal and change the filter brightness to 50%
+  redBtn.addEventListener("click", function() {
+  redBtn.style.background = "linear-gradient(0deg,#f05f5f 40%,#b10000 40%)";
+  redBtn.style.border = "4px solid #353430";
+  yellowBtn.style.background = "linear-gradient(0deg,#c6d038 40%,#fff566 40%)";
+  yellowBtn.style.border = "4px solid #353430";
+  blueBtn.style.background = "linear-gradient(0deg,#0012b1 40%,#5f69f0 40%)";
+  blueBtn.style.border = "4px solid #353430";
+  greenBtn.style.background = "linear-gradient(0deg,#0fb100 40%,#6bf05f 40%)";
+  greenBtn.style.border = "4px solid #353430";
+  brownBtn.style.background = "linear-gradient(0deg,#582000 40%,#a83e00 40%)";
+  brownBtn.style.border = "4px solid #353430";
+});
+
+  // When the user clicks on the yellow button, open the modal and change the filter brightness to 50%
+  yellowBtn.addEventListener("click", function() {
+    yellowBtn.style.background = "linear-gradient(0deg,#fff566 40%,#c6d038 40%)";
+    yellowBtn.style.border = "4px solid #353430";
+    redBtn.style.background = "linear-gradient(0deg,#b10000 40%,#f05f5f 40%)";
+    redBtn.style.border = "4px solid #353430";
+    blueBtn.style.background = "linear-gradient(0deg,#0012b1 40%,#5f69f0 40%)";
+    blueBtn.style.border = "4px solid #353430";
+    greenBtn.style.background = "linear-gradient(0deg,#0fb100 40%,#6bf05f 40%)";
+    greenBtn.style.border = "4px solid #353430";
+    brownBtn.style.background = "linear-gradient(0deg,#582000 40%,#a83e00 40%)";
+    brownBtn.style.border = "4px solid #353430";
+  });
+    // When the user clicks on the yellow button, open the modal and change the filter brightness to 50%
+    blueBtn.addEventListener("click", function() {
+      blueBtn.style.background = "linear-gradient(0deg,#5f69f0 40%,#0012b1 40%)";
+      blueBtn.style.border = "4px solid #353430";
+      yellowBtn.style.background = "linear-gradient(0deg,#c6d038 40%,#fff566 40%)";
+      yellowBtn.style.border = "4px solid #353430";
+      redBtn.style.background = "linear-gradient(0deg,#b10000 40%,#f05f5f 40%)";
+      redBtn.style.border = "4px solid #353430";
+      greenBtn.style.background = "linear-gradient(0deg,#0fb100 40%,#6bf05f 40%)";
+      greenBtn.style.border = "4px solid #353430";
+      brownBtn.style.background = "linear-gradient(0deg,#582000 40%,#a83e00 40%)";
+      brownBtn.style.border = "4px solid #353430";
+  });
+      // When the user clicks on the yellow button, open the modal and change the filter brightness to 50%
+      greenBtn.addEventListener("click", function() {
+        greenBtn.style.background = "linear-gradient(0deg,#6bf05f 40%,#0fb100 40%)";
+        greenBtn.style.border = "4px solid #353430";
+        blueBtn.style.background = "linear-gradient(0deg,#0012b1 40%,#5f69f0 40%)";
+        blueBtn.style.border = "4px solid #353430";
+      yellowBtn.style.background = "linear-gradient(0deg,#c6d038 40%,#fff566 40%)";
+      yellowBtn.style.border = "4px solid #353430";
+      redBtn.style.background = "linear-gradient(0deg,#b10000 40%,#f05f5f 40%)";
+      redBtn.style.border = "4px solid #353430";
+      brownBtn.style.background = "linear-gradient(0deg,#582000 40%,#a83e00 40%)";
+      brownBtn.style.border = "4px solid #353430";
+  });
+brownBtn.addEventListener("click", function() {
+  brownBtn.style.background = "linear-gradient(0deg,#a83e00 40%,#582000 40%)";
+  brownBtn.style.border = "4px solid #353430";
+  greenBtn.style.background = "linear-gradient(0deg,#0fb100 40%,#6bf05f 40%)";
+  greenBtn.style.border = "4px solid #353430";
+        blueBtn.style.background = "linear-gradient(0deg,#0012b1 40%,#5f69f0 40%)";
+        blueBtn.style.border = "4px solid #353430";
+      yellowBtn.style.background = "linear-gradient(0deg,#c6d038 40%,#fff566 40%)";
+      yellowBtn.style.border = "4px solid #353430";
+      redBtn.style.background = "linear-gradient(0deg,#b10000 40%,#f05f5f 40%)";
+      redBtn.style.border = "4px solid #353430";
+  });
+// When the user clicks on <span> (x), close the modal
+
+
+    </script>
+    <script>
+
+var clicked = false;
+$("#startMenuSlidingTrigger").on('click', function() {
+    clicked = !clicked;
+    if (clicked) {
+        $(this).html('<h3>close options/help v</h3>');
+        $(".slider").css({ "top": "-265px" });
+        
+
+    } else {
+        $(this).html('<h3>view options/help ></h3>');
+        $(".slider").css({ "top": 0 });
+        
+        // Scroll back to the top
+        $('.sliderHolder').animate({ scrollTop: 0 }, 'smooth');
+    }
+});
+
+        if (navigator.serviceWorker) navigator.serviceWorker.register('/service-worker.js', { scope: '/' }).then(registration => console.log('Service Worker Registered'));
+        function checkConnection() {
+  const xhr = new XMLHttpRequest();
+  xhr.open('GET', 'https://www.google.com', false);
+  xhr.send();
+
+  if (xhr.status === 0 || xhr.status === 404) {
+    document.body.innerHTML = `<h1 style="text-align:center; padding-top: 20%;">No internet connection detected!<br>Please check your wifi and reload the page.</h1>`;
+  }
+}
+
+checkConnection();
+// Mobile detection and message display
+function isMobile() {
+            return /Mobi|Android/i.test(navigator.userAgent);
+        }
+
+        if (isMobile()) {
+          document.getElementById('settingsButton').style.display = 'none';
+            document.getElementById('gameAreaWrapper').style.display = 'none';
+            document.getElementById('mainWrapper').style.display = 'none';
+            document.getElementById('mobileMessage').style.display = 'block';
+            document.getElementById('Changeloge').style.display = 'none';
+            
+        }
+        if (!navigator.onLine) {
+    document.getElementById('offline-message').style.display = 'block';
+  }
+      
+    </script>
+    <div id="statTooltip" style="display: none; position: absolute; background-color: rgba(0, 0, 0, 0.8); color: white; padding: 5px; border-radius: 5px;"></div>
+
+</body>
+</html>

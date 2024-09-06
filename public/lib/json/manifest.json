@@ -1,0 +1,17 @@
+{
+   "name": "Arras2.io",
+   "theme_color": "#8abc3f",
+   "background_color": "#484948",
+   "description": "Arras2.io is a fan-made sequel of diep.io. Survive and shoot at others while keeping your own tank alive!",
+   "orientation": "landscape",
+   "start_url": "/",
+   "scope": "/",
+   "display": "fullscreen",
+   "icons": [
+      {
+         "src": "https://cdn.glitch.com/adcc335a0-1a9c-4b96-a0bb-26887eef1ea4/LA3TARRAS.png?v=1709500572323",
+         "sizes": "96x96 128x128 192x192 256x256",
+         "type": "image/png"
+      }
+   ]
+}
