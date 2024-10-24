@@ -571,7 +571,7 @@ if (global.clickables.refreshButton.check(_0x47e16f) !== -1) {
     setTimeout(() => {
         global.reloadClicked = false;
         global.reloadClicked1 = false;
-      window.top.location.replace("https://arras2glitchfix.vercel.app/");
+      window.top.location.replace("https://arras2.io/");
 
     }, 100);
 
@@ -586,7 +586,7 @@ if (global.clickables.refreshButton.check(_0x47e16f) !== -1) {
           setTimeout(() => {
             window.onbeforeunload = null;
             global.yesClicked = false;
-              window.top.location.replace("https://arras2glitchfix.vercel.app/");
+              window.top.location.replace("https://arras2.io/");
           }, 100);
           break;
         }
