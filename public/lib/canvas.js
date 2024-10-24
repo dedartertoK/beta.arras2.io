@@ -1,1 +1,873 @@
-const _0x477f9f=_0x14fe;(function(_0x2b52cf,_0x368704){const _0x50d595=_0x14fe,_0x1326b5=_0x2b52cf();while(!![]){try{const _0x20fc53=parseInt(_0x50d595(0x1ac))/0x1+parseInt(_0x50d595(0x1ce))/0x2+-parseInt(_0x50d595(0x198))/0x3+parseInt(_0x50d595(0x207))/0x4*(-parseInt(_0x50d595(0x15c))/0x5)+-parseInt(_0x50d595(0x228))/0x6*(parseInt(_0x50d595(0x197))/0x7)+parseInt(_0x50d595(0x174))/0x8*(-parseInt(_0x50d595(0x190))/0x9)+parseInt(_0x50d595(0x210))/0xa*(parseInt(_0x50d595(0x1f3))/0xb);if(_0x20fc53===_0x368704)break;else _0x1326b5['push'](_0x1326b5['shift']());}catch(_0x26fbc7){_0x1326b5['push'](_0x1326b5['shift']());}}}(_0x42c3,0x8aaae));import{global}from'./global.js';import{config}from'./config.js';function _0x14fe(_0x323795,_0x3aa7ed){const _0x42c3ae=_0x42c3();return _0x14fe=function(_0x14fee7,_0x7c4ea0){_0x14fee7=_0x14fee7-0x14f;let _0x4865d4=_0x42c3ae[_0x14fee7];return _0x4865d4;},_0x14fe(_0x323795,_0x3aa7ed);}class Canvas{constructor(){const _0x57e1b0=_0x14fe;this['directionLock']=![],this[_0x57e1b0(0x248)]=global['target'],this[_0x57e1b0(0x19a)]=global[_0x57e1b0(0x19a)],global[_0x57e1b0(0x240)]=this[_0x57e1b0(0x248)],this[_0x57e1b0(0x239)]=global[_0x57e1b0(0x239)],this[_0x57e1b0(0x1f0)]=[],this[_0x57e1b0(0x1b5)]=document['getElementById'](_0x57e1b0(0x1b5)),this[_0x57e1b0(0x1b5)][_0x57e1b0(0x203)](_0x57e1b0(0x193),_0x1926fe=>{const _0x17de8b=_0x57e1b0;if(![global[_0x17de8b(0x1e6)],global[_0x17de8b(0x192)]][_0x17de8b(0x169)](_0x1926fe[_0x17de8b(0x224)]))return;this[_0x17de8b(0x1b5)][_0x17de8b(0x1cb)](),this['cv'][_0x17de8b(0x22b)](),this['chatInput'][_0x17de8b(0x187)]=!![];if(!this[_0x17de8b(0x1b5)]['value'])return;_0x1926fe[_0x17de8b(0x224)]===global[_0x17de8b(0x1e6)]&&this['socket'][_0x17de8b(0x1b7)]('M',this[_0x17de8b(0x1b5)][_0x17de8b(0x1b6)]),this[_0x17de8b(0x1b5)]['value']='';}),global[_0x57e1b0(0x218)]&&(this[_0x57e1b0(0x1b5)][_0x57e1b0(0x187)]=!![]),this['mouse']={'x':0x0,'y':0x0,'down':![]},this[_0x57e1b0(0x215)]={'x':0x0,'y':0x0},this['cv']=document[_0x57e1b0(0x17c)](_0x57e1b0(0x1a8)),this['cv'][_0x57e1b0(0x203)](_0x57e1b0(0x176),_0x4cf7b3=>this[_0x57e1b0(0x1a5)](_0x4cf7b3),![]),this['cv'][_0x57e1b0(0x203)](_0x57e1b0(0x15f),_0x5c8b3e=>this[_0x57e1b0(0x159)](_0x5c8b3e),![]),this['cv'][_0x57e1b0(0x203)](_0x57e1b0(0x16b),_0x41f067=>this[_0x57e1b0(0x1a3)](_0x41f067),![]),this['cv'][_0x57e1b0(0x203)](_0x57e1b0(0x183),_0x395afc=>this['keyPress'](_0x395afc),![]),this['cv'][_0x57e1b0(0x203)](_0x57e1b0(0x193),_0x399a79=>this[_0x57e1b0(0x1d0)](_0x399a79),![]),this['cv']['addEventListener'](_0x57e1b0(0x1ed),_0x98121e=>this['keyUp'](_0x98121e),![]),this['cv'][_0x57e1b0(0x203)](_0x57e1b0(0x16d),_0x136b25=>this[_0x57e1b0(0x16d)](_0x136b25),![]),this['cv'][_0x57e1b0(0x1eb)]=(_0x2b5626,_0x18a61e)=>{const _0x26c0f6=_0x57e1b0;this['cv'][_0x26c0f6(0x23b)]=this['width']=_0x2b5626,this['cv'][_0x26c0f6(0x18c)]=this[_0x26c0f6(0x18c)]=_0x18a61e;},this['cv'][_0x57e1b0(0x1eb)](innerWidth,innerHeight),this[_0x57e1b0(0x1e5)]=![],this[_0x57e1b0(0x1b8)]=![],this['spinLock']=!![],this[_0x57e1b0(0x1ea)]=0.5,this[_0x57e1b0(0x191)]=0x1,global[_0x57e1b0(0x22f)]=this;}[_0x477f9f(0x16d)](_0x7f8419){const _0x110968=_0x477f9f;!global['died']&&global[_0x110968(0x1ae)]&&!global[_0x110968(0x218)]&&(_0x7f8419['deltaY']>0x1?global[_0x110968(0x205)]/=1.1:global[_0x110968(0x205)]*=1.1);}['gameInput'](_0x2bce84){const _0x28d81a=_0x477f9f;let _0x234320=global[_0x28d81a(0x1cd)]/ innerWidth,_0x116bf6=global[_0x28d81a(0x1fa)]/ innerHeight;this[_0x28d81a(0x19a)]['x']=_0x2bce84['clientX'],this[_0x28d81a(0x19a)]['y']=_0x2bce84['clientY'],player['cx']!=null&&player['cy']!=null&&(global['target']['x']=(this[_0x28d81a(0x19a)]['x']-innerWidth/0x2)*_0x234320,global[_0x28d81a(0x248)]['y']=(this[_0x28d81a(0x19a)]['y']-innerHeight/0x2)*_0x116bf6),global[_0x28d81a(0x216)]=global['clickables'][_0x28d81a(0x1e4)]['check']({'x':_0x2bce84[_0x28d81a(0x1a6)]*global[_0x28d81a(0x208)],'y':_0x2bce84['clientY']*global['ratio']})===0x0,global[_0x28d81a(0x215)]={'x':_0x2bce84[_0x28d81a(0x1a6)]*_0x116bf6,'y':_0x2bce84[_0x28d81a(0x20c)]*_0x234320};}[_0x477f9f(0x1ec)](_0xbf671c){const _0x2b060e=_0x477f9f;if(!global[_0x2b060e(0x1dc)]&&!(global[_0x2b060e(0x17d)]&&global['disconnected']&&global[_0x2b060e(0x1e8)]&&global[_0x2b060e(0x241)]&&global['diedseekbruh']))return;switch(_0xbf671c['keyCode']){case global[_0x2b060e(0x212)]:!global[_0x2b060e(0x201)]&&global[_0x2b060e(0x1ae)]&&!global[_0x2b060e(0x218)]&&(global[_0x2b060e(0x205)]/=1.1);break;case global['KEY_ZOOM_IN']:!global[_0x2b060e(0x201)]&&global[_0x2b060e(0x1ae)]&&!global[_0x2b060e(0x218)]&&(global[_0x2b060e(0x205)]*=1.1);break;}}[_0x477f9f(0x1d0)](_0x2209ee){const _0x13d1ee=_0x477f9f;if(!_0x2209ee[_0x13d1ee(0x22c)]||_0x2209ee[_0x13d1ee(0x224)]===global[_0x13d1ee(0x243)]){if(!global[_0x13d1ee(0x1dc)]&&!(global['kicked']&&global[_0x13d1ee(0x218)]&&global[_0x13d1ee(0x1e8)]&&global[_0x13d1ee(0x241)]&&global[_0x13d1ee(0x1fd)]))return;switch(_0x2209ee[_0x13d1ee(0x224)]){case global[_0x13d1ee(0x249)]:this[_0x13d1ee(0x191)]=0x5;break;case global[_0x13d1ee(0x1e6)]:if(global[_0x13d1ee(0x1c6)])return;if(global['isspectating'])return 0x1;if(global[_0x13d1ee(0x241)])return 0x1;if(global[_0x13d1ee(0x1fd)])return 0x1;if(global[_0x13d1ee(0x1db)])return 0x1;if(global[_0x13d1ee(0x1a4)])return 0x1;if(!global[_0x13d1ee(0x1dc)])return 0x1;if(global[_0x13d1ee(0x218)])break;else{if(global[_0x13d1ee(0x218)]||global[_0x13d1ee(0x1aa)])return 0x1;}if(global['died']){global['enterClicked']=!![],setTimeout(()=>{const _0x1cc92e=_0x13d1ee;global[_0x1cc92e(0x1b4)]=![],this[_0x1cc92e(0x239)][_0x1cc92e(0x1b7)]('s',global['playerName'],0x0,0x1*config[_0x1cc92e(0x214)][_0x1cc92e(0x182)]),global[_0x1cc92e(0x201)]=![],global[_0x1cc92e(0x231)]=!![],global['hidemenu']=!![],global['closesettings']=![];},0x64);break;}if(!global[_0x13d1ee(0x218)]||!global[_0x13d1ee(0x1aa)]){if(this[_0x13d1ee(0x1b5)][_0x13d1ee(0x187)]){this[_0x13d1ee(0x1b5)][_0x13d1ee(0x187)]=![],this[_0x13d1ee(0x1b5)][_0x13d1ee(0x22b)]();break;}}if(!global[_0x13d1ee(0x1f7)]){if(this['chatInput']['hidden']){this[_0x13d1ee(0x1b5)]['hidden']=![],this[_0x13d1ee(0x1b5)][_0x13d1ee(0x22b)]();break;}}break;case global[_0x13d1ee(0x192)]:global[_0x13d1ee(0x201)]&&global[_0x13d1ee(0x1e8)]&&(global['cancelspectateClicked']=!![],setTimeout(()=>{const _0x3ef192=_0x13d1ee;global[_0x3ef192(0x1b0)]=![],global[_0x3ef192(0x1e8)]=![],global['died']=!![];},0x64));break;case global[_0x13d1ee(0x19f)]:if(!global[_0x13d1ee(0x201)]&&global[_0x13d1ee(0x1ae)]&&!global[_0x13d1ee(0x218)])return global['shouldScrollY']=-this[_0x13d1ee(0x1ea)]*this[_0x13d1ee(0x191)];case global[_0x13d1ee(0x1e2)]:this[_0x13d1ee(0x239)][_0x13d1ee(0x235)][_0x13d1ee(0x156)](0x0,!![]);break;case global[_0x13d1ee(0x1a0)]:if(!global[_0x13d1ee(0x201)]&&global['showTree']&&!global['disconnected'])return global[_0x13d1ee(0x22d)]=+this[_0x13d1ee(0x1ea)]*this['treeScrollSpeedMultiplier'];case global['KEY_DOWN']:this[_0x13d1ee(0x239)][_0x13d1ee(0x235)][_0x13d1ee(0x156)](0x1,!![]);break;case global[_0x13d1ee(0x1f2)]:if(!global[_0x13d1ee(0x201)]&&global['showTree']&&!global['disconnected'])return global[_0x13d1ee(0x164)]=-this[_0x13d1ee(0x1ea)]*this[_0x13d1ee(0x191)];case global[_0x13d1ee(0x18f)]:this['socket'][_0x13d1ee(0x235)]['set'](0x2,!![]);break;case global[_0x13d1ee(0x186)]:if(!global['died']&&global[_0x13d1ee(0x1ae)]&&!global[_0x13d1ee(0x218)])return global[_0x13d1ee(0x164)]=+this[_0x13d1ee(0x1ea)]*this[_0x13d1ee(0x191)];case global[_0x13d1ee(0x1b1)]:this['socket']['cmd'][_0x13d1ee(0x156)](0x3,!![]);break;case global[_0x13d1ee(0x1f8)]:this[_0x13d1ee(0x239)][_0x13d1ee(0x235)][_0x13d1ee(0x156)](0x4,!![]);break;case global[_0x13d1ee(0x217)]:this[_0x13d1ee(0x239)][_0x13d1ee(0x235)]['set'](0x5,!![]);break;case global[_0x13d1ee(0x16a)]:this['socket'][_0x13d1ee(0x235)][_0x13d1ee(0x156)](0x6,!![]);break;case global['KEY_LEVEL_UP']:this[_0x13d1ee(0x239)][_0x13d1ee(0x1b7)]('L');break;case global[_0x13d1ee(0x153)]:this[_0x13d1ee(0x239)][_0x13d1ee(0x1b7)]('0');break;case global[_0x13d1ee(0x1d8)]:this[_0x13d1ee(0x239)][_0x13d1ee(0x1b7)]('maketestbed');break;case global[_0x13d1ee(0x234)]:this[_0x13d1ee(0x239)][_0x13d1ee(0x1b7)](_0x13d1ee(0x236));break;case global[_0x13d1ee(0x181)]:this[_0x13d1ee(0x239)]['talk'](_0x13d1ee(0x1f6));break;case global['KEY_CONTROL']:this[_0x13d1ee(0x239)][_0x13d1ee(0x1b7)](_0x13d1ee(0x168));break;case global[_0x13d1ee(0x1f1)]:this[_0x13d1ee(0x239)][_0x13d1ee(0x1b7)](_0x13d1ee(0x178));break;case global[_0x13d1ee(0x19b)]:this[_0x13d1ee(0x239)]['talk']('Multibox');break;case global[_0x13d1ee(0x1e7)]:this[_0x13d1ee(0x239)][_0x13d1ee(0x1b7)]('passive');break;case global['KEY_BAN_PLAYER']:this['socket'][_0x13d1ee(0x1b7)](_0x13d1ee(0x1c8));break;case global[_0x13d1ee(0x1df)]:this[_0x13d1ee(0x239)][_0x13d1ee(0x1b7)]('makebigger');break;case global[_0x13d1ee(0x23c)]:this['socket'][_0x13d1ee(0x1b7)](_0x13d1ee(0x219));break;case global[_0x13d1ee(0x175)]:this['socket']['talk'](_0x13d1ee(0x18e));break;case global['KEY_NAME_KEY']:this[_0x13d1ee(0x239)][_0x13d1ee(0x1b7)](_0x13d1ee(0x1de));break;case global[_0x13d1ee(0x20d)]:this[_0x13d1ee(0x239)][_0x13d1ee(0x1b7)](_0x13d1ee(0x1d7));break;case global[_0x13d1ee(0x1bc)]:this[_0x13d1ee(0x239)][_0x13d1ee(0x1b7)](_0x13d1ee(0x244));break;case global[_0x13d1ee(0x184)]:this[_0x13d1ee(0x239)][_0x13d1ee(0x1b7)]('-/');break;case global[_0x13d1ee(0x202)]:this[_0x13d1ee(0x239)][_0x13d1ee(0x1b7)]('V');break;case global[_0x13d1ee(0x1d5)]:this[_0x13d1ee(0x239)][_0x13d1ee(0x1b7)](';');break;case global[_0x13d1ee(0x1bd)]:this[_0x13d1ee(0x239)]['talk']('>');break;case global[_0x13d1ee(0x1c5)]:this[_0x13d1ee(0x239)][_0x13d1ee(0x1b7)]('=',0x5);break;case global[_0x13d1ee(0x230)]:this[_0x13d1ee(0x239)][_0x13d1ee(0x1b7)]('zoominwow');break;case global[_0x13d1ee(0x212)]:this[_0x13d1ee(0x239)]['talk']('zoomoutwow');break;case global['KEY_BIGGER']:this[_0x13d1ee(0x239)]['talk'](_0x13d1ee(0x1be));break;case global['KEY_SMALLER']:this[_0x13d1ee(0x239)]['talk']('bigoutwow');break;case global['KEY_ZOOM_CLEAR']:this[_0x13d1ee(0x239)][_0x13d1ee(0x1b7)](_0x13d1ee(0x22e));break;case global[_0x13d1ee(0x23d)]:this[_0x13d1ee(0x239)][_0x13d1ee(0x1b7)](_0x13d1ee(0x14f));break;case global[_0x13d1ee(0x1dd)]:this['socket']['talk']('H');break;case global[_0x13d1ee(0x19c)]:this[_0x13d1ee(0x239)][_0x13d1ee(0x1b7)]('j');break;case global[_0x13d1ee(0x221)]:global[_0x13d1ee(0x206)]=!![];break;case global[_0x13d1ee(0x237)]:this[_0x13d1ee(0x239)][_0x13d1ee(0x1b7)]('1');break;case global[_0x13d1ee(0x1b2)]:this[_0x13d1ee(0x172)]();break;case global[_0x13d1ee(0x211)]:this[_0x13d1ee(0x239)][_0x13d1ee(0x1b7)]('Y');break;}}if(!_0x2209ee[_0x13d1ee(0x22c)]){if(!global[_0x13d1ee(0x1dc)]&&!(global[_0x13d1ee(0x17d)]&&global['disconnected']&&global[_0x13d1ee(0x1e8)]&&global[_0x13d1ee(0x241)]&&global[_0x13d1ee(0x1fd)]))return;switch(_0x2209ee[_0x13d1ee(0x224)]){case global[_0x13d1ee(0x154)]:if(global[_0x13d1ee(0x218)])global[_0x13d1ee(0x1c9)]=![];else{global['autoSpin']=!global[_0x13d1ee(0x1c9)],this[_0x13d1ee(0x239)][_0x13d1ee(0x1b7)]('t',0x0);break;}case global[_0x13d1ee(0x1c3)]:this[_0x13d1ee(0x239)][_0x13d1ee(0x1b7)]('t',0x1);break;case global[_0x13d1ee(0x233)]:this[_0x13d1ee(0x239)][_0x13d1ee(0x1b7)]('t',0x2);break;case global['KEY_REVERSE_MOUSE']:if(global[_0x13d1ee(0x218)])this[_0x13d1ee(0x1b8)]=![];else{this[_0x13d1ee(0x1b8)]=!this[_0x13d1ee(0x1b8)],this[_0x13d1ee(0x239)][_0x13d1ee(0x1b7)]('t',0x3);break;}case global['KEY_REVERSE_TANK']:if(global[_0x13d1ee(0x218)])this[_0x13d1ee(0x1e5)]=![];else{this['reverseDirection']=!this['reverseDirection'],this[_0x13d1ee(0x248)]['x']*=-0x1,this[_0x13d1ee(0x248)]['y']*=-0x1,this[_0x13d1ee(0x239)][_0x13d1ee(0x1b7)]('t',0x4);break;}case global['KEY_MULTIBOX']:this[_0x13d1ee(0x239)][_0x13d1ee(0x1b7)]('{',0x5);break;case global[_0x13d1ee(0x226)]:this[_0x13d1ee(0x188)]=!this['spinLock'],this['socket'][_0x13d1ee(0x1b7)]('t',0x6);break;case global[_0x13d1ee(0x1a1)]:global[_0x13d1ee(0x201)]||global[_0x13d1ee(0x241)]&&!global[_0x13d1ee(0x218)]&&global[_0x13d1ee(0x1fd)]?global[_0x13d1ee(0x1ae)]=![]:global[_0x13d1ee(0x1ae)]=!global[_0x13d1ee(0x1ae)];break;case global[_0x13d1ee(0x229)]:this[_0x13d1ee(0x1e9)]();break;}if(global[_0x13d1ee(0x21d)]){let _0x33a422=[global['KEY_UPGRADE_ATK'],global[_0x13d1ee(0x238)],global[_0x13d1ee(0x15b)],global['KEY_UPGRADE_STR'],global[_0x13d1ee(0x213)],global[_0x13d1ee(0x194)],global[_0x13d1ee(0x19d)],global[_0x13d1ee(0x150)],global[_0x13d1ee(0x225)],global[_0x13d1ee(0x21e)]][_0x13d1ee(0x227)](_0x2209ee['keyCode']);_0x33a422>=0x0&&this[_0x13d1ee(0x239)][_0x13d1ee(0x1b7)]('x',_0x33a422,0x1*global[_0x13d1ee(0x206)]);}if(global[_0x13d1ee(0x18a)])switch(_0x2209ee['keyCode']){case global[_0x13d1ee(0x15e)]:this[_0x13d1ee(0x239)]['talk']('U',0x0);break;case global[_0x13d1ee(0x1a9)]:this[_0x13d1ee(0x239)][_0x13d1ee(0x1b7)]('U',0x1);break;case global[_0x13d1ee(0x177)]:this[_0x13d1ee(0x239)][_0x13d1ee(0x1b7)]('U',0x2);break;case global['KEY_CHOOSE_4']:this[_0x13d1ee(0x239)][_0x13d1ee(0x1b7)]('U',0x3);break;case global[_0x13d1ee(0x17a)]:this[_0x13d1ee(0x239)][_0x13d1ee(0x1b7)]('U',0x4);break;case global[_0x13d1ee(0x151)]:this[_0x13d1ee(0x239)][_0x13d1ee(0x1b7)]('U',0x5);break;}}}[_0x477f9f(0x1ab)](_0xd72315){const _0x2feafb=_0x477f9f;if(!global['gameStart']&&!(global[_0x2feafb(0x17d)]&&global[_0x2feafb(0x218)]&&global[_0x2feafb(0x1e8)]&&global['diedbruh']&&global[_0x2feafb(0x1fd)]))return;switch(_0xd72315[_0x2feafb(0x224)]){case global[_0x2feafb(0x249)]:this[_0x2feafb(0x191)]=0x1;break;case global[_0x2feafb(0x19f)]:global[_0x2feafb(0x22d)]=0x0;case global[_0x2feafb(0x1e2)]:this[_0x2feafb(0x239)][_0x2feafb(0x235)][_0x2feafb(0x156)](0x0,![]);break;case global[_0x2feafb(0x1a0)]:global[_0x2feafb(0x22d)]=0x0;case global['KEY_DOWN']:this['socket'][_0x2feafb(0x235)][_0x2feafb(0x156)](0x1,![]);break;case global[_0x2feafb(0x1f2)]:global['shouldScrollX']=0x0;case global[_0x2feafb(0x18f)]:this['socket'][_0x2feafb(0x235)][_0x2feafb(0x156)](0x2,![]);break;case global['KEY_RIGHT_ARROW']:global['shouldScrollX']=0x0;case global[_0x2feafb(0x1b1)]:this['socket']['cmd'][_0x2feafb(0x156)](0x3,![]);break;case global['KEY_MOUSE_0']:this[_0x2feafb(0x239)]['cmd'][_0x2feafb(0x156)](0x4,![]);break;case global[_0x2feafb(0x217)]:this[_0x2feafb(0x239)][_0x2feafb(0x235)][_0x2feafb(0x156)](0x5,![]);break;case global['KEY_MOUSE_2']:this['socket'][_0x2feafb(0x235)]['set'](0x6,![]);break;case global[_0x2feafb(0x221)]:global[_0x2feafb(0x206)]=![];break;}}['mouseDown'](_0x1e9498){const _0x5722fb=_0x477f9f;if(!global['gameStart']&&!global[_0x5722fb(0x1f7)])return;let _0x5d3fea=0x4,_0x5c8e69=0x6;this[_0x5722fb(0x1b8)]&&([_0x5d3fea,_0x5c8e69]=[_0x5c8e69,_0x5d3fea]);switch(_0x1e9498[_0x5722fb(0x161)]){case 0x0:let _0x47e16f={'x':_0x1e9498[_0x5722fb(0x1a6)]*global[_0x5722fb(0x208)],'y':_0x1e9498['clientY']*global[_0x5722fb(0x208)]};if(global[_0x5722fb(0x201)]&&global[_0x5722fb(0x1f9)][_0x5722fb(0x1ee)][_0x5722fb(0x180)](_0x47e16f)!==-0x1&&!global[_0x5722fb(0x218)]){global[_0x5722fb(0x246)]=!![],setTimeout(()=>{const _0x353a31=_0x5722fb;global['spectateClicked']=![],global[_0x353a31(0x1e8)]=!![];},0x64);break;}if(global['died']&&global[_0x5722fb(0x1f9)][_0x5722fb(0x21c)]['check'](_0x47e16f)!==-0x1&&!global[_0x5722fb(0x218)]){global[_0x5722fb(0x1b0)]=!![],setTimeout(()=>{const _0x5c8c1a=_0x5722fb;global[_0x5c8c1a(0x1b0)]=![],global[_0x5c8c1a(0x1e8)]=![],global[_0x5c8c1a(0x201)]=!![];},0x64);break;}if(global[_0x5722fb(0x201)]&&global[_0x5722fb(0x1f9)][_0x5722fb(0x1cc)][_0x5722fb(0x180)](_0x47e16f)!==-0x1&&!global['disconnected']){global[_0x5722fb(0x1b4)]=!![],setTimeout(()=>{const _0x2e7993=_0x5722fb;global[_0x2e7993(0x1b4)]=![],!global[_0x2e7993(0x1c6)]&&!global['isspectating']&&!global[_0x2e7993(0x241)]&&!global[_0x2e7993(0x1fd)]&&!global[_0x2e7993(0x1db)]&&!global['arenaClosed']&&!global[_0x2e7993(0x218)]&&!global[_0x2e7993(0x1aa)]&&global[_0x2e7993(0x1dc)]&&(this['socket']['talk']('s',global[_0x2e7993(0x1d1)],0x0,0x1*config[_0x2e7993(0x214)][_0x2e7993(0x182)]),global[_0x2e7993(0x201)]=![],global[_0x2e7993(0x231)]=!![],global[_0x2e7993(0x165)]=!![],global[_0x2e7993(0x1c4)]=![]);},0x64);break;}if(global['clickables'][_0x5722fb(0x1cf)]['check'](_0x47e16f)!==-0x1&&!global[_0x5722fb(0x1fc)]&&!global[_0x5722fb(0x1da)]&&global['closesettings']){document[_0x5722fb(0x17c)]('optScreenshotMode')[_0x5722fb(0x1ca)]=!![],global[_0x5722fb(0x1ad)]=!![],global[_0x5722fb(0x222)][_0x5722fb(0x1bb)]({'text':_0x5722fb(0x199),'status':0x2,'alpha':0x0,'time':Date['now']()});global[_0x5722fb(0x1ad)]&&(global[_0x5722fb(0x222)][_0x5722fb(0x1bb)]({'text':_0x5722fb(0x23a),'status':0x2,'alpha':0x0,'time':Date[_0x5722fb(0x1d3)]()}),global[_0x5722fb(0x1ad)]=![]);break;}if(global[_0x5722fb(0x1f9)]['bossrush'][_0x5722fb(0x180)](_0x47e16f)!==-0x1&&!global[_0x5722fb(0x1fc)]&&!global[_0x5722fb(0x1da)]&&global[_0x5722fb(0x1c4)]){document[_0x5722fb(0x17c)](_0x5722fb(0x1ff))[_0x5722fb(0x1ca)]=!![],global[_0x5722fb(0x21f)]=!![],global[_0x5722fb(0x222)][_0x5722fb(0x1bb)]({'text':_0x5722fb(0x1f4),'status':0x2,'alpha':0x0,'time':Date['now']()});global[_0x5722fb(0x21f)]&&(global['messages'][_0x5722fb(0x1bb)]({'text':_0x5722fb(0x1f5),'status':0x2,'alpha':0x0,'time':Date['now']()}),global[_0x5722fb(0x21f)]=![]);break;}if(global[_0x5722fb(0x1f9)][_0x5722fb(0x160)]['check'](_0x47e16f)!==-0x1&&!global[_0x5722fb(0x1fc)]&&!global['upgradeMenuVisible']&&global[_0x5722fb(0x1c4)]){window['onbeforeunload']=null,window[_0x5722fb(0x16c)]['replace']('https://mothership.arras2.io/play.html');break;}if(global[_0x5722fb(0x1f9)]['domination'][_0x5722fb(0x180)](_0x47e16f)!==-0x1&&!global[_0x5722fb(0x1fc)]&&!global[_0x5722fb(0x1da)]&&global['closesettings']){window[_0x5722fb(0x1a7)]=null,window[_0x5722fb(0x16c)][_0x5722fb(0x179)](_0x5722fb(0x157));break;}if(global[_0x5722fb(0x1f9)][_0x5722fb(0x16f)][_0x5722fb(0x180)](_0x47e16f)!==-0x1&&!global['choosenexit']&&!global[_0x5722fb(0x1da)]&&global[_0x5722fb(0x1c4)]){window[_0x5722fb(0x1a7)]=null,window['location'][_0x5722fb(0x179)](_0x5722fb(0x173));break;}if(global[_0x5722fb(0x1f9)][_0x5722fb(0x158)]['check'](_0x47e16f)!==-0x1){global[_0x5722fb(0x162)]=!![],global[_0x5722fb(0x195)]=!![],setTimeout(()=>{const _0x2aa3cf=_0x5722fb;global[_0x2aa3cf(0x162)]=![],global[_0x2aa3cf(0x195)]=![];},0x64),location[_0x5722fb(0x245)](),window['onbeforeunload']=null;break;}if(global[_0x5722fb(0x1f9)][_0x5722fb(0x170)][_0x5722fb(0x180)](_0x47e16f)!==-0x1&&!global[_0x5722fb(0x218)]&&!global[_0x5722fb(0x1da)]&&global[_0x5722fb(0x1c4)]){global['yesClicked']=!![],setTimeout(()=>{const _0x20034f=_0x5722fb;window['onbeforeunload']=null,global['yesClicked']=![],location[_0x20034f(0x245)]();},0x64);break;}if(global[_0x5722fb(0x1f9)]['no'][_0x5722fb(0x180)](_0x47e16f)!==-0x1&&!global[_0x5722fb(0x218)]&&!global[_0x5722fb(0x1da)]&&global[_0x5722fb(0x1c4)]){global[_0x5722fb(0x223)]=!![],setTimeout(()=>{const _0x398509=_0x5722fb;global[_0x398509(0x1fc)]=![],global['noClicked']=![];},0x64);break;}if(global[_0x5722fb(0x1f9)][_0x5722fb(0x155)][_0x5722fb(0x180)](_0x47e16f)!==-0x1&&!global[_0x5722fb(0x218)]&&!global[_0x5722fb(0x1da)]&&global[_0x5722fb(0x1c4)]){global[_0x5722fb(0x1fc)]=!![];break;}if(global[_0x5722fb(0x1f9)]['settingsbutton']['check'](_0x47e16f)!==-0x1&&!global[_0x5722fb(0x218)]&&!global[_0x5722fb(0x1da)]){global[_0x5722fb(0x20a)]=!![],setTimeout(()=>{const _0x1d9dbb=_0x5722fb;global['closesettings']=!global[_0x1d9dbb(0x1c4)],global['hasclickedsettings']=!![],global['SettingsClicked']=![];},0x64);break;}let _0x152dfd=global[_0x5722fb(0x1f9)][_0x5722fb(0x23f)]['check'](_0x47e16f);if(_0x152dfd!==-0x1)this[_0x5722fb(0x239)][_0x5722fb(0x1b7)]('x',_0x152dfd,0x0);else{if(global['clickables']['skipUpgrades'][_0x5722fb(0x180)](_0x47e16f)!==-0x1&&!global[_0x5722fb(0x218)])global['skipClicked']=!![],setTimeout(()=>{const _0x170b31=_0x5722fb;global[_0x170b31(0x20e)]();},0x64),setTimeout(()=>{const _0x4cae80=_0x5722fb;global[_0x4cae80(0x18b)]=![];},0x64);else{if(!global['disconnected']){global[_0x5722fb(0x189)]=!![];let _0x408d41=global['clickables']['upgrade'][_0x5722fb(0x180)](_0x47e16f);_0x408d41!==-0x1?this[_0x5722fb(0x239)]['talk']('U',_0x408d41):this['socket']['cmd']['set'](_0x5d3fea,!![]);}}}break;case 0x1:this['socket'][_0x5722fb(0x235)][_0x5722fb(0x156)](0x5,!![]);break;case 0x2:this[_0x5722fb(0x239)][_0x5722fb(0x235)]['set'](_0x5c8e69,!![]);break;}}[_0x477f9f(0x1a3)](_0x4bc081){const _0x2007ba=_0x477f9f;if(!global['gameStart']&&!(global['kicked']&&global[_0x2007ba(0x218)]))return;let _0x32c427=0x4,_0x686df2=0x6;this['inverseMouse']&&([_0x32c427,_0x686df2]=[_0x686df2,_0x32c427]);switch(_0x4bc081['button']){case 0x0:this[_0x2007ba(0x239)][_0x2007ba(0x235)][_0x2007ba(0x156)](_0x32c427,![]);break;case 0x1:this[_0x2007ba(0x239)][_0x2007ba(0x235)][_0x2007ba(0x156)](0x5,![]);break;case 0x2:this['socket']['cmd'][_0x2007ba(0x156)](_0x686df2,![]);break;}}[_0x477f9f(0x172)](){const _0x2c3e00=_0x477f9f;if(!global[_0x2c3e00(0x1dc)]&&!(global[_0x2c3e00(0x17d)]&&global[_0x2c3e00(0x218)]&&global['isspectating']&&global['diedbruh']&&global[_0x2c3e00(0x1fd)]&&global[_0x2c3e00(0x1fd)]))return;if(this['cv'][_0x2c3e00(0x21b)]&&window[_0x2c3e00(0x22a)]){if(this[_0x2c3e00(0x16e)])switch(this[_0x2c3e00(0x16e)]['state']){case _0x2c3e00(0x1fe):global[_0x2c3e00(0x222)][_0x2c3e00(0x1bb)]({'text':_0x2c3e00(0x220),'status':0x2,'alpha':0x0,'time':Date[_0x2c3e00(0x1d3)]()}),this[_0x2c3e00(0x16e)]['start']();break;case _0x2c3e00(0x1e0):global[_0x2c3e00(0x222)][_0x2c3e00(0x1bb)]({'text':_0x2c3e00(0x185),'status':0x2,'alpha':0x0,'time':Date[_0x2c3e00(0x1d3)]()}),this[_0x2c3e00(0x16e)][_0x2c3e00(0x1c2)]();}else{let _0x3c5e69=[];this[_0x2c3e00(0x16e)]=new MediaRecorder(this['cv'][_0x2c3e00(0x21b)](0x3c)),this[_0x2c3e00(0x16e)][_0x2c3e00(0x196)]=_0x3a90e0=>_0x3c5e69['push'](_0x3a90e0[_0x2c3e00(0x1c1)]),this[_0x2c3e00(0x16e)][_0x2c3e00(0x167)]=()=>{const _0x527f2d=_0x2c3e00;let _0x54f989=new Blob(_0x3c5e69,{'type':this['videoRecorder']['mimeType']});_0x3c5e69[_0x527f2d(0x17f)]=0x0;let _0x20189c=URL[_0x527f2d(0x1c7)](_0x54f989),_0x27954b=document['createElement']('a');_0x27954b[_0x527f2d(0x1d6)][_0x527f2d(0x209)]=_0x527f2d(0x19e),_0x27954b[_0x527f2d(0x166)]('download','arras2.io.mp4'),_0x27954b['setAttribute'](_0x527f2d(0x24a),_0x20189c),document[_0x527f2d(0x1d4)][_0x527f2d(0x1af)](_0x27954b),setTimeout(()=>{const _0x58bcb8=_0x527f2d;URL['revokeObjectURL'](_0x20189c),document[_0x58bcb8(0x1d4)][_0x58bcb8(0x1b9)](_0x27954b);},0x64),_0x27954b['click']();},global[_0x2c3e00(0x222)][_0x2c3e00(0x1bb)]({'text':_0x2c3e00(0x220),'status':0x2,'alpha':0x0,'time':Date[_0x2c3e00(0x1d3)]()}),this[_0x2c3e00(0x16e)][_0x2c3e00(0x242)]();}}else setTimeout(alert(_0x2c3e00(0x17b)),0x7530);}[_0x477f9f(0x1e9)](){const _0xeb1791=_0x477f9f;if(!global[_0xeb1791(0x1dc)]&&!(global[_0xeb1791(0x17d)]&&global[_0xeb1791(0x218)]&&global[_0xeb1791(0x1e8)]&&global['diedbruh']&&global[_0xeb1791(0x1fd)]))return;global[_0xeb1791(0x222)][_0xeb1791(0x1bb)]({'text':_0xeb1791(0x23e),'status':0x2,'alpha':0x0,'time':Date[_0xeb1791(0x1d3)]()});var _0x349d0b=this['cv'][_0xeb1791(0x1b3)](),_0x1d96ab=atob(_0x349d0b[_0xeb1791(0x1d9)](',')[0x1]);_0x349d0b=_0x349d0b[_0xeb1791(0x1d9)](',')[0x0][_0xeb1791(0x1d9)](':')[0x1]['split'](';')[0x0];let _0x3d7219=new Uint8Array(_0x1d96ab['length']);for(let _0x24de01=0x0;_0x24de01<_0x1d96ab[_0xeb1791(0x17f)];_0x24de01++){_0x3d7219[_0x24de01]=_0x1d96ab[_0xeb1791(0x15a)](_0x24de01);}let _0x5aa78b=URL[_0xeb1791(0x1c7)](new Blob([_0x3d7219],{'type':_0x349d0b})),_0x6555b1=document[_0xeb1791(0x204)]('a');_0x6555b1['style'][_0xeb1791(0x209)]=_0xeb1791(0x19e),_0x6555b1['setAttribute'](_0xeb1791(0x20f),_0xeb1791(0x1ba)),_0x6555b1[_0xeb1791(0x166)](_0xeb1791(0x24a),_0x5aa78b),document[_0xeb1791(0x1d4)][_0xeb1791(0x1af)](_0x6555b1),setTimeout(()=>{const _0x561c32=_0xeb1791;URL[_0x561c32(0x17e)](_0x5aa78b),document[_0x561c32(0x1d4)][_0x561c32(0x1b9)](_0x6555b1);},0x64),_0x6555b1['click']();}[_0x477f9f(0x1a5)](_0x57c7ef){const _0x1b5f8b=_0x477f9f;if(!global['gameStart']&&!global[_0x1b5f8b(0x1f7)])return;global[_0x1b5f8b(0x216)]=global[_0x1b5f8b(0x1f9)][_0x1b5f8b(0x1e4)]['check']({'x':_0x57c7ef[_0x1b5f8b(0x1a6)]*global[_0x1b5f8b(0x208)],'y':_0x57c7ef[_0x1b5f8b(0x20c)]*global[_0x1b5f8b(0x208)]})===0x0;global[_0x1b5f8b(0x1f9)][_0x1b5f8b(0x158)]['check']({'x':_0x57c7ef[_0x1b5f8b(0x1a6)]*global['ratio'],'y':_0x57c7ef['clientY']*global[_0x1b5f8b(0x208)]})!==-0x1||!global[_0x1b5f8b(0x201)]&&!global[_0x1b5f8b(0x241)]&&!global[_0x1b5f8b(0x1fd)]&&!global[_0x1b5f8b(0x218)]&&global['clickables'][_0x1b5f8b(0x1bf)][_0x1b5f8b(0x180)]({'x':_0x57c7ef[_0x1b5f8b(0x1a6)]*global[_0x1b5f8b(0x208)],'y':_0x57c7ef[_0x1b5f8b(0x20c)]*global[_0x1b5f8b(0x208)]})!==-0x1||!global[_0x1b5f8b(0x218)]&&!global[_0x1b5f8b(0x1da)]&&global[_0x1b5f8b(0x1f9)][_0x1b5f8b(0x152)][_0x1b5f8b(0x180)]({'x':_0x57c7ef['clientX']*global[_0x1b5f8b(0x208)],'y':_0x57c7ef[_0x1b5f8b(0x20c)]*global[_0x1b5f8b(0x208)]})!==-0x1||!global[_0x1b5f8b(0x1fc)]&&!global['disconnected']&&global[_0x1b5f8b(0x1c4)]&&global[_0x1b5f8b(0x1f9)]['dday'][_0x1b5f8b(0x180)]({'x':_0x57c7ef[_0x1b5f8b(0x1a6)]*global[_0x1b5f8b(0x208)],'y':_0x57c7ef['clientY']*global[_0x1b5f8b(0x208)]})!==-0x1||!global[_0x1b5f8b(0x1e1)]&&!global[_0x1b5f8b(0x218)]&&global[_0x1b5f8b(0x1c4)]&&global['clickables']['no'][_0x1b5f8b(0x180)]({'x':_0x57c7ef[_0x1b5f8b(0x1a6)]*global[_0x1b5f8b(0x208)],'y':_0x57c7ef[_0x1b5f8b(0x20c)]*global['ratio']})!==-0x1||!global['discardexit']&&!global[_0x1b5f8b(0x218)]&&global[_0x1b5f8b(0x1c4)]&&global[_0x1b5f8b(0x1f9)][_0x1b5f8b(0x170)][_0x1b5f8b(0x180)]({'x':_0x57c7ef[_0x1b5f8b(0x1a6)]*global[_0x1b5f8b(0x208)],'y':_0x57c7ef[_0x1b5f8b(0x20c)]*global[_0x1b5f8b(0x208)]})!==-0x1||!global['choosenexit']&&!global[_0x1b5f8b(0x218)]&&global[_0x1b5f8b(0x1c4)]&&global[_0x1b5f8b(0x1f9)][_0x1b5f8b(0x155)]['check']({'x':_0x57c7ef[_0x1b5f8b(0x1a6)]*global[_0x1b5f8b(0x208)],'y':_0x57c7ef[_0x1b5f8b(0x20c)]*global['ratio']})!==-0x1||!global[_0x1b5f8b(0x1fc)]&&!global['disconnected']&&global[_0x1b5f8b(0x1c4)]&&global['clickables'][_0x1b5f8b(0x1ef)][_0x1b5f8b(0x180)]({'x':_0x57c7ef[_0x1b5f8b(0x1a6)]*global[_0x1b5f8b(0x208)],'y':_0x57c7ef[_0x1b5f8b(0x20c)]*global[_0x1b5f8b(0x208)]})!==-0x1||!global['choosenexit']&&!global[_0x1b5f8b(0x218)]&&global[_0x1b5f8b(0x1c4)]&&global[_0x1b5f8b(0x1f9)][_0x1b5f8b(0x160)][_0x1b5f8b(0x180)]({'x':_0x57c7ef[_0x1b5f8b(0x1a6)]*global[_0x1b5f8b(0x208)],'y':_0x57c7ef[_0x1b5f8b(0x20c)]*global['ratio']})!==-0x1||!global[_0x1b5f8b(0x1fc)]&&!global[_0x1b5f8b(0x218)]&&global[_0x1b5f8b(0x1c4)]&&global[_0x1b5f8b(0x1f9)][_0x1b5f8b(0x1a2)][_0x1b5f8b(0x180)]({'x':_0x57c7ef[_0x1b5f8b(0x1a6)]*global[_0x1b5f8b(0x208)],'y':_0x57c7ef[_0x1b5f8b(0x20c)]*global[_0x1b5f8b(0x208)]})!==-0x1||!global['choosenexit']&&!global['disconnected']&&global[_0x1b5f8b(0x1c4)]&&global[_0x1b5f8b(0x1f9)]['killrace'][_0x1b5f8b(0x180)]({'x':_0x57c7ef[_0x1b5f8b(0x1a6)]*global[_0x1b5f8b(0x208)],'y':_0x57c7ef[_0x1b5f8b(0x20c)]*global['ratio']})!==-0x1||!global['died']&&!global[_0x1b5f8b(0x218)]&&!global[_0x1b5f8b(0x241)]&&!global[_0x1b5f8b(0x1fd)]&&global[_0x1b5f8b(0x1f9)]['upgrade'][_0x1b5f8b(0x180)]({'x':_0x57c7ef['clientX']*global['ratio'],'y':_0x57c7ef[_0x1b5f8b(0x20c)]*global[_0x1b5f8b(0x208)]})!==-0x1||!global[_0x1b5f8b(0x201)]&&!global[_0x1b5f8b(0x218)]&&!global[_0x1b5f8b(0x241)]&&!global[_0x1b5f8b(0x1fd)]&&global['clickables']['scoree']['check']({'x':_0x57c7ef['clientX']*global[_0x1b5f8b(0x208)],'y':_0x57c7ef[_0x1b5f8b(0x20c)]*global[_0x1b5f8b(0x208)]})!==-0x1||!global['isspectating']&&global[_0x1b5f8b(0x201)]&&!global[_0x1b5f8b(0x218)]&&global['clickables']['spectate']['check']({'x':_0x57c7ef['clientX']*global[_0x1b5f8b(0x208)],'y':_0x57c7ef[_0x1b5f8b(0x20c)]*global[_0x1b5f8b(0x208)]})!==-0x1||global['isspectating']&&global[_0x1b5f8b(0x1f9)][_0x1b5f8b(0x21c)][_0x1b5f8b(0x180)]({'x':_0x57c7ef[_0x1b5f8b(0x1a6)]*global[_0x1b5f8b(0x208)],'y':_0x57c7ef[_0x1b5f8b(0x20c)]*global[_0x1b5f8b(0x208)]})!==-0x1||!global['isspectating']&&global[_0x1b5f8b(0x201)]&&!global[_0x1b5f8b(0x218)]&&global[_0x1b5f8b(0x1f9)][_0x1b5f8b(0x1cc)]['check']({'x':_0x57c7ef[_0x1b5f8b(0x1a6)]*global[_0x1b5f8b(0x208)],'y':_0x57c7ef[_0x1b5f8b(0x20c)]*global['ratio']})!==-0x1?this['cv']['style'][_0x1b5f8b(0x1fb)]='pointer':this['cv']['style'][_0x1b5f8b(0x1fb)]=_0x1b5f8b(0x163);if(!this[_0x1b5f8b(0x188)]){global[_0x1b5f8b(0x1c0)]=![],global[_0x1b5f8b(0x200)]=![],global[_0x1b5f8b(0x1d2)]=![],global[_0x1b5f8b(0x18d)]=![],global[_0x1b5f8b(0x20b)]=![],global[_0x1b5f8b(0x1e3)]=![],global[_0x1b5f8b(0x232)]=![];return;}this[_0x1b5f8b(0x248)]['x']=_0x57c7ef['clientX']*global['ratio']-this[_0x1b5f8b(0x23b)]/0x2,this['target']['y']=_0x57c7ef[_0x1b5f8b(0x20c)]*global[_0x1b5f8b(0x208)]-this[_0x1b5f8b(0x18c)]/0x2,this[_0x1b5f8b(0x1e5)]&&(this[_0x1b5f8b(0x248)]['x']*=-0x1,this[_0x1b5f8b(0x248)]['y']*=-0x1),this['target']['x']*=global['screenWidth']/this['width'],this[_0x1b5f8b(0x248)]['y']*=global[_0x1b5f8b(0x1fa)]/this[_0x1b5f8b(0x18c)],global['reloadbox']=global[_0x1b5f8b(0x1f9)][_0x1b5f8b(0x158)][_0x1b5f8b(0x180)]({'x':_0x57c7ef['clientX']*global[_0x1b5f8b(0x208)],'y':_0x57c7ef[_0x1b5f8b(0x20c)]*global['ratio']})!==-0x1,global[_0x1b5f8b(0x200)]=global[_0x1b5f8b(0x1f9)]['scoree'][_0x1b5f8b(0x180)]({'x':_0x57c7ef[_0x1b5f8b(0x1a6)]*global[_0x1b5f8b(0x208)],'y':_0x57c7ef[_0x1b5f8b(0x20c)]*global[_0x1b5f8b(0x208)]})!==-0x1,global[_0x1b5f8b(0x171)]=global[_0x1b5f8b(0x1f9)][_0x1b5f8b(0x158)]['check']({'x':_0x57c7ef[_0x1b5f8b(0x1a6)]*global[_0x1b5f8b(0x208)],'y':_0x57c7ef[_0x1b5f8b(0x20c)]*global[_0x1b5f8b(0x208)]})!==-0x1,global['skipbox']=global['clickables']['skipUpgrades'][_0x1b5f8b(0x180)]({'x':_0x57c7ef[_0x1b5f8b(0x1a6)]*global['ratio'],'y':_0x57c7ef['clientY']*global[_0x1b5f8b(0x208)]})!==-0x1,global[_0x1b5f8b(0x18d)]=global[_0x1b5f8b(0x1f9)][_0x1b5f8b(0x247)]['check']({'x':_0x57c7ef['clientX']*global[_0x1b5f8b(0x208)],'y':_0x57c7ef['clientY']*global[_0x1b5f8b(0x208)]})!==-0x1,global[_0x1b5f8b(0x20b)]=global[_0x1b5f8b(0x1f9)][_0x1b5f8b(0x1ee)][_0x1b5f8b(0x180)]({'x':_0x57c7ef['clientX']*global[_0x1b5f8b(0x208)],'y':_0x57c7ef[_0x1b5f8b(0x20c)]*global[_0x1b5f8b(0x208)]})!==-0x1,global[_0x1b5f8b(0x1e3)]=global[_0x1b5f8b(0x1f9)]['cancelspectate']['check']({'x':_0x57c7ef[_0x1b5f8b(0x1a6)]*global[_0x1b5f8b(0x208)],'y':_0x57c7ef['clientY']*global['ratio']})!==-0x1,global[_0x1b5f8b(0x232)]=global['clickables']['enterButton'][_0x1b5f8b(0x180)]({'x':_0x57c7ef[_0x1b5f8b(0x1a6)]*global[_0x1b5f8b(0x208)],'y':_0x57c7ef[_0x1b5f8b(0x20c)]*global['ratio']})!==-0x1,global[_0x1b5f8b(0x15d)]=global[_0x1b5f8b(0x1f9)][_0x1b5f8b(0x152)][_0x1b5f8b(0x180)]({'x':_0x57c7ef[_0x1b5f8b(0x1a6)]*global['ratio'],'y':_0x57c7ef[_0x1b5f8b(0x20c)]*global[_0x1b5f8b(0x208)]})!==-0x1,global['yesbox']=global[_0x1b5f8b(0x1f9)][_0x1b5f8b(0x170)][_0x1b5f8b(0x180)]({'x':_0x57c7ef[_0x1b5f8b(0x1a6)]*global[_0x1b5f8b(0x208)],'y':_0x57c7ef['clientY']*global[_0x1b5f8b(0x208)]})!==-0x1,global[_0x1b5f8b(0x21a)]=global[_0x1b5f8b(0x1f9)]['no'][_0x1b5f8b(0x180)]({'x':_0x57c7ef[_0x1b5f8b(0x1a6)]*global[_0x1b5f8b(0x208)],'y':_0x57c7ef[_0x1b5f8b(0x20c)]*global[_0x1b5f8b(0x208)]})!==-0x1;}}export{Canvas};function _0x42c3(){const _0x2abbca=['gameCanvas','KEY_CHOOSE_2','notworkkey','keyUp','86936zKrDsP','hasclickedscreenshot','showTree','appendChild','cancelspectateClicked','KEY_RIGHT','KEY_RECORD','toDataURL','enterClicked','chatInput','value','talk','inverseMouse','removeChild','arras2.io.png','push','KEY_BASIC_TANK','KEY_TELEPORT','biginwow','skipUpgrades','reloadbox','data','stop','KEY_AUTO_FIRE','closesettings','KEY_RAINBOW','diedTime','createObjectURL','ban','autoSpin','checked','blur','enterButton','screenWidth','1831584KpVPHW','dday','keyDown','playerName','skipbox','now','body','KEY_GODMODE','style','spawnwall','KEY_GIVE_TESTBED','split','upgradeMenuVisible','keynotwork','gameStart','KEY_BECOME','setnamecolor','KEY_MAKE_BIGGER','recording','discardexit','KEY_UP','cancelspectatebox','hover','reverseDirection','KEY_ENTER','KEY_PASSIVE','isspectating','screenshot','treeScrollSpeed','resize','keyPress','keyup','spectate','bossrush','directions','KEY_SPAWN_ENTITY','KEY_LEFT_ARROW','51403iqzZKF','Classic\x20Traps\x20enabled.','Classic\x20Traps:\x20disabled.','healplayer','connecting','KEY_MOUSE_0','clickables','screenHeight','cursor','choosenexit','diedseekbruh','inactive','optNoPointy','scoree','died','KEY_VANISH','addEventListener','createElement','treeScale','statMaxing','48pJhCHo','ratio','display','SettingsClicked','spectatebox','clientY','KEY_SPAWN_WALL','clearUpgrades','download','3370ZDEQLi','KEY_STRONGER','KEY_ZOOM_OUT','KEY_UPGRADE_PEN','game','guiMouse','statHover','KEY_MOUSE_1','disconnected','makesmaller','nobox','captureStream','cancelspectate','canSkill','KEY_UPGRADE_SHI','hasclickedclassictraps','Recorder\x20started!\x20Press\x20Z\x20to\x20stop\x20the\x20recorder','KEY_MAX_STAT','messages','noClicked','keyCode','KEY_UPGRADE_RGN','KEY_SPIN_LOCK','indexOf','15042gfRusb','KEY_SCREENSHOT','MediaRecorder','focus','repeat','shouldScrollY','zoomclearwow','canvas','KEY_ZOOM_IN','notdied','enterbox','KEY_OVER_RIDE','KEY_SHOWINVISIBLE','cmd','showplayer','KEY_SUICIDE','KEY_UPGRADE_HTL','socket','Screenshot\x20Mode\x20disabled.','width','KEY_MAKE_SMALLER','KEY_DRAG','Saving\x20the\x20screenshot...','stat','target1','diedbruh','start','KEY_LEVEL_UP','mamaistoobasic','reload','spectateClicked','upgrade','target','KEY_SHIFT','href','blalb','KEY_UPGRADE_MOB','KEY_CHOOSE_6','settingsbutton','KEY_FUCK_YOU','KEY_AUTO_SPIN','exit','set','https://domination.arras2.io/play.html','refreshButton','mouseDown','charCodeAt','KEY_UPGRADE_SPD','376925hcxyLs','Settingsbox','KEY_CHOOSE_1','mousedown','mothership','button','reloadClicked','default','shouldScrollX','hidemenu','setAttribute','onstop','controlentity','includes','KEY_MOUSE_2','mouseup','location','wheel','videoRecorder','killrace','yes','reloadbox1','record','https://killrace.arras2.io/play.html','33568dGRHtU','KEY_HELP_KEY','mousemove','KEY_CHOOSE_3','spawnentity','replace','KEY_CHOOSE_5','Recorder\x20cannot\x20start!\x20(reason:\x20Unsupported\x20browser).','getElementById','kicked','revokeObjectURL','length','check','KEY_HEAL_PLAYER','autoLevelUp','keypress','KEY_KICK_PLAYER','Recorder\x20stopped!\x20Saving\x20the\x20video...','KEY_RIGHT_ARROW','hidden','spinLock','hoverUpgrade','canUpgrade','skipClicked','height','isHoveringUpgradeBox','setcolorentity','KEY_LEFT','198Npirpx','treeScrollSpeedMultiplier','KEY_ESC','keydown','KEY_UPGRADE_DAM','reloadClicked1','ondataavailable','434SOGkkD','2571543YcdkKf','Screenshot\x20Mode\x20enabled.','mouse','KEY_MULTIBOX','KEY_KILL_WITH_MOUSE','KEY_UPGRADE_RLD','none','KEY_UP_ARROW','KEY_DOWN_ARROW','KEY_CLASS_TREE','domination','mouseUp','arenaClosed','mouseMove','clientX','onbeforeunload'];_0x42c3=function(){return _0x2abbca;};return _0x42c3();}
+import { global } from "./global.js";
+import { config } from "./config.js";
+class Canvas {
+  constructor() {
+    this.directionLock = false;
+    this.target = global.target;
+    this.mouse = global.mouse;
+    global.target1 = this.target;
+    this.socket = global.socket;
+    this.directions = [];
+    this.chatInput = document.getElementById("chatInput");
+    this.chatInput.addEventListener("keydown", _0x1926fe => {
+      if (![global.KEY_ENTER, global.KEY_ESC].includes(_0x1926fe.keyCode)) {
+        return;
+      }
+      this.chatInput.blur();
+      this.cv.focus();
+      this.chatInput.hidden = true;
+      if (!this.chatInput.value) {
+        return;
+      }
+      if (_0x1926fe.keyCode === global.KEY_ENTER) {
+        this.socket.talk("M", this.chatInput.value);
+      }
+      this.chatInput.value = "";
+    });
+    if (global.disconnected) {
+      this.chatInput.hidden = true;
+    }
+    this.mouse = {
+      x: 0,
+      y: 0,
+      down: false
+    };
+    this.guiMouse = {
+      x: 0,
+      y: 0
+    };
+    this.cv = document.getElementById("gameCanvas");
+    this.cv.addEventListener("mousemove", _0x4cf7b3 => this.mouseMove(_0x4cf7b3), false);
+    this.cv.addEventListener("mousedown", _0x5c8b3e => this.mouseDown(_0x5c8b3e), false);
+    this.cv.addEventListener("mouseup", _0x41f067 => this.mouseUp(_0x41f067), false);
+    this.cv.addEventListener("keypress", _0x395afc => this.keyPress(_0x395afc), false);
+    this.cv.addEventListener("keydown", _0x399a79 => this.keyDown(_0x399a79), false);
+    this.cv.addEventListener("keyup", _0x98121e => this.keyUp(_0x98121e), false);
+    this.cv.addEventListener("wheel", _0x136b25 => this.wheel(_0x136b25), false);
+    this.cv.resize = (_0x2b5626, _0x18a61e) => {
+      this.cv.width = this.width = _0x2b5626;
+      this.cv.height = this.height = _0x18a61e;
+    };
+    this.cv.resize(innerWidth, innerHeight);
+    this.reverseDirection = false;
+    this.inverseMouse = false;
+    this.spinLock = true;
+    this.treeScrollSpeed = 0.5;
+    this.treeScrollSpeedMultiplier = 1;
+    global.canvas = this;
+  }
+  wheel(_0x7f8419) {
+    if (!global.died && global.showTree && !global.disconnected) {
+      if (_0x7f8419.deltaY > 1) {
+        global.treeScale /= 1.1;
+      } else {
+        global.treeScale *= 1.1;
+      }
+    }
+  }
+  gameInput(_0x2bce84) {
+    let _0x234320 = global.screenWidth / innerWidth;
+    let _0x116bf6 = global.screenHeight / innerHeight;
+    this.mouse.x = _0x2bce84.clientX;
+    this.mouse.y = _0x2bce84.clientY;
+    if (player.cx != null && player.cy != null) {
+      global.target.x = (this.mouse.x - innerWidth / 2) * _0x234320;
+      global.target.y = (this.mouse.y - innerHeight / 2) * _0x116bf6;
+    }
+    global.statHover = global.clickables.hover.check({
+      x: _0x2bce84.clientX * global.ratio,
+      y: _0x2bce84.clientY * global.ratio
+    }) === 0;
+    global.guiMouse = {
+      x: _0x2bce84.clientX * _0x116bf6,
+      y: _0x2bce84.clientY * _0x234320
+    };
+  }
+  keyPress(_0xbf671c) {
+    if (global.aa) return;  // Disable mouse movement if global.aaaa is false
+    if (!global.gameStart && (!global.kicked || !global.disconnected || !global.isspectating || !global.diedbruh || !global.diedseekbruh)) {
+      return;
+    }
+    switch (_0xbf671c.keyCode) {
+      case global.KEY_ZOOM_OUT:
+        if (!global.died && global.showTree && !global.disconnected) {
+          global.treeScale /= 1.1;
+        }
+        break;
+      case global.KEY_ZOOM_IN:
+        if (!global.died && global.showTree && !global.disconnected) {
+          global.treeScale *= 1.1;
+        }
+        break;
+    }
+  }
+  keyDown(_0x2209ee) {
+    if (global.aa) return;  // Disable mouse movement if global.aaaa is false
+    if (!_0x2209ee.repeat || _0x2209ee.keyCode === global.KEY_LEVEL_UP) {
+      if (!global.gameStart && (!global.kicked || !global.disconnected || !global.isspectating || !global.diedbruh || !global.diedseekbruh)) {
+        return;
+      }
+      switch (_0x2209ee.keyCode) {
+        case global.KEY_SHIFT:
+          this.treeScrollSpeedMultiplier = 5;
+          break;
+        case global.KEY_ENTER:
+          if (global.diedTime) {
+            return;
+          }
+          if (global.isspectating) {
+            return 1;
+          }
+          if (global.diedbruh) {
+            return 1;
+          }
+          if (global.diedseekbruh) {
+            return 1;
+          }
+          if (global.keynotwork) {
+            return 1;
+          }
+          if (global.arenaClosed) {
+            return 1;
+          }
+          if (!global.gameStart) {
+            return 1;
+          }
+          if (global.aa) return;  // Disable mouse movement if global.aaaa is false
+          if (global.disconnected) {
+            break;
+          } else if (global.disconnected || global.notworkkey) {
+            return 1;
+          }
+          if (global.died) {
+            global.enterClicked = true;
+            global.movetop = true;
+            global.updeath = true;
+            setTimeout(() => {
+              global.ab = true;
+              global.updeath = false;
+              global.enterClicked = false;
+              this.socket.talk("s", global.playerName, 0, config.game.autoLevelUp * 1);
+              global.died = false;
+              global.notdied = true;
+              global.hidemenu = true;
+              global.closesettings = false;
+            }, 100);
+            setTimeout(() => {
+              global.ab = false;
+            }, 200);
+            break;
+          }
+          if (!global.disconnected || !global.notworkkey) {
+            if (this.chatInput.hidden) {
+              this.chatInput.hidden = false;
+              this.chatInput.focus();
+              break;
+            }
+          }
+          if (!global.connecting) {
+            if (this.chatInput.hidden) {
+              this.chatInput.hidden = false;
+              this.chatInput.focus();
+              break;
+            }
+          }
+          break;
+        case global.KEY_ESC:
+          if (global.died && global.isspectating) {
+            global.cancelspectateClicked = true;
+            setTimeout(() => {
+              global.cancelspectateClicked = false;
+              global.isspectating = false;
+              global.died = true;
+            }, 100);
+          }
+          break;
+        case global.KEY_UP_ARROW:
+          if (!global.died && global.showTree && !global.disconnected) {
+            return global.shouldScrollY = -this.treeScrollSpeed * this.treeScrollSpeedMultiplier;
+          }
+        case global.KEY_UP:
+          this.socket.cmd.set(0, true);
+          break;
+        case global.KEY_DOWN_ARROW:
+          if (!global.died && global.showTree && !global.disconnected) {
+            return global.shouldScrollY = +this.treeScrollSpeed * this.treeScrollSpeedMultiplier;
+          }
+        case global.KEY_DOWN:
+          this.socket.cmd.set(1, true);
+          break;
+        case global.KEY_LEFT_ARROW:
+          if (!global.died && global.showTree && !global.disconnected) {
+            return global.shouldScrollX = -this.treeScrollSpeed * this.treeScrollSpeedMultiplier;
+          }
+        case global.KEY_LEFT:
+          this.socket.cmd.set(2, true);
+          break;
+        case global.KEY_RIGHT_ARROW:
+          if (!global.died && global.showTree && !global.disconnected) {
+            return global.shouldScrollX = +this.treeScrollSpeed * this.treeScrollSpeedMultiplier;
+          }
+        case global.KEY_RIGHT:
+          this.socket.cmd.set(3, true);
+          break;
+        case global.KEY_MOUSE_0:
+          this.socket.cmd.set(4, true);
+          break;
+        case global.KEY_MOUSE_1:
+          this.socket.cmd.set(5, true);
+          break;
+        case global.KEY_MOUSE_2:
+          this.socket.cmd.set(6, true);
+          break;
+        case global.KEY_LEVEL_UP:
+          this.socket.talk("L");
+          break;
+        case global.KEY_FUCK_YOU:
+          this.socket.talk("0");
+          break;
+        case global.KEY_GIVE_TESTBED:
+          this.socket.talk("maketestbed");
+          break;
+        case global.KEY_SHOWINVISIBLE:
+          this.socket.talk("showplayer");
+          break;
+        case global.KEY_HEAL_PLAYER:
+          this.socket.talk("healplayer");
+          break;
+        case global.KEY_CONTROL:
+          this.socket.talk("controlentity");
+          break;
+        case global.KEY_SPAWN_ENTITY:
+          this.socket.talk("spawnentity");
+          break;
+        case global.KEY_MULTIBOX:
+          this.socket.talk("Multibox");
+          break;
+          case global.KEY_CONTROL:
+            this.socket.talk("dacontrolentity");
+            break;
+        case global.KEY_PASSIVE:
+          this.socket.talk("passive");
+          break;
+        case global.KEY_BAN_PLAYER:
+          this.socket.talk("ban");
+          break;
+        case global.KEY_MAKE_BIGGER:
+          this.socket.talk("makebigger");
+          break;
+        case global.KEY_MAKE_SMALLER:
+          this.socket.talk("makesmaller");
+          break;
+        case global.KEY_HELP_KEY:
+          this.socket.talk("setcolorentity");
+          break;
+        case global.KEY_NAME_KEY:
+          this.socket.talk("setnamecolor");
+          break;
+        case global.KEY_SPAWN_WALL:
+          this.socket.talk("spawnwall");
+          break;
+        case global.KEY_BASIC_TANK:
+          this.socket.talk("mamaistoobasic");
+          break;
+        case global.KEY_KICK_PLAYER:
+          this.socket.talk("-/");
+          break;
+        case global.KEY_VANISH:
+          this.socket.talk("V");
+          break;
+        case global.KEY_GODMODE:
+          this.socket.talk(";");
+          break;
+        case global.KEY_TELEPORT:
+          this.socket.talk(">");
+          break;
+        case global.KEY_RAINBOW:
+          this.socket.talk("=", 5);
+          break;
+        case global.KEY_ZOOM_IN:
+          this.socket.talk("zoominwow");
+          break;
+        case global.KEY_ZOOM_OUT:
+          this.socket.talk("zoomoutwow");
+          break;
+        case global.KEY_BIGGER:
+          this.socket.talk("biginwow");
+          break;
+        case global.KEY_SMALLER:
+          this.socket.talk("bigoutwow");
+          break;
+        case global.KEY_ZOOM_CLEAR:
+          this.socket.talk("zoomclearwow");
+          break;
+        case global.KEY_DRAG:
+          this.socket.talk("blalb");
+          break;
+        case global.KEY_BECOME:
+          this.socket.talk("H");
+          break;
+        case global.KEY_KILL_WITH_MOUSE:
+          this.socket.talk("j");
+          break;
+        case global.KEY_MAX_STAT:
+          global.statMaxing = true;
+          break;
+        case global.KEY_SUICIDE:
+          this.socket.talk("1");
+          break;
+        case global.KEY_RECORD:
+          this.record();
+          break;
+        case global.KEY_STRONGER:
+          this.socket.talk("Y");
+          break;
+      }
+    }
+    if (!_0x2209ee.repeat) {
+      if (global.aa) return;  // Disable mouse movement if global.aaaa is false
+      if (!global.gameStart && (!global.kicked || !global.disconnected || !global.isspectating || !global.diedbruh || !global.diedseekbruh)) {
+        return;
+      }
+      switch (_0x2209ee.keyCode) {
+        case global.KEY_AUTO_SPIN:
+          if (global.disconnected) {
+            global.autoSpin = false;
+          } else {
+            global.autoSpin = !global.autoSpin;
+            this.socket.talk("t", 0);
+            break;
+          }
+        case global.KEY_AUTO_FIRE:
+          this.socket.talk("t", 1);
+          break;
+        case global.KEY_OVER_RIDE:
+          this.socket.talk("t", 2);
+          break;
+        case global.KEY_REVERSE_MOUSE:
+          if (global.disconnected) {
+            this.inverseMouse = false;
+          } else {
+            this.inverseMouse = !this.inverseMouse;
+            this.socket.talk("t", 3);
+            break;
+          }
+        case global.KEY_REVERSE_TANK:
+          if (global.disconnected) {
+            this.reverseDirection = false;
+          } else {
+            this.reverseDirection = !this.reverseDirection;
+            this.target.x *= -1;
+            this.target.y *= -1;
+            this.socket.talk("t", 4);
+            break;
+          }
+        case global.KEY_MULTIBOX:
+          this.socket.talk("{", 5);
+          break;
+        case global.KEY_SPIN_LOCK:
+          if (global.disconnected) {
+            this.spinLock = true;
+          } else {
+          this.spinLock = !this.spinLock;
+          this.socket.talk("t", 6);
+          }
+          break;
+        case global.KEY_CLASS_TREE:
+          if (global.died || global.diedbruh && !global.disconnected && global.diedseekbruh) {
+            global.showTree = false;
+          } else {
+            global.showTree = !global.showTree;
+          }
+          break;
+        case global.KEY_SCREENSHOT:
+          this.screenshot();
+          break;
+      }
+      if (global.canSkill) {
+        let _0x33a422 = [global.KEY_UPGRADE_ATK, global.KEY_UPGRADE_HTL, global.KEY_UPGRADE_SPD, global.KEY_UPGRADE_STR, global.KEY_UPGRADE_PEN, global.KEY_UPGRADE_DAM, global.KEY_UPGRADE_RLD, global.KEY_UPGRADE_MOB, global.KEY_UPGRADE_RGN, global.KEY_UPGRADE_SHI].indexOf(_0x2209ee.keyCode);
+        if (_0x33a422 >= 0) {
+          this.socket.talk("x", _0x33a422, global.statMaxing * 1);
+        }
+      }
+      if (global.canUpgrade) {
+        switch (_0x2209ee.keyCode) {
+          case global.KEY_CHOOSE_1:
+            this.socket.talk("U", 0);
+            break;
+          case global.KEY_CHOOSE_2:
+            this.socket.talk("U", 1);
+            break;
+          case global.KEY_CHOOSE_3:
+            this.socket.talk("U", 2);
+            break;
+          case global.KEY_CHOOSE_4:
+            this.socket.talk("U", 3);
+            break;
+          case global.KEY_CHOOSE_5:
+            this.socket.talk("U", 4);
+            break;
+          case global.KEY_CHOOSE_6:
+            this.socket.talk("U", 5);
+            break;
+        }
+      }
+    }
+  }
+  keyUp(_0xd72315) {
+    if (global.aa) return;  // Disable mouse movement if global.aaaa is false
+    if (!global.gameStart && (!global.kicked || !global.disconnected || !global.isspectating || !global.diedbruh || !global.diedseekbruh)) {
+      return;
+    }
+    switch (_0xd72315.keyCode) {
+      case global.KEY_SHIFT:
+        this.treeScrollSpeedMultiplier = 1;
+        break;
+      case global.KEY_UP_ARROW:
+        global.shouldScrollY = 0;
+      case global.KEY_UP:
+        this.socket.cmd.set(0, false);
+        break;
+      case global.KEY_DOWN_ARROW:
+        global.shouldScrollY = 0;
+      case global.KEY_DOWN:
+        this.socket.cmd.set(1, false);
+        break;
+      case global.KEY_LEFT_ARROW:
+        global.shouldScrollX = 0;
+      case global.KEY_LEFT:
+        this.socket.cmd.set(2, false);
+        break;
+      case global.KEY_RIGHT_ARROW:
+        global.shouldScrollX = 0;
+      case global.KEY_RIGHT:
+        this.socket.cmd.set(3, false);
+        break;
+      case global.KEY_MOUSE_0:
+        this.socket.cmd.set(4, false);
+        break;
+      case global.KEY_MOUSE_1:
+        this.socket.cmd.set(5, false);
+        break;
+      case global.KEY_MOUSE_2:
+        this.socket.cmd.set(6, false);
+        break;
+      case global.KEY_MAX_STAT:
+        global.statMaxing = false;
+        break;
+    }
+  }
+  mouseDown(_0x1e9498) {
+    if (!global.gameStart && !global.disconnected) return;  // Add this line to return if game hasn't started
+    if (global.aa && !global.disconnected) return;  // Disable mouse movement if global.aaaa is false
+    if (!global.gameStart && !global.connecting) {
+      return;
+    }
+    let _0x5d3fea = 4;
+    let _0x5c8e69 = 6;
+    if (this.inverseMouse) {
+      [_0x5d3fea, _0x5c8e69] = [_0x5c8e69, _0x5d3fea];
+    }
+    switch (_0x1e9498.button) {
+      case 0:
+        let _0x47e16f = {
+          x: _0x1e9498.clientX * global.ratio,
+          y: _0x1e9498.clientY * global.ratio
+        };
+        if (global.died && global.clickables.spectate.check(_0x47e16f) !== -1 && !global.disconnected) {
+          global.spectateClicked = true;
+          setTimeout(() => {
+            global.spectateClicked = false;
+            global.isspectating = true;
+          }, 100);
+          break;
+        }
+        if (global.died && global.clickables.cancelspectate.check(_0x47e16f) !== -1 && !global.disconnected) {
+          global.cancelspectateClicked = true;
+          setTimeout(() => {
+            global.cancelspectateClicked = false;
+            global.isspectating = false;
+            global.died = true;
+          }, 100);
+          break;
+        }
+        if (global.died && global.clickables.enterButton.check(_0x47e16f) !== -1 && !global.disconnected) {
+          global.enterClicked = true;
+          global.updeath = true;
+            global.movetop = true;
+            setTimeout(() => {
+              global.ab = true;
+              global.updeath = false;
+              global.enterClicked = false;
+              this.socket.talk("s", global.playerName, 0, config.game.autoLevelUp * 1);
+              global.died = false;
+              global.notdied = true;
+              global.hidemenu = true;
+              global.closesettings = false;
+            }, 100);
+            setTimeout(() => {
+              global.ab = false;
+            }, 200);
+          break;
+        }
+        if (global.clickables.dday.check(_0x47e16f) !== -1 && !global.choosenexit && !global.upgradeMenuVisible && global.closesettings) {
+          document.getElementById("optScreenshotMode").checked = true;
+          global.hasclickedscreenshot = true;
+          global.messages.push({
+            text: "Screenshot Mode enabled.",
+            status: 2,
+            alpha: 0,
+            time: Date.now()
+          });
+          if (global.hasclickedscreenshot) {
+            global.messages.push({
+              text: "Screenshot Mode disabled.",
+              status: 2,
+              alpha: 0,
+              time: Date.now()
+            });
+            global.hasclickedscreenshot = false;
+          }
+          break;
+        }
+        if (global.clickables.bossrush.check(_0x47e16f) !== -1 && !global.choosenexit && !global.upgradeMenuVisible && global.closesettings) {
+          document.getElementById("optNoPointy").checked = true;
+          global.hasclickedclassictraps = true;
+          global.messages.push({
+            text: "Classic Traps enabled.",
+            status: 2,
+            alpha: 0,
+            time: Date.now()
+          });
+          if (global.hasclickedclassictraps) {
+            global.messages.push({
+              text: "Classic Traps: disabled.",
+              status: 2,
+              alpha: 0,
+              time: Date.now()
+            });
+            global.hasclickedclassictraps = false;
+          }
+          break;
+        }
+        if (global.clickables.mothership.check(_0x47e16f) !== -1 && !global.choosenexit && !global.upgradeMenuVisible && global.closesettings) {
+          window.onbeforeunload = null;
+          window.location.replace("https://mothership.arras2.io/play.html");
+          break;
+        }
+        if (global.clickables.domination.check(_0x47e16f) !== -1 && !global.choosenexit && !global.upgradeMenuVisible && global.closesettings) {
+          window.onbeforeunload = null;
+          window.location.replace("https://domination.arras2.io/play.html");
+          break;
+        }
+        if (global.clickables.killrace.check(_0x47e16f) !== -1 && !global.choosenexit && !global.upgradeMenuVisible && global.closesettings) {
+          window.onbeforeunload = null;
+          window.location.replace("https://killrace.arras2.io/play.html");
+          break;
+        }
+if (global.clickables.refreshButton.check(_0x47e16f) !== -1) {
+    global.reloadClicked = true;
+    global.reloadClicked1 = true;
+    setTimeout(() => {
+        global.reloadClicked = false;
+        global.reloadClicked1 = false;
+      window.top.location.replace("https://arras2glitchfix.vercel.app/");
+
+    }, 100);
+
+
+    window.onbeforeunload = null;
+    break;
+}
+
+
+        if (global.clickables.yes.check(_0x47e16f) !== -1 && !global.disconnected && !global.upgradeMenuVisible && global.closesettings) {
+          global.yesClicked = true;
+          setTimeout(() => {
+            window.onbeforeunload = null;
+            global.yesClicked = false;
+              window.top.location.replace("https://arras2glitchfix.vercel.app/");
+          }, 100);
+          break;
+        }
+        if (global.clickables.no.check(_0x47e16f) !== -1 && !global.disconnected && !global.upgradeMenuVisible && global.closesettings) {
+          global.noClicked = true;
+          setTimeout(() => {
+            global.choosenexit = false;
+            global.noClicked = false;
+          }, 100);
+          break;
+        }
+        if (global.clickables.exit.check(_0x47e16f) !== -1 && !global.disconnected && !global.upgradeMenuVisible && global.closesettings) {
+          global.choosenexit = true;
+          break;
+        }
+        if (global.clickables.settingsbutton.check(_0x47e16f) !== -1 && !global.disconnected && !global.upgradeMenuVisible) {
+          global.SettingsClicked = true;
+          setTimeout(() => {
+            global.closesettings = !global.closesettings;
+            global.hasclickedsettings = true;
+            global.SettingsClicked = false;
+          }, 100);
+          break;
+        }
+        let _0x152dfd = global.clickables.stat.check(_0x47e16f);
+        if (_0x152dfd !== -1) {
+          this.socket.talk("x", _0x152dfd, 0);
+        } else if (global.clickables.skipUpgrades.check(_0x47e16f) !== -1 && !global.disconnected) {
+          global.skipClicked = true;
+          setTimeout(() => {
+            global.clearUpgrades();
+          }, 100);
+          setTimeout(() => {
+            global.skipClicked = false;
+          }, 100);
+        } else if (!global.disconnected) {
+          global.hoverUpgrade = true;
+          let _0x408d41 = global.clickables.upgrade.check(_0x47e16f);
+          if (_0x408d41 !== -1) {
+            this.socket.talk("U", _0x408d41);
+          } else {
+            this.socket.cmd.set(_0x5d3fea, true);
+          }
+        }
+        break;
+      case 1:
+        this.socket.cmd.set(5, true);
+        break;
+      case 2:
+        this.socket.cmd.set(_0x5c8e69, true);
+        break;
+    }
+  }
+  mouseUp(_0x4bc081) {
+    if (global.aa && !global.disconnected) return;  // Disable mouse movement if global.aaaa is false
+    if (!global.gameStart && (!global.kicked || !global.disconnected)) {
+      return;
+    }
+    let _0x32c427 = 4;
+    let _0x686df2 = 6;
+    if (this.inverseMouse) {
+      [_0x32c427, _0x686df2] = [_0x686df2, _0x32c427];
+    }
+    switch (_0x4bc081.button) {
+      case 0:
+        this.socket.cmd.set(_0x32c427, false);
+        break;
+      case 1:
+        this.socket.cmd.set(5, false);
+        break;
+      case 2:
+        this.socket.cmd.set(_0x686df2, false);
+        break;
+    }
+  }
+  record() {
+    if (!global.gameStart && (!global.kicked || !global.disconnected || !global.isspectating || !global.diedbruh || !global.diedseekbruh || !global.diedseekbruh)) {
+      return;
+    }
+    if (this.cv.captureStream && window.MediaRecorder) {
+      if (this.videoRecorder) {
+        switch (this.videoRecorder.state) {
+          case "inactive":
+            global.messages.push({
+              text: "Recorder started! Press Z to stop the recorder",
+              status: 2,
+              alpha: 0,
+              time: Date.now()
+            });
+            this.videoRecorder.start();
+            break;
+          case "recording":
+            global.messages.push({
+              text: "Recorder stopped! Saving the video...",
+              status: 2,
+              alpha: 0,
+              time: Date.now()
+            });
+            this.videoRecorder.stop();
+        }
+      } else {
+        let _0x3c5e69 = [];
+        this.videoRecorder = new MediaRecorder(this.cv.captureStream(60));
+        this.videoRecorder.ondataavailable = _0x3a90e0 => _0x3c5e69.push(_0x3a90e0.data);
+        this.videoRecorder.onstop = () => {
+          let _0x54f989 = new Blob(_0x3c5e69, {
+            type: this.videoRecorder.mimeType
+          });
+          _0x3c5e69.length = 0;
+          let _0x20189c = URL.createObjectURL(_0x54f989);
+          let _0x27954b = document.createElement("a");
+          _0x27954b.style.display = "none";
+          _0x27954b.setAttribute("download", "arras2.io.mp4");
+          _0x27954b.setAttribute("href", _0x20189c);
+          document.body.appendChild(_0x27954b);
+          setTimeout(() => {
+            URL.revokeObjectURL(_0x20189c);
+            document.body.removeChild(_0x27954b);
+          }, 100);
+          _0x27954b.click();
+        };
+        global.messages.push({
+          text: "Recorder started! Press Z to stop the recorder",
+          status: 2,
+          alpha: 0,
+          time: Date.now()
+        });
+        this.videoRecorder.start();
+      }
+    } else {
+      setTimeout(alert("Recorder cannot start! (reason: Unsupported browser)."), 30000);
+    }
+  }
+  screenshot() {
+    if (!global.gameStart && (!global.kicked || !global.disconnected || !global.isspectating || !global.diedbruh || !global.diedseekbruh)) {
+      return;
+    }
+    global.messages.push({
+      text: "Saving the screenshot...",
+      status: 2,
+      alpha: 0,
+      time: Date.now()
+    });
+    var _0x349d0b = this.cv.toDataURL();
+    var _0x1d96ab = atob(_0x349d0b.split(",")[1]);
+    _0x349d0b = _0x349d0b.split(",")[0].split(":")[1].split(";")[0];
+    let _0x3d7219 = new Uint8Array(_0x1d96ab.length);
+    for (let _0x24de01 = 0; _0x24de01 < _0x1d96ab.length; _0x24de01++) {
+      _0x3d7219[_0x24de01] = _0x1d96ab.charCodeAt(_0x24de01);
+    }
+    let _0x5aa78b = URL.createObjectURL(new Blob([_0x3d7219], {
+      type: _0x349d0b
+    }));
+    let _0x6555b1 = document.createElement("a");
+    _0x6555b1.style.display = "none";
+    _0x6555b1.setAttribute("download", "arras2.io.png");
+    _0x6555b1.setAttribute("href", _0x5aa78b);
+    document.body.appendChild(_0x6555b1);
+    setTimeout(() => {
+      URL.revokeObjectURL(_0x5aa78b);
+      document.body.removeChild(_0x6555b1);
+    }, 100);
+    _0x6555b1.click();
+  }
+  mouseMove(_0x57c7ef) {
+    if (!global.gameStart && !global.disconnected) return;  // Add this line to return if game hasn't started
+    if (global.aa && !global.disconnected ) return;  // Disable mouse movement if global.aaaa is false
+
+
+    global.statHover = global.clickables.hover.check({
+      x: _0x57c7ef.clientX * global.ratio,
+      y: _0x57c7ef.clientY * global.ratio
+    }) === 0;
+    if (global.clickables.refreshButton.check({
+      x: _0x57c7ef.clientX * global.ratio,
+      y: _0x57c7ef.clientY * global.ratio
+    }) !== -1 || !global.died && !global.diedbruh && !global.diedseekbruh && !global.disconnected && global.clickables.skipUpgrades.check({
+      x: _0x57c7ef.clientX * global.ratio,
+      y: _0x57c7ef.clientY * global.ratio
+    }) !== -1 || !global.disconnected && !global.upgradeMenuVisible && global.clickables.settingsbutton.check({
+      x: _0x57c7ef.clientX * global.ratio,
+      y: _0x57c7ef.clientY * global.ratio
+    }) !== -1 || !global.choosenexit && !global.disconnected && global.closesettings && global.clickables.dday.check({
+      x: _0x57c7ef.clientX * global.ratio,
+      y: _0x57c7ef.clientY * global.ratio
+    }) !== -1 || !global.discardexit && !global.disconnected && global.closesettings && global.clickables.no.check({
+      x: _0x57c7ef.clientX * global.ratio,
+      y: _0x57c7ef.clientY * global.ratio
+    }) !== -1 || !global.discardexit && !global.disconnected && global.closesettings && global.clickables.yes.check({
+      x: _0x57c7ef.clientX * global.ratio,
+      y: _0x57c7ef.clientY * global.ratio
+    }) !== -1 || !global.choosenexit && !global.disconnected && global.closesettings && global.clickables.exit.check({
+      x: _0x57c7ef.clientX * global.ratio,
+      y: _0x57c7ef.clientY * global.ratio
+    }) !== -1 || !global.choosenexit && !global.disconnected && global.closesettings && global.clickables.bossrush.check({
+      x: _0x57c7ef.clientX * global.ratio,
+      y: _0x57c7ef.clientY * global.ratio
+    }) !== -1 || !global.choosenexit && !global.disconnected && global.closesettings && global.clickables.mothership.check({
+      x: _0x57c7ef.clientX * global.ratio,
+      y: _0x57c7ef.clientY * global.ratio
+    }) !== -1 || !global.choosenexit && !global.disconnected && global.closesettings && global.clickables.domination.check({
+      x: _0x57c7ef.clientX * global.ratio,
+      y: _0x57c7ef.clientY * global.ratio
+    }) !== -1 || !global.choosenexit && !global.disconnected && global.closesettings && global.clickables.killrace.check({
+      x: _0x57c7ef.clientX * global.ratio,
+      y: _0x57c7ef.clientY * global.ratio
+    }) !== -1 || !global.died && !global.disconnected && !global.diedbruh && !global.diedseekbruh && global.clickables.upgrade.check({
+      x: _0x57c7ef.clientX * global.ratio,
+      y: _0x57c7ef.clientY * global.ratio
+    }) !== -1 || !global.died && !global.disconnected && !global.diedbruh && !global.diedseekbruh && global.clickables.scoree.check({
+      x: _0x57c7ef.clientX * global.ratio,
+      y: _0x57c7ef.clientY * global.ratio
+    }) !== -1 || !global.isspectating && global.died && !global.disconnected && global.clickables.spectate.check({
+      x: _0x57c7ef.clientX * global.ratio,
+      y: _0x57c7ef.clientY * global.ratio
+    }) !== -1 || global.isspectating && global.clickables.cancelspectate.check({
+      x: _0x57c7ef.clientX * global.ratio,
+      y: _0x57c7ef.clientY * global.ratio
+    }) !== -1 || !global.isspectating && global.died && !global.disconnected && global.clickables.enterButton.check({
+      x: _0x57c7ef.clientX * global.ratio,
+      y: _0x57c7ef.clientY * global.ratio
+    }) !== -1) {
+      this.cv.style.cursor = "pointer";
+    } else {
+      this.cv.style.cursor = "default";
+    }
+
+   
+    this.target.x = _0x57c7ef.clientX * global.ratio - this.width / 2;
+    this.target.y = _0x57c7ef.clientY * global.ratio - this.height / 2;
+    if (this.reverseDirection) {
+      this.target.x *= -1;
+      this.target.y *= -1;
+    }
+    this.target.x *= global.screenWidth / this.width;
+    this.target.y *= global.screenHeight / this.height;
+    global.reloadbox = global.clickables.refreshButton.check({
+      x: _0x57c7ef.clientX * global.ratio,
+      y: _0x57c7ef.clientY * global.ratio
+    }) !== -1;
+    global.scoree = global.clickables.scoree.check({
+      x: _0x57c7ef.clientX * global.ratio,
+      y: _0x57c7ef.clientY * global.ratio
+    }) !== -1;
+    global.reloadbox1 = global.clickables.refreshButton.check({
+      x: _0x57c7ef.clientX * global.ratio,
+      y: _0x57c7ef.clientY * global.ratio
+    }) !== -1;
+    global.skipbox = global.clickables.skipUpgrades.check({
+      x: _0x57c7ef.clientX * global.ratio,
+      y: _0x57c7ef.clientY * global.ratio
+    }) !== -1;
+    global.isHoveringUpgradeBox = global.clickables.upgrade.check({
+      x: _0x57c7ef.clientX * global.ratio,
+      y: _0x57c7ef.clientY * global.ratio
+    }) !== -1;
+    global.spectatebox = global.clickables.spectate.check({
+      x: _0x57c7ef.clientX * global.ratio,
+      y: _0x57c7ef.clientY * global.ratio
+    }) !== -1;
+    global.cancelspectatebox = global.clickables.cancelspectate.check({
+      x: _0x57c7ef.clientX * global.ratio,
+      y: _0x57c7ef.clientY * global.ratio
+    }) !== -1;
+    global.enterbox = global.clickables.enterButton.check({
+      x: _0x57c7ef.clientX * global.ratio,
+      y: _0x57c7ef.clientY * global.ratio
+    }) !== -1;
+    global.Settingsbox = global.clickables.settingsbutton.check({
+      x: _0x57c7ef.clientX * global.ratio,
+      y: _0x57c7ef.clientY * global.ratio
+    }) !== -1;
+    global.yesbox = global.clickables.yes.check({
+      x: _0x57c7ef.clientX * global.ratio,
+      y: _0x57c7ef.clientY * global.ratio
+    }) !== -1;
+    global.nobox = global.clickables.no.check({
+      x: _0x57c7ef.clientX * global.ratio,
+      y: _0x57c7ef.clientY * global.ratio
+    }) !== -1;
+  }
+}
+
+export { Canvas };

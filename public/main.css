@@ -78,6 +78,37 @@
 	height: 100%;
 	backdrop-filter: blur(4px);
 }
+/* Hidden by default */
+#greyBox {
+  display: none;
+  position: fixed;
+  top: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px;
+  padding: 20px;
+  background-color: #888;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px #3636364d;
+  z-index: 1000;
+  transition: top 0.5s ease-out;
+  
+}
+
+/* Show and slide down */
+#greyBox.show {
+  display: block;
+  top: 20%; /* Move to the middle of the screen */
+}
+
+/* Optional fade out after the box shows up */
+#greyBox.fade-out {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+}
 
 #container #startMenuBtnsContainer {
 	display: flex;
@@ -131,7 +162,7 @@ body {
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
-  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url(NOCAP.jpg);
+  background-image:  url(NOCAP1.jpg);
     background-color: rgb(0, 0, 0);
     background-repeat: no-repeat;
         background-size: cover;
@@ -249,12 +280,25 @@ input.checkbox {
   overflow: hidden;
 }
 #startMenuWrapper {
-	height: 100%;
-
+  
+  position: fixed; /* Keeps the element fixed relative to the viewport */
+  top: 70%; /* Centers vertically based on the viewport */
+  left: 50%; /* Centers horizontally based on the viewport */
+  transform: translate(-50%, -50%); /* Moves it up and left by 50% of its own width and height to center it */
+  
+  max-width: 1200px; /* Maximum width */
+  max-height: 800px; /* Maximum height */
+  width: auto; /* Let the width adjust based on content */
+  height: auto; /* Let the height adjust based on content */
 }
+
+
+
+
 #playerNameInput {
   padding: 8px;
-  margin-top: 30px;
+  left: 50%;
+  margin-top: 130px;
   border: 4px solid #000;
   font-size: large;
 }
@@ -346,8 +390,8 @@ div {
   width: 100%;
   height: 100%;
   margin: 0 20px;
+  position: fixed; /* Fixed to the center of the screen */
 
-  font-size: 14px;
   padding: 0;
   margin-left: 30px;
   font-family: "Ubuntu1";
@@ -379,12 +423,886 @@ div {
     2px -1px 0 #000,
     -2px -1px 0 #000;
 }
+.Changelog3 {
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  margin: 0 20px;
+  position: fixed; /* Fixed to the center of the screen */
+margin-top: 20px;
+  padding: 0;
+  margin-left: 30px;
+  font-family: "Ubuntu1";
+  color: white;
+  animation: fadeIn 1s forwards;
+  text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+}
+.Changelog4 {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  margin: 0 20px;
+  position: fixed; /* Fixed to the center of the screen */
+margin-top: 20px;
+  padding: 0;
 
+  font-family: "Ubuntu1";
+  color: white;
+  animation: fadeIn 1s forwards;
+  text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+}
+.Changelog5 {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  margin: 0 20px;
+  position: fixed; /* Fixed to the center of the screen */
+margin-top: 40px;
+  padding: 0;
+
+  font-family: "Ubuntu1";
+  color: white;
+  animation: fadeIn 1s forwards;
+  text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+}
+.Changelog6 {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  margin: 0 20px;
+  position: fixed; /* Fixed to the center of the screen */
+margin-top: 60px;
+  padding: 0;
+
+  font-family: "Ubuntu1";
+  color: white;
+  animation: fadeIn 1s forwards;
+  text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+}
+.Changelog7 {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  margin: 0 20px;
+  position: fixed; /* Fixed to the center of the screen */
+margin-top: 80px;
+  padding: 0;
+
+  font-family: "Ubuntu1";
+  color: white;
+  animation: fadeIn 1s forwards;
+  text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+}
+.Changelog8 {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  margin: 0 20px;
+  position: fixed; /* Fixed to the center of the screen */
+margin-top: 100px;
+  padding: 0;
+
+  font-family: "Ubuntu1";
+  color: white;
+  animation: fadeIn 1s forwards;
+  text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+}
+.Changelog9 {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  margin: 0 20px;
+  position: fixed; /* Fixed to the center of the screen */
+  margin-top: 120px;
+  padding: 0;
+
+  font-family: "Ubuntu1";
+  color: white;
+  animation: fadeIn 1s forwards;
+  text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+}
+.Changelog10 {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  margin: 0 20px;
+  position: fixed; /* Fixed to the center of the screen */
+  margin-top: 140px;
+  padding: 0;
+
+  font-family: "Ubuntu1";
+  color: white;
+  animation: fadeIn 1s forwards;
+  text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+}
+.Changelog11 {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  margin: 0 20px;
+  position: fixed; /* Fixed to the center of the screen */
+  margin-top: 160px;
+  padding: 0;
+
+  font-family: "Ubuntu1";
+  color: white;
+  animation: fadeIn 1s forwards;
+  text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+}
+.Changelog12 {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  margin: 0 20px;
+  position: fixed; /* Fixed to the center of the screen */
+  margin-top: 180px;
+  padding: 0;
+
+  font-family: "Ubuntu1";
+  color: white;
+  animation: fadeIn 1s forwards;
+  text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+}
+.Changelog13 {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  margin: 0 20px;
+  position: fixed; /* Fixed to the center of the screen */
+  margin-top: 200px;
+  padding: 0;
+
+  font-family: "Ubuntu1";
+  color: white;
+  animation: fadeIn 1s forwards;
+  text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+}
+.Changelog14 {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  margin: 0 20px;
+  position: fixed; /* Fixed to the center of the screen */
+  margin-top: 220px;
+  padding: 0;
+
+  font-family: "Ubuntu1";
+  color: white;
+  animation: fadeIn 1s forwards;
+  text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+}
+.Changelog15 {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  margin: 0 20px;
+  position: fixed; /* Fixed to the center of the screen */
+  margin-top: 240px;
+  padding: 0;
+
+  font-family: "Ubuntu1";
+  color: white;
+  animation: fadeIn 1s forwards;
+  text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+}
+.Changelog16 {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  margin: 0 20px;
+  position: fixed; /* Fixed to the center of the screen */
+  margin-top: 260px;
+  padding: 0;
+
+  font-family: "Ubuntu1";
+  color: white;
+  animation: fadeIn 1s forwards;
+  text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+}
+.Changelog17 {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  margin: 0 20px;
+  position: fixed; /* Fixed to the center of the screen */
+  margin-top: 280px;
+  padding: 0;
+
+  font-family: "Ubuntu1";
+  color: white;
+  animation: fadeIn 1s forwards;
+  text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+}
+.Changelog18 {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  margin: 0 20px;
+  position: fixed; /* Fixed to the center of the screen */
+  margin-top: 300px;
+  padding: 0;
+
+  font-family: "Ubuntu1";
+  color: white;
+  animation: fadeIn 1s forwards;
+  text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+}
+.Changelog19 {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  margin: 0 20px;
+  position: fixed; /* Fixed to the center of the screen */
+  margin-top: 320px;
+  padding: 0;
+
+  font-family: "Ubuntu1";
+  color: white;
+  animation: fadeIn 1s forwards;
+  text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+}
+.Changelog20 {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  margin: 0 20px;
+  position: fixed; /* Fixed to the center of the screen */
+  margin-top: 340px;
+  padding: 0;
+
+  font-family: "Ubuntu1";
+  color: white;
+  animation: fadeIn 1s forwards;
+  text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+}
+.Changelog21 {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  margin: 0 20px;
+  position: fixed; /* Fixed to the center of the screen */
+  margin-top: 360px;
+  padding: 0;
+
+  font-family: "Ubuntu1";
+  color: white;
+  animation: fadeIn 1s forwards;
+  text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+}
+.Changelog22 {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  margin: 0 20px;
+  position: fixed; /* Fixed to the center of the screen */
+  margin-top: 380px;
+  padding: 0;
+
+  font-family: "Ubuntu1";
+  color: white;
+  animation: fadeIn 1s forwards;
+  text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+}
+.Changelog23 {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  margin: 0 20px;
+  position: fixed; /* Fixed to the center of the screen */
+  margin-top: 400px;
+  padding: 0;
+
+  font-family: "Ubuntu1";
+  color: white;
+  animation: fadeIn 1s forwards;
+  text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+}
+.Changelog24 {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  margin: 0 20px;
+  position: fixed; /* Fixed to the center of the screen */
+  margin-top: 420px;
+  padding: 0;
+
+  font-family: "Ubuntu1";
+  color: white;
+  animation: fadeIn 1s forwards;
+  text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+}
+.Changelog25 {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  margin: 0 20px;
+  position: fixed; /* Fixed to the center of the screen */
+  margin-top: 440px;
+  padding: 0;
+
+  font-family: "Ubuntu1";
+  color: white;
+  animation: fadeIn 1s forwards;
+  text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+}
 .Changelog1 {
   width: 100%;
   height: 100%;
   margin: 0 20px;
-  margin-left: 30px;
+  position: fixed; /* Fixed to the center of the screen */
+  z-index: 9999; /* Ensure it appears above other content */
   font-size: 14px;
   padding: 0;
   font-family: "Ubuntu1";
@@ -420,8 +1338,8 @@ div {
 #startMenu {
   position: center;
   margin: auto;
+  
   width: 400px;
-
 	height: 100%;
   padding: 10px;
   margin-top: 100px;
@@ -835,40 +1753,54 @@ update {
 }
 
 #startButton {
-flex: 1 1 auto;
+  flex: 1 1 auto;
+  position: relative; /* Use absolute positioning */
   margin-top: -5px;
   top: -40.5%;
-  left: 0.1%;
-  width: 100%;
-  height: 40px;
+  right: -25%; /* Changed left to right */
+  width: 50%;
+  height: 60px;
   padding: 10px;
   animation: shrinkAnimation 0.2s forwards;
   text-align: center;
   text-transform: uppercase;
   transition: 0.5s;
-  background-size: 100% auto;
-
+  font: bold 25px 'Ubuntu1', sans-serif;
   color: white;
-  /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2); */
-  box-shadow: 0 0 20px #65f691;
+
+  text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
+  border: 4px solid #353430;
+  
   border-radius: 5px;
-  background-image: linear-gradient(
-    to right,
-    #65f691 0%,
-    #99fd85 51%,
-    #65f691 100%
+  background: linear-gradient(
+    0deg,
+    #37c9ae 40%,
+    #45f5d5 40%
   );
   cursor: pointer;
   animation: fadeIn 1s forwards;
 }
 
-#startButton:active,
+
 #startButton:hover {
-  top: 1px;
-  box-shadow: 0 0 20px #65f691;
-  background: #65f691;
+
+  box-shadow: 0 0 20px #45f5d5;
+  background: linear-gradient(
+    0deg,
+    #37c9ae 40%,
+    #45f5d5 40%
+  );
   outline: none;
-  -webkit-box-shadow: none;
+  filter: brightness(106%);
+
+}
+#startButton:active {
+  background: linear-gradient(
+    0deg,
+    #45f5d5 40%,
+    #37c9ae 40%
+  );
+
 }
 
 #bottomHolder {
@@ -1130,10 +2062,10 @@ a.link {
 /* Add this CSS to your stylesheet (e.g., style.css) */
 @keyframes shrinkAnimation {
   0% {
-    transform: scale(1);
+    transform:translate(-50%, -50%) scale(1);
   }
   100% {
-    transform: scale(0);
+    transform:translate(-50%, -50%) scale(0);
   }
 }
 

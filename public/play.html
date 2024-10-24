@@ -74,6 +74,39 @@ margin-left: 700px;
     2px -1px 0 #000,
     -2px -1px 0 #000;
 }
+/* Circle styles */
+#circle {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 0; /* Start with 0 width */
+    height: 0; /* Start with 0 height */
+    background-color: black;
+    border-radius: 50%; /* Make it a circle */
+    transform: translate(-50%, -50%); /* Center it */
+    z-index: 9999; /* Ensure it's on top of other content */
+    transition: width 1s linear, height 1s linear; /* Smooth growth transition */
+}
+
+
+
+@keyframes fadeOut {
+    from {
+        opacity: 1; /* Start fully visible */
+    }
+    to {
+        opacity: 0; /* Fade to invisible */
+    }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .totalplayer1 {
   width: 100%;
   height: 100%;
@@ -144,48 +177,55 @@ margin-top: 30px;
 @keyframes fade-up-no-up {
   0% {
     opacity: 0;
-      transform: translate(0%, 0%) translateY(0px) scale(0.9);
+      transform: translate(-50%, -50%) translateY(0px) scale(0.9);
   }
     100% {
     opacity: 1;
-      transform: translate(0%, 0%) translateY(0px) scale(1);
+      transform: translate(-50%, -50%) translateY(0px) scale(1);
   }
 }
 .modal {
   display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  position: fixed; /* Fixed relative to the viewport */
+  z-index: 10000; /* Ensure it stays above other elements */
+  top: 25%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  width: 1000vw; /* Full viewport width */
+  height: 1000vh; /* Full viewport height */
+  transform: translate(-50%, -50%); /* Adjust to center */
+  overflow: auto; /* Enable scrolling if content overflows */
+  background-color: rgba(0, 0, 0, 0.4); /* Black with transparency */
+  padding: 0; /* Remove extra padding */
 }
 
 /* Modal Content */
 .modal-content {
+  position: fixed; /* Fixed to the viewport */
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  z-index: 10000; /* Ensure it stays above other elements */
+  transform: translate(-50%, -50%); /* Adjust to center */
   background-color: #fbff00;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #778000;
-  width: 80%;
-  max-width: 800px;
-
+  width: 200vw; /* Full width of the viewport */
+  height: 100vh; /* 25% of the viewport height */
+  max-width: 800px; /* Limit max width */
   border: 5px rgb(255, 245, 108) solid;
+  padding: 20px; /* Add padding inside the modal */
+  box-sizing: border-box; /* Ensure padding doesn’t affect width/height */
 }
+
 .modal.show {
   animation: fade-up-no-up 0.5s; 
 }
+
 .modal.hide {
   animation: fade-down-no-up 0.5s; 
 }
+
 /* The Close Button */
 .close {
   color: #aaa;
-  float: right;
+  float: bottom-right;
   font-size: 28px;
   font-weight: bold;
 }
@@ -239,6 +279,15 @@ margin-top: 30px;
   display: block;
   margin-bottom: 10px;
 }
+.slider options_header1 {
+    text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
+    color: white;
+  font-size: 18px;
+  margin-left: 20px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
 .close-btn {
     position: absolute;
     top: 200px;
@@ -282,37 +331,177 @@ margin-top: 30px;
 		#f05f5f 40%
 	);
 
+
+
+  font: bold 70px/1.5 Ubuntu;
+  color: #ffffff;
+  top: -18.5%;
+  left: 5%;
+  font-size: 14px;
+  padding: 2px 25px;
+  border: 4px solid #353430;
+  border-radius: 5px;
+  position: relative;
+
+  text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
+}
+
+
+
+
+
+.red-button:hover  {
+    cursor: pointer;
+    border: 4px solid #353430;
+	filter: brightness(106%);
+}
+.new-ffa-button:hover  {
+    cursor: pointer;
+    border: 4px solid #353430;
+	filter: brightness(106%);
+}
+ .new-2tdm-button:hover  {
+    cursor: pointer;
+    border: 4px solid #353430;
+	filter: brightness(106%);
+}
+.new-maze-button:hover  {
+    cursor: pointer;
+    border: 4px solid #353430;
+	filter: brightness(106%);
+}
+.new-4tdm-button:hover  {
+    cursor: pointer;
+    border: 4px solid #353430;
+	filter: brightness(106%);
+}
+.hyperlink {
+  animation: color-Transition 0.6s infinite alternate; 
+	cursor: pointer;
+}
+
+.hyperlink:hover {
+	filter: brightness(106%);
+}
+
+.beige-button {
+	background: linear-gradient(
+		0deg,
+		#ffde91 40%,
+		#ffefaa 40%
+	);
+
   position: fixed; /* Stay in place */
 
   font: bold 70px/1.5 Ubuntu;
   color: #fff;
   top: -18.5%;
-  left: 41%;
+  left: 6.5%;
   font-size: 14px;
-  padding: 2px 22px;
+  padding: 2px 8px;
   border: 4px solid #353430;
   border-radius: 5px;
   position: relative;
   overflow: hidden;
   text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
 }
+.new-ffa-button {
+  background: linear-gradient(
+    0deg,
+    #37c9ae 40%,
+    #45f5d5 40%
+  );
 
+  position: fixed; /* Stay in place */
 
+  font: bold 70px/1.5 Ubuntu;
+  color: #fff;
+  top: -18.5%;
+  left: 6.5%;
+  font-size: 14px;
+  padding: 2px 20px;
+  border: 4px solid #353430;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
+}
+.new-2tdm-button {
+  background: linear-gradient(
+    0deg,
+    #46c937 40%,
+    #68f545 40%
+  );
 
-.red-button:after {
+  position: fixed; /* Stay in place */
+
+  font: bold 70px/1.5 Ubuntu;
+  color: #fff;
+  top: -18.5%;
+  left: 6.5%;
+  font-size: 14px;
+  padding: 2px 19px;
+  border: 4px solid #353430;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
+}
+.new-maze-button {
+  background: linear-gradient(
+    0deg,
+    #a2773f 40%,
+    #ffad66 40%
+  );
+
+  position: fixed; /* Stay in place */
+
+  font: bold 70px/1.5 Ubuntu;
+  color: #fff;
+  top: -18.5%;
+  left: 15.8%;
+  font-size: 14px;
+  padding: 2px 20px;
+  border: 4px solid #353430;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
+}
+.new-4tdm-button {
+  background: linear-gradient(
+    0deg,
+    #a23f3f 40%,
+    #ff6666 40%
+  );
+
+  position: fixed; /* Stay in place */
+
+  font: bold 70px/1.5 Ubuntu;
+  color: #fff;
+  top: -18.5%;
+  left: 15.8%;
+  font-size: 14px;
+  padding: 2px 20px;
+  border: 4px solid #353430;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
+}
+.beige-button:after {
   content: "";
-	
   display: block;
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
   height: 1px;
-  background-color: #c63c3c;
+  background-color: #ffd56b;
   z-index: -2;
 }
 
-.red-button:hover {
+.beige-button:hover {
     cursor: pointer;
     border: 4px solid #353430;
 	filter: brightness(106%);
@@ -329,9 +518,9 @@ margin-top: 30px;
   font: bold 70px/1.5 Ubuntu;
   color: #fff;
   top: -18.5%;
-  left: 42%;
+  left: 6%;
   font-size: 14px;
-  padding: 2px 15px;
+  padding: 2px 8px;
   border: 4px solid #353430;
   border-radius: 5px;
   position: relative;
@@ -370,10 +559,10 @@ margin-top: 30px;
   font: bold 70px/1.5 Ubuntu;
   color: #fff;
   top: -1000%;
-  left: 43%;
+  left: 15%;
   margin-top: 0px;
   font-size: 14px;
-  padding: 2px 15px;
+  padding: 2px 8px;
   border: 4px solid #353430;
   border-radius: 5px;
   position: relative;
@@ -412,7 +601,7 @@ margin-top: 30px;
   font: bold 70px/1.5 Ubuntu;
   color: #fff;
   top: -1000%;
-  left: 44%;
+  left: 15.5%;
   margin-top: 0px;
   font-size: 14px;
   padding: 2px 15px;
@@ -425,7 +614,39 @@ margin-top: 30px;
 
 
 
-.brown-button:after {
+
+
+.brown-button:hover {
+    cursor: pointer;
+    border: 4px solid #353430;
+	filter: brightness(106%);
+}
+.pink-button {
+	background: linear-gradient(
+		0deg,
+		#b10099 40%,
+		#ff47f0 40%
+	);
+
+  position: fixed; /* Stay in place */
+  margin-top: 10000px; /* Add margin to separate buttons */
+  font: bold 70px/1.5 Ubuntu;
+  color: #fff;
+  top: -1000%;
+  left: 16%;
+  margin-top: 0px;
+  font-size: 14px;
+  padding: 2px 31px;
+  border: 4px solid #353430;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
+}
+
+
+
+.pink-button:after {
   content: "";
   display: block;
   position: absolute;
@@ -433,11 +654,11 @@ margin-top: 30px;
   left: 0;
   width: 100%;
   height: 1px;
-  background-color: #c68f3c;
+  background-color: #c63cc6;
   z-index: -2;
 }
 
-.brown-button:hover {
+.pink-button:hover {
     cursor: pointer;
     border: 4px solid #353430;
 	filter: brightness(106%);
@@ -452,7 +673,7 @@ background: linear-gradient(
   font: bold 70px/1.5 Ubuntu;
   color: #fff;
   top: -18.5%;
-  left: 41.5%;
+  left: 5.5%;
   font-size: 14px;
   padding: 2px 12px;
   border: 4px solid #353430;
@@ -501,11 +722,11 @@ background: linear-gradient(
 @keyframes fade-down-no-up {
   0% {
     opacity: 1;
-    transform: translate(0%, 0%) translateY(0px) scale(1);
+    transform: translate(-50%, -50%) translateY(0px) scale(1);
   }
   100% {
     opacity: 0;
-    transform: translate(0%, 0%) translateY(0px) scale(0.9);
+    transform: translate(-50%, -50%) translateY(0px) scale(0.9);
   }
 }
 .myBtn:before {
@@ -557,66 +778,67 @@ h20 {
 }
 #viewOptionsButton {
     background-color: #fff566;
-  font: bold 70px/1.5 Ubuntu;
-  color: #fff;
-  top: -40.5%;
-  left: 0.1%;
-  width: 100%;
-  font-size: 20px;
-  margin-top: -40px;
-  padding: 5px 100px;
-  box-shadow: 0 0 20px #fff566;
-  border: 2px solid #353430;
-  border-radius: 5px;
-  position: relative;
-  overflow: hidden;
-  text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
-}
-#viewOptionsButton:before {
-    content: "";
-  display: block;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 50%;
-  background-color: #c4c63c;
-  z-index: -4;
-  transform: skewY(2deg);
-  transform-origin: bottom left;
+    font: bold 30px Ubuntu1; /* Adjust font as needed */
+    color: #fff;
+    position: relative; /* Use absolute positioning */
+    top: -20.5%;
+    right: -15%; /* Changed left to right */
+    width: 70%;
+    height: 60px;
+    margin-top: -40px;
+    padding: 0; /* Remove padding for better centering */
+
+    display: flex; /* Use flexbox for centering */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+
+    text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
+    border: 4px solid #353430;
+    border-radius: 5px;
+    background: linear-gradient(0deg, #c4c737 40%, #f2f545 40%);
+    overflow: hidden;
 }
 
-#viewOptionsButton:after {
-  content: "";
-  display: block;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 1px;
-  background-color: #c4c63c;
-  z-index: -2;
-}
+
+
 
 #viewOptionsButton:hover {
-    cursor: pointer;
-  background-color: #fffd80;
+  background: linear-gradient(
+    0deg,
+    #c4c737 40%,
+    #f2f545 40%
+  );
+  outline: none;
+  cursor: pointer;
+  filter: brightness(106%);
+  box-shadow: 0 0 20px #f2f545;
 }
 
 #viewOptionsButton:active {
-  background-color: #fff566;
-  box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.5);
+  background: linear-gradient(
+    0deg,
+    #f2f545 40%,
+    #c4c737 40%
+  );
+
 }
-#settingsButtonContainer {
-  position: fixed;
-  top: -420px;
-  right: 0%;
+
+
+
+/* Add this CSS to your stylesheet (e.g., style.css) */
+@keyframes shrinkAnimation {
+  0% {
+    transform:translate(-50%, -50%) scale(1);
+  }
+  100% {
+    transform:translate(-50%, -50%) scale(0);
+  }
 }
 
 #settingsButton {
   position: absolute;
   top: 0;
-
+  visibility: hidden;
   right: 0;
   width: 50px;
   height: 50px;
@@ -659,6 +881,86 @@ h20 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) rotate(90deg);
+}
+#premiumButton {
+    position: absolute;
+    top: 10px;
+    left: 130%;
+    padding: 12px 24px;
+    font: bold 18px 'Ubuntu', sans-serif;
+    color: #fff;
+    background: red; /* Start with a color */
+    border: 4px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50px;
+    cursor: pointer;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8), 0 0 10px rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.6), 0 0 25px rgba(255, 255, 255, 0.4), inset 0 0 10px rgba(0, 0, 0, 0.8); /* Outer and inner glow */
+    animation: rainbowColors 6s ease-in-out infinite, pulseEffect 1s ease-in-out infinite;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; /* Make sure transition applies to all necessary properties */
+}
+
+@keyframes rainbowColors {
+    0% { background-color: red; }
+    14% { background-color: orange; }
+    28% { background-color: yellow; }
+    42% { background-color: green; }
+    57% { background-color: blue; }
+    71% { background-color: indigo; }
+    85% { background-color: violet; }
+    100% { background-color: red; }
+}
+
+@keyframes pulseEffect {
+    0% { transform: scale(1); opacity: 1; box-shadow: 0 0 15px rgba(255, 255, 255, 0.6), 0 0 25px rgba(255, 255, 255, 0.4); }
+    50% { transform: scale(1.08); opacity: 1.2; box-shadow: 0 0 25px rgba(255, 255, 255, 0.8), 0 0 35px rgba(255, 255, 255, 0.6); }
+    100% { transform: scale(1); opacity: 1; box-shadow: 0 0 15px rgba(255, 255, 255, 0.6), 0 0 25px rgba(255, 255, 255, 0.4); }
+}
+
+/* Hover effect */
+#premiumButton:hover {
+  transform: scale(1.2); /* Increase size on hover */
+    box-shadow: 0 0 40px rgba(255, 255, 255, 1), 0 0 60px rgba(255, 255, 255, 0.7), inset 0 0 30px rgba(255, 255, 255, 0.4); /* Stronger and larger shadow */
+    background-color: #ff5733; /* Change background color on hover */
+    filter: brightness(115%);
+}
+#premiumButton:hover::after {
+  content: "";
+    position: absolute;
+    top: 50%;
+    filter: brightness(115%);
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    animation: rippleEffect 0.6s linear;
+}
+/* Active (click) effect */
+#premiumButton:active {
+
+    filter: brightness(90%);
+}
+
+#premiumButton:active::after {
+
+    filter: brightness(90%);
+}
+
+@keyframes rippleEffect {
+    to {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 0;
+    }
+}
+
+
+#premiumMessage {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    color: #34495e;
 }
 
 .settings-icon:after {
@@ -734,7 +1036,7 @@ top: -7%;
   }
   h1.game-mode1 {
   position: absolute; /* Stay in place */
-top: 15%;
+top: 29%;
     left: 49.5%;
     transform: translate(-50%, -50%);
     font-size: 25px;
@@ -757,7 +1059,18 @@ top: 15%;
   }
   h1.game-mode2 {
   position: absolute; /* Stay in place */
-top: 22%;
+top: 36%;
+    left: 49.5%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+  
+    color: white;
+    text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
+    pointer-events: none; /* make the text non-clickable */
+  }
+  h1.game-mode3 {
+  position: absolute; /* Stay in place */
+top: 39%;
     left: 49.5%;
     transform: translate(-50%, -50%);
     font-size: 20px;
@@ -770,7 +1083,7 @@ top: 22%;
     position: absolute;
     font: bold 70px/1.5 Ubuntu;
     font-size: 20px;
-    margin-top: 0px;
+    margin-top: 90px;
     left: 25%;
     color: white;
     text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
@@ -795,29 +1108,239 @@ top: 22%;
     width: 215px;
   height: 20px;
 }
+/*MOBILE CSS*/
+body.mobile .icon {
+  width: 55px;
+  height: 55px;
+}
+body.mobile .sliderHolder {
+  height: 295px;
+}
+body.mobile .linkHolder { display: none; }
+#mainWrapper {
+  padding: 0px 20px 0;
+}
+body.mobile .startMenuHolder.shrinkable {
+  width: calc(100% - 400px);
+}
+body.mobile .startMenuHolder {
+  height: 300px;
+}
+body.mobile .sliderHolder {
+  height: 250px;
+}
+body.mobile .startMenuSlidingContent {
+  height: 209px;
+}
+body.mobile #MessageWrapper { display: none;}
+body.mobile #startMenuWrapper { max-width: 750px; }
+body.mobile .slider {
+  top: -1px;
+}
+body.mobile #startMenuSlidingTrigger {
+  top: -55px;
+}
+body.mobile #playerNameInput {
+  padding: 10px;
+  font-size: larger;
+}
+body.mobile .serverSelector {
+    height: 70px;
+}
+body.mobile .span {
+  padding-top: 10px;
+  padding-bottom: 3px;
+  font-size: small;
+  font-weight: bold;
+}
+.modal1 {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            z-index: 1000;
+        }
+
+        .modal1-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #23d300;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    overflow-y: auto; /* Add scrollability */
+    max-height: 20vh; /* Set maximum height to 80% of viewport height */
+    animation: fade-up-no-up 0.5s; 
+    font-weight: bold;
+  text-align: center;
+  text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
+
+    border: 5px rgb(108, 255, 108) solid;
+}
+body.mobile #sliderButton2 {
+  display: none;
+}
+.button-transition {
+    transition: all 0.3s ease;
+}
+
+.red-button, .green-button, .blue-button, .yellow-button, .beige-button, .brown-button, .pink-button, .new-ffa-button, .new-2tdm-button, .new-maze-button, .new-4tdm-button  {
+    transition: all 0.3s ease;
+}
+
+.red-button.clicked, .green-button.clicked, .blue-button.clicked, .yellow-button.clicked, .beige-button.clicked, .brown-button.clicked, .pink-button.clicked, .new-ffa-button.clicked, .new-2tdm-button.clicked, .new-maze-button.clicked, .new-4tdm-button.clicked  {
+    transform: scale(1.1);
+    border: 4px solid #353430;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}
+.red-button:hover, .green-button:hover, .blue-button:hover, .yellow-button:hover, .beige-button:hover, .brown-button:hover, .pink-button:hover, .new-ffa-button:hover, .new-2tdm-button:hover, .new-maze-button:hover, .new-4tdm-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}
+#homeButton {
+    position: absolute;
+    top: -250px;
+    right: -290px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+    transition: transform 0.3s ease; /* Smooth scaling */
+}
+
+#homeButton i {
+    color: white;
+}
+
+#homeButton:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+#homeButton:active {
+  background-color: rgba(255, 255, 255, 0);
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
         /* Style for the placeholder text color */
         #chatInput::placeholder {
             color: white; /* Set the placeholder text color to white */
         }
+        #startMenuBtnsContainer {
+	display: flex;
+	flex-direction: column;
 
+	max-height: 115px;
+}
     </style>
+    <style>
+      .btn, .dialog {background-color: #5865f2 !important;}
+      [stroke]:after {color: #eee !important;}
+      .btn-icon {display: none !important;}
+      .gamemodes, .gold-preview, .squad-btn {transition: .5s all;}
+      .grid-pushup .gamemodes, .grid-pushup .gold-preview, .grid-pushup .squad-btn {opacity: 0 !important; transform: scale(0);}
+      .squad .dialog-content {overflow-x: hidden;}
+      .gamemodes {background: rgba(0, 0, 0, .3) !important;}
+      .gamemodes .btn {font-size: 12px !important; padding: 4px 3px !important;}
+      .shop {background: #813400 !important;}
+      .btn-disabled {opacity: .5; pointer-events: none;}
+      .lb {right: 15px !important; top: 15px !important; width: 180px !important;}
+      .lb-content, .lb-header {border: none !important; padding: 0 !important; background: 0 0 !important;}
+      .lb-header {margin-bottom: 10px; font-size: 18px;}
+      .lb-item {border-width: 2px !important;}
+      .ad-overlay {display: none !important;}
+      .menu {position: fixed; left: 0; top: 0; width: 100vw; height: 100vh; background-color: #754200;}
+      .game {position: fixed; left: 50vw; top: 50vh; width: 0; height: 0; transform: translate(-50%, -50%); border-radius: 50%; background: #333; overflow: hidden; transition-property: width, height; pointer-events: none; z-index: 11;}
+      .game:after {content: ' '; position: absolute; left: 0; top: 0; width: 100%; height: 100%; border-radius: inherit; box-shadow: inset 0 0 0 7px #000; pointer-events: none;}
+      .game-show {pointer-events: all;}
+      .game-content {position: absolute; left: 50%; top: 50%; width: 100vw; height: 100vh; transform: translate(-50%, -50%);}
+      .menu-btns {position: absolute; left: 10px; bottom: 10px; display: grid; grid-gap: 7px; grid-auto-flow: row;}
+      .btn {color: #fff; font-size: 25px; display: flex; justify-content: center; align-items: center; background: #aeaeae; border: 3px solid rgba(0, 0, 0, .2); padding: 8px; border-radius: 4px; cursor: pointer; position: relative;}
+      .btn, label {-webkit-tap-highlight-color: transparent;}
+      .btn:after {content: ' '; position: absolute; left: 0; top: 0; width: 100%; height: 100%;}
+      .btn:not(.btn-active):hover:after {background: hsla(0, 0%, 100%, .2);}
+      .btn:not(.btn-active):active:after, .tabs .btn-active:after {background: rgba(0, 0, 0, .1);}
+      .gamemodes .btn-active {border-color: hsla(0, 0%, 100%, .4);}
+      .btn>* {z-index: 1;}
+      [tooltip] {position: relative;}
+      [tooltip]:before {content: attr(tooltip); position: absolute; left: -20%; bottom: -70%; transform: translate(-30%, -5px); font-family: Ubuntu1; background: rgba(0, 0, 0, .5); color: #fff; white-space: nowrap; pointer-events: none; opacity: 0; transition: opacity .5s; text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000; padding: 5px; border-radius: 4px; font-size: 20px; z-index: 2;}
+      [tooltip]:hover:before {opacity: 1;}
+      .menu-btns [tooltip]:before {left: 100%; top: 50%; bottom: unset; transform: translate(10px, -50%); font-size: 20px;}
+      [stroke] {position: relative;}
+      [stroke]:before {content: attr(stroke); -webkit-text-stroke: 0.1em #000;}
+      [stroke]:after {content: attr(stroke); color: #fff; position: absolute; left: 0; top: 0;}
+      .dialog {position: absolute; left: 70px; background: #aeaeae; border: 5px solid rgba(0, 0, 0, .2); border-radius: 5px; padding: 5px; bottom: 0; transform: translate(0, 100%); transition: all .2s; display: flex; flex-direction: column; opacity: 0;}
+      .dialog-show {opacity: 1; bottom: 10px; transform: none; z-index: 1;}
+      .dialog-header {display: flex; flex-direction: row; margin-bottom: 10px;}
+      .dialog-title {font-size: 20px; width: 100%; display: grid; place-items: center;}
+      .dialog-close {width: 20px; height: 20px; font-size: 18px; padding: 0; background: #b55; color: hsla(0, 0%, 100%, .6);}
+      .dialog-content {font-size: 13px; max-height: 200px; overflow-y: auto;}
+      .dialog-btns {display: grid; grid-auto-flow: row; grid-gap: 4px;}
+      .dialog-btns .btn {padding: 4px; font-size: inherit;}
+      label {display: flex; align-items: center; cursor: pointer; margin-bottom: 5px;}
+      .log-line {width: 100%; height: 5px; border-radius: 2.5px; background: rgba(0, 0, 0, .2); margin-bottom: 5px;}
+      .log-title {font-size: 16px;}
+      .log-content {margin: 10px 7px; font-size: 12px;}
+      ::-webkit-scrollbar {width: 5px;}
+      ::-webkit-scrollbar-thumb {background: rgba(0, 0, 0, .2); border-radius: 2.5px;}
+      .grid {position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: grid; place-items: center; grid-gap: 5px; grid-template-areas: "game-title game-title game-title" ". nickname-info ." "shop-btn nickname play-btn" ". gamemodes squad-btn"; opacity: 0; transition: all .4s;}
+      .grid-show {opacity: 1;}
+      .grid-show .nickname {margin-bottom: 0;}
+      .grid-pushup {margin-top: -125px;}
+      .mobile .grid-pushup {margin-top: -145px;}
+      .game-title {top: 0; transition: all .4s;}
+      .mobile .grid-pushup .game-title {top: -50px;}
+      .mobile .grid {transform: translate(-50%, -50%) scale(.85);}
+      .connecting {position: absolute; left: 50%; top: -200px; transform: translate(-50%, -100%); font-size: 40px; opacity: 0;}
+      .connecting-show {top: 50%; opacity: 1;}
+      .connecting, .nickname {transition: all 1s cubic-bezier(.11, .69, .3, .98);}
+      .game-title {font-size: 50px; margin-bottom: 20px; grid-area: game-title;}
+      .nickname-info {grid-area: nickname-info;}
+      .nickname {margin-bottom: 100px; font-size: 30px;}
+      .nickname input {font-size: 20px; padding: 10px; width: 300px; max-width: 100%;}
+      .play-btn {grid-area: play-btn;}
+      .shop-btn {grid-area: shop-btn;}
+      .squad-btn {grid-area: squad-btn;}
+      .gold-preview {grid-area: gamemodes;}
+  </style>
+  
+    <main id="startMenuBtnsContainer">
       <div id="Changeloge">
         <div class="Changelog"><b>Changelog</b></div>
-        <div class="Changelog2"><b>Last updated: September 6th 2024</b></div>
-        <div class="Changelog1"><b><p></p><li>Improved vpn security and proxy!</li></b></div>
-        <div class="Changelog1"><b>All the vpns and proxies are now fully banned and unbypassable.</b></div>
-        <div class="Changelog1"><b><p></p><li>Added captcha.</li></b></div>
-        <div class="Changelog1"><b><p></p><li>Friendly bosses on boss rush now follow leader tank and go to sanctuary on low hp.</li></b></div>
-        <div class="Changelog1"><b>Idea from Ryan The Tiny King</b></div>
-        <div class="Changelog1"><b><p></p><li>Menu is now similar to diep.io</li></b></div>
-        <div class="Changelog1"><b><p></p><li>Fixed some glitches and balanced some tanks.</li></b></div>
-        <div class="Changelog1"><b><p></p><li>Reworked ban system (Credit to bruhman for testing).</li></b></div>
-	      	              <div class="Changelog1"><b><p></p><li>Disabled ability to level up instantly in all gamemodes except for boss rush and kill race</li></b></div>
-	              <div class="Changelog1"><b><p></p><li>Added new maps for Domination and Mothership!</li></b></div>
-	              <div class="Changelog1"><b><p></p><li>Readded shapes.</li></b></div>
-	                <div class="Changelog1"><b><p></p><li>Removed bots except for boss rush.</li></b></div>
-          <div class="Changelog1"><b><p></p><li>Removed tokens.</li></b></div>
+        <div class="Changelog2"><b>Last updated: October 24th 2024</b></div>
+        <div class="Changelog4"><b><p></p><li>Added new gamemode! Core!</li></b></div>
+        <div class="Changelog5"><b><p></p><li>On core gamemode, a yellow zone is at the center of the map</li></b></div>
+        <div class="Changelog6"><b><p></p><li>To win, a team must stay on the yellow zone for longest time</li></b></div>
+        <div class="Changelog7"><b><p></p><li>If other teams have more players on yellow zone than your team, you can't gain points.</li></b></div>
+        <div class="Changelog8"><b><p></p><li>Many maps have been made for this gamemode!</li></b></div>
+        <div class="Changelog9"><b><p></p><li>Added new gamemodes! FFA, Maze, 2TDM and 4TDM!</li></b></div>
+        <div class="Changelog10"><b><p></p><li>In FFA, you fight against other players in order to have the highest score!</li></b></div>
+        <div class="Changelog11"><b><p></p><li>In Maze, there are some walls and it's a free for all labyrinth!</li></b></div>
+        <div class="Changelog12"><b><p></p><li>Just like FFA, in maze you fight against other players and gain highest score as possible</li></b></div>
+        <div class="Changelog13"><b><p></p><li>In 2TDM, there are 2 teams and each team fight against each other.</li></b></div>
+        <div class="Changelog14"><b><p></p><li>Just like FFA, in 2tdm, fight against your opponents and gain the highest score you can get!</li></b></div>
+        <div class="Changelog15"><b><p></p><li>In 4TDM, there are 4 teams instead of 2 like 2TDM</li></b></div>
+        <div class="Changelog16"><b><p></p><li>Added new bosses for boss rush mode. Also added a star which when you collect it, you gain extra powers.</li></b></div>
+        <div class="Changelog17"><b><p></p><li>Added new maps for boss rush and domination.</li></b></div>
+        <div class="Changelog18"><b><p></p><li>Added new class: Sentinel with many upgrades for Tier 2! Tier 2 only available at level 30.</li></b></div>
+        <div class="Changelog19"><b><p></p><li>Incoming updates:</li></b></div>
+        <div class="Changelog20"><b><p></p><li>Mobile support.</li></b></div>
+        <div class="Changelog21"><b><p></p><li>New boss rush bosses.</li></b></div>
+        <div class="Changelog22"><b><p></p><li>New dominators.</li></b></div>
+        <div class="Changelog23"><b><p></p><li>Achievements.</li></b></div>
+        <div class="Changelog24"><b><p></p><li>Genesis (Inspired by arras.io)</li></b></div>
+        <div class="Changelog25"><b><p></p><li>Hole gamemode (Inspired by hole.io)</li></b></div>
         </div>
+      </main>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
     <meta name="description" content="Arras2.io is a fan-made sequel of arras.io. Escape from attackers and shoot everyone while staying alive!">
@@ -827,24 +1350,12 @@ top: 22%;
     <meta name="robots" content="index, follow">
     <title>Arras2.io</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:400,700">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQq7Ml8WsgGqQYGK397Dh6MQk/6/zD8vEiGw==" crossorigin="anonymous" />
     <link rel="stylesheet" href="/main.css" />
     <link rel="icon" type="image/png" sizes="16x16 32x32 64x64 128x128 256x256" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
-    <!-- Favicons -->
-  <link rel="apple-touch-icon" sizes="60x60" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
-  <link rel="apple-touch-icon" sizes="120x120" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
-  <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
-  <link rel="icon" type="image/png" sizes="16x16" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
-  <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
-  <link rel="icon" type="image/png" sizes="64x64" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
-  <link rel="icon" type="image/png" sizes="96x96" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
-  <link rel="icon" type="image/png" sizes="128x128" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
-  <link rel="icon" type="image/png" sizes="192x192"  href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
-  <link rel="icon" type="image/png" sizes="256x256" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
-  <link rel="icon" type="image/png" sizes="512x512" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
-  <link rel="icon" type="image/png" sizes="1024x1024" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
-  <link rel="icon" type="image/png" sizes="2048x2048" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
-  <link rel="icon" type="image/svg+xml" sizes="400x400" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
+    <meta property="og:image" content="https://cdn.glitch.global/7fdbbc0d-3982-4016-95c0-1c33c0f67239/Screenshot%202024-10-13%20153943-modified.png?v=1728829785590">
+    <link rel="icon" type="image/png" sizes="16x16 32x32 64x64 128x128 256x256" href="https://cdn.glitch.global/7fdbbc0d-3982-4016-95c0-1c33c0f67239/Screenshot%202024-10-13%20153943-modified.png?v=1728829785590">
     <link rel="manifest" href="/lib/json/manifest.json">
     <meta name="msapplication-TileColor" content="#8abc3f">
     <meta name="theme-color" content="#8abc3f">
@@ -856,15 +1367,17 @@ top: 22%;
         <input id="chatInput" type="text" placeholder="Press enter to send a message. press ESC to cancel." maxlength="54" hidden="true" />
     </div>
    
-    <div id="settingsButtonContainer">
+  
       <button id="settingsButton">
         <img width=35 height=35 src="https://icon-library.com/images/white-settings-icon/white-settings-icon-2.jpg" alt="Settings">
       </button>
-    </div>
+    
     
     
     <div id="settingsMenu" class="slide-in">
+      <h3 class="moveright">Tip: You can close settings by clicking outside of menu</h3>
       <br>
+      
       <h1 class="moveright">Advanced controls</h1>
       <table>
         <tr> <td><b>E</b> - auto-fire</td>     <td><b>C</b> - auto-spin</td> </tr>
@@ -872,13 +1385,16 @@ top: 22%;
         <tr> <td><b>V</b> - reverse tank</td>  <td><b>F</b> - auto-alt</td> </tr>
         <tr> <td><b>B</b> - reverse mouse</td> <td><b>O</b> - self-destruct</td> </tr>
         <tr> <td><b>T</b> - show tank tree</td><td><b>M</b> - maximize stat</td> </tr>
-        <tr> <td><b>X</b> - spin lock</td>     
+        <tr> <td><b>X</b> - spin lock</td><td><b>Z</b> - record video</td> </tr> 
+        <tr> <td><b>Q</b> - screenshot</td><td><b>H</b> - control dominators and mothership</td> </tr>       
+        <tr><td><b>ENTER</b> - chat</td><td>(Not working on all the gamemodes)</td> </tr>  
       </table>
       <h1 class="moveright">Options</h1>
      
         <select id="optColorsChange" tabindex="-1">
         <option value="DiepIO">Arras2.io (by LA3T)</option>
         <option value="REALDIEP">Diep.io (by M28)</option>
+        <option value="oxyrex">Oxyrex.io (by Oblivion)</option>
         <option value="normal">Light Colors (by Neph)</option>
         <option value="dark">Dark Colors (by Neph)</option>
         <option value="natural">Natural (by Neph)</option>
@@ -920,7 +1436,7 @@ top: 22%;
           <td><div><label><input id="centerTank"          tabindex="-1" class="checkbox" type="checkbox"> Walnut mode</label></div></td>
         </tr>
         <tr>
-          <td><div><label><input id="betterperformance"          tabindex="-1" class="checkbox" type="checkbox"> Better FPS (Wait 3 secs)</label></div></td>
+          <td><div><label><input id="betterperformance"          tabindex="-1" class="checkbox" type="checkbox"> Better FPS (Recommended)</label></div></td>
          
         </tr>
 <input id="forceapply" tabindex="-1" class="checkbox" type="checkbox" style="display: none;">
@@ -933,18 +1449,95 @@ top: 22%;
     </div>
     <div id="mainWrapper">
         <div id="startMenuWrapper">
+          
             <h1 class="game-mode">Game mode</h1>
+            <button class="red-button red-button-half">
+              D-Day
+              <br>
+              <span id="totalplayersred">? players</span>
+          </button>
+          
+          <button class="yellow-button yellow-button-half">
+            Boss Rush
+            <br>
+            <span id="totalplayersyellow">? players</span>
+        </button>
+        
+        <button class="blue-button blue-button-half">
+          Domination
+          <br>
+          <span id="totalplayersblue">? players</span>
+      </button>
+      
 
-    <button class="red-button red-button-half">D-Day</button>
-    <button class="yellow-button yellow-button-half">Boss Rush</button>
-    <button class="blue-button blue-button-half">Domination</button>
+      <button class="beige-button beige-button-half">
+        Closed Beta
+        <br>
+        <span id="totalplayersbeige">? players</span>
+      </button>
+      
+      <!-- FFA Button -->
+      <button class="new-ffa-button">
+        FFA
+        <br>
+        <span id="totalplayersffa">? players</span>
+      </button>
+      
+      <!-- 2TDM Button -->
+      <button class="new-2tdm-button">
+        2TDM
+        <br>
+        <span id="totalplayers2tdm">? players</span>
+      </button>
+      
 
-
+      
+    
+      
+    </button>
+    
     <div class="button-container"></div>
-<button class="green-button green-button-half">Mothership</button>
-<button class="brown-button brown-button-half">Kill Race</button>
-<h1 class="game-mode1">Total players</h1>
+    <button class="green-button green-button-half">
+      Mothership
+      <br>
+      <span id="totalplayersgreen">? players</span>
+  </button>
+  
+  <button class="brown-button brown-button-half">
+    Kill Race
+    <br>
+    <span id="totalplayersbrown">? players</span>
+</button>
+
+<button class="pink-button pink-button-half">
+  Core
+  <br>
+  <span id="totalplayerspink">? players</span>
+</button>
+  <!-- MAZE Button -->
+  <button class="new-maze-button">
+    MAZE
+    <br>
+    <span id="totalplayersmaze">? players</span>
+  </button>
+  
+  <!-- 4TDM Button -->
+  <button class="new-4tdm-button">
+    4TDM
+    <br>
+    <span id="totalplayers4tdm">? players</span>
+  </button>
+<button id="premiumButton" tooltip="With premium, you get premium features and more!">Get Premium!</button>
+<h1 class="game-mode1" id="bruhliterally">Total players</h1>
 <h1 class="game-mode2" id="totalPlayerCount">???</h1>
+<noscript>
+  <h1 class="game-mode3" id="enablejs">Please enable Javascript to play.</h1>
+</noscript>
+<button id="homeButton" tooltip="Return to home menu">
+  <i class="fas fa-home"></i>
+  <img width=40 height=40 src="homelogo.png">
+</button>
+
             <div id="startMenu">
                 <div class="startMenuHolder">
 
@@ -953,12 +1546,12 @@ top: 22%;
                             <a class="taleof">This is the tale of...</a>
                             <input type="text" autofocus tabindex="1" spellcheck="false"  id="playerNameInput" maxlength="24" />
                             <div style="position: relative; bottom: -10px;">
-                                <button id="startButton" tabindex="2">Preparing Mockups...</button>
+                                <button id="startButton" tabindex="2">Loading...</button>
                             </div>
                         </div>
                         
                        <!-- Trigger/Open The Modal -->
-                       <button id="viewOptionsButton">Options</button>
+                     <!--   <button id="viewOptionsButton">Options</button>-->
 
 <!-- The Modal -->
 <div id="myModal" class="modal">
@@ -967,7 +1560,9 @@ top: 22%;
   <div class="modal-content">
     <span class="close">&times;</span>
     <div class="slider" id="optionsContent">
+      <options_header1>NOTE: TO CHANGE SETTINGS, JOIN THE GAME AND CLICK ON SETTINGS BUTTON</options_header1>
       <br>
+      <options_header>SETTINGS CANNOT BE CHANGED HERE.</options_header>
       <options_header>Advanced Controls:</options_header><br>
       <table>
         <tr> <td><b>E</b> - auto-fire</td>     <td><b>C</b> - auto-spin</td> </tr>
@@ -975,12 +1570,15 @@ top: 22%;
         <tr> <td><b>V</b> - reverse tank</td>  <td><b>F</b> - auto-alt</td> </tr>
         <tr> <td><b>B</b> - reverse mouse</td> <td><b>O</b> - self-destruct</td> </tr>
         <tr> <td><b>T</b> - show tank tree</td><td><b>M</b> - maximize stat</td> </tr>
-        <tr> <td><b>X</b> - spin lock</td>     
+        <tr> <td><b>X</b> - spin lock</td><td><b>Z</b> - record video</td> </tr> 
+        <tr> <td><b>Q</b> - screenshot</td><td><b>H</b> - control dominators and mothership</td> </tr>       
+        <tr><td><b>ENTER</b> - chat</td><td>(Not working on all the gamemodes)</td> </tr>  
       </table>
       <options_header>Options:</options_header>
       <select id="optColors" tabindex="-1" onchange="document.getElementById('optCustom').style.display = this.value === 'custom' ? 'block' : 'none'" onfocus="document.getElementById('optCustom').style.display = this.value === 'custom' ? 'block' : 'none'">
         <option value="DiepIO">Arras2.io (by LA3T)</option>
         <option value="REALDIEP">Diep.io (by M28)</option>
+        <option value="oxyrex">Oxyrex.io (by Oblivion)</option>
         <option value="normal">Light Colors (by Neph)</option>
         <option value="dark">Dark Colors (by Neph)</option>
         <option value="natural">Natural (by Neph)</option>
@@ -1019,10 +1617,11 @@ top: 22%;
           <td><div><label><input id="centerTank"          tabindex="-1" class="checkbox" type="checkbox"> Walnut mode</label></div></td>
         </tr>
         <tr>
-          <td><div><label><input id="betterperformance"          tabindex="-1" class="checkbox" type="checkbox"> Better FPS (Wait 3 secs)</label></div></td>
+          <td><div><label><input id="betterperformance"          tabindex="-1" class="checkbox" type="checkbox"> Better FPS (Recommended)</label></div></td>
           
         </tr>
         <input id="antivpn"   tabindex="-1" class="checkbox" type="checkbox">
+        <input id="antivpn1"   tabindex="-1" class="checkbox" type="checkbox">
       </table>
     </div>
   </div>
@@ -1040,7 +1639,8 @@ top: 22%;
 <div id="mobileMessage">
     <div class="messageContent">Mobile is not supported on Arras2.io yet.</div>
 </div>
-              
+
+
 
     <!-- JS -->
     <script
@@ -1061,7 +1661,19 @@ top: 22%;
     <script type="module" src="./lib/getdeveloper.js"></script>
     <script type="module" src="./lib/socketInit.js"></script>
     <script type="module" src="./app.js"></script>
+    <script type="module" src="./uwu.js"></script>
+
     <script>
+      document.querySelectorAll('.red-button, .green-button, .blue-button, .yellow-button, .beige-button, .brown-button, .pink-button, .new-ffa-button, .new-2tdm-button, .new-maze-button, .new-4tdm-button').forEach(button => {
+    button.addEventListener('click', function() {
+        // Remove the 'clicked' class from all buttons
+        document.querySelectorAll('.red-button, .green-button, .blue-button, .yellow-button, .beige-button, .brown-button, .pink-button, .new-ffa-button, .new-2tdm-button, .new-maze-button, .new-4tdm-button').forEach(btn => btn.classList.remove('clicked'));
+        
+        // Add the 'clicked' class to the clicked button
+        this.classList.add('clicked');
+    });
+});
+
       // Get the modal
 var modal = document.getElementById("myModal");
 
@@ -1069,48 +1681,122 @@ var modal = document.getElementById("myModal");
   // Get the red button
   var redBtn = document.querySelector(".red-button");
   var blueBtn = document.querySelector(".blue-button");
+  var startBtn = document.getElementById("startButton");
   // Get the yellow button
   var yellowBtn = document.querySelector(".yellow-button");
   var greenBtn = document.querySelector(".green-button");
   var brownBtn = document.querySelector(".brown-button");
+  var pinkBtn = document.querySelector(".pink-button");
+  var beigeBtn = document.querySelector(".beige-button");
+  var premium = document.getElementById("premiumButton");
+  var ffaBtn = document.querySelector(".new-ffa-button");
+  var twotdmBtn = document.querySelector(".new-2tdm-button");
+  var mazeBtn = document.querySelector(".new-maze-button");
+  var fourtdmBtn = document.querySelector(".new-4tdm-button");
 // When the user clicks on the button, open the modal	background: linear-gradient(
   var settingsButton = document.getElementById("settingsButton");
 var settingsMenu = document.getElementById("settingsMenu");
 
-settingsButton.onclick = function() {
-  if (settingsMenu.style.display === "block") {
-    if (settingsMenu.classList.contains('slide-out')) {
+var currentIP = ''; // Variable to hold the user's IP
+const allowedIP = '88.126.207.146'; // Example allowed external IP
+const localhostIPs = ['127.0.0.1', '::1']; // Localhost IP addresses (IPv4 and IPv6)
+
+var pinkButton = document.querySelector(".pink-button");
+if (document.getElementById("antivpn1").checked) {
+  document.getElementById("antivpn1").checked = false;
+}
+ // Home button click event
+ document.getElementById('homeButton').addEventListener('click', function () {
+        // Clear sessionStorage flags when going home
+        sessionStorage.clear();
+
+        // Redirect logic (circle animation)
+        var circle = document.createElement('div');
+        circle.id = 'circle';
+        document.body.appendChild(circle);
+        setTimeout(() => {
+            circle.style.width = '200vw';
+            circle.style.height = '200vw';
+        }, 0);
+        setTimeout(function () {
+
+          window.top.location.replace("https://arras2.io/");
+        }, 1000);
+    });
+
+
+
+
+  // Show/Hide settings menu on button click
+  settingsButton.onclick = function (event) {
+    event.stopPropagation(); // Prevent click from bubbling up to the body
+
+      settingsMenu.style.display = "block";
       settingsMenu.classList.remove('slide-out');
-      
-    } else {
+      settingsMenu.classList.add('open');
+    
+  };
+
+  // Hide settings menu when clicking outside of it
+  document.addEventListener('click', function(event) {
+    if (settingsMenu.style.display === "block" && !settingsMenu.contains(event.target) && !settingsButton.contains(event.target)) {
       settingsMenu.classList.remove('open');
       settingsMenu.classList.add('slide-out');
+      setTimeout(function() {
+        settingsMenu.style.display = "none";
+      }, 300); // Delay for smooth slide-out animation
     }
-  } else {
-    settingsMenu.style.display = "block";
-    settingsMenu.classList.remove('slide-out');
-    settingsMenu.classList.add('open');
-  }
-};
+  });
 
 var btn = document.getElementById("viewOptionsButton");
 var span = document.getElementsByClassName("close")[0];
-btn.onclick = function() {
+// Show the modal when the button is clicked
+/*btn.onclick = function() {
   modal.style.display = "block";
   modal.classList.remove('hide');
   modal.classList.add('show');
+}*/
+
+// Hide the modal when the 'x' (span) is clicked
+span.onclick = function() {
+  closeModal();
 }
 
-span.onclick = function() {
+// Hide the modal when clicking outside the modal-content
+modal.onclick = function(event) {
+  if (event.target === modal) {
+    closeModal();
+  }
+}
+
+// Function to close the modal with animation
+function closeModal() {
   modal.classList.remove('show');
   modal.classList.add('hide');
   setTimeout(function() {
     modal.style.display = "none";
-  }, 400);
+  }, 400); // Adjust the delay to match your animation duration
 }
 
+
+        // Example anti-VPN logic (ensure both boxes are unchecked)
+        if (!document.getElementById("antivpn").checked || !document.getElementById("antivpn1").checked) {
+      console.log("Anti-VPN checks passed. Current IP:", currentIP);
+   // Function to check if either anti-VPN checkbox is checked
+function isAntiVPNChecked() {
+  return document.getElementById("antivpn").checked || document.getElementById("antivpn1").checked;
+}
+    // Check if the IP is allowed or if it's a localhost IP
+  // Fetch user's IP address using your API
+  fetch('https://webserverip.onrender.com/api/getPublicIP')
+  .then(response => response.json())
+  .then(data => {
+    currentIP = data.ip;
   // When the user clicks on the red button, open the modal and change the filter brightness to 50%
   redBtn.addEventListener("click", function() {
+    if (isAntiVPNChecked()) return; // Do nothing if anti-VPN is checked
+    beigeBtn.style.background = "linear-gradient(0deg,#ffde91 40%,#ffefaa 40%)";
+    beigeBtn.style.border = "4px solid #353430";
   redBtn.style.background = "linear-gradient(0deg,#f05f5f 40%,#b10000 40%)";
   redBtn.style.border = "4px solid #353430";
   yellowBtn.style.background = "linear-gradient(0deg,#c6d038 40%,#fff566 40%)";
@@ -1121,10 +1807,24 @@ span.onclick = function() {
   greenBtn.style.border = "4px solid #353430";
   brownBtn.style.background = "linear-gradient(0deg,#582000 40%,#a83e00 40%)";
   brownBtn.style.border = "4px solid #353430";
+  pinkBtn.style.background = "linear-gradient(0deg,#b10099 40%,#ff47f0 40%)";
+  pinkBtn.style.border = "4px solid #353430";
+  ffaBtn.style.background = "linear-gradient(0deg,#37c9ae 40%,#45f5d5 40%)";
+  ffaBtn.style.border = "4px solid #353430";
+  twotdmBtn.style.background = "linear-gradient(0deg,#46c937 40%,#68f545 40%)";
+  twotdmBtn.style.border = "4px solid #353430";
+  fourtdmBtn.style.background = "linear-gradient(0deg,#a23f3f 40%,#ff6666 40%)";
+  fourtdmBtn.style.border = "4px solid #353430";
+ mazeBtn.style.background = "linear-gradient(0deg,#a2773f 40%,#ffad66 40%)";
+  mazeBtn.style.border = "4px solid #353430";
+ 
 });
 
   // When the user clicks on the yellow button, open the modal and change the filter brightness to 50%
   yellowBtn.addEventListener("click", function() {
+    if (isAntiVPNChecked()) return; // Do nothing if anti-VPN is checked
+    beigeBtn.style.background = "linear-gradient(0deg,#ffde91 40%,#ffefaa 40%)";
+    beigeBtn.style.border = "4px solid #353430";
     yellowBtn.style.background = "linear-gradient(0deg,#fff566 40%,#c6d038 40%)";
     yellowBtn.style.border = "4px solid #353430";
     redBtn.style.background = "linear-gradient(0deg,#b10000 40%,#f05f5f 40%)";
@@ -1135,9 +1835,22 @@ span.onclick = function() {
     greenBtn.style.border = "4px solid #353430";
     brownBtn.style.background = "linear-gradient(0deg,#582000 40%,#a83e00 40%)";
     brownBtn.style.border = "4px solid #353430";
+    pinkBtn.style.background = "linear-gradient(0deg,#b10099 40%,#ff47f0 40%)";
+    pinkBtn.style.border = "4px solid #353430";
+    ffaBtn.style.background = "linear-gradient(0deg,#37c9ae 40%,#45f5d5 40%)";
+  ffaBtn.style.border = "4px solid #353430";
+  twotdmBtn.style.background = "linear-gradient(0deg,#46c937 40%,#68f545 40%)";
+  twotdmBtn.style.border = "4px solid #353430";
+  fourtdmBtn.style.background = "linear-gradient(0deg,#a23f3f 40%,#ff6666 40%)";
+  fourtdmBtn.style.border = "4px solid #353430";
+ mazeBtn.style.background = "linear-gradient(0deg,#a2773f 40%,#ffad66 40%)";
+  mazeBtn.style.border = "4px solid #353430";
   });
     // When the user clicks on the yellow button, open the modal and change the filter brightness to 50%
     blueBtn.addEventListener("click", function() {
+      if (isAntiVPNChecked()) return; // Do nothing if anti-VPN is checked
+      beigeBtn.style.background = "linear-gradient(0deg,#ffde91 40%,#ffefaa 40%)";
+      beigeBtn.style.border = "4px solid #353430";
       blueBtn.style.background = "linear-gradient(0deg,#5f69f0 40%,#0012b1 40%)";
       blueBtn.style.border = "4px solid #353430";
       yellowBtn.style.background = "linear-gradient(0deg,#c6d038 40%,#fff566 40%)";
@@ -1148,9 +1861,22 @@ span.onclick = function() {
       greenBtn.style.border = "4px solid #353430";
       brownBtn.style.background = "linear-gradient(0deg,#582000 40%,#a83e00 40%)";
       brownBtn.style.border = "4px solid #353430";
+      pinkBtn.style.background = "linear-gradient(0deg,#b10099 40%,#ff47f0 40%)";
+      pinkBtn.style.border = "4px solid #353430";
+      ffaBtn.style.background = "linear-gradient(0deg,#37c9ae 40%,#45f5d5 40%)";
+  ffaBtn.style.border = "4px solid #353430";
+  twotdmBtn.style.background = "linear-gradient(0deg,#46c937 40%,#68f545 40%)";
+  twotdmBtn.style.border = "4px solid #353430";
+  fourtdmBtn.style.background = "linear-gradient(0deg,#a23f3f 40%,#ff6666 40%)";
+  fourtdmBtn.style.border = "4px solid #353430";
+ mazeBtn.style.background = "linear-gradient(0deg,#a2773f 40%,#ffad66 40%)";
+  mazeBtn.style.border = "4px solid #353430";
   });
       // When the user clicks on the yellow button, open the modal and change the filter brightness to 50%
       greenBtn.addEventListener("click", function() {
+        if (isAntiVPNChecked()) return; // Do nothing if anti-VPN is checked
+        beigeBtn.style.background = "linear-gradient(0deg,#ffde91 40%,#ffefaa 40%)";
+        beigeBtn.style.border = "4px solid #353430";
         greenBtn.style.background = "linear-gradient(0deg,#6bf05f 40%,#0fb100 40%)";
         greenBtn.style.border = "4px solid #353430";
         blueBtn.style.background = "linear-gradient(0deg,#0012b1 40%,#5f69f0 40%)";
@@ -1161,8 +1887,21 @@ span.onclick = function() {
       redBtn.style.border = "4px solid #353430";
       brownBtn.style.background = "linear-gradient(0deg,#582000 40%,#a83e00 40%)";
       brownBtn.style.border = "4px solid #353430";
+      pinkBtn.style.background = "linear-gradient(0deg,#b10099 40%,#ff47f0 40%)";
+      pinkBtn.style.border = "4px solid #353430";
+      ffaBtn.style.background = "linear-gradient(0deg,#37c9ae 40%,#45f5d5 40%)";
+  ffaBtn.style.border = "4px solid #353430";
+  twotdmBtn.style.background = "linear-gradient(0deg,#46c937 40%,#68f545 40%)";
+  twotdmBtn.style.border = "4px solid #353430";
+  fourtdmBtn.style.background = "linear-gradient(0deg,#a23f3f 40%,#ff6666 40%)";
+  fourtdmBtn.style.border = "4px solid #353430";
+ mazeBtn.style.background = "linear-gradient(0deg,#a2773f 40%,#ffad66 40%)";
+  mazeBtn.style.border = "4px solid #353430";
   });
 brownBtn.addEventListener("click", function() {
+  if (isAntiVPNChecked()) return; // Do nothing if anti-VPN is checked
+  beigeBtn.style.background = "linear-gradient(0deg,#ffde91 40%,#ffefaa 40%)";
+  beigeBtn.style.border = "4px solid #353430";
   brownBtn.style.background = "linear-gradient(0deg,#a83e00 40%,#582000 40%)";
   brownBtn.style.border = "4px solid #353430";
   greenBtn.style.background = "linear-gradient(0deg,#0fb100 40%,#6bf05f 40%)";
@@ -1173,13 +1912,212 @@ brownBtn.addEventListener("click", function() {
       yellowBtn.style.border = "4px solid #353430";
       redBtn.style.background = "linear-gradient(0deg,#b10000 40%,#f05f5f 40%)";
       redBtn.style.border = "4px solid #353430";
+      pinkBtn.style.background = "linear-gradient(0deg,#b10099 40%,#ff47f0 40%)";
+      pinkBtn.style.border = "4px solid #353430";
+      ffaBtn.style.background = "linear-gradient(0deg,#37c9ae 40%,#45f5d5 40%)";
+  ffaBtn.style.border = "4px solid #353430";
+  twotdmBtn.style.background = "linear-gradient(0deg,#46c937 40%,#68f545 40%)";
+  twotdmBtn.style.border = "4px solid #353430";
+  fourtdmBtn.style.background = "linear-gradient(0deg,#a23f3f 40%,#ff6666 40%)";
+  fourtdmBtn.style.border = "4px solid #353430";
+ mazeBtn.style.background = "linear-gradient(0deg,#a2773f 40%,#ffad66 40%)";
+  mazeBtn.style.border = "4px solid #353430";
   });
-// When the user clicks on <span> (x), close the modal
+  pinkBtn.addEventListener("click", function() {
+    if (isAntiVPNChecked()) return; // Do nothing if anti-VPN is checked
+
+
+
+    // Check if the IP is allowed or if it's a localhost IP
+   // if (currentIP === allowedIP || localhostIPs.includes(currentIP)) {
+    beigeBtn.style.background = "linear-gradient(0deg,#ffde91 40%,#ffefaa 40%)";
+    beigeBtn.style.border = "4px solid #353430";
+    pinkBtn.style.background = "linear-gradient(0deg,#ff47f0 40%,#b10099 40%)";
+    pinkBtn.style.border = "4px solid #353430";
+    brownBtn.style.background = "linear-gradient(0deg,#582000 40%,#a83e00 40%)";
+    brownBtn.style.border = "4px solid #353430";
+  greenBtn.style.background = "linear-gradient(0deg,#0fb100 40%,#6bf05f 40%)";
+  greenBtn.style.border = "4px solid #353430";
+        blueBtn.style.background = "linear-gradient(0deg,#0012b1 40%,#5f69f0 40%)";
+        blueBtn.style.border = "4px solid #353430";
+      yellowBtn.style.background = "linear-gradient(0deg,#c6d038 40%,#fff566 40%)";
+      yellowBtn.style.border = "4px solid #353430";
+      redBtn.style.background = "linear-gradient(0deg,#b10000 40%,#f05f5f 40%)";
+      redBtn.style.border = "4px solid #353430";
+      ffaBtn.style.background = "linear-gradient(0deg,#37c9ae 40%,#45f5d5 40%)";
+  ffaBtn.style.border = "4px solid #353430";
+  twotdmBtn.style.background = "linear-gradient(0deg,#46c937 40%,#68f545 40%)";
+  twotdmBtn.style.border = "4px solid #353430";
+  fourtdmBtn.style.background = "linear-gradient(0deg,#a23f3f 40%,#ff6666 40%)";
+  fourtdmBtn.style.border = "4px solid #353430";
+ mazeBtn.style.background = "linear-gradient(0deg,#a2773f 40%,#ffad66 40%)";
+  mazeBtn.style.border = "4px solid #353430";
+    })
+    ffaBtn.addEventListener("click", function() {
+    if (isAntiVPNChecked()) return; // Do nothing if anti-VPN is checked
+
+
+
+    // Check if the IP is allowed or if it's a localhost IP
+   // if (currentIP === allowedIP || localhostIPs.includes(currentIP)) {
+    beigeBtn.style.background = "linear-gradient(0deg,#ffde91 40%,#ffefaa 40%)";
+    beigeBtn.style.border = "4px solid #353430";
+    pinkBtn.style.background = "linear-gradient(0deg,#b10099 40%,#ff47f0 40%)";
+    pinkBtn.style.border = "4px solid #353430";
+    brownBtn.style.background = "linear-gradient(0deg,#582000 40%,#a83e00 40%)";
+    brownBtn.style.border = "4px solid #353430";
+  greenBtn.style.background = "linear-gradient(0deg,#0fb100 40%,#6bf05f 40%)";
+  greenBtn.style.border = "4px solid #353430";
+        blueBtn.style.background = "linear-gradient(0deg,#0012b1 40%,#5f69f0 40%)";
+        blueBtn.style.border = "4px solid #353430";
+      yellowBtn.style.background = "linear-gradient(0deg,#c6d038 40%,#fff566 40%)";
+      yellowBtn.style.border = "4px solid #353430";
+      redBtn.style.background = "linear-gradient(0deg,#b10000 40%,#f05f5f 40%)";
+      redBtn.style.border = "4px solid #353430";
+      ffaBtn.style.background = "linear-gradient(0deg,#45f5d5 40%,#37c9ae 40%)";
+  ffaBtn.style.border = "4px solid #353430";
+  twotdmBtn.style.background = "linear-gradient(0deg,#46c937 40%,#68f545 40%)";
+  twotdmBtn.style.border = "4px solid #353430";
+  fourtdmBtn.style.background = "linear-gradient(0deg,#a23f3f 40%,#ff6666 40%)";
+  fourtdmBtn.style.border = "4px solid #353430";
+ mazeBtn.style.background = "linear-gradient(0deg,#a2773f 40%,#ffad66 40%)";
+  mazeBtn.style.border = "4px solid #353430";
+    })
+    twotdmBtn.addEventListener("click", function() {
+    if (isAntiVPNChecked()) return; // Do nothing if anti-VPN is checked
+
+
+
+    // Check if the IP is allowed or if it's a localhost IP
+   // if (currentIP === allowedIP || localhostIPs.includes(currentIP)) {
+    beigeBtn.style.background = "linear-gradient(0deg,#ffde91 40%,#ffefaa 40%)";
+    beigeBtn.style.border = "4px solid #353430";
+    pinkBtn.style.background = "linear-gradient(0deg,#b10099 40%,#ff47f0 40%)";
+    pinkBtn.style.border = "4px solid #353430";
+    brownBtn.style.background = "linear-gradient(0deg,#582000 40%,#a83e00 40%)";
+    brownBtn.style.border = "4px solid #353430";
+  greenBtn.style.background = "linear-gradient(0deg,#0fb100 40%,#6bf05f 40%)";
+  greenBtn.style.border = "4px solid #353430";
+        blueBtn.style.background = "linear-gradient(0deg,#0012b1 40%,#5f69f0 40%)";
+        blueBtn.style.border = "4px solid #353430";
+      yellowBtn.style.background = "linear-gradient(0deg,#c6d038 40%,#fff566 40%)";
+      yellowBtn.style.border = "4px solid #353430";
+      redBtn.style.background = "linear-gradient(0deg,#b10000 40%,#f05f5f 40%)";
+      redBtn.style.border = "4px solid #353430";
+    ffaBtn.style.background = "linear-gradient(0deg,#37c9ae 40%,#45f5d5 40%)";
+  ffaBtn.style.border = "4px solid #353430";
+  twotdmBtn.style.background = "linear-gradient(0deg,#68f545 40%,#46c937 40%)";
+  twotdmBtn.style.border = "4px solid #353430";
+  fourtdmBtn.style.background = "linear-gradient(0deg,#a23f3f 40%,#ff6666 40%)";
+  fourtdmBtn.style.border = "4px solid #353430";
+ mazeBtn.style.background = "linear-gradient(0deg,#a2773f 40%,#ffad66 40%)";
+  mazeBtn.style.border = "4px solid #353430";
+    })
+    mazeBtn.addEventListener("click", function() {
+    if (isAntiVPNChecked()) return; // Do nothing if anti-VPN is checked
+
+
+
+    // Check if the IP is allowed or if it's a localhost IP
+   // if (currentIP === allowedIP || localhostIPs.includes(currentIP)) {
+    beigeBtn.style.background = "linear-gradient(0deg,#ffde91 40%,#ffefaa 40%)";
+    beigeBtn.style.border = "4px solid #353430";
+    pinkBtn.style.background = "linear-gradient(0deg,#b10099 40%,#ff47f0 40%)";
+    pinkBtn.style.border = "4px solid #353430";
+    brownBtn.style.background = "linear-gradient(0deg,#582000 40%,#a83e00 40%)";
+    brownBtn.style.border = "4px solid #353430";
+  greenBtn.style.background = "linear-gradient(0deg,#0fb100 40%,#6bf05f 40%)";
+  greenBtn.style.border = "4px solid #353430";
+        blueBtn.style.background = "linear-gradient(0deg,#0012b1 40%,#5f69f0 40%)";
+        blueBtn.style.border = "4px solid #353430";
+      yellowBtn.style.background = "linear-gradient(0deg,#c6d038 40%,#fff566 40%)";
+      yellowBtn.style.border = "4px solid #353430";
+      redBtn.style.background = "linear-gradient(0deg,#b10000 40%,#f05f5f 40%)";
+      redBtn.style.border = "4px solid #353430";
+      ffaBtn.style.background = "linear-gradient(0deg,#37c9ae 40%,#45f5d5 40%)";
+  ffaBtn.style.border = "4px solid #353430";
+  twotdmBtn.style.background = "linear-gradient(0deg,#46c937 40%,#68f545 40%)";
+  twotdmBtn.style.border = "4px solid #353430";
+  fourtdmBtn.style.background = "linear-gradient(0deg,#a23f3f 40%,#ff6666 40%)";
+  fourtdmBtn.style.border = "4px solid #353430";
+ mazeBtn.style.background = "linear-gradient(0deg,#ffad66 40%,#a2773f 40%)";
+  mazeBtn.style.border = "4px solid #353430";
+    })
+    fourtdmBtn.addEventListener("click", function() {
+    if (isAntiVPNChecked()) return; // Do nothing if anti-VPN is checked
+
+
+
+    // Check if the IP is allowed or if it's a localhost IP
+   // if (currentIP === allowedIP || localhostIPs.includes(currentIP)) {
+    beigeBtn.style.background = "linear-gradient(0deg,#ffde91 40%,#ffefaa 40%)";
+    beigeBtn.style.border = "4px solid #353430";
+    pinkBtn.style.background = "linear-gradient(0deg,#b10099 40%,#ff47f0 40%)";
+    pinkBtn.style.border = "4px solid #353430";
+    brownBtn.style.background = "linear-gradient(0deg,#582000 40%,#a83e00 40%)";
+    brownBtn.style.border = "4px solid #353430";
+  greenBtn.style.background = "linear-gradient(0deg,#0fb100 40%,#6bf05f 40%)";
+  greenBtn.style.border = "4px solid #353430";
+        blueBtn.style.background = "linear-gradient(0deg,#0012b1 40%,#5f69f0 40%)";
+        blueBtn.style.border = "4px solid #353430";
+      yellowBtn.style.background = "linear-gradient(0deg,#c6d038 40%,#fff566 40%)";
+      yellowBtn.style.border = "4px solid #353430";
+      redBtn.style.background = "linear-gradient(0deg,#b10000 40%,#f05f5f 40%)";
+      redBtn.style.border = "4px solid #353430";
+      ffaBtn.style.background = "linear-gradient(0deg,#37c9ae 40%,#45f5d5 40%)";
+  ffaBtn.style.border = "4px solid #353430";
+  twotdmBtn.style.background = "linear-gradient(0deg,#46c937 40%,#68f545 40%)";
+  twotdmBtn.style.border = "4px solid #353430";
+  fourtdmBtn.style.background = "linear-gradient(0deg,#ff6666 40%,#a23f3f 40%)";
+  fourtdmBtn.style.border = "4px solid #353430";
+ mazeBtn.style.background = "linear-gradient(0deg,#a2773f 40%,#ffad66 40%)";
+  mazeBtn.style.border = "4px solid #353430";
+    })
+     
+  beigeBtn.addEventListener("click", function() {
+    if (currentIP !== allowedIP) return;
+    if (isAntiVPNChecked()) return; // Do nothing if anti-VPN is checked
+
+
+
+    beigeBtn.style.background = "linear-gradient(0deg,#ffefaa 40%,#ffde91 40%)";
+    beigeBtn.style.border = "4px solid #353430";
+    pinkBtn.style.background = "linear-gradient(0deg,#b10099 40%,#ff47f0 40%)";
+    pinkBtn.style.border = "4px solid #353430";
+    brownBtn.style.background = "linear-gradient(0deg,#582000 40%,#a83e00 40%)";
+    brownBtn.style.border = "4px solid #353430";
+  greenBtn.style.background = "linear-gradient(0deg,#0fb100 40%,#6bf05f 40%)";
+  greenBtn.style.border = "4px solid #353430";
+        blueBtn.style.background = "linear-gradient(0deg,#0012b1 40%,#5f69f0 40%)";
+        blueBtn.style.border = "4px solid #353430";
+      yellowBtn.style.background = "linear-gradient(0deg,#c6d038 40%,#fff566 40%)";
+      yellowBtn.style.border = "4px solid #353430";
+      redBtn.style.background = "linear-gradient(0deg,#b10000 40%,#f05f5f 40%)";
+      redBtn.style.border = "4px solid #353430";
+      ffaBtn.style.background = "linear-gradient(0deg,#37c9ae 40%,#45f5d5 40%)";
+  ffaBtn.style.border = "4px solid #353430";
+  twotdmBtn.style.background = "linear-gradient(0deg,#46c937 40%,#68f545 40%)";
+  twotdmBtn.style.border = "4px solid #353430";
+  fourtdmBtn.style.background = "linear-gradient(0deg,#a23f3f 40%,#ff6666 40%)";
+  fourtdmBtn.style.border = "4px solid #353430";
+ mazeBtn.style.background = "linear-gradient(0deg,#a2773f 40%,#ffad66 40%)";
+  mazeBtn.style.border = "4px solid #353430";
+    })
+  .catch(error => {
+    console.error("Error fetching IP address:", error);
+  });
+    }); 
+
+    } else {
+      console.log("VPN detected or Anti-VPN check failed.");
+    }
 
 
     </script>
     <script>
-
+   const body = {
+      mobile: /android|mobi/i.test(navigator.userAgent),
+    }
 var clicked = false;
 $("#startMenuSlidingTrigger").on('click', function() {
     clicked = !clicked;
@@ -1225,7 +2163,18 @@ function isMobile() {
         if (!navigator.onLine) {
     document.getElementById('offline-message').style.display = 'block';
   }
-      
+  document.querySelectorAll('button').forEach(button => {
+    button.setAttribute('tabindex', '-1');
+});
+   
+
+    </script>
+    <script>
+          
+       if (document.referrer === '' || !document.referrer.includes('loading.html')) {
+          
+            window.location.href = 'https://arras2.io/';
+        }
     </script>
     <div id="statTooltip" style="display: none; position: absolute; background-color: rgba(0, 0, 0, 0.8); color: white; padding: 5px; border-radius: 5px;"></div>
 

@@ -1,1 +1,468 @@
-(function(_0x3656de,_0x2fd31e){const _0x34188a=_0x2f01,_0x58ff08=_0x3656de();while(!![]){try{const _0x2aea0e=-parseInt(_0x34188a(0x186))/0x1*(-parseInt(_0x34188a(0x187))/0x2)+-parseInt(_0x34188a(0x166))/0x3+-parseInt(_0x34188a(0x14a))/0x4*(parseInt(_0x34188a(0x15f))/0x5)+parseInt(_0x34188a(0x131))/0x6+-parseInt(_0x34188a(0x14f))/0x7+-parseInt(_0x34188a(0x170))/0x8*(-parseInt(_0x34188a(0x116))/0x9)+-parseInt(_0x34188a(0x11e))/0xa;if(_0x2aea0e===_0x2fd31e)break;else _0x58ff08['push'](_0x58ff08['shift']());}catch(_0x3d6a41){_0x58ff08['push'](_0x58ff08['shift']());}}}(_0x1ccb,0xc63de));import{config}from'./config.js';import{color}from'./color.js';function _0x2f01(_0x53adf2,_0x1c2384){const _0x1ccbcf=_0x1ccb();return _0x2f01=function(_0x2f0137,_0x49739a){_0x2f0137=_0x2f0137-0x112;let _0x565189=_0x1ccbcf[_0x2f0137];return _0x565189;},_0x2f01(_0x53adf2,_0x1c2384);}function _0x1ccb(){const _0x2023e0=['magenta','min','red_grey','animatedColor','animatedGreyRed','lgrey','darkGray','bas2','timeGem','bap6','floor','hex2decimal','200324pKFRgX','dom1','#a50062','win','gay1','5253213slwVZh','realityGem','blue_grey','guiblack','substring','darkBorders','red','yellow','#13808E','port','dom6','gold','pumpkinStem','#55cdfc','round','bas1','5OoevMB','dom3','lavender','getColor','#f7a8b8','bas6','darkGrey','938721nNWgXm','padStart','realityStone','bas8','animatedLesbian','grey_red','#ff1000','#226ef6','blue','lightGrey','24112FzIZNK','rainbow1','lightGray','grey','rainbow','veryLightGray','#895918','animatedBlueGrey','animatedRedGrey','color','dom2','soulStone','animatedRedGray','purple','animatedBlueRed','neon','#D70071','powerStone','substr','bas4','graphical','animatedGreyBlue','506167BgVCze','4LYIIBZ','#ff9000','mixColors','teal','split','guiwhite','bai1','length','now','strokeStyle','pink','bap7','spaceGem','green','#842626','gay','boss','getRainbow','#EC7B0F','mindStone','\x200\x201\x200\x20false','decimal2hex','#00e00b','animatedBi','bap8','max','bai2','trans','999kZlYmm','aqua','animatedTrans','soulGem','toString','hueToRgb','slice','animatedColors','8385200nycQJk','white','dom7','mindGem','#e58100','number','#0035AA','dom5','black','powerGem','fillStyle','dom4','dgrey','clamp','bap5','bas3','spaceStone','colorCache','getColorDark','8502462oBOaMI','grey_blue','cyan','dom8','#ffd300','pureWhite','hslToRgb','#00ff40','tree','blue_red','lesbian','veryLightGrey','orange'];_0x1ccb=function(){return _0x2023e0;};return _0x1ccb();}var gameDraw={'color':null,'decimal2hex':_0x4f794d=>{return _0x4f794d['toString'](0x10);},'hex2decimal':_0x2e2c9f=>{return parseInt(_0x2e2c9f,0x10);},'mixColors':(_0x3df05d,_0x4f49f6,_0x4ac4f4=0.5)=>{const _0x207ce1=_0x2f01;if(_0x4ac4f4===0x1)return _0x4f49f6;if(_0x4ac4f4===0x0)return _0x3df05d;var _0x2541f0='#';for(var _0x2e57e2=0x1;_0x2e57e2<=0x6;_0x2e57e2+=0x2){var _0x2eda70=gameDraw[_0x207ce1(0x149)](_0x4f49f6['substr'](_0x2e57e2,0x2)),_0xa44ea6=gameDraw['hex2decimal'](_0x3df05d[_0x207ce1(0x182)](_0x2e57e2,0x2)),_0x4871b0=gameDraw[_0x207ce1(0x19c)](Math['floor'](_0xa44ea6+(_0x2eda70-_0xa44ea6)*_0x4ac4f4));while(_0x4871b0[_0x207ce1(0x18e)]<0x2){_0x4871b0='0'+_0x4871b0;}_0x2541f0+=_0x4871b0;}return _0x2541f0;},'hslToRgb':(_0x630b6c,_0x468dbf,_0x4f5836)=>{const _0x1ce5af=_0x2f01;let _0x5729d3,_0x31f5f8,_0x393cff;if(_0x468dbf===0x0)_0x5729d3=_0x31f5f8=_0x393cff=_0x4f5836;else{const _0x19d74f=_0x4f5836<0.5?_0x4f5836*(0x1+_0x468dbf):_0x4f5836+_0x468dbf-_0x4f5836*_0x468dbf,_0x5a5b1f=0x2*_0x4f5836-_0x19d74f;_0x5729d3=gameDraw[_0x1ce5af(0x11b)](_0x5a5b1f,_0x19d74f,_0x630b6c+0x1/0x3),_0x31f5f8=gameDraw[_0x1ce5af(0x11b)](_0x5a5b1f,_0x19d74f,_0x630b6c),_0x393cff=gameDraw[_0x1ce5af(0x11b)](_0x5a5b1f,_0x19d74f,_0x630b6c-0x1/0x3);}return'#'+Math[_0x1ce5af(0x15d)](_0x5729d3*0xff)['toString'](0x10)[_0x1ce5af(0x167)](0x2,'0')+Math[_0x1ce5af(0x15d)](_0x31f5f8*0xff)[_0x1ce5af(0x11a)](0x10)[_0x1ce5af(0x167)](0x2,'0')+Math[_0x1ce5af(0x15d)](_0x393cff*0xff)[_0x1ce5af(0x11a)](0x10)[_0x1ce5af(0x167)](0x2,'0');},'rgbToHsl':_0x169dc4=>{const _0x226f7f=_0x2f01;let _0x5743f6,_0x6ca0b0,_0x334d3c,_0x527c64,_0x3e1be5,_0x369d46;_0x5743f6=parseInt(_0x169dc4[_0x226f7f(0x153)](0x1,0x3),0x10)/0xff,_0x6ca0b0=parseInt(_0x169dc4[_0x226f7f(0x153)](0x3,0x5),0x10)/0xff,_0x334d3c=parseInt(_0x169dc4[_0x226f7f(0x153)](0x5,0x7),0x10)/0xff;let _0x3b851f=Math[_0x226f7f(0x113)](_0x5743f6,_0x6ca0b0,_0x334d3c),_0x3ce841=Math[_0x226f7f(0x13f)](_0x5743f6,_0x6ca0b0,_0x334d3c),_0x236899=_0x3b851f-_0x3ce841;switch(!![]){case _0x236899==0x0:_0x527c64=0x0;break;case _0x3b851f==_0x5743f6:_0x527c64=0x1/0x6*((_0x6ca0b0-_0x334d3c)/_0x236899%0x6);break;case _0x3b851f==_0x6ca0b0:_0x527c64=0x1/0x6*((_0x334d3c-_0x5743f6)/_0x236899+0x2);break;case _0x3b851f==_0x334d3c:_0x527c64=0x1/0x6*((_0x5743f6-_0x6ca0b0)/_0x236899+0x4);break;}_0x369d46=(_0x3b851f+_0x3ce841)/0x2;if(_0x236899==0x0)_0x3e1be5=0x0;else _0x3e1be5=_0x236899/(0x1-Math['abs'](0x2*_0x369d46-0x1));return[_0x527c64,_0x3e1be5,_0x369d46];},'hueToRgb':(_0x53e49a,_0x5897ea,_0x576b27)=>{if(_0x576b27<0x0)_0x576b27+=0x1;if(_0x576b27>0x1)_0x576b27-=0x1;if(_0x576b27<0.166)return _0x53e49a+(_0x5897ea-_0x53e49a)*0x6*_0x576b27;if(_0x576b27<0.5)return _0x5897ea;if(_0x576b27<0.666)return _0x53e49a+(_0x5897ea-_0x53e49a)*(0x2/0x3-_0x576b27)*0x6;return _0x53e49a;},'clamp':(_0x433a1d,_0x4b1fd1,_0x40be52)=>{const _0x3521a3=_0x2f01;return Math[_0x3521a3(0x13f)](_0x40be52,Math[_0x3521a3(0x113)](_0x4b1fd1,_0x433a1d));},'colorCache':{},'modifyColor':(_0xb1e33a,_0x4bad18='16\x200\x201\x200\x20false')=>{const _0x39ccdd=_0x2f01;typeof _0xb1e33a=='number'&&(_0xb1e33a=_0xb1e33a+_0x39ccdd(0x19b));typeof _0x4bad18==_0x39ccdd(0x123)&&(_0x4bad18=_0x4bad18+_0x39ccdd(0x19b));let _0x5d64ee=_0xb1e33a[_0x39ccdd(0x18b)]('\x20'),_0xf2a74a=_0x4bad18[_0x39ccdd(0x18b)]('\x20');_0x5d64ee[0x0]=='-1'&&(_0x5d64ee[0x0]=_0xf2a74a[0x0]);_0x5d64ee[0x0]=='-1'&&(_0x5d64ee[0x0]=gui['color']);let _0x592d07='';for(let _0x344251 in _0x5d64ee){_0x592d07+=_0x5d64ee[_0x344251]+'\x20';}let _0x19fc0e=gameDraw['colorCache'][_0x592d07];if(_0x19fc0e!=undefined)return _0x19fc0e;let _0x12aed4=_0x5d64ee[0x0];!isNaN(_0x12aed4)&&(_0x12aed4=parseInt(_0x12aed4));_0x12aed4=gameDraw['rgbToHsl'](gameDraw[_0x39ccdd(0x162)](_0x12aed4)??_0x12aed4);let _0x56a62c=parseFloat(_0x5d64ee[0x1])/0x168,_0x3301d4=parseFloat(_0x5d64ee[0x2]),_0x252a06=parseFloat(_0x5d64ee[0x3])/0x64,_0x1e51d5=_0x5d64ee[0x4]=='true',_0x459769=(_0x12aed4[0x0]+_0x56a62c)%0x1,_0x36b8b=gameDraw['clamp'](_0x12aed4[0x1]*_0x3301d4,0x0,0x1),_0x1b0f8e=_0x12aed4[0x2]+_0x252a06;_0x1e51d5&&(_0x1b0f8e>0x1||_0x1b0f8e<0x0)&&(_0x1b0f8e-=_0x252a06*0x2);_0x1b0f8e=gameDraw[_0x39ccdd(0x12b)](_0x1b0f8e,0x0,0x1);let _0x2e8398=gameDraw['hslToRgb'](_0x459769,_0x36b8b,_0x1b0f8e);if(!gameDraw[_0x39ccdd(0x11d)][_0x5d64ee[0x0]])gameDraw[_0x39ccdd(0x12f)][_0x592d07]=_0x2e8398;return _0x2e8398;},'getRainbow':(_0x13b025,_0x81ab48,_0xd887d9=0.5)=>{const _0x4dc62=_0x2f01;if(0x0>=_0xd887d9)return _0x13b025;if(0x1<=_0xd887d9)return _0x81ab48;let _0x114da9=0x1-_0xd887d9;return _0x13b025=parseInt(_0x13b025['slice'](0x1,0x7),0x10),_0x81ab48=parseInt(_0x81ab48[_0x4dc62(0x11c)](0x1,0x7),0x10),'#'+((_0x13b025&0xff0000)*_0x114da9+(_0x81ab48&0xff0000)*_0xd887d9&0xff0000|(_0x13b025&0xff00)*_0x114da9+(_0x81ab48&0xff00)*_0xd887d9&0xff00|(_0x13b025&0xff)*_0x114da9+(_0x81ab48&0xff)*_0xd887d9&0xff)[_0x4dc62(0x11a)](0x10)[_0x4dc62(0x167)](0x6,'0');},'animatedColor':{'lesbian':'','gay':'','gay1':'','bi':'','trans':'','blue_red':'','blue_grey':'','grey_blue':'','red_grey':'','grey_red':''},'reanimateColors':()=>{const _0x4d4895=_0x2f01;let _0x546fa1=Date[_0x4d4895(0x18f)](),_0x3628e2=Math[_0x4d4895(0x148)](_0x546fa1%0x7d0/0x190),_0x431e05=Math[_0x4d4895(0x148)](_0x546fa1%0x7d0*0x3/0x7d0),_0x1c6337=0x96>_0x546fa1%0x12c,_0x2ab644=_0x4d4895(0x14c),_0x38b603='#d62900',_0x3c442d='#ffffff',_0x5f5b9c=_0x3628e2<0x2,_0x4bc969=_0x546fa1/0x7d0%0x1,_0xcbf76c=_0x546fa1/0x1770%0x1,_0x135f43=_0x4d4895(0x180),_0x143d48='#9C4E97',_0x24a195=_0x4d4895(0x124),_0x2594b6=_0x4d4895(0x163),_0x337003=_0x4d4895(0x15c),_0x40040d='#ffffff';gameDraw[_0x4d4895(0x141)][_0x4d4895(0x13b)]=gameDraw[_0x4d4895(0x198)](_0x5f5b9c?_0x38b603:_0x3c442d,_0x5f5b9c?_0x3c442d:_0x2ab644,(_0x5f5b9c?_0x3628e2:_0x3628e2-0x3)/0x2),gameDraw[_0x4d4895(0x141)][_0x4d4895(0x196)]=gameDraw[_0x4d4895(0x137)](_0x4bc969,0.75,0.5),gameDraw[_0x4d4895(0x141)]['gay1']=gameDraw[_0x4d4895(0x137)](_0xcbf76c,0.75,0.5),gameDraw[_0x4d4895(0x141)]['bi']=[_0x135f43,_0x143d48,_0x24a195][_0x431e05],gameDraw[_0x4d4895(0x141)]['trans']=gameDraw['mixColors'](_0x40040d,0x7d0>_0x546fa1%0xfa0?_0x337003:_0x2594b6,Math[_0x4d4895(0x113)](Math[_0x4d4895(0x13f)](0x5*Math['sin'](_0x546fa1%0x7d0/0x7d0*Math['PI'])-0x2,0x1),0x0)),gameDraw[_0x4d4895(0x141)][_0x4d4895(0x13a)]=_0x1c6337?gameDraw[_0x4d4895(0x179)][_0x4d4895(0x16e)]:gameDraw['color'][_0x4d4895(0x155)],gameDraw[_0x4d4895(0x141)][_0x4d4895(0x151)]=_0x1c6337?gameDraw[_0x4d4895(0x179)][_0x4d4895(0x16e)]:gameDraw[_0x4d4895(0x179)][_0x4d4895(0x173)],gameDraw['animatedColor'][_0x4d4895(0x132)]=_0x1c6337?gameDraw[_0x4d4895(0x179)][_0x4d4895(0x173)]:gameDraw[_0x4d4895(0x179)][_0x4d4895(0x16e)],gameDraw['animatedColor'][_0x4d4895(0x140)]=_0x1c6337?gameDraw[_0x4d4895(0x179)][_0x4d4895(0x155)]:gameDraw[_0x4d4895(0x179)][_0x4d4895(0x173)],gameDraw[_0x4d4895(0x141)]['grey_red']=_0x1c6337?gameDraw['color']['grey']:gameDraw[_0x4d4895(0x179)][_0x4d4895(0x155)];},'animatedColors':{0x14:!![],'animatedBlueRed':!![],0x15:!![],'animatedBlueGrey':!![],'animatedBlueGray':!![],0x16:!![],'animatedGreyBlue':!![],'animatedGrayBlue':!![],0x17:!![],'animatedRedGrey':!![],'animatedRedGray':!![],0x18:!![],'animatedGreyRed':!![],'animatedGrayRed':!![],0x1d:!![],'animatedLesbian':!![],0x24:!![],'rainbow':!![],0x25:!![],'animatedTrans':!![],0x26:!![],'animatedBi':!![]},'getColor':_0x30a80d=>{const _0x3dc3c3=_0x2f01;switch(_0x30a80d){case 0x0:case'teal':case _0x3dc3c3(0x117):return gameDraw[_0x3dc3c3(0x179)][_0x3dc3c3(0x18a)];case 0x1:case'lightGreen':return gameDraw['color']['lgreen'];case 0x2:case _0x3dc3c3(0x13d):return gameDraw[_0x3dc3c3(0x179)][_0x3dc3c3(0x13d)];case 0x3:case _0x3dc3c3(0x156):return gameDraw[_0x3dc3c3(0x179)][_0x3dc3c3(0x156)];case 0x4:case _0x3dc3c3(0x161):return gameDraw[_0x3dc3c3(0x179)][_0x3dc3c3(0x161)];case 0x5:case _0x3dc3c3(0x191):return gameDraw[_0x3dc3c3(0x179)][_0x3dc3c3(0x191)];case 0x6:case _0x3dc3c3(0x13c):case _0x3dc3c3(0x175):return gameDraw[_0x3dc3c3(0x179)]['vlgrey'];case 0x7:case _0x3dc3c3(0x16f):case _0x3dc3c3(0x172):return gameDraw[_0x3dc3c3(0x179)]['lgrey'];case 0x8:case _0x3dc3c3(0x136):return gameDraw[_0x3dc3c3(0x179)][_0x3dc3c3(0x18c)];case 0x9:case _0x3dc3c3(0x126):return gameDraw['color'][_0x3dc3c3(0x126)];case 0xa:case _0x3dc3c3(0x16e):return gameDraw[_0x3dc3c3(0x179)][_0x3dc3c3(0x16e)];case 0xb:case _0x3dc3c3(0x194):return gameDraw['color'][_0x3dc3c3(0x194)];case 0xc:case _0x3dc3c3(0x155):return gameDraw[_0x3dc3c3(0x179)]['red'];case 0xd:case _0x3dc3c3(0x15a):return gameDraw[_0x3dc3c3(0x179)][_0x3dc3c3(0x15a)];case 0xe:case'purple':return gameDraw['color'][_0x3dc3c3(0x17d)];case 0xf:case _0x3dc3c3(0x13e):return gameDraw[_0x3dc3c3(0x179)]['magenta'];case 0x10:case _0x3dc3c3(0x173):case'gray':return gameDraw[_0x3dc3c3(0x179)][_0x3dc3c3(0x173)];case 0x11:case _0x3dc3c3(0x165):case _0x3dc3c3(0x144):return gameDraw[_0x3dc3c3(0x179)][_0x3dc3c3(0x12a)];case 0x12:case _0x3dc3c3(0x11f):return gameDraw[_0x3dc3c3(0x179)][_0x3dc3c3(0x11f)];case 0x13:case'pureBlack':return gameDraw['color'][_0x3dc3c3(0x152)];case 0x14:case _0x3dc3c3(0x17e):return gameDraw['animatedColor'][_0x3dc3c3(0x13a)];case 0x15:case _0x3dc3c3(0x177):case'animatedBlueGray':return gameDraw[_0x3dc3c3(0x141)][_0x3dc3c3(0x151)];case 0x16:case _0x3dc3c3(0x185):case'animatedGrayBlue':return gameDraw['animatedColor'][_0x3dc3c3(0x132)];case 0x17:case _0x3dc3c3(0x178):case _0x3dc3c3(0x17c):return gameDraw[_0x3dc3c3(0x141)][_0x3dc3c3(0x140)];case 0x18:case _0x3dc3c3(0x142):case'animatedGrayRed':return gameDraw[_0x3dc3c3(0x141)][_0x3dc3c3(0x16b)];case 0x19:case'mustard':return'#C49608';case 0x1a:case'darkOrange':return _0x3dc3c3(0x199);case 0x1b:case'brown':return _0x3dc3c3(0x176);case 0x1c:case _0x3dc3c3(0x133):case'turquoise':return _0x3dc3c3(0x157);case 0x1d:case _0x3dc3c3(0x16a):return gameDraw[_0x3dc3c3(0x141)][_0x3dc3c3(0x13b)];case 0x1e:case _0x3dc3c3(0x127):case _0x3dc3c3(0x181):return'#a913cf';case 0x1f:case _0x3dc3c3(0x193):case _0x3dc3c3(0x12e):return _0x3dc3c3(0x16d);case 0x20:case _0x3dc3c3(0x150):case _0x3dc3c3(0x168):return _0x3dc3c3(0x16c);case 0x21:case _0x3dc3c3(0x119):case _0x3dc3c3(0x17b):return _0x3dc3c3(0x188);case 0x22:case _0x3dc3c3(0x146):case'timeStone':return _0x3dc3c3(0x19d);case 0x23:case _0x3dc3c3(0x121):case _0x3dc3c3(0x19a):return _0x3dc3c3(0x135);case 0x24:case _0x3dc3c3(0x174):return gameDraw[_0x3dc3c3(0x141)][_0x3dc3c3(0x196)];case _0x3dc3c3(0x171):return'#'+Math[_0x3dc3c3(0x148)](Math['random']()*0xffffff)[_0x3dc3c3(0x11a)](0x10);case 0x25:case _0x3dc3c3(0x118):return gameDraw[_0x3dc3c3(0x141)][_0x3dc3c3(0x115)];case 0x26:case _0x3dc3c3(0x19e):return gameDraw[_0x3dc3c3(0x141)]['bi'];case 0x27:case _0x3dc3c3(0x15b):return'#654321';case 0x28:case'pumpkinBody':return _0x3dc3c3(0x122);case 0x29:case _0x3dc3c3(0x139):return'#267524';case 0x2a:return _0x3dc3c3(0x195);case 0x2b:return gameDraw[_0x3dc3c3(0x141)][_0x3dc3c3(0x14e)];case 0x2c:return'#BBB6FF';}},'getColorDark':_0x4256a7=>{const _0x3b3f5e=_0x2f01;let _0x462b58=config[_0x3b3f5e(0x184)][_0x3b3f5e(0x17f)]?gameDraw[_0x3b3f5e(0x179)][_0x3b3f5e(0x11f)]:gameDraw[_0x3b3f5e(0x179)][_0x3b3f5e(0x126)];if(config['graphical'][_0x3b3f5e(0x154)])return _0x462b58;return gameDraw[_0x3b3f5e(0x189)](_0x4256a7,_0x462b58,gameDraw[_0x3b3f5e(0x179)]['border']);},'getZoneColor':(_0x35dcdd,_0x2aaaae)=>{const _0x350efa=_0x2f01;switch(_0x35dcdd){case _0x350efa(0x14d):return _0x350efa(0x138);case _0x350efa(0x15e):case _0x350efa(0x18d):case'bap1':case _0x350efa(0x14b):return gameDraw['color'][_0x350efa(0x16e)];case _0x350efa(0x12d):case'bap2':case _0x350efa(0x17a):return gameDraw[_0x350efa(0x179)][_0x350efa(0x194)];case _0x350efa(0x145):case'bap3':case _0x350efa(0x114):case _0x350efa(0x160):case _0x350efa(0x197):return gameDraw[_0x350efa(0x179)][_0x350efa(0x155)];case _0x350efa(0x183):case'bap4':case _0x350efa(0x129):return gameDraw['color'][_0x350efa(0x13e)];case'bas5':case _0x350efa(0x12c):case _0x350efa(0x125):return'#C49608';case _0x350efa(0x164):case _0x350efa(0x147):case _0x350efa(0x159):return _0x350efa(0x199);case'bas7':case _0x350efa(0x192):case _0x350efa(0x120):return'#895918';case _0x350efa(0x169):case _0x350efa(0x112):case _0x350efa(0x134):return _0x350efa(0x157);case _0x350efa(0x158):return gameDraw['color'][_0x350efa(0x126)];case'nest':return _0x2aaaae?gameDraw[_0x350efa(0x179)][_0x350efa(0x17d)]:gameDraw[_0x350efa(0x179)][_0x350efa(0x161)];case'dom0':return gameDraw[_0x350efa(0x179)][_0x350efa(0x15a)];default:return _0x2aaaae?gameDraw[_0x350efa(0x179)][_0x350efa(0x11f)]:gameDraw[_0x350efa(0x179)][_0x350efa(0x143)];}},'setColor':(_0x21d787,_0xfd99d5)=>{const _0x31c537=_0x2f01;config[_0x31c537(0x184)]['neon']?(_0x21d787[_0x31c537(0x128)]=gameDraw['getColorDark'](_0xfd99d5),_0x21d787[_0x31c537(0x190)]=_0xfd99d5):(_0x21d787['fillStyle']=_0xfd99d5,_0x21d787['strokeStyle']=gameDraw[_0x31c537(0x130)](_0xfd99d5));}};export{gameDraw};
+import { config } from "./config.js";
+import { color } from "./color.js";
+var gameDraw = {
+  color: null,
+  decimal2hex: _0x4f794d => {
+    return _0x4f794d.toString(16);
+  },
+  hex2decimal: _0x2e2c9f => {
+    return parseInt(_0x2e2c9f, 16);
+  },
+  mixColors: (_0x3df05d, _0x4f49f6, _0x4ac4f4 = 0.5) => {
+    if (_0x4ac4f4 === 1) {
+      return _0x4f49f6;
+    }
+    if (_0x4ac4f4 === 0) {
+      return _0x3df05d;
+    }
+    var _0x2541f0 = "#";
+    for (var _0x2e57e2 = 1; _0x2e57e2 <= 6; _0x2e57e2 += 2) {
+      var _0x2eda70 = gameDraw.hex2decimal(_0x4f49f6.substr(_0x2e57e2, 2));
+      var _0xa44ea6 = gameDraw.hex2decimal(_0x3df05d.substr(_0x2e57e2, 2));
+      var _0x4871b0 = gameDraw.decimal2hex(Math.floor(_0xa44ea6 + (_0x2eda70 - _0xa44ea6) * _0x4ac4f4));
+      while (_0x4871b0.length < 2) {
+        _0x4871b0 = "0" + _0x4871b0;
+      }
+      _0x2541f0 += _0x4871b0;
+    }
+    return _0x2541f0;
+  },
+  hslToRgb: (_0x630b6c, _0x468dbf, _0x4f5836) => {
+    let _0x5729d3;
+    let _0x31f5f8;
+    let _0x393cff;
+    if (_0x468dbf === 0) {
+      _0x5729d3 = _0x31f5f8 = _0x393cff = _0x4f5836;
+    } else {
+      const _0x19d74f = _0x4f5836 < 0.5 ? _0x4f5836 * (1 + _0x468dbf) : _0x4f5836 + _0x468dbf - _0x4f5836 * _0x468dbf;
+      const _0x5a5b1f = _0x4f5836 * 2 - _0x19d74f;
+      _0x5729d3 = gameDraw.hueToRgb(_0x5a5b1f, _0x19d74f, _0x630b6c + 1 / 3);
+      _0x31f5f8 = gameDraw.hueToRgb(_0x5a5b1f, _0x19d74f, _0x630b6c);
+      _0x393cff = gameDraw.hueToRgb(_0x5a5b1f, _0x19d74f, _0x630b6c - 1 / 3);
+    }
+    return "#" + Math.round(_0x5729d3 * 255).toString(16).padStart(2, "0") + Math.round(_0x31f5f8 * 255).toString(16).padStart(2, "0") + Math.round(_0x393cff * 255).toString(16).padStart(2, "0");
+  },
+  rgbToHsl: _0x169dc4 => {
+    let _0x5743f6;
+    let _0x6ca0b0;
+    let _0x334d3c;
+    let _0x527c64;
+    let _0x3e1be5;
+    let _0x369d46;
+    _0x5743f6 = parseInt(_0x169dc4.substring(1, 3), 16) / 255;
+    _0x6ca0b0 = parseInt(_0x169dc4.substring(3, 5), 16) / 255;
+    _0x334d3c = parseInt(_0x169dc4.substring(5, 7), 16) / 255;
+    let _0x3b851f = Math.max(_0x5743f6, _0x6ca0b0, _0x334d3c);
+    let _0x3ce841 = Math.min(_0x5743f6, _0x6ca0b0, _0x334d3c);
+    let _0x236899 = _0x3b851f - _0x3ce841;
+    switch (true) {
+      case _0x236899 == 0:
+        _0x527c64 = 0;
+        break;
+      case _0x3b851f == _0x5743f6:
+        _0x527c64 = 1 / 6 * ((_0x6ca0b0 - _0x334d3c) / _0x236899 % 6);
+        break;
+      case _0x3b851f == _0x6ca0b0:
+        _0x527c64 = 1 / 6 * ((_0x334d3c - _0x5743f6) / _0x236899 + 2);
+        break;
+      case _0x3b851f == _0x334d3c:
+        _0x527c64 = 1 / 6 * ((_0x5743f6 - _0x6ca0b0) / _0x236899 + 4);
+        break;
+    }
+    _0x369d46 = (_0x3b851f + _0x3ce841) / 2;
+    if (_0x236899 == 0) {
+      _0x3e1be5 = 0;
+    } else {
+      _0x3e1be5 = _0x236899 / (1 - Math.abs(_0x369d46 * 2 - 1));
+    }
+    return [_0x527c64, _0x3e1be5, _0x369d46];
+  },
+  hueToRgb: (_0x53e49a, _0x5897ea, _0x576b27) => {
+    if (_0x576b27 < 0) {
+      _0x576b27 += 1;
+    }
+    if (_0x576b27 > 1) {
+      _0x576b27 -= 1;
+    }
+    if (_0x576b27 < 0.166) {
+      return _0x53e49a + (_0x5897ea - _0x53e49a) * 6 * _0x576b27;
+    }
+    if (_0x576b27 < 0.5) {
+      return _0x5897ea;
+    }
+    if (_0x576b27 < 0.666) {
+      return _0x53e49a + (_0x5897ea - _0x53e49a) * (2 / 3 - _0x576b27) * 6;
+    }
+    return _0x53e49a;
+  },
+  clamp: (_0x433a1d, _0x4b1fd1, _0x40be52) => {
+    return Math.min(_0x40be52, Math.max(_0x4b1fd1, _0x433a1d));
+  },
+  colorCache: {},
+  modifyColor: (_0xb1e33a, _0x4bad18 = "16 0 1 0 false") => {
+    if (typeof _0xb1e33a == "number") {
+      _0xb1e33a = _0xb1e33a + " 0 1 0 false";
+    }
+    if (typeof _0x4bad18 == "number") {
+      _0x4bad18 = _0x4bad18 + " 0 1 0 false";
+    }
+    let _0x5d64ee = _0xb1e33a.split(" ");
+    let _0xf2a74a = _0x4bad18.split(" ");
+    if (_0x5d64ee[0] == "-1") {
+      _0x5d64ee[0] = _0xf2a74a[0];
+    }
+    if (_0x5d64ee[0] == "-1") {
+      _0x5d64ee[0] = gui.color;
+    }
+    let _0x592d07 = "";
+    for (let _0x344251 in _0x5d64ee) {
+      _0x592d07 += _0x5d64ee[_0x344251] + " ";
+    }
+    let _0x19fc0e = gameDraw.colorCache[_0x592d07];
+    if (_0x19fc0e != undefined) {
+      return _0x19fc0e;
+    }
+    let _0x12aed4 = _0x5d64ee[0];
+    if (!isNaN(_0x12aed4)) {
+      _0x12aed4 = parseInt(_0x12aed4);
+    }
+    _0x12aed4 = gameDraw.rgbToHsl(gameDraw.getColor(_0x12aed4) ?? _0x12aed4);
+    let _0x56a62c = parseFloat(_0x5d64ee[1]) / 360;
+    let _0x3301d4 = parseFloat(_0x5d64ee[2]);
+    let _0x252a06 = parseFloat(_0x5d64ee[3]) / 100;
+    let _0x1e51d5 = _0x5d64ee[4] == "true";
+    let _0x459769 = (_0x12aed4[0] + _0x56a62c) % 1;
+    let _0x36b8b = gameDraw.clamp(_0x12aed4[1] * _0x3301d4, 0, 1);
+    let _0x1b0f8e = _0x12aed4[2] + _0x252a06;
+    if (_0x1e51d5 && (_0x1b0f8e > 1 || _0x1b0f8e < 0)) {
+      _0x1b0f8e -= _0x252a06 * 2;
+    }
+    _0x1b0f8e = gameDraw.clamp(_0x1b0f8e, 0, 1);
+    let _0x2e8398 = gameDraw.hslToRgb(_0x459769, _0x36b8b, _0x1b0f8e);
+    if (!gameDraw.animatedColors[_0x5d64ee[0]]) {
+      gameDraw.colorCache[_0x592d07] = _0x2e8398;
+    }
+    return _0x2e8398;
+  },
+  getRainbow: (_0x13b025, _0x81ab48, _0xd887d9 = 0.5) => {
+    if (_0xd887d9 <= 0) {
+      return _0x13b025;
+    }
+    if (_0xd887d9 >= 1) {
+      return _0x81ab48;
+    }
+    let _0x114da9 = 1 - _0xd887d9;
+    _0x13b025 = parseInt(_0x13b025.slice(1, 7), 16);
+    _0x81ab48 = parseInt(_0x81ab48.slice(1, 7), 16);
+    return "#" + ((_0x13b025 & 16711680) * _0x114da9 + (_0x81ab48 & 16711680) * _0xd887d9 & 16711680 | (_0x13b025 & 65280) * _0x114da9 + (_0x81ab48 & 65280) * _0xd887d9 & 65280 | (_0x13b025 & 255) * _0x114da9 + (_0x81ab48 & 255) * _0xd887d9 & 255).toString(16).padStart(6, "0");
+  },
+  animatedColor: {
+    lesbian: "",
+    gay: "",
+ star: "",
+    gay1: "",
+    bi: "",
+    trans: "",
+    blue_red: "",
+    blue_grey: "",
+    grey_blue: "",
+    red_grey: "",
+    grey_red: ""
+  },
+  reanimateColors: () => {
+    let _0x546fa1 = Date.now();
+    let _0x3628e2 = Math.floor(_0x546fa1 % 2000 / 400);
+    let _0x431e05 = Math.floor(_0x546fa1 % 2000 * 3 / 2000);
+    let _0x1c6337 = _0x546fa1 % 300 < 150;
+    let _0x2ab644 = "#a50062";
+    let _0x38b603 = "#d62900";
+    let _0x3c442d = "#ffffff";
+    let _0x5f5b9c = _0x3628e2 < 2;
+    let _0x4bc969 = _0x546fa1 / 2000 % 1;
+    let _0xcbf76c = _0x546fa1 / 6000 % 1;
+    let _0x135f43 = "#D70071";
+    let _0x143d48 = "#9C4E97";
+    let _0x24a195 = "#0035AA";
+    let _0x2594b6 = "#f7a8b8";
+    let _0x337003 = "#55cdfc";
+    let _0x40040d = "#ffffff";
+    gameDraw.animatedColor.lesbian = gameDraw.getRainbow(_0x5f5b9c ? _0x38b603 : _0x3c442d, _0x5f5b9c ? _0x3c442d : _0x2ab644, (_0x5f5b9c ? _0x3628e2 : _0x3628e2 - 3) / 2);
+    gameDraw.animatedColor.gay = gameDraw.hslToRgb(_0x4bc969, 0.75, 0.5);
+      // Define the colors you want to transition between
+      let colorStart = "#f2ff00";  // Starting color
+      let colorEnd = "#ffd500";    // Ending color
+      
+      // Animate the transition for case 45
+      gameDraw.animatedColor.star = gameDraw.mixColors(colorStart, _0x546fa1 % 4000 < 2000 ? colorEnd : colorStart, Math.max(Math.min(Math.sin(_0x546fa1 % 1000 / 1000 * Math.PI) * 5 - 2, 1), 0));
+
+
+
+    gameDraw.animatedColor.gay1 = gameDraw.hslToRgb(_0xcbf76c, 0.75, 0.5);
+    gameDraw.animatedColor.bi = [_0x135f43, _0x143d48, _0x24a195][_0x431e05];
+    gameDraw.animatedColor.trans = gameDraw.mixColors(_0x40040d, _0x546fa1 % 4000 < 2000 ? _0x337003 : _0x2594b6, Math.max(Math.min(Math.sin(_0x546fa1 % 2000 / 2000 * Math.PI) * 5 - 2, 1), 0));
+    gameDraw.animatedColor.blue_red = _0x1c6337 ? gameDraw.color.blue : gameDraw.color.red;
+    gameDraw.animatedColor.blue_grey = _0x1c6337 ? gameDraw.color.blue : gameDraw.color.grey;
+    gameDraw.animatedColor.grey_blue = _0x1c6337 ? gameDraw.color.grey : gameDraw.color.blue;
+    gameDraw.animatedColor.red_grey = _0x1c6337 ? gameDraw.color.red : gameDraw.color.grey;
+    gameDraw.animatedColor.grey_red = _0x1c6337 ? gameDraw.color.grey : gameDraw.color.red;
+  },
+  animatedColors: {
+    20: true,
+    animatedBlueRed: true,
+    21: true,
+    animatedBlueGrey: true,
+    animatedBlueGray: true,
+    22: true,
+    animatedGreyBlue: true,
+    animatedGrayBlue: true,
+    23: true,
+    animatedRedGrey: true,
+    animatedRedGray: true,
+    24: true,
+    animatedGreyRed: true,
+    animatedGrayRed: true,
+    29: true,
+    animatedLesbian: true,
+    36: true,
+    rainbow: true,
+    37: true,
+    animatedTrans: true,
+    38: true,
+    animatedBi: true,
+    45: true,
+    animatedStar: true,
+  },
+  getColor: _0x30a80d => {
+    switch (_0x30a80d) {
+      case 0:
+      case "teal":
+      case "aqua":
+        return gameDraw.color.teal;
+      case 1:
+      case "lightGreen":
+        return gameDraw.color.lgreen;
+      case 2:
+      case "orange":
+        return gameDraw.color.orange;
+      case 3:
+      case "yellow":
+        return gameDraw.color.yellow;
+      case 4:
+      case "lavender":
+        return gameDraw.color.lavender;
+      case 5:
+      case "pink":
+        return gameDraw.color.pink;
+      case 6:
+      case "veryLightGrey":
+      case "veryLightGray":
+        return gameDraw.color.vlgrey;
+      case 7:
+      case "lightGrey":
+      case "lightGray":
+        return gameDraw.color.lgrey;
+      case 8:
+      case "pureWhite":
+        return gameDraw.color.guiwhite;
+      case 9:
+      case "black":
+        return gameDraw.color.black;
+      case 10:
+      case "blue":
+        return gameDraw.color.blue;
+      case 11:
+      case "green":
+        return gameDraw.color.green;
+      case 12:
+      case "red":
+        return gameDraw.color.red;
+      case 13:
+      case "gold":
+        return gameDraw.color.gold;
+      case 14:
+      case "purple":
+        return gameDraw.color.purple;
+      case 15:
+      case "magenta":
+        return gameDraw.color.magenta;
+      case 16:
+      case "grey":
+      case "gray":
+        return gameDraw.color.grey;
+      case 17:
+      case "darkGrey":
+      case "darkGray":
+        return gameDraw.color.dgrey;
+      case 18:
+      case "white":
+        return gameDraw.color.white;
+      case 19:
+      case "pureBlack":
+        return gameDraw.color.guiblack;
+      case 20:
+      case "animatedBlueRed":
+        return gameDraw.animatedColor.blue_red;
+      case 21:
+      case "animatedBlueGrey":
+      case "animatedBlueGray":
+        return gameDraw.animatedColor.blue_grey;
+      case 22:
+      case "animatedGreyBlue":
+      case "animatedGrayBlue":
+        return gameDraw.animatedColor.grey_blue;
+      case 23:
+      case "animatedRedGrey":
+      case "animatedRedGray":
+        return gameDraw.animatedColor.red_grey;
+      case 24:
+      case "animatedGreyRed":
+      case "animatedGrayRed":
+        return gameDraw.animatedColor.grey_red;
+      case 25:
+      case "mustard":
+        return "#C49608";
+      case 26:
+      case "darkOrange":
+        return "#EC7B0F";
+      case 27:
+      case "brown":
+        return "#895918";
+      case 28:
+      case "cyan":
+      case "turquoise":
+        return "#13808E";
+      case 29:
+      case "animatedLesbian":
+        return gameDraw.animatedColor.lesbian;
+      case 30:
+      case "powerGem":
+      case "powerStone":
+        return "#a913cf";
+      case 31:
+      case "spaceGem":
+      case "spaceStone":
+        return "#226ef6";
+      case 32:
+      case "realityGem":
+      case "realityStone":
+        return "#ff1000";
+      case 33:
+      case "soulGem":
+      case "soulStone":
+        return "#ff9000";
+      case 34:
+      case "timeGem":
+      case "timeStone":
+        return "#00e00b";
+      case 35:
+      case "mindGem":
+      case "mindStone":
+        return "#ffd300";
+      case 36:
+      case "rainbow":
+        return gameDraw.animatedColor.gay;
+      case "rainbow1":
+        return "#" + Math.floor(Math.random() * 16777215).toString(16);
+      case 37:
+      case "animatedTrans":
+        return gameDraw.animatedColor.trans;
+      case 38:
+      case "animatedBi":
+        return gameDraw.animatedColor.bi;
+      case 39:
+      case "pumpkinStem":
+        return "#654321";
+      case 40:
+      case "pumpkinBody":
+        return "#e58100";
+      case 41:
+      case "tree":
+        return "#267524";
+      case 42:
+        return "#842626";
+      case 43:
+        return gameDraw.animatedColor.gay1;
+      case 44:
+        return "#BBB6FF";
+        case 45:
+          case "animatedStar":
+            return gameDraw.animatedColor.star;
+    }
+  },
+  getColorDark: _0x4256a7 => {
+    let _0x462b58 = config.graphical.neon ? gameDraw.color.white : gameDraw.color.black;
+    if (config.graphical.darkBorders) {
+      return _0x462b58;
+    }
+    return gameDraw.mixColors(_0x4256a7, _0x462b58, gameDraw.color.border);
+  },
+  getZoneColor: (_0x35dcdd, _0x2aaaae) => {
+    switch (_0x35dcdd) {
+      case "win":
+        return "#00ff40";
+      case "bas1":
+      case "bai1":
+      case "bap1":
+      case "dom1":
+        return gameDraw.color.blue;
+      case "bas3":
+      case "bap2":
+      case "bai3":
+      case "dom2":
+        return gameDraw.color.green;
+      case "bas2":
+      case "bap3":
+      case "bai2":
+      case "dom3":
+      case "boss":
+        return gameDraw.color.red;
+      case "bas4":
+      case "bap4":
+        case "bai4":
+      case "dom4":
+        return gameDraw.color.magenta;
+      case "bas5":
+      case "bap5":
+      case "dom5":
+        return "#C49608";
+      case "bas6":
+      case "bap6":
+      case "dom6":
+        return "#EC7B0F";
+      case "bas7":
+      case "bap7":
+      case "dom7":
+        return "#895918";
+      case "bas8":
+      case "bap8":
+      case "dom8":
+        return "#13808E";
+      case "port":
+        return gameDraw.color.black;
+      case "nest":
+        if (_0x2aaaae) {
+          return gameDraw.color.purple;
+        } else {
+          return gameDraw.color.lavender;
+        }
+      case "dom0":
+        return gameDraw.color.gold;
+      default:
+        if (_0x2aaaae) {
+          return gameDraw.color.white;
+        } else {
+          return gameDraw.color.lgrey;
+        }
+    }
+  },
+  setColor: (_0x21d787, _0xfd99d5) => {
+    if (config.graphical.neon) {
+      _0x21d787.fillStyle = gameDraw.getColorDark(_0xfd99d5);
+      _0x21d787.strokeStyle = _0xfd99d5;
+    } else {
+      _0x21d787.fillStyle = _0xfd99d5;
+      _0x21d787.strokeStyle = gameDraw.getColorDark(_0xfd99d5);
+    }
+  }
+};
+export { gameDraw };

@@ -1,195 +1,307 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <div id="firstPage">
   <!-- Meta Properties -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
   <meta name="description" content="Arras2.io is a fan-made sequel of arras.io. Escape from attackers and shoot everyone while staying alive!">
   <meta name="robots" content="index, follow">
-  <meta property="og:image" content="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
+  <meta property="og:image" content="https://cdn.glitch.global/7fdbbc0d-3982-4016-95c0-1c33c0f67239/Screenshot%202024-10-13%20153943-modified.png?v=1728829785590">
+  <link rel="icon" type="image/png" sizes="16x16 32x32 64x64 128x128 256x256" href="https://cdn.glitch.global/7fdbbc0d-3982-4016-95c0-1c33c0f67239/Screenshot%202024-10-13%20153943-modified.png?v=1728829785590">
   <meta property="og:image:width" content="54">
   <meta property="og:image:height" content="54">
   <title>Arras2.io</title>
   <!-- JS -->
-    <script
-    type="text/javascript"
-    src="https://www.google.com/recaptcha/api.js?render=6LcNpTkqAAAAAB76OrN2Fiemgh2Rhryte2rb6nPk"
-  ></script>
+
   <!-- CSS -->
   <link href="https://fonts.gstatic.com/s/ubuntu/v20/4iCv6KVjbNBYlgoCxCvjvWyNL4U.woff2" rel="stylesheet">
  
-  <!-- Favicons -->
-  <link rel="apple-touch-icon" sizes="60x60" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
-  <link rel="apple-touch-icon" sizes="120x120" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
-  <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
-  <link rel="icon" type="image/png" sizes="16x16" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
-  <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
-  <link rel="icon" type="image/png" sizes="64x64" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
-  <link rel="icon" type="image/png" sizes="96x96" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
-  <link rel="icon" type="image/png" sizes="128x128" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
-  <link rel="icon" type="image/png" sizes="192x192" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
-  <link rel="icon" type="image/png" sizes="256x256" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
-  <link rel="icon" type="image/png" sizes="512x512" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
-  <link rel="icon" type="image/png" sizes="1024x1024" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
-  <link rel="icon" type="image/png" sizes="2048x2048" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
-  <link rel="icon" type="image/svg+xml" sizes="400x400" href="https://cdn.glitch.global/429d7042-bfe0-4469-b14a-f81b7b9e8acc/Picsart_24-03-09_23-45-09-196-modified.png?v=1710032796268">
+ 
   <link rel="manifest" href="/favicon/manifest.json">
   <meta name="theme-color" content="#8abc3f">
 
   <style>
-  /* Center the loader */
-  #loader {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    z-index: 1;
-    width: 150px;
-    height: 150px;
-    margin: -75px 0 0 -75px;
-    border: 16px solid #f3f3f3;
-    border-radius: 50%;
-    border-top: 16px solid #3498db;
-    width: 120px;
-    height: 120px;
-    -webkit-animation: spin 2s linear infinite;
-    animation: spin 2s linear infinite;
+    /* Center the loader */
+    #loader {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      z-index: 1;
+      width: 150px;
+      height: 150px;
+      margin: -75px 0 0 -75px;
+      border: 16px solid #f3f3f3;
+      border-radius: 50%;
+      border-top: 16px solid #3498db;
+      width: 120px;
+      height: 120px;
+      -webkit-animation: spin 2s linear infinite;
+      animation: spin 2s linear infinite;
+    }
+  
+    @-webkit-keyframes spin {
+      0% { -webkit-transform: rotate(0deg); }
+      100% { -webkit-transform: rotate(360deg); }
+    }
+  
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  
+    /* Add animation to "page content" */
+    .animate-bottom {
+      position: relative;
+      -webkit-animation-name: animatebottom;
+      -webkit-animation-duration: 1s;
+      animation-name: animatebottom;
+      animation-duration: 1s;
+    }
+  
+    @-webkit-keyframes animatebottom {
+      from { bottom:-100px; opacity:0 } 
+      to { bottom:0px; opacity:1 }
+    }
+  
+    @keyframes animatebottom { 
+      from{ bottom:-100px; opacity:0 } 
+      to{ bottom:0; opacity:1 }
+    }
+  
+    #myDiv {
+      display: none;
+      text-align: center;
+    }
+    html, body {
+      overflow: hidden;
+      height: 100%;
+      position: fixed;
+      -webkit-overflow-scrolling: touch;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+    body {
+      font-family: Ubuntu, sans-serif;
+      font-size: 14px;
+      background-color: #000000;
+  
+    }
+    @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
-
-  @-webkit-keyframes spin {
-    0% { -webkit-transform: rotate(0deg); }
-    100% { -webkit-transform: rotate(360deg); }
+  .fade-out {
+      animation: fadeOut 1s forwards; /* Apply fade-out animation */
   }
-
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+  
+  @keyframes fadeOut {
+      from {
+          opacity: 1; /* Start fully visible */
+      }
+      to {
+          opacity: 0; /* Fade to invisible */
+      }
   }
-
-  /* Add animation to "page content" */
-  .animate-bottom {
-    position: relative;
-    -webkit-animation-name: animatebottom;
-    -webkit-animation-duration: 1s;
-    animation-name: animatebottom;
-    animation-duration: 1s;
+  
+  #loading {
+      color: #FFFFFF;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 5vw;
+      font-family: sans-serif;
+      font-weight: bold;
+      cursor: default;
+      animation: fadeIn 1s forwards, fadeOut 1s 3s forwards;
   }
-
-  @-webkit-keyframes animatebottom {
-    from { bottom:-100px; opacity:0 } 
-    to { bottom:0px; opacity:1 }
+  
+  
+  #loading1 {
+      color: #FFFFFF;
+      position: absolute;
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 2vw; /* Use vw for responsive sizing */
+      font-family: sans-serif;
+      font-weight: bold;
+      cursor: default;
+      animation: fadeIn 1s forwards, fadeOut 1s 3s forwards;
   }
-
-  @keyframes animatebottom { 
-    from{ bottom:-100px; opacity:0 } 
-    to{ bottom:0; opacity:1 }
+  
+          #canvas {
+              position: absolute;
+              top: 0;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              width: 100%;
+              height: 100%;
+              cursor: default;
+          }
+  
+          #textInputContainer {
+              display: none;
+              position: absolute;
+          }
+  
+          #textInput {
+              background-color: transparent;
+              font-family: "Ubuntu";
+              padding: 0;
+              border: 0;
+              outline: none;
+          }
+      html, body, canvas {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    .arras2text {
+      font-size: 50px;
+      
+      color: #ffffff;
+      text-shadow:
+      1px 1px 0 #000,
+      -1px 1px 0 #000,
+      1px -1px 0 #000,
+      -1px -1px 0 #000,
+      0px 1px 0 #000,
+      0px -1px 0 #000,
+      -1px 0px 0 #000,
+      1px 0px 0 #000,
+      2px 2px 0 #000,
+      -2px 2px 0 #000,
+      2px -2px 0 #000,
+      -2px -2px 0 #000,
+      0px 2px 0 #000,
+      0px -2px 0 #000,
+      -2px 0px 0 #000,
+      2px 0px 0 #000,
+      1px 2px 0 #000,
+      -1px 2px 0 #000,
+      1px -2px 0 #000,
+      -1px -2px 0 #000,
+      2px 1px 0 #000,
+      -2px 1px 0 #000,
+      2px -1px 0 #000,
+      -2px -1px 0 #000;
+      animation: fadeOut 1s 2s forwards;
+    }
+    .arras2textbruh {
+      font-size: 20px;
+      
+      color: #ffffff;
+      text-shadow:
+      1px 1px 0 #000,
+      -1px 1px 0 #000,
+      1px -1px 0 #000,
+      -1px -1px 0 #000,
+      0px 1px 0 #000,
+      0px -1px 0 #000,
+      -1px 0px 0 #000,
+      1px 0px 0 #000,
+      2px 2px 0 #000,
+      -2px 2px 0 #000,
+      2px -2px 0 #000,
+      -2px -2px 0 #000,
+      0px 2px 0 #000,
+      0px -2px 0 #000,
+      -2px 0px 0 #000,
+      2px 0px 0 #000,
+      1px 2px 0 #000,
+      -1px 2px 0 #000,
+      1px -2px 0 #000,
+      -1px -2px 0 #000,
+      2px 1px 0 #000,
+      -2px 1px 0 #000,
+      2px -1px 0 #000,
+      -2px -1px 0 #000;
+  
+    }
+    .color-transition {
+              animation: color-Transition 0.6s infinite alternate; 
+              transition: color 0.6s; /* Add transition property for opacity and color change */
+              opacity: 1; /* Initial opacity */
+          }
+          @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
   }
-
-  #myDiv {
-    display: none;
-    text-align: center;
-  }
-  html, body {
-    overflow: hidden;
-    height: 100%;
-    position: fixed;
-    -webkit-overflow-scrolling: touch;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-  }
-  body {
-    font-family: Ubuntu, sans-serif;
-    font-size: 14px;
-    background: linear-gradient(to left top, #00ff62, #00ff37, #00ff22, #15ff00, #2bff00, #3cff00, #73ff00);
-
-  }
-    html, body, canvas {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
-  .arras2text {
-    font-size: 50px;
-    
-    color: #ffffff;
-    text-shadow:
-    1px 1px 0 #000,
-    -1px 1px 0 #000,
-    1px -1px 0 #000,
-    -1px -1px 0 #000,
-    0px 1px 0 #000,
-    0px -1px 0 #000,
-    -1px 0px 0 #000,
-    1px 0px 0 #000,
-    2px 2px 0 #000,
-    -2px 2px 0 #000,
-    2px -2px 0 #000,
-    -2px -2px 0 #000,
-    0px 2px 0 #000,
-    0px -2px 0 #000,
-    -2px 0px 0 #000,
-    2px 0px 0 #000,
-    1px 2px 0 #000,
-    -1px 2px 0 #000,
-    1px -2px 0 #000,
-    -1px -2px 0 #000,
-    2px 1px 0 #000,
-    -2px 1px 0 #000,
-    2px -1px 0 #000,
-    -2px -1px 0 #000;
-    animation: fadeOut 1s 2s forwards;
-  }
-  .color-transition {
-            animation: color-Transition 0.6s infinite alternate; 
-            transition: color 0.6s; /* Add transition property for opacity and color change */
-            opacity: 1; /* Initial opacity */
-        }
-        @keyframes fadeOut {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-  }
-}
-        @keyframes color-Transition {
-            from {
-                color: grey;
-            }
-            to {
-                color: rgb(0, 255, 64);
-            }
-        }
-  </style>
-</head>
-
-
-<body onload="myFunction()">
-<div id="loader"></div>
-
-<div style="display:none;" id="myDiv" class="animate-bottom">
-  <div style="position: relative; bottom: -250px;">
-    <center style="font-size:28pt"><b class="arras2text">Welcome to Arras<b class="color-transition">2</b>.io!</b></center>
-    <meta http-equiv = "refresh" content = "6; url = /play.html" /> 
+  #iframeContainer {
+              display: none;
+              width: 100%;
+              height: 100vh;
+          }
+          @keyframes color-Transition {
+              from {
+                  color: grey;
+              }
+              to {
+                  color: rgb(0, 255, 64);
+              }
+          }
+    </style>
+  </head>
+  
+  
+  <body onload="myFunction()">
+    <span id="loading">Loading...</span>
+      
+    <canvas id="canvas" width="800" height="800"></canvas>
+    <div style="font-family:'Ubuntu'">&nbsp;</div>
+    <div id="textInputContainer"><input id="textInput"></div>
+  <noscript>
+    <span id="loading1">Javascript not detected. Please enable it to play!</span>
+      
+    <canvas id="canvas" width="800" height="800"></canvas>
+    <div style="font-family:'Ubuntu'">&nbsp;</div>
+    <div id="textInputContainer"><input id="textInput"></div>
   </div>
+  </noscript>
 </div>
-
+</div>
+<iframe id="iframeContainer" src="" frameborder="0"></iframe>
 <script>
-var myVar;
+    var firstPage = document.getElementById('firstPage');
+    var iframe = document.getElementById('iframeContainer');
+    // Function to show the welcome page after a timeout
+    function myFunction() {
+        setTimeout(loadSecondPage, 4000);
+    }
+    // Redirect to index.html if not arriving from it
+    if (document.referrer === '' || !document.referrer.includes('index.html')) {
+        window.location.href = 'https://arras2.io/';
+    }
 
+    // Check if the user was on the second page before refreshing
+    if (sessionStorage.getItem('onSecondPage1') === 'true') {
+        loadSecondPage();
+    } else {
+        // Automatically load after timeout
+        setTimeout(loadSecondPage, 4000);
+    }
 
+    function loadSecondPage() {
+        firstPage.style.display = 'none'; // Hide first page content
+        iframe.style.display = 'block'; // Show iframe
+        iframe.src = "play.html"; // Load second page into iframe
+        sessionStorage.setItem('onSecondPage1', 'true'); // Set the flag
+    }
 
-function myFunction() {
-  setTimeout(showPage, 3000);
-}
-
-function showPage() {
-  document.getElementById("loader").style.display = "none";
-  document.getElementById("myDiv").style.display = "block";
-
-
-}
+      
 </script>
 
 </body>

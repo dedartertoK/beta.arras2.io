@@ -1,1 +1,271 @@
-const _0x339307=_0x33bc;function _0x884a(){const _0x21ddc4=['1772932qdfUSI','#f2fbff','3839269lVNhYJ','set','round','push','1020120Zldwdr','1954655zxfFKT','19929609rlCgaA','ratio','#FFFFFF','check','#000000','findIndex','test','innerWidth','devicePixelRatio','hide','log','124902iTFSww','userAgent','24JCPBWA','6LDZhBA','748014LpnpRz','innerHeight','Trying\x20to\x20reference\x20a\x20clickable\x20outside\x20a\x20region!'];_0x884a=function(){return _0x21ddc4;};return _0x884a();}(function(_0x427ab7,_0x5b983b){const _0x115eec=_0x33bc,_0x14dbde=_0x427ab7();while(!![]){try{const _0x3932a1=parseInt(_0x115eec(0xc7))/0x1+parseInt(_0x115eec(0xd4))/0x2+-parseInt(_0x115eec(0xcb))/0x3+-parseInt(_0x115eec(0xce))/0x4+-parseInt(_0x115eec(0xd5))/0x5*(-parseInt(_0x115eec(0xca))/0x6)+-parseInt(_0x115eec(0xd0))/0x7*(parseInt(_0x115eec(0xc9))/0x8)+parseInt(_0x115eec(0xd6))/0x9;if(_0x3932a1===_0x5b983b)break;else _0x14dbde['push'](_0x14dbde['shift']());}catch(_0x4368b2){_0x14dbde['push'](_0x14dbde['shift']());}}}(_0x884a,0xdc4b2));function Clickable(){let _0x5be030={'x':0x0,'y':0x0,'w':0x0,'h':0x0},_0x4f62cd=![];return{'set':(_0x2ab770,_0x1a65e1,_0x2f2ef3,_0x56bbe8)=>{const _0x6f1814=_0x33bc;_0x5be030['x']=_0x2ab770*global[_0x6f1814(0xbd)],_0x5be030['y']=_0x1a65e1*global['ratio'],_0x5be030['w']=_0x2f2ef3*global[_0x6f1814(0xbd)],_0x5be030['h']=_0x56bbe8*global[_0x6f1814(0xbd)],_0x4f62cd=!![];},'check':_0x14fcb5=>{const _0x3cc358=_0x33bc;let _0x38fef6=Math[_0x3cc358(0xd2)](_0x14fcb5['x']-_0x5be030['x']),_0x3c16bc=Math[_0x3cc358(0xd2)](_0x14fcb5['y']-_0x5be030['y']);return _0x4f62cd&&_0x38fef6>=0x0&&_0x3c16bc>=0x0&&_0x38fef6<=_0x5be030['w']&&_0x3c16bc<=_0x5be030['h'];},'hide':()=>{_0x4f62cd=![];}};}let Region=_0x1f62fa=>{const _0xd0ce8d=_0x33bc;let _0xf3b35c=[];for(let _0x1389a9=0x0;_0x1389a9<_0x1f62fa;_0x1389a9++){_0xf3b35c[_0xd0ce8d(0xd3)](Clickable());}return{'place':(_0x3ac407,..._0x37df55)=>{const _0x448245=_0xd0ce8d;if(_0x3ac407>=_0xf3b35c['length']){console[_0x448245(0xc6)](_0x3ac407),console['log'](_0xf3b35c);throw new Error(_0x448245(0xcd));}_0xf3b35c[_0x3ac407][_0x448245(0xd1)](..._0x37df55);},'hide':()=>{const _0x102024=_0xd0ce8d;for(let _0x4d1240 of _0xf3b35c)_0x4d1240[_0x102024(0xc5)]();},'check':_0x48723e=>_0xf3b35c[_0xd0ce8d(0xc1)](_0x52f52d=>_0x52f52d[_0xd0ce8d(0xbf)](_0x48723e))};};function _0x33bc(_0x31d3bb,_0x3b64cd){const _0x884aed=_0x884a();return _0x33bc=function(_0x33bc84,_0x2c4873){_0x33bc84=_0x33bc84-0xbd;let _0x1c8c77=_0x884aed[_0x33bc84];return _0x1c8c77;},_0x33bc(_0x31d3bb,_0x3b64cd);}const global={'KEY_ESC':0x1b,'KEY_ENTER':0xd,'KEY_SHIFT':0x10,'KEY_BECOME':0x48,'KEY_CHAT':0xd,'KEY_FIREFOOD':0x77,'KEY_SPLIT':0x20,'KEY_KILL_WITH_MOUSE':0x47,'KEY_LEFT':0x41,'KEY_UP':0x57,'KEY_RIGHT':0x44,'KEY_DOWN':0x53,'KEY_LEFT_ARROW':0x25,'KEY_UP_ARROW':0x26,'KEY_RIGHT_ARROW':0x27,'KEY_DOWN_ARROW':0x28,'KEY_SCREENSHOT':0x51,'KEY_SPECTATE':0x4c,'KEY_BASIC_TANK':0x50,'KEY_KICK_PLAYER':0xdc,'KEY_AUTO_SPIN':0x43,'KEY_AUTO_FIRE':0x45,'KEY_VANISH':0x4a,'KEY_OVER_RIDE':0x52,'KEY_REVERSE_TANK':0x56,'KEY_REVERSE_MOUSE':0x42,'KEY_SPIN_LOCK':0x58,'KEY_DRAG':0x46,'KEY_BAN_PLAYER':0xbe,'KEY_RECORD':0x5a,'KEY_MAKE_BIGGER':0x55,'KEY_GIVE_TESTBED':0x30,'KEY_HEAL_PLAYER':0x8,'KEY_CONTROL':0x39,'KEY_LEVEL_UP':0x4e,'KEY_FUCK_YOU':0xc0,'KEY_GODMODE':0xba,'KEY_TELEPORT':0xdd,'KEY_CLASS_TREE':0x54,'KEY_SPAWN_WALL':0x59,'KEY_MAX_STAT':0x4d,'KEY_SUICIDE':0x4b,'KEY_RAINBOW':0x4f,'KEY_ZOOM_IN':0xbb,'KEY_ZOOM_OUT':0xbd,'KEY_ZOOM_CLEAR':0xde,'KEY_MAKE_SMALLER':0x49,'KEY_SMALLER':0xbc,'KEY_SPAWN_ENTITY':0x38,'KEY_BIGGER':0xbf,'KEY_HELP_KEY':0x71,'KEY_NAME_KEY':0x2c,'KEY_STRONGER':0xdb,'KEY_UPGRADE_ATK':0x31,'KEY_UPGRADE_HTL':0x32,'KEY_UPGRADE_SPD':0x33,'KEY_UPGRADE_STR':0x34,'KEY_UPGRADE_PEN':0x35,'KEY_UPGRADE_DAM':0x36,'KEY_UPGRADE_RLD':0x37,'KEY_UPGRADE_MOB':0x38,'KEY_UPGRADE_RGN':0x39,'KEY_UPGRADE_SHI':0x30,'KEY_MOUSE_0':0x20,'KEY_MOUSE_1':0x56,'KEY_MOUSE_2':0x10,'KEY_CHOOSE_1':0x59,'KEY_CHOOSE_2':0x55,'KEY_CHOOSE_3':0x49,'KEY_CHOOSE_4':0x48,'KEY_CHOOSE_5':0x4a,'KEY_CHOOSE_6':0x4b,'KEY_MULTIBOX':0x78,'KEY_SHOWINVISIBLE':0x14,'KEY_PASSIVE':0x77,'mobile':/Android|webOS|iPhone|iPad|iPod|BlackBerry/i[_0x339307(0xc2)](navigator[_0x339307(0xc8)]),'showTree':![],'scrollX':0x0,'realScrollX':0x0,'screenWidth':window[_0x339307(0xc3)],'screenHeight':window[_0x339307(0xcc)],'gameWidth':0x0,'gameHeight':0x0,'xoffset':-0x0,'yoffset':-0x0,'gameStart':![],'connecting':![],'blackcircledisappear':![],'diedbruh':![],'diedseekbruh':![],'disconnected':![],'autoSpin':![],'died':![],'kicked':![],'continuity':![],'showintroduction':![],'startPingTime':0x0,'toggleMassState':0x0,'backgroundColor':_0x339307(0xcf),'lineColor':_0x339307(0xc0),'nameColor':_0x339307(0xbe),'player':{},'messages':[],'messages1':[],'messages2':[],'messages3':[],'messages4':[],'mesages':[],'messages5':[],'messages8':[],'messagesbaba':[],'isHoveringUpgradeBox':![],'reloadbox':![],'scoree':![],'reloadClicked':![],'movescreen':![],'skipbox':![],'skipClicked':![],'Settingsbox':![],'SettingsClicked':![],'reloadbox1':![],'spectatebox':![],'spectateClicked':![],'reloadClicked1':![],'isspectating':![],'hasupgrade':![],'disappearu':![],'cancelspectatebox':![],'cancelspectateClicked':![],'yesClicked':![],'yesbox':![],'showdeathscreen':![],'enterbox':![],'enterClicked':![],'isrespawning':![],'hidemenu':![],'closesettings':![],'upgradeMenuVisible':![],'nobox':![],'noClicked':![],'notdied':![],'windowunload':![],'choosenexit':![],'discardexit':![],'hasclickedsettings':![],'rewardState':[],'messagesblue':[],'mockups':[],'roomSetup':[],'entities':[],'updateTimes':0x0,'clickables':{'stat':Region(0xa),'upgrade':Region(0x64),'hover':Region(0x1),'skipUpgrades':Region(0x1),'refreshButton':Region(0x1),'scoree':Region(0x1),'spectate':Region(0x1),'cancelspectate':Region(0x1),'enterButton':Region(0x1),'mobileButtons':Region(0x14),'settingsbutton':Region(0x1),'mobileSettings':Region(0x1),'closesettingsbutton':Region(0x1),'dday':Region(0x1),'bossrush':Region(0x1),'mothership':Region(0x1),'domination':Region(0x1),'killrace':Region(0x1),'exit':Region(0x1),'yes':Region(0x1),'no':Region(0x1)},'statHover':![],'upgradeHover':![],'statMaxing':![],'metrics':{'latency':0x0,'lag':0x0,'rendertime':0x0,'updatetime':0x0,'lastlag':0x0,'lastrender':0x0,'rendergap':0x0,'lastuplink':0x0},'mouse':{'x':0x0,'y':0x0},'target':{'x':0x0,'y':0x0},'guiMouse':{'x':0x0,'y':0x0},'target1':{'x':0x0,'y':0x0,'down':![]},'fps':0x3c,'mockupLoading':{'then':_0xaed2b5=>_0xaed2b5()},'screenSize':Math['min'](0x780,Math['max'](window[_0x339307(0xc3)],0x500)),'ratio':window[_0x339307(0xc4)],'chats':{}};export{global};
+function Clickable() {
+    let _0x5be030 = {
+      x: 0,
+      y: 0,
+      w: 0,
+      h: 0
+    };
+    let _0x4f62cd = false;
+    return {
+      set: (_0x2ab770, _0x1a65e1, _0x2f2ef3, _0x56bbe8) => {
+        _0x5be030.x = _0x2ab770 * global.ratio;
+        _0x5be030.y = _0x1a65e1 * global.ratio;
+        _0x5be030.w = _0x2f2ef3 * global.ratio;
+        _0x5be030.h = _0x56bbe8 * global.ratio;
+        _0x4f62cd = true;
+      },
+      check: _0x14fcb5 => {
+        let _0x38fef6 = Math.round(_0x14fcb5.x - _0x5be030.x);
+        let _0x3c16bc = Math.round(_0x14fcb5.y - _0x5be030.y);
+        return _0x4f62cd && _0x38fef6 >= 0 && _0x3c16bc >= 0 && _0x38fef6 <= _0x5be030.w && _0x3c16bc <= _0x5be030.h;
+      },
+      hide: () => {
+        _0x4f62cd = false;
+      }
+    };
+  }
+  let Region = _0x1f62fa => {
+    let _0xf3b35c = [];
+    for (let _0x1389a9 = 0; _0x1389a9 < _0x1f62fa; _0x1389a9++) {
+      _0xf3b35c.push(Clickable());
+    }
+    return {
+      place: (_0x3ac407, ..._0x37df55) => {
+        if (_0x3ac407 >= _0xf3b35c.length) {
+          console.log(_0x3ac407);
+          console.log(_0xf3b35c);
+          throw new Error("Trying to reference a clickable outside a region!");
+        }
+        _0xf3b35c[_0x3ac407].set(..._0x37df55);
+      },
+      hide: () => {
+        for (let _0x4d1240 of _0xf3b35c) {
+          _0x4d1240.hide();
+        }
+      },
+      check: _0x48723e => _0xf3b35c.findIndex(_0x52f52d => _0x52f52d.check(_0x48723e))
+    };
+  };
+  const global = {
+    KEY_ESC: 27,
+    KEY_ENTER: 13,
+    KEY_SHIFT: 16,
+    KEY_BECOME: 72,
+    KEY_CHAT: 13,
+    KEY_FIREFOOD: 119,
+    KEY_SPLIT: 32,
+    KEY_KILL_WITH_MOUSE: 71,
+    KEY_LEFT: 65,
+    KEY_UP: 87,
+    KEY_RIGHT: 68,
+    KEY_DOWN: 83,
+    KEY_LEFT_ARROW: 37,
+    KEY_UP_ARROW: 38,
+    KEY_RIGHT_ARROW: 39,
+    KEY_DOWN_ARROW: 40,
+    KEY_SCREENSHOT: 81,
+    KEY_SPECTATE: 76,
+    KEY_BASIC_TANK: 80,
+    KEY_KICK_PLAYER: 220,
+    KEY_AUTO_SPIN: 67,
+    KEY_AUTO_FIRE: 69,
+    KEY_VANISH: 74,
+    KEY_OVER_RIDE: 82,
+    KEY_REVERSE_TANK: 86,
+    KEY_REVERSE_MOUSE: 66,
+    KEY_SPIN_LOCK: 88,
+    KEY_DRAG: 70,
+    KEY_BAN_PLAYER: 190,
+    KEY_RECORD: 90,
+    KEY_MAKE_BIGGER: 85,
+    KEY_GIVE_TESTBED: 48,
+    KEY_HEAL_PLAYER: 8,
+    KEY_CONTROL: 56,
+     KEY_CONTROL_TRUE: 49,
+    KEY_LEVEL_UP: 78,
+    KEY_FUCK_YOU: 192,
+    KEY_GODMODE: 186,
+    KEY_TELEPORT: 221,
+    KEY_CLASS_TREE: 84,
+    KEY_SPAWN_WALL: 89,
+    KEY_MAX_STAT: 77,
+    KEY_SUICIDE: 75,
+    KEY_RAINBOW: 79,
+    KEY_ZOOM_IN: 187,
+    KEY_ZOOM_OUT: 189,
+    KEY_ZOOM_CLEAR: 222,
+    KEY_MAKE_SMALLER: 73,
+    KEY_SMALLER: 188,
+    KEY_SPAWN_ENTITY: 57,
+    KEY_BIGGER: 191,
+    KEY_HELP_KEY: 113,
+    KEY_NAME_KEY: 44,
+    KEY_STRONGER: 219,
+    KEY_UPGRADE_ATK: 49,
+    KEY_UPGRADE_HTL: 50,
+    KEY_UPGRADE_SPD: 51,
+    KEY_UPGRADE_STR: 52,
+    KEY_UPGRADE_PEN: 53,
+    KEY_UPGRADE_DAM: 54,
+    KEY_UPGRADE_RLD: 55,
+    KEY_UPGRADE_MOB: 56,
+    KEY_UPGRADE_RGN: 57,
+    KEY_UPGRADE_SHI: 48,
+    KEY_MOUSE_0: 32,
+    KEY_MOUSE_1: 86,
+    KEY_MOUSE_2: 16,
+    KEY_CHOOSE_1: 89,
+    KEY_CHOOSE_2: 85,
+    KEY_CHOOSE_3: 73,
+    KEY_CHOOSE_4: 72,
+    KEY_CHOOSE_5: 74,
+    KEY_CHOOSE_6: 75,
+    KEY_MULTIBOX: 120,
+    KEY_SHOWINVISIBLE: 20,
+    KEY_PASSIVE: 119,
+    mobile: /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent),
+    showTree: false,
+    scrollX: 0,
+    realScrollX: 0,
+    screenWidth: window.innerWidth,
+    screenHeight: window.innerHeight,
+    gameWidth: 0,
+    gameHeight: 0,
+    oldGameWidth: 0,
+    oldGameHeight: 0,
+    realGameWidth: 0,
+    realGameHeight: 0,
+    xoffset: -0,
+    yoffset: -0,
+    gameStart: false,
+    connecting: false,
+    banned1: false,
+    blackcircledisappear: false,
+    diedbruh: false,
+    diedseekbruh: false,
+    disconnected: false,
+    autoSpin: false,
+    died: false,
+    kicked: false,
+    continuity: false,
+    aa: false,
+    showintroduction: false,
+    startPingTime: 0,
+    toggleMassState: 0,
+    backgroundColor: "#f2fbff",
+    lineColor: "#000000",
+    nameColor: "#FFFFFF",
+    player: {},
+    messages: [],
+    messages1: [],
+    messages2: [],
+    messages3: [],
+    messages4: [],
+    mesages: [],
+    messages5: [],
+    messages8: [],
+    messagesbaba: [],
+    isHoveringUpgradeBox: false,
+    reloadbox: false,
+    scoree: false,
+    reloadClicked: false,
+    movescreen: false,
+    skipbox: false,
+    skipClicked: false,
+    Settingsbox: false,
+    SettingsClicked: false,
+    reloadbox1: false,
+    spectatebox: false,
+    spectateClicked: false,
+    ab: false,
+    reloadClicked1: false,
+    isspectating: false,
+    hasupgrade: false,
+    disappearu: false,
+    cancelspectatebox: false,
+    cancelspectateClicked: false,
+    yesClicked: false,
+    yesbox: false,
+    showdeathscreen: false,
+    updeath: false,
+    enterbox: false,
+    enterClicked: false,
+    isrespawning: false,
+    hidemenu: false,
+    closesettings: false,
+    upgradeMenuVisible: false,
+    nobox: false,
+    noClicked: false,
+    notdied: false,
+    windowunload: false,
+    choosenexit: false,
+    discardexit: false,
+    hasclickedsettings: false,
+    rewardState: [],
+    messagesblue: [],
+    mockups: [],
+    roomSetup: [],
+    entities: [],
+    updateTimes: 0,
+    clickables: {
+      stat: Region(10),
+      upgrade: Region(100),
+      hover: Region(1),
+      skipUpgrades: Region(1),
+      refreshButton: Region(1),
+      scoree: Region(1),
+      spectate: Region(1),
+      cancelspectate: Region(1),
+      enterButton: Region(1),
+      mobileButtons: Region(20),
+      settingsbutton: Region(1),
+      mobileSettings: Region(1),
+      closesettingsbutton: Region(1),
+      dday: Region(1),
+      bossrush: Region(1),
+      mothership: Region(1),
+      domination: Region(1),
+      killrace: Region(1),
+      exit: Region(1),
+      yes: Region(1),
+      no: Region(1)
+    },
+    statHover: false,
+    upgradeHover: false,
+    statMaxing: false,
+    metrics: {
+      latency: 0,
+      lag: 0,
+      rendertime: 0,
+      updatetime: 0,
+      lastlag: 0,
+      lastrender: 0,
+      rendergap: 0,
+      lastuplink: 0
+    },
+    mouse: {
+      x: 0,
+      y: 0
+    },
+    target: {
+      x: 0,
+      y: 0
+    },
+    guiMouse: {
+      x: 0,
+      y: 0
+    },
+    target1: {
+      x: 0,
+      y: 0,
+      down: false
+    },
+    fps: 60,
+    mockupLoading: {
+      then: _0xaed2b5 => _0xaed2b5()
+    },
+    screenSize: Math.min(1920, Math.max(window.innerWidth, 1280)),
+    ratio: window.devicePixelRatio,
+    chats: {}
+  };
+  export { global };
