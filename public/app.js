@@ -5887,7 +5887,7 @@ const introduction = () => {
       drawTextconnect("Core", global.screenWidth / 2, 40, 30, color.guiwhite, "center");
       drawTextconnect("Stay in the center of the map to win!", global.screenWidth / 2, 70, 20, color.guiwhite, "center");
 
-    }    else if (window.serverAdd === "automatic-space-rotary-phone-57444pjr7vq3vx57-3007.app.github.dev" || window.serverAdd === "dreadful-superstition-wrg7qgg4x57rcvjj4-30007.app.github.dev" || window.serverAdd === "frightening-shadow-4j7v66grj9qr2qjwq-30007.app.github.dev") {
+    }    else if (window.serverAdd === "automatic-space-rotary-phone-57444pjr7vq3vx57-3007.app.github.dev") {
       drawTextconnect("Closed Beta", global.screenWidth / 2, 40, 30, color.guiwhite, "center");
       drawTextconnect("A private server with developer powers.", global.screenWidth / 2, 70, 20, color.guiwhite, "center");
 
