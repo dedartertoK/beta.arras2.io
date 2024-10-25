@@ -1,1 +1,6852 @@
-(function(_0x5edb00,_0x8802b7){const _0x388095=_0x4d1c,_0x1130ac=_0x5edb00();while(!![]){try{const _0x480b27=-parseInt(_0x388095(0x306))/0x1+parseInt(_0x388095(0x1dd))/0x2+-parseInt(_0x388095(0x299))/0x3+-parseInt(_0x388095(0x238))/0x4*(-parseInt(_0x388095(0x414))/0x5)+-parseInt(_0x388095(0x244))/0x6*(parseInt(_0x388095(0x49b))/0x7)+parseInt(_0x388095(0x415))/0x8*(parseInt(_0x388095(0x42c))/0x9)+-parseInt(_0x388095(0x417))/0xa;if(_0x480b27===_0x8802b7)break;else _0x1130ac['push'](_0x1130ac['shift']());}catch(_0x12d337){_0x1130ac['push'](_0x1130ac['shift']());}}}(_0xea98,0x32162));import{util}from'./lib/util.js';function _0xea98(){const _0x2a9f5e=['amount','roomSetup','connecting','Fight\x20with\x20your\x20teammates\x20against\x20your\x20opponent\x27s\x20team!','#00DC08','Update\x20Rate:\x20','getBlend','retrieveFromLocalStorage','dead','shield','Any\x20cheating\x20scripts\x20such\x20as\x20multibox\x20will\x20result\x20in\x20a\x20ban.','Tip:\x20For\x20better\x20performance\x20and\x20a\x20smoother\x20experience,\x20enable\x20better\x20FPS\x20on\x20the\x20view\x20options!','\x20FPS','renderv','find','0px','messages2','#E03E41','choosenexit','#000','introTextState','getStatNames','dominationusa','rerootUpgradeTree','data','firstChild','#5C6BC0','applyButton','https://super-duper-goggles-g475v6p65wwv2vgwp-30007.app.github.dev/lib/json/gamemodeData.json','onerror','cos','string','sign','enterClicked','Game\x20already\x20started!\x20Cannot\x20join','className','jpg','gameMode','None.','You\x27re\x20using\x20a\x20modifed\x20game\x20client','radius','Arras2.io','startButton','fadeOut','add','showInvisible','webkitRequestAnimationFrame','antivpn1','totalplayersred','frightening-shadow-4j7v66grj9qr2qjwq-30003.app.github.dev','fontSize','barChunk','banned1','upgradeName','messages','Tip:\x20You\x20can\x20press\x20X\x20to\x20spinlock\x20your\x20tank\x20to\x20aim\x20better!','You\x20haven\x27t\x20killed\x20any\x20entity','\x20ms\x20-\x20','shouldScrollY','28GClFja','SettingsClicked','20%','rotation','forceapply','#ffffff','toFixed','undefined','angle','messagekick','cancelspectatebox','white','join','closedbetaasia','guiwhite','len','core','MAX','88.126.207.146','webp','tips','messagesbaba','100vh','getFullYear','https://super-duper-goggles-g475v6p65wwv2vgwp-30002.app.github.dev/lib/json/gamemodeData.json','padding','catch','fourtdm','addArticle','disconnected','black','style','spectate','hide','animLoopHandle','frightening-shadow-4j7v66grj9qr2qjwq-30005.app.github.dev','smoothness','#centerTank','yesbox','reloadbox1','stat','canUpgrade','#optScreenshotMode','true','300px','showDebug','cap','transition','#0079EE','playerNameInput','getRatio','ceil','startMenuSlidingContent','none','https://super-duper-goggles-g475v6p65wwv2vgwp-30004.app.github.dev/lib/json/gamemodeData.json','playerid','introTextStartTime','fixedScrollX','#8F8E8E','textContent','#3D9FFF','darkBorders','lastRegionButton','#5ae200','normal','interval','BANNED','No\x20IP\x20address\x20detected.','frightening-shadow-4j7v66grj9qr2qjwq-30000.app.github.dev','substring','includes','pentagon','modifyColor','#optFancy','ffa','lerpAngle','setColor','realTime','Reconnected\x20and\x20updating\x20game\x20state...','requestAnimFrame','super-duper-goggles-g475v6p65wwv2vgwp-30002.app.github.dev','get','noClicked','Unknown','PIRACY\x20IS\x20NO\x20FUN','clientWidth','daconnectingmsg','insertBefore','map','createTextNode','mothership','getScreenRatio','__s','target','querySelector','freezebody','random','#ffae00','525802YBGPux','socket','imageSmoothingEnabled','dreadful-superstition-wrg7qgg4x57rcvjj4-30008.app.github.dev','kicked','time','image','start','\x20out','finalLifetime','requestAnimationFrame','0\x205px\x2015px\x20rgba(0,\x200,\x200,\x200.3)','shadowOffsetX','rotate','Attack\x20with\x20your\x20teammates\x203\x20other\x20teams!','\x20and\x20','high','zIndex','middle','grey','softcap','pink','linear-gradient(0deg,#45f5d5\x2040%,#37c9ae\x2040%)','globalAlpha','🌶️','Chat','fancyAnimations','getScore','top\x200.5s\x20ease-out,\x20opacity\x200.5s\x20ease-out','reset','msRequestAnimationFrame','Mothership','mothershipasia','#88fcf4','refreshButton','#FF0000','getTime','tbody','src','sin','offset','nameplate','lineCap','mouse','\x20players','json','For\x20blue\x20team,\x20destroy\x20red\x20dominators.\x20For\x20red\x20team,\x20protect\x20your\x20dominators\x20and\x20destroy\x20blue\x20dominators.','Time\x20alive:\x20','getLerp','.red-button','forEach','screenHeight','dreadful-superstition-wrg7qgg4x57rcvjj4-30001.app.github.dev','clearUpgrades','ffausa','gameStart','messages5','100vw','omgwork','If\x20you\x20don\x27t\x20want\x20to\x20miss\x20the\x20events\x20coming,\x20join\x20the\x20official\x20arras2.io\x20discord\x20server!','#forceapply','#savesettingstext','colorCache','https://super-duper-goggles-g475v6p65wwv2vgwp-30008.app.github.dev/lib/json/gamemodeData.json','.asiareal-button','recursion','score','roomSpeed','top','asiareal','#FD8989','push','hasclickedsettings','drawAbove','borderChunk','abs','showdeathscreen','totalplayersmaze','Manual','moveTo','fill','cancelAnimFrame','totalplayers4tdm','statusText','.new-maze-button','min','length','died','.yellow-button','floor','optCustom','25804PpPxSK','Options\x20applied.','direction','frightening-shadow-4j7v66grj9qr2qjwq-30004.app.github.dev','disconnected1','updateTimes','dreadful-superstition-wrg7qgg4x57rcvjj4-30009.app.github.dev','#betterperformance','translateX(-50%)','place','createLinearGradient','\x20in,\x20','270318PipCHI','strokeStyle','bossrush','#8B0000','coreusa','iterate','gameHeight','bold\x20','4TDM','lag','bossrushusa','mobileButtons','scale','submitToLocalStorage','click','#seperatedHealthbars','optFancy','#363636','tier','Kill\x20Race','Network\x20response\x20was\x20not\x20ok:\x20','splice','Play','super-duper-goggles-g475v6p65wwv2vgwp-30009.app.github.dev','#FF5E65','Ignore','automatic-space-rotary-phone-57444pjr7vq3vx57-3007.app.github.dev','https://super-duper-goggles-g475v6p65wwv2vgwp-30001.app.github.dev/lib/json/gamemodeData.json','graphical','textAlign','round','totalplayerspink','ping','#C7C3C3','pathname','skipClicked','fourtdmusa','cancelspectate','frightening-shadow-4j7v66grj9qr2qjwq-30006.app.github.dev','deathScreen','rect','shouldScrollX','getHours','You\x20were\x20killed\x20by:\x20','lastClickedButton','dataset','.usareal-button','turrets','pullJSON','ddayasia','dreadful-superstition-wrg7qgg4x57rcvjj4-30007.app.github.dev','16px','getColor','skipUpgrades','spectateClicked','canvas','mirrorMasterAngle','restore','You\x20have\x20been\x20temporarily\x20banned\x20from\x20the\x20game.','https://dreadful-superstition-wrg7qgg4x57rcvjj4-30008.app.github.dev/lib/json/gamemodeData.json','closedbetausa','getMonth','Enter','#ffdd00','goodEnough','finishedloadingmockups','getMinutes','\x20Players</h4>','#coloredHealthbars','#high','now','.new-ffa-button','totalplayersbrown','dday','flip','messages3','You\x20do\x20not\x20have\x20permissions\x20to\x20join\x20this\x20server.','vel','focus','label','metrics','content','super-duper-goggles-g475v6p65wwv2vgwp-30003.app.github.dev','totalplayers2tdm','clip','11988nLHGlD','autoSpin','Arial','getElementById','square','drawFill','fixed','optBordersChange','errordetected','frightening-shadow-4j7v66grj9qr2qjwq-30002.app.github.dev','facing','Autofire','Reverse','color','mockupLoading','shift','\x20ms\x20:\x20','You\x20have\x20been\x20banned\x20from\x20the\x20game.','fillRect','https://automatic-space-rotary-phone-57444pjr7vq3vx57-3003.app.github.dev/lib/json/gamemodeData.json','upgradeMenuVisible','drawImage','skipbox','fillText','layer','circle','Upgrades','lerp','diedseekbruh','arras2railway1-production.up.railway.app','#ff4747','mesage','serverName','timeZone','shape','#1E90FF','fps','check','then','arc','getProgress','\x20|\x20','formatLargeNumber','Boss\x20Rush','serverAdd','Mockups\x20loading\x20complete.','remove','totalPlayerCount','innerHTML','beginPath','frightening-shadow-4j7v66grj9qr2qjwq-30008.app.github.dev','clickables','closedbeta','Kill\x20your\x20opponent\x27s\x20mothership\x20to\x20win!','addEventListener','maze','lineJoin','finalScore','allthesanctuarieskilled','#AFAEAE','message','rendertime','Spectate','ratio','#00B0E1','from','opacity','some','bandwidth','statHover','50%','yellow','error','diedbruh','class','dreadful-superstition-wrg7qgg4x57rcvjj4-30003.app.github.dev','type','cancelAnimationFrame','entities','classList','removeChild','keyCode','value','super-duper-goggles-g475v6p65wwv2vgwp-30004.app.github.dev','https://dreadful-superstition-wrg7qgg4x57rcvjj4-30003.app.github.dev/lib/json/gamemodeData.json','snowCanvas','mothershipusa','quadraticCurveTo','out','skills','fontSizeBoost','dark','dir','altFire','strokeText','#chk3d','chk3d','clearRect','https://super-duper-goggles-g475v6p65wwv2vgwp-30003.app.github.dev/lib/json/gamemodeData.json','dreadful-superstition-wrg7qgg4x57rcvjj4-30006.app.github.dev','Settingsbox','innerWidth','nopixel','betterperformance','px\x20Ubuntu','Score:\x20','onbeforeunload','set','jpeg','381233Btsadg','getSeconds','connectingmsg','You\x20may\x20need\x20to\x20reload\x20the\x20page\x20if\x20the\x20screen\x20doesn\x27t\x20disappear','seperatedHealthbars','fillStyle','isArray','mobile','super-duper-goggles-g475v6p65wwv2vgwp-30008.app.github.dev','font','#006699','borderRadius','slice','Escape\x20from\x20the\x20dangerous\x20killer\x20to\x20without\x20being\x20killed!','shadowColor','aaaa','gameCanvas','scoree','twotdmasia','transform','yesClicked','orange','super-duper-goggles-g475v6p65wwv2vgwp-30000.app.github.dev','usareal','updatetime','reanimateColors','getTransform','nameColor','checked','sendmessagefps','mozRequestAnimationFrame','isspectating','.pink-button','block','totalplayersblue','X\x20Stop\x20spectating','discardexit','guiblack','What\x20is\x20this\x20new\x20world\x20of\x20diep.io???','screeny','lineWidth','png','Core','.greenreal-button','antivpn','bossrushasia','hidemenu','fourtdmasia','setItem','getPositions','...','ddayusa','totalplayersbeige','div','A\x20weird\x20error\x20has\x20been\x20detected.','isScoping','neon','1000','Level:\x20','Error\x20fetching\x20IP\x20address:','lineTo','#FFFFFF','#00D1C2','currentFps','lerpedFacing','#5FFF64','optScreenshotMode','text','Failed\x20to\x20load\x20image!\x0aURL:','https://webserverip.onrender.com/api/getPublicIP','closesettings','An\x20unknown\x20entity','drawsHealth','resolvedOptions','entries','mazeasia','#89FD8D','points','introShown','coloredHealthbars','vel2','Tip:\x20You\x20can\x20press\x20T\x20to\x20see\x20the\x20class\x20tree','reloadClicked','getLevel','screenWidth','optBorders','super-duper-goggles-g475v6p65wwv2vgwp-30001.app.github.dev','Bandwidth:\x20','atan2','complete','mixColors','resize','render','isHoveringUpgradeBox','lgreen','screenshotMode','prevChecked','teal','.new-2tdm-button','clientHeight','canSkill','FFA','every','statnames','screenx','killraceasia','centerTank','expires','index','latency','No\x20tank\x20tree\x20rendered\x20yet.','guns','Please\x20contact\x20the\x20developer.','red','#FFF83B','right','innerHeight','#FF5F5F','pointy','Here\x20is\x20the\x20following\x20error\x20code:','#D5D5D5','getZoneColor','backgroundColor','A\x20private\x20server\x20with\x20developer\x20powers.','reduce','showTree','shadowBlur','green','mockups.json','Yes','greyBox','miterText','Waiting\x20for\x20players...','playerName','log','#CC4C4C','getItem','The\x20connection\x20has\x20closed.','https://dreadful-superstition-wrg7qgg4x57rcvjj4-30002.app.github.dev/lib/json/gamemodeData.json','Domination','boxShadow','2TDM','timeForHumans','totalPlayerCountasia','lastrender','twotdmusa','players','waitingloop','change','handleLargeNumber','https://dreadful-superstition-wrg7qgg4x57rcvjj4-30005.app.github.dev/lib/json/gamemodeData.json','aspect','load','mininumBorderChunk','getFade','isMultiserver','Please\x20remove\x20your\x20client\x20and\x20report\x20this\x20to\x20LA3T#4868','frightening-shadow-4j7v66grj9qr2qjwq-30009.app.github.dev','fontStrokeRatio','Please\x20send\x20this\x20error\x20code\x20to\x20the\x20developer\x20in\x20order\x20to\x20fix\x20it.','This\x20feature\x20is\x20not\x20available\x20yet.','DISCONNECTED','maxHeight','filter','showintroduction','rendergap','#optNoPointy','gray','Fullscreen','Special','chats','Destroy\x20all\x20dominators\x20to\x20win!','messagesblue','realSize','values','fadeIn','betternofcway','optColors','Reload','.new-4tdm-button','absolute','reloadbox','D-Day','#d80000','position','cmd','Loading\x20Mockups...','Reason:\x20','startMenuWrapper','onclick','10px','enterbox','dreadful-superstition-wrg7qgg4x57rcvjj4-30005.app.github.dev','upgrades','#e5ff00','strokeRect','status','contains','tryingtoreconnect','getMotion','reloadClicked1','super-duper-goggles-g475v6p65wwv2vgwp-30007.app.github.dev','Tip:\x20You\x20can\x20press\x20ENTER\x20to\x20chat\x20with\x20people!','totalplayersyellow','#2e3eea','upgradeHover','killraceusa','textBaseline','expandsWithDeath','px\x20Ubuntu1','optNoPointy','padStart','custom','update','botplay','children','.blue-button','gameWidth','%\x20:\x20','gameAreaWrapper','triangle','gameStart1','domination','getDate','arenaClosed','center','fixedScrollY','#000000','optColorsChange','size','Exit','coreasia','userAgent','Attack\x20everyone\x20in\x20a\x20labyrinth.','shadowOffsetY','alpha','waitingloop1','#9B9B9B','gone','rendery','left','Maze','gamemodeData','finalKills','exit','#3c3c3c','miter','blur(10px)','selected','Error\x20loading\x20mockups:','.beige-button','Fight\x20each\x20other\x20and\x20gain\x20highest\x20score!','highResolution','toLowerCase','isBroken','twotdm','all','<h4\x20class=\x22nopadding\x22>','max','#db2100','#5AFF47','Autospin','closePath','#5CFFF4','translate','sancdiedripforyouanyways','height','indexOf','measureText','introTextAlpha','265EYVQUC','8yptDOd','dreadful-superstition-wrg7qgg4x57rcvjj4-30004.app.github.dev','1501210LKhRey','createElement','#D10202','bmp','renderx','https://dreadful-superstition-wrg7qgg4x57rcvjj4-30004.app.github.dev/lib/json/gamemodeData.json','body','hpLoss','piracy','.brown-button','#FF6D6D','.green-button','display','::1','mockups','Close','mazeusa','player','active','#033568','smasherreward','2843208HdProl','frightening-shadow-4j7v66grj9qr2qjwq-30001.app.github.dev','appendChild','glow','borderless','mozCancelAnimationFrame','frightening-shadow-4j7v66grj9qr2qjwq-30007.app.github.dev','super-duper-goggles-g475v6p65wwv2vgwp-30006.app.github.dev','cancelspectateClicked','devicePixelRatio','dreadful-superstition-wrg7qgg4x57rcvjj4-30000.app.github.dev','KEY_ENTER','getContext','Want\x20to\x20access\x20to\x20the\x20closed\x20beta\x20server?\x20Contact\x20the\x20developer!','reconnected','toString','messages1','KICKED','name','pop','getEntityImageFromMockup','20px','Scoreboard','-100px','background','killrace','totalplayersffa','upgrade','Disabled','ffaasia','stroke','https://dreadful-superstition-wrg7qgg4x57rcvjj4-30006.app.github.dev/lib/json/gamemodeData.json','DiepIO','sqrt','save','test','localhost:3009','scrollX','blue','width','scrollY','https://frightening-shadow-4j7v66grj9qr2qjwq-30000.app.github.dev/lib/json/gamemodeData.json','axis','#ff7300','glass','Starting...','messages4','down','resizeEvent','dominationasia','getNoLerp','split'];_0xea98=function(){return _0x2a9f5e;};return _0xea98();}import{global}from'./lib/global.js';function _0x4d1c(_0x3957bc,_0x2c8868){const _0xea9893=_0xea98();return _0x4d1c=function(_0x4d1cfa,_0x305383){_0x4d1cfa=_0x4d1cfa-0x1c5;let _0x3aabf3=_0xea9893[_0x4d1cfa];return _0x3aabf3;},_0x4d1c(_0x3957bc,_0x2c8868);}import{config}from'./lib/config.js';import{Canvas}from'./lib/canvas.js';import{color as _0x529bca}from'./lib/color.js';import{gameDraw}from'./lib/gameDraw.js';import*as _0x13e9b0 from'./lib/socketInit.js';(async function(_0x45e032,_0x198623,_0x1054cf,_0x214b2f,_0x16d3b0,_0x3e3011,_0x5810dc){const _0x59d4a3=_0x4d1c;let {socketInit:_0x316b12,gui:_0x4d07f2,leaderboard:_0x506d2f,minimap:_0x44c25d,moveCompensation:_0x12bfbe,lag:_0x19b286,getNow:_0x506685}=_0x5810dc;document[_0x59d4a3(0x29c)](_0x59d4a3(0x332))['style'][_0x59d4a3(0x423)]=_0x59d4a3(0x4d0),document[_0x59d4a3(0x29c)](_0x59d4a3(0x48f))[_0x59d4a3(0x4ba)][_0x59d4a3(0x423)]=_0x59d4a3(0x4d0);document[_0x59d4a3(0x29c)](_0x59d4a3(0x48f))[_0x59d4a3(0x322)]&&(document['getElementById']('antivpn1')[_0x59d4a3(0x322)]=![]);class _0x149a5f{constructor(_0x110700,_0x56130d,_0x18d479=0.05){const _0x22b3e2=_0x59d4a3;this[_0x22b3e2(0x1e4)]=_0x110700,this['to']=_0x56130d,this[_0x22b3e2(0x2eb)]=_0x110700,this[_0x22b3e2(0x4bf)]=_0x18d479;}[_0x59d4a3(0x1fa)](){const _0x3e194e=_0x59d4a3;return this[_0x3e194e(0x2eb)]=this['start'],this['value'];}[_0x59d4a3(0x20d)](){const _0x356329=_0x59d4a3;return this['value']=_0x45e032[_0x356329(0x2b4)](this[_0x356329(0x2eb)],this['to'],this[_0x356329(0x4bf)],!![]),this[_0x356329(0x2eb)];}[_0x59d4a3(0x45e)](){const _0x46497d=_0x59d4a3;return this[_0x46497d(0x2eb)]=this['to'],this[_0x46497d(0x2eb)];}[_0x59d4a3(0x1cc)](){const _0x1f9781=_0x59d4a3;return _0x1054cf['graphical']['fancyAnimations']?this[_0x1f9781(0x20d)]():this[_0x1f9781(0x45e)]();}[_0x59d4a3(0x28e)](){const _0x3f2b56=_0x59d4a3,_0x2bfa80=this['to'],_0x740c38=this['start'];this[_0x3f2b56(0x1e4)]=_0x2bfa80,this['to']=_0x740c38;}[_0x59d4a3(0x284)](_0x51b434=0.5){const _0x50c694=_0x59d4a3;return Math['abs'](this['to']-this[_0x50c694(0x2eb)])<_0x51b434;}}let _0xb86390=window['animations']={'connecting':new _0x149a5f(0x1,0x0,0.35),'disconnected':new _0x149a5f(0x1,0x0,0.5),'disconnected1':new _0x149a5f(0x0,0x0),'settingsmenu':new _0x149a5f(0x0,0x1,0.01),'deathScreen':new _0x149a5f(0x1,0x0),'disconnected22':new _0x149a5f(0x0,0x0),'upgradeMenu':new _0x149a5f(0x0,0x1,0.01),'skillMenu':new _0x149a5f(0x0,0x1,0.01),'optionsMenu':new _0x149a5f(0x1,0x0),'minimap':new _0x149a5f(-0x1,0x1,0.025),'leaderboard':new _0x149a5f(-0x1,0x1,0.025)};_0x198623[_0x59d4a3(0x428)]={'id':-0x1,'x':_0x198623[_0x59d4a3(0x35a)]/0x2,'y':_0x198623[_0x59d4a3(0x210)]/0x2,'vx':0x0,'vy':0x0,'cx':0x0,'cy':0x0,'renderx':_0x198623[_0x59d4a3(0x35a)]/0x2,'rendery':_0x198623['screenHeight']/0x2,'renderv':0x1,'slip':0x0,'view':0x1,'time':0x0,'screenWidth':_0x198623[_0x59d4a3(0x35a)],'screenHeight':_0x198623[_0x59d4a3(0x210)],'nameColor':_0x59d4a3(0x4a0)},_0x198623[_0x59d4a3(0x1e2)]=0x0;var _0x1e52c3=0x0,_0x27a7c6=0x0,_0x1476c2=0x0,_0x273191=0x0,_0x474cee;_0x198623[_0x59d4a3(0x212)]=()=>_0x4d07f2[_0x59d4a3(0x3c7)]=[],_0x198623['movescreen']=![],_0x198623[_0x59d4a3(0x428)]=_0x198623[_0x59d4a3(0x428)],_0x198623[_0x59d4a3(0x363)]=![],_0x198623[_0x59d4a3(0x3bb)]=![],_0x198623[_0x59d4a3(0x217)]=![],_0x198623[_0x59d4a3(0x317)]=![],_0x198623['needsReset']=![],_0x198623['notdied']=![],_0x198623['disappearu']=![],_0x198623[_0x59d4a3(0x2af)]=![],_0x198623[_0x59d4a3(0x229)]=![],_0x198623[_0x59d4a3(0x267)]=![],_0x198623[_0x59d4a3(0x49c)]=![],_0x198623['sendmessagefps']=![],_0x198623[_0x59d4a3(0x4c1)]=![],_0x198623[_0x59d4a3(0x31a)]=![],_0x198623['nobox']=![],_0x198623['noClicked']=![],_0x198623[_0x59d4a3(0x334)]=![],_0x198623[_0x59d4a3(0x472)]=![],_0x198623[_0x59d4a3(0x32a)]=![],_0x198623[_0x59d4a3(0x462)]=![],_0x198623[_0x59d4a3(0x34c)]=![],_0x198623[_0x59d4a3(0x43a)]=![],_0x198623['Settingsbox']=![],_0x198623[_0x59d4a3(0x1de)]=![],_0x198623[_0x59d4a3(0x225)]=![],_0x198623[_0x59d4a3(0x358)]=![],_0x198623['upgradeMenuVisible']=![],_0x198623[_0x59d4a3(0x214)]=![],_0x198623[_0x59d4a3(0x3e3)]=![],_0x198623[_0x59d4a3(0x285)]=![],_0x198623[_0x59d4a3(0x3aa)]=![],_0x198623['aa']=![],_0x198623[_0x59d4a3(0x315)]=![],_0x198623['plsjust']=![],_0x198623[_0x59d4a3(0x3cc)]=![],_0x198623[_0x59d4a3(0x399)]=![],_0x198623[_0x59d4a3(0x3f2)]=![],_0x198623['optFancy']=![],_0x198623[_0x59d4a3(0x3b6)]=![],_0x198623['spectatebox']=![],_0x198623[_0x59d4a3(0x4a5)]=![],_0x198623[_0x59d4a3(0x434)]=![],_0x198623['isspectating']=![],_0x198623[_0x59d4a3(0x27a)]=![],_0x198623['ab']=![],_0x198623[_0x59d4a3(0x3c5)]=![],_0x198623[_0x59d4a3(0x481)]=![],_0x198623[_0x59d4a3(0x3ce)]=![],_0x198623[_0x59d4a3(0x4c2)]=![],_0x198623[_0x59d4a3(0x4c4)]=![],_0x198623['canSkill']=![],_0x198623[_0x59d4a3(0x2d5)]='',_0x198623[_0x59d4a3(0x2b8)]='',_0x198623[_0x59d4a3(0x2e2)]=![],_0x198623[_0x59d4a3(0x2b5)]=![],_0x198623[_0x59d4a3(0x308)]=_0x59d4a3(0x3c0),_0x198623[_0x59d4a3(0x1d1)]='Connecting',_0x198623['tips']=[_0x59d4a3(0x46b),_0x59d4a3(0x357),_0x59d4a3(0x439),_0x59d4a3(0x46a),_0x59d4a3(0x497),_0x59d4a3(0x218),_0x59d4a3(0x3d0),'Want\x20to\x20play\x20other\x20gamemodes?\x20Click\x20on\x20the\x20Switch\x20Gamemode\x20button!'][Math['floor'](Math[_0x59d4a3(0x1db)]()*0x8)],_0x198623[_0x59d4a3(0x30d)]&&document[_0x59d4a3(0x41d)][_0x59d4a3(0x2e8)][_0x59d4a3(0x48c)](_0x59d4a3(0x30d)),_0x198623[_0x59d4a3(0x30d)]=/Android|webOS|iPhone|iPad|iPod|BlackBerry/i[_0x59d4a3(0x44f)](navigator[_0x59d4a3(0x3ee)]);var _0x4f0566='Connected',_0xdcf4c8=_0x59d4a3(0x1ce);const _0x421a6c={'dday':_0x59d4a3(0x4d1),'bossrush':_0x59d4a3(0x4b3),'ddayusa':_0x59d4a3(0x41c),'bossrushusa':_0x59d4a3(0x390),'dominationusa':'https://dreadful-superstition-wrg7qgg4x57rcvjj4-30000.app.github.dev/lib/json/gamemodeData.json','mothershipusa':_0x59d4a3(0x2ed),'killraceusa':_0x59d4a3(0x27f),'coreusa':'https://dreadful-superstition-wrg7qgg4x57rcvjj4-30009.app.github.dev/lib/json/gamemodeData.json','ffausa':_0x59d4a3(0x39c),'twotdmusa':'https://dreadful-superstition-wrg7qgg4x57rcvjj4-30001.app.github.dev/lib/json/gamemodeData.json','mazeusa':_0x59d4a3(0x44b),'fourtdmusa':'https://dreadful-superstition-wrg7qgg4x57rcvjj4-30007.app.github.dev/lib/json/gamemodeData.json','ddayasia':_0x59d4a3(0x455),'bossrushasia':_0x59d4a3(0x455),'dominationasia':_0x59d4a3(0x455),'mothershipasia':_0x59d4a3(0x455),'killraceasia':'https://frightening-shadow-4j7v66grj9qr2qjwq-30000.app.github.dev/lib/json/gamemodeData.json','coreasia':_0x59d4a3(0x455),'ffaasia':_0x59d4a3(0x455),'twotdmasia':_0x59d4a3(0x455),'mazeasia':_0x59d4a3(0x455),'fourtdmasia':'https://frightening-shadow-4j7v66grj9qr2qjwq-30000.app.github.dev/lib/json/gamemodeData.json','domination':'https://super-duper-goggles-g475v6p65wwv2vgwp-30000.app.github.dev/lib/json/gamemodeData.json','mothership':_0x59d4a3(0x2fb),'killrace':_0x59d4a3(0x21c),'closedbeta':_0x59d4a3(0x2ac),'core':'https://super-duper-goggles-g475v6p65wwv2vgwp-30009.app.github.dev/lib/json/gamemodeData.json','ffa':'https://super-duper-goggles-g475v6p65wwv2vgwp-30005.app.github.dev/lib/json/gamemodeData.json','twotdm':_0x59d4a3(0x25f),'maze':'https://super-duper-goggles-g475v6p65wwv2vgwp-30006.app.github.dev/lib/json/gamemodeData.json','fourtdm':_0x59d4a3(0x47c)};let _0x240219={'dday':0x0,'bossrush':0x0,'domination':0x0,'mothership':0x0,'ddayusa':0x0,'bossrushusa':0x0,'dominationusa':0x0,'mothershipusa':0x0,'killraceusa':0x0,'coreusa':0x0,'ffausa':0x0,'twotdmusa':0x0,'mazeusa':0x0,'fourtdmusa':0x0,'ddayasia':0x0,'bossrushasia':0x0,'dominationasia':0x0,'mothershipasia':0x0,'killraceasia':0x0,'coreasia':0x0,'ffaasia':0x0,'twotdmasia':0x0,'mazeasia':0x0,'fourtdmasia':0x0,'killrace':0x0,'core':0x0,'closedbeta':0x0,'ffa':0x0,'twotdm':0x0,'maze':0x0,'fourtdm':0x0};function _0x217afd(){const _0x2a2104=_0x59d4a3,_0x2ffe60=Object[_0x2a2104(0x350)](_0x421a6c)[_0x2a2104(0x1d3)](([_0x1f5bdf,_0x2279b1])=>fetch(_0x2279b1)[_0x2a2104(0x2bf)](_0x450438=>_0x450438[_0x2a2104(0x20a)]())[_0x2a2104(0x2bf)](_0x28359e=>{const _0x4f4079=_0x2a2104;_0x240219[_0x1f5bdf]=_0x28359e[_0x4f4079(0x398)]||0x0;})[_0x2a2104(0x4b5)](_0x1709e1=>{const _0x210756=_0x2a2104;console[_0x210756(0x2e1)]('Error\x20fetching\x20'+_0x1f5bdf+'\x20player\x20count:',_0x1709e1),_0x240219[_0x1f5bdf]=0x0;}));Promise[_0x2a2104(0x406)](_0x2ffe60)[_0x2a2104(0x2bf)](()=>{_0x3ead58(),_0x3be108(),_0x2e074e(),_0x1750ef(),_0x238152(),_0x1fc690(),_0x2b6cf7(),_0x4a6d69(),_0x2af957(),_0x43a710(),_0x14d4c2(),_0x2363a3(),_0x501590(),_0x18e694(),_0x8a3812();});}function _0x3ead58(){const _0x5e7cda=_0x59d4a3;let _0x227a84=0x0;_0x227a84+=isNaN(_0x240219[_0x5e7cda(0x28d)])?0x0:_0x240219['dday'],_0x227a84+=isNaN(_0x240219[_0x5e7cda(0x246)])?0x0:_0x240219[_0x5e7cda(0x246)],_0x227a84+=isNaN(_0x240219[_0x5e7cda(0x3e4)])?0x0:_0x240219[_0x5e7cda(0x3e4)],_0x227a84+=isNaN(_0x240219['mothership'])?0x0:_0x240219[_0x5e7cda(0x1d5)],_0x227a84+=isNaN(_0x240219[_0x5e7cda(0x445)])?0x0:_0x240219[_0x5e7cda(0x445)],_0x227a84+=isNaN(_0x240219[_0x5e7cda(0x4ab)])?0x0:_0x240219[_0x5e7cda(0x4ab)],_0x227a84+=isNaN(_0x240219[_0x5e7cda(0x2cd)])?0x0:_0x240219[_0x5e7cda(0x2cd)],_0x227a84+=isNaN(_0x240219[_0x5e7cda(0x1c5)])?0x0:_0x240219[_0x5e7cda(0x1c5)],_0x227a84+=isNaN(_0x240219[_0x5e7cda(0x405)])?0x0:_0x240219[_0x5e7cda(0x405)],_0x227a84+=isNaN(_0x240219[_0x5e7cda(0x2d0)])?0x0:_0x240219['maze'],_0x227a84+=isNaN(_0x240219[_0x5e7cda(0x4b6)])?0x0:_0x240219[_0x5e7cda(0x4b6)],_0x227a84+=isNaN(_0x240219[_0x5e7cda(0x339)])?0x0:_0x240219[_0x5e7cda(0x339)],_0x227a84+=isNaN(_0x240219['bossrushusa'])?0x0:_0x240219[_0x5e7cda(0x24e)],_0x227a84+=isNaN(_0x240219[_0x5e7cda(0x476)])?0x0:_0x240219['dominationusa'],_0x227a84+=isNaN(_0x240219[_0x5e7cda(0x2ef)])?0x0:_0x240219[_0x5e7cda(0x2ef)],_0x227a84+=isNaN(_0x240219[_0x5e7cda(0x3d4)])?0x0:_0x240219[_0x5e7cda(0x3d4)],_0x227a84+=isNaN(_0x240219['coreusa'])?0x0:_0x240219['coreusa'],_0x227a84+=isNaN(_0x240219['ffausa'])?0x0:_0x240219[_0x5e7cda(0x213)],_0x227a84+=isNaN(_0x240219[_0x5e7cda(0x397)])?0x0:_0x240219[_0x5e7cda(0x397)],_0x227a84+=isNaN(_0x240219[_0x5e7cda(0x427)])?0x0:_0x240219[_0x5e7cda(0x427)],_0x227a84+=isNaN(_0x240219[_0x5e7cda(0x268)])?0x0:_0x240219[_0x5e7cda(0x268)],_0x227a84+=isNaN(_0x240219[_0x5e7cda(0x275)])?0x0:_0x240219[_0x5e7cda(0x275)],_0x227a84+=isNaN(_0x240219[_0x5e7cda(0x333)])?0x0:_0x240219[_0x5e7cda(0x333)],_0x227a84+=isNaN(_0x240219[_0x5e7cda(0x45d)])?0x0:_0x240219[_0x5e7cda(0x45d)],_0x227a84+=isNaN(_0x240219[_0x5e7cda(0x1fd)])?0x0:_0x240219[_0x5e7cda(0x1fd)],_0x227a84+=isNaN(_0x240219['killraceasia'])?0x0:_0x240219[_0x5e7cda(0x36f)],_0x227a84+=isNaN(_0x240219[_0x5e7cda(0x3ed)])?0x0:_0x240219[_0x5e7cda(0x3ed)],_0x227a84+=isNaN(_0x240219[_0x5e7cda(0x449)])?0x0:_0x240219[_0x5e7cda(0x449)],_0x227a84+=isNaN(_0x240219['twotdmasia'])?0x0:_0x240219[_0x5e7cda(0x318)],_0x227a84+=isNaN(_0x240219[_0x5e7cda(0x351)])?0x0:_0x240219[_0x5e7cda(0x351)],_0x227a84+=isNaN(_0x240219['fourtdmasia'])?0x0:_0x240219[_0x5e7cda(0x335)],document[_0x5e7cda(0x29c)](_0x5e7cda(0x2c8))[_0x5e7cda(0x4d6)]=_0x227a84+_0x5e7cda(0x209);}function _0x238152(){const _0x87e7e0=_0x59d4a3;let _0x534e2c=0x0;_0x534e2c+=isNaN(_0x240219[_0x87e7e0(0x28d)])?0x0:_0x240219[_0x87e7e0(0x28d)],_0x534e2c+=isNaN(_0x240219[_0x87e7e0(0x246)])?0x0:_0x240219[_0x87e7e0(0x246)],_0x534e2c+=isNaN(_0x240219[_0x87e7e0(0x3e4)])?0x0:_0x240219[_0x87e7e0(0x3e4)],_0x534e2c+=isNaN(_0x240219[_0x87e7e0(0x1d5)])?0x0:_0x240219[_0x87e7e0(0x1d5)],_0x534e2c+=isNaN(_0x240219['killrace'])?0x0:_0x240219[_0x87e7e0(0x445)],_0x534e2c+=isNaN(_0x240219[_0x87e7e0(0x4ab)])?0x0:_0x240219[_0x87e7e0(0x4ab)],_0x534e2c+=isNaN(_0x240219[_0x87e7e0(0x2cd)])?0x0:_0x240219[_0x87e7e0(0x2cd)],_0x534e2c+=isNaN(_0x240219[_0x87e7e0(0x1c5)])?0x0:_0x240219['ffa'],_0x534e2c+=isNaN(_0x240219[_0x87e7e0(0x405)])?0x0:_0x240219[_0x87e7e0(0x405)],_0x534e2c+=isNaN(_0x240219[_0x87e7e0(0x2d0)])?0x0:_0x240219[_0x87e7e0(0x2d0)],_0x534e2c+=isNaN(_0x240219[_0x87e7e0(0x4b6)])?0x0:_0x240219[_0x87e7e0(0x4b6)],document[_0x87e7e0(0x29c)]('totalPlayerCounteurope')[_0x87e7e0(0x4d6)]=_0x534e2c+'\x20players';}function _0x1fc690(){const _0x370331=_0x59d4a3;let _0x57e024=0x0;_0x57e024+=isNaN(_0x240219[_0x370331(0x339)])?0x0:_0x240219['ddayusa'],_0x57e024+=isNaN(_0x240219['bossrushusa'])?0x0:_0x240219[_0x370331(0x24e)],_0x57e024+=isNaN(_0x240219[_0x370331(0x476)])?0x0:_0x240219[_0x370331(0x476)],_0x57e024+=isNaN(_0x240219['mothershipusa'])?0x0:_0x240219[_0x370331(0x2ef)],_0x57e024+=isNaN(_0x240219[_0x370331(0x3d4)])?0x0:_0x240219[_0x370331(0x3d4)],_0x57e024+=isNaN(_0x240219[_0x370331(0x248)])?0x0:_0x240219[_0x370331(0x248)],_0x57e024+=isNaN(_0x240219['ffausa'])?0x0:_0x240219['ffausa'],_0x57e024+=isNaN(_0x240219[_0x370331(0x397)])?0x0:_0x240219[_0x370331(0x397)],_0x57e024+=isNaN(_0x240219[_0x370331(0x427)])?0x0:_0x240219['mazeusa'],_0x57e024+=isNaN(_0x240219[_0x370331(0x268)])?0x0:_0x240219['fourtdmusa'],document[_0x370331(0x29c)]('totalPlayerCountusa')['textContent']=_0x57e024+_0x370331(0x209);}function _0x2b6cf7(){const _0x3fdaf3=_0x59d4a3;let _0x57c1dd=0x0;_0x57c1dd+=isNaN(_0x240219[_0x3fdaf3(0x275)])?0x0:_0x240219[_0x3fdaf3(0x275)],_0x57c1dd+=isNaN(_0x240219[_0x3fdaf3(0x333)])?0x0:_0x240219[_0x3fdaf3(0x333)],_0x57c1dd+=isNaN(_0x240219[_0x3fdaf3(0x45d)])?0x0:_0x240219[_0x3fdaf3(0x45d)],_0x57c1dd+=isNaN(_0x240219[_0x3fdaf3(0x1fd)])?0x0:_0x240219[_0x3fdaf3(0x1fd)],_0x57c1dd+=isNaN(_0x240219[_0x3fdaf3(0x36f)])?0x0:_0x240219[_0x3fdaf3(0x36f)],_0x57c1dd+=isNaN(_0x240219[_0x3fdaf3(0x3ed)])?0x0:_0x240219[_0x3fdaf3(0x3ed)],_0x57c1dd+=isNaN(_0x240219[_0x3fdaf3(0x449)])?0x0:_0x240219[_0x3fdaf3(0x449)],_0x57c1dd+=isNaN(_0x240219[_0x3fdaf3(0x318)])?0x0:_0x240219['twotdmasia'],_0x57c1dd+=isNaN(_0x240219[_0x3fdaf3(0x351)])?0x0:_0x240219[_0x3fdaf3(0x351)],_0x57c1dd+=isNaN(_0x240219[_0x3fdaf3(0x335)])?0x0:_0x240219[_0x3fdaf3(0x335)],document[_0x3fdaf3(0x29c)](_0x3fdaf3(0x395))[_0x3fdaf3(0x4d6)]=_0x57c1dd+_0x3fdaf3(0x209);}let _0x370fcb=![],_0x4298d5=![];function _0x3be108(){const _0x5349dc=_0x59d4a3;let _0x1d0945=0x0;if(_0x370fcb)_0x1d0945+=isNaN(_0x240219[_0x5349dc(0x339)])?0x0:_0x240219[_0x5349dc(0x339)];else _0x4298d5?_0x1d0945+=isNaN(_0x240219[_0x5349dc(0x275)])?0x0:_0x240219[_0x5349dc(0x275)]:_0x1d0945+=isNaN(_0x240219[_0x5349dc(0x28d)])?0x0:_0x240219[_0x5349dc(0x28d)];document[_0x5349dc(0x29c)](_0x5349dc(0x490))['textContent']=_0x1d0945+_0x5349dc(0x209);}function _0x2e074e(){const _0x2369c2=_0x59d4a3;let _0x36fd68=0x0;if(_0x370fcb)_0x36fd68+=isNaN(_0x240219['bossrushusa'])?0x0:_0x240219[_0x2369c2(0x24e)];else _0x4298d5?_0x36fd68+=isNaN(_0x240219[_0x2369c2(0x333)])?0x0:_0x240219[_0x2369c2(0x333)]:_0x36fd68+=isNaN(_0x240219[_0x2369c2(0x246)])?0x0:_0x240219['bossrush'];document[_0x2369c2(0x29c)](_0x2369c2(0x3d1))[_0x2369c2(0x4d6)]=_0x36fd68+_0x2369c2(0x209);}function _0x1750ef(){const _0x89d2ab=_0x59d4a3;let _0x130b44=0x0;if(_0x370fcb)_0x130b44+=isNaN(_0x240219[_0x89d2ab(0x476)])?0x0:_0x240219['dominationusa'];else _0x4298d5?_0x130b44+=isNaN(_0x240219['dominationasia'])?0x0:_0x240219['dominationasia']:_0x130b44+=isNaN(_0x240219[_0x89d2ab(0x3e4)])?0x0:_0x240219[_0x89d2ab(0x3e4)];document[_0x89d2ab(0x29c)](_0x89d2ab(0x328))[_0x89d2ab(0x4d6)]=_0x130b44+_0x89d2ab(0x209);}function _0x4a6d69(){const _0x239915=_0x59d4a3;let _0x14accd=0x0;if(_0x370fcb)_0x14accd+=isNaN(_0x240219['mothershipusa'])?0x0:_0x240219[_0x239915(0x2ef)];else _0x4298d5?_0x14accd+=isNaN(_0x240219[_0x239915(0x1fd)])?0x0:_0x240219[_0x239915(0x1fd)]:_0x14accd+=isNaN(_0x240219[_0x239915(0x1d5)])?0x0:_0x240219['mothership'];document[_0x239915(0x29c)]('totalplayersgreen')['textContent']=_0x14accd+_0x239915(0x209);}function _0x2af957(){const _0x162dd7=_0x59d4a3;let _0x4ba316=0x0;if(_0x370fcb)_0x4ba316+=isNaN(_0x240219[_0x162dd7(0x280)])?0x0:_0x240219[_0x162dd7(0x280)];else _0x4298d5?_0x4ba316+=isNaN(_0x240219[_0x162dd7(0x4a8)])?0x0:_0x240219[_0x162dd7(0x4a8)]:_0x4ba316+=isNaN(_0x240219['closedbeta'])?0x0:_0x240219[_0x162dd7(0x2cd)];document['getElementById'](_0x162dd7(0x33a))[_0x162dd7(0x4d6)]=_0x4ba316+_0x162dd7(0x209);}function _0x43a710(){const _0x35e5ce=_0x59d4a3;let _0x2022c2=0x0;if(_0x370fcb)_0x2022c2+=isNaN(_0x240219[_0x35e5ce(0x3d4)])?0x0:_0x240219[_0x35e5ce(0x3d4)];else _0x4298d5?_0x2022c2+=isNaN(_0x240219[_0x35e5ce(0x36f)])?0x0:_0x240219[_0x35e5ce(0x36f)]:_0x2022c2+=isNaN(_0x240219[_0x35e5ce(0x445)])?0x0:_0x240219[_0x35e5ce(0x445)];document[_0x35e5ce(0x29c)](_0x35e5ce(0x28c))[_0x35e5ce(0x4d6)]=_0x2022c2+_0x35e5ce(0x209);}function _0x14d4c2(){const _0x2d8682=_0x59d4a3;let _0x100e85=0x0;if(_0x370fcb)_0x100e85+=isNaN(_0x240219['coreusa'])?0x0:_0x240219[_0x2d8682(0x248)];else _0x4298d5?_0x100e85+=isNaN(_0x240219[_0x2d8682(0x3ed)])?0x0:_0x240219['coreasia']:_0x100e85+=isNaN(_0x240219['core'])?0x0:_0x240219[_0x2d8682(0x4ab)];document[_0x2d8682(0x29c)](_0x2d8682(0x263))[_0x2d8682(0x4d6)]=_0x100e85+_0x2d8682(0x209);}function _0x2363a3(){const _0xbec7a9=_0x59d4a3;let _0x1c99c8=0x0;if(_0x370fcb)_0x1c99c8+=isNaN(_0x240219[_0xbec7a9(0x213)])?0x0:_0x240219[_0xbec7a9(0x213)];else _0x4298d5?_0x1c99c8+=isNaN(_0x240219[_0xbec7a9(0x449)])?0x0:_0x240219[_0xbec7a9(0x449)]:_0x1c99c8+=isNaN(_0x240219[_0xbec7a9(0x1c5)])?0x0:_0x240219[_0xbec7a9(0x1c5)];document[_0xbec7a9(0x29c)](_0xbec7a9(0x446))[_0xbec7a9(0x4d6)]=_0x1c99c8+_0xbec7a9(0x209);}function _0x501590(){const _0x574749=_0x59d4a3;let _0x2fde54=0x0;if(_0x370fcb)_0x2fde54+=isNaN(_0x240219[_0x574749(0x397)])?0x0:_0x240219['twotdmusa'];else _0x4298d5?_0x2fde54+=isNaN(_0x240219['twotdmasia'])?0x0:_0x240219[_0x574749(0x318)]:_0x2fde54+=isNaN(_0x240219[_0x574749(0x405)])?0x0:_0x240219[_0x574749(0x405)];document['getElementById'](_0x574749(0x297))[_0x574749(0x4d6)]=_0x2fde54+'\x20players';}function _0x18e694(){const _0x16e217=_0x59d4a3;let _0x573c68=0x0;if(_0x370fcb)_0x573c68+=isNaN(_0x240219['mazeusa'])?0x0:_0x240219[_0x16e217(0x427)];else _0x4298d5?_0x573c68+=isNaN(_0x240219[_0x16e217(0x351)])?0x0:_0x240219['mazeasia']:_0x573c68+=isNaN(_0x240219[_0x16e217(0x2d0)])?0x0:_0x240219[_0x16e217(0x2d0)];document[_0x16e217(0x29c)](_0x16e217(0x22a))[_0x16e217(0x4d6)]=_0x573c68+_0x16e217(0x209);}function _0x8a3812(){const _0xc548a=_0x59d4a3;let _0x4d9a3d=0x0;if(_0x370fcb)_0x4d9a3d+=isNaN(_0x240219[_0xc548a(0x268)])?0x0:_0x240219[_0xc548a(0x268)];else _0x4298d5?_0x4d9a3d+=isNaN(_0x240219[_0xc548a(0x335)])?0x0:_0x240219[_0xc548a(0x335)]:_0x4d9a3d+=isNaN(_0x240219[_0xc548a(0x4b6)])?0x0:_0x240219[_0xc548a(0x4b6)];document[_0xc548a(0x29c)](_0xc548a(0x22f))['textContent']=_0x4d9a3d+_0xc548a(0x209);}setInterval(_0x217afd,0x1f4),setInterval(_0x3ead58,0x1f4),setInterval(_0x3be108,0x1f4),setInterval(_0x2e074e,0x1f4),setInterval(_0x1750ef,0x1f4),setInterval(_0x4a6d69,0x1f4),setInterval(_0x2af957,0x1f4),setInterval(_0x43a710,0x1f4),setInterval(_0x14d4c2,0x1f4),setInterval(_0x2363a3,0x1f4),setInterval(_0x501590,0x1f4),setInterval(_0x18e694,0x1f4),setInterval(_0x8a3812,0x1f4),setInterval(_0x238152,0x1f4),setInterval(_0x1fc690,0x1f4),setInterval(_0x2b6cf7,0x1f4),_0x217afd(),_0x3ead58(),_0x238152(),_0x1fc690(),_0x2b6cf7();function _0x33e098(){const _0xb05f54=_0x59d4a3;_0x198623[_0xb05f54(0x2a7)]=new Promise(_0x3c7946=>{const _0x20fee3=_0xb05f54;fetch(_0x20fee3(0x386))['then'](_0x510867=>{const _0x385191=_0x20fee3;if(!_0x510867['ok'])throw new Error(_0x385191(0x258)+_0x510867[_0x385191(0x230)]);return _0x510867[_0x385191(0x20a)]();})[_0x20fee3(0x2bf)](_0x39a6bd=>{const _0x1959b7=_0x20fee3;_0x198623[_0x1959b7(0x425)]=_0x39a6bd,console[_0x1959b7(0x38c)](_0x1959b7(0x2c6)),_0x3c7946();})[_0x20fee3(0x4b5)](_0x296d74=>{const _0x329f70=_0x20fee3;console['error'](_0x329f70(0x3ff),_0x296d74),_0x3c7946();});});}function _0x294eb0(){const _0x3a8614=_0x59d4a3;_0x1e859d['style'][_0x3a8614(0x423)]=_0x3a8614(0x327),_0x1e859d[_0x3a8614(0x4ba)][_0x3a8614(0x221)]='20%',setTimeout(function(){_0x1e859d['style']['opacity']='0',setTimeout(function(){const _0x5810ea=_0x4d1c;_0x1e859d[_0x5810ea(0x4ba)]['top']=_0x5810ea(0x443),_0x1e859d[_0x5810ea(0x4ba)]['opacity']='1',_0x1e859d[_0x5810ea(0x4ba)][_0x5810ea(0x423)]=_0x5810ea(0x4d0);},0x1f4);},0xbb8);}function _0x101ee5(){const _0x2ee6c1=_0x59d4a3;_0x29b12f[_0x2ee6c1(0x4ba)][_0x2ee6c1(0x423)]=_0x2ee6c1(0x327),_0x29b12f[_0x2ee6c1(0x4ba)]['top']='20%',setTimeout(function(){const _0x56c7e6=_0x2ee6c1;_0x29b12f[_0x56c7e6(0x4ba)][_0x56c7e6(0x2db)]='0',setTimeout(function(){const _0x49c759=_0x56c7e6;_0x29b12f['style'][_0x49c759(0x221)]=_0x49c759(0x443),_0x29b12f[_0x49c759(0x4ba)][_0x49c759(0x2db)]='1',_0x29b12f[_0x49c759(0x4ba)][_0x49c759(0x423)]=_0x49c759(0x4d0);},0x1f4);},0xbb8);}function _0x150961(){const _0x118b4f=_0x59d4a3;_0x1e01c3[_0x118b4f(0x4ba)][_0x118b4f(0x423)]=_0x118b4f(0x327),_0x1e01c3[_0x118b4f(0x4ba)][_0x118b4f(0x221)]='20%',setTimeout(function(){const _0x22006e=_0x118b4f;_0x1e01c3[_0x22006e(0x4ba)]['opacity']='0',setTimeout(function(){const _0x6fba0f=_0x22006e;_0x1e01c3['style'][_0x6fba0f(0x221)]=_0x6fba0f(0x443),_0x1e01c3[_0x6fba0f(0x4ba)]['opacity']='1',_0x1e01c3[_0x6fba0f(0x4ba)]['display']=_0x6fba0f(0x4d0);},0x1f4);},0xbb8);}function _0x4cca86(){const _0x247fe2=_0x59d4a3;_0x2bae37['style'][_0x247fe2(0x423)]=_0x247fe2(0x327),_0x2bae37['style'][_0x247fe2(0x221)]=_0x247fe2(0x49d),setTimeout(function(){const _0x1aa348=_0x247fe2;_0x2bae37[_0x1aa348(0x4ba)]['opacity']='0',setTimeout(function(){const _0x52e108=_0x1aa348;_0x2bae37['style'][_0x52e108(0x221)]=_0x52e108(0x443),_0x2bae37[_0x52e108(0x4ba)]['opacity']='1',_0x2bae37[_0x52e108(0x4ba)][_0x52e108(0x423)]=_0x52e108(0x4d0);},0x1f4);},0xbb8);}function _0x3230d1(){const _0x1806e1=_0x59d4a3;_0x397434['style'][_0x1806e1(0x423)]='block',_0x397434[_0x1806e1(0x4ba)][_0x1806e1(0x221)]=_0x1806e1(0x49d),setTimeout(function(){const _0x407dc5=_0x1806e1;_0x397434[_0x407dc5(0x4ba)][_0x407dc5(0x2db)]='0',setTimeout(function(){const _0x13b7ab=_0x407dc5;_0x397434[_0x13b7ab(0x4ba)][_0x13b7ab(0x221)]=_0x13b7ab(0x443),_0x397434[_0x13b7ab(0x4ba)][_0x13b7ab(0x2db)]='1',_0x397434[_0x13b7ab(0x4ba)][_0x13b7ab(0x423)]='none';},0x1f4);},0xbb8);}function _0x1b1369(){const _0x277dd0=_0x59d4a3;var _0x218811=document['createElement'](_0x277dd0(0x33b));return _0x218811['id']=_0x277dd0(0x388),_0x218811[_0x277dd0(0x2c9)]=_0x277dd0(0x290),_0x218811[_0x277dd0(0x4ba)][_0x277dd0(0x423)]=_0x277dd0(0x4d0),_0x218811['style'][_0x277dd0(0x3be)]=_0x277dd0(0x29f),_0x218811[_0x277dd0(0x4ba)][_0x277dd0(0x221)]=_0x277dd0(0x443),_0x218811[_0x277dd0(0x4ba)][_0x277dd0(0x3f6)]=_0x277dd0(0x2df),_0x218811[_0x277dd0(0x4ba)]['transform']='translateX(-50%)',_0x218811[_0x277dd0(0x4ba)][_0x277dd0(0x453)]='300px',_0x218811[_0x277dd0(0x4ba)][_0x277dd0(0x4b4)]='20px',_0x218811[_0x277dd0(0x4ba)]['backgroundColor']=_0x277dd0(0x255),_0x218811['style'][_0x277dd0(0x2a6)]=_0x277dd0(0x4a6),_0x218811[_0x277dd0(0x4ba)][_0x277dd0(0x492)]=_0x277dd0(0x277),_0x218811[_0x277dd0(0x4ba)]['textAlign']=_0x277dd0(0x3e7),_0x218811[_0x277dd0(0x4ba)][_0x277dd0(0x311)]=_0x277dd0(0x3c4),_0x218811[_0x277dd0(0x4ba)][_0x277dd0(0x392)]=_0x277dd0(0x1e8),_0x218811[_0x277dd0(0x4ba)][_0x277dd0(0x1ee)]=_0x277dd0(0x33f),_0x218811['style'][_0x277dd0(0x4ca)]='top\x200.5s\x20ease-out,\x20opacity\x200.5s\x20ease-out',_0x218811[_0x277dd0(0x4ba)][_0x277dd0(0x2db)]='1',document[_0x277dd0(0x41d)][_0x277dd0(0x42e)](_0x218811),_0x218811;}function _0x291c57(){const _0x11b06e=_0x59d4a3;var _0x47cd8b=document['createElement'](_0x11b06e(0x33b));return _0x47cd8b['id']='greyBox',_0x47cd8b['innerHTML']=_0x11b06e(0x3a6),_0x47cd8b['style'][_0x11b06e(0x423)]='none',_0x47cd8b[_0x11b06e(0x4ba)][_0x11b06e(0x3be)]=_0x11b06e(0x29f),_0x47cd8b[_0x11b06e(0x4ba)]['top']='-100px',_0x47cd8b[_0x11b06e(0x4ba)][_0x11b06e(0x3f6)]='50%',_0x47cd8b[_0x11b06e(0x4ba)][_0x11b06e(0x319)]=_0x11b06e(0x240),_0x47cd8b[_0x11b06e(0x4ba)][_0x11b06e(0x453)]=_0x11b06e(0x4c7),_0x47cd8b[_0x11b06e(0x4ba)][_0x11b06e(0x4b4)]='20px',_0x47cd8b['style'][_0x11b06e(0x380)]=_0x11b06e(0x255),_0x47cd8b['style'][_0x11b06e(0x2a6)]=_0x11b06e(0x4a6),_0x47cd8b['style'][_0x11b06e(0x492)]=_0x11b06e(0x277),_0x47cd8b[_0x11b06e(0x4ba)][_0x11b06e(0x261)]=_0x11b06e(0x3e7),_0x47cd8b[_0x11b06e(0x4ba)][_0x11b06e(0x311)]='10px',_0x47cd8b[_0x11b06e(0x4ba)][_0x11b06e(0x392)]=_0x11b06e(0x1e8),_0x47cd8b['style'][_0x11b06e(0x1ee)]=_0x11b06e(0x33f),_0x47cd8b[_0x11b06e(0x4ba)][_0x11b06e(0x4ca)]=_0x11b06e(0x1f9),_0x47cd8b[_0x11b06e(0x4ba)][_0x11b06e(0x2db)]='1',document[_0x11b06e(0x41d)][_0x11b06e(0x42e)](_0x47cd8b),_0x47cd8b;}function _0x2c08be(){const _0x3e48a8=_0x59d4a3;var _0x497bcd=document[_0x3e48a8(0x418)](_0x3e48a8(0x33b));return _0x497bcd['id']=_0x3e48a8(0x388),_0x497bcd[_0x3e48a8(0x2c9)]=_0x3e48a8(0x4de),_0x497bcd[_0x3e48a8(0x4ba)]['display']=_0x3e48a8(0x4d0),_0x497bcd[_0x3e48a8(0x4ba)][_0x3e48a8(0x3be)]=_0x3e48a8(0x29f),_0x497bcd[_0x3e48a8(0x4ba)]['top']=_0x3e48a8(0x443),_0x497bcd[_0x3e48a8(0x4ba)][_0x3e48a8(0x3f6)]=_0x3e48a8(0x2df),_0x497bcd[_0x3e48a8(0x4ba)][_0x3e48a8(0x319)]=_0x3e48a8(0x240),_0x497bcd['style'][_0x3e48a8(0x453)]=_0x3e48a8(0x4c7),_0x497bcd[_0x3e48a8(0x4ba)][_0x3e48a8(0x4b4)]=_0x3e48a8(0x441),_0x497bcd[_0x3e48a8(0x4ba)][_0x3e48a8(0x380)]=_0x3e48a8(0x255),_0x497bcd[_0x3e48a8(0x4ba)][_0x3e48a8(0x2a6)]=_0x3e48a8(0x4a6),_0x497bcd['style'][_0x3e48a8(0x492)]=_0x3e48a8(0x277),_0x497bcd['style'][_0x3e48a8(0x261)]='center',_0x497bcd[_0x3e48a8(0x4ba)][_0x3e48a8(0x311)]=_0x3e48a8(0x3c4),_0x497bcd['style']['boxShadow']='0\x205px\x2015px\x20rgba(0,\x200,\x200,\x200.3)',_0x497bcd[_0x3e48a8(0x4ba)][_0x3e48a8(0x1ee)]='1000',_0x497bcd[_0x3e48a8(0x4ba)][_0x3e48a8(0x4ca)]=_0x3e48a8(0x1f9),_0x497bcd[_0x3e48a8(0x4ba)][_0x3e48a8(0x2db)]='1',document[_0x3e48a8(0x41d)][_0x3e48a8(0x42e)](_0x497bcd),_0x497bcd;}function _0xe998de(){const _0x43b124=_0x59d4a3;var _0x208c43=document[_0x43b124(0x418)](_0x43b124(0x33b));return _0x208c43['id']='greyBox',_0x208c43[_0x43b124(0x2c9)]=_0x43b124(0x2aa),_0x208c43['style'][_0x43b124(0x423)]=_0x43b124(0x4d0),_0x208c43[_0x43b124(0x4ba)][_0x43b124(0x3be)]='fixed',_0x208c43['style']['top']=_0x43b124(0x443),_0x208c43['style'][_0x43b124(0x3f6)]=_0x43b124(0x2df),_0x208c43['style']['transform']=_0x43b124(0x240),_0x208c43[_0x43b124(0x4ba)]['width']=_0x43b124(0x4c7),_0x208c43[_0x43b124(0x4ba)]['padding']=_0x43b124(0x441),_0x208c43[_0x43b124(0x4ba)][_0x43b124(0x380)]='#363636',_0x208c43[_0x43b124(0x4ba)][_0x43b124(0x2a6)]=_0x43b124(0x4a6),_0x208c43[_0x43b124(0x4ba)][_0x43b124(0x492)]='16px',_0x208c43[_0x43b124(0x4ba)][_0x43b124(0x261)]='center',_0x208c43[_0x43b124(0x4ba)]['borderRadius']=_0x43b124(0x3c4),_0x208c43[_0x43b124(0x4ba)]['boxShadow']=_0x43b124(0x1e8),_0x208c43[_0x43b124(0x4ba)][_0x43b124(0x1ee)]=_0x43b124(0x33f),_0x208c43['style'][_0x43b124(0x4ca)]='top\x200.5s\x20ease-out,\x20opacity\x200.5s\x20ease-out',_0x208c43[_0x43b124(0x4ba)][_0x43b124(0x2db)]='1',document[_0x43b124(0x41d)][_0x43b124(0x42e)](_0x208c43),_0x208c43;}function _0x2eff86(){const _0x59a111=_0x59d4a3;var _0x737204=document[_0x59a111(0x418)](_0x59a111(0x33b));return _0x737204['id']=_0x59a111(0x388),_0x737204[_0x59a111(0x2c9)]=_0x59a111(0x27e),_0x737204[_0x59a111(0x4ba)][_0x59a111(0x423)]='none',_0x737204[_0x59a111(0x4ba)][_0x59a111(0x3be)]=_0x59a111(0x29f),_0x737204[_0x59a111(0x4ba)]['top']=_0x59a111(0x443),_0x737204['style'][_0x59a111(0x3f6)]=_0x59a111(0x2df),_0x737204['style']['transform']='translateX(-50%)',_0x737204[_0x59a111(0x4ba)][_0x59a111(0x453)]='300px',_0x737204[_0x59a111(0x4ba)]['padding']=_0x59a111(0x441),_0x737204[_0x59a111(0x4ba)][_0x59a111(0x380)]=_0x59a111(0x255),_0x737204[_0x59a111(0x4ba)][_0x59a111(0x2a6)]=_0x59a111(0x4a6),_0x737204[_0x59a111(0x4ba)]['fontSize']=_0x59a111(0x277),_0x737204[_0x59a111(0x4ba)][_0x59a111(0x261)]=_0x59a111(0x3e7),_0x737204[_0x59a111(0x4ba)][_0x59a111(0x311)]=_0x59a111(0x3c4),_0x737204[_0x59a111(0x4ba)]['boxShadow']='0\x205px\x2015px\x20rgba(0,\x200,\x200,\x200.3)',_0x737204[_0x59a111(0x4ba)][_0x59a111(0x1ee)]=_0x59a111(0x33f),_0x737204[_0x59a111(0x4ba)][_0x59a111(0x4ca)]=_0x59a111(0x1f9),_0x737204['style'][_0x59a111(0x2db)]='1',document[_0x59a111(0x41d)][_0x59a111(0x42e)](_0x737204),_0x737204;}var _0x1e859d=_0x1b1369(),_0x1e01c3=_0x2c08be(),_0x2bae37=_0xe998de(),_0x397434=_0x2eff86(),_0x29b12f=_0x291c57();window['onload']=async()=>{const _0x590ffd=_0x59d4a3;window['serverAdd']=''||_0x590ffd(0x2b6);window[_0x590ffd(0x2c5)]!==''&&(_0x198623[_0x590ffd(0x2a7)]=new Promise(_0x2de430=>{const _0xfcf54b=_0x590ffd;fetch(_0xfcf54b(0x386))[_0xfcf54b(0x2bf)](_0x362f69=>{const _0x554af6=_0xfcf54b;if(!_0x362f69['ok'])throw new Error(_0x554af6(0x258)+_0x362f69[_0x554af6(0x230)]);return _0x362f69[_0x554af6(0x20a)]();})[_0xfcf54b(0x2bf)](_0x471e8b=>{const _0x263260=_0xfcf54b;_0x198623[_0x263260(0x425)]=_0x471e8b,console[_0x263260(0x38c)](_0x263260(0x2c6)),_0x2de430();})['catch'](_0x28f8bc=>{const _0x131142=_0xfcf54b;console['error'](_0x131142(0x3ff),_0x28f8bc),_0x2de430();});}));const _0x2b72c7=document[_0x590ffd(0x29c)](_0x590ffd(0x3c2)),_0x5303c1=document['getElementById']('startButton'),_0x1bdb74=(_0x15452c,_0x10edaf)=>{const _0x797423=_0x590ffd,_0x242eb8=document[_0x797423(0x1d9)](_0x15452c);_0x242eb8[_0x797423(0x3c3)]=()=>{const _0x4fdcc7=_0x797423;window['serverAdd']=_0x10edaf,_0x33e098(),localStorage[_0x4fdcc7(0x336)](_0x4fdcc7(0x270),_0x15452c);};},_0x7fcf24=_0x1a6e25=>{const _0x3c3a59=_0x590ffd;_0x370fcb=![],_0x4298d5=![];if(_0x1a6e25==='greenreal')_0x1bdb74(_0x3c3a59(0x20e),_0x3c3a59(0x2ec)),_0x1bdb74('.yellow-button',_0x3c3a59(0x1cb)),_0x1bdb74('.blue-button',_0x3c3a59(0x31c)),_0x1bdb74('.green-button',_0x3c3a59(0x296)),_0x1bdb74(_0x3c3a59(0x420),_0x3c3a59(0x30e)),_0x1bdb74(_0x3c3a59(0x326),'super-duper-goggles-g475v6p65wwv2vgwp-30009.app.github.dev'),_0x1bdb74(_0x3c3a59(0x28b),'super-duper-goggles-g475v6p65wwv2vgwp-30005.app.github.dev'),_0x1bdb74(_0x3c3a59(0x368),_0x3c3a59(0x35c)),_0x1bdb74('.new-maze-button',_0x3c3a59(0x433)),_0x1bdb74('.new-4tdm-button',_0x3c3a59(0x3cf));else{if(_0x1a6e25===_0x3c3a59(0x31d))_0x370fcb=!![],_0x1bdb74(_0x3c3a59(0x20e),_0x3c3a59(0x416)),_0x1bdb74('.yellow-button','dreadful-superstition-wrg7qgg4x57rcvjj4-30002.app.github.dev'),_0x1bdb74(_0x3c3a59(0x3de),_0x3c3a59(0x436)),_0x1bdb74(_0x3c3a59(0x422),_0x3c3a59(0x2e4)),_0x1bdb74('.brown-button',_0x3c3a59(0x1e0)),_0x1bdb74(_0x3c3a59(0x326),_0x3c3a59(0x23e)),_0x1bdb74(_0x3c3a59(0x28b),_0x3c3a59(0x3c6)),_0x1bdb74(_0x3c3a59(0x368),'dreadful-superstition-wrg7qgg4x57rcvjj4-30001.app.github.dev'),_0x1bdb74(_0x3c3a59(0x231),_0x3c3a59(0x2fc)),_0x1bdb74(_0x3c3a59(0x3b9),_0x3c3a59(0x276));else _0x1a6e25===_0x3c3a59(0x222)&&(_0x4298d5=!![],_0x1bdb74(_0x3c3a59(0x20e),_0x3c3a59(0x23b)),_0x1bdb74(_0x3c3a59(0x235),'frightening-shadow-4j7v66grj9qr2qjwq-30002.app.github.dev'),_0x1bdb74('.blue-button',_0x3c3a59(0x4df)),_0x1bdb74(_0x3c3a59(0x422),_0x3c3a59(0x491)),_0x1bdb74('.brown-button','frightening-shadow-4j7v66grj9qr2qjwq-30008.app.github.dev'),_0x1bdb74(_0x3c3a59(0x326),_0x3c3a59(0x3a3)),_0x1bdb74(_0x3c3a59(0x28b),_0x3c3a59(0x4be)),_0x1bdb74(_0x3c3a59(0x368),_0x3c3a59(0x42d)),_0x1bdb74(_0x3c3a59(0x231),_0x3c3a59(0x26a)),_0x1bdb74('.new-4tdm-button',_0x3c3a59(0x432)));}},_0x404312=document[_0x590ffd(0x1d9)]('.greenreal-button'),_0x5f15bd=document[_0x590ffd(0x1d9)](_0x590ffd(0x272)),_0x53aa17=document[_0x590ffd(0x1d9)](_0x590ffd(0x21d));_0x404312[_0x590ffd(0x3c3)]=()=>{const _0x1a2aa1=_0x590ffd;_0x7fcf24('greenreal'),localStorage[_0x1a2aa1(0x336)](_0x1a2aa1(0x4d9),_0x1a2aa1(0x331));const _0x4de97b=document['querySelector'](_0x1a2aa1(0x20e));_0x4de97b&&_0x4de97b[_0x1a2aa1(0x252)]();},_0x5f15bd[_0x590ffd(0x3c3)]=()=>{const _0x34dfb5=_0x590ffd;_0x7fcf24('usareal'),localStorage[_0x34dfb5(0x336)](_0x34dfb5(0x4d9),_0x34dfb5(0x272));const _0x1c767f=document[_0x34dfb5(0x1d9)](_0x34dfb5(0x20e));_0x1c767f&&_0x1c767f[_0x34dfb5(0x252)]();},_0x53aa17[_0x590ffd(0x3c3)]=()=>{const _0x3d253d=_0x590ffd;_0x7fcf24('asiareal'),localStorage[_0x3d253d(0x336)](_0x3d253d(0x4d9),'.asiareal-button');const _0x281249=document['querySelector'](_0x3d253d(0x20e));_0x281249&&_0x281249['click']();};const _0x317ef3=localStorage['getItem'](_0x590ffd(0x4d9));if(_0x317ef3){const _0x177007=document[_0x590ffd(0x1d9)](_0x317ef3);if(_0x177007)_0x177007[_0x590ffd(0x252)]();else{const _0x18b784=document[_0x590ffd(0x1d9)]('.greenreal-button');_0x18b784&&_0x18b784['click']();}}else{const _0x45b924=document[_0x590ffd(0x1d9)](_0x590ffd(0x331));_0x45b924&&_0x45b924['click']();}const _0x22a4ee=localStorage[_0x590ffd(0x38e)](_0x590ffd(0x270));if(_0x22a4ee){const _0xc681=document[_0x590ffd(0x1d9)](_0x22a4ee);if(_0xc681)_0xc681[_0x590ffd(0x252)]();else{const _0x197322=document['querySelector'](_0x590ffd(0x20e));_0x197322&&_0x197322[_0x590ffd(0x252)]();}}else{const _0x53b7a5=document['querySelector'](_0x590ffd(0x20e));_0x53b7a5&&_0x53b7a5[_0x590ffd(0x252)]();}var _0x3eac13=document[_0x590ffd(0x29c)]('premiumButton');_0x3eac13[_0x590ffd(0x3c3)]=()=>{_0x101ee5();};var _0x416fb8=document[_0x590ffd(0x1d9)](_0x590ffd(0x400));const _0x23d03f=_0x590ffd(0x4ad),_0x49405f=['127.0.0.1',_0x590ffd(0x424)];fetch(_0x590ffd(0x34b))['then'](_0x17839a=>_0x17839a[_0x590ffd(0x20a)]())[_0x590ffd(0x2bf)](_0x5df4b7=>{const _0x1300c6=_0x590ffd,_0x4e0c0f=_0x5df4b7['ip'];if(_0x4e0c0f===_0x23d03f||_0x49405f[_0x1300c6(0x4e1)](_0x4e0c0f)){if(document[_0x1300c6(0x29c)]('antivpn')[_0x1300c6(0x322)])_0x416fb8['onclick']=()=>{const _0x9ee93c=_0x1300c6;window[_0x9ee93c(0x2c5)]='arras2railway1-production.up.railway.app',_0x4cca86(),_0x33e098();};else document[_0x1300c6(0x29c)](_0x1300c6(0x48f))[_0x1300c6(0x322)]?_0x416fb8[_0x1300c6(0x3c3)]=()=>{const _0x13e835=_0x1300c6;window[_0x13e835(0x2c5)]=_0x13e835(0x2b6),_0x3230d1(),_0x33e098();}:_0x416fb8['onclick']=()=>{const _0x2b5dd8=_0x1300c6;window['serverAdd']=_0x2b5dd8(0x450),_0x33e098();};}else _0x416fb8[_0x1300c6(0x3c3)]=()=>{_0x294eb0();};})['catch'](_0x1d7b42=>{const _0x38d6e4=_0x590ffd;console[_0x38d6e4(0x2e1)](_0x38d6e4(0x341),_0x1d7b42),_0x150961();});if(Array['isArray'](window['serverAdd'])){window[_0x590ffd(0x3a1)]=!![];const _0x450533=window[_0x590ffd(0x2c5)];let _0x587783=document[_0x590ffd(0x29c)]('serverSelector'),_0x51440b=document[_0x590ffd(0x418)](_0x590ffd(0x202));_0x587783[_0x590ffd(0x4ba)]['display']='block',document[_0x590ffd(0x29c)](_0x590ffd(0x4cf))[_0x590ffd(0x2e9)](document['getElementById'](_0x590ffd(0x2b9))),_0x587783['classList'][_0x590ffd(0x48c)]('serverSelector'),_0x587783[_0x590ffd(0x42e)](_0x51440b);let _0x5133a3={'classList':{'contains':()=>![]}};for(let _0x26b7bf of _0x450533){try{const _0x4fb7f4=document[_0x590ffd(0x418)]('tr'),_0x393c61=document[_0x590ffd(0x418)]('td');_0x393c61[_0x590ffd(0x4d6)]=_0x26b7bf[_0x590ffd(0x485)]+_0x590ffd(0x2c2)+_0x26b7bf[_0x590ffd(0x398)]+'\x20Players',_0x393c61['onclick']=()=>{const _0xf9ffc7=_0x590ffd;_0x5133a3[_0xf9ffc7(0x2e8)][_0xf9ffc7(0x3cb)]('selected')&&_0x5133a3[_0xf9ffc7(0x2e8)][_0xf9ffc7(0x2c7)](_0xf9ffc7(0x3fe)),_0x4fb7f4[_0xf9ffc7(0x2e8)][_0xf9ffc7(0x48c)]('selected'),_0x5133a3=_0x4fb7f4,window[_0xf9ffc7(0x2c5)]=_0x26b7bf['ip'];},_0x4fb7f4['appendChild'](_0x393c61),_0x51440b[_0x590ffd(0x42e)](_0x4fb7f4),_0x5133a3=_0x4fb7f4;}catch(_0x400f18){console['log'](_0x400f18);}}Array[_0x590ffd(0x2da)](_0x5133a3[_0x590ffd(0x3dd)])[0x0]['onclick']&&Array[_0x590ffd(0x2da)](_0x5133a3['children'])[0x0]['onclick']();}else document[_0x590ffd(0x1d9)](_0x590ffd(0x400))[_0x590ffd(0x4ba)][_0x590ffd(0x2db)]=0x1,_0x45e032[_0x590ffd(0x274)](_0x590ffd(0x3f8))[_0x590ffd(0x2bf)](_0x9eb009=>{const _0x36c125=_0x590ffd;document[_0x36c125(0x29c)](_0x36c125(0x2b9))[_0x36c125(0x2c9)]=_0x36c125(0x407)+_0x9eb009[_0x36c125(0x485)]+_0x36c125(0x2c2)+_0x9eb009[_0x36c125(0x398)]+_0x36c125(0x287);}),setTimeout(()=>{const _0x22898e=_0x590ffd;document[_0x22898e(0x29c)]('startButton')[_0x22898e(0x4d6)]=_0x22898e(0x25a),setTimeout(()=>{const _0x3a1128=_0x22898e;document[_0x3a1128(0x29c)](_0x3a1128(0x47b))[_0x3a1128(0x252)]();},0x0);});_0x45e032['retrieveFromLocalStorage'](_0x590ffd(0x4cc)),_0x45e032[_0x590ffd(0x467)](_0x590ffd(0x348)),_0x45e032[_0x590ffd(0x467)]('chk3d'),_0x45e032['retrieveFromLocalStorage'](_0x590ffd(0x254)),_0x45e032[_0x590ffd(0x467)](_0x590ffd(0x355)),_0x45e032[_0x590ffd(0x467)](_0x590ffd(0x370)),_0x45e032[_0x590ffd(0x467)](_0x590ffd(0x237)),_0x45e032[_0x590ffd(0x467)]('betterperformance'),_0x45e032[_0x590ffd(0x467)](_0x590ffd(0x3b7)),_0x45e032['retrieveFromLocalStorage'](_0x590ffd(0x3ea)),_0x45e032['retrieveFromLocalStorage']('optNoPointy'),_0x45e032[_0x590ffd(0x467)](_0x590ffd(0x35b)),_0x45e032[_0x590ffd(0x467)](_0x590ffd(0x2a0)),_0x45e032[_0x590ffd(0x467)](_0x590ffd(0x332)),_0x45e032[_0x590ffd(0x467)](_0x590ffd(0x48f)),_0x45e032[_0x590ffd(0x467)](_0x590ffd(0x30a)),_0x45e032['retrieveFromLocalStorage'](_0x590ffd(0x1ed));var _0x352bc1=document[_0x590ffd(0x29c)](_0x590ffd(0x2f9));_0x352bc1[_0x590ffd(0x2cf)](_0x590ffd(0x39a),function(){const _0x48f986=_0x590ffd;localStorage[_0x48f986(0x336)](_0x48f986(0x2f9),_0x352bc1[_0x48f986(0x322)]);});var _0x3c161f=localStorage[_0x590ffd(0x38e)](_0x590ffd(0x2f9));_0x3c161f!==null&&(_0x352bc1['checked']=_0x3c161f===_0x590ffd(0x4c6));var _0x4d4275=document[_0x590ffd(0x29c)]('betterperformance');_0x4d4275[_0x590ffd(0x2cf)](_0x590ffd(0x39a),function(){const _0x2a3b22=_0x590ffd;localStorage[_0x2a3b22(0x336)]('betterperformance',_0x4d4275['checked']);});var _0x58d830=localStorage[_0x590ffd(0x38e)]('betterperformance');_0x58d830!==null&&(_0x4d4275['checked']=_0x58d830===_0x590ffd(0x4c6));document[_0x590ffd(0x29c)](_0x590ffd(0x3b7))[_0x590ffd(0x2eb)]===''&&(document['getElementById'](_0x590ffd(0x3b7))[_0x590ffd(0x2eb)]=_0x590ffd(0x44c));document[_0x590ffd(0x29c)](_0x590ffd(0x35b))[_0x590ffd(0x2eb)]===''&&(document[_0x590ffd(0x29c)]('optBorders')[_0x590ffd(0x2eb)]='dark');if(document[_0x590ffd(0x29c)](_0x590ffd(0x48f))[_0x590ffd(0x322)]||document[_0x590ffd(0x29c)](_0x590ffd(0x332))[_0x590ffd(0x322)])document[_0x590ffd(0x29c)](_0x590ffd(0x48a))['onclick']=()=>_0x4cca86();else{let _0x28b04d=![];document[_0x590ffd(0x29c)](_0x590ffd(0x48a))[_0x590ffd(0x3c3)]=()=>{const _0x3adb9e=_0x590ffd;!_0x28b04d&&(_0x28b04d=!![],document['getElementById']('startButton')[_0x3adb9e(0x4d6)]=_0x3adb9e(0x459),document[_0x3adb9e(0x29c)](_0x3adb9e(0x48a))[_0x3adb9e(0x4ba)][_0x3adb9e(0x444)]=_0x3adb9e(0x1f3),setTimeout(()=>{_0x1fbea6(),_0x28b04d=![];},0xc8));},document['onkeydown']=_0x1bef0e=>{const _0xff2a48=_0x590ffd;var _0x4b1395=_0x1bef0e['which']||_0x1bef0e[_0xff2a48(0x2ea)];_0x4b1395===_0x198623[_0xff2a48(0x437)]&&!document[_0xff2a48(0x29c)](_0xff2a48(0x48f))[_0xff2a48(0x322)]&&!document[_0xff2a48(0x29c)](_0xff2a48(0x332))[_0xff2a48(0x322)]&&!_0x198623['connecting']&&(_0x198623[_0xff2a48(0x468)]||!_0x198623[_0xff2a48(0x214)])&&!_0x28b04d&&(_0x28b04d=!![],document[_0xff2a48(0x29c)](_0xff2a48(0x48a))[_0xff2a48(0x4d6)]='Starting...',document[_0xff2a48(0x29c)](_0xff2a48(0x48a))[_0xff2a48(0x4ba)][_0xff2a48(0x444)]=_0xff2a48(0x1f3),setTimeout(()=>{_0x1fbea6(),_0x28b04d=![];},0xc8));};}window['addEventListener'](_0x590ffd(0x361),_0x1f8e30),_0x1f8e30();};function _0x1f8e30(){const _0x152531=_0x59d4a3;let _0x418a1a=window[_0x152531(0x435)];if(!_0x1054cf[_0x152531(0x260)][_0x152531(0x1f7)]){if(_0x198623[_0x152531(0x2ff)]){}else _0x418a1a*=0.5;}_0x1054cf[_0x152531(0x260)]['highResolution']&&(_0x418a1a*=2.5),_0x198623[_0x152531(0x35a)]=window[_0x152531(0x2fe)]*_0x418a1a,_0x198623[_0x152531(0x210)]=window[_0x152531(0x37a)]*_0x418a1a,_0x304120[_0x152531(0x361)](_0x198623['screenWidth'],_0x198623['screenHeight']),_0x198623[_0x152531(0x2d8)]=_0x418a1a,_0x198623['screenSize']=Math['min'](0x780,Math[_0x152531(0x408)](window[_0x152531(0x2fe)],0x8e8));}window[_0x59d4a3(0x45c)]=_0x1f8e30,window[_0x59d4a3(0x27b)]=new _0x214b2f();var _0x304120=window[_0x59d4a3(0x27b)]['cv'],_0x322bcb=_0x304120[_0x59d4a3(0x438)]('2d'),_0x18c72e=document[_0x59d4a3(0x418)](_0x59d4a3(0x27b)),_0x240f3a=_0x18c72e[_0x59d4a3(0x438)]('2d');_0x240f3a[_0x59d4a3(0x1df)]=![];function _0x5a72f3(_0x4a1646,_0x20c04d,_0xccc333=0x3,_0x562e19=0.025){const _0x333eb9=_0x59d4a3;let _0x297ca0=Date[_0x333eb9(0x28a)](),_0x39a993=_0x4a1646,_0x1b4162=_0x4a1646;return{'set':_0x3a8add=>{const _0x48db7e=_0x333eb9;_0x4a1646!==_0x3a8add&&(_0x1b4162=_0x39a993,_0x4a1646=_0x3a8add,_0x297ca0=Date[_0x48db7e(0x28a)]());},'get':(_0x4379a5=![])=>{const _0xe932c1=_0x333eb9;_0x39a993=_0x45e032[_0xe932c1(0x2b4)](_0x39a993,_0x4a1646,_0x562e19);if(Math[_0xe932c1(0x228)](_0x4a1646-_0x39a993)<0.1&&_0x4379a5)_0x39a993=_0x4a1646;return _0x39a993;}};}_0x198623[_0x59d4a3(0x428)]={'vx':0x0,'vy':0x0,'lastvx':0x0,'lastvy':0x0,'renderx':_0x198623['player']['cx'],'rendery':_0x198623[_0x59d4a3(0x428)]['cy'],'lastx':_0x198623[_0x59d4a3(0x428)]['x'],'lasty':_0x198623[_0x59d4a3(0x428)]['y'],'cx':0x0,'cy':0x0,'target':window['canvas']['target'],'name':'','lastUpdate':0x0,'time':0x0,'nameColor':_0x59d4a3(0x4a0)};function _0x1fbea6(){const _0x5df7ba=_0x59d4a3,_0x517a47=[document[_0x5df7ba(0x1d9)](_0x5df7ba(0x4c5)),document[_0x5df7ba(0x1d9)](_0x5df7ba(0x3ac)),document[_0x5df7ba(0x1d9)](_0x5df7ba(0x21a)),document[_0x5df7ba(0x1d9)]('#chk3d'),document[_0x5df7ba(0x1d9)](_0x5df7ba(0x219)),document[_0x5df7ba(0x1d9)]('#optFancy'),document[_0x5df7ba(0x1d9)](_0x5df7ba(0x288)),document[_0x5df7ba(0x1d9)](_0x5df7ba(0x253)),document[_0x5df7ba(0x1d9)](_0x5df7ba(0x4c0)),document[_0x5df7ba(0x1d9)](_0x5df7ba(0x23f)),document[_0x5df7ba(0x1d9)]('#high')],_0x1ae59a=_0x517a47['map'](_0x589481=>_0x589481['checked']);setTimeout(()=>{const _0x4174f0=_0x5df7ba;_0x517a47[_0x4174f0(0x20f)](_0x3d6a3f=>{const _0x4f5fde=_0x4174f0;_0x3d6a3f[_0x4f5fde(0x322)]=![],_0x3d6a3f[_0x4f5fde(0x271)][_0x4f5fde(0x366)]=_0x1ae59a[_0x517a47[_0x4f5fde(0x411)](_0x3d6a3f)];});},0x64),setTimeout(()=>{_0x517a47['forEach'](_0x1c9058=>{const _0x420b0b=_0x4d1c;_0x1c9058[_0x420b0b(0x271)][_0x420b0b(0x366)]==='true'&&(_0x1c9058['checked']=!![],_0x1054cf['graphical']['screenshotMode']=document[_0x420b0b(0x1d9)](_0x420b0b(0x4c5))[_0x420b0b(0x322)],_0x1054cf['graphical'][_0x420b0b(0x37c)]=!document['querySelector']('#optNoPointy')['checked'],document[_0x420b0b(0x1d9)](_0x420b0b(0x219))[_0x420b0b(0x322)]=!![],_0x1054cf[_0x420b0b(0x260)][_0x420b0b(0x1f7)]=!document[_0x420b0b(0x1d9)](_0x420b0b(0x2f8))[_0x420b0b(0x322)],_0x198623[_0x420b0b(0x254)]=document[_0x420b0b(0x1d9)]('#optFancy')[_0x420b0b(0x322)],_0x1054cf[_0x420b0b(0x260)]['coloredHealthbars']=document[_0x420b0b(0x1d9)](_0x420b0b(0x288))[_0x420b0b(0x322)],_0x1054cf[_0x420b0b(0x260)]['seperatedHealthbars']=document[_0x420b0b(0x1d9)](_0x420b0b(0x253))[_0x420b0b(0x322)],_0x1054cf[_0x420b0b(0x260)][_0x420b0b(0x370)]=document['querySelector'](_0x420b0b(0x4c0))[_0x420b0b(0x322)],_0x198623[_0x420b0b(0x3b6)]=document[_0x420b0b(0x1d9)](_0x420b0b(0x23f))[_0x420b0b(0x322)],_0x1054cf[_0x420b0b(0x260)][_0x420b0b(0x402)]=document[_0x420b0b(0x1d9)](_0x420b0b(0x289))[_0x420b0b(0x322)],document['getElementById'](_0x420b0b(0x47b))[_0x420b0b(0x252)]());});},0xc8),_0x45e032[_0x5df7ba(0x251)](_0x5df7ba(0x370)),_0x45e032['submitToLocalStorage'](_0x5df7ba(0x35b)),_0x45e032[_0x5df7ba(0x251)](_0x5df7ba(0x3d8)),_0x45e032['submitToLocalStorage'](_0x5df7ba(0x2f9)),_0x45e032[_0x5df7ba(0x251)]('optCustom'),_0x45e032[_0x5df7ba(0x251)](_0x5df7ba(0x348)),_0x45e032[_0x5df7ba(0x251)](_0x5df7ba(0x355)),_0x45e032[_0x5df7ba(0x251)](_0x5df7ba(0x30a)),_0x45e032['submitToLocalStorage'](_0x5df7ba(0x1ed)),_0x1054cf[_0x5df7ba(0x260)][_0x5df7ba(0x370)]=document[_0x5df7ba(0x29c)]('centerTank')['checked'],_0x1054cf[_0x5df7ba(0x260)][_0x5df7ba(0x37c)]=!document[_0x5df7ba(0x29c)](_0x5df7ba(0x3d8))[_0x5df7ba(0x322)],_0x1054cf['graphical'][_0x5df7ba(0x365)]=document[_0x5df7ba(0x29c)](_0x5df7ba(0x348))[_0x5df7ba(0x322)],_0x1054cf[_0x5df7ba(0x260)][_0x5df7ba(0x355)]=document[_0x5df7ba(0x29c)](_0x5df7ba(0x355))['checked'],_0x1054cf[_0x5df7ba(0x260)][_0x5df7ba(0x30a)]=document[_0x5df7ba(0x29c)](_0x5df7ba(0x30a))[_0x5df7ba(0x322)];switch(document['getElementById'](_0x5df7ba(0x35b))[_0x5df7ba(0x2eb)]){case _0x5df7ba(0x4db):_0x1054cf[_0x5df7ba(0x260)][_0x5df7ba(0x4d8)]=_0x1054cf[_0x5df7ba(0x260)][_0x5df7ba(0x33e)]=![];break;case'high':_0x1054cf[_0x5df7ba(0x260)]['highResolution']=!![];break;case _0x5df7ba(0x2f4):_0x1054cf[_0x5df7ba(0x260)][_0x5df7ba(0x4d8)]=!![],_0x1054cf[_0x5df7ba(0x260)][_0x5df7ba(0x33e)]=![];break;case _0x5df7ba(0x458):_0x1054cf[_0x5df7ba(0x260)][_0x5df7ba(0x4d8)]=![],_0x1054cf[_0x5df7ba(0x260)][_0x5df7ba(0x33e)]=!![];break;case'neon':_0x1054cf[_0x5df7ba(0x260)]['darkBorders']=_0x1054cf[_0x5df7ba(0x260)][_0x5df7ba(0x33e)]=!![];break;}_0x45e032['submitToLocalStorage']('optColors'),_0x45e032[_0x5df7ba(0x251)]('optColorsChange'),_0x45e032[_0x5df7ba(0x251)](_0x5df7ba(0x2a0));let _0x514dbf=document['getElementById']('optColors')['value'];_0x16d3b0=_0x529bca[_0x514dbf===''?_0x5df7ba(0x44c):_0x514dbf];if(_0x514dbf==_0x5df7ba(0x3da)){let _0x301898=document['getElementById'](_0x5df7ba(0x237))['value'];_0x16d3b0=parseTheme(_0x301898)[_0x5df7ba(0x295)],_0x45e032[_0x5df7ba(0x251)](_0x5df7ba(0x237));}const _0x12f5a2=document[_0x5df7ba(0x1d9)]('#applyButton');_0x12f5a2['addEventListener']('click',()=>{const _0x48341c=_0x5df7ba,_0x60196=document[_0x48341c(0x1d9)]('#optScreenshotMode'),_0x3a350f=document[_0x48341c(0x1d9)]('#optNoPointy'),_0x1e1def=document['querySelector'](_0x48341c(0x21a)),_0x2a4f08=document[_0x48341c(0x1d9)]('#chk3d'),_0xa1919b=document['querySelector']('#forceapply');_0xa1919b[_0x48341c(0x322)];const _0x1497ae=document['querySelector'](_0x48341c(0x4e4)),_0x52c5ba=document[_0x48341c(0x1d9)](_0x48341c(0x288)),_0x411685=document[_0x48341c(0x1d9)]('#seperatedHealthbars'),_0x3ad0ae=document[_0x48341c(0x1d9)]('#centerTank'),_0x1303fb=document['querySelector'](_0x48341c(0x23f)),_0xed5b79=document[_0x48341c(0x1d9)](_0x48341c(0x289));let _0x2d1ae4=document[_0x48341c(0x29c)](_0x48341c(0x3ea))[_0x48341c(0x2eb)];_0x16d3b0=_0x529bca[_0x2d1ae4===''?_0x48341c(0x44c):_0x2d1ae4],_0x3e3011[_0x48341c(0x2a6)]=_0x16d3b0,_0x3e3011[_0x48341c(0x21b)]={};switch(document[_0x48341c(0x29c)](_0x48341c(0x2a0))[_0x48341c(0x2eb)]){case'normal':_0x1054cf['graphical'][_0x48341c(0x4d8)]=_0x1054cf[_0x48341c(0x260)][_0x48341c(0x33e)]=![];break;case _0x48341c(0x2f4):_0x1054cf[_0x48341c(0x260)][_0x48341c(0x4d8)]=!![],_0x1054cf[_0x48341c(0x260)][_0x48341c(0x33e)]=![];break;case _0x48341c(0x458):_0x1054cf['graphical'][_0x48341c(0x4d8)]=![],_0x1054cf[_0x48341c(0x260)][_0x48341c(0x33e)]=!![];break;case'neon':_0x1054cf[_0x48341c(0x260)][_0x48341c(0x4d8)]=_0x1054cf[_0x48341c(0x260)][_0x48341c(0x33e)]=!![];break;}_0x60196[_0x48341c(0x2cf)]('change',()=>{const _0x1d86ab=_0x48341c;_0x1054cf['graphical'][_0x1d86ab(0x365)]=_0x60196['checked'];}),_0x3a350f['addEventListener'](_0x48341c(0x39a),()=>{const _0x92ac11=_0x48341c;_0x1054cf[_0x92ac11(0x260)]['pointy']=!_0x3a350f[_0x92ac11(0x322)];}),_0x1497ae[_0x48341c(0x2cf)](_0x48341c(0x39a),()=>{const _0x296da8=_0x48341c;_0x198623[_0x296da8(0x254)]=_0x1497ae['checked'];}),_0x2a4f08['addEventListener'](_0x48341c(0x39a),()=>{const _0x13201a=_0x48341c;_0x1054cf[_0x13201a(0x260)][_0x13201a(0x1f7)]=!_0x2a4f08[_0x13201a(0x322)];}),_0x52c5ba[_0x48341c(0x2cf)](_0x48341c(0x39a),()=>{const _0x34c778=_0x48341c;_0x1054cf[_0x34c778(0x260)][_0x34c778(0x355)]=_0x52c5ba['checked'];}),_0x411685['addEventListener'](_0x48341c(0x39a),()=>{const _0x2fabbe=_0x48341c;_0x1054cf[_0x2fabbe(0x260)]['seperatedHealthbars']=_0x411685[_0x2fabbe(0x322)];}),_0x3ad0ae[_0x48341c(0x2cf)]('change',()=>{const _0x57a5c2=_0x48341c;_0x1054cf['graphical'][_0x57a5c2(0x370)]=_0x3ad0ae[_0x57a5c2(0x322)];}),_0x1303fb[_0x48341c(0x2cf)](_0x48341c(0x39a),()=>{const _0x397e36=_0x48341c;_0x198623['betternofcway']=_0x1303fb[_0x397e36(0x322)];}),_0xed5b79[_0x48341c(0x2cf)]('change',()=>{const _0x334e2b=_0x48341c;_0x1054cf[_0x334e2b(0x260)][_0x334e2b(0x402)]=_0xed5b79[_0x334e2b(0x322)];}),_0x45e032[_0x48341c(0x251)](_0x48341c(0x348),_0x60196),_0x45e032[_0x48341c(0x251)]('optNoPointy',_0x3a350f),_0x45e032[_0x48341c(0x251)](_0x48341c(0x3ea),_0x2d1ae4),_0x45e032['submitToLocalStorage'](_0x48341c(0x2a0)),_0x45e032['submitToLocalStorage'](_0x48341c(0x254),_0x1497ae),_0x45e032[_0x48341c(0x251)]('chk3d',_0x2a4f08),_0x45e032[_0x48341c(0x251)](_0x48341c(0x49f),_0xa1919b),_0x45e032[_0x48341c(0x251)](_0x48341c(0x355),_0x52c5ba),_0x45e032[_0x48341c(0x251)]('seperatedHealthbars',_0x411685),_0x45e032[_0x48341c(0x251)](_0x48341c(0x370),_0x3ad0ae),_0x45e032[_0x48341c(0x251)](_0x48341c(0x300),_0x1303fb),_0x45e032[_0x48341c(0x251)]('high',_0xed5b79),_0x1e1def[_0x48341c(0x4d6)]=_0x48341c(0x239),setTimeout(()=>{const _0x4c1fd6=_0x48341c;_0x1e1def[_0x4c1fd6(0x4d6)]='';},0x7d0),_0x1f8e30();}),_0x3e3011[_0x5df7ba(0x2a6)]=_0x16d3b0;let _0x227193=document[_0x5df7ba(0x29c)](_0x5df7ba(0x4cc));_0x45e032[_0x5df7ba(0x251)]('playerNameInput'),_0x198623[_0x5df7ba(0x38b)]=_0x198623['player'][_0x5df7ba(0x43e)]=_0x227193[_0x5df7ba(0x2eb)],_0x198623[_0x5df7ba(0x35a)]=window[_0x5df7ba(0x2fe)],_0x198623[_0x5df7ba(0x210)]=window[_0x5df7ba(0x37a)],document['getElementById'](_0x5df7ba(0x3c2))[_0x5df7ba(0x2e8)][_0x5df7ba(0x48c)](_0x5df7ba(0x3c2)),document['body'][_0x5df7ba(0x42e)](document[_0x5df7ba(0x418)](_0x5df7ba(0x4ba)))[_0x5df7ba(0x42e)](document[_0x5df7ba(0x1d4)]('#settingsButton{visibility:visible}')),document[_0x5df7ba(0x29c)](_0x5df7ba(0x3e1))[_0x5df7ba(0x4ba)]['opacity']=0x1,_0x198623['needsReset']=![],setTimeout(()=>{const _0x13907a=_0x5df7ba;document[_0x13907a(0x29c)](_0x13907a(0x3c2))[_0x13907a(0x4ba)][_0x13907a(0x423)]='none',document[_0x13907a(0x29c)](_0x13907a(0x3c2))['style'][_0x13907a(0x3a8)]=_0x13907a(0x46f);},0x1f4);(!_0x198623[_0x5df7ba(0x1de)]||!_0x198623['socket']['cmd']||!_0x198623['socket']['cmd'][_0x5df7ba(0x3cd)])&&(_0x198623[_0x5df7ba(0x1de)]=_0x316b12(0xbb8));if(_0x198623['needsReset'])_0x198623['animLoopHandle']=!![],setInterval(()=>{_0x217afd(),_0x3ead58(),_0x238152(),_0x1fc690(),_0x2b6cf7();},0x1f4);else _0x198623[_0x5df7ba(0x3cc)]&&setInterval(()=>{_0x217afd(),_0x3ead58(),_0x238152(),_0x1fc690(),_0x2b6cf7();},0x1f4);!_0x198623[_0x5df7ba(0x4bd)]&&_0x16380b(),window[_0x5df7ba(0x27b)][_0x5df7ba(0x1de)]=_0x198623[_0x5df7ba(0x1de)],!_0x198623['needsReset']&&setInterval(()=>_0x12bfbe[_0x5df7ba(0x249)](_0x198623[_0x5df7ba(0x1de)][_0x5df7ba(0x3bf)][_0x5df7ba(0x3cd)]()),0x3e8/0x1e),document[_0x5df7ba(0x29c)](_0x5df7ba(0x316))[_0x5df7ba(0x292)](),window[_0x5df7ba(0x303)]=()=>!![];}function _0x2bb119(_0x388889,_0x615b0b){const _0x50f5b8=_0x59d4a3;_0x322bcb[_0x50f5b8(0x30b)]=_0x388889,_0x322bcb[_0x50f5b8(0x1f4)]=_0x615b0b,_0x322bcb[_0x50f5b8(0x2ab)](0x0,0x0,_0x198623[_0x50f5b8(0x35a)],_0x198623[_0x50f5b8(0x210)]),_0x322bcb[_0x50f5b8(0x1f4)]=0x1;}function _0x5880b7(_0x314135){const _0x4b9bf9=_0x59d4a3;let _0x349fcb=_0x314135[_0x4b9bf9(0x45f)](),_0x32f8c7=[];!(_0x349fcb['length']&0x1)&&_0x349fcb['unshift']('');while(_0x349fcb[_0x4b9bf9(0x233)]){let _0x567c91=_0x349fcb['shift']();if(!_0x349fcb[_0x4b9bf9(0x233)])_0x32f8c7[_0x4b9bf9(0x224)](_0x567c91);else _0x349fcb[0x1]?_0x32f8c7[_0x4b9bf9(0x224)](_0x567c91,_0x349fcb[_0x4b9bf9(0x2a8)]()):_0x349fcb[_0x4b9bf9(0x2a8)]();}return _0x32f8c7;}const _0x85fe09=(_0x3ca000,_0x5f55b5,_0x48eaa8=![])=>{const _0x4e9208=_0x59d4a3;_0x5f55b5+=_0x1054cf[_0x4e9208(0x260)]['fontSizeBoost'],_0x322bcb[_0x4e9208(0x30f)]=_0x4e9208(0x24b)+_0x5f55b5+_0x4e9208(0x301);let _0x59f1f9=_0x322bcb[_0x4e9208(0x412)](_0x5880b7(_0x3ca000)[_0x4e9208(0x382)]((_0x5a4f60,_0x47483c,_0x449ac2)=>_0x449ac2&0x1?_0x5a4f60:_0x5a4f60+_0x47483c,''));return _0x48eaa8?{'width':_0x59f1f9[_0x4e9208(0x453)],'height':_0x5f55b5}:_0x59f1f9[_0x4e9208(0x453)];};function _0x165ff5(_0x2c3cdd,_0x20c65d,_0x35cf59,_0x5d23e1,_0x38f0fc,_0x1c3a1f=_0x59d4a3(0x3f6),_0x582bf8=![],_0x93d79=0x1,_0x5202c4=!![],_0x314897=_0x322bcb){const _0x383011=_0x59d4a3;_0x5d23e1+=_0x1054cf['graphical']['fontSizeBoost'];let _0x2a4c0d=_0x5d23e1/0x5,_0x2c3fe2=0x1,_0x8452ea=_0x5880b7(_0x2c3cdd),_0x192925=_0x8452ea[_0x383011(0x382)]((_0x3b87dc,_0x5c859c,_0x14f3cf)=>_0x14f3cf&0x1?_0x3b87dc:_0x3b87dc+_0x5c859c,'');_0x314897[_0x383011(0x320)]&&(_0x2c3fe2=_0x322bcb['getTransform']()['d'],_0x2a4c0d*=_0x2c3fe2);_0x2c3fe2!==0x1&&(_0x5d23e1*=_0x2c3fe2);_0x314897[_0x383011(0x30f)]=_0x383011(0x24b)+_0x5d23e1+_0x383011(0x301);let _0x2d9c51=_0x2a4c0d,_0x3f35a0=(_0x5d23e1+0x2*_0x2a4c0d)/0x2,_0x3d8db6=0x0;switch(_0x1c3a1f){case _0x383011(0x3e7):_0x3d8db6=0.5;break;case _0x383011(0x379):_0x3d8db6=0x1;}_0x3d8db6&&(_0x2d9c51-=_0x322bcb['measureText'](_0x192925)[_0x383011(0x453)]*_0x3d8db6);_0x314897[_0x383011(0x32e)]=(_0x5d23e1+0x1)/_0x1054cf[_0x383011(0x260)][_0x383011(0x3a4)],_0x314897[_0x383011(0x261)]='left',_0x314897[_0x383011(0x3d5)]=_0x383011(0x1ef),_0x314897['strokeStyle']=_0x16d3b0[_0x383011(0x4b9)],_0x314897['fillStyle']=_0x38f0fc,_0x314897[_0x383011(0x44e)](),_0x314897[_0x383011(0x207)]=_0x1054cf[_0x383011(0x260)][_0x383011(0x389)]?_0x383011(0x3fc):'round',_0x314897['lineJoin']=_0x1054cf[_0x383011(0x260)][_0x383011(0x389)]?_0x383011(0x3fc):_0x383011(0x262);_0x2c3fe2!==0x1&&_0x314897[_0x383011(0x250)](0x1/_0x2c3fe2,0x1/_0x2c3fe2);_0x2d9c51+=_0x20c65d*_0x2c3fe2-_0x5d23e1/0x4,_0x3f35a0+=_0x35cf59*_0x2c3fe2-_0x3f35a0*(_0x582bf8?1.05:1.5);_0x5202c4&&_0x314897['strokeText'](_0x192925,_0x2d9c51,_0x3f35a0);for(let _0x18119d=0x0;_0x18119d<_0x8452ea[_0x383011(0x233)];_0x18119d++){let _0x409356=_0x8452ea[_0x18119d];_0x18119d&0x1?(_0x409356==='reset'?_0x314897[_0x383011(0x30b)]=_0x38f0fc:(!isNaN(_0x409356)&&(_0x409356=parseInt(_0x409356)),_0x409356=_0x3e3011[_0x383011(0x278)](_0x409356)??_0x409356),_0x314897[_0x383011(0x30b)]=_0x409356):(_0x18119d&&(_0x2d9c51+=_0x322bcb[_0x383011(0x412)](_0x8452ea[_0x18119d-0x2]+_0x409356)[_0x383011(0x453)]-_0x322bcb[_0x383011(0x412)](_0x409356)['width']),_0x314897['fillText'](_0x409356,_0x2d9c51,_0x3f35a0));}_0x314897['restore']();}function _0x4ff17f(_0x2e1ab1,_0x403a8b,_0x562300,_0x30a4f1,_0x379505,_0x739a3=_0x59d4a3(0x3f6),_0x3947c2=![],_0x4f8fb4=0x1,_0x289476=!![],_0x2d05ca=_0x322bcb){const _0x14fb15=_0x59d4a3,_0x2ffd97=window[_0x14fb15(0x435)]||0x1;(_0x2d05ca[_0x14fb15(0x27b)]['width']!==_0x2d05ca['canvas'][_0x14fb15(0x1d0)]*_0x2ffd97||_0x2d05ca['canvas']['height']!==_0x2d05ca[_0x14fb15(0x27b)][_0x14fb15(0x369)]*_0x2ffd97)&&(_0x2d05ca[_0x14fb15(0x27b)]['width']=_0x2d05ca[_0x14fb15(0x27b)][_0x14fb15(0x1d0)]*_0x2ffd97,_0x2d05ca[_0x14fb15(0x27b)][_0x14fb15(0x410)]=_0x2d05ca['canvas'][_0x14fb15(0x369)]*_0x2ffd97,_0x2d05ca[_0x14fb15(0x250)](_0x2ffd97,_0x2ffd97));_0x30a4f1+=_0x1054cf[_0x14fb15(0x260)][_0x14fb15(0x2f3)];let _0x2d98ad=_0x30a4f1/0x5,_0x367024=0x1,_0x1158f0=_0x5880b7(_0x2e1ab1),_0xcd3427=_0x1158f0['reduce']((_0x3e4e0e,_0x5f3a62,_0x2bdd9e)=>_0x2bdd9e&0x1?_0x3e4e0e:_0x3e4e0e+_0x5f3a62,'');_0x2d05ca[_0x14fb15(0x320)]&&(_0x367024=_0x2d05ca[_0x14fb15(0x320)]()['d'],_0x2d98ad*=_0x367024);_0x367024!==0x1&&(_0x30a4f1*=_0x367024);_0x2d05ca[_0x14fb15(0x30f)]='bold\x20'+_0x30a4f1+'px\x20Ubuntu';let _0x5a5165=_0x2d98ad,_0x2d6103=(_0x30a4f1+0x2*_0x2d98ad)/0x2,_0x3463ab=0x0;switch(_0x739a3){case _0x14fb15(0x3e7):_0x3463ab=0.5;break;case _0x14fb15(0x379):_0x3463ab=0x1;}_0x3463ab&&(_0x5a5165-=_0x2d05ca[_0x14fb15(0x412)](_0xcd3427)['width']*_0x3463ab);_0x2d05ca[_0x14fb15(0x32e)]=(_0x30a4f1-1.5)/_0x1054cf['graphical'][_0x14fb15(0x3a4)],_0x2d05ca[_0x14fb15(0x261)]=_0x14fb15(0x3f6),_0x2d05ca['textBaseline']=_0x14fb15(0x1ef),_0x2d05ca['strokeStyle']=_0x16d3b0[_0x14fb15(0x4b9)],_0x2d05ca[_0x14fb15(0x30b)]=_0x379505,_0x2d05ca[_0x14fb15(0x44e)](),_0x2d05ca['lineCap']=_0x1054cf['graphical'][_0x14fb15(0x389)]?_0x14fb15(0x3fc):_0x14fb15(0x262),_0x2d05ca[_0x14fb15(0x2d1)]=_0x1054cf[_0x14fb15(0x260)][_0x14fb15(0x389)]?_0x14fb15(0x3fc):_0x14fb15(0x262);_0x367024!==0x1&&_0x2d05ca['scale'](0x1/_0x367024,0x1/_0x367024);_0x5a5165+=_0x403a8b*_0x367024-_0x30a4f1/0x4,_0x2d6103+=_0x562300*_0x367024-_0x2d6103*(_0x3947c2?1.05:1.5);_0x289476&&_0x2d05ca[_0x14fb15(0x2f7)](_0xcd3427,_0x5a5165,_0x2d6103);for(let _0x260794=0x0;_0x260794<_0x1158f0[_0x14fb15(0x233)];_0x260794++){let _0x2ce2dc=_0x1158f0[_0x260794];_0x260794&0x1?(_0x2ce2dc==='reset'?_0x2d05ca[_0x14fb15(0x30b)]=_0x379505:(!isNaN(_0x2ce2dc)&&(_0x2ce2dc=parseInt(_0x2ce2dc)),_0x2ce2dc=_0x3e3011[_0x14fb15(0x278)](_0x2ce2dc)??_0x2ce2dc),_0x2d05ca[_0x14fb15(0x30b)]=_0x2ce2dc):(_0x260794&&(_0x5a5165+=_0x2d05ca[_0x14fb15(0x412)](_0x1158f0[_0x260794-0x2]+_0x2ce2dc)['width']-_0x2d05ca[_0x14fb15(0x412)](_0x2ce2dc)[_0x14fb15(0x453)]),_0x2d05ca['fillText'](_0x2ce2dc,_0x5a5165,_0x2d6103));}_0x2d05ca[_0x14fb15(0x27d)]();}function _0x109a16(_0x289f45,_0xf8b36,_0x22b5c8,_0x1f3add,_0x16906d=![]){const _0x12a47a=_0x59d4a3;switch(_0x16906d){case!![]:_0x322bcb[_0x12a47a(0x3c9)](_0x289f45,_0xf8b36,_0x22b5c8,_0x1f3add);break;case![]:_0x322bcb[_0x12a47a(0x2ab)](_0x289f45,_0xf8b36,_0x22b5c8,_0x1f3add);break;}}function _0x486f6d(_0x7a43da,_0x184a3e,_0x23708f,_0x384986=![]){const _0x58125b=_0x59d4a3;_0x322bcb['beginPath'](),_0x322bcb[_0x58125b(0x2c0)](_0x7a43da,_0x184a3e,_0x23708f,0x0,Math['PI']*0x2),_0x384986?_0x322bcb[_0x58125b(0x44a)]():_0x322bcb[_0x58125b(0x22d)]();}function _0x439ab1(_0x4ba1da,_0x484d6a,_0x525d58,_0x3f0383){const _0x28ff45=_0x59d4a3;_0x322bcb[_0x28ff45(0x2ca)](),_0x322bcb[_0x28ff45(0x342)](Math['round'](_0x4ba1da)+0.5,Math[_0x28ff45(0x262)](_0x484d6a)+0.5),_0x322bcb[_0x28ff45(0x342)](Math['round'](_0x525d58)+0.5,Math[_0x28ff45(0x262)](_0x3f0383)+0.5),_0x322bcb['closePath'](),_0x322bcb[_0x28ff45(0x44a)]();}function _0x2af335(_0x1639e3,_0xc64e9d,_0xb0b4bc,_0x135ad9,_0x191632){const _0x71f959=_0x59d4a3;_0x322bcb['beginPath'](),_0x322bcb[_0x71f959(0x342)](_0x1639e3,_0xb0b4bc),_0x322bcb[_0x71f959(0x342)](_0xc64e9d,_0xb0b4bc),_0x322bcb[_0x71f959(0x32e)]=_0x135ad9,_0x322bcb[_0x71f959(0x245)]=_0x191632,_0x322bcb[_0x71f959(0x40c)](),_0x322bcb[_0x71f959(0x44a)]();}function _0x5dd87a(_0x2426bf){const _0x17ffed=_0x59d4a3;try{const _0x20bc44=new URL(_0x2426bf),_0x11b236=_0x20bc44[_0x17ffed(0x266)],_0xc60187=_0x11b236[_0x17ffed(0x45f)]('.')[_0x17ffed(0x43f)]()[_0x17ffed(0x403)](),_0x43c659=[_0x17ffed(0x484),_0x17ffed(0x305),_0x17ffed(0x32f),'gif',_0x17ffed(0x41a),_0x17ffed(0x4ae),'svg'];return _0x43c659[_0x17ffed(0x4e1)](_0xc60187);}catch(_0x87773e){return![];}}const _0x3b05d1=[];function _0x4b7b51(_0x55319f,_0x47353a,_0x168951,_0x5155ed,_0x467b8b,_0x57aabd=0x0,_0x45c176,_0x2bd284){const _0x3ccb12=_0x59d4a3;_0x55319f[_0x3ccb12(0x2ca)]();if(_0x467b8b instanceof Array){let _0x355e10=Math[_0x3ccb12(0x47e)](_0x57aabd),_0x50cba6=Math[_0x3ccb12(0x204)](_0x57aabd);for(let [_0x9a8cfb,_0x2b5848]of _0x467b8b)_0x55319f[_0x3ccb12(0x342)](_0x47353a+_0x5155ed*(_0x9a8cfb*_0x355e10-_0x2b5848*_0x50cba6),_0x168951+_0x5155ed*(_0x2b5848*_0x355e10+_0x9a8cfb*_0x50cba6));}else{if(_0x3ccb12(0x47f)===typeof _0x467b8b){if(_0x5dd87a(_0x467b8b)){!_0x3b05d1[_0x467b8b]&&(_0x3b05d1[_0x467b8b]=new Image(),_0x3b05d1[_0x467b8b][_0x3ccb12(0x203)]=_0x467b8b,_0x3b05d1[_0x467b8b][_0x3ccb12(0x404)]=![],_0x3b05d1[_0x467b8b][_0x3ccb12(0x47d)]=function(){const _0x102950=_0x3ccb12;console['log'](_0x102950(0x34a),_0x467b8b),this['isBroken']=!![];});let _0x44bc1f=_0x3b05d1[_0x467b8b];if(_0x44bc1f['isBroken']||!_0x44bc1f[_0x3ccb12(0x35f)]){_0x55319f[_0x3ccb12(0x40e)](_0x47353a,_0x168951),_0x55319f[_0x3ccb12(0x1ea)](_0x57aabd),_0x55319f['beginPath'](),_0x55319f[_0x3ccb12(0x30b)]='#ff00ff',_0x55319f[_0x3ccb12(0x342)](-_0x5155ed,-_0x5155ed),_0x55319f[_0x3ccb12(0x342)](_0x5155ed,-_0x5155ed),_0x55319f[_0x3ccb12(0x342)](_0x5155ed,_0x5155ed),_0x55319f[_0x3ccb12(0x342)](-_0x5155ed,_0x5155ed),_0x55319f[_0x3ccb12(0x342)](-_0x5155ed,-_0x5155ed),_0x55319f[_0x3ccb12(0x22d)](),_0x55319f['closePath'](),_0x55319f[_0x3ccb12(0x2ca)](),_0x55319f[_0x3ccb12(0x30b)]=_0x3ccb12(0x3e9),_0x55319f[_0x3ccb12(0x342)](-_0x5155ed,-_0x5155ed),_0x55319f[_0x3ccb12(0x342)](0x0,-_0x5155ed),_0x55319f[_0x3ccb12(0x342)](0x0,0x0),_0x55319f[_0x3ccb12(0x342)](0x0,_0x5155ed),_0x55319f['lineTo'](_0x5155ed,_0x5155ed),_0x55319f[_0x3ccb12(0x342)](_0x5155ed,0x0),_0x55319f[_0x3ccb12(0x342)](0x0,0x0),_0x55319f[_0x3ccb12(0x342)](-_0x5155ed,0x0),_0x55319f[_0x3ccb12(0x342)](-_0x5155ed,-_0x5155ed),_0x55319f[_0x3ccb12(0x22d)](),_0x55319f['closePath'](),_0x55319f['rotate'](-_0x57aabd),_0x55319f[_0x3ccb12(0x40e)](-_0x47353a,-_0x168951);return;}_0x55319f[_0x3ccb12(0x40e)](_0x47353a,_0x168951),_0x55319f[_0x3ccb12(0x1ea)](_0x57aabd),_0x55319f[_0x3ccb12(0x2ae)](_0x44bc1f,-_0x5155ed,-_0x5155ed,_0x5155ed*0x2,_0x5155ed*0x2),_0x55319f['rotate'](-_0x57aabd),_0x55319f['translate'](-_0x47353a,-_0x168951);return;}else{let _0x11c829=new Path2D(_0x467b8b);_0x55319f[_0x3ccb12(0x44e)](),_0x55319f['translate'](_0x47353a,_0x168951),_0x55319f['scale'](_0x5155ed,_0x5155ed),_0x55319f[_0x3ccb12(0x32e)]/=_0x5155ed,_0x55319f['rotate'](_0x57aabd),_0x55319f[_0x3ccb12(0x32e)]*=_0x2bd284?0x1:0.5;if(!_0x45c176)_0x55319f[_0x3ccb12(0x44a)](_0x11c829);if(_0x2bd284)_0x55319f['fill'](_0x11c829);_0x55319f['restore']();return;}}_0x57aabd+=_0x467b8b%0x2?0x0:Math['PI']/_0x467b8b;}if(!_0x467b8b){let _0x2af00e=_0x55319f['fillStyle'],_0x541a7a=_0x55319f[_0x3ccb12(0x245)];_0x55319f[_0x3ccb12(0x2c0)](_0x47353a,_0x168951,_0x5155ed,0x0,0x2*Math['PI']),_0x55319f[_0x3ccb12(0x30b)]=_0x541a7a,_0x55319f[_0x3ccb12(0x32e)]*=_0x2bd284?0x1:0.5;if(!_0x45c176)_0x55319f[_0x3ccb12(0x44a)]();_0x55319f[_0x3ccb12(0x40c)](),_0x55319f['beginPath'](),_0x55319f[_0x3ccb12(0x30b)]=_0x2af00e,_0x55319f['arc'](_0x47353a,_0x168951,_0x5155ed*_0x2bd284,0x0,0x2*Math['PI']);if(_0x2bd284)_0x55319f['fill']();_0x55319f['closePath']();return;}else{if(_0x467b8b<0x0){_0x55319f[_0x3ccb12(0x2d1)]=_0x3ccb12(0x3fc),_0x467b8b=-_0x467b8b,_0x57aabd+=_0x467b8b%0x1*Math['PI']*0x2,_0x467b8b=Math[_0x3ccb12(0x236)](_0x467b8b);let _0x42b21d=0x1-0x6/_0x467b8b**0x2;_0x55319f[_0x3ccb12(0x22c)](_0x47353a+_0x5155ed*Math[_0x3ccb12(0x47e)](_0x57aabd),_0x168951+_0x5155ed*Math[_0x3ccb12(0x204)](_0x57aabd)),_0x55319f[_0x3ccb12(0x32e)]*=_0x2bd284?0x1:0.5;for(let _0x5e00b0=0x0;_0x5e00b0<_0x467b8b;_0x5e00b0++){let _0x266d11=(_0x5e00b0+0.5)/_0x467b8b*0x2*Math['PI']+_0x57aabd,_0x1fe034=(_0x5e00b0+0x1)/_0x467b8b*0x2*Math['PI']+_0x57aabd,_0x572063=_0x47353a+_0x5155ed*_0x42b21d*Math[_0x3ccb12(0x47e)](_0x266d11),_0x4809fa=_0x168951+_0x5155ed*_0x42b21d*Math[_0x3ccb12(0x204)](_0x266d11),_0x2da60a=_0x47353a+_0x5155ed*Math[_0x3ccb12(0x47e)](_0x1fe034),_0x1ee2dc=_0x168951+_0x5155ed*Math[_0x3ccb12(0x204)](_0x1fe034);_0x55319f['quadraticCurveTo'](_0x572063,_0x4809fa,_0x2da60a,_0x1ee2dc);}}else{if(_0x467b8b>0x0){_0x57aabd+=_0x467b8b%0x1*Math['PI']*0x2,_0x467b8b=Math[_0x3ccb12(0x236)](_0x467b8b),_0x55319f[_0x3ccb12(0x32e)]*=_0x2bd284?0x1:0.5;for(let _0x196b08=0x0;_0x196b08<_0x467b8b;_0x196b08++){let _0x54d890=_0x196b08/_0x467b8b*0x2*Math['PI']+_0x57aabd;_0x55319f['lineTo'](_0x47353a+_0x5155ed*Math['cos'](_0x54d890),_0x168951+_0x5155ed*Math[_0x3ccb12(0x204)](_0x54d890));}}}}_0x55319f['closePath']();if(!_0x45c176)_0x55319f['stroke']();if(_0x2bd284)_0x55319f[_0x3ccb12(0x22d)]();_0x55319f[_0x3ccb12(0x2d1)]=_0x3ccb12(0x262);}function _0x5431ce(_0x5bc320,_0x1da677,_0x3a113a,_0x2839ec,_0x44cd54,_0xf31f03,_0x30aa45,_0x529593,_0x433310){const _0x5a01d7=_0x59d4a3;let _0x172921=[];_0x172921=_0xf31f03>0x0?[_0x44cd54*_0xf31f03,_0x44cd54]:[_0x44cd54,-_0x44cd54*_0xf31f03];let _0x48005e=[],_0x525770=Math[_0x5a01d7(0x204)](_0x30aa45),_0x2e7f60=Math[_0x5a01d7(0x47e)](_0x30aa45);_0x48005e[_0x5a01d7(0x224)]([0x0,_0x172921[0x1]]),_0x48005e[_0x5a01d7(0x224)]([_0x2839ec*0x2,_0x172921[0x0]]),_0x48005e[_0x5a01d7(0x224)]([_0x2839ec*0x2,-_0x172921[0x0]]),_0x48005e[_0x5a01d7(0x224)]([0x0,-_0x172921[0x1]]),_0x5bc320[_0x5a01d7(0x2ca)]();for(let _0x2ce139 of _0x48005e){let _0x5310a7=_0x2ce139[0x0]*_0x2e7f60-_0x2ce139[0x1]*_0x525770+_0x1da677,_0x39e34f=_0x2ce139[0x0]*_0x525770+_0x2ce139[0x1]*_0x2e7f60+_0x3a113a;_0x5bc320[_0x5a01d7(0x342)](_0x5310a7,_0x39e34f);}_0x5bc320[_0x5a01d7(0x40c)]();if(!_0x529593)_0x5bc320['stroke']();if(_0x433310)_0x5bc320[_0x5a01d7(0x22d)]();}const _0x45607b=(_0x47a102,_0x3d17fe,_0x3a641b,_0x1c2825,_0x30381b,_0x42381a=0x1,_0x27e702=0x1,_0x2902fc=0x0,_0x3ce9c8=![],_0x468785=![],_0x3bda85=![],_0x591b7f=_0x1c2825[_0x59d4a3(0x362)])=>{const _0x1fb4e5=_0x59d4a3;let _0x816c3b=_0x468785?_0x468785:_0x322bcb,_0x4bd9f2=_0x3bda85?0x1:_0x591b7f[_0x1fb4e5(0x3ca)][_0x1fb4e5(0x3a0)](),_0x1e5a65=_0x27e702*_0x30381b*_0x1c2825['size'],_0x4c866e=_0x1c2825[_0x1fb4e5(0x372)][_0x1fb4e5(0x45f)]('-'),_0x2ea3ea=_0x198623[_0x1fb4e5(0x425)][parseInt(_0x4c866e[0x0])],_0x409de2=_0x3d17fe,_0x56c369=_0x3a641b,_0x5e9f96=_0x3bda85===![]?_0x1c2825:_0x3bda85,_0x5bcd23=_0x3ce9c8?0x0:_0x591b7f[_0x1fb4e5(0x3ca)]['getBlend']();_0x5e9f96[_0x1fb4e5(0x375)]['update']();if(_0x4bd9f2===0x0||_0x42381a===0x0)return;if(_0x591b7f[_0x1fb4e5(0x3d6)])_0x1e5a65*=0x1+0.5*(0x1-_0x4bd9f2);if(_0x1054cf[_0x1fb4e5(0x260)][_0x1fb4e5(0x1f7)]&&_0x468785!=_0x240f3a&&(_0x4bd9f2!==0x1||_0x42381a!==0x1))_0x816c3b=_0x240f3a,_0x816c3b['canvas']['width']=_0x816c3b[_0x1fb4e5(0x27b)][_0x1fb4e5(0x410)]=_0x1e5a65*_0x2ea3ea['position'][_0x1fb4e5(0x456)]+_0x30381b*0x14,_0x409de2=_0x816c3b['canvas'][_0x1fb4e5(0x453)]/0x2-_0x1e5a65*_0x2ea3ea['position'][_0x1fb4e5(0x456)]*_0x2ea3ea[_0x1fb4e5(0x3be)]['middle']['x']*Math[_0x1fb4e5(0x47e)](_0x2902fc)/0x4,_0x56c369=_0x816c3b[_0x1fb4e5(0x27b)][_0x1fb4e5(0x410)]/0x2-_0x1e5a65*_0x2ea3ea[_0x1fb4e5(0x3be)][_0x1fb4e5(0x456)]*_0x2ea3ea[_0x1fb4e5(0x3be)][_0x1fb4e5(0x1ef)]['x']*Math[_0x1fb4e5(0x204)](_0x2902fc)/0x4,_0x816c3b[_0x1fb4e5(0x40e)](0.5,0.5);else{if(_0x4bd9f2*_0x42381a<0.5)return;}_0x816c3b[_0x1fb4e5(0x207)]=_0x1fb4e5(0x262),_0x816c3b['lineJoin']=_0x1fb4e5(0x262);for(let _0x57b75f=0x0;_0x57b75f<_0x5e9f96[_0x1fb4e5(0x273)]['length'];_0x57b75f++){let _0x49e983=_0x5e9f96[_0x1fb4e5(0x273)][_0x57b75f];_0x5e9f96[_0x1fb4e5(0x273)][_0x57b75f]['lerpedFacing']==undefined?_0x5e9f96['turrets'][_0x57b75f]['lerpedFacing']=_0x5e9f96[_0x1fb4e5(0x273)][_0x57b75f][_0x1fb4e5(0x2a3)]:_0x5e9f96['turrets'][_0x57b75f]['lerpedFacing']=_0x45e032[_0x1fb4e5(0x1c6)](_0x5e9f96[_0x1fb4e5(0x273)][_0x57b75f][_0x1fb4e5(0x346)],_0x5e9f96['turrets'][_0x57b75f][_0x1fb4e5(0x2a3)],0.1,!![]);if(!_0x49e983[_0x1fb4e5(0x2b1)]){let _0x42510c=_0x49e983[_0x1fb4e5(0x23a)]+_0x49e983['angle']+_0x2902fc,_0x2f38d5=_0x49e983[_0x1fb4e5(0x205)]*_0x1e5a65,_0x2c7487=0x0;_0x49e983[_0x1fb4e5(0x27c)]||_0x3ce9c8?_0x2c7487=_0x2902fc+_0x49e983[_0x1fb4e5(0x4a3)]:_0x2c7487=_0x5e9f96[_0x1fb4e5(0x273)][_0x57b75f][_0x1fb4e5(0x346)],_0x45607b(_0x47a102,_0x409de2+_0x2f38d5*Math[_0x1fb4e5(0x47e)](_0x42510c),_0x56c369+_0x2f38d5*Math['sin'](_0x42510c),_0x49e983,_0x30381b,0x1,_0x1e5a65/_0x30381b/_0x49e983[_0x1fb4e5(0x3eb)]*_0x49e983['sizeFactor'],_0x2c7487,_0x3ce9c8,_0x816c3b,_0x5e9f96[_0x1fb4e5(0x273)][_0x57b75f],_0x591b7f);}}_0x816c3b['lineJoin']=_0x1fb4e5(0x3fc),_0x816c3b[_0x1fb4e5(0x32e)]=Math[_0x1fb4e5(0x408)](_0x1054cf['graphical'][_0x1fb4e5(0x39f)],_0x30381b*_0x1054cf['graphical'][_0x1fb4e5(0x227)]);let _0x2ecbfa=_0x5e9f96[_0x1fb4e5(0x375)][_0x1fb4e5(0x337)](),_0x234122=_0x5e9f96['guns']['getConfig']();for(let _0x17ce1e=0x0;_0x17ce1e<_0x5e9f96[_0x1fb4e5(0x375)][_0x1fb4e5(0x233)];_0x17ce1e++){let _0x2b83db=_0x234122[_0x17ce1e];if(!_0x2b83db[_0x1fb4e5(0x226)]){let _0x513176=(_0x3ce9c8?0x0:_0x2ecbfa[_0x17ce1e])/(_0x2b83db[_0x1fb4e5(0x39d)]===0x1?0x2:0x1),_0x5663c3=_0x2b83db[_0x1fb4e5(0x205)]*Math[_0x1fb4e5(0x47e)](_0x2b83db['direction']+_0x2b83db[_0x1fb4e5(0x4a3)]+_0x2902fc),_0x3d4e3a=_0x2b83db[_0x1fb4e5(0x205)]*Math[_0x1fb4e5(0x204)](_0x2b83db[_0x1fb4e5(0x23a)]+_0x2b83db[_0x1fb4e5(0x4a3)]+_0x2902fc),_0x29c450=_0x2b83db['color']==null?_0x16d3b0[_0x1fb4e5(0x1f0)]:_0x3e3011[_0x1fb4e5(0x4e3)](_0x2b83db[_0x1fb4e5(0x2a6)],_0x47a102),_0x33c774=_0x2b83db[_0x1fb4e5(0x430)],_0x13fa84=_0x2b83db[_0x1fb4e5(0x29e)];_0x3e3011[_0x1fb4e5(0x1c7)](_0x816c3b,_0x3e3011[_0x1fb4e5(0x360)](_0x29c450,_0x591b7f['status']['getColor'](),_0x5bcd23)),_0x5431ce(_0x816c3b,_0x409de2+_0x1e5a65*_0x5663c3,_0x56c369+_0x1e5a65*_0x3d4e3a,_0x1e5a65*(_0x2b83db['length']/1.8-(_0x2b83db[_0x1fb4e5(0x39d)]===0x1?_0x513176:_0x513176/0x2)),_0x1e5a65*_0x2b83db[_0x1fb4e5(0x453)]/0x2,_0x2b83db[_0x1fb4e5(0x39d)],_0x2b83db[_0x1fb4e5(0x4a3)]+_0x2902fc,_0x33c774,_0x13fa84);}}_0x816c3b[_0x1fb4e5(0x2d1)]=_0x1fb4e5(0x262),_0x816c3b[_0x1fb4e5(0x1f4)]=0x1,_0x3e3011[_0x1fb4e5(0x1c7)](_0x816c3b,_0x3e3011[_0x1fb4e5(0x360)](_0x3e3011[_0x1fb4e5(0x4e3)](_0x1c2825[_0x1fb4e5(0x2a6)],_0x47a102),_0x591b7f['status']['getColor'](),_0x3ce9c8?0x0:_0x5bcd23)),_0x816c3b[_0x1fb4e5(0x314)]=_0x2ea3ea['glow'][_0x1fb4e5(0x2a6)]!=null?_0x3e3011[_0x1fb4e5(0x4e3)](_0x2ea3ea[_0x1fb4e5(0x42f)]['color']):_0x3e3011['mixColors'](_0x3e3011['modifyColor'](_0x1c2825[_0x1fb4e5(0x2a6)]),_0x591b7f['status'][_0x1fb4e5(0x278)](),_0x591b7f['status'][_0x1fb4e5(0x466)]());if(_0x2ea3ea[_0x1fb4e5(0x42f)][_0x1fb4e5(0x488)]&&_0x2ea3ea[_0x1fb4e5(0x42f)][_0x1fb4e5(0x488)]>0x0){_0x816c3b[_0x1fb4e5(0x384)]=_0x2ea3ea[_0x1fb4e5(0x42f)][_0x1fb4e5(0x488)]*(_0x1e5a65/_0x2ea3ea['size']*_0x2ea3ea[_0x1fb4e5(0x3b3)]),_0x816c3b['shadowOffsetX']=0x0,_0x816c3b[_0x1fb4e5(0x3f0)]=0x0,_0x816c3b['globalAlpha']=_0x2ea3ea['glow'][_0x1fb4e5(0x3f1)];for(var _0x159a1d=0x0;_0x159a1d<_0x2ea3ea['glow'][_0x1fb4e5(0x21e)];_0x159a1d++){_0x4b7b51(_0x816c3b,_0x409de2,_0x56c369,_0x1e5a65/_0x2ea3ea[_0x1fb4e5(0x3eb)]*_0x2ea3ea[_0x1fb4e5(0x3b3)],_0x2ea3ea[_0x1fb4e5(0x2bb)],_0x2902fc,!![],_0x2ea3ea[_0x1fb4e5(0x29e)]);}_0x816c3b[_0x1fb4e5(0x1f4)]=0x1;}_0x816c3b['shadowBlur']=0x0,_0x816c3b[_0x1fb4e5(0x1e9)]=0x0,_0x816c3b['shadowOffsetY']=0x0,_0x4b7b51(_0x816c3b,_0x409de2,_0x56c369,_0x1e5a65/_0x2ea3ea['size']*_0x2ea3ea[_0x1fb4e5(0x3b3)],_0x2ea3ea[_0x1fb4e5(0x2bb)],_0x2902fc,_0x2ea3ea[_0x1fb4e5(0x430)],_0x2ea3ea['drawFill']),_0x816c3b[_0x1fb4e5(0x2d1)]=_0x1fb4e5(0x3fc);for(let _0x370ec5=0x0;_0x370ec5<_0x5e9f96[_0x1fb4e5(0x375)]['length'];_0x370ec5++){let _0x5ee6ab=_0x234122[_0x370ec5];if(_0x5ee6ab['drawAbove']){let _0x37f277=(_0x3ce9c8?0x0:_0x2ecbfa[_0x370ec5])/(_0x5ee6ab[_0x1fb4e5(0x39d)]===0x1?0x2:0x1),_0x3d3d49=_0x5ee6ab['offset']*Math[_0x1fb4e5(0x47e)](_0x5ee6ab['direction']+_0x5ee6ab[_0x1fb4e5(0x4a3)]+_0x2902fc),_0x32af29=_0x5ee6ab[_0x1fb4e5(0x205)]*Math[_0x1fb4e5(0x204)](_0x5ee6ab[_0x1fb4e5(0x23a)]+_0x5ee6ab['angle']+_0x2902fc),_0x30d277=_0x5ee6ab['color']==null?_0x16d3b0['grey']:_0x3e3011[_0x1fb4e5(0x4e3)](_0x5ee6ab[_0x1fb4e5(0x2a6)],_0x47a102),_0x5788ec=_0x5ee6ab[_0x1fb4e5(0x430)],_0x3ba684=_0x5ee6ab[_0x1fb4e5(0x29e)];_0x3e3011[_0x1fb4e5(0x1c7)](_0x816c3b,_0x3e3011[_0x1fb4e5(0x360)](_0x30d277,_0x591b7f[_0x1fb4e5(0x3ca)]['getColor'](),_0x5bcd23)),_0x5431ce(_0x816c3b,_0x409de2+_0x1e5a65*_0x3d3d49,_0x56c369+_0x1e5a65*_0x32af29,_0x1e5a65*(_0x5ee6ab['length']/0x2-(_0x5ee6ab[_0x1fb4e5(0x39d)]===0x1?_0x37f277*0x2:_0x37f277)),_0x1e5a65*_0x5ee6ab[_0x1fb4e5(0x453)]/0x2,_0x5ee6ab[_0x1fb4e5(0x39d)],_0x5ee6ab[_0x1fb4e5(0x4a3)]+_0x2902fc,_0x5788ec,_0x3ba684);}}_0x816c3b[_0x1fb4e5(0x2d1)]=_0x1fb4e5(0x262);for(let _0x5a6ce3=0x0;_0x5a6ce3<_0x5e9f96['turrets'][_0x1fb4e5(0x233)];_0x5a6ce3++){let _0x4b9988=_0x5e9f96[_0x1fb4e5(0x273)][_0x5a6ce3];if(_0x4b9988[_0x1fb4e5(0x2b1)]){let _0x1cb7a6=_0x4b9988[_0x1fb4e5(0x23a)]+_0x4b9988[_0x1fb4e5(0x4a3)]+_0x2902fc,_0x1b827a=_0x4b9988[_0x1fb4e5(0x205)]*_0x1e5a65,_0x1c5f67=0x0;_0x4b9988[_0x1fb4e5(0x27c)]||_0x3ce9c8?_0x1c5f67=_0x2902fc+_0x4b9988['angle']:_0x1c5f67=_0x5e9f96[_0x1fb4e5(0x273)][_0x5a6ce3]['lerpedFacing'],_0x45607b(_0x47a102,_0x409de2+_0x1b827a*Math[_0x1fb4e5(0x47e)](_0x1cb7a6),_0x56c369+_0x1b827a*Math['sin'](_0x1cb7a6),_0x4b9988,_0x30381b,0x1,_0x1e5a65/_0x30381b/_0x4b9988['size']*_0x4b9988['sizeFactor'],_0x1c5f67,_0x3ce9c8,_0x816c3b,_0x5e9f96[_0x1fb4e5(0x273)][_0x5a6ce3],_0x591b7f);}}_0x468785==![]&&_0x816c3b!=_0x322bcb&&_0x816c3b['canvas'][_0x1fb4e5(0x453)]>0x0&&_0x816c3b['canvas'][_0x1fb4e5(0x410)]>0x0&&(_0x322bcb[_0x1fb4e5(0x44e)](),_0x322bcb[_0x1fb4e5(0x1f4)]=_0x42381a*_0x4bd9f2,_0x322bcb[_0x1fb4e5(0x1df)]=![],_0x322bcb[_0x1fb4e5(0x2ae)](_0x816c3b['canvas'],_0x3d17fe-_0x409de2,_0x3a641b-_0x56c369),_0x322bcb[_0x1fb4e5(0x27d)]());};var _0x209b04=document['querySelector'](_0x59d4a3(0x23f));function _0x466984(){const _0x140d30=_0x59d4a3;_0x209b04[_0x140d30(0x322)]=!![],_0x45e032[_0x140d30(0x251)](_0x140d30(0x300)),window[_0x140d30(0x2cf)](_0x140d30(0x39e),()=>{const _0x4c8739=_0x140d30,_0x186d4e=localStorage['getItem'](_0x4c8739(0x300));_0x186d4e==='false'&&(_0x209b04['checked']=![]);});}_0x466984();function _0x48bcd2(_0x4f4711,_0x5804f2,_0x1920d2,_0x5c33a6,_0x1b6a7e){const _0x4f3ef7=_0x59d4a3;let _0xb80e48=_0x1920d2['render'][_0x4f3ef7(0x3ca)][_0x4f3ef7(0x3a0)]();_0x322bcb['globalAlpha']=_0xb80e48*_0xb80e48;let _0x22fe6b=_0x1920d2[_0x4f3ef7(0x3eb)]*_0x5c33a6,_0x465703=_0x1920d2[_0x4f3ef7(0x372)][_0x4f3ef7(0x45f)]('-'),_0x28d39c=_0x198623[_0x4f3ef7(0x425)][parseInt(_0x465703[0x0])],_0x412954=_0x22fe6b/_0x28d39c['size']*_0x28d39c[_0x4f3ef7(0x3b3)];if(_0x1920d2[_0x4f3ef7(0x34e)]){let _0x1b1f72=_0x1920d2[_0x4f3ef7(0x362)]['health'][_0x4f3ef7(0x1cc)](),_0xab8f41=_0x1920d2['render'][_0x4f3ef7(0x469)][_0x4f3ef7(0x1cc)]();if(_0x1920d2[_0x4f3ef7(0x41e)]){const _0x2b44c5=0x1,_0x3b0fb7=0x1f4,_0x365171=0x1f4,_0x222930=0x1f4,_0x332592=0xa,_0x49c81d=_0x4f4711-_0x22fe6b-0x5*_0x5c33a6,_0x38b119=_0x5804f2+_0x412954+0xa*_0x5c33a6+_0x332592,_0x1e3280=new Date()[_0x4f3ef7(0x201)](),_0x4b36d8=_0x1e3280-_0x222930,_0x3348a1=_0x1e3280-_0x4b36d8<_0x365171?0x1-(_0x1e3280-_0x4b36d8)/_0x365171:_0x1e3280-_0x4b36d8<_0x3b0fb7?(_0x1e3280-_0x4b36d8)/_0x3b0fb7:0x1;_0x3348a1>0x0&&(_0x322bcb[_0x4f3ef7(0x1f4)]=_0x2b44c5*_0x3348a1,_0x165ff5('-'+_0x1920d2[_0x4f3ef7(0x41e)],_0x49c81d,_0x38b119,0x10*_0x5c33a6,_0x4f3ef7(0x4b9),'left','top',_0x4f3ef7(0x29b)),_0x322bcb['globalAlpha']=0x1),_0x1920d2[_0x4f3ef7(0x41e)]=null;}if(_0x1b1f72<0x1-0.0001||_0xab8f41<0x1-0.0001){let _0x5ad634=null,_0x4ccc56=!![];if(typeof _0x1920d2[_0x4f3ef7(0x2a6)]==_0x4f3ef7(0x47f)){_0x5ad634=_0x1920d2[_0x4f3ef7(0x2a6)][_0x4f3ef7(0x45f)]('\x20')[0x0];if(_0x5ad634[0x0]=='#')_0x4ccc56=![];else!isNaN(parseInt(_0x5ad634))&&(_0x5ad634=parseInt(_0x5ad634));}else _0x5ad634=_0x1920d2['color'];function _0x953f97(_0x5f04ee,_0x4c56a3,_0x94581f){const _0x1a21de=_0x4f3ef7,_0x2c9fc1=parseInt(_0x5f04ee[_0x1a21de(0x4e0)](0x1,0x3),0x10),_0x579cee=parseInt(_0x5f04ee[_0x1a21de(0x4e0)](0x3,0x5),0x10),_0x32a6e7=parseInt(_0x5f04ee[_0x1a21de(0x4e0)](0x5,0x7),0x10),_0x62d01e=parseInt(_0x4c56a3[_0x1a21de(0x4e0)](0x1,0x3),0x10),_0x1de798=parseInt(_0x4c56a3['substring'](0x3,0x5),0x10),_0x5aa803=parseInt(_0x4c56a3[_0x1a21de(0x4e0)](0x5,0x7),0x10),_0x196c3f=Math[_0x1a21de(0x236)](_0x2c9fc1+_0x94581f*(_0x62d01e-_0x2c9fc1)),_0x1ea0ce=Math[_0x1a21de(0x236)](_0x579cee+_0x94581f*(_0x1de798-_0x579cee)),_0x241378=Math[_0x1a21de(0x236)](_0x32a6e7+_0x94581f*(_0x5aa803-_0x32a6e7));return'#'+_0x196c3f[_0x1a21de(0x43b)](0x10)[_0x1a21de(0x3d9)](0x2,'0')+_0x1ea0ce['toString'](0x10)[_0x1a21de(0x3d9)](0x2,'0')+_0x241378[_0x1a21de(0x43b)](0x10)[_0x1a21de(0x3d9)](0x2,'0');}let _0x1b6f28=_0x1054cf[_0x4f3ef7(0x260)][_0x4f3ef7(0x355)]?_0x3e3011[_0x4f3ef7(0x360)](_0x4ccc56?_0x3e3011[_0x4f3ef7(0x278)](_0x5ad634):_0x5ad634,_0x16d3b0[_0x4f3ef7(0x4a9)],0.5):_0x16d3b0[_0x4f3ef7(0x364)],_0x464f1f=_0x1054cf[_0x4f3ef7(0x260)][_0x4f3ef7(0x355)]?_0x3e3011[_0x4f3ef7(0x360)](_0x4ccc56?_0x3e3011[_0x4f3ef7(0x278)](_0x5ad634):_0x5ad634,_0x16d3b0['guiwhite'],0.5):_0x16d3b0['orange'],_0x30760e=_0x1054cf[_0x4f3ef7(0x260)][_0x4f3ef7(0x355)]?_0x3e3011[_0x4f3ef7(0x360)](_0x4ccc56?_0x3e3011[_0x4f3ef7(0x278)](_0x5ad634):_0x5ad634,_0x16d3b0[_0x4f3ef7(0x4a9)],0.5):'#d10000',_0x1e1e5e=_0x1054cf[_0x4f3ef7(0x260)][_0x4f3ef7(0x355)]?_0x3e3011['mixColors'](_0x4ccc56?_0x3e3011[_0x4f3ef7(0x278)](_0x5ad634):_0x5ad634,_0x16d3b0[_0x4f3ef7(0x4a9)],0.5):'#d10e00',_0x59e6d3=_0x1054cf[_0x4f3ef7(0x260)][_0x4f3ef7(0x355)]?_0x3e3011['mixColors'](_0x4ccc56?_0x3e3011[_0x4f3ef7(0x278)](_0x5ad634):_0x5ad634,_0x16d3b0[_0x4f3ef7(0x4a9)],0.5):_0x4f3ef7(0x3c8),_0x154f72=_0x1054cf[_0x4f3ef7(0x260)]['coloredHealthbars']?_0x3e3011[_0x4f3ef7(0x360)](_0x4ccc56?_0x3e3011[_0x4f3ef7(0x278)](_0x5ad634):_0x5ad634,_0x16d3b0[_0x4f3ef7(0x4a9)],0.5):'#e7e300',_0x1f7502=_0x1054cf[_0x4f3ef7(0x260)][_0x4f3ef7(0x355)]?_0x3e3011[_0x4f3ef7(0x360)](_0x4ccc56?_0x3e3011['getColor'](_0x5ad634):_0x5ad634,_0x16d3b0[_0x4f3ef7(0x4a9)],0.5):_0x4f3ef7(0x1dc),_0x1f095a=_0x1054cf[_0x4f3ef7(0x260)]['coloredHealthbars']?_0x3e3011[_0x4f3ef7(0x360)](_0x4ccc56?_0x3e3011[_0x4f3ef7(0x278)](_0x5ad634):_0x5ad634,_0x16d3b0['guiwhite'],0.5):'#ff9100',_0x53d691=_0x1054cf[_0x4f3ef7(0x260)][_0x4f3ef7(0x355)]?_0x3e3011[_0x4f3ef7(0x360)](_0x4ccc56?_0x3e3011[_0x4f3ef7(0x278)](_0x5ad634):_0x5ad634,_0x16d3b0['guiwhite'],0.5):_0x4f3ef7(0x457),_0x289958=_0x1054cf[_0x4f3ef7(0x260)][_0x4f3ef7(0x355)]?_0x3e3011['mixColors'](_0x4ccc56?_0x3e3011['getColor'](_0x5ad634):_0x5ad634,_0x16d3b0['guiwhite'],0.5):_0x4f3ef7(0x409),_0x46caae=_0x1054cf[_0x4f3ef7(0x260)][_0x4f3ef7(0x355)]?_0x3e3011[_0x4f3ef7(0x360)](_0x4ccc56?_0x3e3011[_0x4f3ef7(0x278)](_0x5ad634):_0x5ad634,_0x16d3b0[_0x4f3ef7(0x4a9)],0.5):_0x4f3ef7(0x4da),_0x165e27=_0x1054cf[_0x4f3ef7(0x260)][_0x4f3ef7(0x355)]?_0x3e3011[_0x4f3ef7(0x360)](_0x4ccc56?_0x3e3011[_0x4f3ef7(0x278)](_0x5ad634):_0x5ad634,_0x16d3b0[_0x4f3ef7(0x4a9)],0.5):'#7edf00',_0xe78bd5=_0x953f97(_0x1b6f28,_0x289958,0x1-_0x1b1f72),_0x4c0b0f=_0x953f97(_0x1b6f28,_0x1e1e5e,0x1-_0x1b1f72),_0x5ce2c8=_0x953f97(_0x1b6f28,_0x59e6d3,0x1-_0x1b1f72),_0xf1541c=_0x953f97(_0x1b6f28,_0x154f72,0x1-_0x1b1f72),_0x56d104=_0x953f97(_0x1b6f28,_0x1f7502,0x1-_0x1b1f72),_0x5177aa=_0x953f97(_0x1b6f28,_0x1f095a,0x1-_0x1b1f72),_0x432c5b=_0x953f97(_0x1b6f28,_0x53d691,0x1-_0x1b1f72),_0xac4197=_0x953f97(_0x1b6f28,_0x289958,0x1-_0x1b1f72),_0xa3dcfa=_0x953f97(_0x1b6f28,_0x46caae,0x1-_0x1b1f72),_0x2f0455=_0x953f97(_0x1b6f28,_0x165e27,0x1-_0x1b1f72),_0x12828e=_0x5804f2+_0x412954+0xf*_0x5c33a6,_0x4730a6=0x3*_0x5c33a6;_0x322bcb[_0x4f3ef7(0x1f4)]=_0xb80e48*_0x1b6a7e**0x2,_0x2af335(_0x4f4711-_0x22fe6b,_0x4f4711+_0x22fe6b,_0x12828e+_0x4730a6*_0x1054cf[_0x4f3ef7(0x260)][_0x4f3ef7(0x30a)]/0x2,_0x4730a6*(0x1+_0x1054cf[_0x4f3ef7(0x260)][_0x4f3ef7(0x30a)])+_0x1054cf['graphical'][_0x4f3ef7(0x493)],_0x16d3b0[_0x4f3ef7(0x4b9)]),_0x2af335(_0x4f4711-_0x22fe6b,_0x4f4711-_0x22fe6b+0x2*_0x22fe6b*_0x1b1f72,_0x12828e+_0x4730a6*_0x1054cf[_0x4f3ef7(0x260)][_0x4f3ef7(0x30a)],_0x4730a6,_0x1b6f28);if(_0xab8f41||_0x1054cf[_0x4f3ef7(0x260)]['seperatedHealthbars']){if(_0x1b1f72<0.95)_0x2af335(_0x4f4711-_0x22fe6b,_0x4f4711-_0x22fe6b+0x2*_0x22fe6b*_0x1b1f72,_0x12828e+_0x4730a6*_0x1054cf[_0x4f3ef7(0x260)][_0x4f3ef7(0x30a)],_0x4730a6,_0xa3dcfa);if(_0x1b1f72<0.85)_0x2af335(_0x4f4711-_0x22fe6b,_0x4f4711-_0x22fe6b+0x2*_0x22fe6b*_0x1b1f72,_0x12828e+_0x4730a6*_0x1054cf[_0x4f3ef7(0x260)]['seperatedHealthbars'],_0x4730a6,_0x2f0455);if(_0x1b1f72<0.75)_0x2af335(_0x4f4711-_0x22fe6b,_0x4f4711-_0x22fe6b+0x2*_0x22fe6b*_0x1b1f72,_0x12828e+_0x4730a6*_0x1054cf[_0x4f3ef7(0x260)][_0x4f3ef7(0x30a)],_0x4730a6,_0x5ce2c8);if(_0x1b1f72<0.25)_0x2af335(_0x4f4711-_0x22fe6b,_0x4f4711-_0x22fe6b+0x2*_0x22fe6b*_0x1b1f72,_0x12828e+_0x4730a6*_0x1054cf[_0x4f3ef7(0x260)]['seperatedHealthbars'],_0x4730a6,_0x432c5b);if(_0x1b1f72<0.5)_0x2af335(_0x4f4711-_0x22fe6b,_0x4f4711-_0x22fe6b+0x2*_0x22fe6b*_0x1b1f72,_0x12828e+_0x4730a6*_0x1054cf[_0x4f3ef7(0x260)][_0x4f3ef7(0x30a)],_0x4730a6,_0x4c0b0f);if(_0x1b1f72<0.65)_0x2af335(_0x4f4711-_0x22fe6b,_0x4f4711-_0x22fe6b+0x2*_0x22fe6b*_0x1b1f72,_0x12828e+_0x4730a6*_0x1054cf[_0x4f3ef7(0x260)]['seperatedHealthbars'],_0x4730a6,_0xf1541c);if(_0x1b1f72<0.55)_0x2af335(_0x4f4711-_0x22fe6b,_0x4f4711-_0x22fe6b+0x2*_0x22fe6b*_0x1b1f72,_0x12828e+_0x4730a6*_0x1054cf[_0x4f3ef7(0x260)][_0x4f3ef7(0x30a)],_0x4730a6,_0x56d104);if(_0x1b1f72<0.45)_0x2af335(_0x4f4711-_0x22fe6b,_0x4f4711-_0x22fe6b+0x2*_0x22fe6b*_0x1b1f72,_0x12828e+_0x4730a6*_0x1054cf[_0x4f3ef7(0x260)][_0x4f3ef7(0x30a)],_0x4730a6,_0x5177aa);if(_0x1b1f72<0.35)_0x2af335(_0x4f4711-_0x22fe6b,_0x4f4711-_0x22fe6b+0x2*_0x22fe6b*_0x1b1f72,_0x12828e+_0x4730a6*_0x1054cf[_0x4f3ef7(0x260)][_0x4f3ef7(0x30a)],_0x4730a6,_0x432c5b);if(_0x1b1f72<0.15)_0x2af335(_0x4f4711-_0x22fe6b,_0x4f4711-_0x22fe6b+0x2*_0x22fe6b*_0x1b1f72,_0x12828e+_0x4730a6*_0x1054cf[_0x4f3ef7(0x260)]['seperatedHealthbars'],_0x4730a6,_0xac4197);if(_0x1b1f72<0.05)_0x2af335(_0x4f4711-_0x22fe6b,_0x4f4711-_0x22fe6b+0x2*_0x22fe6b*_0x1b1f72,_0x12828e+_0x4730a6*_0x1054cf[_0x4f3ef7(0x260)][_0x4f3ef7(0x30a)],_0x4730a6,_0xe78bd5);if(!_0x1054cf['graphical']['seperatedHealthbars'])_0x322bcb[_0x4f3ef7(0x1f4)]=(0x1+_0xab8f41)*0.3*_0x1b6a7e**0x2*_0xb80e48;_0x322bcb[_0x4f3ef7(0x1f4)]=0x1;if(!_0x1054cf[_0x4f3ef7(0x260)][_0x4f3ef7(0x30a)])_0x322bcb[_0x4f3ef7(0x1f4)]=(0x1+_0xab8f41)*0.3*_0x1b6a7e**0x2*_0xb80e48;_0x322bcb[_0x4f3ef7(0x1f4)]=0x1;}}}function _0x2ad98b(_0xa53bd9,_0x592aab){const _0x30b874=_0x4f3ef7;return _0x592aab*_0xa53bd9[_0x30b874(0x3eb)]/0x14;}if(_0x1920d2['id']!==_0x4d07f2[_0x4f3ef7(0x4d2)]&&_0x1920d2[_0x4f3ef7(0x206)]){var _0x58c16f=_0x1920d2['name'][_0x4f3ef7(0x4e0)](0x7,_0x1920d2[_0x4f3ef7(0x43e)][_0x4f3ef7(0x233)]+0x1),_0x2958ed=_0x1920d2[_0x4f3ef7(0x43e)][_0x4f3ef7(0x4e0)](0x0,0x7);let _0x25120d=_0x5c33a6*_0x1920d2[_0x4f3ef7(0x3eb)]/0x12,_0x1f8024=_0x5c33a6*_0x1920d2[_0x4f3ef7(0x3eb)]/0x30;_0x322bcb[_0x4f3ef7(0x1f4)]=_0x1b6a7e;let _0x1937ab=_0x2ad98b(_0x1920d2,_0x5c33a6);if(_0x198623[_0x4f3ef7(0x48d)])_0x322bcb[_0x4f3ef7(0x1f4)]=_0x1b6a7e+0.28;else _0x322bcb[_0x4f3ef7(0x1f4)]=_0xb80e48*_0x1b6a7e**0x2;_0x165ff5(_0x58c16f,_0x4f4711,_0x5804f2-_0x412954-0x14*_0x1937ab,0x10*_0x25120d,_0x2958ed,'center'),_0x165ff5(_0x45e032[_0x4f3ef7(0x39b)](_0x1920d2[_0x4f3ef7(0x21f)],0x1),_0x4f4711,_0x5804f2-_0x412954-0x8*_0x1937ab,0x10*_0x1f8024,_0x2958ed,_0x4f3ef7(0x3e7)),_0x322bcb[_0x4f3ef7(0x1f4)]=0x1;}}window[_0x59d4a3(0x1ca)]=window[_0x59d4a3(0x1e7)]||window[_0x59d4a3(0x48e)]||window[_0x59d4a3(0x324)]||window[_0x59d4a3(0x1fb)]||(_0x3af000=>setTimeout(_0x3af000,0x3e8/0x3c)),window[_0x59d4a3(0x22e)]=window[_0x59d4a3(0x2e6)]||window[_0x59d4a3(0x431)];const _0x32dc15=_0x5a72f3(0x0,0.7,1.5,0.1),_0x4ef7a4=_0x5a72f3(0x0,0x2,0x3,0.05),_0x28cc7a=_0x5a72f3(0x0,0x2,0x3,0.05),_0x108478=_0x5a72f3(-0x1,0x2,0x3,0.05);function _0x5db58e(){var _0x4c1e31=[];return(_0x317bd1,_0x7488e2,_0x1e4ac2,_0x5a6c59,_0x48b6e1,_0x599388)=>{const _0x5b3ee0=_0x4d1c;_0x4c1e31[_0x5b3ee0(0x224)](_0x317bd1);while(_0x4c1e31[_0x5b3ee0(0x233)]>_0x5a6c59){_0x4c1e31[_0x5b3ee0(0x259)](0x0,0x1);}let _0x2efb74=Math[_0x5b3ee0(0x232)](..._0x4c1e31),_0x8c030c=Math[_0x5b3ee0(0x408)](..._0x4c1e31),_0x2a97e4=_0x8c030c-_0x2efb74;_0x8c030c>0x0&&_0x2efb74<0x0&&_0x2af335(_0x7488e2,_0x7488e2+_0x5a6c59,_0x1e4ac2+_0x48b6e1*_0x8c030c/_0x2a97e4,0x2,_0x16d3b0[_0x5b3ee0(0x4a9)]);_0x322bcb[_0x5b3ee0(0x2ca)]();let _0x5ec841=-0x1;for(let _0x21385a of _0x4c1e31){!++_0x5ec841?_0x322bcb[_0x5b3ee0(0x22c)](_0x7488e2,_0x1e4ac2+_0x48b6e1*(_0x8c030c-_0x21385a)/_0x2a97e4):_0x322bcb[_0x5b3ee0(0x342)](_0x7488e2+_0x5ec841,_0x1e4ac2+_0x48b6e1*(_0x8c030c-_0x21385a)/_0x2a97e4);}_0x322bcb[_0x5b3ee0(0x32e)]=0x1,_0x322bcb[_0x5b3ee0(0x245)]=_0x599388,_0x322bcb[_0x5b3ee0(0x44a)]();};}function _0x304843(_0x5580fd,_0x1c70e0,_0x23e30a,_0x469755,_0x783307,_0x4a2fe2){const _0x5b70df=_0x59d4a3;let _0x5a0eb5=Math[_0x5b70df(0x47e)]((0x1+_0x4a2fe2)*Math['PI']);return 0.5*(((0x1+_0x4a2fe2)*_0x23e30a+_0x5580fd)*(_0x5a0eb5+0x1)+(-_0x4a2fe2*_0x469755+_0x1c70e0)*(0x1-_0x5a0eb5));}function _0xca54ef(_0x8d65bd,_0x485cb4,_0x3005aa,_0x5af10b,_0x65ab52,_0x30193a){return _0x485cb4+(_0x485cb4-_0x8d65bd)*_0x30193a;}let _0x1d2785=function(_0x4c8638,_0x445511){return(_0x4c8638%_0x445511+_0x445511)%_0x445511;};function _0x2ec0b1(_0x4a43da,_0x20e366){let _0x1b6237=_0x20e366-_0x4a43da;return _0x1d2785(_0x1b6237+Math['PI'],0x2*Math['PI'])-Math['PI'];}const _0x16f626=()=>{const _0x23217f=_0x59d4a3;let _0x51b23c=0x0,_0x32210a=0x0,_0x51dc49=0x0;return{'set':(_0x53db11=_0x198623['player'][_0x23217f(0x1e2)],_0x5ca39c=_0x198623[_0x23217f(0x294)][_0x23217f(0x3ab)])=>{const _0x152c6b=_0x23217f;_0x51b23c=Math[_0x152c6b(0x408)](_0x506685()-_0x53db11-0x50,-_0x5ca39c),_0x51b23c>0x96&&_0x51b23c<0x3e8&&(_0x51b23c=0x96),_0x51b23c>0x3e8&&(_0x51b23c=0x3e8*0x3e8*Math[_0x152c6b(0x204)](_0x51b23c/0x3e8-0x1)/_0x51b23c+0x3e8),_0x32210a=_0x51b23c/_0x5ca39c,_0x51dc49=_0x1054cf[_0x152c6b(0x220)]*0x1e*_0x51b23c/0x3e8;},'predict':(_0x21034a,_0x53f7a9,_0x44da09,_0x31ea2c)=>{return _0x51b23c>=0x0?_0xca54ef(_0x21034a,_0x53f7a9,_0x44da09,_0x31ea2c,_0x51dc49,_0x32210a):_0x304843(_0x21034a,_0x53f7a9,_0x44da09,_0x31ea2c,_0x51dc49,_0x32210a);},'predictFacing':(_0x51cc3b,_0x47249b)=>{return _0x51cc3b+(0x1+_0x32210a)*_0x2ec0b1(_0x51cc3b,_0x47249b);},'getPrediction':()=>{return _0x51b23c;}};},_0x5ac926=_0x5db58e(),_0x29fa7d=_0x5db58e(),_0x2457c1=_0x5db58e();let _0x1a9cca=[];for(let _0x4545ed=0x1;_0x4545ed<=0x100;_0x4545ed++){_0x1a9cca[_0x59d4a3(0x224)]((_0x4545ed-0x2)*0.01+Math['log'](0x4*(_0x4545ed/0x9)+0x1)/1.6);}const _0xf7aad5=_0x9c8b0f=>_0x1a9cca[_0x9c8b0f];let _0x4e05bc=(_0x4a753f,_0x28577b)=>{_0x198623['screenWidth']/=_0x4a753f,_0x198623['screenHeight']/=_0x4a753f,_0x322bcb['scale'](_0x4a753f,_0x4a753f);if(!_0x28577b)ratio*=_0x4a753f;};var _0x3c5f63=function(_0x58c6e2){switch(_0x58c6e2){case 0x0:return'y';case 0x1:return'u';case 0x2:return'i';case 0x3:return'h';case 0x4:return'j';case 0x5:return'k';default:return null;}};let _0x2ddaaa,_0x45f1f6,_0x547335,_0x22e43d=(_0xb600a8,_0x3f99d8,_0x4af80a,{index:_0x464e06,tier:tier=0x0})=>{const _0x107761=_0x59d4a3;_0x2ddaaa[_0x107761(0x224)]({'x':_0xb600a8,'y':_0x3f99d8,'colorIndex':_0x4af80a,'index':_0x464e06});let {upgrades:_0x430f20}=_0x198623['mockups'][parseInt(_0x464e06)],_0x2c83bf=_0xb600a8,_0x59205a=0x1,_0x2620b7=0x1,_0x311b55=[],_0x8f74f6=[];for(let _0x33ec97=0x0;_0x33ec97<_0x430f20['length'];_0x33ec97++){let _0x4fa1d6=_0x430f20[_0x33ec97];_0x198623[_0x107761(0x425)][_0x4fa1d6[_0x107761(0x372)]][_0x107761(0x3c7)]['length']?_0x311b55[_0x107761(0x224)](_0x4fa1d6):_0x8f74f6['push'](_0x4fa1d6);}for(let _0x42e17c=0x0;_0x42e17c<_0x311b55[_0x107761(0x233)];_0x42e17c++){let _0x49ac10=_0x311b55[_0x42e17c],_0xb254ac=0x2*Math[_0x107761(0x408)](0x1,_0x49ac10[_0x107761(0x256)]-tier),_0x2f2da6=_0x22e43d(_0xb600a8,_0x3f99d8+_0xb254ac,0xa+_0x42e17c,_0x49ac10);_0x45f1f6['push']([{'x':_0xb600a8,'y':_0x3f99d8+Math[_0x107761(0x480)](_0x42e17c)},{'x':_0xb600a8,'y':_0x3f99d8+_0xb254ac+0x1}]);_0x42e17c===_0x311b55['length']-0x1&&!_0x8f74f6[_0x107761(0x233)]&&_0x45f1f6[_0x107761(0x224)]([{'x':_0x2c83bf,'y':_0x3f99d8+0x1},{'x':_0xb600a8,'y':_0x3f99d8+0x1}]);_0xb600a8+=_0x2f2da6[_0x107761(0x453)],_0x59205a+=_0x2f2da6[_0x107761(0x453)];if(_0x2620b7<_0x2f2da6[_0x107761(0x410)])_0x2620b7=_0x2f2da6[_0x107761(0x410)];}_0x3f99d8++;for(let _0x290471=0x0;_0x290471<_0x8f74f6[_0x107761(0x233)];_0x290471++){let _0x315a61=_0x8f74f6[_0x290471],_0x574afc=0x2+_0x430f20[_0x107761(0x233)];_0x22e43d(_0xb600a8,_0x3f99d8+0x1+_0x290471+Math[_0x107761(0x480)](_0x311b55[_0x107761(0x233)])*0x2,0xa+_0x290471,_0x315a61);if(_0x290471===_0x8f74f6['length']-0x1){if(_0x311b55[_0x107761(0x233)]>0x1)_0x59205a++;_0x45f1f6[_0x107761(0x224)]([{'x':_0x2c83bf,'y':_0x3f99d8},{'x':_0xb600a8,'y':_0x3f99d8}]),_0x45f1f6['push']([{'x':_0xb600a8,'y':_0x3f99d8},{'x':_0xb600a8,'y':_0x3f99d8+_0x8f74f6[_0x107761(0x233)]+Math[_0x107761(0x480)](_0x311b55[_0x107761(0x233)])*0x2}]);}if(_0x2620b7<_0x574afc)_0x2620b7=_0x574afc;}return{'width':_0x59205a,'height':0x2+_0x2620b7};};function _0x4146dc(_0x3b1d38){const _0x4f19f1=_0x59d4a3;_0x2ddaaa=[],_0x45f1f6=[];let _0x24a162=0x0,_0x2b6602=0x0;if(!Array[_0x4f19f1(0x30c)](_0x3b1d38))_0x3b1d38=[_0x3b1d38];for(let _0x35db91 of _0x3b1d38){_0x547335=_0x22e43d(_0x24a162,0x0,0xa,{'index':_0x35db91}),_0x547335[_0x4f19f1(0x453)]+=_0x24a162,_0x2b6602=Math[_0x4f19f1(0x408)](_0x2b6602,_0x547335['height']),_0x24a162=_0x547335[_0x4f19f1(0x453)]+0x3;}_0x547335[_0x4f19f1(0x410)]=_0x2b6602;}function _0x4c1fbd(_0x5e5450,_0x34e48a,_0x1261cc){const _0x401b51=_0x59d4a3;_0x2bb119(_0x16d3b0[_0x401b51(0x4a6)],0x1),_0x2bb119(_0x16d3b0[_0x401b51(0x32b)],0.1);let _0x465de8=_0x198623[_0x401b51(0x461)][0x0][_0x401b51(0x233)],_0x406074=_0x198623[_0x401b51(0x461)][_0x401b51(0x233)];for(let _0x42097a=0x0;_0x42097a<_0x406074;_0x42097a++){let _0x44d49a=Math[_0x401b51(0x408)](0x0,_0x1261cc*_0x42097a*_0x198623['gameHeight']/_0x406074-_0x34e48a+_0x198623['screenHeight']/0x2),_0x106f67=Math[_0x401b51(0x232)](_0x198623[_0x401b51(0x210)],_0x1261cc*(_0x42097a+0x1)*_0x198623[_0x401b51(0x24a)]/_0x406074-_0x34e48a+_0x198623[_0x401b51(0x210)]/0x2);if(_0x44d49a>_0x198623[_0x401b51(0x210)]||_0x106f67<0x0)continue;let _0x398d12=_0x198623[_0x401b51(0x461)][_0x42097a];for(let _0x3b1564=0x0;_0x3b1564<_0x465de8;_0x3b1564++){let _0x186654=Math['max'](0x0,_0x1261cc*_0x3b1564*_0x198623[_0x401b51(0x3df)]/_0x465de8-_0x5e5450+_0x198623[_0x401b51(0x35a)]/0x2),_0x3fc613=Math['min'](_0x198623['screenWidth'],_0x1261cc*(_0x3b1564+0x1)*_0x198623[_0x401b51(0x3df)]/_0x465de8-_0x5e5450+_0x198623['screenWidth']/0x2);if(_0x186654>_0x198623[_0x401b51(0x35a)]||_0x3fc613<0x0)continue;let _0x546db5=_0x398d12[_0x3b1564];_0x322bcb[_0x401b51(0x1f4)]=0x1,_0x322bcb[_0x401b51(0x30b)]=_0x1054cf[_0x401b51(0x260)]['screenshotMode']?_0x16d3b0[_0x401b51(0x4a9)]:_0x16d3b0['white'],_0x322bcb[_0x401b51(0x2ab)](_0x186654,_0x44d49a,_0x3fc613-_0x186654,_0x106f67-_0x44d49a),_0x322bcb[_0x401b51(0x1f4)]=0.3,_0x322bcb[_0x401b51(0x30b)]=_0x1054cf[_0x401b51(0x260)][_0x401b51(0x365)]?_0x16d3b0[_0x401b51(0x4a9)]:_0x3e3011[_0x401b51(0x37f)](_0x546db5,!![]),_0x322bcb['fillRect'](_0x186654,_0x44d49a,_0x3fc613-_0x186654,_0x106f67-_0x44d49a);}}_0x322bcb[_0x401b51(0x32e)]=0x1,_0x322bcb[_0x401b51(0x245)]=_0x1054cf[_0x401b51(0x260)]['screenshotMode']?_0x16d3b0[_0x401b51(0x4a9)]:_0x16d3b0[_0x401b51(0x32b)],_0x322bcb[_0x401b51(0x1f4)]=0.04,_0x322bcb[_0x401b51(0x2ca)]();let _0x9c9b4b=[];_0x1054cf[_0x401b51(0x260)][_0x401b51(0x402)]?_0x9c9b4b=0x32*_0x1261cc:_0x9c9b4b=0xf*_0x1261cc;for(let _0x4a8da8=(_0x198623['screenWidth']/0x2-_0x5e5450)%_0x9c9b4b;_0x4a8da8<_0x198623[_0x401b51(0x35a)];_0x4a8da8+=_0x9c9b4b){_0x322bcb[_0x401b51(0x22c)](_0x4a8da8,0x0),_0x322bcb[_0x401b51(0x342)](_0x4a8da8,_0x198623['screenHeight']);}for(let _0x11e80a=(_0x198623['screenHeight']/0x2-_0x34e48a)%_0x9c9b4b;_0x11e80a<_0x198623['screenHeight'];_0x11e80a+=_0x9c9b4b){_0x322bcb['moveTo'](0x0,_0x11e80a),_0x322bcb['lineTo'](_0x198623[_0x401b51(0x35a)],_0x11e80a);}_0x322bcb[_0x401b51(0x44a)](),_0x322bcb[_0x401b51(0x1f4)]=0x1;}function _0x4a6003(_0x1fec31,_0x3f9c21,_0x5457a8){const _0x238c42=_0x59d4a3;for(let _0x54aa04 of _0x198623[_0x238c42(0x2e7)]){let _0x310f26=_0x16f626();_0x54aa04[_0x238c42(0x362)][_0x238c42(0x3ca)][_0x238c42(0x3a0)]()===0x1?_0x310f26['set']():_0x310f26[_0x238c42(0x304)](_0x54aa04[_0x238c42(0x362)]['lastRender'],_0x54aa04[_0x238c42(0x362)][_0x238c42(0x4dc)]);_0x54aa04[_0x238c42(0x362)]['x']=_0x45e032[_0x238c42(0x2b4)](_0x54aa04['render']['x'],Math[_0x238c42(0x262)](_0x54aa04['x']+_0x54aa04['vx']),0.15,!![]),_0x54aa04[_0x238c42(0x362)]['y']=_0x45e032[_0x238c42(0x2b4)](_0x54aa04[_0x238c42(0x362)]['y'],Math[_0x238c42(0x262)](_0x54aa04['y']+_0x54aa04['vy']),0.15,!![]),_0x54aa04['render']['f']=_0x54aa04['id']===_0x4d07f2[_0x238c42(0x4d2)]&&!_0x198623[_0x238c42(0x29a)]&&!_0x198623[_0x238c42(0x1c8)]&&!_0x198623[_0x238c42(0x1da)]&&!_0x198623[_0x238c42(0x3dc)]&&!_0x54aa04['twiggle']&&!_0x198623[_0x238c42(0x234)]?Math[_0x238c42(0x35e)](_0x198623[_0x238c42(0x1d8)]['y'],_0x198623[_0x238c42(0x1d8)]['x']):_0x45e032[_0x238c42(0x1c6)](_0x54aa04['render']['f'],_0x54aa04['facing'],0.15,!![]);let _0x1321dc=_0x5457a8*_0x54aa04['render']['x']-_0x1fec31,_0x639544=_0x5457a8*_0x54aa04[_0x238c42(0x362)]['y']-_0x3f9c21,_0xa9861b=_0x54aa04[_0x238c42(0x2a6)];_0x54aa04['id']===_0x4d07f2['playerid']&&(_0x1321dc=_0x1054cf[_0x238c42(0x260)][_0x238c42(0x370)]&&!_0x198623[_0x238c42(0x428)][_0x238c42(0x33d)]?0x0:_0x1321dc,_0x639544=_0x1054cf[_0x238c42(0x260)][_0x238c42(0x370)]&&!_0x198623[_0x238c42(0x428)][_0x238c42(0x33d)]?0x0:_0x639544,_0x198623[_0x238c42(0x428)][_0x238c42(0x36e)]=_0x1321dc,_0x198623[_0x238c42(0x428)][_0x238c42(0x32d)]=_0x639544),_0x1321dc+=_0x198623[_0x238c42(0x35a)]/0x2,_0x639544+=_0x198623[_0x238c42(0x210)]/0x2,_0x45607b(_0xa9861b,_0x1321dc,_0x639544,_0x54aa04,_0x5457a8,_0x54aa04['id']===_0x4d07f2[_0x238c42(0x4d2)]||_0x198623[_0x238c42(0x48d)]?_0x54aa04[_0x238c42(0x3f1)]?_0x54aa04[_0x238c42(0x3f1)]*0.75+0.25:0.25:_0x54aa04['alpha'],1.1,_0x54aa04[_0x238c42(0x362)]['f']);}for(let _0xdc4e2d of _0x198623[_0x238c42(0x2e7)]){let _0x4be97c=_0xdc4e2d['id']===_0x4d07f2[_0x238c42(0x4d2)]?_0x198623[_0x238c42(0x428)][_0x238c42(0x36e)]:_0x5457a8*_0xdc4e2d[_0x238c42(0x362)]['x']-_0x1fec31,_0x49e3d8=_0xdc4e2d['id']===_0x4d07f2[_0x238c42(0x4d2)]?_0x198623[_0x238c42(0x428)][_0x238c42(0x32d)]:_0x5457a8*_0xdc4e2d[_0x238c42(0x362)]['y']-_0x3f9c21;_0x4be97c+=_0x198623['screenWidth']/0x2,_0x49e3d8+=_0x198623[_0x238c42(0x210)]/0x2,_0x48bcd2(_0x4be97c,_0x49e3d8,_0xdc4e2d,_0x5457a8,_0xdc4e2d['alpha']);}let _0x34a773=Date[_0x238c42(0x28a)](),_0xbcfd04=(0x1+_0x5457a8)/0x2;for(let _0x5ca2da of _0x198623[_0x238c42(0x2e7)]){if(!(_0x5ca2da['id']===_0x4d07f2[_0x238c42(0x4d2)])&&!_0x198623['showInvisible']&&_0x5ca2da[_0x238c42(0x3f1)]<0.25)continue;let _0xf93511=_0x5ca2da[_0x238c42(0x3eb)]*_0x5457a8,_0x3e317b=_0x5ca2da[_0x238c42(0x372)][_0x238c42(0x45f)]('-'),_0x4c6703=_0x198623[_0x238c42(0x425)][parseInt(_0x3e317b[0x0])],_0x422e4a=_0xf93511/_0x4c6703['size']*_0x4c6703[_0x238c42(0x3b3)],_0x2733f4=_0x5ca2da['id']===_0x4d07f2[_0x238c42(0x4d2)]?_0x198623[_0x238c42(0x428)][_0x238c42(0x36e)]:_0x5457a8*_0x5ca2da[_0x238c42(0x362)]['x']-_0x1fec31,_0x1da07d=_0x5ca2da['id']===_0x4d07f2['playerid']?_0x198623[_0x238c42(0x428)][_0x238c42(0x32d)]:_0x5457a8*_0x5ca2da[_0x238c42(0x362)]['y']-_0x3f9c21;_0x2733f4+=_0x198623[_0x238c42(0x35a)]/0x2,_0x1da07d+=_0x198623[_0x238c42(0x210)]/0x2-_0x422e4a-0x2e*_0x5457a8;if(_0x5ca2da['id']!==_0x4d07f2[_0x238c42(0x4d2)]&&_0x5ca2da[_0x238c42(0x206)])_0x1da07d-=0x8*_0x5457a8;for(let _0x54cf7a in _0x198623['chats'][_0x5ca2da['id']]){let _0x267b57=_0x198623[_0x238c42(0x3b0)][_0x5ca2da['id']][_0x54cf7a],_0x340e49=_0x267b57[_0x238c42(0x349)],_0x1bf679=_0x85fe09(_0x340e49,0xf*_0xbcfd04)/0x2,_0x251348=Math[_0x238c42(0x408)](0x0,Math['min'](0xc8,_0x267b57[_0x238c42(0x371)]-_0x34a773)/0xc8);_0x322bcb[_0x238c42(0x1f4)]=0.5*_0x251348,_0x2af335(_0x2733f4-_0x1bf679,_0x2733f4+_0x1bf679,_0x1da07d,0x1e*_0xbcfd04,_0x3e3011[_0x238c42(0x4e3)](_0x5ca2da[_0x238c42(0x2a6)])),_0x322bcb['globalAlpha']=_0x251348,_0x1054cf['graphical'][_0x238c42(0x3a4)]*=1.2,_0x165ff5(_0x340e49,_0x2733f4,_0x1da07d+0x7*_0xbcfd04,0xf*_0xbcfd04,_0x16d3b0[_0x238c42(0x4a9)],_0x238c42(0x3e7)),_0x1054cf['graphical'][_0x238c42(0x3a4)]/=1.2,_0x1da07d-=0x23*_0xbcfd04;}}}_0x198623[_0x59d4a3(0x383)]=![],_0x198623['scrollX']=_0x198623[_0x59d4a3(0x454)]=_0x198623['fixedScrollX']=_0x198623[_0x59d4a3(0x3e8)]=-0x1,_0x198623['shouldScrollY']=_0x198623[_0x59d4a3(0x26d)]=0x0;let _0x4b0318=null;function _0xc3762e(_0x3fcad0,_0x5d2b4b){const _0x5ec5d4=_0x59d4a3;if(_0x4b0318!=_0x4d07f2['type']){let _0x29f216=_0x45e032[_0x5ec5d4(0x440)](_0x4d07f2[_0x5ec5d4(0x2e5)]),_0x3329dd=_0x29f216[_0x5ec5d4(0x477)],_0x22797d=[];for(let _0x300852 of _0x3329dd){let _0x2d587e=_0x300852==undefined?-0x1:_0x198623['mockups'][_0x5ec5d4(0x46e)](_0x59fdbf=>_0x59fdbf[_0x5ec5d4(0x483)]==_0x300852)[_0x5ec5d4(0x372)];_0x22797d[_0x5ec5d4(0x224)](_0x2d587e);}!_0x22797d[_0x5ec5d4(0x4e1)](-0x1)&&_0x4146dc(_0x22797d),_0x4b0318=_0x4d07f2[_0x5ec5d4(0x2e5)];}if(!_0x547335){console[_0x5ec5d4(0x38c)](_0x5ec5d4(0x374));return;}let _0x2c2f69=_0x5d2b4b/0x2,_0xdd3277=_0x2c2f69-0x4,_0x4e7e5d=0x8,_0x842cef=0.5+_0x4e7e5d/_0x2c2f69;(_0x198623[_0x5ec5d4(0x234)]||_0x198623[_0x5ec5d4(0x2e2)]||_0x198623[_0x5ec5d4(0x2b5)])&&(_0x198623[_0x5ec5d4(0x383)]=![],_0x198623[_0x5ec5d4(0x451)]=_0x198623['scrollY']=_0x198623[_0x5ec5d4(0x4d4)]=_0x198623['fixedScrollY']=-0x1,_0x198623[_0x5ec5d4(0x49a)]=_0x198623[_0x5ec5d4(0x26d)]=0x0);_0x198623[_0x5ec5d4(0x4d4)]=Math[_0x5ec5d4(0x408)](-_0x842cef,Math[_0x5ec5d4(0x232)](_0x547335[_0x5ec5d4(0x453)]+_0x842cef,_0x198623[_0x5ec5d4(0x4d4)]+_0x198623['shouldScrollX'])),_0x198623['fixedScrollY']=Math[_0x5ec5d4(0x408)](-_0x842cef,Math['min'](_0x547335[_0x5ec5d4(0x410)]+_0x842cef,_0x198623[_0x5ec5d4(0x3e8)]+_0x198623[_0x5ec5d4(0x49a)])),_0x198623[_0x5ec5d4(0x451)]=_0x45e032[_0x5ec5d4(0x2b4)](_0x198623[_0x5ec5d4(0x451)],_0x198623['fixedScrollX'],0.1),_0x198623[_0x5ec5d4(0x454)]=_0x45e032[_0x5ec5d4(0x2b4)](_0x198623[_0x5ec5d4(0x454)],_0x198623[_0x5ec5d4(0x3e8)],0.1);for(let [_0x461a91,_0x17bebd]of _0x45f1f6){let _0x212304=_0x461a91['x']*_0x4e7e5d+(_0x461a91['x']-_0x198623['scrollX'])*_0x2c2f69+0x1+0.5*_0xdd3277,_0x19403e=_0x461a91['y']*_0x4e7e5d+(_0x461a91['y']-_0x198623['scrollY'])*_0x2c2f69+0x1+0.5*_0xdd3277,_0x4fa84e=_0x17bebd['x']*_0x4e7e5d+(_0x17bebd['x']-_0x198623[_0x5ec5d4(0x451)])*_0x2c2f69+0x1+0.5*_0xdd3277,_0x58888c=_0x17bebd['y']*_0x4e7e5d+(_0x17bebd['y']-_0x198623[_0x5ec5d4(0x454)])*_0x2c2f69+0x1+0.5*_0xdd3277;if(_0x4fa84e<0x0||_0x212304>_0x198623[_0x5ec5d4(0x35a)]||_0x58888c<0x0||_0x19403e>_0x198623[_0x5ec5d4(0x210)])continue;_0x322bcb[_0x5ec5d4(0x245)]=_0x16d3b0['black'],_0x322bcb[_0x5ec5d4(0x32e)]=0x2,_0x439ab1(_0x212304,_0x19403e,_0x4fa84e,_0x58888c);}_0x322bcb['globalAlpha']=0.5;for(let {x:_0x413b77,y:_0x154290,colorIndex:_0x3068f3,index:_0x59b8d9}of _0x2ddaaa){let _0x5922d1=_0x413b77*_0x4e7e5d+(_0x413b77-_0x198623[_0x5ec5d4(0x451)])*_0x2c2f69,_0x3b73cf=_0x154290*_0x4e7e5d+(_0x154290-_0x198623[_0x5ec5d4(0x454)])*_0x2c2f69,_0x504dcd=_0x2c2f69;if(_0x5922d1<-_0x504dcd||_0x5922d1>_0x198623[_0x5ec5d4(0x35a)]+_0x504dcd||_0x3b73cf<-_0x504dcd||_0x3b73cf>_0x198623['screenHeight']+_0x504dcd)continue;let _0x3c0273=-Math['PI']/0x4,_0x935d6e=_0x198623[_0x5ec5d4(0x425)][_0x59b8d9][_0x5ec5d4(0x3be)],_0x287cd6=0.6*_0x504dcd/_0x935d6e[_0x5ec5d4(0x456)],_0x5e5fde=_0x5922d1+0.5*_0x504dcd-_0x287cd6*_0x935d6e[_0x5ec5d4(0x1ef)]['x']*Math[_0x5ec5d4(0x47e)](_0x3c0273),_0xc90741=_0x3b73cf+0.5*_0x504dcd-_0x287cd6*_0x935d6e['middle']['x']*Math['sin'](_0x3c0273),_0x4d6c0a=_0x45e032[_0x5ec5d4(0x440)](_0x59b8d9[_0x5ec5d4(0x43b)](),_0x4d07f2[_0x5ec5d4(0x2a6)]),_0x129dc3=_0x4d6c0a[_0x5ec5d4(0x2a6)];_0x322bcb[_0x5ec5d4(0x1f4)]=0.5,_0x322bcb['fillStyle']=_0x3e3011[_0x5ec5d4(0x278)](_0x3068f3>0x12?_0x3068f3-0x13:_0x3068f3),_0xf125e4(_0x5922d1,_0x3b73cf,_0x504dcd,_0x504dcd),_0x322bcb[_0x5ec5d4(0x1f4)]=0.25,_0x322bcb[_0x5ec5d4(0x30b)]=_0x3e3011[_0x5ec5d4(0x278)](-0xa+_0x3068f3++),_0xf125e4(_0x5922d1,_0x3b73cf,_0x504dcd,_0x504dcd*0.6),_0x322bcb[_0x5ec5d4(0x30b)]=_0x16d3b0[_0x5ec5d4(0x4b9)],_0xf125e4(_0x5922d1,_0x3b73cf+_0x504dcd*0.6,_0x504dcd,_0x504dcd*0.4),_0x322bcb[_0x5ec5d4(0x1f4)]=0x1,_0x45607b(_0x129dc3,_0x5e5fde,_0xc90741,_0x4d6c0a,0x1,0x1,_0x287cd6/_0x4d6c0a[_0x5ec5d4(0x3eb)],_0x3c0273,!![]),_0x165ff5(_0x4d6c0a[_0x5ec5d4(0x495)]??_0x4d6c0a[_0x5ec5d4(0x43e)],_0x5922d1+_0x504dcd/0x2,_0x3b73cf+_0x504dcd-0x5,_0x504dcd/0x8-0x3,_0x16d3b0[_0x5ec5d4(0x4a9)],_0x5ec5d4(0x3e7)),_0x322bcb[_0x5ec5d4(0x32e)]=0x5,_0xf125e4(_0x5922d1,_0x3b73cf,_0x504dcd,_0x504dcd,0xa);}let _0x2573ec='Use\x20the\x20arrow\x20keys\x20to\x20navigate\x20the\x20class\x20tree.\x20Hold\x20Shift\x20to\x20navigate\x20faster.\x20Press\x20T\x20again\x20to\x20close\x20it.',_0x3fa3ee=_0x85fe09(_0x2573ec,0x10);_0x322bcb['globalAlpha']=0x1,_0x322bcb[_0x5ec5d4(0x32e)]=0x1,_0x322bcb[_0x5ec5d4(0x30b)]=_0x16d3b0[_0x5ec5d4(0x4b9)],_0x322bcb[_0x5ec5d4(0x245)]=_0x16d3b0[_0x5ec5d4(0x4b9)],_0x322bcb[_0x5ec5d4(0x2b0)](_0x2573ec,innerWidth/0x2-_0x3fa3ee/0x2,innerHeight*0.04),_0x322bcb[_0x5ec5d4(0x2f7)](_0x2573ec,innerWidth/0x2-_0x3fa3ee/0x2,innerHeight*0.04);}function _0xf125e4(_0x1f2ec7,_0x5e0594,_0x5e766e,_0x45f8be,_0x16c980){const _0xb5dcc8=_0x59d4a3;_0x322bcb[_0xb5dcc8(0x2ca)](),_0x322bcb[_0xb5dcc8(0x22c)](_0x1f2ec7+_0x16c980,_0x5e0594),_0x322bcb['lineTo'](_0x1f2ec7+_0x5e766e-_0x16c980,_0x5e0594),_0x322bcb[_0xb5dcc8(0x2f0)](_0x1f2ec7+_0x5e766e,_0x5e0594,_0x1f2ec7+_0x5e766e,_0x5e0594+_0x16c980),_0x322bcb['lineTo'](_0x1f2ec7+_0x5e766e,_0x5e0594+_0x45f8be-_0x16c980),_0x322bcb[_0xb5dcc8(0x2f0)](_0x1f2ec7+_0x5e766e,_0x5e0594+_0x45f8be,_0x1f2ec7+_0x5e766e-_0x16c980,_0x5e0594+_0x45f8be),_0x322bcb[_0xb5dcc8(0x342)](_0x1f2ec7+_0x16c980,_0x5e0594+_0x45f8be),_0x322bcb[_0xb5dcc8(0x2f0)](_0x1f2ec7,_0x5e0594+_0x45f8be,_0x1f2ec7,_0x5e0594+_0x45f8be-_0x16c980),_0x322bcb[_0xb5dcc8(0x342)](_0x1f2ec7,_0x5e0594+_0x16c980),_0x322bcb[_0xb5dcc8(0x2f0)](_0x1f2ec7,_0x5e0594,_0x1f2ec7+_0x16c980,_0x5e0594),_0x322bcb['closePath'](),_0x322bcb['stroke']();}let _0x40fcb5=Date['now']();function _0x391c02(_0x8301fe){const _0x3ec23f=_0x59d4a3;if(_0x198623[_0x3ec23f(0x3cc)])return;const _0x181a1e=0x4,_0x27a34d=0x14,_0x3a131b=_0x198623[_0x3ec23f(0x35a)]/0x2,_0x2011f9=0x0,_0x374a25=Date[_0x3ec23f(0x28a)](),_0x47f585=_0x374a25-_0x40fcb5;_0x40fcb5=_0x374a25;const _0x19df61=_0x198623[_0x3ec23f(0x43c)][_0x3ec23f(0x233)]*(_0x181a1e+_0x27a34d),_0x1b3d13=_0x198623[_0x3ec23f(0x470)]['length']*(_0x181a1e+_0x27a34d),_0x5697e8=_0x198623['messages3'][_0x3ec23f(0x233)]*(_0x181a1e+_0x27a34d),_0x3daebd=_0x198623['messagesblue'][_0x3ec23f(0x233)]*(_0x181a1e+_0x27a34d),_0x43e9c0=_0x198623[_0x3ec23f(0x4b0)][_0x3ec23f(0x233)]*(_0x181a1e+_0x27a34d),_0x37fdec=_0x198623['messages4'][_0x3ec23f(0x233)]*(_0x181a1e+_0x27a34d);let _0x4ffb00=_0x8301fe+_0x19df61+_0x1b3d13+_0x5697e8+_0x3daebd+_0x43e9c0+_0x37fdec;for(let _0x1159d0=0x0;_0x1159d0<_0x198623[_0x3ec23f(0x496)][_0x3ec23f(0x233)];_0x1159d0++){const _0x3d881c=_0x198623[_0x3ec23f(0x496)][_0x1159d0],_0x9a8379=_0x3d881c['text'];if(_0x3d881c[_0x3ec23f(0x4aa)]==null)_0x3d881c[_0x3ec23f(0x4aa)]=_0x85fe09(_0x9a8379,_0x27a34d-0x4);if(_0x3d881c[_0x3ec23f(0x250)]==null)_0x3d881c['scale']=0x0;const _0x408da9=0xa;if(_0x3d881c[_0x3ec23f(0x3ca)]>0x1)_0x3d881c[_0x3ec23f(0x3ca)]-=0.045*_0x47f585/_0x408da9,_0x3d881c[_0x3ec23f(0x3f1)]=Math[_0x3ec23f(0x232)](0x1,_0x3d881c[_0x3ec23f(0x3f1)]+0.045*_0x47f585/_0x408da9),_0x3d881c[_0x3ec23f(0x250)]=Math[_0x3ec23f(0x232)](0x1,_0x3d881c[_0x3ec23f(0x250)]+0.045*_0x47f585/_0x408da9);else{if(_0x1159d0===0x0&&(_0x198623['messages'][_0x3ec23f(0x233)]>0x7||Date[_0x3ec23f(0x28a)]()-_0x3d881c[_0x3ec23f(0x1e2)]>0x2710)){_0x3d881c['alpha']-=0.045*_0x47f585/_0x408da9,_0x3d881c[_0x3ec23f(0x250)]-=0.045*_0x47f585/_0x408da9;if(_0x3d881c[_0x3ec23f(0x3f1)]<=0x0){_0x198623[_0x3ec23f(0x496)]['splice'](0x0,0x1),_0x1159d0--;continue;}}}_0x1159d0===0x0&&_0x198623[_0x3ec23f(0x496)][_0x3ec23f(0x233)]>0xf&&(_0x3d881c[_0x3ec23f(0x3f1)]=0x0,_0x198623[_0x3ec23f(0x496)]['splice'](0x0,0x1));const _0x5dc0e4=_0x27a34d*_0x3d881c[_0x3ec23f(0x250)],_0x3b8081=_0x3d881c['len']*_0x3d881c['scale'];_0x322bcb[_0x3ec23f(0x1f4)]=0.5*_0x3d881c['alpha'],_0x336a6f(_0x3a131b-_0x3b8081/0x2,_0x4ffb00,_0x3b8081,_0x5dc0e4,_0x16d3b0[_0x3ec23f(0x4b9)]),_0x322bcb[_0x3ec23f(0x1f4)]=_0x3d881c[_0x3ec23f(0x3f1)],_0x448027(_0x9a8379,_0x3a131b,_0x4ffb00+_0x5dc0e4/0x2,_0x5dc0e4-0x4,'white',_0x3ec23f(0x3e7),!![]),_0x4ffb00+=_0x181a1e+_0x5dc0e4;}_0x322bcb[_0x3ec23f(0x1f4)]=0x1;}function _0x448027(_0x42909a,_0x5bde01,_0x27bc70,_0x58ab59,_0x630901,_0x5992c8=_0x59d4a3(0x3e7),_0x1de073=![]){const _0x3079cd=_0x59d4a3;_0x322bcb[_0x3079cd(0x30b)]=_0x630901,_0x322bcb['font']=(_0x1de073?_0x3079cd(0x24b):'')+_0x58ab59+'px\x20Arial',_0x322bcb['textAlign']=_0x5992c8,_0x322bcb['textBaseline']=_0x3079cd(0x1ef),_0x322bcb['fillText'](_0x42909a,_0x5bde01,_0x27bc70);}function _0x336a6f(_0x5eff86,_0x563a19,_0x70c6af,_0x1f8864,_0x472236){const _0x415abd=_0x59d4a3;_0x322bcb[_0x415abd(0x30b)]=_0x472236,_0x322bcb[_0x415abd(0x2ab)](_0x5eff86,_0x563a19,_0x70c6af,_0x1f8864);}let _0x29f008=Date[_0x59d4a3(0x28a)]();function _0x92c8b9(_0x948f9){const _0x4b2cd3=_0x59d4a3,_0xb2b059=0x4,_0x45a65=0x16,_0x33e036=_0x198623[_0x4b2cd3(0x35a)]/0x2,_0x2a89b6=Date[_0x4b2cd3(0x28a)](),_0x38afe9=_0x2a89b6-_0x29f008;_0x29f008=_0x2a89b6;const _0x3c2bcf=_0x198623['messages1']['length']*(_0xb2b059+_0x45a65),_0x41be43=_0x198623[_0x4b2cd3(0x470)][_0x4b2cd3(0x233)]*(_0xb2b059+_0x45a65),_0x2d5821=_0x198623[_0x4b2cd3(0x28f)][_0x4b2cd3(0x233)]*(_0xb2b059+_0x45a65),_0x318dc5=_0x198623[_0x4b2cd3(0x4b0)][_0x4b2cd3(0x233)]*(_0xb2b059+_0x45a65),_0x279295=_0x198623[_0x4b2cd3(0x45a)]['length']*(_0xb2b059+_0x45a65);let _0x193f8a=_0x948f9+_0x3c2bcf+_0x41be43+_0x2d5821+_0x318dc5+_0x279295;for(let _0x1e19ae=0x0;_0x1e19ae<_0x198623['messagesblue'][_0x4b2cd3(0x233)];_0x1e19ae++){const _0x58d136=_0x198623[_0x4b2cd3(0x3b2)][_0x1e19ae],_0x25a2b6=_0x58d136[_0x4b2cd3(0x349)];if(_0x58d136[_0x4b2cd3(0x4aa)]==null)_0x58d136[_0x4b2cd3(0x4aa)]=_0x85fe09(_0x25a2b6,_0x45a65-0x4);if(_0x58d136[_0x4b2cd3(0x250)]==null)_0x58d136[_0x4b2cd3(0x250)]=0x0;const _0x3051c9=0xa;if(_0x58d136['status']>0x1)_0x58d136['status']-=0.045*_0x38afe9/_0x3051c9,_0x58d136['alpha']=Math['min'](0x1,_0x58d136[_0x4b2cd3(0x3f1)]+0.045*_0x38afe9/_0x3051c9),_0x58d136[_0x4b2cd3(0x250)]=Math['min'](0x1,_0x58d136[_0x4b2cd3(0x250)]+0.045*_0x38afe9/_0x3051c9);else{if(_0x1e19ae===0x0&&(_0x198623['messagesblue'][_0x4b2cd3(0x233)]>0x1||Date[_0x4b2cd3(0x28a)]()-_0x58d136['time']>0x2710)){_0x58d136[_0x4b2cd3(0x3f1)]-=0.045*_0x38afe9/_0x3051c9,_0x58d136[_0x4b2cd3(0x250)]-=0.045*_0x38afe9/_0x3051c9;if(_0x58d136['alpha']<=0x0){_0x198623[_0x4b2cd3(0x3b2)]['splice'](0x0,0x1),_0x1e19ae--;continue;}}}const _0x2e0cb3=_0x45a65*_0x58d136[_0x4b2cd3(0x250)],_0x405af5=_0x58d136[_0x4b2cd3(0x4aa)]*_0x58d136['scale'];_0x322bcb[_0x4b2cd3(0x1f4)]=0.5*_0x58d136['alpha'],_0x336a6f(_0x33e036-_0x405af5/0x2,_0x193f8a,_0x405af5,_0x2e0cb3,_0x4b2cd3(0x3d2)),_0x322bcb[_0x4b2cd3(0x1f4)]=_0x58d136[_0x4b2cd3(0x3f1)],_0x448027(_0x25a2b6,_0x33e036,_0x193f8a+_0x2e0cb3/0x2,_0x2e0cb3-0x4,'white',_0x4b2cd3(0x3e7),!![]),_0x193f8a+=_0xb2b059+_0x2e0cb3;}_0x322bcb['globalAlpha']=0x1;}let _0xd9e25a=Date[_0x59d4a3(0x28a)]();function _0x3b7136(_0xa71b5f){const _0x1275a7=_0x59d4a3;if(_0x198623['tryingtoreconnect'])return;const _0x1385aa=0x4,_0x113ecf=0x14,_0x1d015a=_0x198623[_0x1275a7(0x35a)]/0x2,_0x2fa919=Date['now'](),_0x1ec1de=_0x2fa919-_0xd9e25a;_0xd9e25a=_0x2fa919;const _0x5d961b=_0x198623[_0x1275a7(0x470)][_0x1275a7(0x233)]*(_0x1385aa+_0x113ecf),_0x1b0ed4=_0x198623[_0x1275a7(0x28f)][_0x1275a7(0x233)]*(_0x1385aa+_0x113ecf),_0x10e41a=_0x198623[_0x1275a7(0x4b0)][_0x1275a7(0x233)]*(_0x1385aa+_0x113ecf),_0x3cc62f=_0x198623[_0x1275a7(0x45a)][_0x1275a7(0x233)]*(_0x1385aa+_0x113ecf);let _0x1015fb=_0xa71b5f+_0x5d961b+_0x1b0ed4+_0x10e41a+_0x3cc62f;for(let _0x4fbe8f=0x0;_0x4fbe8f<_0x198623[_0x1275a7(0x43c)][_0x1275a7(0x233)];_0x4fbe8f++){const _0x3fcba6=_0x198623[_0x1275a7(0x43c)][_0x4fbe8f],_0x545b3c=_0x3fcba6[_0x1275a7(0x349)];if(_0x3fcba6[_0x1275a7(0x4aa)]==null)_0x3fcba6[_0x1275a7(0x4aa)]=_0x85fe09(_0x545b3c,_0x113ecf-0x4);if(_0x3fcba6[_0x1275a7(0x250)]==null)_0x3fcba6[_0x1275a7(0x250)]=0x0;const _0x3fc067=0xa;if(_0x3fcba6[_0x1275a7(0x3ca)]>0x1)_0x3fcba6['status']-=0.045*_0x1ec1de/_0x3fc067,_0x3fcba6['alpha']=Math['min'](0x1,_0x3fcba6[_0x1275a7(0x3f1)]+0.045*_0x1ec1de/_0x3fc067),_0x3fcba6[_0x1275a7(0x250)]=Math[_0x1275a7(0x232)](0x1,_0x3fcba6[_0x1275a7(0x250)]+0.045*_0x1ec1de/_0x3fc067);else{if(_0x4fbe8f===0x0&&(_0x198623[_0x1275a7(0x43c)]['length']>0x5||Date['now']()-_0x3fcba6[_0x1275a7(0x1e2)]>0x1075823b6c498a0000000000000000000000000000000000000000000000000000000000000000000000)){_0x3fcba6[_0x1275a7(0x3f1)]-=0.045*_0x1ec1de/_0x3fc067,_0x3fcba6[_0x1275a7(0x250)]-=0.045*_0x1ec1de/_0x3fc067;if(_0x3fcba6['alpha']<=0x0){_0x198623[_0x1275a7(0x43c)][_0x1275a7(0x259)](0x0,0x1),_0x4fbe8f--;continue;}}}const _0x5de965=_0x113ecf*_0x3fcba6['scale'],_0x33f14d=_0x3fcba6[_0x1275a7(0x4aa)]*_0x3fcba6[_0x1275a7(0x250)];_0x322bcb['globalAlpha']=0.5*_0x3fcba6[_0x1275a7(0x3f1)],_0x336a6f(_0x1d015a-_0x33f14d/0x2,_0x1015fb,_0x33f14d,_0x5de965,'#FF0000'),_0x322bcb['globalAlpha']=_0x3fcba6[_0x1275a7(0x3f1)],_0x448027(_0x545b3c,_0x1d015a,_0x1015fb+_0x5de965/0x2,_0x5de965-0x4,_0x1275a7(0x4a6),_0x1275a7(0x3e7),!![]),_0x1015fb+=_0x1385aa+_0x5de965;}_0x322bcb[_0x1275a7(0x1f4)]=0x1;}function _0x336a6f(_0x436afa,_0x65a4d4,_0x11cd9c,_0x1afff1,_0x187bae){const _0x643dfc=_0x59d4a3;_0x322bcb[_0x643dfc(0x30b)]=_0x187bae,_0x322bcb['fillRect'](_0x436afa,_0x65a4d4,_0x11cd9c,_0x1afff1);}let _0x25571f=Date['now']();function _0x5375fd(_0x27da45){const _0xed78d4=_0x59d4a3;if(_0x198623['tryingtoreconnect'])return;const _0x4e954a=0x4,_0x52efc2=0x14,_0x456e4c=_0x198623[_0xed78d4(0x35a)]/0x2,_0x2b5e8c=Date[_0xed78d4(0x28a)](),_0x39ce08=_0x2b5e8c-_0x25571f;_0x25571f=_0x2b5e8c;let _0xd558f0=_0x27da45;for(let _0x575fc4=0x0;_0x575fc4<_0x198623[_0xed78d4(0x470)][_0xed78d4(0x233)];_0x575fc4++){const _0x4c5f6d=_0x198623[_0xed78d4(0x470)][_0x575fc4],_0x282acc=_0x4c5f6d[_0xed78d4(0x349)];if(_0x4c5f6d[_0xed78d4(0x4aa)]==null)_0x4c5f6d[_0xed78d4(0x4aa)]=_0x85fe09(_0x282acc,_0x52efc2-0x4);if(_0x4c5f6d[_0xed78d4(0x250)]==null)_0x4c5f6d[_0xed78d4(0x250)]=0x0;const _0x2f6f86=0xa;if(_0x4c5f6d[_0xed78d4(0x3ca)]>0x1)_0x4c5f6d[_0xed78d4(0x3ca)]-=0.045*_0x39ce08/_0x2f6f86,_0x4c5f6d[_0xed78d4(0x3f1)]=Math[_0xed78d4(0x232)](0x1,_0x4c5f6d[_0xed78d4(0x3f1)]+0.045*_0x39ce08/_0x2f6f86),_0x4c5f6d[_0xed78d4(0x250)]=Math[_0xed78d4(0x232)](0x1,_0x4c5f6d[_0xed78d4(0x250)]+0.045*_0x39ce08/_0x2f6f86);else{if(_0x575fc4===0x0&&(_0x198623[_0xed78d4(0x470)]['length']>0x1||Date[_0xed78d4(0x28a)]()-_0x4c5f6d[_0xed78d4(0x1e2)]>0x1075823b6c498a0000000000000000000000000000000000000000000000000000000000000000000000)){_0x4c5f6d[_0xed78d4(0x3f1)]-=0.045*_0x39ce08/_0x2f6f86,_0x4c5f6d[_0xed78d4(0x250)]-=0.045*_0x39ce08/_0x2f6f86;if(_0x4c5f6d['alpha']<=0x0){_0x198623['messages2'][_0xed78d4(0x259)](0x0,0x1),_0x575fc4--;continue;}}}_0x198623[_0xed78d4(0x470)][_0xed78d4(0x233)]>0x1&&_0x198623[_0xed78d4(0x470)][_0xed78d4(0x259)](0x1);const _0x2dbabf=_0x52efc2*_0x4c5f6d[_0xed78d4(0x250)],_0x28b97e=_0x4c5f6d[_0xed78d4(0x4aa)]*_0x4c5f6d['scale'];_0x322bcb[_0xed78d4(0x1f4)]=0.5*_0x4c5f6d[_0xed78d4(0x3f1)],_0x336a6f(_0x456e4c-_0x28b97e/0x2,_0xd558f0,_0x28b97e,_0x2dbabf,_0xed78d4(0x2d9)),_0x322bcb[_0xed78d4(0x1f4)]=_0x4c5f6d[_0xed78d4(0x3f1)],_0x448027(_0x282acc,_0x456e4c,_0xd558f0+_0x2dbabf/0x2,_0x2dbabf-0x4,'white',_0xed78d4(0x3e7),!![]),_0xd558f0+=_0x4e954a+_0x2dbabf;}_0x322bcb[_0xed78d4(0x1f4)]=0x1;}let _0x587e09=Date[_0x59d4a3(0x28a)]();function _0x3b5307(_0x22aa57){const _0x58a618=_0x59d4a3;if(_0x198623['tryingtoreconnect'])return;const _0x28319a=0x4,_0x47a395=0x14,_0x4babce=_0x198623['screenWidth']/0x2,_0x142133=Date[_0x58a618(0x28a)](),_0x57a749=_0x142133-_0x587e09;_0x587e09=_0x142133;let _0x14fa88=_0x22aa57;for(let _0x5d6469=0x0;_0x5d6469<_0x198623[_0x58a618(0x28f)][_0x58a618(0x233)];_0x5d6469++){const _0x1a5e25=_0x198623[_0x58a618(0x28f)][_0x5d6469],_0x707718=_0x1a5e25['text'];if(_0x1a5e25[_0x58a618(0x4aa)]==null)_0x1a5e25[_0x58a618(0x4aa)]=_0x85fe09(_0x707718,_0x47a395-0x4);if(_0x1a5e25[_0x58a618(0x250)]==null)_0x1a5e25['scale']=0x0;const _0x8a02ab=0xa;if(_0x1a5e25[_0x58a618(0x3ca)]>0x1)_0x1a5e25['status']-=0.045*_0x57a749/_0x8a02ab,_0x1a5e25[_0x58a618(0x3f1)]=Math['min'](0x1,_0x1a5e25[_0x58a618(0x3f1)]+0.045*_0x57a749/_0x8a02ab),_0x1a5e25[_0x58a618(0x250)]=Math[_0x58a618(0x232)](0x1,_0x1a5e25[_0x58a618(0x250)]+0.045*_0x57a749/_0x8a02ab);else{if(_0x5d6469===0x0&&(_0x198623[_0x58a618(0x28f)][_0x58a618(0x233)]>0x1||Date[_0x58a618(0x28a)]()-_0x1a5e25['time']>0x1075823b6c498a0000000000000000000000000000000000000000000000000000000000000000000000)){_0x1a5e25[_0x58a618(0x3f1)]-=0.045*_0x57a749/_0x8a02ab,_0x1a5e25[_0x58a618(0x250)]-=0.045*_0x57a749/_0x8a02ab;if(_0x1a5e25[_0x58a618(0x3f1)]<=0x0){_0x198623[_0x58a618(0x28f)]['splice'](0x0,0x1),_0x5d6469--;continue;}}}_0x198623['messages3'][_0x58a618(0x233)]>0x1&&_0x198623[_0x58a618(0x28f)][_0x58a618(0x259)](0x1);const _0x2c05ac=_0x47a395*_0x1a5e25[_0x58a618(0x250)],_0x1ba07f=_0x1a5e25[_0x58a618(0x4aa)]*_0x1a5e25[_0x58a618(0x250)];_0x322bcb[_0x58a618(0x1f4)]=0.5*_0x1a5e25[_0x58a618(0x3f1)],_0x336a6f(_0x4babce-_0x1ba07f/0x2,_0x14fa88,_0x1ba07f,_0x2c05ac,_0x58a618(0x25c)),_0x322bcb['globalAlpha']=_0x1a5e25[_0x58a618(0x3f1)],_0x448027(_0x707718,_0x4babce,_0x14fa88+_0x2c05ac/0x2,_0x2c05ac-0x4,_0x58a618(0x4a6),_0x58a618(0x3e7),!![]),_0x14fa88+=_0x28319a+_0x2c05ac;}_0x322bcb[_0x58a618(0x1f4)]=0x1;}let _0x3b6766=Date['now']();function _0x4820b3(_0x1a3c9f){const _0x592c21=_0x59d4a3,_0x3862a2=0x4,_0x40a1ac=0x14,_0x2ca1b7=_0x198623[_0x592c21(0x35a)]/0x2,_0x3323f7=Date[_0x592c21(0x28a)](),_0x2cbd5=_0x3323f7-_0x3b6766;_0x3b6766=_0x3323f7;let _0x2e6a3e=_0x1a3c9f;for(let _0x3c29e6=0x0;_0x3c29e6<_0x198623[_0x592c21(0x4b0)]['length'];_0x3c29e6++){const _0x10ab74=_0x198623['messagesbaba'][_0x3c29e6],_0x264f23=_0x10ab74[_0x592c21(0x349)];if(_0x10ab74[_0x592c21(0x4aa)]==null)_0x10ab74[_0x592c21(0x4aa)]=_0x85fe09(_0x264f23,_0x40a1ac-0x4);if(_0x10ab74[_0x592c21(0x250)]==null)_0x10ab74['scale']=0x0;const _0x102b7a=0xa;if(_0x10ab74['status']>0x1)_0x10ab74['status']-=0.045*_0x2cbd5/_0x102b7a,_0x10ab74['alpha']=Math[_0x592c21(0x232)](0x1,_0x10ab74[_0x592c21(0x3f1)]+0.045*_0x2cbd5/_0x102b7a),_0x10ab74[_0x592c21(0x250)]=Math[_0x592c21(0x232)](0x1,_0x10ab74[_0x592c21(0x250)]+0.045*_0x2cbd5/_0x102b7a);else{if(_0x3c29e6===0x0&&(_0x198623[_0x592c21(0x4b0)][_0x592c21(0x233)]>0x1||Date[_0x592c21(0x28a)]()-_0x10ab74[_0x592c21(0x1e2)]>0x1075823b6c498a0000000000000000000000000000000000000000000000000000000000000000000000)){_0x10ab74[_0x592c21(0x3f1)]-=0.045*_0x2cbd5/_0x102b7a,_0x10ab74['scale']-=0.045*_0x2cbd5/_0x102b7a;if(_0x10ab74[_0x592c21(0x3f1)]<=0x0){_0x198623[_0x592c21(0x4b0)][_0x592c21(0x259)](0x0,0x1),_0x3c29e6--;continue;}}}_0x198623[_0x592c21(0x4b0)][_0x592c21(0x233)]>0x1&&_0x198623[_0x592c21(0x4b0)][_0x592c21(0x259)](0x1);const _0x68d36e=_0x40a1ac*_0x10ab74[_0x592c21(0x250)],_0x24e1ec=_0x10ab74[_0x592c21(0x4aa)]*_0x10ab74[_0x592c21(0x250)];_0x322bcb[_0x592c21(0x1f4)]=0.5*_0x10ab74[_0x592c21(0x3f1)],_0x336a6f(_0x2ca1b7-_0x24e1ec/0x2,_0x2e6a3e,_0x24e1ec,_0x68d36e,_0x592c21(0x347)),_0x322bcb['globalAlpha']=_0x10ab74[_0x592c21(0x3f1)],_0x448027(_0x264f23,_0x2ca1b7,_0x2e6a3e+_0x68d36e/0x2,_0x68d36e-0x4,_0x592c21(0x4a6),'center',!![]),_0x2e6a3e+=_0x3862a2+_0x68d36e;}_0x322bcb[_0x592c21(0x1f4)]=0x1;}let _0x5b1571=Date[_0x59d4a3(0x28a)]();function _0xf36c6f(_0x19cb9e){const _0x593b41=_0x59d4a3;if(_0x198623[_0x593b41(0x3cc)])return;const _0x33a1e0=0x4,_0x50bc30=0x14,_0x29531e=_0x198623[_0x593b41(0x35a)]/0x2,_0x2fdb58=Date[_0x593b41(0x28a)](),_0x5bcc4d=_0x2fdb58-_0x5b1571;_0x5b1571=_0x2fdb58;let _0x3c055f=_0x19cb9e;for(let _0x68ef85=0x0;_0x68ef85<_0x198623[_0x593b41(0x45a)][_0x593b41(0x233)];_0x68ef85++){const _0x4f4abb=_0x198623[_0x593b41(0x45a)][_0x68ef85],_0x3ca752=_0x4f4abb[_0x593b41(0x349)];if(_0x4f4abb['len']==null)_0x4f4abb['len']=_0x85fe09(_0x3ca752,_0x50bc30-0x4);if(_0x4f4abb[_0x593b41(0x250)]==null)_0x4f4abb[_0x593b41(0x250)]=0x0;const _0x5effd9=0xa;if(_0x4f4abb[_0x593b41(0x3ca)]>0x1)_0x4f4abb[_0x593b41(0x3ca)]-=0.045*_0x5bcc4d/_0x5effd9,_0x4f4abb[_0x593b41(0x3f1)]=Math[_0x593b41(0x232)](0x1,_0x4f4abb[_0x593b41(0x3f1)]+0.045*_0x5bcc4d/_0x5effd9),_0x4f4abb[_0x593b41(0x250)]=Math[_0x593b41(0x232)](0x1,_0x4f4abb[_0x593b41(0x250)]+0.045*_0x5bcc4d/_0x5effd9);else{if(_0x68ef85===0x0&&(_0x198623[_0x593b41(0x45a)][_0x593b41(0x233)]>0x1||Date[_0x593b41(0x28a)]()-_0x4f4abb['time']>0x1075823b6c498a0000000000000000000000000000000000000000000000000000000000000000000000)){_0x4f4abb['alpha']-=0.045*_0x5bcc4d/_0x5effd9,_0x4f4abb[_0x593b41(0x250)]-=0.045*_0x5bcc4d/_0x5effd9;if(_0x4f4abb[_0x593b41(0x3f1)]<=0x0){_0x198623[_0x593b41(0x45a)]['splice'](0x0,0x1),_0x68ef85--;continue;}}}_0x198623[_0x593b41(0x45a)]['length']>0x1&&_0x198623[_0x593b41(0x45a)][_0x593b41(0x259)](0x1);const _0x2eed6e=_0x50bc30*_0x4f4abb[_0x593b41(0x250)],_0x2ccf2e=_0x4f4abb[_0x593b41(0x4aa)]*_0x4f4abb[_0x593b41(0x250)];_0x322bcb[_0x593b41(0x1f4)]=0.5*_0x4f4abb[_0x593b41(0x3f1)],_0x336a6f(_0x29531e-_0x2ccf2e/0x2,_0x3c055f,_0x2ccf2e,_0x2eed6e,_0x593b41(0x378)),_0x322bcb[_0x593b41(0x1f4)]=_0x4f4abb[_0x593b41(0x3f1)],_0x448027(_0x3ca752,_0x29531e,_0x3c055f+_0x2eed6e/0x2,_0x2eed6e-0x4,_0x593b41(0x4a6),'center',!![]),_0x3c055f+=_0x33a1e0+_0x2eed6e;}_0x322bcb[_0x593b41(0x1f4)]=0x1;}function _0x4df5fc(_0x31b40d){const _0x51e937=_0x59d4a3;if(_0x198623[_0x51e937(0x3cc)])return;let _0x25f824=0x4,_0x2d64d3=0x0,_0x539abd=0x12,_0x40d67d=_0x198623[_0x51e937(0x35a)]/0x2,_0x4cf72f=_0x31b40d,_0xa5d895=Date['now'](),_0x592ba1=_0xa5d895-_0x40fcb5;_0x40fcb5=_0xa5d895;for(let _0xfc880a=_0x198623[_0x51e937(0x215)][_0x51e937(0x233)]-0x1;_0xfc880a>=0x0;_0xfc880a--){let _0x2f66fd=_0x198623[_0x51e937(0x215)][_0xfc880a],_0x301f34=_0x2f66fd['text'],_0x2ecea2=_0x301f34;if(_0x2f66fd['len']==null)_0x2f66fd['len']=_0x85fe09(_0x2ecea2,_0x539abd-0x4);_0x322bcb[_0x51e937(0x1f4)]=0x1*_0x2f66fd[_0x51e937(0x3f1)],_0x2af335(_0x40d67d-_0x2f66fd[_0x51e937(0x4aa)]/0x2,_0x40d67d+_0x2f66fd['len']/0x2,_0x4cf72f+_0x539abd/0x2,_0x539abd,_0x51e937(0x47a)),_0x322bcb[_0x51e937(0x1f4)]=Math[_0x51e937(0x232)](0x1,_0x2f66fd['alpha']),_0x165ff5(_0x2ecea2,_0x40d67d,_0x4cf72f+_0x539abd/0x2,_0x539abd-0x4,_0x16d3b0[_0x51e937(0x4a9)],_0x51e937(0x3e7),!![]);const _0x52c0c3=0xa;_0x2f66fd['status']>0x1&&(_0x4cf72f-=(_0x25f824+_0x539abd)*(0x1-Math[_0x51e937(0x44d)](_0x2f66fd[_0x51e937(0x3f1)])),_0x2f66fd[_0x51e937(0x3ca)]-=0.05/_0x592ba1,_0x2f66fd[_0x51e937(0x3f1)]+=0.05/_0x592ba1),_0x4cf72f+=_0x25f824+_0x539abd;}_0x322bcb[_0x51e937(0x1f4)]=0x1;}function _0x697537(_0x38d8fa,_0x3f749f){const _0x130997=_0x59d4a3;if(_0x198623[_0x130997(0x30d)])return _0x57bdd0(_0x38d8fa,_0x3f749f);_0x198623[_0x130997(0x36a)]=!!_0x4d07f2[_0x130997(0x353)],_0x32dc15[_0x130997(0x304)](0x0+(_0x198623[_0x130997(0x234)]||_0x198623['disconnected']||_0x198623[_0x130997(0x2de)]||_0x198623[_0x130997(0x36a)]&&!_0x4d07f2['skills'][_0x130997(0x36c)](_0x297c8d=>_0x297c8d[_0x130997(0x4c9)]===_0x297c8d[_0x130997(0x460)]))),_0x198623['clickables'][_0x130997(0x4c3)]['hide']();let _0xa4792d=0x4,_0x4b9b4b=0x12,_0x291cc7=0x28,_0x4f7e05=0xf,_0x287ab9=_0x3f749f,_0xbdfbab=_0x287ab9,_0x28300d=_0x38d8fa+(_0x32dc15[_0x130997(0x1cc)]()-0x1)*(_0x4b9b4b+0x32+_0x287ab9*_0xf7aad5(_0x4d07f2[_0x130997(0x2f2)]['reduce']((_0x24b1d1,_0x1239b8)=>Math[_0x130997(0x408)](_0x24b1d1,_0x1239b8['cap']),0x0))),_0x50be04=_0x198623[_0x130997(0x210)]-_0x38d8fa-_0x4b9b4b,_0x20db99=0xb,_0x4f5a4a=_0x4d07f2[_0x130997(0x475)](_0x198623[_0x130997(0x425)][parseInt(_0x4d07f2['type'][_0x130997(0x45f)]('-')[0x0])]['statnames']),_0xf239c6=canvas['height']/_0x198623[_0x130997(0x210)]/_0x198623['ratio'],_0x4a733f=_0x198623[_0x130997(0x208)]['x']*_0xf239c6,_0x58e94a=_0x198623[_0x130997(0x208)]['y']*_0xf239c6;for(let _0x55fd95=0x0;_0x55fd95<_0x4d07f2[_0x130997(0x2f2)][_0x130997(0x233)];_0x55fd95++){_0x20db99--;let _0x3b33be=_0x4d07f2[_0x130997(0x2f2)][_0x55fd95],_0x43a07e=_0x4f5a4a[_0x20db99-0x1],_0x14baa4=_0x3b33be[_0x130997(0x460)],_0x203ca1=_0x16d3b0[_0x3b33be[_0x130997(0x2a6)]],_0x5e25a6=_0x3b33be[_0x130997(0x1f1)],_0x13ca7f=_0x3b33be[_0x130997(0x4c9)];if(!_0x5e25a6)continue;_0x287ab9=_0xbdfbab;let _0x52f7ce=0x0,_0x5521a8=_0x5e25a6>_0x52f7ce,_0x2300a4=_0x5e25a6<_0x13ca7f;_0x5521a8&&(_0x52f7ce=_0x5e25a6);_0x2af335(_0x28300d+_0x4b9b4b/0x2,_0x28300d+_0x4b9b4b/0x2+_0x287ab9*_0xf7aad5(_0x5e25a6)-_0x4f7e05,_0x50be04+_0x4b9b4b/0x2,_0x4b9b4b-0x4,_0x16d3b0['black']),_0x2af335(_0x28300d+_0x4b9b4b/0x2,_0x28300d-_0x4b9b4b/0x2+_0x287ab9*_0xf7aad5(_0x5e25a6),_0x50be04+_0x4b9b4b/0x2,_0x4b9b4b-6.5,_0x203ca1),_0x2af335(_0x28300d+_0x4b9b4b/0x2,_0x28300d+_0x4b9b4b/0x2+_0x287ab9*_0xf7aad5(_0x5e25a6)-_0x291cc7,_0x50be04+_0x4b9b4b/0x2,_0x4b9b4b-0x3,_0x16d3b0[_0x130997(0x4b9)]),_0x2af335(_0x28300d+_0x4b9b4b/0x2,_0x28300d+_0x4b9b4b/0x2+_0x287ab9*_0xf7aad5(_0x14baa4)-_0x291cc7,_0x50be04+_0x4b9b4b/0x2,_0x4b9b4b-7.5,_0x203ca1);if(_0x2300a4){_0x322bcb[_0x130997(0x32e)]=0x1,_0x322bcb[_0x130997(0x245)]=_0x16d3b0[_0x130997(0x1f0)];for(let _0x5e5d0c=_0x5e25a6+0x1;_0x5e5d0c<_0x52f7ce;_0x5e5d0c++){_0x439ab1(_0x28300d+_0x287ab9*_0xf7aad5(_0x5e5d0c)-_0x291cc7,_0x50be04+1.5,_0x28300d+_0x287ab9*_0xf7aad5(_0x5e5d0c)-_0x291cc7,_0x50be04-0x3+_0x4b9b4b);}}_0x322bcb[_0x130997(0x245)]=_0x16d3b0['black'],_0x322bcb[_0x130997(0x32e)]=0x1;for(let _0x3e0f89=0x1;_0x3e0f89<_0x14baa4+0x1;_0x3e0f89++){_0x439ab1(_0x28300d+_0x287ab9*_0xf7aad5(_0x3e0f89)-_0x291cc7,_0x50be04+1.5,_0x28300d+_0x287ab9*_0xf7aad5(_0x3e0f89)-_0x291cc7,_0x50be04-0x3+_0x4b9b4b);}_0x287ab9=_0xbdfbab*_0xf7aad5(_0x52f7ce);let _0x546ce8=_0x14baa4==_0x13ca7f?_0x203ca1:!_0x4d07f2[_0x130997(0x353)]||_0x5e25a6!==_0x13ca7f&&_0x14baa4==_0x5e25a6?_0x16d3b0[_0x130997(0x1f0)]:_0x16d3b0[_0x130997(0x4a9)];_0x165ff5(_0x43a07e,Math['round'](_0x28300d+_0x287ab9/0x2)+0.5,_0x50be04+_0x4b9b4b/0x2,_0x4b9b4b-0x8,_0x546ce8,'center',!![]),_0x165ff5('+',Math[_0x130997(0x262)](_0x28300d+_0x287ab9-_0x4b9b4b*0.3)-3.5,_0x50be04+_0x4b9b4b/0x2+0.5,_0x4b9b4b-0x5,_0x16d3b0[_0x130997(0x4b9)],_0x130997(0x379),!![]),_0x165ff5('['+_0x20db99%0xa+']',Math[_0x130997(0x262)](_0x28300d+_0x287ab9-_0x4b9b4b*0x2)-1.5,_0x50be04+_0x4b9b4b/0x2,_0x4b9b4b-0x8,_0x546ce8,'right',!![]),_0x546ce8===_0x16d3b0['guiwhite']&&_0x198623['clickables'][_0x130997(0x4c3)][_0x130997(0x241)](_0x20db99-0x1,_0x28300d*_0xf239c6,_0x50be04*_0xf239c6,_0x287ab9*_0xf239c6,_0x4b9b4b*_0xf239c6),_0x14baa4&&_0x165ff5(_0x546ce8===_0x203ca1?_0x130997(0x4ac):'+'+_0x14baa4,Math[_0x130997(0x262)](_0x28300d+_0x287ab9+0x4)+0.5,_0x50be04+_0x4b9b4b/0x2,_0x4b9b4b-0x5,_0x203ca1,_0x130997(0x3f6),!![]),_0x50be04-=_0x4b9b4b+_0xa4792d;}_0x198623[_0x130997(0x2cc)]['hover']['place'](0x0,0x0,_0x50be04*_0xf239c6,0.8*_0x287ab9*_0xf239c6,(_0x198623[_0x130997(0x210)]-_0x50be04)*_0xf239c6),_0x4d07f2[_0x130997(0x353)]!==0x0&&_0x165ff5('x'+_0x4d07f2['points'],Math[_0x130997(0x262)](_0x28300d+_0x287ab9-0x2)+0.5,Math[_0x130997(0x262)](_0x50be04+_0x4b9b4b-0x4)+0.5,0x14,_0x16d3b0[_0x130997(0x4a9)],_0x130997(0x379));}function _0x57bdd0(_0x440e79,_0x359b18){const _0x2bdbcd=_0x59d4a3;_0x440e79+=0x320,_0x198623[_0x2bdbcd(0x36a)]=_0x4d07f2[_0x2bdbcd(0x353)]>0x0&&_0x4d07f2[_0x2bdbcd(0x2f2)][_0x2bdbcd(0x2dc)](_0x3a137b=>_0x3a137b[_0x2bdbcd(0x460)]<_0x3a137b['cap']),_0x32dc15['set'](_0x198623['canSkill']||_0x198623[_0x2bdbcd(0x234)]||_0x198623[_0x2bdbcd(0x4b8)]?0x1:0x0);let _0x595325=_0x32dc15[_0x2bdbcd(0x1cc)]();_0x198623[_0x2bdbcd(0x2cc)]['stat'][_0x2bdbcd(0x4bc)]();let _0x33140b=_0x359b18/0x2,_0xcb1055=_0x359b18/0x3,_0x48e0b3=0x2*_0x595325*_0x440e79-_0x440e79,_0x10c39e=_0x4d07f2['getStatNames'](_0x198623[_0x2bdbcd(0x425)][parseInt(_0x4d07f2[_0x2bdbcd(0x2e5)]['split']('-')[0x0])][_0x2bdbcd(0x36d)]),_0x58eab7=canvas[_0x2bdbcd(0x410)]/_0x198623[_0x2bdbcd(0x210)]/_0x198623['ratio'];if(_0x198623[_0x2bdbcd(0x36a)]){for(let _0x4570ae=0x0;_0x4570ae<_0x4d07f2['skills'][_0x2bdbcd(0x233)];_0x4570ae++){let _0xe2ac4a=_0x4d07f2[_0x2bdbcd(0x2f2)][_0x4570ae],_0x1d42c0=_0xe2ac4a[_0x2bdbcd(0x1f1)];if(_0x1d42c0<=0x0)continue;let _0x8fabae=_0xe2ac4a[_0x2bdbcd(0x460)],_0xa764b4=_0x16d3b0[_0xe2ac4a[_0x2bdbcd(0x2a6)]],_0x2b35b3=_0xe2ac4a[_0x2bdbcd(0x4c9)],_0x38d92f=_0x10c39e[0x9-_0x4570ae]['split'](/\s+/),_0x5da0e0=Math[_0x2bdbcd(0x236)](_0x38d92f[_0x2bdbcd(0x233)]/0x2),[_0x66bad8,_0x44ab6e]=_0x38d92f[_0x2bdbcd(0x233)]===0x1?[_0x38d92f[0x0],null]:[_0x38d92f['slice'](0x0,_0x5da0e0)[_0x2bdbcd(0x4a7)]('\x20'),_0x38d92f['slice'](_0x5da0e0)[_0x2bdbcd(0x4a7)]('\x20')];_0x322bcb[_0x2bdbcd(0x1f4)]=0.5,_0x322bcb['fillStyle']=_0xa764b4,_0x109a16(_0x48e0b3,_0x440e79,_0x33140b,0x2*_0xcb1055/0x3),_0x322bcb[_0x2bdbcd(0x1f4)]=0.1,_0x322bcb[_0x2bdbcd(0x30b)]=_0x16d3b0['black'],_0x109a16(_0x48e0b3,_0x440e79+_0xcb1055*0x2/0x3*0x2/0x3,_0x33140b,_0xcb1055*0x2/0x3/0x3),_0x322bcb['globalAlpha']=0x1,_0x322bcb['fillStyle']=_0x16d3b0[_0x2bdbcd(0x4a9)],_0x109a16(_0x48e0b3,_0x440e79+_0xcb1055*0x2/0x3,_0x33140b,_0xcb1055/0x3),_0x322bcb[_0x2bdbcd(0x30b)]=_0xa764b4,_0x109a16(_0x48e0b3,_0x440e79+_0xcb1055*0x2/0x3,_0x33140b*_0x8fabae/_0x1d42c0,_0xcb1055/0x3),_0x322bcb[_0x2bdbcd(0x245)]=_0x16d3b0[_0x2bdbcd(0x4b9)],_0x322bcb[_0x2bdbcd(0x32e)]=0x1;for(let _0x17a3cc=0x1;_0x17a3cc<_0x2b35b3;_0x17a3cc++){let _0x344892=_0x48e0b3+_0x17a3cc/_0x1d42c0*_0x33140b;_0x439ab1(_0x344892,_0x440e79+_0xcb1055*0x2/0x3,_0x344892,_0x440e79+_0xcb1055);}_0x2b35b3===0x0||!_0x4d07f2['points']||_0x1d42c0!==_0x2b35b3&&_0x8fabae===_0x1d42c0||_0x198623[_0x2bdbcd(0x2cc)][_0x2bdbcd(0x4c3)]['place'](0x9-_0x4570ae,_0x48e0b3*_0x58eab7,_0x440e79*_0x58eab7,_0x33140b*_0x58eab7,_0xcb1055*_0x58eab7),_0x44ab6e?(_0x165ff5(_0x44ab6e,_0x48e0b3+_0x33140b/0x2,_0x440e79+_0xcb1055*0.55,_0xcb1055/0x5,_0x16d3b0[_0x2bdbcd(0x4a9)],_0x2bdbcd(0x3e7)),_0x165ff5(_0x66bad8,_0x48e0b3+_0x33140b/0x2,_0x440e79+_0xcb1055*0.3,_0xcb1055/0x5,_0x16d3b0[_0x2bdbcd(0x4a9)],_0x2bdbcd(0x3e7))):_0x165ff5(_0x66bad8,_0x48e0b3+_0x33140b/0x2,_0x440e79+_0xcb1055*0.425,_0xcb1055/0x5,_0x16d3b0['guiwhite'],'center'),_0x8fabae>0x0&&_0x165ff5(_0x8fabae<_0x1d42c0?'+'+_0x8fabae:'MAX',_0x48e0b3+_0x33140b/0x2,_0x440e79+_0xcb1055*1.3,_0xcb1055/0x4,_0xa764b4,'center'),_0x322bcb['strokeStyle']=_0x16d3b0[_0x2bdbcd(0x4b9)],_0x322bcb[_0x2bdbcd(0x1f4)]=0x1,_0x322bcb[_0x2bdbcd(0x32e)]=0x3,_0x439ab1(_0x48e0b3,_0x440e79+_0xcb1055*0x2/0x3,_0x48e0b3+_0x33140b,_0x440e79+_0xcb1055*0x2/0x3),_0x109a16(_0x48e0b3,_0x440e79,_0x33140b,_0xcb1055,!![]),_0x48e0b3+=_0x595325*(_0x33140b+0xe);}_0x4d07f2[_0x2bdbcd(0x353)]>0x1&&_0x165ff5('x\x20'+_0x4d07f2[_0x2bdbcd(0x353)],_0x48e0b3,_0x440e79+0x14,0x14,_0x16d3b0[_0x2bdbcd(0x4a9)],_0x2bdbcd(0x3f6));}}function _0x3101ec(_0x1ba6e6,_0x13ba80,_0x2c234b){const _0xfa1522=_0x59d4a3;let _0x6374a8=0x4,_0x44e574=1.65*_0x13ba80,_0x2de5c7=0x14,_0x5e79e6=(_0x198623[_0xfa1522(0x35a)]-_0x44e574)/0x2,_0xda8ed0=_0x198623[_0xfa1522(0x210)]-_0x1ba6e6-_0x2de5c7;_0x322bcb['lineWidth']=0x1,_0x2af335(_0x5e79e6,_0x5e79e6+_0x44e574,_0xda8ed0+_0x2de5c7/0x2,_0x2de5c7-0x3+_0x1054cf['graphical'][_0xfa1522(0x493)],_0x16d3b0[_0xfa1522(0x4b9)]),_0x2af335(_0x5e79e6,_0x5e79e6+_0x44e574,_0xda8ed0+_0x2de5c7/0x2,_0x2de5c7-0x3,_0xfa1522(0x3fb)),_0x2af335(_0x5e79e6,_0x5e79e6+_0x44e574*_0x4d07f2[_0xfa1522(0x1d7)][_0xfa1522(0x2c1)](),_0xda8ed0+_0x2de5c7/0x2,_0x2de5c7-3.5,_0x16d3b0['gold']),_0x165ff5('Level\x20'+_0x4d07f2[_0xfa1522(0x1d7)][_0xfa1522(0x359)]()+'\x20'+_0x4d07f2[_0xfa1522(0x2e3)],_0x5e79e6+_0x44e574/0x2,_0xda8ed0+_0x2de5c7/0x2,_0x2de5c7-0x4,_0x16d3b0[_0xfa1522(0x4a9)],'center',!![]),_0x2de5c7=0xe,_0xda8ed0-=_0x2de5c7+_0x6374a8,_0x2af335(_0x5e79e6+_0x44e574*0.1,_0x5e79e6+_0x44e574*0.9,_0xda8ed0+_0x2de5c7/0x2,_0x2de5c7-0x3+_0x1054cf[_0xfa1522(0x260)][_0xfa1522(0x493)],_0x16d3b0[_0xfa1522(0x4b9)]),_0x2af335(_0x5e79e6+_0x44e574*0.1,_0x5e79e6+_0x44e574*0.9,_0xda8ed0+_0x2de5c7/0x2,_0x2de5c7-0x3,_0xfa1522(0x3fb)),_0x2af335(_0x5e79e6+_0x44e574*0.1,_0x5e79e6+_0x44e574*(0.1+0.8*(_0x2c234b?Math[_0xfa1522(0x232)](0x1,_0x4d07f2[_0xfa1522(0x1d7)][_0xfa1522(0x1f8)]()/_0x2c234b):0x1)),_0xda8ed0+_0x2de5c7/0x2,_0x2de5c7-3.5,_0x16d3b0[_0xfa1522(0x385)]),_0x165ff5('Score:\x20'+_0x45e032[_0xfa1522(0x39b)](_0x4d07f2[_0xfa1522(0x1d7)]['getScore']()),_0x5e79e6+_0x44e574/0x2,_0xda8ed0+_0x2de5c7/0x2,_0x2de5c7-0x2,_0x16d3b0[_0xfa1522(0x4a9)],_0xfa1522(0x3e7),!![]),_0x322bcb[_0xfa1522(0x32e)]=0x4,_0x165ff5(_0x198623[_0xfa1522(0x428)]['name'],Math[_0xfa1522(0x262)](_0x5e79e6+_0x44e574/0x2)+0.5,Math[_0xfa1522(0x262)](_0xda8ed0-0xa-_0x6374a8)+0.5,0x20,_0x198623[_0xfa1522(0x321)],_0xfa1522(0x3e7));}function _0x4b522f(_0x1611da,_0x2b99ec,_0x2a9ee3,_0x436c3f='up'){const _0x3c5605=_0x59d4a3;_0x322bcb[_0x3c5605(0x2ca)]();switch(_0x436c3f){case'up':_0x322bcb[_0x3c5605(0x22c)](_0x1611da,_0x2b99ec-_0x2a9ee3),_0x322bcb[_0x3c5605(0x342)](_0x1611da-_0x2a9ee3,_0x2b99ec+_0x2a9ee3),_0x322bcb['lineTo'](_0x1611da+_0x2a9ee3,_0x2b99ec+_0x2a9ee3);break;case _0x3c5605(0x45b):_0x322bcb[_0x3c5605(0x22c)](_0x1611da,_0x2b99ec+_0x2a9ee3),_0x322bcb[_0x3c5605(0x342)](_0x1611da-_0x2a9ee3,_0x2b99ec-_0x2a9ee3),_0x322bcb[_0x3c5605(0x342)](_0x1611da+_0x2a9ee3,_0x2b99ec-_0x2a9ee3);break;case'left':_0x322bcb[_0x3c5605(0x22c)](_0x1611da-_0x2a9ee3,_0x2b99ec),_0x322bcb[_0x3c5605(0x342)](_0x1611da+_0x2a9ee3,_0x2b99ec-_0x2a9ee3),_0x322bcb[_0x3c5605(0x342)](_0x1611da+_0x2a9ee3,_0x2b99ec+_0x2a9ee3);break;case _0x3c5605(0x379):_0x322bcb[_0x3c5605(0x22c)](_0x1611da+_0x2a9ee3,_0x2b99ec),_0x322bcb[_0x3c5605(0x342)](_0x1611da-_0x2a9ee3,_0x2b99ec-_0x2a9ee3),_0x322bcb[_0x3c5605(0x342)](_0x1611da-_0x2a9ee3,_0x2b99ec+_0x2a9ee3);break;}_0x322bcb[_0x3c5605(0x40c)](),_0x322bcb[_0x3c5605(0x22d)](),_0x322bcb[_0x3c5605(0x44a)]();}function _0x4d8812(_0x109cc0,_0x4ad6ec){const _0x41378a=_0x59d4a3;let _0x125bfb=0.85,_0x675755=_0x4ad6ec*_0x125bfb,_0x138dc9=_0x675755/_0x198623['gameWidth']*_0x198623['gameHeight'];_0x198623[_0x41378a(0x30d)]&&(_0x138dc9=_0x675755/_0x198623[_0x41378a(0x3df)]/1.9*_0x198623[_0x41378a(0x24a)],_0x675755=_0x4ad6ec*0.6);if(_0x198623[_0x41378a(0x24a)]>_0x198623['gameWidth']||_0x198623[_0x41378a(0x24a)]<_0x198623[_0x41378a(0x3df)]){let _0x367789=[_0x198623[_0x41378a(0x3df)]/_0x198623[_0x41378a(0x24a)],_0x198623[_0x41378a(0x24a)]/_0x198623[_0x41378a(0x3df)]];_0x675755/=_0x367789[0x1]*1.5,_0x138dc9/=_0x367789[0x1]*1.5;if(_0x675755>_0x4ad6ec*0x2)_0x367789=_0x675755/(_0x4ad6ec*0x2);else _0x138dc9>_0x4ad6ec*0x2?_0x367789=_0x138dc9/(_0x4ad6ec*0x2):_0x367789=0x1;_0x675755/=_0x367789,_0x138dc9/=_0x367789;}let _0x7920bb=_0x198623[_0x41378a(0x35a)]-_0x109cc0-_0x675755,_0x13aba5=_0x198623['screenHeight']-_0x138dc9-_0x109cc0;_0x322bcb['globalAlpha']=0.4;let _0x482f34=_0x198623['roomSetup'][0x0][_0x41378a(0x233)],_0x59e8e6=_0x198623[_0x41378a(0x461)][_0x41378a(0x233)],_0x4ba9b3=0x0;for(let _0x538028=0x0;_0x538028<_0x59e8e6;_0x538028++){let _0x1dd3ad=_0x198623['roomSetup'][_0x538028],_0x1b609f=0x0;for(let _0x5adbee=0x0;_0x5adbee<_0x482f34;_0x5adbee++){let _0x31a564=_0x198623[_0x41378a(0x461)][_0x538028][_0x5adbee];_0x322bcb[_0x41378a(0x30b)]=_0x3e3011['getZoneColor'](_0x31a564),_0x3e3011[_0x41378a(0x37f)](_0x31a564)!==_0x16d3b0['white']&&_0x109a16(_0x7920bb+_0x1b609f*_0x675755/_0x482f34,_0x13aba5+_0x4ba9b3*_0x138dc9/_0x59e8e6,_0x675755/_0x482f34,_0x138dc9/_0x59e8e6),_0x1b609f++;}_0x4ba9b3++;}_0x322bcb[_0x41378a(0x30b)]=_0x16d3b0[_0x41378a(0x4a6)],_0x109a16(_0x7920bb,_0x13aba5,_0x675755,_0x138dc9),_0x322bcb['globalAlpha']=0x1,_0x322bcb['lineWidth']=0x5,_0x322bcb[_0x41378a(0x30b)]=_0x41378a(0x37e),_0x109a16(_0x7920bb,_0x13aba5,_0x675755,_0x138dc9,!![]);for(let _0x482b38 of _0x44c25d[_0x41378a(0x1cc)]()){_0x322bcb[_0x41378a(0x30b)]=_0x3e3011[_0x41378a(0x360)](_0x3e3011['modifyColor'](_0x482b38[_0x41378a(0x2a6)]),_0x16d3b0[_0x41378a(0x4b9)],0.3),_0x322bcb['globalAlpha']=_0x482b38[_0x41378a(0x3f1)];switch(_0x482b38[_0x41378a(0x2e5)]){case 0x2:_0x109a16(_0x7920bb+(_0x482b38['x']-_0x482b38[_0x41378a(0x3eb)])/_0x198623['gameWidth']*_0x675755-0.4,_0x13aba5+(_0x482b38['y']-_0x482b38[_0x41378a(0x3eb)])/_0x198623[_0x41378a(0x24a)]*_0x138dc9-0x1,0x2*_0x482b38[_0x41378a(0x3eb)]/_0x198623['gameWidth']*_0x675755+0.2,0x2*_0x482b38[_0x41378a(0x3eb)]/_0x198623[_0x41378a(0x3df)]*_0x675755+0.2);break;case 0x1:_0x486f6d(_0x7920bb+_0x482b38['x']/_0x198623[_0x41378a(0x3df)]*_0x675755,_0x13aba5+_0x482b38['y']/_0x198623['gameHeight']*_0x138dc9,_0x482b38[_0x41378a(0x3eb)]/_0x198623[_0x41378a(0x3df)]*_0x675755+0.2);break;case 0x0:if(_0x482b38['id']!==_0x4d07f2[_0x41378a(0x4d2)])_0x486f6d(_0x7920bb+_0x482b38['x']/_0x198623[_0x41378a(0x3df)]*_0x675755,_0x13aba5+_0x482b38['y']/_0x198623[_0x41378a(0x24a)]*_0x138dc9,0x2);break;}}_0x322bcb['globalAlpha']=0x1,_0x322bcb[_0x41378a(0x32e)]=0x1,_0x322bcb[_0x41378a(0x245)]=_0x16d3b0['black'],_0x322bcb['fillStyle']=_0x16d3b0['black'],_0x486f6d(_0x7920bb+_0x198623[_0x41378a(0x428)]['cx']/_0x198623['gameWidth']*_0x675755-0x1,_0x13aba5+_0x198623[_0x41378a(0x428)]['cy']/_0x198623['gameHeight']*_0x138dc9-0x1,0x2,![]);_0x198623[_0x41378a(0x4c8)]&&(_0x109a16(_0x7920bb,_0x13aba5-0x28,_0x675755,0x1e),_0x29fa7d(_0x19b286[_0x41378a(0x1cc)](),_0x7920bb,_0x13aba5-0x28,_0x675755,0x1e,_0x16d3b0[_0x41378a(0x367)]),_0x2457c1(_0x198623[_0x41378a(0x294)][_0x41378a(0x3ab)],_0x7920bb,_0x13aba5-0x28,_0x675755,0x1e,_0x16d3b0[_0x41378a(0x1f2)]),_0x5ac926(GRAPHDATA,_0x7920bb,_0x13aba5-0x28,_0x675755,0x1e,_0x16d3b0[_0x41378a(0x2e0)]));if(!_0x198623[_0x41378a(0x4c8)])_0x13aba5+=0xe*0x3;function _0x42ee9b(_0x285022,_0x23a528,_0x15a4c4){const _0x521c4a=_0x41378a,_0x2a7c0b=_0x285022[_0x521c4a(0x1d3)]((_0x1ecd22,_0x278244)=>{const _0x40b1c4=_0x521c4a,_0x10a02b=Math[_0x40b1c4(0x262)](_0x1ecd22+_0x15a4c4*(_0x23a528[_0x278244]-_0x1ecd22));return Math[_0x40b1c4(0x232)](0xff,Math[_0x40b1c4(0x408)](0x0,_0x10a02b));});return'rgb('+_0x2a7c0b[_0x521c4a(0x4a7)](',')+')';}const _0x10f2e0=[0x0,0xff,0x0],_0xde86ec=[0xa9,0xa9,0xa9],_0x2d200f=[0xb9,0xe8,0x7e],_0x52f70f=Date[_0x41378a(0x28a)](),_0x29efa6=0x4b0,_0x4171cf=_0x52f70f%_0x29efa6/_0x29efa6;let _0x400673;_0x4171cf<0.5?_0x400673=_0x42ee9b(_0x10f2e0,_0x2d200f,_0x4171cf*0x2):_0x400673=_0x42ee9b(_0x2d200f,_0xde86ec,(_0x4171cf-0.5)*0x2);if(_0x198623[_0x41378a(0x4c8)]){_0x165ff5(_0x41378a(0x489),_0x7920bb+_0x675755,_0x13aba5-0x32-0x6*0xe-0x2,0xf,_0x400673,_0x41378a(0x379));let _0x47e2b3=Object[_0x41378a(0x3b4)](_0x240219)[_0x41378a(0x382)]((_0x21c56e,_0x2689b0)=>_0x21c56e+_0x2689b0,0x0);_0x165ff5(_0x47e2b3+_0x41378a(0x209),_0x7920bb+_0x675755,_0x13aba5-0x32-0x5*0xe,0xa,_0x16d3b0[_0x41378a(0x4a9)],'right'),_0x165ff5('Prediction:\x20'+Math['round'](GRAPHDATA)+'ms',_0x7920bb+_0x675755,_0x13aba5-0x32-0x4*0xe,0xa,_0x16d3b0[_0x41378a(0x4a9)],_0x41378a(0x379)),_0x165ff5(_0x41378a(0x35d)+_0x4d07f2[_0x41378a(0x2dd)]['in']+_0x41378a(0x243)+_0x4d07f2[_0x41378a(0x2dd)][_0x41378a(0x2f1)]+_0x41378a(0x1e5),_0x7920bb+_0x675755,_0x13aba5-0x32-0x3*0xe,0xa,_0x16d3b0[_0x41378a(0x4a9)],'right'),_0x165ff5(_0x41378a(0x465)+_0x198623[_0x41378a(0x294)][_0x41378a(0x31e)]+'Hz',_0x7920bb+_0x675755,_0x13aba5-0x32-0x2*0xe,0xa,_0x16d3b0[_0x41378a(0x4a9)],'right'),_0x165ff5((0x64*_0x4d07f2[_0x41378a(0x2bd)])[_0x41378a(0x4a1)](0x2)+_0x41378a(0x3e0)+_0x198623[_0x41378a(0x294)][_0x41378a(0x2d6)]+_0x41378a(0x46c),_0x7920bb+_0x675755,_0x13aba5-0x32-0x1*0xe,0xa,_0x198623[_0x41378a(0x294)][_0x41378a(0x2d6)]>0xa?_0x16d3b0[_0x41378a(0x4a9)]:_0x16d3b0[_0x41378a(0x31b)],_0x41378a(0x379)),_0x165ff5(_0x198623[_0x41378a(0x294)][_0x41378a(0x373)]+_0x41378a(0x499)+_0x198623[_0x41378a(0x2b9)],_0x7920bb+_0x675755,_0x13aba5-0x32,0xa,_0x16d3b0[_0x41378a(0x4a9)],_0x41378a(0x379));}else{_0x165ff5(_0x41378a(0x489),_0x7920bb+_0x675755,_0x13aba5-0x32-0x3*0xe-0x2,0xf,_0x400673,_0x41378a(0x379));let _0x2e1bdc=Object['values'](_0x240219)['reduce']((_0x3a0576,_0x4d61c3)=>_0x3a0576+_0x4d61c3,0x0);_0x165ff5(_0x2e1bdc+_0x41378a(0x209),_0x7920bb+_0x675755,_0x13aba5-0x32-0x2*0xe,0xa,_0x16d3b0['guiwhite'],_0x41378a(0x379)),_0x165ff5((0x64*_0x4d07f2[_0x41378a(0x2bd)])['toFixed'](0x2)+_0x41378a(0x3e0)+_0x198623[_0x41378a(0x294)][_0x41378a(0x2d6)]+_0x41378a(0x46c),_0x7920bb+_0x675755,_0x13aba5-0x32-0x1*0xe,0xa,_0x198623['metrics'][_0x41378a(0x2d6)]>0xa?_0x16d3b0[_0x41378a(0x4a9)]:_0x16d3b0[_0x41378a(0x31b)],_0x41378a(0x379)),_0x165ff5(_0x198623[_0x41378a(0x294)]['latency']+_0x41378a(0x2a9)+_0x198623['metrics'][_0x41378a(0x31e)]+'Hz',_0x7920bb+_0x675755,_0x13aba5-0x32,0xa,_0x16d3b0[_0x41378a(0x4a9)],_0x41378a(0x379));}_0x198623[_0x41378a(0x2bd)]=_0x198623['metrics'][_0x41378a(0x2d6)];}function _0x1ba035(_0x20ab22,_0xd1448a,_0x2ae3e9){const _0x503b21=_0x59d4a3;let _0xc60d7d=_0x506d2f[_0x503b21(0x1cc)](),_0x114190=0x6,_0x31fcba=_0xd1448a,_0x5b4d86=0xe,_0x82a5e8=0xc,_0x453cb4=_0x198623[_0x503b21(0x35a)]-_0x31fcba-_0x20ab22,_0xf7072c=_0x20ab22+_0x5b4d86+0xf;_0x165ff5(_0x503b21(0x442),Math['round'](_0x453cb4+_0x31fcba/0x2)+0.5,Math[_0x503b21(0x262)](_0xf7072c-0xa)+0.5,_0x82a5e8+0x8,_0x16d3b0['guiwhite'],_0x503b21(0x3e7));for(let _0x444796=0x0;_0x444796<_0xc60d7d[_0x503b21(0x478)][_0x503b21(0x233)];_0x444796++){let _0x243680=_0xc60d7d[_0x503b21(0x478)][_0x444796];_0x2af335(_0x453cb4,_0x453cb4+_0x31fcba,_0xf7072c+_0x5b4d86/0x2,_0x5b4d86-0x1+_0x1054cf[_0x503b21(0x260)]['barChunk'],_0x16d3b0[_0x503b21(0x4b9)]),_0x2af335(_0x453cb4,_0x453cb4+_0x31fcba,_0xf7072c+_0x5b4d86/0x2,_0x5b4d86-0x1,'#3c3c3c');let _0x4add63=Math['min'](0x1,_0x243680[_0x503b21(0x21f)]/_0x2ae3e9);_0x2af335(_0x453cb4,_0x453cb4+_0x31fcba*_0x4add63,_0xf7072c+_0x5b4d86/0x2,_0x5b4d86-1.5,_0x3e3011[_0x503b21(0x4e3)](_0x243680['barColor']));let _0x568b1e=_0x243680[_0x503b21(0x321)]||_0x503b21(0x343);_0x165ff5(_0x243680[_0x503b21(0x293)]+(':\x20'+_0x45e032[_0x503b21(0x39b)](Math['round'](_0x243680[_0x503b21(0x21f)]))),_0x453cb4+_0x31fcba/0x2,_0xf7072c+_0x5b4d86/0x2,_0x82a5e8-0x3,_0x568b1e,'center',!![],0x1);let _0xd727=_0x5b4d86/(_0x243680[_0x503b21(0x3be)]['axis']/0x1),_0x4d9159=_0x453cb4-1.5*_0x5b4d86-_0xd727*_0x243680[_0x503b21(0x3be)]['middle']['x']*0.707,_0x535578=_0xf7072c+0.5*_0x5b4d86+_0xd727*_0x243680[_0x503b21(0x3be)]['middle']['x']*0.707,_0x2b756=_0x243680[_0x503b21(0x1e3)][_0x503b21(0x2a6)];_0x45607b(_0x2b756,_0x4d9159,_0x535578,_0x243680['image'],0x1/_0xd727,0x1,_0xd727*_0xd727/_0x243680[_0x503b21(0x1e3)][_0x503b21(0x3eb)],-Math['PI']/0x4,!![]),_0xf7072c+=_0x114190+_0x5b4d86;}}function _0x3b36da(_0x427786,_0x10f6ca){const _0x4442de=_0x59d4a3;_0x198623[_0x4442de(0x2ad)]=_0x4d07f2[_0x4442de(0x3c7)]['length']>0x0,_0x4ef7a4['set'](0x0+(_0x198623[_0x4442de(0x4c4)]||_0x198623[_0x4442de(0x3d3)]));let _0x243dd3=_0x4ef7a4[_0x4442de(0x1cc)]();_0x198623['clickables']['upgrade'][_0x4442de(0x4bc)]();if(_0x4d07f2[_0x4442de(0x3c7)][_0x4442de(0x233)]>0x0){_0x198623[_0x4442de(0x4c4)]=!![];let _0x3274d0=0x14,_0x58c604=0x8,_0x11061d=_0x10f6ca/0x2,_0x58e48e=_0x11061d,_0x23fc71=_0x243dd3*0x2*_0x427786-_0x427786,_0x1f6348=_0x427786- -0xf+_0x3274d0,_0x4b7ea6=_0x427786- -0xc+_0x58c604,_0x492e79=_0x23fc71,_0x47bcfb=_0x23fc71,_0x24cb20=0x0,_0x4297ca=0x0,_0x1e4ebd=0x0,_0x39260d=0xa,_0xc52880=_0x198623[_0x4442de(0x2cc)]['upgrade'][_0x4442de(0x2be)]({'x':_0x198623[_0x4442de(0x208)]['x'],'y':_0x198623['mouse']['y']}),_0x13abe3=Math[_0x4442de(0x408)](0x3,Math[_0x4442de(0x4ce)](_0x4d07f2[_0x4442de(0x3c7)][_0x4442de(0x233)]/0x4)),_0x2d679f=_0x198623[_0x4442de(0x27b)][_0x4442de(0x410)]/_0x198623[_0x4442de(0x210)]/_0x198623[_0x4442de(0x2d8)],_0x4ee5ca=-0x1,_0x543b8d;_0x1e52c3+=0.01;let _0x50e32b=_0x4442de(0x2b3),_0x40d49e=_0x85fe09(_0x50e32b,_0x3274d0*2.3);_0x165ff5(_0x50e32b,_0x492e79+(_0x24cb20-_0x40d49e)/0x5a,_0x4b7ea6-_0x58c604,_0x58c604*2.75,_0x16d3b0[_0x4442de(0x4a9)],_0x4442de(0x3f6),![]);let _0x3042a5=(_0x198623[_0x4442de(0x1d8)]['x']+_0x198623[_0x4442de(0x27b)][_0x4442de(0x453)]/0x2)/_0x2d679f,_0x911310=(_0x198623[_0x4442de(0x1d8)]['y']+_0x198623['canvas'][_0x4442de(0x410)]/0x2)/_0x2d679f;for(let _0x13bfec=0x0;_0x13bfec<_0x4d07f2[_0x4442de(0x3c7)][_0x4442de(0x233)];_0x13bfec++){let _0x535699=_0x4d07f2['upgrades'][_0x13bfec],_0x284ae3=_0x535699[0x0],_0x1072ef=_0x535699[0x1]==_0x4442de(0x4a2)?'':_0x535699[0x1],_0x50b89a=_0x535699[0x2];_0x4297ca===_0x13abe3||_0x284ae3!=_0x4ee5ca?(_0x23fc71=_0x492e79,_0x543b8d+=_0x58e48e+_0x3274d0,_0x284ae3!=_0x4ee5ca&&(_0x1072ef[_0x4442de(0x233)]>0x0&&(_0x165ff5('\x20'+_0x1072ef,_0x492e79,_0x543b8d+_0x3274d0*0x2,_0x3274d0*2.3,_0x16d3b0[_0x4442de(0x4a9)],_0x4442de(0x3f6),![]),_0x543b8d+=0x3*_0x3274d0)),_0x4ee5ca=_0x284ae3,_0x4297ca=0x0):_0x23fc71+=_0x243dd3*(_0x11061d+_0x3274d0);if(!_0x543b8d)_0x543b8d=_0x1f6348;_0x24cb20=_0x23fc71;let _0x28507c=_0x23fc71,_0xecd82=_0x543b8d,_0x8cdd0c=_0x23fc71+_0x11061d,_0xeb27a7=_0x543b8d+_0x58e48e,_0x4c9621=_0x28507c*_0x2d679f,_0x59a679=_0xecd82*_0x2d679f,_0x88e31c=_0x8cdd0c*_0x2d679f,_0x5af747=_0xeb27a7*_0x2d679f;_0x198623[_0x4442de(0x2cc)][_0x4442de(0x447)][_0x4442de(0x241)](_0x13bfec,_0x4c9621,_0x59a679,_0x11061d*_0x2d679f,_0x58e48e*_0x2d679f);let _0x227147=_0x45e032['getEntityImageFromMockup'](_0x50b89a,_0x4d07f2[_0x4442de(0x2a6)]),_0x214ed1=_0x227147[_0x4442de(0x3be)],_0x9e31f9=0.6*_0x11061d/_0x214ed1[_0x4442de(0x456)],_0x543759=_0x23fc71+0.5*_0x11061d-_0x9e31f9*_0x214ed1[_0x4442de(0x1ef)]['x']*Math[_0x4442de(0x47e)](_0x1e52c3),_0x5560da=_0x543b8d+0.5*_0x58e48e-_0x9e31f9*_0x214ed1['middle']['x']*Math[_0x4442de(0x204)](_0x1e52c3),_0x347cb2=_0x227147['color'];_0x3042a5>_0x4c9621&&_0x3042a5<_0x88e31c&&_0x911310>_0x59a679&&_0x911310<_0x5af747&&!_0x198623[_0x4442de(0x4b8)]?_0x322bcb['globalAlpha']=0.1:_0x322bcb['globalAlpha']=0.5;_0x322bcb[_0x4442de(0x30b)]=_0x3e3011[_0x4442de(0x278)](_0x39260d>0x12?_0x39260d-0x13:_0x39260d),_0x109a16(_0x28507c,_0xecd82,_0x11061d,_0x58e48e),_0x322bcb[_0x4442de(0x1f4)]=0.1,_0x322bcb[_0x4442de(0x30b)]=_0x3e3011['getColor'](-0xa+_0x39260d++),_0x109a16(_0x28507c,_0xecd82,_0x11061d,_0x58e48e*0.6),_0x322bcb[_0x4442de(0x30b)]=_0x16d3b0['black'],_0x109a16(_0x28507c,_0xecd82+_0x58e48e*0.6,_0x11061d,_0x58e48e*0.4),_0x322bcb[_0x4442de(0x1f4)]=0x1,_0x45607b(_0x347cb2,_0x543759,_0x5560da,_0x227147,0x1,0x1,_0x9e31f9/_0x227147[_0x4442de(0x3eb)],_0x1e52c3,!![]);let _0x3eb591=_0x3c5f63(_0x1e4ebd);_0x165ff5(_0x227147[_0x4442de(0x495)]??_0x227147[_0x4442de(0x43e)],_0x23fc71+(_0x3eb591?0.9:0x1)*_0x11061d/0x2,_0x543b8d+_0x58e48e-0x6,_0x58e48e/0x8-0x3,_0x16d3b0[_0x4442de(0x4a9)],_0x4442de(0x3e7)),_0x3eb591&&_0x165ff5('['+_0x3eb591+']',_0x23fc71+_0x11061d-0x4,_0x543b8d+_0x58e48e-0x6,_0x58e48e/0x8-0x3,_0x16d3b0[_0x4442de(0x4a9)],_0x4442de(0x379)),_0x322bcb['strokeStyle']=_0x16d3b0['black'],_0x322bcb['globalAlpha']=0x1,_0x322bcb[_0x4442de(0x32e)]=0x5,_0x109a16(_0x23fc71,_0x543b8d,_0x11061d,_0x58e48e,!![]),_0x4297ca++,_0x1e4ebd++;}let _0x3b978b=0xe,_0x28fb45=_0x4442de(0x25d),_0x38d0d6=_0x85fe09(_0x28fb45,_0x3b978b-0x3)+0x28,_0x56578c=_0x47bcfb+(_0x24cb20+_0x11061d+_0x3274d0-_0x47bcfb)/0x2,_0x568477=_0x543b8d+_0x58e48e+_0x3274d0;if(_0x198623[_0x4442de(0x267)]&&!_0x198623[_0x4442de(0x4b8)])_0x322bcb[_0x4442de(0x30b)]=_0x4442de(0x3f3);else _0x198623['skipbox']&&!_0x198623[_0x4442de(0x4b8)]?_0x322bcb[_0x4442de(0x30b)]=_0x4442de(0x265):_0x322bcb[_0x4442de(0x30b)]=_0x4442de(0x2d4);_0x322bcb[_0x4442de(0x2ab)](_0x56578c-_0x38d0d6/0x2,_0x568477-0x5,_0x38d0d6,(_0x3b978b+0xa)/0x2),_0x322bcb[_0x4442de(0x30b)]='#8F8E8E',_0x322bcb[_0x4442de(0x2ab)](_0x56578c-_0x38d0d6/0x2,_0x568477-0x5+(_0x3b978b+0xa)/0x2,_0x38d0d6,(_0x3b978b+0xa)/0x2),_0x322bcb[_0x4442de(0x245)]=_0x16d3b0['black'],_0x322bcb[_0x4442de(0x32e)]=0x4,_0x322bcb[_0x4442de(0x3c9)](_0x56578c-_0x38d0d6/0x2,_0x568477-0x5,_0x38d0d6,_0x3b978b+0xa),_0x165ff5(_0x28fb45,_0x56578c,_0x568477+_0x3b978b/0x2,_0x3b978b-0x2,_0x16d3b0[_0x4442de(0x4a9)],_0x4442de(0x3e7),!![]),_0x198623[_0x4442de(0x2cc)][_0x4442de(0x279)]['place'](0x0,(_0x56578c-_0x38d0d6/0x2)*_0x2d679f,(_0x568477-0x5)*_0x2d679f,_0x38d0d6*_0x2d679f,(_0x3b978b+0xa)*_0x2d679f);}else _0x198623[_0x4442de(0x4c4)]=![],_0x198623[_0x4442de(0x2cc)][_0x4442de(0x447)][_0x4442de(0x4bc)](),_0x198623['clickables'][_0x4442de(0x279)][_0x4442de(0x4bc)]();}function _0x1f930a(){const _0x484b5c=_0x59d4a3;if(_0x198623['upgradeMenuVisible'])return;let _0x4a2bb1=canvas['height']/_0x198623[_0x484b5c(0x210)]/_0x198623['ratio'],_0x20cfaa=0x1e,_0x3f75a4=_0x198623[_0x484b5c(0x34c)]?_0x484b5c(0x426):'Exit',_0x5140a8=_0x85fe09(_0x3f75a4,_0x20cfaa-0x3)+0x14,_0x223c00=_0x198623['screenWidth']/0x16,_0x79665b=_0x198623[_0x484b5c(0x210)]/0x1a;if(_0x198623[_0x484b5c(0x49c)]&&!_0x198623[_0x484b5c(0x4b8)])_0x322bcb['fillStyle']='#9B9B9B';else _0x198623[_0x484b5c(0x2fd)]&&!_0x198623[_0x484b5c(0x4b8)]?_0x322bcb[_0x484b5c(0x30b)]=_0x484b5c(0x265):_0x322bcb[_0x484b5c(0x30b)]='#AFAEAE';_0x322bcb[_0x484b5c(0x2ab)](_0x223c00-_0x5140a8/0x2,_0x79665b-0x5,_0x5140a8,(_0x20cfaa+0xa)/0x2),_0x322bcb['fillStyle']='#8F8E8E',_0x322bcb[_0x484b5c(0x2ab)](_0x223c00-_0x5140a8/0x2,_0x79665b-0x5+(_0x20cfaa+0xa)/0x2,_0x5140a8,(_0x20cfaa+0xa)/0x2),_0x322bcb['strokeStyle']=_0x16d3b0[_0x484b5c(0x4b9)],_0x322bcb[_0x484b5c(0x32e)]=0x4,_0x322bcb[_0x484b5c(0x3c9)](_0x223c00-_0x5140a8/0x2,_0x79665b-0x5,_0x5140a8,_0x20cfaa+0xa),_0x165ff5(_0x3f75a4,_0x223c00,_0x79665b+_0x20cfaa/0x2+0x3,0x10,_0x16d3b0['guiwhite'],_0x484b5c(0x3e7),!![]),_0x198623[_0x484b5c(0x2cc)]['settingsbutton'][_0x484b5c(0x241)](0x0,(_0x223c00-_0x5140a8/0x2)*_0x4a2bb1,(_0x79665b-0x5)*_0x4a2bb1,_0x5140a8*_0x4a2bb1,(_0x20cfaa+0xa)*_0x4a2bb1);if(_0x198623['hasclickedsettings']&&_0x198623[_0x484b5c(0x34c)]||_0x198623[_0x484b5c(0x32a)]){_0x28cc7a[_0x484b5c(0x304)]();let _0x3d75e6=_0x198623[_0x484b5c(0x35a)]/0xe,_0x319d19=_0x198623[_0x484b5c(0x210)]/0x5,_0x5139d1=0x78,_0x587659=0x64,_0x112a24=-0x1e,_0x51e262=0x1e;_0x322bcb[_0x484b5c(0x30b)]='#9B9B9B',_0x322bcb[_0x484b5c(0x2ab)](_0x3d75e6-_0x5139d1/0x2,_0x319d19-_0x587659/0x2,_0x5139d1,_0x587659),_0x322bcb[_0x484b5c(0x245)]=_0x16d3b0['black'],_0x322bcb[_0x484b5c(0x32e)]=0x4,_0x322bcb['strokeRect'](_0x3d75e6-_0x5139d1/0x2,_0x319d19-_0x587659/0x2,_0x5139d1,_0x587659);let _0x1314c0=_0x3d75e6,_0x1c5940=_0x319d19-_0x587659/1.8+_0x112a24+_0x51e262*0x3;_0x165ff5(_0x484b5c(0x3ec),_0x1314c0,_0x1c5940,0x17,_0x16d3b0[_0x484b5c(0x4a9)],_0x484b5c(0x3e7),!![]),_0x198623[_0x484b5c(0x2cc)][_0x484b5c(0x3fa)]['place'](0x0,(_0x3d75e6-_0x5139d1/0x2)*_0x4a2bb1,(_0x1c5940-_0x51e262/0x2)*_0x4a2bb1,_0x5139d1*_0x4a2bb1,_0x51e262*_0x4a2bb1);}if(_0x198623[_0x484b5c(0x472)]&&!_0x198623[_0x484b5c(0x32a)]){let _0xa6ee16=_0x198623[_0x484b5c(0x35a)]/0xe,_0x595f60=_0x198623[_0x484b5c(0x210)]/0x5,_0x48bfbf=0xfa,_0x507099=0x64,_0x142fed=0xa,_0x587186=0x1e;_0x322bcb[_0x484b5c(0x30b)]=_0x484b5c(0x3f3),_0x322bcb['fillRect'](_0xa6ee16-_0x48bfbf/0x2,_0x595f60-_0x507099/0x2,_0x48bfbf,_0x507099),_0x322bcb['strokeStyle']=_0x16d3b0['black'],_0x322bcb[_0x484b5c(0x32e)]=0x4,_0x322bcb[_0x484b5c(0x3c9)](_0xa6ee16-_0x48bfbf/0x2,_0x595f60-_0x507099/0x2,_0x48bfbf,_0x507099),_0x322bcb[_0x484b5c(0x30b)]=_0x16d3b0[_0x484b5c(0x4a9)];let _0x548a13=_0xa6ee16,_0x5a980d=_0x595f60-_0x507099/0x2+_0x142fed+_0x587186*0x0;_0x165ff5('Are\x20you\x20sure\x20you\x20want\x20to\x20exit?',_0x548a13,_0x5a980d,0xf,_0x16d3b0[_0x484b5c(0x4a9)],_0x484b5c(0x3e7),!![]);let _0x19b36b=0x50,_0x443600=0x28,_0x44128c=0x14,_0x92f334=_0xa6ee16-_0x19b36b/0x2-_0x44128c,_0x522241=_0x595f60,_0xc472be=_0x443600/0x2;if(_0x198623[_0x484b5c(0x31a)]&&!_0x198623[_0x484b5c(0x4b8)])_0x322bcb[_0x484b5c(0x30b)]=_0x484b5c(0x4cb);else _0x198623[_0x484b5c(0x4c1)]&&!_0x198623[_0x484b5c(0x4b8)]?_0x322bcb[_0x484b5c(0x30b)]=_0x484b5c(0x4d7):_0x322bcb[_0x484b5c(0x30b)]=_0x484b5c(0x2bc);_0x322bcb[_0x484b5c(0x2ab)](_0x92f334-_0x19b36b/0x2,_0x522241-_0x443600/0x2,_0x19b36b,_0xc472be),_0x322bcb[_0x484b5c(0x30b)]='#0174d7',_0x322bcb[_0x484b5c(0x2ab)](_0x92f334-_0x19b36b/0x2,_0x522241-_0x443600/0x2+_0xc472be,_0x19b36b,_0xc472be),_0x322bcb[_0x484b5c(0x245)]=_0x16d3b0['black'],_0x322bcb[_0x484b5c(0x32e)]=0x4,_0x322bcb[_0x484b5c(0x3c9)](_0x92f334-_0x19b36b/0x2,_0x522241-_0x443600/0x2,_0x19b36b,_0x443600),_0x165ff5(_0x484b5c(0x387),_0x92f334,_0x522241,0x10,_0x16d3b0[_0x484b5c(0x4a9)],'center',!![]),_0x198623['clickables']['yes'][_0x484b5c(0x241)](0x0,(_0x92f334-_0x19b36b/0x2)*_0x4a2bb1,(_0x522241-_0x443600/0x2)*_0x4a2bb1,_0x19b36b*_0x4a2bb1,_0x443600*_0x4a2bb1);let _0x188cf4=_0xa6ee16+_0x19b36b/0x3+_0x44128c;if(_0x198623[_0x484b5c(0x1cd)]&&!_0x198623[_0x484b5c(0x4b8)])_0x322bcb[_0x484b5c(0x30b)]='#ff1313';else _0x198623['nobox']&&!_0x198623[_0x484b5c(0x4b8)]?_0x322bcb[_0x484b5c(0x30b)]='#ff6969':_0x322bcb['fillStyle']=_0x484b5c(0x2b7);_0x322bcb['fillRect'](_0x188cf4-_0x19b36b/0x2,_0x522241-_0x443600/0x2,_0x19b36b,_0xc472be),_0x322bcb[_0x484b5c(0x30b)]=_0x484b5c(0x3bd),_0x322bcb[_0x484b5c(0x2ab)](_0x188cf4-_0x19b36b/0x2,_0x522241-_0x443600/0x2+_0xc472be,_0x19b36b,_0xc472be),_0x322bcb['strokeStyle']=_0x16d3b0['black'],_0x322bcb['lineWidth']=0x4,_0x322bcb[_0x484b5c(0x3c9)](_0x188cf4-_0x19b36b/0x2,_0x522241-_0x443600/0x2,_0x19b36b,_0x443600),_0x165ff5('No',_0x188cf4,_0x522241,0x10,_0x16d3b0['guiwhite'],_0x484b5c(0x3e7),!![]),_0x198623[_0x484b5c(0x2cc)]['no']['place'](0x0,(_0x188cf4-_0x19b36b/0x2)*_0x4a2bb1,(_0x522241-_0x443600/0x2)*_0x4a2bb1,_0x19b36b*_0x4a2bb1,_0x443600*_0x4a2bb1);}}function _0x5e5f13(_0x30d0fc,_0x557456){const _0x3839d7=_0x59d4a3;if(!_0x198623['mobile'])return;if(_0x198623['clickables'][_0x3839d7(0x24f)]['active']==null)_0x198623[_0x3839d7(0x2cc)][_0x3839d7(0x24f)][_0x3839d7(0x429)]=![];if(_0x198623[_0x3839d7(0x2cc)][_0x3839d7(0x24f)][_0x3839d7(0x2f6)]==null)_0x198623[_0x3839d7(0x2cc)]['mobileButtons'][_0x3839d7(0x2f6)]=![];_0x198623['clickables']['mobileButtons'][_0x3839d7(0x4bc)]();let _0x4e9510=_0x198623[_0x3839d7(0x27b)][_0x3839d7(0x410)]/_0x198623['screenHeight']/_0x198623[_0x3839d7(0x2d8)],_0x2aac8f=Math['ceil'](_0x4d07f2['upgrades'][_0x3839d7(0x233)]/0x9),_0x33b4dc=_0x198623[_0x3839d7(0x4c4)]?_0x557456/0x2*_0x4ef7a4[_0x3839d7(0x1cc)]()*_0x2aac8f/1.5+_0x30d0fc*(_0x2aac8f+1.6)+0x7:0x0+_0x198623[_0x3839d7(0x36a)]?_0x557456/0x3+_0x30d0fc:0x0,_0x1260cc=(_0x557456-_0x30d0fc*0x2)/0x3;function _0x3376b3(_0x5129db,_0x4c9ca1,_0x5b2172,_0x31ffa4,_0x2e937c,_0xfb377f){const _0x36cc1c=_0x3839d7;_0x198623[_0x36cc1c(0x2cc)][_0x36cc1c(0x24f)][_0x36cc1c(0x241)](_0x5129db,_0x4c9ca1*_0x4e9510,_0x5b2172*_0x4e9510,_0x31ffa4*_0x4e9510,_0x2e937c*_0x4e9510),_0x322bcb['globalAlpha']=0.5,_0x322bcb['fillStyle']=_0x16d3b0[_0x36cc1c(0x1f0)],_0x109a16(_0x4c9ca1,_0x5b2172,_0x31ffa4,_0x2e937c),_0x322bcb[_0x36cc1c(0x1f4)]=0.1,_0x322bcb[_0x36cc1c(0x30b)]=_0x16d3b0[_0x36cc1c(0x4b9)],_0x109a16(_0x4c9ca1,_0x5b2172+_0x2e937c*0.6,_0x31ffa4,_0x2e937c*0.4),_0x322bcb[_0x36cc1c(0x1f4)]=0x1,_0x165ff5(_0xfb377f,_0x4c9ca1+_0x31ffa4/0x2,_0x5b2172+_0x2e937c*0.5,_0x2e937c*0.6,_0x16d3b0[_0x36cc1c(0x4a9)],'center',!![]),_0x322bcb[_0x36cc1c(0x245)]=_0x16d3b0['black'],_0x322bcb['lineWidth']=0x3,_0x109a16(_0x4c9ca1,_0x5b2172,_0x31ffa4,_0x2e937c,!![]);}function _0x4e32b4(_0x36d344,_0x4606c4,_0x48145c,_0x19b07e){const _0x42277d=_0x3839d7;let _0x39584d,_0x57ac54,_0x2f1a06=0x0,_0x3ff900=()=>_0x39584d=_0x4606c4,_0x1e8b1b=()=>_0x57ac54=_0x48145c;_0x3ff900(),_0x1e8b1b();for(let _0x5096b2=0x0;_0x5096b2<_0x36d344[_0x42277d(0x233)];_0x5096b2++){for(let _0x54dba1=0x0;_0x54dba1<_0x36d344[_0x5096b2]['length'];_0x54dba1++){_0x3376b3(_0x36d344[_0x5096b2][_0x54dba1][0x3]??_0x2f1a06,_0x39584d,_0x57ac54,_0x19b07e*(_0x36d344[_0x5096b2][_0x54dba1][0x1]??0x1),_0x19b07e*(_0x36d344[_0x5096b2][_0x54dba1][0x2]??0x1),_0x36d344[_0x5096b2][_0x54dba1][0x0]),_0x39584d+=_0x19b07e*(_0x36d344[_0x5096b2][_0x54dba1][0x1]??0x1)+_0x30d0fc,_0x2f1a06++;}_0x3ff900(),_0x57ac54+=Math[_0x42277d(0x408)](..._0x36d344[_0x5096b2][_0x42277d(0x1d3)](_0x14b119=>_0x19b07e*(_0x14b119[0x2]??0x1)))+_0x30d0fc;}}let _0x45ce03=_0x198623[_0x3839d7(0x2cc)][_0x3839d7(0x24f)][_0x3839d7(0x429)]?[[[_0x198623[_0x3839d7(0x2cc)]['mobileButtons']['active']?'-':'+'],['Alt\x20'+(_0x198623[_0x3839d7(0x2cc)]['mobileButtons'][_0x3839d7(0x2f6)]?_0x3839d7(0x22b):_0x3839d7(0x448)),0x6],[_0x3839d7(0x3ae),0x5]],[[_0x3839d7(0x2a4),3.5],[_0x3839d7(0x2a5),3.5],['Self-Destruct',0x5]],[[_0x3839d7(0x40b),3.5],['Override',3.5],['Level\x20Up',0x5]],[['Action',3.5],[_0x3839d7(0x3af),3.5],[_0x3839d7(0x1f6),0x5]]]:[[[_0x198623[_0x3839d7(0x2cc)][_0x3839d7(0x24f)][_0x3839d7(0x429)]?'-':'+']]];if(_0x198623[_0x3839d7(0x2cc)][_0x3839d7(0x24f)][_0x3839d7(0x2f6)])_0x45ce03['push']([['❖',0x2,0x2,0xc]]);_0x4e32b4(_0x45ce03,_0x30d0fc*0x2,_0x33b4dc+_0x30d0fc,_0x1260cc);}let _0x2c4a63=_0x198623[_0x59d4a3(0x428)]['cx'],_0x2b5488=_0x198623[_0x59d4a3(0x428)]['cy'],_0x3bee67=0x7d0,_0x5b2792=null;const _0x4ee38a=_0x1c1f6b=>_0x1c1f6b<0.5?0x2*_0x1c1f6b*_0x1c1f6b:-0x1+(0x4-0x2*_0x1c1f6b)*_0x1c1f6b,_0x98427d=(_0x3b2e9b,_0x16b22c)=>{const _0xb66d6b=_0x59d4a3;let _0x55d25d=0x0;_0x273191++;if(_0x198623['ab']){const _0x5be03c=0x3e8,_0x3fe9e7=_0x506685()/0x3e8*_0x5be03c;_0x198623['player'][_0xb66d6b(0x41b)]=_0x198623[_0xb66d6b(0x428)]['cx']+Math['cos'](_0x3fe9e7)*0x1f4,_0x198623[_0xb66d6b(0x428)][_0xb66d6b(0x3f5)]=_0x198623['player']['cy']+Math[_0xb66d6b(0x204)](_0x3fe9e7)*0x1f4;}if(_0x198623['aa']&&!_0x198623[_0xb66d6b(0x315)]){const _0x3a4b6b=0.1,_0x131601=_0x506685()/0x3e8*_0x3a4b6b;_0x198623[_0xb66d6b(0x428)]['renderx']=_0x198623['player']['cx']+Math[_0xb66d6b(0x47e)](_0x131601)*0x1f4,_0x198623[_0xb66d6b(0x428)]['rendery']=_0x198623[_0xb66d6b(0x428)]['cy']+Math[_0xb66d6b(0x204)](_0x131601)*0x1f4;}else{if(_0x198623[_0xb66d6b(0x4b8)]){const _0x59d6e9=0.1,_0x224b43=_0x506685()/0x3e8*_0x59d6e9;_0x198623[_0xb66d6b(0x428)][_0xb66d6b(0x41b)]=_0x198623[_0xb66d6b(0x428)]['cx']+Math['cos'](_0x224b43)*0x1f4,_0x198623[_0xb66d6b(0x428)][_0xb66d6b(0x3f5)]=_0x198623[_0xb66d6b(0x428)]['cy']+Math[_0xb66d6b(0x204)](_0x224b43)*0x1f4;}else{if(_0x198623['aaaa']){_0x198623[_0xb66d6b(0x315)]=!![];let _0x331276=_0x506685();!_0x5b2792&&(_0x5b2792=_0x331276);let _0x20e9e7=_0x331276-_0x5b2792;if(_0x20e9e7<_0x3bee67){let _0x286ef0=_0x20e9e7/_0x3bee67,_0x92b84d=_0x4ee38a(_0x286ef0),_0x309621=_0x45e032['lerp'](_0x2c4a63,_0x198623[_0xb66d6b(0x428)]['cx'],_0x92b84d),_0x3172d8=_0x45e032[_0xb66d6b(0x2b4)](_0x2b5488,_0x198623[_0xb66d6b(0x428)]['cy'],_0x92b84d);_0x198623[_0xb66d6b(0x428)][_0xb66d6b(0x41b)]=_0x309621,_0x198623[_0xb66d6b(0x428)][_0xb66d6b(0x3f5)]=_0x3172d8;}else _0x198623['player']['renderx']=_0x45e032[_0xb66d6b(0x2b4)](_0x198623['player'][_0xb66d6b(0x41b)],_0x198623[_0xb66d6b(0x428)]['cx'],0.1,!![]),_0x198623['player'][_0xb66d6b(0x3f5)]=_0x45e032[_0xb66d6b(0x2b4)](_0x198623[_0xb66d6b(0x428)]['rendery'],_0x198623[_0xb66d6b(0x428)]['cy'],0.1,!![]);}}}let _0x362416=_0x3b2e9b*_0x198623[_0xb66d6b(0x428)][_0xb66d6b(0x41b)],_0x5c10e=_0x3b2e9b*_0x198623['player'][_0xb66d6b(0x3f5)];_0x4c1fbd(_0x362416,_0x5c10e,_0x3b2e9b),_0x4a6003(_0x362416,_0x5c10e,_0x3b2e9b),_0x3b2e9b=_0x45e032['getScreenRatio'](),_0x4e05bc(_0x3b2e9b,!![]);let _0x769b5d=0xc8/_0x3b2e9b,_0x6d20c0=0x14;_0x4d07f2['__s'][_0xb66d6b(0x3db)]();let _0x50597a=_0x506d2f[_0xb66d6b(0x1cc)](),_0x13f37b=_0x50597a[_0xb66d6b(0x408)];if(_0x198623[_0xb66d6b(0x325)]){}else{if(_0x198623[_0xb66d6b(0x383)])_0xc3762e(_0x6d20c0,_0x769b5d);else{if(_0x198623['mobile']){if(_0x198623[_0xb66d6b(0x30d)]){let _0x522d5a=Math[_0xb66d6b(0x232)](_0x198623[_0xb66d6b(0x35a)]*0.6,_0x198623[_0xb66d6b(0x210)]*0.12);_0x322bcb[_0xb66d6b(0x1f4)]=0.3,_0x322bcb[_0xb66d6b(0x30b)]='#ffffff',_0x322bcb[_0xb66d6b(0x2ca)](),_0x322bcb[_0xb66d6b(0x2c0)](_0x198623[_0xb66d6b(0x35a)]*0x1/0x6,_0x198623[_0xb66d6b(0x210)]*0x2/0x3,_0x522d5a,0x0,0x2*Math['PI']),_0x322bcb[_0xb66d6b(0x2c0)](_0x198623['screenWidth']*0x5/0x6,_0x198623[_0xb66d6b(0x210)]*0x2/0x3,_0x522d5a,0x0,0x2*Math['PI']),_0x322bcb['fill']();}_0x391c02(_0x6d20c0),_0x3b7136(_0x6d20c0),_0x5375fd(_0x6d20c0),_0x3b5307(_0x6d20c0),_0x92c8b9(_0x6d20c0),_0xf36c6f(_0x6d20c0),_0x4df5fc(_0x6d20c0),_0x4820b3(_0x6d20c0),_0x697537(_0x6d20c0,_0x769b5d),_0x3101ec(_0x6d20c0,_0x769b5d,_0x13f37b),_0x4d8812(_0x6d20c0,_0x769b5d),_0x1ba035(_0x6d20c0,_0x769b5d,_0x13f37b,_0x50597a),_0x3b36da(_0x6d20c0,_0x769b5d);}else{if(_0x198623[_0xb66d6b(0x234)])_0x391c02(_0x6d20c0),_0x3b7136(_0x6d20c0),_0x5375fd(_0x6d20c0),_0x92c8b9(_0x6d20c0),_0x3b5307(_0x6d20c0),_0xf36c6f(_0x6d20c0),_0x4df5fc(_0x6d20c0),_0x4820b3(_0x6d20c0),_0x697537(_0x6d20c0,_0x769b5d),_0x4d8812(_0x6d20c0,_0x769b5d),_0x1ba035(_0x6d20c0,_0x769b5d,_0x13f37b,_0x50597a);else{if(_0x198623[_0xb66d6b(0x2e2)])_0x391c02(_0x6d20c0),_0x3b7136(_0x6d20c0),_0x5375fd(_0x6d20c0),_0x92c8b9(_0x6d20c0),_0x3b5307(_0x6d20c0),_0xf36c6f(_0x6d20c0),_0x4df5fc(_0x6d20c0),_0x4820b3(_0x6d20c0),_0x697537(_0x6d20c0,_0x769b5d),_0x4d8812(_0x6d20c0,_0x769b5d),_0x1ba035(_0x6d20c0,_0x769b5d,_0x13f37b,_0x50597a);else{if(_0x198623[_0xb66d6b(0x2b5)])_0x391c02(_0x6d20c0),_0x3b7136(_0x6d20c0),_0x5375fd(_0x6d20c0),_0x92c8b9(_0x6d20c0),_0x3b5307(_0x6d20c0),_0xf36c6f(_0x6d20c0),_0x4df5fc(_0x6d20c0),_0x4820b3(_0x6d20c0),_0x697537(_0x6d20c0,_0x769b5d),_0x4d8812(_0x6d20c0,_0x769b5d),_0x1ba035(_0x6d20c0,_0x769b5d,_0x13f37b,_0x50597a);else!_0x198623['aa']&&(_0x391c02(_0x6d20c0),_0x3b7136(_0x6d20c0),_0x5375fd(_0x6d20c0),_0x3b5307(_0x6d20c0),_0x92c8b9(_0x6d20c0),_0xf36c6f(_0x6d20c0),_0x4df5fc(_0x6d20c0),_0x4820b3(_0x6d20c0),_0x697537(_0x6d20c0,_0x769b5d),_0x3101ec(_0x6d20c0,_0x769b5d,_0x13f37b),_0x4d8812(_0x6d20c0,_0x769b5d),_0x1ba035(_0x6d20c0,_0x769b5d,_0x13f37b,_0x50597a),_0x3b36da(_0x6d20c0,_0x769b5d));}}}}}_0x198623['metrics'][_0xb66d6b(0x396)]=_0x506685();};let _0x24da0c=()=>{const _0x35be9a=_0x59d4a3;let _0x23e368={'\x20kills':[Math[_0x35be9a(0x262)](_0x198623[_0x35be9a(0x3f9)][0x0][_0x35be9a(0x1cc)]()),0x1],'\x20assists':[Math[_0x35be9a(0x262)](_0x198623[_0x35be9a(0x3f9)][0x1]['get']()),0.5],'\x20visitors\x20defeated':[Math[_0x35be9a(0x262)](_0x198623['finalKills'][0x2]['get']()),0x3],'\x20polygons\x20destroyed':[Math[_0x35be9a(0x262)](_0x198623[_0x35be9a(0x3f9)][0x3][_0x35be9a(0x1cc)]()),0.05]},_0x234c79=[],_0x260f22=0x0;for(let _0x6030e7 in _0x23e368){_0x23e368[_0x6030e7][0x0]&&(_0x260f22+=_0x23e368[_0x6030e7][0x0]*_0x23e368[_0x6030e7][0x1],_0x234c79[_0x35be9a(0x224)](_0x23e368[_0x6030e7][0x0]+_0x6030e7));}return(_0x260f22<0x4?'🎯':_0x260f22<0x8?'💥':_0x260f22<0xf?'💢':_0x260f22<0x19?'🔥':_0x260f22<0x32?'💣':_0x260f22<0x4b?'👺':_0x260f22<0x64?_0x35be9a(0x1f5):'💯')+'\x20'+(!_0x234c79[_0x35be9a(0x233)]?_0x35be9a(0x498):_0x234c79[_0x35be9a(0x233)]==0x1?_0x234c79[_0x35be9a(0x4a7)](_0x35be9a(0x1ec)):_0x234c79[_0x35be9a(0x312)](0x0,-0x1)[_0x35be9a(0x4a7)](',\x20')+_0x35be9a(0x1ec)+_0x234c79[_0x234c79[_0x35be9a(0x233)]-0x1]);},_0x5981b9=()=>{const _0x201c4f=_0x59d4a3;let _0x20f976='';if(_0x198623['finalKillers']['length']){_0x20f976='';for(let _0x116145 of _0x198623['finalKillers']){_0x20f976+=''+_0x45e032[_0x201c4f(0x4b7)](_0x45e032[_0x201c4f(0x440)](_0x116145)['name'])+_0x201c4f(0x1ec);}_0x20f976=_0x20f976[_0x201c4f(0x312)](0x0,-0x4);}else _0x20f976+=_0x201c4f(0x34d);return _0x20f976;};const _0x5917e5=(_0x69f34f,_0x402c0e={'x':0x0,'y':0x0})=>{const _0x585656=_0x59d4a3;if(_0x198623['diedseekbruh']&&_0x198623[_0x585656(0x214)]){_0x2bb119(_0x16d3b0[_0x585656(0x4b9)],0.5);let _0x42f2c7=_0x45e032[_0x585656(0x1d6)](),_0x26acdb=(_0x3aeb39,_0xa846c1)=>{const _0x491789=_0x585656;_0x198623[_0x491789(0x35a)]/=_0x3aeb39,_0x198623[_0x491789(0x210)]/=_0x3aeb39,_0x322bcb[_0x491789(0x250)](_0x3aeb39,_0x3aeb39);if(!_0xa846c1)_0x42f2c7*=_0x3aeb39;};_0x26acdb(_0x42f2c7,!![]);let _0x28b0a6=_0xb86390[_0x585656(0x26b)][_0x585656(0x1cc)]();_0x322bcb['translate'](0x0,-_0x28b0a6*_0x198623['screenHeight']);let _0x58b8b8=_0x198623['screenWidth']/0x2,_0x580df3=_0x198623[_0x585656(0x210)]/0x2,_0x2aaff7=0x8c,_0x4f43ba=_0x198623[_0x585656(0x425)][parseInt(_0x4d07f2[_0x585656(0x2e5)][_0x585656(0x45f)]('-')[0x0])]['position'],_0x54cca3=_0x2aaff7/_0x4f43ba[_0x585656(0x456)],_0x5afbfe=_0x198623[_0x585656(0x35a)]/0x2+0x46+_0x54cca3*_0x4f43ba[_0x585656(0x1ef)]['x']*0.707,_0x13b499=_0x198623['screenHeight']/0x2-0x46+_0x54cca3*_0x4f43ba[_0x585656(0x1ef)]['x']*0.707,_0xa8df05=_0x45e032[_0x585656(0x440)](_0x4d07f2[_0x585656(0x2e5)],_0x4d07f2[_0x585656(0x2a6)]),_0x375f37=_0xa8df05['color'],_0x7f00f='\x20'+_0xa8df05['name'],_0x3692ad=_0x322bcb[_0x585656(0x412)](_0x7f00f)[_0x585656(0x453)],_0x25b156=0x1+_0x3692ad/0x1f4;_0x45607b(_0x375f37,_0x5afbfe,_0x13b499,_0xa8df05,1.5*_0x25b156,0x1*_0x25b156,0.5*_0x54cca3/_0xa8df05['realSize'],-Math['PI']/0x4,!![]),_0x165ff5(_0x585656(0x26f),_0x58b8b8,_0x580df3-0xaa,0x12,_0x16d3b0[_0x585656(0x4a9)],_0x585656(0x3e7)),_0x165ff5(_0x5981b9(),_0x58b8b8,_0x580df3-0x8c,0x18,_0x16d3b0['guiwhite'],_0x585656(0x3e7)),_0x165ff5(_0x7f00f,_0x58b8b8+0x52,_0x580df3+0x14,0x14,_0x16d3b0[_0x585656(0x4a9)],_0x585656(0x3e7)),_0x165ff5(_0x585656(0x340)+_0x4d07f2[_0x585656(0x1d7)]['getLevel'](),_0x58b8b8-0xb1,_0x580df3-0x28,0x14,_0x16d3b0[_0x585656(0x4a9)],'center'),_0x165ff5(_0x585656(0x302)+_0x45e032[_0x585656(0x2c3)](Math[_0x585656(0x262)](_0x198623['finalScore'][_0x585656(0x1cc)]())),_0x58b8b8-0x96,_0x580df3-0x46,0x14,_0x16d3b0[_0x585656(0x4a9)],_0x585656(0x3e7)),_0x165ff5('Time\x20alive:\x20'+_0x45e032['timeForHumans'](Math[_0x585656(0x262)](_0x198623['finalLifetime']['get']())),_0x58b8b8-0x96,_0x580df3-0xa,0x14,_0x16d3b0['guiwhite'],'center'),_0x165ff5(_0x585656(0x482),_0x58b8b8,_0x580df3+0x46,0x18,_0x16d3b0[_0x585656(0x377)],_0x585656(0x3e7)),_0x322bcb[_0x585656(0x40e)](0x0,_0x28b0a6*_0x198623['screenHeight']);}else{if(_0x198623[_0x585656(0x2e2)]&&_0x198623[_0x585656(0x214)]){_0x2bb119(_0x16d3b0[_0x585656(0x4b9)],0.5);let _0x2e66aa=_0x45e032[_0x585656(0x1d6)](),_0x30b927=(_0x28d095,_0x4ab28b)=>{const _0x3cfd23=_0x585656;_0x198623[_0x3cfd23(0x35a)]/=_0x28d095,_0x198623[_0x3cfd23(0x210)]/=_0x28d095,_0x322bcb[_0x3cfd23(0x250)](_0x28d095,_0x28d095);if(!_0x4ab28b)_0x2e66aa*=_0x28d095;};_0x30b927(_0x2e66aa,!![]);let _0x82c1d=_0xb86390['deathScreen'][_0x585656(0x1cc)]();_0x322bcb['translate'](0x0,-_0x82c1d*_0x198623[_0x585656(0x210)]);let _0xcce0ec=_0x198623[_0x585656(0x35a)]/0x2,_0x4e846f=_0x198623[_0x585656(0x210)]/0x2,_0x356adf=0x8c,_0x3a0fb9=_0x198623[_0x585656(0x425)][parseInt(_0x4d07f2[_0x585656(0x2e5)][_0x585656(0x45f)]('-')[0x0])][_0x585656(0x3be)],_0x187c56=_0x356adf/_0x3a0fb9[_0x585656(0x456)],_0x56e13f=_0x198623[_0x585656(0x35a)]/0x2+0x46+_0x187c56*_0x3a0fb9[_0x585656(0x1ef)]['x']*0.707,_0x1c561b=_0x198623[_0x585656(0x210)]/0x2-0x46+_0x187c56*_0x3a0fb9[_0x585656(0x1ef)]['x']*0.707,_0x7cdde=_0x45e032[_0x585656(0x440)](_0x4d07f2[_0x585656(0x2e5)],_0x4d07f2[_0x585656(0x2a6)]),_0x4c3b74=_0x7cdde['color'],_0x4ac68c='\x20'+_0x7cdde['name'],_0x32951b=_0x322bcb[_0x585656(0x412)](_0x4ac68c)[_0x585656(0x453)],_0x5144cb=0x1+_0x32951b/0x1f4;_0x45607b(_0x4c3b74,_0x56e13f,_0x1c561b,_0x7cdde,1.5*_0x5144cb,0x1*_0x5144cb,0.5*_0x187c56/_0x7cdde[_0x585656(0x3b3)],-Math['PI']/0x4,!![]),_0x165ff5(_0x585656(0x26f),_0xcce0ec,_0x4e846f-0xaa,0x12,_0x16d3b0['guiwhite'],_0x585656(0x3e7)),_0x165ff5(_0x5981b9(),_0xcce0ec,_0x4e846f-0x8c,0x18,_0x16d3b0['guiwhite'],'center'),_0x165ff5(_0x4ac68c,_0xcce0ec+0x52,_0x4e846f+0x14,0x14,_0x16d3b0[_0x585656(0x4a9)],'center'),_0x165ff5('Level:\x20'+_0x4d07f2[_0x585656(0x1d7)]['getLevel'](),_0xcce0ec-0xb1,_0x4e846f-0x28,0x14,_0x16d3b0[_0x585656(0x4a9)],_0x585656(0x3e7)),_0x165ff5(_0x585656(0x302)+_0x45e032[_0x585656(0x2c3)](Math[_0x585656(0x262)](_0x198623[_0x585656(0x2d2)][_0x585656(0x1cc)]())),_0xcce0ec-0x96,_0x4e846f-0x46,0x14,_0x16d3b0[_0x585656(0x4a9)],_0x585656(0x3e7)),_0x165ff5(_0x585656(0x20c)+_0x45e032['timeForHumans'](Math[_0x585656(0x262)](_0x198623[_0x585656(0x1e6)][_0x585656(0x1cc)]())),_0xcce0ec-0x96,_0x4e846f-0xa,0x14,_0x16d3b0[_0x585656(0x4a9)],'center'),_0x165ff5('Arena\x20closed!\x20Cannot\x20join',_0xcce0ec,_0x4e846f+0x46,0x18,_0x16d3b0[_0x585656(0x377)],'center'),_0x322bcb[_0x585656(0x40e)](0x0,_0x82c1d*_0x198623[_0x585656(0x210)]);}else{if(_0x198623['isspectating']){let _0x1c9a7f=canvas['height']/_0x198623[_0x585656(0x210)]/_0x198623[_0x585656(0x2d8)],_0x29eb16=0x1e,_0x47064f=_0x585656(0x329),_0x213e79=_0x85fe09(_0x47064f,_0x29eb16-0x3)+0x14,_0x4111b3=_0x198623[_0x585656(0x35a)]/0xc,_0x1c1edd=_0x198623[_0x585656(0x210)]/0x10;if(_0x198623[_0x585656(0x434)]&&!_0x198623[_0x585656(0x4b8)])_0x322bcb[_0x585656(0x30b)]=_0x585656(0x419);else _0x198623[_0x585656(0x4a5)]&&!_0x198623['disconnected']?_0x322bcb[_0x585656(0x30b)]=_0x585656(0x223):_0x322bcb[_0x585656(0x30b)]=_0x585656(0x37b);_0x322bcb['fillRect'](_0x4111b3-_0x213e79/0x2,_0x1c1edd-0x5,_0x213e79,(_0x29eb16+0xa)/0x2),_0x322bcb[_0x585656(0x30b)]=_0x585656(0x38d),_0x322bcb[_0x585656(0x2ab)](_0x4111b3-_0x213e79/0x2,_0x1c1edd-0x5+(_0x29eb16+0xa)/0x2,_0x213e79,(_0x29eb16+0xa)/0x2),_0x322bcb[_0x585656(0x245)]=_0x16d3b0[_0x585656(0x4b9)],_0x322bcb[_0x585656(0x32e)]=0x4,_0x322bcb[_0x585656(0x3c9)](_0x4111b3-_0x213e79/0x2,_0x1c1edd-0x5,_0x213e79,_0x29eb16+0xa),_0x165ff5(_0x47064f,_0x4111b3,_0x1c1edd+_0x29eb16/0x2+0x3,0x10,_0x16d3b0['guiwhite'],_0x585656(0x3e7),!![]),_0x198623[_0x585656(0x2cc)][_0x585656(0x269)]['place'](0x0,(_0x4111b3-_0x213e79/0x2)*_0x1c9a7f,(_0x1c1edd-0x5)*_0x1c9a7f,_0x213e79*_0x1c9a7f,(_0x29eb16+0xa)*_0x1c9a7f);}else{if(_0x198623[_0x585656(0x214)]||_0x198623[_0x585656(0x229)]){_0x2bb119(_0x16d3b0[_0x585656(0x4b9)],0.5);let _0x50ea7e=_0x45e032[_0x585656(0x1d6)](),_0x3afdc3=(_0x262933,_0x3e5f6c)=>{const _0x4ffecc=_0x585656;_0x198623['screenWidth']/=_0x262933,_0x198623[_0x4ffecc(0x210)]/=_0x262933,_0x322bcb[_0x4ffecc(0x250)](_0x262933,_0x262933);if(!_0x3e5f6c)_0x50ea7e*=_0x262933;};_0x3afdc3(_0x50ea7e,!![]);let _0x1eb1b5=_0xb86390[_0x585656(0x26b)][_0x585656(0x1cc)]();_0x322bcb[_0x585656(0x40e)](0x0,-_0x1eb1b5*_0x198623['screenHeight']);let _0x279d48=_0x198623[_0x585656(0x35a)]/0x2,_0x297ba7=_0x198623[_0x585656(0x210)]/0x2,_0x4606f2=0x8c,_0x34312c=_0x198623[_0x585656(0x425)][parseInt(_0x4d07f2['type']['split']('-')[0x0])][_0x585656(0x3be)],_0x11b6ce=_0x4606f2/_0x34312c[_0x585656(0x456)],_0x3b07c1=_0x198623[_0x585656(0x35a)]/0x2+0x46+_0x11b6ce*_0x34312c[_0x585656(0x1ef)]['x']*0.707,_0x1538b5=_0x198623[_0x585656(0x210)]/0x2-0x46+_0x11b6ce*_0x34312c[_0x585656(0x1ef)]['x']*0.707,_0x2c7aa7=_0x45e032[_0x585656(0x440)](_0x4d07f2[_0x585656(0x2e5)],_0x4d07f2['color']),_0x3e5909=_0x2c7aa7[_0x585656(0x2a6)],_0x22d69a='\x20'+_0x2c7aa7['name'],_0x322d38=_0x322bcb[_0x585656(0x412)](_0x22d69a)[_0x585656(0x453)],_0x1d80c2=0x1+_0x322d38/0x1f4;_0x45607b(_0x3e5909,_0x3b07c1,_0x1538b5,_0x2c7aa7,1.5*_0x1d80c2,0x1*_0x1d80c2,0.5*_0x11b6ce/_0x2c7aa7[_0x585656(0x3b3)],-Math['PI']/0x4,!![]),_0x165ff5(_0x585656(0x26f),_0x279d48,_0x297ba7-0xaa,0x12,_0x16d3b0[_0x585656(0x4a9)],_0x585656(0x3e7)),_0x165ff5(_0x5981b9(),_0x279d48,_0x297ba7-0x8c,0x18,_0x16d3b0[_0x585656(0x4a9)],'center'),_0x165ff5(_0x22d69a,_0x279d48+0x52,_0x297ba7+0x14,0x14,_0x16d3b0[_0x585656(0x4a9)],_0x585656(0x3e7)),_0x165ff5(_0x585656(0x340)+_0x4d07f2[_0x585656(0x1d7)][_0x585656(0x359)](),_0x279d48-0xb1,_0x297ba7-0x28,0x14,_0x16d3b0[_0x585656(0x4a9)],_0x585656(0x3e7)),_0x165ff5(_0x585656(0x302)+_0x45e032[_0x585656(0x2c3)](Math[_0x585656(0x262)](_0x198623['finalScore'][_0x585656(0x1cc)]())),_0x279d48-0x96,_0x297ba7-0x46,0x14,_0x16d3b0['guiwhite'],_0x585656(0x3e7)),_0x165ff5(_0x585656(0x20c)+_0x45e032[_0x585656(0x394)](Math[_0x585656(0x262)](_0x198623['finalLifetime'][_0x585656(0x1cc)]())),_0x279d48-0x96,_0x297ba7-0xa,0x14,_0x16d3b0[_0x585656(0x4a9)],'center');let _0x39a347=canvas[_0x585656(0x410)]/_0x198623[_0x585656(0x210)]/_0x198623[_0x585656(0x2d8)],_0x713e4d=0x1e,_0x3ac224=_0x585656(0x2d7),_0x36ed=_0x85fe09(_0x3ac224,_0x713e4d-0x3)+0x14,_0x1b824a=_0x198623['screenWidth']/2.25,_0x45d422=_0x198623[_0x585656(0x210)]/1.75;if(_0x198623[_0x585656(0x27a)]&&!_0x198623[_0x585656(0x4b8)])_0x322bcb[_0x585656(0x30b)]=_0x585656(0x344);else _0x198623['spectatebox']&&!_0x198623[_0x585656(0x4b8)]?_0x322bcb[_0x585656(0x30b)]=_0x585656(0x1fe):_0x322bcb[_0x585656(0x30b)]=_0x585656(0x40d);_0x322bcb[_0x585656(0x2ab)](_0x1b824a-_0x36ed/0x2,_0x45d422-0x5,_0x36ed,(_0x713e4d+0xa)/0x2),_0x322bcb[_0x585656(0x30b)]='#4BCCC4',_0x322bcb['fillRect'](_0x1b824a-_0x36ed/0x2,_0x45d422-0x5+(_0x713e4d+0xa)/0x2,_0x36ed,(_0x713e4d+0xa)/0x2),_0x322bcb[_0x585656(0x245)]=_0x16d3b0['black'],_0x322bcb[_0x585656(0x32e)]=0x4,_0x322bcb['strokeRect'](_0x1b824a-_0x36ed/0x2,_0x45d422-0x5,_0x36ed,_0x713e4d+0xa),_0x165ff5(_0x3ac224,_0x1b824a,_0x45d422+_0x713e4d/0x2+0x3,0x10,_0x16d3b0[_0x585656(0x4a9)],_0x585656(0x3e7),!![]),_0x198623['clickables'][_0x585656(0x4bb)][_0x585656(0x241)](0x0,(_0x1b824a-_0x36ed/0x2)*_0x39a347,(_0x45d422-0x5)*_0x39a347,_0x36ed*_0x39a347,(_0x713e4d+0xa)*_0x39a347);let _0x3d5b44=0x7d,_0x4281ef=0x27,_0x5e3d20=_0x198623[_0x585656(0x35a)]/1.85-_0x3d5b44/0x2,_0x501ff7=_0x198623[_0x585656(0x210)]/1.765;if(_0x198623[_0x585656(0x481)]&&!_0x198623[_0x585656(0x4b8)])_0x322bcb[_0x585656(0x30b)]=_0x585656(0x464);else _0x198623[_0x585656(0x3c5)]&&!_0x198623[_0x585656(0x4b8)]?_0x322bcb[_0x585656(0x30b)]=_0x585656(0x352):_0x322bcb[_0x585656(0x30b)]='#65FF5F';_0x322bcb[_0x585656(0x2ab)](_0x5e3d20,_0x501ff7,_0x3d5b44,_0x4281ef/0x2),_0x322bcb['fillStyle']='#52CC4C',_0x322bcb[_0x585656(0x2ab)](_0x5e3d20,_0x501ff7+_0x4281ef/0x2,_0x3d5b44,_0x4281ef/0x2),_0x322bcb[_0x585656(0x245)]=_0x16d3b0[_0x585656(0x4b9)],_0x322bcb[_0x585656(0x32e)]=0x4,_0x322bcb[_0x585656(0x3c9)](_0x5e3d20,_0x501ff7,_0x3d5b44,_0x4281ef);let _0x2b68ff=_0x585656(0x282);_0x165ff5(_0x2b68ff,_0x5e3d20+_0x3d5b44/0x2,_0x501ff7+_0x4281ef/0x2+0x3,0x10,_0x16d3b0['guiwhite'],'center',!![]),_0x198623[_0x585656(0x2cc)]['enterButton'][_0x585656(0x241)](0x0,_0x5e3d20*_0x39a347,_0x501ff7*_0x39a347,_0x3d5b44*_0x39a347,_0x4281ef*_0x39a347),_0x322bcb['translate'](0x0,_0x1eb1b5*_0x198623['screenHeight']);}}}}},_0xa12f07=_0x2440a6=>{const _0x357199=_0x59d4a3;_0x198623[_0x357199(0x2a1)]=!![];let _0x15bb03=_0x45e032[_0x357199(0x1d6)](),_0x208be0=(_0x4e2ee4,_0x420f5f)=>{const _0x15d9a3=_0x357199;_0x198623['screenWidth']/=_0x4e2ee4,_0x198623['screenHeight']/=_0x4e2ee4,_0x322bcb[_0x15d9a3(0x250)](_0x4e2ee4,_0x4e2ee4);if(!_0x420f5f)_0x15bb03*=_0x4e2ee4;};_0x208be0(_0x15bb03,!![]),_0x322bcb[_0x357199(0x30b)]=_0x357199(0x40a),_0x322bcb[_0x357199(0x2ab)](0x0,0x0,_0x198623[_0x357199(0x35a)],_0x198623[_0x357199(0x210)]);let _0x4d2aca=_0xb86390['disconnected1'][_0x357199(0x1cc)]();_0x322bcb[_0x357199(0x40e)](0x0,-_0x4d2aca*_0x198623[_0x357199(0x210)]),_0x3b20c1(_0x357199(0x33c),_0x198623[_0x357199(0x35a)]/0x2,_0x198623[_0x357199(0x210)]/0x2-0x64,0x46,_0x16d3b0['guiwhite'],_0x357199(0x3e7),0x1),_0x3b20c1(_0x357199(0x309),_0x198623[_0x357199(0x35a)]/0x2,_0x198623[_0x357199(0x210)]/0x2-0xa,0x16,_0x16d3b0[_0x357199(0x4a9)],'center'),_0x3b20c1(_0x357199(0x37d),_0x198623[_0x357199(0x35a)]/0x2,_0x198623['screenHeight']/0x2+0x14,0x16,_0x16d3b0['guiwhite'],_0x357199(0x3e7)),_0x3b20c1(''+_0x2440a6,_0x198623[_0x357199(0x35a)]/0x2,_0x198623[_0x357199(0x210)]/0x2+0x32,0x16,_0x357199(0x200),'center'),_0x3b20c1(_0x357199(0x3a5),_0x198623['screenWidth']/0x2,_0x198623[_0x357199(0x210)]/0x2+0x50,0x16,_0x16d3b0[_0x357199(0x4a9)],_0x357199(0x3e7));if(_0x198623[_0x357199(0x2d3)])_0x165ff5(_0x198623['sancdiedripforyouanyways']||'',_0x198623[_0x357199(0x35a)]/0x2,_0x198623[_0x357199(0x210)]/0x2+0x1e,0xf,_0x16d3b0[_0x357199(0x31b)],_0x357199(0x3e7));_0x322bcb[_0x357199(0x40e)](0x0,_0x4d2aca*_0x198623[_0x357199(0x210)]);};_0x198623[_0x59d4a3(0x413)]=0x0,_0x198623['introTextState']=_0x59d4a3(0x3b5),_0x198623[_0x59d4a3(0x4d3)]=null,_0x198623['introShown']=![];const _0x40e849=()=>{const _0x18c219=_0x59d4a3;if(_0x198623['gameStart']&&_0x198623['showintroduction']&&!_0x198623[_0x18c219(0x354)]){setTimeout(()=>{const _0x4abf2b=_0x18c219;_0x198623[_0x4abf2b(0x3aa)]=![];},0x2710);!_0x198623[_0x18c219(0x4d3)]&&(_0x198623[_0x18c219(0x4d3)]=Date[_0x18c219(0x28a)]());const _0x36229e=Date[_0x18c219(0x28a)]()-_0x198623['introTextStartTime'];if(_0x198623[_0x18c219(0x474)]==='fadeIn')_0x36229e<0x9c4?_0x198623['introTextAlpha']=_0x36229e/0x9c4:(_0x198623[_0x18c219(0x413)]=0x1,_0x198623[_0x18c219(0x474)]=_0x18c219(0x423),_0x198623[_0x18c219(0x4d3)]=Date[_0x18c219(0x28a)]());else{if(_0x198623[_0x18c219(0x474)]===_0x18c219(0x423))_0x36229e<0x1388?_0x198623['introTextAlpha']=0x1:(_0x198623[_0x18c219(0x474)]=_0x18c219(0x48b),_0x198623['introTextStartTime']=Date['now']());else _0x198623[_0x18c219(0x474)]===_0x18c219(0x48b)&&(_0x36229e<0x9c4?_0x198623['introTextAlpha']=0x1-_0x36229e/0x9c4:(_0x198623[_0x18c219(0x413)]=0x0,_0x198623[_0x18c219(0x3aa)]=![],_0x198623[_0x18c219(0x354)]=!![],_0x198623['introTextState']=_0x18c219(0x3b5),_0x198623[_0x18c219(0x4d3)]=null));}_0x322bcb[_0x18c219(0x44e)](),_0x322bcb[_0x18c219(0x1f4)]=_0x198623['introTextAlpha'];if(window['serverAdd']===_0x18c219(0x2ec)||window[_0x18c219(0x2c5)]===_0x18c219(0x416)||window[_0x18c219(0x2c5)]===_0x18c219(0x23b))_0x3b20c1(_0x18c219(0x3bc),_0x198623[_0x18c219(0x35a)]/0x2,0x28,0x1e,_0x16d3b0[_0x18c219(0x4a9)],_0x18c219(0x3e7)),_0x3b20c1(_0x18c219(0x20b),_0x198623[_0x18c219(0x35a)]/0x2,0x46,0x14,_0x16d3b0[_0x18c219(0x4a9)],_0x18c219(0x3e7));else{if(window[_0x18c219(0x2c5)]===_0x18c219(0x1cb)||window[_0x18c219(0x2c5)]==='dreadful-superstition-wrg7qgg4x57rcvjj4-30002.app.github.dev'||window[_0x18c219(0x2c5)]===_0x18c219(0x2a2))_0x3b20c1(_0x18c219(0x2c4),_0x198623['screenWidth']/0x2,0x28,0x1e,_0x16d3b0[_0x18c219(0x4a9)],_0x18c219(0x3e7)),_0x3b20c1('Destroy\x20all\x20the\x20bosses\x20till\x20wave\x20150\x20to\x20win',_0x198623[_0x18c219(0x35a)]/0x2,0x46,0x14,_0x16d3b0[_0x18c219(0x4a9)],_0x18c219(0x3e7));else{if(window[_0x18c219(0x2c5)]===_0x18c219(0x31c)||window[_0x18c219(0x2c5)]===_0x18c219(0x436)||window[_0x18c219(0x2c5)]===_0x18c219(0x4df))_0x3b20c1(_0x18c219(0x391),_0x198623[_0x18c219(0x35a)]/0x2,0x28,0x1e,_0x16d3b0[_0x18c219(0x4a9)],_0x18c219(0x3e7)),_0x3b20c1(_0x18c219(0x3b1),_0x198623[_0x18c219(0x35a)]/0x2,0x46,0x14,_0x16d3b0[_0x18c219(0x4a9)],_0x18c219(0x3e7));else{if(window[_0x18c219(0x2c5)]===_0x18c219(0x296)||window[_0x18c219(0x2c5)]===_0x18c219(0x2e4)||window[_0x18c219(0x2c5)]==='frightening-shadow-4j7v66grj9qr2qjwq-30003.app.github.dev')_0x3b20c1(_0x18c219(0x1fc),_0x198623[_0x18c219(0x35a)]/0x2,0x28,0x1e,_0x16d3b0[_0x18c219(0x4a9)],_0x18c219(0x3e7)),_0x3b20c1(_0x18c219(0x2ce),_0x198623['screenWidth']/0x2,0x46,0x14,_0x16d3b0[_0x18c219(0x4a9)],_0x18c219(0x3e7));else{if(window['serverAdd']===_0x18c219(0x30e)||window[_0x18c219(0x2c5)]===_0x18c219(0x1e0)||window[_0x18c219(0x2c5)]===_0x18c219(0x2cb))_0x3b20c1(_0x18c219(0x257),_0x198623['screenWidth']/0x2,0x28,0x1e,_0x16d3b0[_0x18c219(0x4a9)],_0x18c219(0x3e7)),_0x3b20c1(_0x18c219(0x313),_0x198623['screenWidth']/0x2,0x46,0x14,_0x16d3b0['guiwhite'],_0x18c219(0x3e7));else{if(window['serverAdd']===_0x18c219(0x25b)||window[_0x18c219(0x2c5)]==='dreadful-superstition-wrg7qgg4x57rcvjj4-30009.app.github.dev'||window[_0x18c219(0x2c5)]===_0x18c219(0x3a3))_0x3b20c1(_0x18c219(0x330),_0x198623[_0x18c219(0x35a)]/0x2,0x28,0x1e,_0x16d3b0[_0x18c219(0x4a9)],'center'),_0x3b20c1('Stay\x20in\x20the\x20center\x20of\x20the\x20map\x20to\x20win!',_0x198623[_0x18c219(0x35a)]/0x2,0x46,0x14,_0x16d3b0['guiwhite'],_0x18c219(0x3e7));else{if(window['serverAdd']===_0x18c219(0x25e)||window[_0x18c219(0x2c5)]===_0x18c219(0x276)||window['serverAdd']==='frightening-shadow-4j7v66grj9qr2qjwq-30007.app.github.dev')_0x3b20c1('Closed\x20Beta',_0x198623[_0x18c219(0x35a)]/0x2,0x28,0x1e,_0x16d3b0[_0x18c219(0x4a9)],'center'),_0x3b20c1(_0x18c219(0x381),_0x198623[_0x18c219(0x35a)]/0x2,0x46,0x14,_0x16d3b0[_0x18c219(0x4a9)],_0x18c219(0x3e7));else{if(window[_0x18c219(0x2c5)]==='super-duper-goggles-g475v6p65wwv2vgwp-30005.app.github.dev'||window['serverAdd']==='dreadful-superstition-wrg7qgg4x57rcvjj4-30005.app.github.dev'||window['serverAdd']===_0x18c219(0x4be))_0x3b20c1(_0x18c219(0x36b),_0x198623[_0x18c219(0x35a)]/0x2,0x28,0x1e,_0x16d3b0['guiwhite'],'center'),_0x3b20c1(_0x18c219(0x401),_0x198623['screenWidth']/0x2,0x46,0x14,_0x16d3b0[_0x18c219(0x4a9)],_0x18c219(0x3e7));else{if(window[_0x18c219(0x2c5)]===_0x18c219(0x35c)||window['serverAdd']===_0x18c219(0x211)||window[_0x18c219(0x2c5)]===_0x18c219(0x42d))_0x3b20c1(_0x18c219(0x393),_0x198623[_0x18c219(0x35a)]/0x2,0x28,0x1e,_0x16d3b0['guiwhite'],'center'),_0x3b20c1(_0x18c219(0x463),_0x198623[_0x18c219(0x35a)]/0x2,0x46,0x14,_0x16d3b0[_0x18c219(0x4a9)],_0x18c219(0x3e7));else{if(window[_0x18c219(0x2c5)]===_0x18c219(0x3cf)||window[_0x18c219(0x2c5)]===_0x18c219(0x276)||window[_0x18c219(0x2c5)]===_0x18c219(0x432))_0x3b20c1(_0x18c219(0x24c),_0x198623['screenWidth']/0x2,0x28,0x1e,_0x16d3b0[_0x18c219(0x4a9)],'center'),_0x3b20c1(_0x18c219(0x1eb),_0x198623[_0x18c219(0x35a)]/0x2,0x46,0x14,_0x16d3b0['guiwhite'],_0x18c219(0x3e7));else(window[_0x18c219(0x2c5)]==='super-duper-goggles-g475v6p65wwv2vgwp-30006.app.github.dev'||window[_0x18c219(0x2c5)]===_0x18c219(0x2fc)||window['serverAdd']==='frightening-shadow-4j7v66grj9qr2qjwq-30006.app.github.dev')&&(_0x3b20c1(_0x18c219(0x3f7),_0x198623[_0x18c219(0x35a)]/0x2,0x28,0x1e,_0x16d3b0[_0x18c219(0x4a9)],_0x18c219(0x3e7)),_0x3b20c1(_0x18c219(0x3ef),_0x198623[_0x18c219(0x35a)]/0x2,0x46,0x14,_0x16d3b0[_0x18c219(0x4a9)],'center'));}}}}}}}}}_0x322bcb[_0x18c219(0x27d)]();}},_0x3e7005=()=>{const _0x105edb=_0x59d4a3;if(_0x198623[_0x105edb(0x42b)]){setTimeout(()=>{const _0x1118dc=_0x105edb;_0x198623[_0x1118dc(0x42b)]=![];},0x1388);let _0x3324cf='Achievement\x20complete:';_0x165ff5(_0x3324cf,0x14,_0x198623[_0x105edb(0x210)]/0x2,0x18,_0x16d3b0['guiwhite'],'left');let _0x24c78a=_0x105edb(0x32c);_0x165ff5(_0x24c78a,0x14,_0x198623[_0x105edb(0x210)]/0x2+0x1e,0x10,_0x16d3b0[_0x105edb(0x4a9)],_0x105edb(0x3f6));let _0x224a62='Join\x20the\x20game\x20for\x20the\x20first\x20time.';_0x165ff5(_0x224a62,0x14,_0x198623[_0x105edb(0x210)]/0x2+0x3c,0x10,_0x16d3b0['guiwhite'],'left');}};let _0x5cd28b=0x0;const _0x4d3b22=Math[_0x59d4a3(0x44d)](_0x198623[_0x59d4a3(0x35a)]**0x2+_0x198623[_0x59d4a3(0x210)]**0x2),_0x381f9d=()=>{const _0x3287c8=_0x59d4a3;_0x198623['connecting']=!![];let _0x17a392=!![],_0x554441=_0x45e032[_0x3287c8(0x1d6)](),_0x893ab=(_0x3e4a02,_0x554a4b)=>{const _0x1b1d01=_0x3287c8;_0x198623['screenWidth']/=_0x3e4a02,_0x198623[_0x1b1d01(0x210)]/=_0x3e4a02,_0x322bcb['scale'](_0x3e4a02,_0x3e4a02);if(!_0x554a4b)_0x554441*=_0x3e4a02;};_0x893ab(_0x554441,!![]),_0x322bcb[_0x3287c8(0x30b)]=_0x3287c8(0x473),_0x322bcb[_0x3287c8(0x2ab)](0x0,0x0,_0x198623[_0x3287c8(0x35a)],_0x198623[_0x3287c8(0x210)]);let _0x448cae=_0xb86390[_0x3287c8(0x462)][_0x3287c8(0x1cc)]();_0x322bcb[_0x3287c8(0x40e)](0x0,-_0x448cae*_0x198623['screenHeight']);const _0x18ba2b=_0x198623[_0x3287c8(0x35a)]/0x2,_0x5e65ba=_0x198623[_0x3287c8(0x210)]/0x2;_0x198623[_0x3287c8(0x3e3)]?(_0x5cd28b=Math[_0x3287c8(0x408)](0x0,_0x5cd28b-0xf),_0x17a392=![]):_0x5cd28b<_0x4d3b22&&(_0x5cd28b+=0xf),_0x322bcb[_0x3287c8(0x44e)](),_0x322bcb[_0x3287c8(0x2ca)](),_0x322bcb[_0x3287c8(0x2c0)](_0x18ba2b,_0x5e65ba,_0x5cd28b,0x0,0x2*Math['PI']),_0x322bcb[_0x3287c8(0x298)](),_0x4bea57(),_0x322bcb['restore'](),_0x322bcb[_0x3287c8(0x40e)](0x0,_0x448cae*_0x198623[_0x3287c8(0x210)]);},_0x4bea57=()=>{const _0x51da12=_0x59d4a3;let _0xb4b3a4=_0x322bcb[_0x51da12(0x242)](0x0,0x0,_0x198623[_0x51da12(0x35a)],_0x198623[_0x51da12(0x210)]);_0x322bcb[_0x51da12(0x30b)]=_0xb4b3a4,_0x322bcb['fillRect'](0x0,0x0,_0x198623[_0x51da12(0x35a)],_0x198623[_0x51da12(0x210)]);const _0x1e0577=()=>{const _0x3b9f2f=_0x51da12,_0x569e81=['.','..',_0x3b9f2f(0x338)],_0x365f5f=0xfa,_0x516318=Math[_0x3b9f2f(0x236)](Date['now']()/_0x365f5f)%_0x569e81['length'];return _0x569e81[_0x516318];};let _0x52db4d=_0x1e0577();_0x3b20c1(_0x198623[_0x51da12(0x1d1)]+_0x52db4d,_0x198623[_0x51da12(0x35a)]/0x2,_0x198623['screenHeight']/0x2,0x32,_0x51da12(0x343),_0x51da12(0x3e7),_0x51da12(0x29b),_0x51da12(0x4b9)),_0x3b20c1(_0x198623['mesage'],_0x198623[_0x51da12(0x35a)]/0x2,_0x198623[_0x51da12(0x210)]/0x2+0x1e,0xf,_0x51da12(0x343),_0x51da12(0x3e7),_0x51da12(0x29b),_0x51da12(0x4b9)),_0x3b20c1(_0x198623[_0x51da12(0x2d5)],_0x198623[_0x51da12(0x35a)]/0x2,_0x198623['screenHeight']/0x2+0x3c,0xf,'#FFFFFF','center','Arial','black'),_0x3b20c1(_0x198623[_0x51da12(0x4af)],_0x198623[_0x51da12(0x35a)]/0x2,_0x198623[_0x51da12(0x210)]/0x2+0x5a,0x19,_0x51da12(0x343),_0x51da12(0x3e7),_0x51da12(0x29b),'black'),_0x5704b6(_0x198623[_0x51da12(0x35a)]/0x2,_0x198623[_0x51da12(0x210)]/0x2-0x64,0x1e,_0x16d3b0[_0x51da12(0x4a9)]);},_0x5704b6=(_0x386c0a,_0x275589,_0x1d7089)=>{const _0x2128c9=_0x59d4a3;_0x322bcb[_0x2128c9(0x44e)](),_0x322bcb[_0x2128c9(0x40e)](_0x386c0a,_0x275589);const _0x1664f4=Date['now']()/0x190%(0x2*Math['PI']),_0x40ed98=0.8;_0x322bcb[_0x2128c9(0x44e)](),_0x322bcb[_0x2128c9(0x1ea)](_0x1664f4);const _0x32f219=0x19,_0x276618=_0x1d7089*_0x40ed98,_0x2d38cd=_0x1d7089+_0x32f219/0x2;_0x322bcb[_0x2128c9(0x2ca)](),_0x322bcb[_0x2128c9(0x26c)](-_0x32f219/0x2,-_0x2d38cd-_0x276618/0x2,_0x32f219,_0x276618),_0x322bcb['fillStyle']=_0x2128c9(0x3ad),_0x322bcb[_0x2128c9(0x32e)]=0x2,_0x322bcb[_0x2128c9(0x245)]='#696969',_0x322bcb[_0x2128c9(0x22d)](),_0x322bcb[_0x2128c9(0x44a)](),_0x322bcb['restore'](),_0x322bcb[_0x2128c9(0x207)]='miter',_0x322bcb[_0x2128c9(0x2d1)]='miter',_0x322bcb[_0x2128c9(0x2ca)](),_0x322bcb[_0x2128c9(0x2c0)](0x0,0x0,_0x1d7089,0x0,0x2*Math['PI']),_0x322bcb[_0x2128c9(0x30b)]=_0x16d3b0[_0x2128c9(0x452)],_0x322bcb[_0x2128c9(0x245)]=_0x2128c9(0x310),_0x322bcb[_0x2128c9(0x22d)](),_0x322bcb['stroke'](),_0x322bcb[_0x2128c9(0x27d)]();},_0x3b20c1=(_0x482a3f,_0x562963,_0x80c6c8,_0x55a585,_0x5a40b1,_0xca4397,_0x1149e8=_0x59d4a3(0x4b9))=>{const _0x5819eb=_0x59d4a3;_0x322bcb[_0x5819eb(0x30f)]=_0x5819eb(0x24b)+_0x55a585+_0x5819eb(0x3d7),_0x322bcb[_0x5819eb(0x261)]=_0xca4397,_0x322bcb['fillStyle']=_0x5a40b1,_0x322bcb['strokeStyle']=_0x1149e8,_0x322bcb[_0x5819eb(0x32e)]=0x2,_0x322bcb[_0x5819eb(0x2f7)](_0x482a3f,_0x562963,_0x80c6c8),_0x322bcb['fillText'](_0x482a3f,_0x562963,_0x80c6c8);},_0x4cd90e=(_0x583814,_0x38c1af,_0x4ecbdc,_0x1974c8,_0x3728aa,_0x41228e,_0xc542bc=_0x59d4a3(0x4b9))=>{const _0x4d0d15=_0x59d4a3;_0x322bcb['font']='bold\x20'+_0x1974c8+_0x4d0d15(0x3d7),_0x322bcb[_0x4d0d15(0x261)]=_0x41228e,_0x322bcb['fillStyle']=_0x3728aa,_0x322bcb['strokeStyle']=_0xc542bc,_0x322bcb['lineWidth']=0x2,_0x322bcb[_0x4d0d15(0x2f7)](_0x583814,_0x38c1af,_0x4ecbdc),_0x322bcb[_0x4d0d15(0x2b0)](_0x583814,_0x38c1af,_0x4ecbdc);},_0x1d2eb0=()=>{const _0x59330b=_0x59d4a3;_0x198623['waitingloop']&&_0x198623[_0x59330b(0x214)]&&!_0x198623[_0x59330b(0x3f2)]&&_0x165ff5(_0x59330b(0x38a),_0x198623[_0x59330b(0x35a)]/0x2,0x14,0x14,_0x16d3b0['guiwhite'],_0x59330b(0x3e7));},_0x16eed9=()=>{const _0x3bbba4=_0x59d4a3;_0x198623[_0x3bbba4(0x4b8)]=!![];let _0x4ec437=_0x45e032[_0x3bbba4(0x1d6)](),_0x3dda9a=(_0x178ad8,_0x3e66eb)=>{const _0xea7ef6=_0x3bbba4;_0x198623[_0xea7ef6(0x35a)]/=_0x178ad8,_0x198623[_0xea7ef6(0x210)]/=_0x178ad8,_0x322bcb['scale'](_0x178ad8,_0x178ad8);if(!_0x3e66eb)_0x4ec437*=_0x178ad8;};_0x3dda9a(_0x4ec437,!![]);if(_0x198623['piracy'])_0x322bcb[_0x3bbba4(0x30b)]=_0x3bbba4(0x200),_0x322bcb[_0x3bbba4(0x2ab)](0x0,0x0,_0x198623[_0x3bbba4(0x35a)],_0x198623[_0x3bbba4(0x210)]);else{if(_0x198623[_0x3bbba4(0x1e1)]||_0x198623['banned']||_0x198623[_0x3bbba4(0x494)])_0x2bb119(_0x3e3011['mixColors'](_0x3bbba4(0x421),_0x16d3b0['guiblack'],0.3),0x1);else _0x198623[_0x3bbba4(0x462)]&&!_0x198623[_0x3bbba4(0x214)]&&_0x198623[_0x3bbba4(0x4b8)]?(_0x322bcb[_0x3bbba4(0x30b)]=_0x3bbba4(0x471),_0x322bcb[_0x3bbba4(0x2ab)](0x0,0x0,_0x198623[_0x3bbba4(0x35a)],_0x198623[_0x3bbba4(0x210)])):(_0x322bcb[_0x3bbba4(0x1f4)]=0.6,_0x322bcb[_0x3bbba4(0x30b)]=_0x3bbba4(0x3e9),_0x322bcb[_0x3bbba4(0x2ab)](0x0,0x0,_0x198623[_0x3bbba4(0x35a)],_0x198623[_0x3bbba4(0x210)]),_0x322bcb['globalAlpha']=0x1,_0x322bcb['filter']=_0x3bbba4(0x3fd),_0x322bcb[_0x3bbba4(0x2ae)](_0x322bcb[_0x3bbba4(0x27b)],0x0,0x0,_0x198623[_0x3bbba4(0x35a)],_0x198623[_0x3bbba4(0x210)]),_0x322bcb[_0x3bbba4(0x3a9)]='none');}if(_0x198623[_0x3bbba4(0x1e1)]){let _0x46e875=_0xb86390[_0x3bbba4(0x23c)][_0x3bbba4(0x1cc)]();_0x322bcb[_0x3bbba4(0x40e)](0x0,-_0x46e875*_0x198623[_0x3bbba4(0x210)]);const _0x58a9a2=_0x198623['screenWidth']*0.3,_0x3d871a=0xc8,_0x203c09=(_0x198623[_0x3bbba4(0x35a)]-_0x58a9a2)/0x2,_0x1ba436=(_0x198623['screenHeight']-_0x3d871a)/0x2-0xa;_0x322bcb['fillStyle']='#0080FF',_0x322bcb[_0x3bbba4(0x245)]=_0x3bbba4(0x42a),_0x322bcb[_0x3bbba4(0x32e)]=0xf,_0x322bcb['strokeRect'](_0x203c09,_0x1ba436,_0x58a9a2,_0x3d871a),_0x322bcb['fillRect'](_0x203c09,_0x1ba436,_0x58a9a2,_0x3d871a),_0x165ff5(_0x3bbba4(0x43d),_0x198623[_0x3bbba4(0x35a)]/0x2,_0x198623[_0x3bbba4(0x210)]/2.25,0x2d,_0x16d3b0[_0x3bbba4(0x4a9)],'center',0x1),_0x165ff5(_0x3bbba4(0x3c1)+(_0x198623[_0x3bbba4(0x4a4)]||_0x3bbba4(0x486)),_0x198623[_0x3bbba4(0x35a)]/0x2,_0x198623[_0x3bbba4(0x210)]/0x2-0xa,0x16,_0x16d3b0['guiwhite'],_0x3bbba4(0x3e7),0x1);let _0x402300=canvas['height']/_0x198623[_0x3bbba4(0x210)]/_0x198623['ratio'],_0x55ca31=0x1e,_0x5ceb3b=_0x3bbba4(0x3b8),_0x2b309c=_0x85fe09(_0x5ceb3b,_0x55ca31-0x3)+0x14,_0x2e677b=_0x198623[_0x3bbba4(0x35a)]/0x2,_0x2a14c7=_0x198623['screenHeight']/1.9;if(_0x198623[_0x3bbba4(0x358)])_0x322bcb[_0x3bbba4(0x30b)]=_0x3bbba4(0x3f3);else _0x198623[_0x3bbba4(0x3bb)]?_0x322bcb[_0x3bbba4(0x30b)]=_0x3bbba4(0x265):_0x322bcb[_0x3bbba4(0x30b)]=_0x3bbba4(0x2d4);_0x322bcb[_0x3bbba4(0x2ab)](_0x2e677b-_0x2b309c/0x2,_0x2a14c7-0x5,_0x2b309c,(_0x55ca31+0xa)/0x2),_0x322bcb[_0x3bbba4(0x30b)]='#8F8E8E',_0x322bcb[_0x3bbba4(0x2ab)](_0x2e677b-_0x2b309c/0x2,_0x2a14c7-0x5+(_0x55ca31+0xa)/0x2,_0x2b309c,(_0x55ca31+0xa)/0x2),_0x322bcb[_0x3bbba4(0x245)]=_0x16d3b0[_0x3bbba4(0x4b9)],_0x322bcb[_0x3bbba4(0x32e)]=0x4,_0x322bcb['strokeRect'](_0x2e677b-_0x2b309c/0x2,_0x2a14c7-0x5,_0x2b309c,_0x55ca31+0xa),_0x165ff5(_0x5ceb3b,_0x2e677b,_0x2a14c7+_0x55ca31/0x2+0x3,0x10,_0x16d3b0[_0x3bbba4(0x4a9)],'center',!![]),_0x198623[_0x3bbba4(0x2cc)][_0x3bbba4(0x1ff)][_0x3bbba4(0x241)](0x0,(_0x2e677b-_0x2b309c/0x2)*_0x402300,(_0x2a14c7-0x5)*_0x402300,_0x2b309c*_0x402300,(_0x55ca31+0xa)*_0x402300),_0x322bcb[_0x3bbba4(0x40e)](0x0,_0x46e875*_0x198623[_0x3bbba4(0x210)]);}else{if(_0x198623['banned']){let _0x238486=_0xb86390['disconnected1']['get']();_0x322bcb[_0x3bbba4(0x40e)](0x0,-_0x238486*_0x198623[_0x3bbba4(0x210)]);const _0x3f0da4=_0x198623[_0x3bbba4(0x35a)]*0.3,_0x148195=0xc8,_0xd75635=(_0x198623['screenWidth']-_0x3f0da4)/0x2,_0x141917=(_0x198623[_0x3bbba4(0x210)]-_0x148195)/0x2-0xa;_0x322bcb['fillStyle']=_0x3bbba4(0x200),_0x322bcb[_0x3bbba4(0x245)]=_0x3bbba4(0x247),_0x322bcb[_0x3bbba4(0x32e)]=0xf,_0x322bcb[_0x3bbba4(0x3c9)](_0xd75635,_0x141917,_0x3f0da4,_0x148195),_0x322bcb[_0x3bbba4(0x2ab)](_0xd75635,_0x141917,_0x3f0da4,_0x148195),_0x165ff5(_0x3bbba4(0x4dd),_0x198623[_0x3bbba4(0x35a)]/0x2,_0x198623[_0x3bbba4(0x210)]/2.25,0x2d,_0x16d3b0[_0x3bbba4(0x4a9)],_0x3bbba4(0x3e7),0x1),_0x165ff5('This\x20decision\x20is\x20final.',_0x198623[_0x3bbba4(0x35a)]/0x2,_0x198623[_0x3bbba4(0x210)]/0x2-0xa,0x16,_0x16d3b0[_0x3bbba4(0x4a9)],_0x3bbba4(0x3e7),0x1),_0x165ff5(_0x3bbba4(0x376),_0x198623[_0x3bbba4(0x35a)]/0x2,_0x198623[_0x3bbba4(0x210)]/0x2+0x32,0x16,_0x16d3b0[_0x3bbba4(0x4a9)],'center',0x1),_0x322bcb[_0x3bbba4(0x40e)](0x0,_0x238486*_0x198623['screenHeight']);}else{if(_0x198623[_0x3bbba4(0x41f)]){let _0xfa85ae=_0xb86390[_0x3bbba4(0x23c)][_0x3bbba4(0x1cc)]();_0x322bcb[_0x3bbba4(0x40e)](0x0,-_0xfa85ae*_0x198623['screenHeight']);const _0xd2d5a0=_0x198623[_0x3bbba4(0x35a)]*0.4,_0x143ba4=0xc8,_0x5c5b48=(_0x198623['screenWidth']-_0xd2d5a0)/0x2,_0x12c370=(_0x198623['screenHeight']-_0x143ba4)/0x2-0xa;_0x322bcb['fillStyle']=_0x3bbba4(0x283),_0x322bcb[_0x3bbba4(0x245)]='#8b8900',_0x322bcb[_0x3bbba4(0x32e)]=0xf,_0x322bcb[_0x3bbba4(0x3c9)](_0x5c5b48,_0x12c370,_0xd2d5a0,_0x143ba4),_0x322bcb[_0x3bbba4(0x2ab)](_0x5c5b48,_0x12c370,_0xd2d5a0,_0x143ba4),_0x165ff5(_0x3bbba4(0x1cf),_0x198623['screenWidth']/0x2,_0x198623[_0x3bbba4(0x210)]/2.25,0x2d,_0x16d3b0[_0x3bbba4(0x4a9)],'center',0x1),_0x165ff5(_0x3bbba4(0x487),_0x198623[_0x3bbba4(0x35a)]/0x2,_0x198623[_0x3bbba4(0x210)]/0x2-0xa,0x16,_0x16d3b0[_0x3bbba4(0x4a9)],_0x3bbba4(0x3e7),0x1),_0x165ff5(_0x3bbba4(0x3a2),_0x198623[_0x3bbba4(0x35a)]/0x2,_0x198623[_0x3bbba4(0x210)]/0x2+0x32,0x16,_0x16d3b0[_0x3bbba4(0x4a9)],_0x3bbba4(0x3e7),0x1),_0x322bcb[_0x3bbba4(0x40e)](0x0,_0xfa85ae*_0x198623[_0x3bbba4(0x210)]);}else{if(_0x198623[_0x3bbba4(0x494)]){let _0x2440fe=_0xb86390[_0x3bbba4(0x23c)][_0x3bbba4(0x1cc)]();_0x322bcb[_0x3bbba4(0x40e)](0x0,-_0x2440fe*_0x198623[_0x3bbba4(0x210)]);const _0x519efc=_0x198623[_0x3bbba4(0x35a)]*0.3,_0x2b8a5c=0xc8,_0x52304b=(_0x198623[_0x3bbba4(0x35a)]-_0x519efc)/0x2,_0x34cefa=(_0x198623[_0x3bbba4(0x210)]-_0x2b8a5c)/0x2-0xa;_0x322bcb[_0x3bbba4(0x30b)]=_0x3bbba4(0x200),_0x322bcb[_0x3bbba4(0x245)]=_0x3bbba4(0x247),_0x322bcb[_0x3bbba4(0x32e)]=0xf,_0x322bcb[_0x3bbba4(0x3c9)](_0x52304b,_0x34cefa,_0x519efc,_0x2b8a5c),_0x322bcb['fillRect'](_0x52304b,_0x34cefa,_0x519efc,_0x2b8a5c),_0x165ff5('BANNED',_0x198623[_0x3bbba4(0x35a)]/0x2,_0x198623[_0x3bbba4(0x210)]/2.25,0x2d,_0x16d3b0['guiwhite'],_0x3bbba4(0x3e7),0x1);const _0x5ad792=_0x198623['messageban1']||'Temporarily\x20banned.';_0x165ff5(_0x5ad792,_0x198623[_0x3bbba4(0x35a)]/0x2,_0x198623[_0x3bbba4(0x210)]/0x2-0xa,0x16,_0x16d3b0[_0x3bbba4(0x4a9)],'center',0x1),_0x165ff5('Please\x20wait\x20until\x20the\x20next\x20server\x20restart.',_0x198623[_0x3bbba4(0x35a)]/0x2,_0x198623[_0x3bbba4(0x210)]/0x2+0x32,0x16,_0x16d3b0['guiwhite'],_0x3bbba4(0x3e7),0x1),_0x322bcb[_0x3bbba4(0x40e)](0x0,_0x2440fe*_0x198623[_0x3bbba4(0x210)]);}else{let _0x8935a8=_0xb86390[_0x3bbba4(0x23c)][_0x3bbba4(0x1cc)]();_0x322bcb[_0x3bbba4(0x40e)](0x0,-_0x8935a8*_0x198623[_0x3bbba4(0x210)]);const _0x3cc0a2=_0x198623['screenWidth']*0.3,_0xaf8e4e=0xc8,_0x1b6285=(_0x198623['screenWidth']-_0x3cc0a2)/0x2,_0x25f76f=(_0x198623[_0x3bbba4(0x210)]-_0xaf8e4e)/0x2-0xa;_0x322bcb[_0x3bbba4(0x30b)]='#a0a0a0',_0x322bcb[_0x3bbba4(0x245)]=_0x3bbba4(0x3e9),_0x322bcb[_0x3bbba4(0x32e)]=0xf,_0x322bcb[_0x3bbba4(0x3c9)](_0x1b6285,_0x25f76f,_0x3cc0a2,_0xaf8e4e),_0x322bcb['fillRect'](_0x1b6285,_0x25f76f,_0x3cc0a2,_0xaf8e4e),_0x165ff5(_0x3bbba4(0x3a7),_0x198623[_0x3bbba4(0x35a)]/0x2,_0x198623[_0x3bbba4(0x210)]/2.25,0x2d,_0x16d3b0[_0x3bbba4(0x4a9)],_0x3bbba4(0x3e7),0x1),_0x165ff5(_0x198623['messageerrorsocket']||_0x3bbba4(0x38f),_0x198623['screenWidth']/0x2,_0x198623[_0x3bbba4(0x210)]/0x2-0xa,0x16,_0x16d3b0[_0x3bbba4(0x4a9)],_0x3bbba4(0x3e7),0x1);let _0x452661=canvas['height']/_0x198623['screenHeight']/_0x198623['ratio'],_0x5ac92a=0x1e,_0x4d1fbc='Reload',_0x59950f=_0x85fe09(_0x4d1fbc,_0x5ac92a-0x3)+0x14,_0x21d95a=_0x198623['screenWidth']/0x2,_0x39d465=_0x198623[_0x3bbba4(0x210)]/1.9;if(_0x198623[_0x3bbba4(0x358)])_0x322bcb['fillStyle']=_0x3bbba4(0x3f3);else _0x198623[_0x3bbba4(0x3bb)]?_0x322bcb[_0x3bbba4(0x30b)]='#C7C3C3':_0x322bcb[_0x3bbba4(0x30b)]=_0x3bbba4(0x2d4);_0x322bcb[_0x3bbba4(0x2ab)](_0x21d95a-_0x59950f/0x2,_0x39d465-0x5,_0x59950f,(_0x5ac92a+0xa)/0x2),_0x322bcb[_0x3bbba4(0x30b)]=_0x3bbba4(0x4d5),_0x322bcb[_0x3bbba4(0x2ab)](_0x21d95a-_0x59950f/0x2,_0x39d465-0x5+(_0x5ac92a+0xa)/0x2,_0x59950f,(_0x5ac92a+0xa)/0x2),_0x322bcb[_0x3bbba4(0x245)]=_0x16d3b0[_0x3bbba4(0x4b9)],_0x322bcb['lineWidth']=0x4,_0x322bcb[_0x3bbba4(0x3c9)](_0x21d95a-_0x59950f/0x2,_0x39d465-0x5,_0x59950f,_0x5ac92a+0xa),_0x165ff5(_0x4d1fbc,_0x21d95a,_0x39d465+_0x5ac92a/0x2+0x3,0x10,_0x16d3b0['guiwhite'],_0x3bbba4(0x3e7),!![]),_0x198623[_0x3bbba4(0x2cc)][_0x3bbba4(0x1ff)][_0x3bbba4(0x241)](0x0,(_0x21d95a-_0x59950f/0x2)*_0x452661,(_0x39d465-0x5)*_0x452661,_0x59950f*_0x452661,(_0x5ac92a+0xa)*_0x452661),_0x322bcb[_0x3bbba4(0x40e)](0x0,_0x8935a8*_0x198623[_0x3bbba4(0x210)]);}}}}if(_0x198623[_0x3bbba4(0x2d3)])_0x165ff5(_0x198623[_0x3bbba4(0x40f)]||'',_0x198623[_0x3bbba4(0x35a)]/0x2,_0x198623['screenHeight']/0x2+0x1e,0xf,_0x16d3b0[_0x3bbba4(0x31b)],_0x3bbba4(0x3e7));},_0x5ae054=()=>{const _0x2076b4=_0x59d4a3,_0x1e839b=new Date(),_0x59bcae=_0x1e839b[_0x2076b4(0x4b2)](),_0x15b949=(_0x1e839b[_0x2076b4(0x281)]()+0x1<0xa?'0':'')+(_0x1e839b[_0x2076b4(0x281)]()+0x1),_0xa8c5ed=(_0x1e839b[_0x2076b4(0x3e5)]()<0xa?'0':'')+_0x1e839b[_0x2076b4(0x3e5)]();return _0x59bcae+'-'+_0x15b949+'-'+_0xa8c5ed;};console[_0x59d4a3(0x38c)](_0x5ae054());const _0x5c3658=()=>{const _0x5691b2=_0x59d4a3,_0x49d2c1=new Date(),_0x2581f7=_0x49d2c1[_0x5691b2(0x4b2)](),_0x483da1=(_0x49d2c1[_0x5691b2(0x281)]()+0x1<0xa?'0':'')+(_0x49d2c1[_0x5691b2(0x281)]()+0x1),_0x7b34cb=(_0x49d2c1['getDate']()<0xa?'0':'')+_0x49d2c1[_0x5691b2(0x3e5)](),_0x2bb989=(_0x49d2c1[_0x5691b2(0x26e)]()<0xa?'0':'')+_0x49d2c1[_0x5691b2(0x26e)](),_0x4532d4=(_0x49d2c1[_0x5691b2(0x286)]()<0xa?'0':'')+_0x49d2c1['getMinutes'](),_0x3e9912=(_0x49d2c1[_0x5691b2(0x307)]()<0xa?'0':'')+_0x49d2c1[_0x5691b2(0x307)](),_0x1e8b7=Intl['DateTimeFormat']()[_0x5691b2(0x34f)]()[_0x5691b2(0x2ba)];return{'dateID':_0x2581f7+'-'+_0x483da1+'-'+_0x7b34cb,'time':_0x2bb989+':'+_0x4532d4+':'+_0x3e9912,'timeZone':_0x1e8b7};};console[_0x59d4a3(0x38c)](_0x5c3658());function _0x3fc437(){const _0x1f2c5e=_0x59d4a3;let _0x2293c1=document[_0x1f2c5e(0x418)](_0x1f2c5e(0x27b));_0x2293c1['id']=_0x1f2c5e(0x2ee),_0x2293c1[_0x1f2c5e(0x4ba)][_0x1f2c5e(0x3be)]=_0x1f2c5e(0x29f),_0x2293c1[_0x1f2c5e(0x4ba)]['top']='0',_0x2293c1[_0x1f2c5e(0x4ba)][_0x1f2c5e(0x3f6)]='0',_0x2293c1['style'][_0x1f2c5e(0x453)]=_0x1f2c5e(0x216),_0x2293c1[_0x1f2c5e(0x4ba)]['height']=_0x1f2c5e(0x4b1),document[_0x1f2c5e(0x41d)][_0x1f2c5e(0x1d2)](_0x2293c1,document[_0x1f2c5e(0x41d)][_0x1f2c5e(0x479)]);let _0x3e09f2=_0x2293c1[_0x1f2c5e(0x438)]('2d'),_0x26530e=[];function _0x1741e9(){const _0xe9b31b=_0x1f2c5e;if(_0x2293c1[_0xe9b31b(0x453)]!==window[_0xe9b31b(0x2fe)])_0x2293c1['width']=window[_0xe9b31b(0x2fe)];if(_0x2293c1['height']!==window[_0xe9b31b(0x37a)])_0x2293c1[_0xe9b31b(0x410)]=window[_0xe9b31b(0x37a)];_0x3e09f2[_0xe9b31b(0x2fa)](0x0,0x0,_0x2293c1[_0xe9b31b(0x453)],_0x2293c1[_0xe9b31b(0x410)]);for(let _0x30b4d4 of _0x26530e){_0x30b4d4['y']+=_0x30b4d4['vel'],_0x30b4d4['y']>_0x2293c1[_0xe9b31b(0x410)]&&(_0x30b4d4['y']=-_0x30b4d4['r'],_0x30b4d4['x']=Math[_0xe9b31b(0x1db)]()*_0x2293c1[_0xe9b31b(0x453)]),_0x3e09f2[_0xe9b31b(0x1f4)]=_0x30b4d4[_0xe9b31b(0x3f1)],_0x3e09f2[_0xe9b31b(0x2ca)](),_0x3e09f2[_0xe9b31b(0x2c0)](_0x30b4d4['x'],_0x30b4d4['y'],_0x30b4d4['r'],0x0,0x2*Math['PI']),_0x3e09f2[_0xe9b31b(0x30b)]='#ffffff',_0x3e09f2[_0xe9b31b(0x22d)]();}if(_0x26530e[_0xe9b31b(0x233)]<0x64){let _0x39cdea=Math[_0xe9b31b(0x1db)]()*_0x2293c1['width'],_0x2f9411=Math[_0xe9b31b(0x1db)]()*_0x2293c1['height'],_0x424463=0x2+Math[_0xe9b31b(0x1db)]()*0x5,_0x5b854d=0.5+Math['random']()*0x1,_0x25c91e=Math[_0xe9b31b(0x1db)]();_0x26530e[_0xe9b31b(0x224)]({'x':_0x39cdea,'y':_0x2f9411,'r':_0x424463,'vel':_0x5b854d,'alpha':_0x25c91e});}if(_0x198623['gameStart'])_0x2293c1[_0xe9b31b(0x2c7)]();else requestAnimationFrame(_0x1741e9);}_0x1741e9();}function _0x16380b(){const _0x8dc209=_0x59d4a3;_0x198623[_0x8dc209(0x4bd)]=window[_0x8dc209(0x1e7)](_0x16380b),_0x3e3011[_0x8dc209(0x31f)](),_0x198623[_0x8dc209(0x428)][_0x8dc209(0x46d)]+=(_0x198623[_0x8dc209(0x428)]['view']-_0x198623[_0x8dc209(0x428)][_0x8dc209(0x46d)])/0xf;var _0x3d1ad2=_0x1054cf[_0x8dc209(0x260)][_0x8dc209(0x365)]?0x2:_0x45e032[_0x8dc209(0x4cd)]();_0x322bcb[_0x8dc209(0x207)]=_0x8dc209(0x262),_0x322bcb['lineJoin']=_0x8dc209(0x262);if(_0x198623[_0x8dc209(0x214)]&&!_0x198623['disconnected']&&!_0x198623['tryingtoreconnect']){_0x198623[_0x8dc209(0x1e2)]=_0x506685();if(document[_0x8dc209(0x29c)]('optFancy')[_0x8dc209(0x322)]||_0x198623[_0x8dc209(0x254)]){if(_0x198623[_0x8dc209(0x1e2)]-_0x1476c2>0x0){_0x198623[_0x8dc209(0x323)]=!![];let _0x373550=Date['now']();_0x40fcb5=_0x373550,_0x198623[_0x8dc209(0x1de)][_0x8dc209(0x264)](_0x198623['time']),_0x1476c2=_0x198623[_0x8dc209(0x1e2)],_0x198623['metrics'][_0x8dc209(0x2d6)]=_0x273191,_0x273191=0x0,_0x198623[_0x8dc209(0x294)][_0x8dc209(0x31e)]=_0x198623['updateTimes'],_0x198623[_0x8dc209(0x23d)]=0x0,_0x198623[_0x8dc209(0x345)]=Math['round'](0x3e8/(_0x198623[_0x8dc209(0x1e2)]-_0x40fcb5)),_0x198623[_0x8dc209(0x345)]=_0x474cee;}}else{if(document[_0x8dc209(0x29c)](_0x8dc209(0x300))[_0x8dc209(0x322)]||_0x198623[_0x8dc209(0x3b6)]){if(_0x198623[_0x8dc209(0x1e2)]-_0x1476c2>0xbb8){_0x198623['sendmessagefps']=![];let _0x52120f=Date[_0x8dc209(0x28a)]();_0x40fcb5=_0x52120f,_0x198623[_0x8dc209(0x1de)]['ping'](_0x198623[_0x8dc209(0x1e2)]),_0x1476c2=_0x198623[_0x8dc209(0x1e2)],_0x198623[_0x8dc209(0x294)][_0x8dc209(0x2d6)]=_0x273191,_0x273191=0x0,_0x198623[_0x8dc209(0x294)][_0x8dc209(0x31e)]=_0x198623[_0x8dc209(0x23d)],_0x198623[_0x8dc209(0x23d)]=0x0,_0x198623['currentFps']=Math[_0x8dc209(0x262)](0x3e8/(_0x198623[_0x8dc209(0x1e2)]-_0x40fcb5)),_0x198623[_0x8dc209(0x345)]=_0x474cee;}}else{if(_0x198623[_0x8dc209(0x1e2)]-_0x1476c2>0x3e8){_0x198623[_0x8dc209(0x323)]=!![];let _0x487777=Date[_0x8dc209(0x28a)]();_0x40fcb5=_0x487777,_0x198623[_0x8dc209(0x1de)]['ping'](_0x198623['time']),_0x1476c2=_0x198623[_0x8dc209(0x1e2)],_0x198623[_0x8dc209(0x294)][_0x8dc209(0x2d6)]=_0x273191,_0x273191=0x0,_0x198623['metrics'][_0x8dc209(0x31e)]=_0x198623[_0x8dc209(0x23d)],_0x198623[_0x8dc209(0x23d)]=0x0,_0x198623[_0x8dc209(0x345)]=Math['round'](0x3e8/(_0x198623[_0x8dc209(0x1e2)]-_0x40fcb5)),_0x198623[_0x8dc209(0x345)]=_0x474cee;}}}_0x198623['metrics'][_0x8dc209(0x24d)]=_0x198623[_0x8dc209(0x1e2)]-_0x198623[_0x8dc209(0x428)][_0x8dc209(0x1e2)];}_0x322bcb[_0x8dc209(0x40e)](0.5,0.5);try{if(_0x198623['gameStart'])_0x98427d(_0x3d1ad2,_0x45e032[_0x8dc209(0x1d6)]());else!_0x198623[_0x8dc209(0x4b8)]&&_0x381f9d();(_0x198623[_0x8dc209(0x234)]||_0x198623[_0x8dc209(0x2e2)]||_0x198623['diedseekbruh']||_0x198623[_0x8dc209(0x229)])&&_0x5917e5();if(_0x198623[_0x8dc209(0x3e6)])arenaClosed();else{if(_0x198623[_0x8dc209(0x4b8)])_0x16eed9();else{if(_0x198623[_0x8dc209(0x399)]&&_0x198623[_0x8dc209(0x214)]&&!_0x198623[_0x8dc209(0x3f2)])_0x1d2eb0();else{if(_0x198623[_0x8dc209(0x42b)])_0x3e7005();else _0x198623[_0x8dc209(0x3aa)]&&_0x40e849();}}}_0x322bcb[_0x8dc209(0x40e)](-0.5,-0.5),_0x198623[_0x8dc209(0x43a)]&&(console[_0x8dc209(0x38c)](_0x8dc209(0x1c9)),_0x198623[_0x8dc209(0x43a)]=![],_0x1476c2=_0x198623[_0x8dc209(0x1e2)]),!document[_0x8dc209(0x29c)](_0x8dc209(0x2ee))&&_0x3fc437();}catch(_0x210a31){_0xa12f07(_0x210a31),console['error'](_0x210a31),_0x322bcb[_0x8dc209(0x40e)](-0.5,-0.5);}}let _0x52c63e=0.3,_0x384fe7=0x1,_0x32aa72=0x0,_0x2c1b97=0x0,_0x399226=0x0,_0x3071a6=0x2,_0x101428=0.05;if(_0x52c63e){let _0x36abc4=document['createElement'](_0x59d4a3(0x27b));_0x36abc4[_0x59d4a3(0x4ba)][_0x59d4a3(0x3be)]=_0x59d4a3(0x3ba),_0x36abc4[_0x59d4a3(0x4ba)][_0x59d4a3(0x221)]='0',document[_0x59d4a3(0x41d)][_0x59d4a3(0x1d2)](_0x36abc4,document['body'][_0x59d4a3(0x479)]);let _0x487b19=_0x36abc4[_0x59d4a3(0x438)]('2d'),_0x2b8bf7=[];const _0x28c099=(_0x5be4e1,_0x594f1f,_0x1b2181,_0xc20d,_0x5c09e7)=>{const _0x520cba=_0x59d4a3;_0x487b19[_0x520cba(0x44e)](),_0x487b19[_0x520cba(0x40e)](_0x5be4e1,_0x594f1f),_0x487b19[_0x520cba(0x1ea)](_0x5c09e7),_0x487b19[_0x520cba(0x2ca)]();if(_0xc20d===_0x520cba(0x2b2))_0x487b19[_0x520cba(0x2c0)](0x0,0x0,_0x1b2181,0x0,0x2*Math['PI']);else{if(_0xc20d===_0x520cba(0x29d))_0x487b19['rect'](-_0x1b2181,-_0x1b2181,_0x1b2181*0x2,_0x1b2181*0x2);else{if(_0xc20d==='triangle')_0x487b19['moveTo'](0x0,-_0x1b2181),_0x487b19[_0x520cba(0x342)](-_0x1b2181,_0x1b2181),_0x487b19[_0x520cba(0x342)](_0x1b2181,_0x1b2181),_0x487b19['closePath']();else{if(_0xc20d===_0x520cba(0x4e2)){for(let _0xb22719=0x0;_0xb22719<0x5;_0xb22719++){_0x487b19[_0x520cba(0x342)](_0x1b2181*Math[_0x520cba(0x47e)](_0xb22719*0x2*Math['PI']/0x5),_0x1b2181*Math[_0x520cba(0x204)](_0xb22719*0x2*Math['PI']/0x5));}_0x487b19['closePath']();}}}}_0x487b19['strokeStyle']=_0x520cba(0x4a0),_0x487b19[_0x520cba(0x32e)]=0x5,_0x487b19['stroke'](),_0x487b19[_0x520cba(0x27d)]();};let _0x50ab8b=()=>{const _0x1308ae=_0x59d4a3;if(_0x36abc4['width']!==window[_0x1308ae(0x2fe)])_0x36abc4[_0x1308ae(0x453)]=window[_0x1308ae(0x2fe)];if(_0x36abc4[_0x1308ae(0x410)]!==window['innerHeight'])_0x36abc4[_0x1308ae(0x410)]=window[_0x1308ae(0x37a)];_0x487b19[_0x1308ae(0x2fa)](0x0,0x0,_0x36abc4['width'],_0x36abc4[_0x1308ae(0x410)]);for(let _0x510148 of _0x2b8bf7){_0x510148[_0x1308ae(0x356)]++,_0x510148['x']+=_0x510148[_0x1308ae(0x291)]*Math[_0x1308ae(0x47e)](_0x510148[_0x1308ae(0x2f5)]),_0x510148['y']+=_0x510148['vel']*Math[_0x1308ae(0x204)](_0x510148['dir']);let _0x50b276=Math[_0x1308ae(0x232)](0.4,0x1-_0x510148['y']/_0x36abc4[_0x1308ae(0x410)])*0x2;if(_0x50b276>0x0)_0x487b19[_0x1308ae(0x1f4)]=_0x50b276,_0x28c099(_0x510148['x'],_0x510148['y'],_0x510148['r'],_0x510148[_0x1308ae(0x2bb)],_0x510148[_0x1308ae(0x49e)]),_0x510148[_0x1308ae(0x49e)]+=_0x101428;else(_0x510148['x']<0x14||_0x510148['x']>window[_0x1308ae(0x2fe)]+0x14||_0x510148['y']<-0x19||_0x50b276<0x0||_0x198623[_0x1308ae(0x214)])&&(_0x510148[_0x1308ae(0x3f4)]=!![]);}if(Math[_0x1308ae(0x1db)]()<_0x52c63e){if(!_0x198623['gameStart']){let _0x3d8c9=-0xa,_0x5e03b7=_0x36abc4[_0x1308ae(0x453)]*(0x1-0x2*Math[_0x1308ae(0x1db)]());if(_0x2c1b97%0x2b)_0x399226++;_0x2c1b97++,_0x32aa72+=_0x384fe7;if(_0x2c1b97%0x5a0==0x0)_0x384fe7*=-0x1;if(_0x2c1b97%0x1==0x0)for(let _0xb27278=0x0;_0xb27278<0x168;_0xb27278+=0x168/0x1){let _0x5bd882=_0x36abc4[_0x1308ae(0x453)]/0x2+_0x5e03b7,_0x5e16bf=[_0x1308ae(0x2b2),'square',_0x1308ae(0x3e2),_0x1308ae(0x4e2)][Math[_0x1308ae(0x236)](Math['random']()*0x4)],_0x533610;_0x5e16bf===_0x1308ae(0x2b2)?_0x533610=0xa:_0x533610=0x14;let _0x2225ff=Math['PI']/0x2+0xa*(0x1-0x2*Math[_0x1308ae(0x1db)]())*Math['PI']/0xb4+0x1e*Math[_0x1308ae(0x204)](0.3*_0x2c1b97*Math['PI']/0xb4)*Math['PI']/0xb4,_0x51083a=_0x3071a6+0x2*Math[_0x1308ae(0x1db)]();_0x2b8bf7['push']({'x':_0x5bd882,'y':_0x3d8c9,'r':_0x533610,'dir':_0x2225ff,'vel':_0x51083a,'shape':_0x5e16bf,'rotation':0x0});}}}_0x198623[_0x1308ae(0x214)]?_0x36abc4[_0x1308ae(0x2c7)]():requestAnimationFrame(_0x50ab8b);};setInterval(()=>{const _0xbac1b6=_0x59d4a3;_0x2b8bf7=_0x2b8bf7[_0xbac1b6(0x3a9)](_0x226d5c=>!_0x226d5c[_0xbac1b6(0x3f4)]);},0x7d0),_0x50ab8b();}}(util,global,config,Canvas,_0x529bca,gameDraw,_0x13e9b0));
+import { util } from "./lib/util.js";
+import { global } from "./lib/global.js";
+import { config } from "./lib/config.js";
+import { Canvas } from "./lib/canvas.js";
+import { color as colors} from "./lib/color.js";
+import { gameDraw } from "./lib/gameDraw.js";
+import * as socketStuff from "./lib/socketInit.js";
+(async function (util, global, config, Canvas, color, gameDraw, socketStuff) {
+  let { socketInit, gui, leaderboard, minimap, moveCompensation, lag, getNow } =
+    socketStuff;
+  // fetch("changelog.md", { cache: "no-cache" })
+  // .then((response) => response.text())
+  // .then((response) => {
+  //     const changelogs = response.split("\n\n").map((changelog) => changelog.split("\n"));
+  //     for (let changelog of changelogs) {
+  //         changelog[0] = changelog[0].split(":").map((line) => line.trim());
+  //         document.getElementById("patchNotes").innerHTML += `<div><b>${changelog[0][0].slice(1).trim()}</b>: ${changelog[0].slice(1).join(":") || "Update lol"}<ul>${changelog.slice(1).map((line) => `<li>${line.slice(1).trim()}</li>`).join("")}</ul><hr></div>`;
+  //     }
+  // });
+  document.getElementById("antivpn").style.display = "none";
+  document.getElementById("antivpn1").style.display = "none";
+if (document.getElementById("antivpn1").checked) {
+  document.getElementById("antivpn1").checked = false;
+}
+  // Ensure the Animation class and animations object are correctly defined
+  class Animation {
+    constructor(start, to, smoothness = 0.05) {
+      this.start = start;
+      this.to = to;
+      this.value = start;
+      this.smoothness = smoothness;
+    }
+    reset() {
+      this.value = this.start;
+      return this.value;
+    }
+    getLerp() {
+      this.value = util.lerp(this.value, this.to, this.smoothness, true);
+      return this.value;
+    }
+    getNoLerp() {
+      this.value = this.to;
+      return this.value;
+    }
+    get() {
+      return config.graphical.fancyAnimations
+        ? this.getLerp()
+        : this.getNoLerp();
+    }
+    flip() {
+      const start = this.to;
+      const to = this.start;
+      this.start = start;
+      this.to = to;
+    }
+    goodEnough(val = 0.5) {
+      return Math.abs(this.to - this.value) < val;
+    }
+  }
+
+  let animations = (window.animations = {
+    connecting: new Animation(1, 0, 0.35),
+    disconnected: new Animation(1, 0, 0.5),
+    disconnected1: new Animation(0, 0),
+settingsmenu: new Animation(0, 1, 0.01),
+    deathScreen: new Animation(1, 0),
+    disconnected22: new Animation(0, 0),
+    upgradeMenu: new Animation(0, 1, 0.01),
+    skillMenu: new Animation(0, 1, 0.01),
+    optionsMenu: new Animation(1, 0),
+    minimap: new Animation(-1, 1, 0.025),
+    leaderboard: new Animation(-1, 1, 0.025),
+  });
+  // Mockup functions
+  // Prepare stuff
+  global.player = {
+    //Set up the player
+    id: -1,
+    x: global.screenWidth / 2,
+    y: global.screenHeight / 2,
+    vx: 0,
+    vy: 0,
+    cx: 0,
+    cy: 0,
+    renderx: global.screenWidth / 2,
+    rendery: global.screenHeight / 2,
+    renderv: 1,
+    slip: 0,
+    view: 1,
+    time: 0,
+    screenWidth: global.screenWidth,
+    screenHeight: global.screenHeight,
+    nameColor: "#ffffff",
+  };
+    global.time = 0;
+  var upgradeSpin = 0,
+  treeSpin = 0,
+    lastPing = 0,
+    renderTimes = 0,
+  currentFps;
+
+
+  global.clearUpgrades = () => (gui.upgrades = []);
+
+  global.movescreen = false;
+  // Build the leaderboard object
+  global.player = global.player;
+  global.isHoveringUpgradeBox = false;
+  global.reloadbox = false;
+  global.omgwork = false;
+  global.scoree = false;
+   global.needsReset = false;
+  global.notdied = false;
+  global.disappearu = false;
+  global.skipbox = false;
+  global.showdeathscreen = false;
+  global.skipClicked = false;
+  global.SettingsClicked = false;
+  global.sendmessagefps = false;
+  global.yesbox = false;
+  global.yesClicked = false;
+  global.nobox = false;
+  global.noClicked = false;
+  global.hidemenu = false;
+  global.choosenexit = false;
+  global.discardexit = false;
+  global.connecting = false;
+  global.closesettings = false;
+  global.reconnected = false;
+  global.Settingsbox = false;
+global.socket = false;
+global.hasclickedsettings = false;
+  global.reloadClicked = false;
+  global.upgradeMenuVisible = false;
+global.gameStart = false;
+global.gameStart1 = false;
+global.finishedloadingmockups = false;
+global.showintroduction = false;
+global.aa = false;
+global.aaaa = false;
+global.plsjust = false;
+  global.tryingtoreconnect = false;
+  global.waitingloop = false;
+  global.waitingloop1 = false;
+  global.optFancy = false;
+  global.betternofcway = false;
+  global.spectatebox = false;
+  global.cancelspectatebox = false;
+  global.cancelspectateClicked = false;
+  global.isspectating = false;
+  global.spectateClicked = false;
+  global.ab = false;
+  global.enterbox = false;
+  global.enterClicked = false;
+  global.reloadClicked1 = false;
+  global.reloadbox1 = false;
+  global.canUpgrade = false;
+  global.canSkill = false;
+  global.message = "";
+  global.mesage = "";
+  global.diedbruh = false;
+  global.diedseekbruh = false;
+  global.connectingmsg = "Loading Mockups...";
+  global.daconnectingmsg = "Connecting";
+  global.tips = [
+    "Tip: For better performance and a smoother experience, enable better FPS on the view options!",
+    "Tip: You can press T to see the class tree",
+    "Want to access to the closed beta server? Contact the developer!",
+    "Any cheating scripts such as multibox will result in a ban.",
+    "Tip: You can press X to spinlock your tank to aim better!",
+    "If you don't want to miss the events coming, join the official arras2.io discord server!",
+    "Tip: You can press ENTER to chat with people!",
+    "Want to play other gamemodes? Click on the Switch Gamemode button!",
+  ][Math.floor(Math.random() * 8)];
+
+  // Window setup <3
+  global.mobile && document.body.classList.add("mobile");
+  global.mobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(
+    navigator.userAgent,
+  );
+  var serverName = "Connected";
+  var provider = "Unknown";
+  // Define the URLs for each game mode
+const gameModeUrls = {
+  dday: 'https://super-duper-goggles-g475v6p65wwv2vgwp-30004.app.github.dev/lib/json/gamemodeData.json',
+  bossrush: 'https://super-duper-goggles-g475v6p65wwv2vgwp-30002.app.github.dev/lib/json/gamemodeData.json',
+  ddayusa: 'https://dreadful-superstition-wrg7qgg4x57rcvjj4-30004.app.github.dev/lib/json/gamemodeData.json',
+  bossrushusa: 'https://dreadful-superstition-wrg7qgg4x57rcvjj4-30002.app.github.dev/lib/json/gamemodeData.json',
+  dominationusa: 'https://dreadful-superstition-wrg7qgg4x57rcvjj4-30000.app.github.dev/lib/json/gamemodeData.json',
+  mothershipusa: 'https://dreadful-superstition-wrg7qgg4x57rcvjj4-30003.app.github.dev/lib/json/gamemodeData.json',
+  killraceusa: 'https://dreadful-superstition-wrg7qgg4x57rcvjj4-30008.app.github.dev/lib/json/gamemodeData.json',
+  coreusa: 'https://dreadful-superstition-wrg7qgg4x57rcvjj4-30009.app.github.dev/lib/json/gamemodeData.json',
+  ffausa: 'https://dreadful-superstition-wrg7qgg4x57rcvjj4-30005.app.github.dev/lib/json/gamemodeData.json',
+  twotdmusa: 'https://dreadful-superstition-wrg7qgg4x57rcvjj4-30001.app.github.dev/lib/json/gamemodeData.json',
+  mazeusa: 'https://dreadful-superstition-wrg7qgg4x57rcvjj4-30006.app.github.dev/lib/json/gamemodeData.json',
+  fourtdmusa: 'https://dreadful-superstition-wrg7qgg4x57rcvjj4-30007.app.github.dev/lib/json/gamemodeData.json',
+  ddayasia: 'https://frightening-shadow-4j7v66grj9qr2qjwq-30000.app.github.dev/lib/json/gamemodeData.json',
+  bossrushasia: 'https://frightening-shadow-4j7v66grj9qr2qjwq-30000.app.github.dev/lib/json/gamemodeData.json',
+  dominationasia: 'https://frightening-shadow-4j7v66grj9qr2qjwq-30000.app.github.dev/lib/json/gamemodeData.json',
+  mothershipasia: 'https://frightening-shadow-4j7v66grj9qr2qjwq-30000.app.github.dev/lib/json/gamemodeData.json',
+  killraceasia: 'https://frightening-shadow-4j7v66grj9qr2qjwq-30000.app.github.dev/lib/json/gamemodeData.json',
+  coreasia: 'https://frightening-shadow-4j7v66grj9qr2qjwq-30000.app.github.dev/lib/json/gamemodeData.json',
+  ffaasia: 'https://frightening-shadow-4j7v66grj9qr2qjwq-30000.app.github.dev/lib/json/gamemodeData.json',
+  twotdmasia: 'https://frightening-shadow-4j7v66grj9qr2qjwq-30000.app.github.dev/lib/json/gamemodeData.json',
+  mazeasia: 'https://frightening-shadow-4j7v66grj9qr2qjwq-30000.app.github.dev/lib/json/gamemodeData.json',
+  fourtdmasia: 'https://frightening-shadow-4j7v66grj9qr2qjwq-30000.app.github.dev/lib/json/gamemodeData.json',
+  domination: 'https://super-duper-goggles-g475v6p65wwv2vgwp-30000.app.github.dev/lib/json/gamemodeData.json',
+  mothership: 'https://super-duper-goggles-g475v6p65wwv2vgwp-30003.app.github.dev/lib/json/gamemodeData.json',
+  killrace: 'https://super-duper-goggles-g475v6p65wwv2vgwp-30008.app.github.dev/lib/json/gamemodeData.json',
+  closedbeta: 'https://automatic-space-rotary-phone-57444pjr7vq3vx57-3003.app.github.dev/lib/json/gamemodeData.json',
+core: 'https://super-duper-goggles-g475v6p65wwv2vgwp-30009.app.github.dev/lib/json/gamemodeData.json',
+ffa: 'https://super-duper-goggles-g475v6p65wwv2vgwp-30005.app.github.dev/lib/json/gamemodeData.json',
+twotdm: 'https://super-duper-goggles-g475v6p65wwv2vgwp-30001.app.github.dev/lib/json/gamemodeData.json',
+maze: 'https://super-duper-goggles-g475v6p65wwv2vgwp-30006.app.github.dev/lib/json/gamemodeData.json',
+fourtdm: 'https://super-duper-goggles-g475v6p65wwv2vgwp-30007.app.github.dev/lib/json/gamemodeData.json',
+};
+
+// Initialize player counts
+let playerCounts = {
+dday: 0,
+bossrush: 0,
+domination: 0,
+mothership: 0,
+ddayusa: 0,
+bossrushusa: 0,
+dominationusa: 0,
+mothershipusa: 0,
+killraceusa: 0,
+coreusa: 0,
+ffausa: 0,
+twotdmusa: 0,
+mazeusa: 0,
+fourtdmusa: 0,
+ddayasia: 0,
+bossrushasia: 0,
+dominationasia: 0,
+mothershipasia: 0,
+killraceasia: 0,
+coreasia: 0,
+ffaasia: 0,
+twotdmasia: 0,
+mazeasia: 0,
+fourtdmasia: 0,
+killrace: 0,
+core: 0,
+closedbeta: 0,
+ffa: 0,
+twotdm: 0,
+maze: 0,
+fourtdm: 0,
+};
+
+// Function to fetch player counts from all servers
+function fetchAllPlayerCounts() {
+  const fetchPromises = Object.entries(gameModeUrls).map(([mode, url]) => 
+      fetch(url)
+          .then(response => response.json())
+          .then(data => {
+              // Assuming the player count is in a field called 'players'
+              // Adjust this based on the actual structure of your JSON
+              playerCounts[mode] = data.players || 0;
+          })
+          .catch(error => {
+              console.error(`Error fetching ${mode} player count:`, error);
+              playerCounts[mode] = 0; // Set to 0 if there's an error
+          })
+  );
+
+
+
+  // Wait for all fetches to complete
+  Promise.all(fetchPromises).then(() => {
+ updateTotalPlayerCount(); // Call updateTotalPlayerCount here
+ updateTotalPlayerCount1();
+ updateTotalPlayerCount2();
+ updateTotalPlayerCount3();
+ updateTotalPlayerCounteurope();
+updateTotalPlayerCountusa();
+updateTotalPlayerCountasia();
+ updateTotalPlayerCount4();
+ updateTotalPlayerCount5();
+ updateTotalPlayerCount6();
+ updateTotalPlayerCount7();
+ updateTotalPlayerCount8();
+ updateTotalPlayerCount9();
+ updateTotalPlayerCount10();
+ updateTotalPlayerCount11();
+      // You might want to trigger a redraw of your UI here
+  });
+}
+function updateTotalPlayerCount() {
+  let totalPlayers = 0;
+  totalPlayers += isNaN(playerCounts.dday) ? 0 : playerCounts.dday;
+  totalPlayers += isNaN(playerCounts.bossrush) ? 0 : playerCounts.bossrush;
+  totalPlayers += isNaN(playerCounts.domination) ? 0 : playerCounts.domination;
+  totalPlayers += isNaN(playerCounts.mothership) ? 0 : playerCounts.mothership;
+  totalPlayers += isNaN(playerCounts.killrace) ? 0 : playerCounts.killrace;
+  totalPlayers += isNaN(playerCounts.core) ? 0 : playerCounts.core;
+  totalPlayers += isNaN(playerCounts.closedbeta) ? 0 : playerCounts.closedbeta;
+  totalPlayers += isNaN(playerCounts.ffa) ? 0 : playerCounts.ffa;
+  totalPlayers += isNaN(playerCounts.twotdm) ? 0 : playerCounts.twotdm;
+  totalPlayers += isNaN(playerCounts.maze) ? 0 : playerCounts.maze;
+  totalPlayers += isNaN(playerCounts.fourtdm) ? 0 : playerCounts.fourtdm;
+  totalPlayers += isNaN(playerCounts.ddayusa) ? 0 : playerCounts.ddayusa;
+  totalPlayers += isNaN(playerCounts.bossrushusa) ? 0 : playerCounts.bossrushusa;
+  totalPlayers += isNaN(playerCounts.dominationusa) ? 0 : playerCounts.dominationusa;
+  totalPlayers += isNaN(playerCounts.mothershipusa) ? 0 : playerCounts.mothershipusa;
+  totalPlayers += isNaN(playerCounts.killraceusa) ? 0 : playerCounts.killraceusa;
+  totalPlayers += isNaN(playerCounts.coreusa) ? 0 : playerCounts.coreusa;
+  totalPlayers += isNaN(playerCounts.ffausa) ? 0 : playerCounts.ffausa;
+  totalPlayers += isNaN(playerCounts.twotdmusa) ? 0 : playerCounts.twotdmusa;
+  totalPlayers += isNaN(playerCounts.mazeusa) ? 0 : playerCounts.mazeusa;
+  totalPlayers += isNaN(playerCounts.fourtdmusa) ? 0 : playerCounts.fourtdmusa;
+  totalPlayers += isNaN(playerCounts.ddayasia) ? 0 : playerCounts.ddayasia;
+  totalPlayers += isNaN(playerCounts.bossrushasia) ? 0 : playerCounts.bossrushasia;
+  totalPlayers += isNaN(playerCounts.dominationasia) ? 0 : playerCounts.dominationasia;
+  totalPlayers += isNaN(playerCounts.mothershipasia) ? 0 : playerCounts.mothershipasia;
+  totalPlayers += isNaN(playerCounts.killraceasia) ? 0 : playerCounts.killraceasia;
+  totalPlayers += isNaN(playerCounts.coreasia) ? 0 : playerCounts.coreasia;
+  totalPlayers += isNaN(playerCounts.ffaasia) ? 0 : playerCounts.ffaasia;
+  totalPlayers += isNaN(playerCounts.twotdmasia) ? 0 : playerCounts.twotdmasia;
+  totalPlayers += isNaN(playerCounts.mazeasia) ? 0 : playerCounts.mazeasia;
+  totalPlayers += isNaN(playerCounts.fourtdmasia) ? 0 : playerCounts.fourtdmasia;
+  document.getElementById("totalPlayerCount").textContent = `${totalPlayers} players`;
+}
+function updateTotalPlayerCounteurope() {
+  let totalPlayers = 0;
+  totalPlayers += isNaN(playerCounts.dday) ? 0 : playerCounts.dday;
+  totalPlayers += isNaN(playerCounts.bossrush) ? 0 : playerCounts.bossrush;
+  totalPlayers += isNaN(playerCounts.domination) ? 0 : playerCounts.domination;
+  totalPlayers += isNaN(playerCounts.mothership) ? 0 : playerCounts.mothership;
+  totalPlayers += isNaN(playerCounts.killrace) ? 0 : playerCounts.killrace;
+  totalPlayers += isNaN(playerCounts.core) ? 0 : playerCounts.core;
+  totalPlayers += isNaN(playerCounts.closedbeta) ? 0 : playerCounts.closedbeta;
+  totalPlayers += isNaN(playerCounts.ffa) ? 0 : playerCounts.ffa;
+  totalPlayers += isNaN(playerCounts.twotdm) ? 0 : playerCounts.twotdm;
+  totalPlayers += isNaN(playerCounts.maze) ? 0 : playerCounts.maze;
+  totalPlayers += isNaN(playerCounts.fourtdm) ? 0 : playerCounts.fourtdm;
+  document.getElementById("totalPlayerCounteurope").textContent = `${totalPlayers} players`;
+}
+function updateTotalPlayerCountusa() {
+  let totalPlayers = 0;
+  totalPlayers += isNaN(playerCounts.ddayusa) ? 0 : playerCounts.ddayusa;
+  totalPlayers += isNaN(playerCounts.bossrushusa) ? 0 : playerCounts.bossrushusa;
+  totalPlayers += isNaN(playerCounts.dominationusa) ? 0 : playerCounts.dominationusa;
+  totalPlayers += isNaN(playerCounts.mothershipusa) ? 0 : playerCounts.mothershipusa;
+  totalPlayers += isNaN(playerCounts.killraceusa) ? 0 : playerCounts.killraceusa;
+  totalPlayers += isNaN(playerCounts.coreusa) ? 0 : playerCounts.coreusa;
+  totalPlayers += isNaN(playerCounts.ffausa) ? 0 : playerCounts.ffausa;
+  totalPlayers += isNaN(playerCounts.twotdmusa) ? 0 : playerCounts.twotdmusa;
+  totalPlayers += isNaN(playerCounts.mazeusa) ? 0 : playerCounts.mazeusa;
+  totalPlayers += isNaN(playerCounts.fourtdmusa) ? 0 : playerCounts.fourtdmusa;
+  document.getElementById("totalPlayerCountusa").textContent = `${totalPlayers} players`;
+}
+function updateTotalPlayerCountasia() {
+  let totalPlayers = 0;
+  totalPlayers += isNaN(playerCounts.ddayasia) ? 0 : playerCounts.ddayasia;
+  totalPlayers += isNaN(playerCounts.bossrushasia) ? 0 : playerCounts.bossrushasia;
+  totalPlayers += isNaN(playerCounts.dominationasia) ? 0 : playerCounts.dominationasia;
+  totalPlayers += isNaN(playerCounts.mothershipasia) ? 0 : playerCounts.mothershipasia;
+  totalPlayers += isNaN(playerCounts.killraceasia) ? 0 : playerCounts.killraceasia;
+  totalPlayers += isNaN(playerCounts.coreasia) ? 0 : playerCounts.coreasia;
+  totalPlayers += isNaN(playerCounts.ffaasia) ? 0 : playerCounts.ffaasia;
+  totalPlayers += isNaN(playerCounts.twotdmasia) ? 0 : playerCounts.twotdmasia;
+  totalPlayers += isNaN(playerCounts.mazeasia) ? 0 : playerCounts.mazeasia;
+  totalPlayers += isNaN(playerCounts.fourtdmasia) ? 0 : playerCounts.fourtdmasia;
+  document.getElementById("totalPlayerCountasia").textContent = `${totalPlayers} players`;
+}
+// Global variable to track whether the USA region button is clicked
+let isUsaRealSelected = false;
+let isAsiaRealSelected = false;
+function updateTotalPlayerCount1() {
+  let totalPlayers = 0;
+  // Check if the USA region button was clicked
+  if (isUsaRealSelected) {
+      totalPlayers += isNaN(playerCounts.ddayusa) ? 0 : playerCounts.ddayusa;
+  } else if (isAsiaRealSelected) {
+      totalPlayers += isNaN(playerCounts.ddayasia) ? 0 : playerCounts.ddayasia;
+  } else {
+      totalPlayers += isNaN(playerCounts.dday) ? 0 : playerCounts.dday;
+  }
+  document.getElementById("totalplayersred").textContent = `${totalPlayers} players`;
+}
+function updateTotalPlayerCount2() {
+  let totalPlayers = 0;
+  if (isUsaRealSelected) {
+      totalPlayers += isNaN(playerCounts.bossrushusa) ? 0 : playerCounts.bossrushusa;
+  } else if (isAsiaRealSelected) {
+      totalPlayers += isNaN(playerCounts.bossrushasia) ? 0 : playerCounts.bossrushasia;
+  } else {
+      totalPlayers += isNaN(playerCounts.bossrush) ? 0 : playerCounts.bossrush;
+  }
+  document.getElementById("totalplayersyellow").textContent = `${totalPlayers} players`;
+}
+
+function updateTotalPlayerCount3() {
+  let totalPlayers = 0;
+  if (isUsaRealSelected) {
+      totalPlayers += isNaN(playerCounts.dominationusa) ? 0 : playerCounts.dominationusa;
+  } else if (isAsiaRealSelected) {
+      totalPlayers += isNaN(playerCounts.dominationasia) ? 0 : playerCounts.dominationasia;
+  } else {
+      totalPlayers += isNaN(playerCounts.domination) ? 0 : playerCounts.domination;
+  }
+  document.getElementById("totalplayersblue").textContent = `${totalPlayers} players`;
+}
+
+function updateTotalPlayerCount4() {
+  let totalPlayers = 0;
+  if (isUsaRealSelected) {
+      totalPlayers += isNaN(playerCounts.mothershipusa) ? 0 : playerCounts.mothershipusa;
+  } else if (isAsiaRealSelected) {
+      totalPlayers += isNaN(playerCounts.mothershipasia) ? 0 : playerCounts.mothershipasia;
+  } else {
+      totalPlayers += isNaN(playerCounts.mothership) ? 0 : playerCounts.mothership;
+  }
+  document.getElementById("totalplayersgreen").textContent = `${totalPlayers} players`;
+}
+
+function updateTotalPlayerCount5() {
+  let totalPlayers = 0;
+  if (isUsaRealSelected) {
+      totalPlayers += isNaN(playerCounts.closedbetausa) ? 0 : playerCounts.closedbetausa;
+  } else if (isAsiaRealSelected) {
+      totalPlayers += isNaN(playerCounts.closedbetaasia) ? 0 : playerCounts.closedbetaasia;
+  } else {
+      totalPlayers += isNaN(playerCounts.closedbeta) ? 0 : playerCounts.closedbeta;
+  }
+  document.getElementById("totalplayersbeige").textContent = `${totalPlayers} players`;
+}
+
+function updateTotalPlayerCount6() {
+  let totalPlayers = 0;
+  if (isUsaRealSelected) {
+      totalPlayers += isNaN(playerCounts.killraceusa) ? 0 : playerCounts.killraceusa;
+  } else if (isAsiaRealSelected) {
+      totalPlayers += isNaN(playerCounts.killraceasia) ? 0 : playerCounts.killraceasia;
+  } else {
+      totalPlayers += isNaN(playerCounts.killrace) ? 0 : playerCounts.killrace;
+  }
+  document.getElementById("totalplayersbrown").textContent = `${totalPlayers} players`;
+}
+
+function updateTotalPlayerCount7() {
+  let totalPlayers = 0;
+  if (isUsaRealSelected) {
+      totalPlayers += isNaN(playerCounts.coreusa) ? 0 : playerCounts.coreusa;
+  } else if (isAsiaRealSelected) {
+      totalPlayers += isNaN(playerCounts.coreasia) ? 0 : playerCounts.coreasia;
+  } else {
+      totalPlayers += isNaN(playerCounts.core) ? 0 : playerCounts.core;
+  }
+  document.getElementById("totalplayerspink").textContent = `${totalPlayers} players`;
+}
+
+function updateTotalPlayerCount8() {
+  let totalPlayers = 0;
+  if (isUsaRealSelected) {
+      totalPlayers += isNaN(playerCounts.ffausa) ? 0 : playerCounts.ffausa;
+  } else if (isAsiaRealSelected) {
+      totalPlayers += isNaN(playerCounts.ffaasia) ? 0 : playerCounts.ffaasia;
+  } else {
+      totalPlayers += isNaN(playerCounts.ffa) ? 0 : playerCounts.ffa;
+  }
+  document.getElementById("totalplayersffa").textContent = `${totalPlayers} players`;
+}
+
+function updateTotalPlayerCount9() {
+  let totalPlayers = 0;
+  if (isUsaRealSelected) {
+      totalPlayers += isNaN(playerCounts.twotdmusa) ? 0 : playerCounts.twotdmusa;
+  } else if (isAsiaRealSelected) {
+      totalPlayers += isNaN(playerCounts.twotdmasia) ? 0 : playerCounts.twotdmasia;
+  } else {
+      totalPlayers += isNaN(playerCounts.twotdm) ? 0 : playerCounts.twotdm;
+  }
+  document.getElementById("totalplayers2tdm").textContent = `${totalPlayers} players`;
+}
+
+function updateTotalPlayerCount10() {
+  let totalPlayers = 0;
+  if (isUsaRealSelected) {
+      totalPlayers += isNaN(playerCounts.mazeusa) ? 0 : playerCounts.mazeusa;
+  } else if (isAsiaRealSelected) {
+      totalPlayers += isNaN(playerCounts.mazeasia) ? 0 : playerCounts.mazeasia;
+  } else {
+      totalPlayers += isNaN(playerCounts.maze) ? 0 : playerCounts.maze;
+  }
+  document.getElementById("totalplayersmaze").textContent = `${totalPlayers} players`;
+}
+
+function updateTotalPlayerCount11() {
+  let totalPlayers = 0;
+  if (isUsaRealSelected) {
+      totalPlayers += isNaN(playerCounts.fourtdmusa) ? 0 : playerCounts.fourtdmusa;
+  } else if (isAsiaRealSelected) {
+      totalPlayers += isNaN(playerCounts.fourtdmasia) ? 0 : playerCounts.fourtdmasia;
+  } else {
+      totalPlayers += isNaN(playerCounts.fourtdm) ? 0 : playerCounts.fourtdm;
+  }
+  document.getElementById("totalplayers4tdm").textContent = `${totalPlayers} players`;
+}
+// Call this function periodically, e.g., every 60 seconds
+setInterval(fetchAllPlayerCounts, 500);
+setInterval(updateTotalPlayerCount, 500);
+setInterval(updateTotalPlayerCount1, 500);
+setInterval(updateTotalPlayerCount2, 500);
+setInterval(updateTotalPlayerCount3, 500);
+setInterval(updateTotalPlayerCount4, 500);
+setInterval(updateTotalPlayerCount5, 500);
+setInterval(updateTotalPlayerCount6, 500);
+setInterval(updateTotalPlayerCount7, 500);
+setInterval(updateTotalPlayerCount8, 500);
+setInterval(updateTotalPlayerCount9, 500);
+setInterval(updateTotalPlayerCount10, 500);
+setInterval(updateTotalPlayerCount11, 500);
+setInterval(updateTotalPlayerCounteurope, 500);
+setInterval(updateTotalPlayerCountusa, 500);
+setInterval(updateTotalPlayerCountasia, 500);
+// Also call it once when the game starts
+fetchAllPlayerCounts();
+updateTotalPlayerCount();
+updateTotalPlayerCounteurope();
+updateTotalPlayerCountusa();
+updateTotalPlayerCountasia();
+function getMockups() {
+  global.mockupLoading = new Promise((resolve) => {
+    fetch("mockups.json")
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error(`Network response was not ok: ${response.statusText}`);
+        }
+        return response.json();
+      })
+      .then((data) => {
+        global.mockups = data;
+        console.log("Mockups loading complete.");
+        resolve();
+      })
+      .catch((error) => {
+        console.error("Error loading mockups:", error);
+        resolve(); // Resolve even on error to avoid hanging
+      });
+  });
+}
+
+  // Function to show the grey box with slide-in animation
+  function showGreyBox() {
+    greyBox.style.display = 'block';
+    greyBox.style.top = '20%'; // Move to the middle of the screen
+  
+    // Automatically hide the box after 3 seconds
+    setTimeout(function() {
+        greyBox.style.opacity = '0'; // Start fading out
+        setTimeout(function() {
+            greyBox.style.top = '-100px'; // Move back to the top
+            greyBox.style.opacity = '1'; // Reset opacity for next time
+            greyBox.style.display = 'none'; // Hide it
+        }, 500); // Wait for the fade-out transition
+    }, 3000); // 3 seconds before hiding
+  }
+    // Function to show the grey box with slide-in animation
+    function showGreyBoxno() {
+      greyBoxn.style.display = 'block';
+      greyBoxn.style.top = '20%'; // Move to the middle of the screen
+    
+      // Automatically hide the box after 3 seconds
+      setTimeout(function() {
+          greyBoxn.style.opacity = '0'; // Start fading out
+          setTimeout(function() {
+              greyBoxn.style.top = '-100px'; // Move back to the top
+              greyBoxn.style.opacity = '1'; // Reset opacity for next time
+              greyBoxn.style.display = 'none'; // Hide it
+          }, 500); // Wait for the fade-out transition
+      }, 3000); // 3 seconds before hiding
+    }
+    // Function to show the grey box with slide-in animation
+    function showGreyBox1() {
+      greyBox1.style.display = 'block';
+      greyBox1.style.top = '20%'; // Move to the middle of the screen
+    
+      // Automatically hide the box after 3 seconds
+      setTimeout(function() {
+          greyBox1.style.opacity = '0'; // Start fading out
+          setTimeout(function() {
+              greyBox1.style.top = '-100px'; // Move back to the top
+              greyBox1.style.opacity = '1'; // Reset opacity for next time
+              greyBox1.style.display = 'none'; // Hide it
+          }, 500); // Wait for the fade-out transition
+      }, 3000); // 3 seconds before hiding
+    }
+    // Function to show the grey box with slide-in animation
+    function showGreyBox2() {
+      greyBox2.style.display = 'block';
+      greyBox2.style.top = '20%'; // Move to the middle of the screen
+    
+      // Automatically hide the box after 3 seconds
+      setTimeout(function() {
+          greyBox2.style.opacity = '0'; // Start fading out
+          setTimeout(function() {
+              greyBox2.style.top = '-100px'; // Move back to the top
+              greyBox2.style.opacity = '1'; // Reset opacity for next time
+              greyBox2.style.display = 'none'; // Hide it
+          }, 500); // Wait for the fade-out transition
+      }, 3000); // 3 seconds before hiding
+    }
+    function showGreyBox3() {
+      greyBox3.style.display = 'block';
+      greyBox3.style.top = '20%'; // Move to the middle of the screen
+    
+      // Automatically hide the box after 3 seconds
+      setTimeout(function() {
+          greyBox3.style.opacity = '0'; // Start fading out
+          setTimeout(function() {
+              greyBox3.style.top = '-100px'; // Move back to the top
+              greyBox3.style.opacity = '1'; // Reset opacity for next time
+              greyBox3.style.display = 'none'; // Hide it
+          }, 500); // Wait for the fade-out transition
+      }, 3000); // 3 seconds before hiding
+    }
+// Function to create the grey box dynamically
+function createGreyBox() {
+  var greyBox = document.createElement('div');
+  greyBox.id = 'greyBox';
+  greyBox.innerHTML = 'You do not have permissions to join this server.';
+  
+  // Apply styles directly in JavaScript
+  greyBox.style.display = 'none';
+  greyBox.style.position = 'fixed';
+  greyBox.style.top = '-100px';
+  greyBox.style.left = '50%';
+  greyBox.style.transform = 'translateX(-50%)';
+  greyBox.style.width = '300px';
+  greyBox.style.padding = '20px';
+  greyBox.style.backgroundColor = '#363636';
+  greyBox.style.color = 'white';
+  greyBox.style.fontSize = '16px';
+  greyBox.style.textAlign = 'center';
+  greyBox.style.borderRadius = '10px';
+  greyBox.style.boxShadow = '0 5px 15px rgba(0, 0, 0, 0.3)';
+  greyBox.style.zIndex = '1000';
+  greyBox.style.transition = 'top 0.5s ease-out, opacity 0.5s ease-out';
+  greyBox.style.opacity = '1'; // Initial opacity for fade-out effect
+
+  // Append to body
+  document.body.appendChild(greyBox);
+  return greyBox;
+}
+function createGreyBoxn() {
+  var greyBoxn = document.createElement('div');
+  greyBoxn.id = 'greyBox';
+  greyBoxn.innerHTML = 'This feature is not available yet.';
+  
+  // Apply styles directly in JavaScript
+  greyBoxn.style.display = 'none';
+  greyBoxn.style.position = 'fixed';
+  greyBoxn.style.top = '-100px';
+  greyBoxn.style.left = '50%';
+  greyBoxn.style.transform = 'translateX(-50%)';
+  greyBoxn.style.width = '300px';
+  greyBoxn.style.padding = '20px';
+  greyBoxn.style.backgroundColor = '#363636';
+  greyBoxn.style.color = 'white';
+  greyBoxn.style.fontSize = '16px';
+  greyBoxn.style.textAlign = 'center';
+  greyBoxn.style.borderRadius = '10px';
+  greyBoxn.style.boxShadow = '0 5px 15px rgba(0, 0, 0, 0.3)';
+  greyBoxn.style.zIndex = '1000';
+  greyBoxn.style.transition = 'top 0.5s ease-out, opacity 0.5s ease-out';
+  greyBoxn.style.opacity = '1'; // Initial opacity for fade-out effect
+
+  // Append to body
+  document.body.appendChild(greyBoxn);
+  return greyBoxn;
+}
+// Function to create the grey box dynamically
+function createGreyBox1() {
+  var greyBox1 = document.createElement('div');
+  greyBox1.id = 'greyBox';
+  greyBox1.innerHTML = 'No IP address detected.';
+  
+  // Apply styles directly in JavaScript
+  greyBox1.style.display = 'none';
+  greyBox1.style.position = 'fixed';
+  greyBox1.style.top = '-100px';
+  greyBox1.style.left = '50%';
+  greyBox1.style.transform = 'translateX(-50%)';
+  greyBox1.style.width = '300px';
+  greyBox1.style.padding = '20px';
+  greyBox1.style.backgroundColor = '#363636';
+  greyBox1.style.color = 'white';
+  greyBox1.style.fontSize = '16px';
+  greyBox1.style.textAlign = 'center';
+  greyBox1.style.borderRadius = '10px';
+  greyBox1.style.boxShadow = '0 5px 15px rgba(0, 0, 0, 0.3)';
+  greyBox1.style.zIndex = '1000';
+  greyBox1.style.transition = 'top 0.5s ease-out, opacity 0.5s ease-out';
+  greyBox1.style.opacity = '1'; // Initial opacity for fade-out effect
+
+  // Append to body
+  document.body.appendChild(greyBox1);
+  return greyBox1;
+}
+function createGreyBox2() {
+  var greyBox2 = document.createElement('div');
+  greyBox2.id = 'greyBox';
+  greyBox2.innerHTML = 'You have been banned from the game.';
+  
+  // Apply styles directly in JavaScript
+  greyBox2.style.display = 'none';
+  greyBox2.style.position = 'fixed';
+  greyBox2.style.top = '-100px';
+  greyBox2.style.left = '50%';
+  greyBox2.style.transform = 'translateX(-50%)';
+  greyBox2.style.width = '300px';
+  greyBox2.style.padding = '20px';
+  greyBox2.style.backgroundColor = '#363636';
+  greyBox2.style.color = 'white';
+  greyBox2.style.fontSize = '16px';
+  greyBox2.style.textAlign = 'center';
+  greyBox2.style.borderRadius = '10px';
+  greyBox2.style.boxShadow = '0 5px 15px rgba(0, 0, 0, 0.3)';
+  greyBox2.style.zIndex = '1000';
+  greyBox2.style.transition = 'top 0.5s ease-out, opacity 0.5s ease-out';
+  greyBox2.style.opacity = '1'; // Initial opacity for fade-out effect
+
+  // Append to body
+  document.body.appendChild(greyBox2);
+  return greyBox2;
+}
+
+
+function createGreyBox3() {
+  var greyBox3 = document.createElement('div');
+  greyBox3.id = 'greyBox';
+  greyBox3.innerHTML = 'You have been temporarily banned from the game.';
+  
+  // Apply styles directly in JavaScript
+  greyBox3.style.display = 'none';
+  greyBox3.style.position = 'fixed';
+  greyBox3.style.top = '-100px';
+  greyBox3.style.left = '50%';
+  greyBox3.style.transform = 'translateX(-50%)';
+  greyBox3.style.width = '300px';
+  greyBox3.style.padding = '20px';
+  greyBox3.style.backgroundColor = '#363636';
+  greyBox3.style.color = 'white';
+  greyBox3.style.fontSize = '16px';
+  greyBox3.style.textAlign = 'center';
+  greyBox3.style.borderRadius = '10px';
+  greyBox3.style.boxShadow = '0 5px 15px rgba(0, 0, 0, 0.3)';
+  greyBox3.style.zIndex = '1000';
+  greyBox3.style.transition = 'top 0.5s ease-out, opacity 0.5s ease-out';
+  greyBox3.style.opacity = '1'; // Initial opacity for fade-out effect
+
+  // Append to body
+  document.body.appendChild(greyBox3);
+  return greyBox3;
+}
+// Create the grey box element
+var greyBox = createGreyBox();
+var greyBox1 = createGreyBox1();
+var greyBox2 = createGreyBox2();
+var greyBox3 = createGreyBox3();
+var greyBoxn = createGreyBoxn();
+window.onload = async () => {
+  window.serverAdd = "" || "arras2railway1-production.up.railway.app";
+
+  if (window.serverAdd !== "") {
+      global.mockupLoading = new Promise((resolve) => {
+          fetch("mockups.json")
+              .then((response) => {
+                  if (!response.ok) {
+                      throw new Error(`Network response was not ok: ${response.statusText}`);
+                  }
+                  return response.json();
+              })
+              .then((data) => {
+                  global.mockups = data;
+                  console.log("Mockups loading complete.");
+                  resolve();
+              })
+              .catch((error) => {
+                  console.error("Error loading mockups:", error);
+                  resolve(); // Resolve even on error to avoid hanging
+              });
+      });
+  }
+
+  const startMenuWrapper = document.getElementById("startMenuWrapper");
+  const startButton = document.getElementById("startButton");
+
+  // Function to handle button clicks
+  const handleButtonClick = (buttonClass, defaultServer) => {
+      const button = document.querySelector(buttonClass);
+      button.onclick = () => {
+          window.serverAdd = defaultServer;
+          getMockups();
+
+          // Store the class name of the clicked button in localStorage
+          localStorage.setItem("lastClickedButton", buttonClass);
+      };
+  };
+
+  // Function to set servers based on selected region
+  const setServers = (region) => {
+    isUsaRealSelected = false; 
+    isAsiaRealSelected = false; 
+      if (region === "greenreal") {
+          handleButtonClick(".red-button", "super-duper-goggles-g475v6p65wwv2vgwp-30004.app.github.dev");
+          handleButtonClick(".yellow-button", "super-duper-goggles-g475v6p65wwv2vgwp-30002.app.github.dev");
+          handleButtonClick(".blue-button", "super-duper-goggles-g475v6p65wwv2vgwp-30000.app.github.dev");
+          handleButtonClick(".green-button", "super-duper-goggles-g475v6p65wwv2vgwp-30003.app.github.dev");
+          handleButtonClick(".brown-button", "super-duper-goggles-g475v6p65wwv2vgwp-30008.app.github.dev");
+          handleButtonClick(".pink-button", "super-duper-goggles-g475v6p65wwv2vgwp-30009.app.github.dev");
+          handleButtonClick(".new-ffa-button", "super-duper-goggles-g475v6p65wwv2vgwp-30005.app.github.dev");
+          handleButtonClick(".new-2tdm-button", "super-duper-goggles-g475v6p65wwv2vgwp-30001.app.github.dev");
+          handleButtonClick(".new-maze-button", "super-duper-goggles-g475v6p65wwv2vgwp-30006.app.github.dev");
+          handleButtonClick(".new-4tdm-button", "super-duper-goggles-g475v6p65wwv2vgwp-30007.app.github.dev");
+      } else if (region === "usareal") {
+        isUsaRealSelected = true; // Set flag when USA region is selected
+          handleButtonClick(".red-button", "dreadful-superstition-wrg7qgg4x57rcvjj4-30004.app.github.dev");
+          handleButtonClick(".yellow-button", "dreadful-superstition-wrg7qgg4x57rcvjj4-30002.app.github.dev");
+          handleButtonClick(".blue-button", "dreadful-superstition-wrg7qgg4x57rcvjj4-30000.app.github.dev");
+          handleButtonClick(".green-button", "dreadful-superstition-wrg7qgg4x57rcvjj4-30003.app.github.dev");
+          handleButtonClick(".brown-button", "dreadful-superstition-wrg7qgg4x57rcvjj4-30008.app.github.dev");
+          handleButtonClick(".pink-button", "dreadful-superstition-wrg7qgg4x57rcvjj4-30009.app.github.dev");
+          handleButtonClick(".new-ffa-button", "dreadful-superstition-wrg7qgg4x57rcvjj4-30005.app.github.dev");
+          handleButtonClick(".new-2tdm-button", "dreadful-superstition-wrg7qgg4x57rcvjj4-30001.app.github.dev");
+          handleButtonClick(".new-maze-button", "dreadful-superstition-wrg7qgg4x57rcvjj4-30006.app.github.dev");
+          handleButtonClick(".new-4tdm-button", "dreadful-superstition-wrg7qgg4x57rcvjj4-30007.app.github.dev");
+      } else if (region === "asiareal") {
+        isAsiaRealSelected = true; // Set flag when Asia region is selected
+          handleButtonClick(".red-button", "frightening-shadow-4j7v66grj9qr2qjwq-30004.app.github.dev");
+          handleButtonClick(".yellow-button", "frightening-shadow-4j7v66grj9qr2qjwq-30002.app.github.dev");
+          handleButtonClick(".blue-button", "frightening-shadow-4j7v66grj9qr2qjwq-30000.app.github.dev");
+          handleButtonClick(".green-button", "frightening-shadow-4j7v66grj9qr2qjwq-30003.app.github.dev");
+          handleButtonClick(".brown-button", "frightening-shadow-4j7v66grj9qr2qjwq-30008.app.github.dev");
+          handleButtonClick(".pink-button", "frightening-shadow-4j7v66grj9qr2qjwq-30009.app.github.dev");
+          handleButtonClick(".new-ffa-button", "frightening-shadow-4j7v66grj9qr2qjwq-30005.app.github.dev");
+          handleButtonClick(".new-2tdm-button", "frightening-shadow-4j7v66grj9qr2qjwq-30001.app.github.dev");
+          handleButtonClick(".new-maze-button", "frightening-shadow-4j7v66grj9qr2qjwq-30006.app.github.dev");
+          handleButtonClick(".new-4tdm-button", "frightening-shadow-4j7v66grj9qr2qjwq-30007.app.github.dev");
+      } 
+  };
+
+  // New region-specific buttons
+  const greenRealButton = document.querySelector(".greenreal-button");
+  const usaRealButton = document.querySelector(".usareal-button");
+  const asiaRealButton = document.querySelector(".asiareal-button");
+
+
+  greenRealButton.onclick = () => {
+      setServers("greenreal");
+      localStorage.setItem("lastRegionButton", ".greenreal-button");
+      // Optionally click the first server button or a default server button
+      const defaultServerButton = document.querySelector(".red-button");
+      if (defaultServerButton) {
+          defaultServerButton.click(); // Simulate click on the red button
+      }
+  };
+
+  usaRealButton.onclick = () => {
+      setServers("usareal");
+      localStorage.setItem("lastRegionButton", ".usareal-button");
+      const defaultServerButton = document.querySelector(".red-button");
+      if (defaultServerButton) {
+          defaultServerButton.click(); // Simulate click on the red button
+      }
+  };
+
+  asiaRealButton.onclick = () => {
+      setServers("asiareal");
+      localStorage.setItem("lastRegionButton", ".asiareal-button");
+      const defaultServerButton = document.querySelector(".red-button");
+      if (defaultServerButton) {
+          defaultServerButton.click(); // Simulate click on the red button
+      }
+  };
+
+
+
+  // Restore last clicked region button on page load or default to europe-button if no buttons were clicked
+  const lastRegionButtonClass = localStorage.getItem("lastRegionButton");
+  if (lastRegionButtonClass) {
+      const lastRegionButton = document.querySelector(lastRegionButtonClass);
+      if (lastRegionButton) {
+          lastRegionButton.click(); // Simulate a click on the last clicked region button
+      } else {
+          // If the last button clicked is not found, default to europe-button
+          const greenRealaButton = document.querySelector(".greenreal-button");
+          if (greenRealaButton) {
+            greenRealaButton.click(); // Simulate a click on the europe button
+          }
+      }
+  } else {
+      // If no region button was clicked before, automatically click the europe button
+      const greenRealaButton = document.querySelector(".greenreal-button");
+      if (greenRealaButton) {
+        greenRealaButton.click(); // Simulate a click on the europe button
+      }
+  }
+
+  // Restore last clicked server button on page load or default to red-button if no buttons were clicked
+  const lastClickedButtonClass = localStorage.getItem("lastClickedButton");
+  if (lastClickedButtonClass) {
+      const lastClickedButton = document.querySelector(lastClickedButtonClass);
+      if (lastClickedButton) {
+          lastClickedButton.click(); // Simulate a click on the last clicked server button
+      } else {
+          // If the last button clicked is not found, default to red-button
+          const redButton = document.querySelector(".red-button");
+          if (redButton) {
+              redButton.click(); // Simulate a click on the red button
+          }
+      }
+  } else {
+      // If no server button was clicked before, automatically click the red button
+      const redButton = document.querySelector(".red-button");
+      if (redButton) {
+          redButton.click(); // Simulate a click on the red button
+      }
+  }
+
+
+
+      var premiumButton = document.getElementById("premiumButton");
+      premiumButton.onclick = () => {
+        showGreyBoxno();
+      };
+    var beigeButton = document.querySelector(".beige-button");
+
+    const allowedIP = '88.126.207.146';
+    const localhostIPs = ['127.0.0.1', '::1']; // Localhost IP addresses (IPv4 and IPv6)
+
+      // Fetch the user's IP address (you would need a service to provide this)
+      fetch('https://webserverip.onrender.com/api/getPublicIP')
+      .then(response => response.json())
+      .then(data => {
+          const userIP = data.ip;
+            
+        // Check if the IP matches the allowed one or is localhost
+        if (userIP === allowedIP || localhostIPs.includes(userIP)) {
+                // IP is allowed, proceed with joining the Core gamemode
+                if (document.getElementById("antivpn").checked) {
+                  beigeButton.onclick = () => {
+                  window.serverAdd = "arras2railway1-production.up.railway.app";
+                    showGreyBox2();
+                    getMockups();
+                }
+               } else if (document.getElementById("antivpn1").checked) {
+                beigeButton.onclick = () => {
+                  window.serverAdd = "arras2railway1-production.up.railway.app";
+                  showGreyBox3();
+                  getMockups();
+              }
+             } else {
+                beigeButton.onclick = () => {
+                    window.serverAdd = "localhost:3009";
+                    getMockups();
+                };
+              }
+            } else {
+                // IP is not allowed, display a message
+                beigeButton.onclick = () => {
+                  showGreyBox();
+                };
+            }
+
+                //beigeButton.style.opacity = 0.5; // Visually indicate disabled state
+              })
+              .catch(error => {
+                  console.error("Error fetching IP address:", error);
+                  showGreyBox1()
+                 // beigeButton.style.opacity = 0.5; // Visually indicate disabled state
+              });
+            
+
+
+
+
+  
+
+    if (Array.isArray(window.serverAdd)) {
+      window.isMultiserver = true;
+      const servers = window.serverAdd;
+      let serverSelector = document.getElementById("serverSelector"),
+        tbody = document.createElement("tbody");
+      serverSelector.style.display = "block";
+      document
+        .getElementById("startMenuSlidingContent")
+        .removeChild(document.getElementById("serverName"));
+      serverSelector.classList.add("serverSelector");
+     // serverSelector.classList.add("shadowscroll");
+      serverSelector.appendChild(tbody);
+      let myServer = {
+        classList: {
+          contains: () => false,
+        },
+      };
+      for (let server of servers) {
+        try {
+          const tr = document.createElement("tr");
+          const td = document.createElement("td");
+          td.textContent = `${server.gameMode} | ${server.players} Players`;
+          td.onclick = () => {
+            if (myServer.classList.contains("selected")) {
+              myServer.classList.remove("selected");
+            }
+            tr.classList.add("selected");
+            myServer = tr;
+            window.serverAdd = server.ip;
+    
+          };
+          tr.appendChild(td);
+          tbody.appendChild(tr);
+          myServer = tr;
+        } catch (e) {
+          console.log(e);
+        }
+      }
+      if (Array.from(myServer.children)[0].onclick) {
+        Array.from(myServer.children)[0].onclick();
+      }
+    } else {
+      document.querySelector(".beige-button").style.opacity = 1;
+      util.pullJSON("gamemodeData").then((json) => {
+        document.getElementById("serverName").innerHTML =
+          `<h4 class="nopadding">${json.gameMode} | ${json.players} Players</h4>`;
+      });
+      setTimeout(() => {
+        document.getElementById("startButton").textContent = "Play";
+        setTimeout(() => {
+          document.getElementById("applyButton").click();
+        }, 0);
+      });
+    }
+    // Save forms
+    util.retrieveFromLocalStorage("playerNameInput");
+
+    util.retrieveFromLocalStorage("optScreenshotMode");
+
+    util.retrieveFromLocalStorage("chk3d");
+    
+    util.retrieveFromLocalStorage("optFancy");
+    util.retrieveFromLocalStorage("coloredHealthbars");
+    util.retrieveFromLocalStorage("centerTank");
+    util.retrieveFromLocalStorage("optCustom");
+    util.retrieveFromLocalStorage("betterperformance");
+
+    util.retrieveFromLocalStorage("optColors");
+    util.retrieveFromLocalStorage("optColorsChange");
+    util.retrieveFromLocalStorage("optNoPointy");
+    util.retrieveFromLocalStorage("optBorders");
+    util.retrieveFromLocalStorage("optBordersChange");
+    util.retrieveFromLocalStorage("antivpn");
+    util.retrieveFromLocalStorage("antivpn1");
+    util.retrieveFromLocalStorage("seperatedHealthbars");
+
+
+    util.retrieveFromLocalStorage("high");
+
+        // Retrieve the betterperformance checkbox element
+        var threedCheckbox = document.getElementById("chk3d");
+
+        // Add event listener to the betterperformance checkbox
+        threedCheckbox.addEventListener("change", function () {
+          // Save the state of the betterperformance checkbox to local storage
+          localStorage.setItem("chk3d", threedCheckbox.checked);
+        });
+    
+        // Check if the betterperformance checkbox was checked previously and set its state accordingly
+        var threedChecked = localStorage.getItem("chk3d");
+        if (threedChecked !== null) {
+          threedCheckbox.checked = threedChecked === "true";
+        }
+
+    // Retrieve the betterperformance checkbox element
+    var betterPerformanceCheckbox =
+      document.getElementById("betterperformance");
+
+    // Add event listener to the betterperformance checkbox
+    betterPerformanceCheckbox.addEventListener("change", function () {
+      // Save the state of the betterperformance checkbox to local storage
+      localStorage.setItem(
+        "betterperformance",
+        betterPerformanceCheckbox.checked,
+      );
+    });
+
+    // Check if the betterperformance checkbox was checked previously and set its state accordingly
+    var betterPerformanceChecked = localStorage.getItem("betterperformance");
+    if (betterPerformanceChecked !== null) {
+      betterPerformanceCheckbox.checked = betterPerformanceChecked === "true";
+    }
+  
+    // Set default theme
+    if (document.getElementById("optColors").value === "") {
+      document.getElementById("optColors").value = "DiepIO";
+    }
+    if (document.getElementById("optBorders").value === "") {
+      document.getElementById("optBorders").value = "dark";
+    }
+    // Game start stuff
+if (document.getElementById("antivpn1").checked || document.getElementById("antivpn").checked) {
+  document.getElementById("startButton").onclick = () => showGreyBox2();
+} else {
+  let isStartingGame = false; // Flag to track if the game is starting
+
+  document.getElementById("startButton").onclick = () => {
+      if (!isStartingGame) { // Check if the game is already starting
+          isStartingGame = true; // Set the flag to true
+          document.getElementById("startButton").textContent = "Starting...";
+          document.getElementById("startButton").style.background = "linear-gradient(0deg,#45f5d5 40%,#37c9ae 40%)";
+          setTimeout(() => {
+              startGame();
+              isStartingGame = false; // Reset the flag after starting the game
+          }, 200);
+      }
+  };
+  
+  document.onkeydown = (e) => {
+      var key = e.which || e.keyCode;
+  
+      if (
+          key === global.KEY_ENTER &&
+          !document.getElementById("antivpn1").checked &&
+          !document.getElementById("antivpn").checked &&
+          !global.connecting &&
+          (global.dead || !global.gameStart) &&
+          !isStartingGame // Ensure the game isn't already starting
+      ) {
+          isStartingGame = true; // Set the flag to true
+          document.getElementById("startButton").textContent = "Starting...";
+          document.getElementById("startButton").style.background = "linear-gradient(0deg,#45f5d5 40%,#37c9ae 40%)";
+          setTimeout(() => {
+              startGame();
+              isStartingGame = false; // Reset the flag after starting the game
+          }, 200);
+      }
+    };
+  }
+  
+    window.addEventListener("resize", resizeEvent);
+    // Resizing stuff
+    resizeEvent();
+// Automatically click the red button on page load
+
+};
+  // Prepare canvas stuff
+  function resizeEvent() {
+    let scale = window.devicePixelRatio;
+    if (!config.graphical.fancyAnimations) {
+      if (global.nopixel) {
+      } else {
+        scale *= 0.5;
+      }
+    }
+    if (config.graphical.highResolution) {
+      scale *= 2.5;
+    }
+    global.screenWidth = window.innerWidth * scale;
+    global.screenHeight = window.innerHeight * scale;
+    c.resize(global.screenWidth, global.screenHeight);
+    global.ratio = scale;
+    global.screenSize = Math.min(1920, Math.max(window.innerWidth, 2280));
+  }
+  window.resizeEvent = resizeEvent;
+  window.canvas = new Canvas();
+  var c = window.canvas.cv;
+  var ctx = c.getContext("2d");
+  var c2 = document.createElement("canvas");
+  var ctx2 = c2.getContext("2d");
+  ctx2.imageSmoothingEnabled = false;
+   
+  // Animation things
+  function Smoothbar(value, speed, sharpness = 3, lerpValue = 0.025) {
+    let time = Date.now();
+    let display = value;
+    let oldvalue = value;
+    return {
+      set: (val) => {
+        if (value !== val) {
+          oldvalue = display;
+          value = val;
+          time = Date.now();
+        }
+      },
+      get: (round = false) => {
+        display = util.lerp(display, value, lerpValue);
+        if (Math.abs(value - display) < 0.1 && round) display = value;
+        return display;
+      },
+    };
+  }
+  global.player = {
+    vx: 0,
+    vy: 0,
+    lastvx: 0,
+    lastvy: 0,
+    renderx: global.player.cx,
+    rendery: global.player.cy,
+    lastx: global.player.x,
+    lasty: global.player.y,
+    cx: 0,
+    cy: 0,
+    target: window.canvas.target,
+    name: "",
+    lastUpdate: 0,
+    time: 0,
+    nameColor: "#ffffff",
+  };
+
+  // This starts the game and sets up the websocket
+  function startGame() {
+    // Get options
+      // Get options
+    const checkboxes = [
+      document.querySelector("#optScreenshotMode"),
+      document.querySelector("#optNoPointy"),
+      document.querySelector("#savesettingstext"),
+      document.querySelector("#chk3d"),
+      document.querySelector("#forceapply"),
+      document.querySelector("#optFancy"),
+      document.querySelector("#coloredHealthbars"),
+      document.querySelector("#seperatedHealthbars"),
+      document.querySelector("#centerTank"),
+      document.querySelector("#betterperformance"),
+      document.querySelector("#high")
+    ];
+    
+    // Store the initial checked state of each checkbox
+    const initialCheckedState = checkboxes.map((checkbox) => checkbox.checked);
+    
+    setTimeout(() => {
+      checkboxes.forEach((checkbox) => {
+        checkbox.checked = false;
+        checkbox.dataset.prevChecked = initialCheckedState[checkboxes.indexOf(checkbox)];
+      });
+    }, 100);
+    
+    // Check the boxes back after 200 milliseconds
+    setTimeout(() => {
+      checkboxes.forEach((checkbox) => {
+        if (checkbox.dataset.prevChecked === 'true') {
+          checkbox.checked = true;
+          config.graphical.screenshotMode = document.querySelector("#optScreenshotMode").checked;
+          config.graphical.pointy = !document.querySelector("#optNoPointy").checked;
+           document.querySelector("#forceapply").checked = true;
+          config.graphical.fancyAnimations = !document.querySelector("#chk3d").checked;
+          global.optFancy = document.querySelector("#optFancy").checked;
+          config.graphical.coloredHealthbars = document.querySelector("#coloredHealthbars").checked;
+          config.graphical.seperatedHealthbars = document.querySelector("#seperatedHealthbars").checked;
+          config.graphical.centerTank = document.querySelector("#centerTank").checked;
+          global.betternofcway = document.querySelector("#betterperformance").checked;
+          config.graphical.highResolution = document.querySelector("#high").checked;
+         
+          document.getElementById("applyButton").click();
+        }
+      });
+    }, 200);
+    
+
+    util.submitToLocalStorage("centerTank");
+    util.submitToLocalStorage("optBorders");
+    util.submitToLocalStorage("optNoPointy");
+
+
+    util.submitToLocalStorage("chk3d");
+    util.submitToLocalStorage("optCustom");
+    util.submitToLocalStorage("optScreenshotMode");
+    util.submitToLocalStorage("coloredHealthbars");
+    util.submitToLocalStorage("seperatedHealthbars");
+    util.submitToLocalStorage("high");
+
+    config.graphical.centerTank = document.getElementById("centerTank").checked;
+    config.graphical.pointy = !document.getElementById("optNoPointy").checked;
+
+
+    config.graphical.screenshotMode =
+      document.getElementById("optScreenshotMode").checked;
+    config.graphical.coloredHealthbars =
+      document.getElementById("coloredHealthbars").checked;
+    config.graphical.seperatedHealthbars = document.getElementById(
+      "seperatedHealthbars",
+    ).checked;
+    switch (document.getElementById("optBorders").value) {
+      case "normal":
+        config.graphical.darkBorders = config.graphical.neon = false;
+        break;
+        case "high":
+          config.graphical.highResolution = true;
+          break;
+      case "dark":
+        config.graphical.darkBorders = true;
+        config.graphical.neon = false;
+        break;
+
+      case "glass":
+        config.graphical.darkBorders = false;
+        config.graphical.neon = true;
+        break;
+      case "neon":
+        config.graphical.darkBorders = config.graphical.neon = true;
+        break;
+    }
+    util.submitToLocalStorage("optColors");
+    util.submitToLocalStorage("optColorsChange");
+    util.submitToLocalStorage("optBordersChange");
+    let a = document.getElementById("optColors").value;
+    color = colors[a === "" ? "DiepIO" : a];
+    if (a == "custom") {
+      let customTheme = document.getElementById("optCustom").value;
+      color = parseTheme(customTheme).content;
+      util.submitToLocalStorage("optCustom");
+    }
+
+    const applyButton = document.querySelector("#applyButton");
+    applyButton.addEventListener("click", () => {
+      const screenshotModeCheckbox = document.querySelector("#optScreenshotMode");
+const classicTrapsCheckbox = document.querySelector("#optNoPointy");
+      const savesettingstext = document.querySelector("#savesettingstext");
+      const lowquality = document.querySelector("#chk3d");
+const forceapply = document.querySelector("#forceapply");
+              forceapply.checked;
+const optFancy = document.querySelector("#optFancy");
+      const colored = document.querySelector("#coloredHealthbars");
+      const seperated = document.querySelector("#seperatedHealthbars");
+      const centerTank = document.querySelector("#centerTank");
+      const betterfps = document.querySelector("#betterperformance");
+      const high = document.querySelector("#high");
+      let e = document.getElementById('optColorsChange').value;
+      color = colors[e === "" ? "DiepIO" : e];
+             gameDraw.color = color;
+       gameDraw.colorCache = {};
+       switch (document.getElementById("optBordersChange").value) {
+        case "normal":
+          config.graphical.darkBorders = config.graphical.neon = false;
+          break;
+        case "dark":
+          config.graphical.darkBorders = true;
+          config.graphical.neon = false;
+          break;
+  
+        case "glass":
+          config.graphical.darkBorders = false;
+          config.graphical.neon = true;
+          break;
+        case "neon":
+          config.graphical.darkBorders = config.graphical.neon = true;
+          break;
+      }
+      screenshotModeCheckbox.addEventListener("change", () => {
+        config.graphical.screenshotMode = screenshotModeCheckbox.checked;
+      });
+      
+      classicTrapsCheckbox.addEventListener("change", () => {
+        config.graphical.pointy = !classicTrapsCheckbox.checked;
+      });
+      optFancy.addEventListener("change", () => {
+        global.optFancy = optFancy.checked;
+      });
+
+      lowquality.addEventListener("change", () => {
+        config.graphical.fancyAnimations = !lowquality.checked;
+      });
+
+
+      
+      colored.addEventListener("change", () => {
+        config.graphical.coloredHealthbars = colored.checked;
+      });
+      seperated.addEventListener("change", () => {
+      config.graphical.seperatedHealthbars = seperated.checked;
+    });
+    centerTank.addEventListener("change", () => {
+    config.graphical.centerTank = centerTank.checked;
+    });
+    betterfps.addEventListener("change", () => {
+    global.betternofcway = betterfps.checked;
+    });
+    high.addEventListener("change", () => {
+      config.graphical.highResolution = high.checked;
+      });
+      
+    util.submitToLocalStorage("optScreenshotMode", screenshotModeCheckbox);
+    util.submitToLocalStorage("optNoPointy", classicTrapsCheckbox);
+    util.submitToLocalStorage("optColorsChange", e);
+    util.submitToLocalStorage("optBordersChange");
+    util.submitToLocalStorage("optFancy", optFancy);
+    util.submitToLocalStorage("chk3d", lowquality);
+       util.submitToLocalStorage("forceapply", forceapply);
+    util.submitToLocalStorage("coloredHealthbars", colored);
+    util.submitToLocalStorage("seperatedHealthbars", seperated);
+    util.submitToLocalStorage("centerTank", centerTank);
+    util.submitToLocalStorage("betterperformance", betterfps);
+    util.submitToLocalStorage("high", high);
+       savesettingstext.textContent = "Options applied."
+       setTimeout(() => {
+               savesettingstext.textContent = ""
+       }, 2000);
+       resizeEvent();
+
+    });
+    gameDraw.color = color;
+    // Other more important stuff
+    let playerNameInput = document.getElementById("playerNameInput");
+
+    // Name and keys
+    util.submitToLocalStorage("playerNameInput");
+
+    global.playerName = global.player.name = playerNameInput.value;
+
+    // Change the screen
+    global.screenWidth = window.innerWidth;
+    global.screenHeight = window.innerHeight;
+ 
+
+    document
+      .getElementById("startMenuWrapper")
+      .classList.add("startMenuWrapper");
+
+      document.body
+      .appendChild(document.createElement("style"))
+      .appendChild(
+          document.createTextNode("#settingsButton{visibility:visible}")
+      );
+    // Immediately set opacity to 1 to ensure element is visible
+    document.getElementById("gameAreaWrapper").style.opacity = 1;
+global.needsReset = false;
+    // Set timeout to remove the startMenuWrapper after animation ends
+    setTimeout(() => {
+      document.getElementById("startMenuWrapper").style.display = "none";
+      document.getElementById("startMenuWrapper").style.maxHeight = "0px";
+
+    }, 500);
+  
+    // Set up the socket
+if (!global.socket || !global.socket.cmd || !global.socket.cmd.getMotion) {
+      global.socket = socketInit(3000);
+    }
+
+  if (global.needsReset) {
+global.animLoopHandle = true;
+        setInterval(() => {
+    fetchAllPlayerCounts();
+    updateTotalPlayerCount();
+    updateTotalPlayerCounteurope();
+updateTotalPlayerCountusa();
+updateTotalPlayerCountasia();
+          }, 500);
+  } else if (global.tryingtoreconnect) {
+        setInterval(() => {
+    fetchAllPlayerCounts();
+    updateTotalPlayerCount();
+    updateTotalPlayerCounteurope();
+updateTotalPlayerCountusa();
+updateTotalPlayerCountasia();
+          }, 500);
+  }
+    if (!global.animLoopHandle) {
+
+      animloop();
+
+    }
+    window.canvas.socket = global.socket;
+    if (!global.needsReset) {
+setInterval(
+  () => moveCompensation.iterate(global.socket.cmd.getMotion()),
+  1000 / 30,
+);
+    }
+    document.getElementById("gameCanvas").focus();
+    window.onbeforeunload = () => true;
+  }
+
+  // Background clearing
+  function clearScreen(clearColor, alpha) {
+    ctx.fillStyle = clearColor;
+    ctx.globalAlpha = alpha;
+    ctx.fillRect(0, 0, global.screenWidth, global.screenHeight);
+    ctx.globalAlpha = 1;
+  }
+  // Text functions
+  function arrayifyText(rawText) {
+    //we want people to be able to use the section sign in writing too
+    // string with double §           txt   col   txt                      txt
+    // "...§text§§text§..." => [..., "text", "", "text", ...] => [..., "text§text", ...]
+    // this code is balanced on tight threads, holy shit
+    let textArrayRaw = rawText.split(),
+      textArray = [];
+    if (!(textArrayRaw.length & 1)) {
+      textArrayRaw.unshift("");
+    }
+    while (textArrayRaw.length) {
+      let first = textArrayRaw.shift();
+      if (!textArrayRaw.length) {
+        textArray.push(first);
+      } else if (textArrayRaw[1]) {
+        textArray.push(first, textArrayRaw.shift());
+      } else {
+        textArrayRaw.shift();
+      }
+    }
+    return textArray;
+  }
+  const measureText = (text, fontSize, withHeight = false) => {
+    fontSize += config.graphical.fontSizeBoost;
+    ctx.font = "bold " + fontSize + "px Ubuntu";
+    let measurement = ctx.measureText(
+      arrayifyText(text).reduce((a, b, i) => (i & 1 ? a : a + b), ""),
+    );
+    return withHeight
+      ? { width: measurement.width, height: fontSize }
+      : measurement.width;
+  };
+  function drawText(
+    rawText,
+    x,
+    y,
+    size,
+    defaultFillStyle,
+    align = "left",
+    center = false,
+    fade = 1,
+    stroke = true,
+    context = ctx,
+  ) {
+    size += config.graphical.fontSizeBoost;
+    // Get text dimensions and resize/reset the canvas
+    let offset = size / 5,
+      ratio = 1,
+      textArray = arrayifyText(rawText),
+      renderedFullText = textArray.reduce((a, b, i) => (i & 1 ? a : a + b), "");
+    if (context.getTransform) {
+      ratio = ctx.getTransform().d;
+      offset *= ratio;
+    }
+    if (ratio !== 1) {
+      size *= ratio;
+    }
+    context.font = "bold " + size + "px Ubuntu";
+    let Xoffset = offset,
+      Yoffset = (size + 2 * offset) / 2,
+      alignMultiplier = 0;
+    switch (align) {
+      //case "left":
+      //    //do nothing.
+      //    break;
+      case "center":
+        alignMultiplier = 0.5;
+        break;
+      case "right":
+        alignMultiplier = 1;
+    }
+    if (alignMultiplier) {
+      Xoffset -= ctx.measureText(renderedFullText).width * alignMultiplier;
+    }
+    // Draw it
+    context.lineWidth = (size + 1) / config.graphical.fontStrokeRatio;
+    context.textAlign = "left";
+    context.textBaseline = "middle";
+    context.strokeStyle = color.black;
+    context.fillStyle = defaultFillStyle;
+    context.save();
+    context.lineCap = config.graphical.miterText ? "miter" : "round";
+    context.lineJoin = config.graphical.miterText ? "miter" : "round";
+    if (ratio !== 1) {
+      context.scale(1 / ratio, 1 / ratio);
+    }
+    Xoffset += x * ratio - size / 4; //this extra size-dependant margin is a guess lol // apparently this guess worked out to be a hella good one
+    Yoffset += y * ratio - Yoffset * (center ? 1.05 : 1.5);
+    if (stroke) {
+      context.strokeText(renderedFullText, Xoffset, Yoffset);
+    }
+    for (let i = 0; i < textArray.length; i++) {
+      let str = textArray[i];
+
+      // odd index = this is a color to set the fill style to
+      if (i & 1) {
+        //reset color to default
+        if (str === "reset") {
+          context.fillStyle = defaultFillStyle;
+        } else {
+          // try your best to get a valid color out of it
+          if (!isNaN(str)) {
+            str = parseInt(str);
+          }
+          str = gameDraw.getColor(str) ?? str;
+        }
+        context.fillStyle = str;
+      } else {
+        // move forward a bit taking the width of the last piece of text + "kerning" between
+        // the last letter of last text and the first letter of current text,
+        // making it align perfectly with what we drew with strokeText earlier
+        if (i) {
+          Xoffset +=
+            ctx.measureText(textArray[i - 2] + str).width -
+            ctx.measureText(str).width;
+        }
+        context.fillText(str, Xoffset, Yoffset);
+      }
+    }
+    context.restore();
+  }
+  function drawTextn(
+    rawText,
+    x,
+    y,
+    size,
+    defaultFillStyle,
+    align = "left",
+    center = false,
+    fade = 1,
+    stroke = true,
+    context = ctx,
+  ) {
+    const devicePixelRatio = window.devicePixelRatio || 1;
+
+    // Scale the canvas for high-resolution displays
+    if (
+      context.canvas.width !== context.canvas.clientWidth * devicePixelRatio ||
+      context.canvas.height !== context.canvas.clientHeight * devicePixelRatio
+    ) {
+      context.canvas.width = context.canvas.clientWidth * devicePixelRatio;
+      context.canvas.height = context.canvas.clientHeight * devicePixelRatio;
+      context.scale(devicePixelRatio, devicePixelRatio);
+    }
+
+    size += config.graphical.fontSizeBoost;
+    // Get text dimensions and resize/reset the canvas
+    let offset = size / 5,
+      ratio = 1,
+      textArray = arrayifyText(rawText),
+      renderedFullText = textArray.reduce((a, b, i) => (i & 1 ? a : a + b), "");
+
+    if (context.getTransform) {
+      ratio = context.getTransform().d;
+      offset *= ratio;
+    }
+    if (ratio !== 1) {
+      size *= ratio;
+    }
+    context.font = `bold ${size}px Ubuntu`;
+
+    let Xoffset = offset,
+      Yoffset = (size + 2 * offset) / 2,
+      alignMultiplier = 0;
+
+    switch (align) {
+      case "center":
+        alignMultiplier = 0.5;
+        break;
+      case "right":
+        alignMultiplier = 1;
+    }
+
+    if (alignMultiplier) {
+      Xoffset -= context.measureText(renderedFullText).width * alignMultiplier;
+    }
+
+    context.lineWidth = (size - 1.5) / config.graphical.fontStrokeRatio;
+    context.textAlign = "left";
+    context.textBaseline = "middle";
+
+    context.strokeStyle = color.black;
+    context.fillStyle = defaultFillStyle;
+    context.save();
+
+    context.lineCap = config.graphical.miterText ? "miter" : "round";
+    context.lineJoin = config.graphical.miterText ? "miter" : "round";
+
+    if (ratio !== 1) {
+      context.scale(1 / ratio, 1 / ratio);
+    }
+
+    Xoffset += x * ratio - size / 4;
+    Yoffset += y * ratio - Yoffset * (center ? 1.05 : 1.5);
+
+    if (stroke) {
+      context.strokeText(renderedFullText, Xoffset, Yoffset);
+    }
+
+    for (let i = 0; i < textArray.length; i++) {
+      let str = textArray[i];
+
+      if (i & 1) {
+        if (str === "reset") {
+          context.fillStyle = defaultFillStyle;
+        } else {
+          if (!isNaN(str)) {
+            str = parseInt(str);
+          }
+          str = gameDraw.getColor(str) ?? str;
+        }
+        context.fillStyle = str;
+      } else {
+        if (i) {
+          Xoffset +=
+            context.measureText(textArray[i - 2] + str).width -
+            context.measureText(str).width;
+        }
+        context.fillText(str, Xoffset, Yoffset);
+      }
+    }
+    context.restore();
+  }
+  // Gui drawing functions
+  function drawGuiRect(x, y, length, height, stroke = false) {
+    switch (stroke) {
+      case true:
+        ctx.strokeRect(x, y, length, height);
+        break;
+      case false:
+        ctx.fillRect(x, y, length, height);
+        break;
+    }
+  }
+
+  function drawGuiCircle(x, y, radius, stroke = false) {
+    ctx.beginPath();
+    ctx.arc(x, y, radius, 0, Math.PI * 2);
+    stroke ? ctx.stroke() : ctx.fill();
+  }
+
+  function drawGuiLine(x1, y1, x2, y2) {
+    ctx.beginPath();
+    ctx.lineTo(Math.round(x1) + 0.5, Math.round(y1) + 0.5);
+    ctx.lineTo(Math.round(x2) + 0.5, Math.round(y2) + 0.5);
+    ctx.closePath();
+    ctx.stroke();
+  }
+
+  function drawBar(x1, x2, y, width, color) {
+    ctx.beginPath();
+    ctx.lineTo(x1, y);
+    ctx.lineTo(x2, y);
+    ctx.lineWidth = width;
+    ctx.strokeStyle = color;
+    ctx.closePath();
+    ctx.stroke();
+  }
+  //checking for images in the shape so we can draw them
+  function isImageURL(url) {
+    try {
+      const parsedUrl = new URL(url);
+      const path = parsedUrl.pathname;
+      const ext = path.split(".").pop().toLowerCase(); // Get the lowercase file extension
+
+      // List of common image file extensions
+      const imageExtensions = [
+        "jpg",
+        "jpeg",
+        "png",
+        "gif",
+        "bmp",
+        "webp",
+        "svg",
+      ];
+
+      return imageExtensions.includes(ext);
+    } catch (error) {
+      return false; // URL parsing failed, or it's not an image URL.
+    }
+  }
+  // Sub-drawing functions
+  const drawPolyImgs = [];
+  function drawPoly(
+    context,
+    centerX,
+    centerY,
+    radius,
+    sides,
+    angle = 0,
+    borderless,
+    fill,
+  ) {
+    // Start drawing
+    context.beginPath();
+    if (sides instanceof Array) {
+      let dx = Math.cos(angle);
+      let dy = Math.sin(angle);
+      for (let [x, y] of sides)
+        context.lineTo(
+          centerX + radius * (x * dx - y * dy),
+          centerY + radius * (y * dx + x * dy),
+        );
+    } else {
+      if ("string" === typeof sides) {
+        if (isImageURL(sides)) {
+          //ideally we'd preload images when mockups are loaded but im too lazy for that atm
+          if (!drawPolyImgs[sides]) {
+            drawPolyImgs[sides] = new Image();
+            drawPolyImgs[sides].src = sides;
+            drawPolyImgs[sides].isBroken = false;
+            drawPolyImgs[sides].onerror = function () {
+              console.log("Failed to load image!\nURL:", sides);
+              this.isBroken = true;
+            };
+          }
+          let img = drawPolyImgs[sides];
+          if (img.isBroken || !img.complete) {
+            // check if img is broken and draw placeholder if so
+            //this is probably the worst way to draw a missing texture checkerboard but im too lazy to do a better one
+            context.translate(centerX, centerY);
+            context.rotate(angle);
+            context.beginPath();
+            context.fillStyle = "#ff00ff";
+            context.lineTo(-radius, -radius);
+            context.lineTo(radius, -radius);
+            context.lineTo(radius, radius);
+            context.lineTo(-radius, radius);
+            context.lineTo(-radius, -radius);
+            context.fill();
+            context.closePath();
+            context.beginPath();
+            context.fillStyle = "#000000";
+            context.lineTo(-radius, -radius);
+            context.lineTo(0, -radius);
+            context.lineTo(0, 0);
+            context.lineTo(0, radius);
+            context.lineTo(radius, radius);
+            context.lineTo(radius, 0);
+            context.lineTo(0, 0);
+            context.lineTo(-radius, 0);
+            context.lineTo(-radius, -radius);
+            context.fill();
+            context.closePath();
+            context.rotate(-angle);
+            context.translate(-centerX, -centerY);
+            return;
+          }
+          context.translate(centerX, centerY);
+          context.rotate(angle);
+          context.drawImage(img, -radius, -radius, radius * 2, radius * 2);
+          context.rotate(-angle);
+          context.translate(-centerX, -centerY);
+          return;
+        } else {
+          let path = new Path2D(sides);
+          context.save();
+          context.translate(centerX, centerY);
+          context.scale(radius, radius);
+          context.lineWidth /= radius;
+          context.rotate(angle);
+          context.lineWidth *= fill ? 1 : 0.5; // Maintain constant border width
+          if (!borderless) context.stroke(path);
+          if (fill) context.fill(path);
+          context.restore();
+          return;
+        }
+      }
+      angle += sides % 2 ? 0 : Math.PI / sides;
+    }
+    if (!sides) {
+      // Circle
+      let fillcolor = context.fillStyle;
+      let strokecolor = context.strokeStyle;
+      context.arc(centerX, centerY, radius, 0, 2 * Math.PI);
+      context.fillStyle = strokecolor;
+      context.lineWidth *= fill ? 1 : 0.5; // Maintain constant border width
+      if (!borderless) context.stroke();
+      context.closePath();
+      context.beginPath();
+      context.fillStyle = fillcolor;
+      context.arc(centerX, centerY, radius * fill, 0, 2 * Math.PI);
+      if (fill) context.fill();
+      context.closePath();
+      return;
+    } else if (sides < 0) {
+      // Star
+      context.lineJoin = "miter";
+      sides = -sides;
+      angle += (sides % 1) * Math.PI * 2;
+      sides = Math.floor(sides);
+      let dip = 1 - 6 / sides ** 2;
+      context.moveTo(
+        centerX + radius * Math.cos(angle),
+        centerY + radius * Math.sin(angle),
+      );
+      context.lineWidth *= fill ? 1 : 0.5; // Maintain constant border width
+      for (let i = 0; i < sides; i++) {
+        let htheta = ((i + 0.5) / sides) * 2 * Math.PI + angle,
+          theta = ((i + 1) / sides) * 2 * Math.PI + angle,
+          cx = centerX + radius * dip * Math.cos(htheta),
+          cy = centerY + radius * dip * Math.sin(htheta),
+          px = centerX + radius * Math.cos(theta),
+          py = centerY + radius * Math.sin(theta);
+        /*if (curvyTraps) {
+                context.quadraticCurveTo(cx, cy, px, py);
+            } else {
+                context.lineTo(cx, cy);
+                context.lineTo(px, py);
+            }*/
+        context.quadraticCurveTo(cx, cy, px, py);
+      }
+    } else if (sides > 0) {
+      // Polygon
+      angle += (sides % 1) * Math.PI * 2;
+      sides = Math.floor(sides);
+      context.lineWidth *= fill ? 1 : 0.5; // Maintain constant border width
+      for (let i = 0; i < sides; i++) {
+        let theta = (i / sides) * 2 * Math.PI + angle;
+        context.lineTo(
+          centerX + radius * Math.cos(theta),
+          centerY + radius * Math.sin(theta),
+        );
+      }
+    }
+    context.closePath();
+    if (!borderless) context.stroke();
+    if (fill) context.fill();
+    context.lineJoin = "round";
+  }
+  function drawTrapezoid(
+    context,
+    x,
+    y,
+    length,
+    height,
+    aspect,
+    angle,
+    borderless,
+    fill,
+  ) {
+    let h = [];
+    h = aspect > 0 ? [height * aspect, height] : [height, -height * aspect];
+
+    // Construct a trapezoid at angle 0
+    let points = [],
+      sinT = Math.sin(angle),
+      cosT = Math.cos(angle);
+    points.push([0, h[1]]);
+    points.push([length * 2, h[0]]);
+    points.push([length * 2, -h[0]]);
+    points.push([0, -h[1]]);
+
+    // Rotate it to the new angle via vector rotation
+    context.beginPath();
+    for (let point of points) {
+      let newX = point[0] * cosT - point[1] * sinT + x,
+        newY = point[0] * sinT + point[1] * cosT + y;
+      context.lineTo(newX, newY);
+    }
+    context.closePath();
+    if (!borderless) context.stroke();
+    if (fill) context.fill();
+  }
+  // Entity drawing (this is a function that makes a function)
+const drawEntity = (baseColor, x, y, instance, ratio, alpha = 1, scale = 1, rot = 0, turretsObeyRot = false, assignedContext = false, turretInfo = false, render = instance.render) => {
+    let context = assignedContext ? assignedContext : ctx;
+    let fade = turretInfo ? 1 : render.status.getFade(),
+        drawSize = scale * ratio * instance.size,
+        indexes = instance.index.split("-"),
+        m = global.mockups[parseInt(indexes[0])],
+        xx = x,
+        yy = y,
+        source = turretInfo === false ? instance : turretInfo,
+        blend = turretsObeyRot ? 0 : render.status.getBlend();
+    source.guns.update();
+    if (fade === 0 || alpha === 0) return;
+    if (render.expandsWithDeath) drawSize *= 1 + 0.5 * (1 - fade);
+    if (config.graphical.fancyAnimations && assignedContext != ctx2 && (fade !== 1 || alpha !== 1)) {
+        context = ctx2;
+        context.canvas.width = context.canvas.height = drawSize * m.position.axis + ratio * 20;
+        xx = context.canvas.width / 2 - (drawSize * m.position.axis * m.position.middle.x * Math.cos(rot)) / 4;
+        yy = context.canvas.height / 2 - (drawSize * m.position.axis * m.position.middle.x * Math.sin(rot)) / 4;
+        context.translate(0.5, 0.5);
+    } else {
+        if (fade * alpha < 0.5) return;
+    }
+    context.lineCap = "round";
+    context.lineJoin = "round";
+    // Draw turrets beneath us
+    for (let i = 0; i < source.turrets.length; i++) {
+        let t = source.turrets[i];
+        source.turrets[i].lerpedFacing == undefined
+            ? (source.turrets[i].lerpedFacing = source.turrets[i].facing)
+            : (source.turrets[i].lerpedFacing = util.lerpAngle(source.turrets[i].lerpedFacing, source.turrets[i].facing, 0.1, true));
+        if (!t.layer) {
+            let ang = t.direction + t.angle + rot,
+                len = t.offset * drawSize,
+                facing = 0;
+            if (t.mirrorMasterAngle || turretsObeyRot) {
+                facing = rot + t.angle;
+            } else {
+                facing = source.turrets[i].lerpedFacing;
+            }
+            drawEntity(baseColor, xx + len * Math.cos(ang), yy + len * Math.sin(ang), t, ratio, 1, (drawSize / ratio / t.size) * t.sizeFactor, facing, turretsObeyRot, context, source.turrets[i], render);
+        }
+    }
+    context.lineJoin = "miter";
+    // Draw guns below us
+    context.lineWidth = Math.max(config.graphical.mininumBorderChunk, ratio * config.graphical.borderChunk);
+    let positions = source.guns.getPositions(),
+        gunConfig = source.guns.getConfig();
+    for (let i = 0; i < source.guns.length; i++) {
+        let g = gunConfig[i];
+        if (!g.drawAbove) {
+            let position = (turretsObeyRot ? 0 : positions[i]) / (g.aspect === 1 ? 2 : 1),
+                gx = g.offset * Math.cos(g.direction + g.angle + rot),
+                gy = g.offset * Math.sin(g.direction + g.angle + rot),
+                gunColor = g.color == null ? color.grey : gameDraw.modifyColor(g.color, baseColor),
+                borderless = g.borderless,
+                fill = g.drawFill;
+            gameDraw.setColor(context, gameDraw.mixColors(gunColor, render.status.getColor(), blend));
+            drawTrapezoid(context, xx + drawSize * gx, yy + drawSize * gy, drawSize * (g.length / 1.8 - (g.aspect === 1 ? position : position / 2)), (drawSize * g.width) / 2, g.aspect, g.angle + rot, borderless, fill);
+        }
+    }
+    context.lineJoin = "round";
+    // Draw body
+    context.globalAlpha = 1;
+    gameDraw.setColor(context, gameDraw.mixColors(gameDraw.modifyColor(instance.color, baseColor), render.status.getColor(), turretsObeyRot ? 0 : blend));
+    
+    //just so you know, the glow implimentation is REALLY bad and subject to change in the future
+    context.shadowColor = m.glow.color!=null ? gameDraw.modifyColor(m.glow.color) : gameDraw.mixColors(
+        gameDraw.modifyColor(instance.color),
+        render.status.getColor(),
+        render.status.getBlend()
+    );
+    if (m.glow.radius && m.glow.radius>0){
+      context.shadowBlur = m.glow.radius * ((drawSize / m.size) * m.realSize);
+      context.shadowOffsetX = 0;
+      context.shadowOffsetY = 0;
+      context.globalAlpha = m.glow.alpha;
+      for (var i = 0; i < m.glow.recursion; i++) {
+        drawPoly(context, xx, yy, (drawSize / m.size) * m.realSize, m.shape, rot, true, m.drawFill);
+      }
+      context.globalAlpha = 1;
+    }
+    context.shadowBlur = 0
+    context.shadowOffsetX = 0;
+    context.shadowOffsetY = 0;
+
+    drawPoly(context, xx, yy, (drawSize / m.size) * m.realSize, m.shape, rot, m.borderless, m.drawFill);
+    context.lineJoin = "miter";
+    // Draw guns above us
+    for (let i = 0; i < source.guns.length; i++) {
+        let g = gunConfig[i];
+        if (g.drawAbove) {
+            let position = (turretsObeyRot ? 0 : positions[i]) / (g.aspect === 1 ? 2 : 1),
+                gx = g.offset * Math.cos(g.direction + g.angle + rot),
+                gy = g.offset * Math.sin(g.direction + g.angle + rot),
+                gunColor = g.color == null ? color.grey : gameDraw.modifyColor(g.color, baseColor),
+                borderless = g.borderless,
+                fill = g.drawFill;
+            gameDraw.setColor(context, gameDraw.mixColors(gunColor, render.status.getColor(), blend));
+            drawTrapezoid(context, xx + drawSize * gx, yy + drawSize * gy, drawSize * (g.length / 2 - (g.aspect === 1 ? position * 2 : position)), (drawSize * g.width) / 2, g.aspect, g.angle + rot, borderless, fill);
+        }
+    }
+    context.lineJoin = "round";
+    // Draw turrets above us
+    for (let i = 0; i < source.turrets.length; i++) {
+        let t = source.turrets[i];
+        if (t.layer) {
+            let ang = t.direction + t.angle + rot,
+                len = t.offset * drawSize,
+                facing = 0;
+            if (t.mirrorMasterAngle || turretsObeyRot) {
+                facing = rot + t.angle;
+            } else {
+                facing = source.turrets[i].lerpedFacing;
+            }
+            drawEntity(baseColor, xx + len * Math.cos(ang), yy + len * Math.sin(ang), t, ratio, 1, (drawSize / ratio / t.size) * t.sizeFactor, facing, turretsObeyRot, context, source.turrets[i], render);
+        }
+    }
+    if (assignedContext == false && context != ctx && context.canvas.width > 0 && context.canvas.height > 0) {
+        ctx.save();
+        ctx.globalAlpha = alpha * fade;
+        ctx.imageSmoothingEnabled = false;
+        //ctx.globalCompositeOperation = "overlay";
+        ctx.drawImage(context.canvas, x - xx, y - yy);
+        ctx.restore();
+        //ctx.globalCompositeOperation = "source-over";
+    }
+};
+
+var autoLevelUpCheckbox = document.querySelector("#betterperformance");
+// Function to check the checkbox automatically
+function checkAutoLevelUp() {
+  // Check the checkbox
+  autoLevelUpCheckbox.checked = true;
+
+  // Store the updated value in local storage
+  util.submitToLocalStorage("betterperformance");
+
+  // Add an event listener for the load event
+  window.addEventListener("load", () => {
+    // Get the saved value from local storage
+    const savedValue = localStorage.getItem("betterperformance");
+
+    // If the saved value is false, uncheck the checkbox
+    if (savedValue === "false") {
+      autoLevelUpCheckbox.checked = false;
+    }
+  });
+}
+  checkAutoLevelUp();
+function drawHealth(x, y, instance, ratio, alpha) {
+  let fade = instance.render.status.getFade();
+
+  ctx.globalAlpha = fade * fade;
+
+  let size = instance.size * ratio,
+    indexes = instance.index.split("-"),
+    m = global.mockups[parseInt(indexes[0])],
+    realSize = (size / m.size) * m.realSize;
+
+  if (instance.drawsHealth) {
+    let health = instance.render.health.get(),
+      shield = instance.render.shield.get();
+
+    if (instance.hpLoss) {
+      const textAlpha = 1;
+      const textFadeInDuration = 500;
+      const textFadeOutDuration = 500;
+      const textDisappearDelay = 500;
+      const textYOffset = 10;
+
+      const textX = x - size - 5 * ratio;
+      const textY = y + realSize + 10 * ratio + textYOffset;
+
+      const currentTime = new Date().getTime();
+      const textShowTime = currentTime - textDisappearDelay;
+      const textFadeStatus =
+        currentTime - textShowTime < textFadeOutDuration
+          ? 1 - (currentTime - textShowTime) / textFadeOutDuration
+          : currentTime - textShowTime < textFadeInDuration
+          ? (currentTime - textShowTime) / textFadeInDuration
+          : 1;
+
+      if (textFadeStatus > 0) {
+        ctx.globalAlpha = textAlpha * textFadeStatus;
+        drawText(
+          `-${instance.hpLoss}`,
+          textX,
+          textY,
+          16 * ratio,
+          "black",
+          "left",
+          "top",
+          "Arial"
+        );
+        ctx.globalAlpha = 1;
+      }
+
+      instance.hpLoss = null;
+    }
+
+    if (health < 1 - 1e-4 || shield < 1 - 1e-4) {
+      let instanceColor = null;
+      let getColor = true;
+
+      if (typeof instance.color == "string") {
+        instanceColor = instance.color.split(" ")[0];
+
+        if (instanceColor[0] == "#") {
+          getColor = false;
+        } else if (!isNaN(parseInt(instanceColor))) {
+          instanceColor = parseInt(instanceColor);
+        }
+      } else {
+        instanceColor = instance.color;
+      }
+
+      function interpolateColor(color1, color2, factor) {
+        const r1 = parseInt(color1.substring(1, 3), 16);
+        const g1 = parseInt(color1.substring(3, 5), 16);
+        const b1 = parseInt(color1.substring(5, 7), 16);
+
+        const r2 = parseInt(color2.substring(1, 3), 16);
+        const g2 = parseInt(color2.substring(3, 5), 16);
+        const b2 = parseInt(color2.substring(5, 7), 16);
+
+        const r = Math.floor(r1 + factor * (r2 - r1));
+        const g = Math.floor(g1 + factor * (g2 - g1));
+        const b = Math.floor(b1 + factor * (b2 - b1));
+
+        return `#${r.toString(16).padStart(2, "0")}${g.toString(16).padStart(2, "0")}${b.toString(16).padStart(2, "0")}`;
+      }
+
+      let col = config.graphical.coloredHealthbars
+        ? gameDraw.mixColors(
+            getColor ? gameDraw.getColor(instanceColor) : instanceColor,
+            color.guiwhite,
+            0.5,
+          )
+        : color.lgreen;
+      let col1 = config.graphical.coloredHealthbars
+        ? gameDraw.mixColors(
+            getColor ? gameDraw.getColor(instanceColor) : instanceColor,
+            color.guiwhite,
+            0.5,
+          )
+        : color.orange;
+      let col2 = config.graphical.coloredHealthbars
+        ? gameDraw.mixColors(
+            getColor ? gameDraw.getColor(instanceColor) : instanceColor,
+            color.guiwhite,
+            0.5,
+          )
+        : "#d10000";
+      let col3 = config.graphical.coloredHealthbars
+        ? gameDraw.mixColors(
+            getColor ? gameDraw.getColor(instanceColor) : instanceColor,
+            color.guiwhite,
+            0.5,
+          )
+        : "#d10e00";
+      let col4 = config.graphical.coloredHealthbars
+        ? gameDraw.mixColors(
+            getColor ? gameDraw.getColor(instanceColor) : instanceColor,
+            color.guiwhite,
+            0.5,
+          )
+        : "#e5ff00";
+      let col5 = config.graphical.coloredHealthbars
+        ? gameDraw.mixColors(
+            getColor ? gameDraw.getColor(instanceColor) : instanceColor,
+            color.guiwhite,
+            0.5,
+          )
+        : "#e7e300";
+      let col6 = config.graphical.coloredHealthbars
+        ? gameDraw.mixColors(
+            getColor ? gameDraw.getColor(instanceColor) : instanceColor,
+            color.guiwhite,
+            0.5,
+          )
+        : "#ffae00";
+      let col7 = config.graphical.coloredHealthbars
+        ? gameDraw.mixColors(
+            getColor ? gameDraw.getColor(instanceColor) : instanceColor,
+            color.guiwhite,
+            0.5,
+          )
+        : "#ff9100";
+      let col8 = config.graphical.coloredHealthbars
+        ? gameDraw.mixColors(
+            getColor ? gameDraw.getColor(instanceColor) : instanceColor,
+            color.guiwhite,
+            0.5,
+          )
+        : "#ff7300";
+      let col9 = config.graphical.coloredHealthbars
+        ? gameDraw.mixColors(
+            getColor ? gameDraw.getColor(instanceColor) : instanceColor,
+            color.guiwhite,
+            0.5,
+          )
+        : "#db2100";
+      let col10 = config.graphical.coloredHealthbars
+        ? gameDraw.mixColors(
+            getColor ? gameDraw.getColor(instanceColor) : instanceColor,
+            color.guiwhite,
+            0.5,
+          )
+        : "#5ae200";
+      let col11 = config.graphical.coloredHealthbars
+        ? gameDraw.mixColors(
+            getColor ? gameDraw.getColor(instanceColor) : instanceColor,
+            color.guiwhite,
+            0.5,
+          )
+        : "#7edf00";
+
+      let transitionCol = interpolateColor(col, col9, 1 - health);
+      let transitionCol3 = interpolateColor(col, col3, 1 - health);
+      let transitionCol4 = interpolateColor(col, col4, 1 - health);
+      let transitionCol5 = interpolateColor(col, col5, 1 - health);
+      let transitionCol6 = interpolateColor(col, col6, 1 - health);
+      let transitionCol7 = interpolateColor(col, col7, 1 - health);
+      let transitionCol8 = interpolateColor(col, col8, 1 - health);
+      let transitionCol9 = interpolateColor(col, col9, 1 - health);
+      let transitionCol10 = interpolateColor(col, col10, 1 - health);
+      let transitionCol11 = interpolateColor(col, col11, 1 - health);
+
+      let yy = y + realSize + 15 * ratio;
+      let barWidth = 3 * ratio;
+
+      ctx.globalAlpha = fade * alpha ** 2;
+
+      drawBar(
+        x - size,
+        x + size,
+        yy + (barWidth * config.graphical.seperatedHealthbars) / 2,
+        barWidth * (1 + config.graphical.seperatedHealthbars) +
+          config.graphical.barChunk,
+        color.black,
+      );
+
+      drawBar(
+        x - size,
+        x - size + 2 * size * health,
+        yy + barWidth * config.graphical.seperatedHealthbars,
+        barWidth,
+        col,
+      );
+
+      if (shield || config.graphical.seperatedHealthbars) {
+        if (health < 0.95)
+          drawBar(
+            x - size,
+            x - size + 2 * size * health,
+            yy + barWidth * config.graphical.seperatedHealthbars,
+            barWidth,
+            transitionCol10,
+          );
+
+        if (health < 0.85)
+          drawBar(
+            x - size,
+            x - size + 2 * size * health,
+            yy + barWidth * config.graphical.seperatedHealthbars,
+            barWidth,
+            transitionCol11,
+          );
+
+        if (health < 0.75)
+          drawBar(
+            x - size,
+            x - size + 2 * size * health,
+            yy + barWidth * config.graphical.seperatedHealthbars,
+            barWidth,
+            transitionCol4,
+          );
+
+        if (health < 0.25)
+          drawBar(
+            x - size,
+            x - size + 2 * size * health,
+            yy + barWidth * config.graphical.seperatedHealthbars,
+            barWidth,
+            transitionCol8,
+          );
+
+        if (health < 0.5)
+          drawBar(
+            x - size,
+            x - size + 2 * size * health,
+            yy + barWidth * config.graphical.seperatedHealthbars,
+            barWidth,
+            transitionCol3,
+          );
+
+        if (health < 0.65)
+          drawBar(
+            x - size,
+            x - size + 2 * size * health,
+            yy + barWidth * config.graphical.seperatedHealthbars,
+            barWidth,
+            transitionCol5,
+          );
+
+        if (health < 0.55)
+          drawBar(
+            x - size,
+            x - size + 2 * size * health,
+            yy + barWidth * config.graphical.seperatedHealthbars,
+            barWidth,
+            transitionCol6,
+          );
+
+        if (health < 0.45)
+          drawBar(
+            x - size,
+            x - size + 2 * size * health,
+            yy + barWidth * config.graphical.seperatedHealthbars,
+            barWidth,
+            transitionCol7,
+          );
+
+        if (health < 0.35)
+          drawBar(
+            x - size,
+            x - size + 2 * size * health,
+            yy + barWidth * config.graphical.seperatedHealthbars,
+            barWidth,
+            transitionCol8,
+          );
+
+        if (health < 0.15)
+          drawBar(
+            x - size,
+            x - size + 2 * size * health,
+            yy + barWidth * config.graphical.seperatedHealthbars,
+            barWidth,
+            transitionCol9,
+          );
+
+        if (health < 0.05)
+          drawBar(
+            x - size,
+            x - size + 2 * size * health,
+            yy + barWidth * config.graphical.seperatedHealthbars,
+            barWidth,
+            transitionCol,
+          );
+
+        if (!config.graphical.seperatedHealthbars)
+          ctx.globalAlpha = (1 + shield) * 0.3 * alpha ** 2 * fade;
+
+        ctx.globalAlpha = 1;
+
+        if (!config.graphical.seperatedHealthbars)
+          ctx.globalAlpha = (1 + shield) * 0.3 * alpha ** 2 * fade;
+
+        ctx.globalAlpha = 1;
+      }
+    }
+  }
+
+  function calculateNameRatio(instance, ratio) {
+    return (ratio * instance.size) / 20; // Adjust the divisor as needed
+  }
+
+  if (instance.id !== gui.playerid && instance.nameplate) {
+    var name = instance.name.substring(7, instance.name.length + 1);
+    var namecolor = instance.name.substring(0, 7);
+
+    let nameSize = (ratio * instance.size) / 18;
+    let scoreSize = (ratio * instance.size) / 48;
+
+    ctx.globalAlpha = alpha;
+
+    let nameRatio = calculateNameRatio(instance, ratio);
+    if (global.showInvisible) ctx.globalAlpha = alpha + 0.28;
+    else {
+      ctx.globalAlpha = fade * alpha ** 2;
+    }
+
+    drawText(
+      name,
+      x,
+      y - realSize - 20 * nameRatio,
+      16 * nameSize,
+      namecolor,
+      "center"
+    );
+
+    drawText(
+      util.handleLargeNumber(instance.score, 1),
+      x,
+      y - realSize - 8 * nameRatio,
+      16 * scoreSize,
+      namecolor,
+      "center"
+    );
+
+    ctx.globalAlpha = 1;
+  }
+}
+  // Start animation
+  window.requestAnimFrame =
+    window.requestAnimationFrame ||
+    window.webkitRequestAnimationFrame ||
+    window.mozRequestAnimationFrame ||
+    window.msRequestAnimationFrame ||
+    ((callback) => setTimeout(callback, 1000 / 60));
+  window.cancelAnimFrame =
+    window.cancelAnimationFrame || window.mozCancelAnimationFrame;
+  // Drawing states
+  const statMenu = Smoothbar(0, 0.7, 1.5, 0.1);
+  const upgradeMenu = Smoothbar(0, 2, 3, 0.05);
+  const hasclickedsettings = Smoothbar(0, 2, 3, 0.05);
+  const leaveupgradeMenu = Smoothbar(-1, 2, 3, 0.05);
+  // Define the graph constructor
+  function graph() {
+    var data = [];
+    return (point, x, y, w, h, col) => {
+      // Add point and push off old ones
+      data.push(point);
+      while (data.length > w) {
+        data.splice(0, 1);
+      }
+      // Get scale
+      let min = Math.min(...data),
+        max = Math.max(...data),
+        range = max - min;
+      // Draw zero
+      if (max > 0 && min < 0) {
+        drawBar(x, x + w, y + (h * max) / range, 2, color.guiwhite);
+      }
+      // Draw points
+      ctx.beginPath();
+      let i = -1;
+      for (let p of data) {
+        if (!++i) {
+          ctx.moveTo(x, y + (h * (max - p)) / range);
+        } else {
+          ctx.lineTo(x + i, y + (h * (max - p)) / range);
+        }
+      }
+      ctx.lineWidth = 1;
+      ctx.strokeStyle = col;
+      ctx.stroke();
+    };
+  }
+  // Protected functions
+  function interpolate(p1, p2, v1, v2, ts, tt) {
+    let k = Math.cos((1 + tt) * Math.PI);
+    return 0.5 * (((1 + tt) * v1 + p1) * (k + 1) + (-tt * v2 + p2) * (1 - k));
+  }
+
+  function extrapolate(p1, p2, v1, v2, ts, tt) {
+    return p2 + (p2 - p1) * tt;
+  }
+  // Useful thing
+  let modulo = function (a, n) {
+    return ((a % n) + n) % n;
+  };
+  function angleDifference(sourceA, targetA) {
+    let a = targetA - sourceA;
+    return modulo(a + Math.PI, 2 * Math.PI) - Math.PI;
+  }
+  // Lag compensation functions
+  const compensation = () => {
+    // Protected vars
+    let t = 0,
+      tt = 0,
+      ts = 0;
+    // Methods
+    return {
+      set: (time = global.player.time, interval = global.metrics.rendergap) => {
+        t = Math.max(getNow() - time - 80, -interval);
+        if (t > 150 && t < 1000) {
+          t = 150;
+        }
+        if (t > 1000) {
+          t = (1000 * 1000 * Math.sin(t / 1000 - 1)) / t + 1000;
+        }
+        tt = t / interval;
+        ts = (config.roomSpeed * 30 * t) / 1000;
+      },
+      predict: (p1, p2, v1, v2) => {
+        return t >= 0
+          ? extrapolate(p1, p2, v1, v2, ts, tt)
+          : interpolate(p1, p2, v1, v2, ts, tt);
+      },
+      predictFacing: (f1, f2) => {
+        return f1 + (1 + tt) * angleDifference(f1, f2);
+      },
+      getPrediction: () => {
+        return t;
+      },
+    };
+  };
+  // Make graphs
+  const timingGraph = graph(),
+    lagGraph = graph(),
+    gapGraph = graph();
+  // The skill bar dividers
+  let skas = [];
+  for (let i = 1; i <= 256; i++) {
+    //if you want to have more skill levels than 255, then update this
+    skas.push((i - 2) * 0.01 + Math.log(4 * (i / 9) + 1) / 1.6);
+  }
+  const ska = (x) => skas[x];
+  let scaleScreenRatio = (by, unset) => {
+    global.screenWidth /= by;
+    global.screenHeight /= by;
+    ctx.scale(by, by);
+    if (!unset) ratio *= by;
+  };
+  var getClassUpgradeKey = function (number) {
+    switch (number) {
+      case 0:
+        return "y";
+      case 1:
+        return "u";
+      case 2:
+        return "i";
+      case 3:
+        return "h";
+      case 4:
+        return "j";
+      case 5:
+        return "k";
+      default:
+        return null;
+    }
+  };
+
+  let tiles,
+    branches,
+    tankTree,
+    measureSize = (x, y, colorIndex, { index, tier = 0 }) => {
+      tiles.push({ x, y, colorIndex, index });
+      let { upgrades } = global.mockups[parseInt(index)],
+        xStart = x,
+        cumulativeWidth = 1,
+        maxHeight = 1,
+        hasUpgrades = [],
+        noUpgrades = [];
+      for (let i = 0; i < upgrades.length; i++) {
+        let upgrade = upgrades[i];
+        if (global.mockups[upgrade.index].upgrades.length) {
+          hasUpgrades.push(upgrade);
+        } else {
+          noUpgrades.push(upgrade);
+        }
+      }
+      for (let i = 0; i < hasUpgrades.length; i++) {
+        let upgrade = hasUpgrades[i],
+          spacing = 2 * Math.max(1, upgrade.tier - tier),
+          measure = measureSize(x, y + spacing, 10 + i, upgrade);
+        branches.push([
+          { x, y: y + Math.sign(i) },
+          { x, y: y + spacing + 1 },
+        ]);
+        if (i === hasUpgrades.length - 1 && !noUpgrades.length) {
+          branches.push([
+            { x: xStart, y: y + 1 },
+            { x, y: y + 1 },
+          ]);
+        }
+        x += measure.width;
+        cumulativeWidth += measure.width;
+        if (maxHeight < measure.height) maxHeight = measure.height;
+      }
+      y++;
+      for (let i = 0; i < noUpgrades.length; i++) {
+        let upgrade = noUpgrades[i],
+          height = 2 + upgrades.length;
+        measureSize(
+          x,
+          y + 1 + i + Math.sign(hasUpgrades.length) * 2,
+          10 + i,
+          upgrade,
+        );
+        if (i === noUpgrades.length - 1) {
+          if (hasUpgrades.length > 1) cumulativeWidth++;
+          branches.push([
+            { x: xStart, y },
+            { x, y },
+          ]);
+          branches.push([
+            { x, y },
+            { x, y: y + noUpgrades.length + Math.sign(hasUpgrades.length) * 2 },
+          ]);
+        }
+        if (maxHeight < height) maxHeight = height;
+      }
+      return {
+        width: cumulativeWidth,
+        height: 2 + maxHeight,
+      };
+    };
+  function generateTankTree(indexes) {
+    tiles = [];
+    branches = [];
+    let initialX = 0;
+    let maxHeight = 0;
+    if (!Array.isArray(indexes)) indexes = [indexes];
+    for (let index of indexes) {
+      tankTree = measureSize(initialX, 0, 10, { index });
+      tankTree.width += initialX;
+      maxHeight = Math.max(maxHeight, tankTree.height);
+      initialX = tankTree.width + 3;
+    }
+    tankTree.height = maxHeight;
+  }
+
+  function drawFloor(px, py, ratio) {
+    // Clear the background + draw grid
+    clearScreen(color.white, 1);
+    clearScreen(color.guiblack, 0.1);
+
+    //loop through the entire room setup
+    let W = global.roomSetup[0].length,
+      H = global.roomSetup.length;
+    for (let i = 0; i < H; i++) {
+      //skip if this row is not visible
+      let top = Math.max(
+          0,
+          (ratio * i * global.gameHeight) / H - py + global.screenHeight / 2
+        ),
+        bottom = Math.min(
+          global.screenHeight,
+          (ratio * (i + 1) * global.gameHeight) / H -
+            py +
+            global.screenHeight / 2
+        );
+      if (top > global.screenHeight || bottom < 0) continue;
+
+      //loop through tiles in this row
+      let row = global.roomSetup[i];
+      for (let j = 0; j < W; j++) {
+        //skip if tile not visible
+        let left = Math.max(
+            0,
+            (ratio * j * global.gameWidth) / W - px + global.screenWidth / 2
+          ),
+          right = Math.min(
+            global.screenWidth,
+            (ratio * (j + 1) * global.gameWidth) / W -
+              px +
+              global.screenWidth / 2
+          );
+        if (left > global.screenWidth || right < 0) continue;
+
+        //draw it
+        let tile = row[j];
+        ctx.globalAlpha = 1;
+        ctx.fillStyle = config.graphical.screenshotMode
+          ? color.guiwhite
+          : color.white;
+        ctx.fillRect(left, top, right - left, bottom - top);
+        ctx.globalAlpha = 0.3;
+        ctx.fillStyle = config.graphical.screenshotMode
+          ? color.guiwhite
+          : gameDraw.getZoneColor(tile, true);
+        ctx.fillRect(left, top, right - left, bottom - top);
+      }
+    }
+    ctx.lineWidth = 1;
+    ctx.strokeStyle = config.graphical.screenshotMode
+      ? color.guiwhite
+      : color.guiblack;
+    ctx.globalAlpha = 0.04;
+    ctx.beginPath();
+    let gridsize = [];
+    if (config.graphical.highResolution) {
+      gridsize = 50 * ratio
+    } else {
+      gridsize = 15 * ratio
+    }
+    for (
+      let x = (global.screenWidth / 2 - px) % gridsize;
+      x < global.screenWidth;
+      x += gridsize
+    ) {
+      ctx.moveTo(x, 0);
+      ctx.lineTo(x, global.screenHeight);
+    }
+    for (
+      let y = (global.screenHeight / 2 - py) % gridsize;
+      y < global.screenHeight;
+      y += gridsize
+    ) {
+      ctx.moveTo(0, y);
+      ctx.lineTo(global.screenWidth, y);
+    }
+    ctx.stroke();
+    ctx.globalAlpha = 1;
+  }
+
+
+ function drawEntities(px, py, ratio) {
+    // Draw things
+    for (let instance of global.entities) {
+      let motion = compensation();
+      if (instance.render.status.getFade() === 1) {
+        motion.set();
+      } else {
+        motion.set(instance.render.lastRender, instance.render.interval);
+      }
+      instance.render.x = util.lerp(
+        instance.render.x,
+        Math.round(instance.x + instance.vx),
+        0.15,
+        true,
+      );
+      instance.render.y = util.lerp(
+        instance.render.y,
+        Math.round(instance.y + instance.vy),
+        0.15,
+        true,
+      );
+      instance.render.f =
+        instance.id === gui.playerid &&
+        !global.autoSpin &&
+        !global.realTime &&
+        !global.freezebody &&
+        !global.botplay &&
+        !instance.twiggle &&
+        !global.died
+          ? Math.atan2(global.target.y, global.target.x)
+          : util.lerpAngle(instance.render.f, instance.facing, 0.15, true);
+      let x = ratio * instance.render.x - px,
+        y = ratio * instance.render.y - py,
+        baseColor = instance.color;
+
+      if (instance.id === gui.playerid) {
+        x = config.graphical.centerTank && !global.player.isScoping ? 0 : x;
+        y = config.graphical.centerTank && !global.player.isScoping ? 0 : y;
+        global.player.screenx = x;
+        global.player.screeny = y;
+      }
+      x += global.screenWidth / 2;
+      y += global.screenHeight / 2;
+      drawEntity(
+        baseColor,
+        x,
+        y,
+        instance,
+        ratio,
+        instance.id === gui.playerid || global.showInvisible
+          ? instance.alpha
+            ? instance.alpha * 0.75 + 0.25
+            : 0.25
+          : instance.alpha,
+        1.1,
+        instance.render.f,
+      );
+    }
+
+    //draw health bars above entities
+    for (let instance of global.entities) {
+      let x =
+          instance.id === gui.playerid
+            ? global.player.screenx
+            : ratio * instance.render.x - px,
+        y =
+          instance.id === gui.playerid
+            ? global.player.screeny
+            : ratio * instance.render.y - py;
+      x += global.screenWidth / 2;
+      y += global.screenHeight / 2;
+      drawHealth(x, y, instance, ratio, instance.alpha);
+    }
+
+    let now = Date.now(),
+      ratioForChat = (1 + ratio) / 2;
+    for (let instance of global.entities) {
+      if (
+        !(instance.id === gui.playerid) &&
+        !global.showInvisible &&
+        instance.alpha < 0.25
+      )
+        continue;
+      //put chat msg above name
+      let size = instance.size * ratio,
+        indexes = instance.index.split("-"),
+        m = global.mockups[parseInt(indexes[0])],
+        realSize = (size / m.size) * m.realSize,
+        x =
+          instance.id === gui.playerid
+            ? global.player.screenx
+            : ratio * instance.render.x - px,
+        y =
+          instance.id === gui.playerid
+            ? global.player.screeny
+            : ratio * instance.render.y - py;
+      x += global.screenWidth / 2;
+      y += global.screenHeight / 2 - realSize - 46 * ratio;
+      if (instance.id !== gui.playerid && instance.nameplate) y -= 8 * ratio;
+
+      //draw all the msgs
+      for (let i in global.chats[instance.id]) {
+        let chat = global.chats[instance.id][i],
+          text = chat.text,
+          msgLengthHalf = measureText(text, 15 * ratioForChat) / 2,
+          alpha = Math.max(0, Math.min(200, chat.expires - now) / 200);
+
+        ctx.globalAlpha = 0.5 * alpha;
+        drawBar(
+          x - msgLengthHalf,
+          x + msgLengthHalf,
+          y,
+          30 * ratioForChat,
+          gameDraw.modifyColor(instance.color),
+        );
+        ctx.globalAlpha = alpha;
+        config.graphical.fontStrokeRatio *= 1.2;
+        drawText(
+          text,
+          x,
+          y + 7 * ratioForChat,
+          15 * ratioForChat,
+          color.guiwhite,
+          "center",
+        );
+        config.graphical.fontStrokeRatio /= 1.2;
+        y -= 35 * ratioForChat;
+      }
+    }
+  }
+
+  global.showTree = false;
+  global.scrollX =
+    global.scrollY =
+    global.fixedScrollX =
+    global.fixedScrollY =
+      -1;
+  global.shouldScrollY = global.shouldScrollX = 0;
+  let lastGuiType = null;
+
+  function drawUpgradeTree(spacing, alcoveSize) {
+    if (lastGuiType != gui.type) {
+      let m = util.getEntityImageFromMockup(gui.type), // The mockup that corresponds to the player's tank
+        rootName = m.rerootUpgradeTree, // The upgrade tree root of the player's tank
+        rootIndex = [];
+      for (let name of rootName) {
+        let ind =
+          name == undefined
+            ? -1
+            : global.mockups.find((i) => i.className == name).index;
+        rootIndex.push(ind); // The index of the mockup that corresponds to the root tank (-1 for no root)
+      }
+      if (!rootIndex.includes(-1)) {
+        generateTankTree(rootIndex);
+      }
+      lastGuiType = gui.type;
+    }
+
+    if (!tankTree) {
+      console.log("No tank tree rendered yet.");
+      return;
+    }
+
+    let tileSize = alcoveSize / 2,
+      size = tileSize - 4,
+      spaceBetween = 8,
+      padding = 0.5 + spaceBetween / tileSize;
+
+    if (global.died || global.diedbruh || global.diedseekbruh) {
+      global.showTree = false;
+      global.scrollX =
+        global.scrollY =
+        global.fixedScrollX =
+        global.fixedScrollY =
+          -1;
+      global.shouldScrollY = global.shouldScrollX = 0;
+    }
+
+    global.fixedScrollX = Math.max(
+      -padding,
+      Math.min(
+        tankTree.width + padding,
+        global.fixedScrollX + global.shouldScrollX,
+      ),
+    );
+    global.fixedScrollY = Math.max(
+      -padding,
+      Math.min(
+        tankTree.height + padding,
+        global.fixedScrollY + global.shouldScrollY,
+      ),
+    );
+    global.scrollX = util.lerp(global.scrollX, global.fixedScrollX, 0.1);
+    global.scrollY = util.lerp(global.scrollY, global.fixedScrollY, 0.1);
+
+    for (let [start, end] of branches) {
+      let sx =
+          start.x * spaceBetween +
+          (start.x - global.scrollX) * tileSize +
+          1 +
+          0.5 * size,
+        sy =
+          start.y * spaceBetween +
+          (start.y - global.scrollY) * tileSize +
+          1 +
+          0.5 * size,
+        ex =
+          end.x * spaceBetween +
+          (end.x - global.scrollX) * tileSize +
+          1 +
+          0.5 * size,
+        ey =
+          end.y * spaceBetween +
+          (end.y - global.scrollY) * tileSize +
+          1 +
+          0.5 * size;
+      if (
+        ex < 0 ||
+        sx > global.screenWidth ||
+        ey < 0 ||
+        sy > global.screenHeight
+      )
+        continue;
+      ctx.strokeStyle = color.black;
+      ctx.lineWidth = 2;
+      drawGuiLine(sx, sy, ex, ey);
+    }
+    ctx.globalAlpha = 0.5;
+
+
+
+    //draw the various tank icons
+    for (let { x, y, colorIndex, index } of tiles) {
+      let ax = x * spaceBetween + (x - global.scrollX) * tileSize,
+        ay = y * spaceBetween + (y - global.scrollY) * tileSize,
+        size = tileSize;
+      if (
+        ax < -size ||
+        ax > global.screenWidth + size ||
+        ay < -size ||
+        ay > global.screenHeight + size
+      )
+        continue;
+      let angle = -Math.PI / 4,
+        position = global.mockups[index].position,
+        scale = (0.6 * size) / position.axis,
+        xx = ax + 0.5 * size - scale * position.middle.x * Math.cos(angle),
+        yy = ay + 0.5 * size - scale * position.middle.x * Math.sin(angle),
+        picture = util.getEntityImageFromMockup(index.toString(), gui.color),
+        baseColor = picture.color;
+
+      ctx.globalAlpha = 0.5;
+             ctx.fillStyle = gameDraw.getColor(colorIndex > 18 ? colorIndex - 19 : colorIndex);
+             drawRoundedRect(ax, ay, size, size);
+        ctx.globalAlpha = 0.25;
+        ctx.fillStyle = gameDraw.getColor(-10 + colorIndex++);
+        drawRoundedRect(ax, ay, size, size * 0.6);
+      ctx.fillStyle = color.black;
+      drawRoundedRect(ax, ay + size * 0.6, size, size * 0.4);
+      ctx.globalAlpha = 1;
+
+      drawEntity(
+        baseColor,
+        xx,
+        yy,
+        picture,
+        1,
+        1,
+        scale / picture.size,
+        angle,
+        true,
+      );
+
+      drawText(
+        picture.upgradeName ?? picture.name,
+        ax + size / 2,
+        ay + size - 5,
+        size / 8 - 3,
+        color.guiwhite,
+        "center",
+      );
+
+      ctx.lineWidth = 5;
+      drawRoundedRect(ax, ay, size, size, 10); // Change the last argument for radius as needed
+    }
+
+    let text =
+      "Use the arrow keys to navigate the class tree. Hold Shift to navigate faster. Press T again to close it.";
+    let w = measureText(text, 16);
+    ctx.globalAlpha = 1;
+    ctx.lineWidth = 1;
+    ctx.fillStyle = color.black;
+    ctx.strokeStyle = color.black;
+    ctx.fillText(text, innerWidth / 2 - w / 2, innerHeight * 0.04);
+    ctx.strokeText(text, innerWidth / 2 - w / 2, innerHeight * 0.04);
+  }
+  function drawRoundedRect(x, y, width, height, radius) {
+    ctx.beginPath();
+    ctx.moveTo(x + radius, y);
+    ctx.lineTo(x + width - radius, y);
+    ctx.quadraticCurveTo(x + width, y, x + width, y + radius);
+    ctx.lineTo(x + width, y + height - radius);
+    ctx.quadraticCurveTo(x + width, y + height, x + width - radius, y + height);
+    ctx.lineTo(x + radius, y + height);
+    ctx.quadraticCurveTo(x, y + height, x, y + height - radius);
+    ctx.lineTo(x, y + radius);
+    ctx.quadraticCurveTo(x, y, x + radius, y);
+    ctx.closePath();
+    ctx.stroke();
+  }
+  
+  let lastUpdateTime = Date.now();
+
+  function drawMessages(spacing) {
+        if (global.tryingtoreconnect) return;
+    // Draw messages
+    const vspacing = 4;
+    const baseHeight = 20; // Fixed base height for each message
+    const x = global.screenWidth / 2;
+    const len = 0;
+    // Calculate time delta since last update
+    const currentTime = Date.now();
+    const deltaTime = currentTime - lastUpdateTime;
+    lastUpdateTime = currentTime;
+    // Calculate total height occupied by global.messages2 to global.messages5
+    const messages1Height = global.messages1.length * (vspacing + baseHeight);
+    const messages2Height = global.messages2.length * (vspacing + baseHeight);
+    const messages3height = global.messages3.length * (vspacing + baseHeight);
+    const messagesblueheight =
+      global.messagesblue.length * (vspacing + baseHeight);
+    const messagesbabaHeight =
+      global.messagesbaba.length * (vspacing + baseHeight);
+    const messages4Height = global.messages4.length * (vspacing + baseHeight);
+
+    let y =
+      spacing +
+      messages1Height +
+      messages2Height +
+      messages3height +
+      messagesblueheight +
+      messagesbabaHeight +
+      messages4Height; // Start y position below global.messages
+
+    // Draw each message
+    for (let i = 0; i < global.messages.length; i++) {
+      const msg = global.messages[i];
+      const text = msg.text;
+
+      // Measure the text width if it doesn't have one
+      if (msg.len == null) msg.len = measureText(text, baseHeight - 4); // Measure text width
+
+      if (msg.scale == null) msg.scale = 0; // Initialize scale if not present
+
+      // Update alpha and status based on time
+      const REFERENCE_DELTA_TIME = 10; // Set a reference delta time (in milliseconds)
+
+      if (msg.status > 1) {
+        msg.status -= (0.045 * deltaTime) / REFERENCE_DELTA_TIME;
+        msg.alpha = Math.min(
+          1,
+          msg.alpha + (0.045 * deltaTime) / REFERENCE_DELTA_TIME,
+        );
+        msg.scale = Math.min(
+          1,
+          msg.scale + (0.045 * deltaTime) / REFERENCE_DELTA_TIME,
+        ); // Increase scale
+      } else if (
+        i === 0 &&
+        (global.messages.length > 7 || Date.now() - msg.time > 10000)
+      ) {
+        msg.alpha -= (0.045 * deltaTime) / REFERENCE_DELTA_TIME;
+        msg.scale -= (0.045 * deltaTime) / REFERENCE_DELTA_TIME; // Decrease scale
+
+        // Remove message if alpha is less than or equal to 0
+        if (msg.alpha <= 0) {
+          global.messages.splice(0, 1);
+          i--; // Adjust index since we removed an element
+          continue; // Skip the rest of the loop
+        }
+      }
+     
+      if (
+        i === 0 &&
+        (global.messages.length > 15)
+    ) {
+        msg.alpha = 0;
+        global.messages.splice(0, 1);
+    }
+      
+      const scaledHeight = baseHeight * msg.scale;
+      const scaledWidth = msg.len * msg.scale;
+
+      // Draw the background
+      ctx.globalAlpha = 0.5 * msg.alpha;
+drawSquare(
+  x - scaledWidth / 2,
+  y,
+  scaledWidth,
+  scaledHeight,
+  color.black,
+);
+
+
+      // Draw the text
+      ctx.globalAlpha = msg.alpha;
+      drawText1(
+        text,
+        x,
+        y + scaledHeight / 2,
+        scaledHeight - 4,
+        "white",
+        "center",
+        true,
+      );
+
+      // Update the y position for the next message
+      y += vspacing + scaledHeight;
+    }
+    ctx.globalAlpha = 1;
+  }
+  function drawText1(
+    text,
+    x,
+    y,
+    fontSize,
+    color,
+    align = "center",
+    bold = false,
+  ) {
+    ctx.fillStyle = color;
+    ctx.font = (bold ? "bold " : "") + fontSize + "px Arial";
+    ctx.textAlign = align;
+    ctx.textBaseline = "middle";
+    ctx.fillText(text, x, y);
+  }
+
+  // Helper function to draw a square
+  function drawSquare(x, y, width, height, color) {
+    ctx.fillStyle = color;
+    ctx.fillRect(x, y, width, height);
+  }
+  let lastUpdateTimeBlue = Date.now();
+
+  function drawMessagesblue(spacing) {
+    // Draw messages
+    const vspacing = 4;
+    const baseHeight = 22; // Fixed base height for each message
+    const x = global.screenWidth / 2;
+
+    // Calculate time delta since last update
+    const currentTime = Date.now();
+    const deltaTime = currentTime - lastUpdateTimeBlue;
+    lastUpdateTimeBlue = currentTime;
+
+    const messages1Height = global.messages1.length * (vspacing + baseHeight);
+    const messages2Height = global.messages2.length * (vspacing + baseHeight);
+    const messages3height = global.messages3.length * (vspacing + baseHeight);
+    const messagesbabaHeight =
+      global.messagesbaba.length * (vspacing + baseHeight);
+    const messages4Height = global.messages4.length * (vspacing + baseHeight);
+    let y =
+      spacing +
+      messages1Height +
+      messages2Height +
+      messages3height +
+      messagesbabaHeight +
+      messages4Height; // Start y position below global.messages1-3
+
+    // Draw each message
+    for (let i = 0; i < global.messagesblue.length; i++) {
+      const msg = global.messagesblue[i];
+      const text = msg.text;
+
+      // Measure the text width if it doesn't have one
+      if (msg.len == null) msg.len = measureText(text, baseHeight - 4); // Measure text width
+
+      if (msg.scale == null) msg.scale = 0; // Initialize scale if not present
+
+      // Update alpha and status based on time
+      const REFERENCE_DELTA_TIME = 10; // Set a reference delta time (in milliseconds)
+
+      if (msg.status > 1) {
+        msg.status -= (0.045 * deltaTime) / REFERENCE_DELTA_TIME;
+        msg.alpha = Math.min(
+          1,
+          msg.alpha + (0.045 * deltaTime) / REFERENCE_DELTA_TIME,
+        );
+        msg.scale = Math.min(
+          1,
+          msg.scale + (0.045 * deltaTime) / REFERENCE_DELTA_TIME,
+        ); // Increase scale
+      } else if (
+        i === 0 &&
+        (global.messagesblue.length > 1 || Date.now() - msg.time > 10000)
+      ) {
+        msg.alpha -= (0.045 * deltaTime) / REFERENCE_DELTA_TIME;
+        msg.scale -= (0.045 * deltaTime) / REFERENCE_DELTA_TIME; // Decrease scale
+
+        // Remove message if alpha is less than or equal to 0
+        if (msg.alpha <= 0) {
+          global.messagesblue.splice(0, 1);
+          i--; // Adjust index since we removed an element
+          continue; // Skip the rest of the loop
+        }
+      }
+
+      const scaledHeight = baseHeight * msg.scale;
+      const scaledWidth = msg.len * msg.scale;
+
+      // Draw the background
+      ctx.globalAlpha = 0.5 * msg.alpha;
+      drawSquare(x - scaledWidth / 2, y, scaledWidth, scaledHeight, "#2e3eea");
+
+      // Draw the text
+      ctx.globalAlpha = msg.alpha;
+      drawText1(
+        text,
+        x,
+        y + scaledHeight / 2,
+        scaledHeight - 4,
+        "white",
+        "center",
+        true,
+      );
+
+      // Update the y position for the next message
+      y += vspacing + scaledHeight;
+    }
+    ctx.globalAlpha = 1;
+  }
+  let lastUpdateTime1 = Date.now();
+  function drawMessages1(spacing) {
+    if (global.tryingtoreconnect) return;
+    // Draw messages
+    const vspacing = 4;
+    const baseHeight = 20; // Fixed base height for each message
+    const x = global.screenWidth / 2;
+
+    // Calculate time delta since last update
+    const currentTime = Date.now();
+    const deltaTime = currentTime - lastUpdateTime1;
+    lastUpdateTime1 = currentTime;
+
+    const messages2Height = global.messages2.length * (vspacing + baseHeight);
+    const messages3Height = global.messages3.length * (vspacing + baseHeight);
+    const messagesbabaHeight =
+      global.messagesbaba.length * (vspacing + baseHeight);
+    const messages4Height = global.messages4.length * (vspacing + baseHeight);
+    let y =
+      spacing +
+      messages2Height +
+      messages3Height +
+      messagesbabaHeight +
+      messages4Height; // Start y position below global.messages
+
+    // Draw each message
+    for (let i = 0; i < global.messages1.length; i++) {
+      const msg = global.messages1[i];
+      const text = msg.text;
+
+      // Measure the text width if it doesn't have one
+      if (msg.len == null) msg.len = measureText(text, baseHeight - 4); // Measure text width
+
+      if (msg.scale == null) msg.scale = 0; // Initialize scale if not present
+
+      const REFERENCE_DELTA_TIME = 10; // Set a reference delta time (in milliseconds)
+
+      if (msg.status > 1) {
+        msg.status -= (0.045 * deltaTime) / REFERENCE_DELTA_TIME;
+        msg.alpha = Math.min(
+          1,
+          msg.alpha + (0.045 * deltaTime) / REFERENCE_DELTA_TIME,
+        );
+        msg.scale = Math.min(
+          1,
+          msg.scale + (0.045 * deltaTime) / REFERENCE_DELTA_TIME,
+        ); // Increase scale
+      } else if (
+        i === 0 &&
+        (global.messages1.length > 5 || Date.now() - msg.time > 9e99)
+      ) {
+        msg.alpha -= (0.045 * deltaTime) / REFERENCE_DELTA_TIME;
+        msg.scale -= (0.045 * deltaTime) / REFERENCE_DELTA_TIME; // Decrease scale
+
+        // Remove message if alpha is less than or equal to 0
+        if (msg.alpha <= 0) {
+          global.messages1.splice(0, 1);
+          i--; // Adjust index since we removed an element
+          continue; // Skip the rest of the loop
+        }
+      }
+
+      const scaledHeight = baseHeight * msg.scale;
+      const scaledWidth = msg.len * msg.scale;
+
+      // Draw the background
+      ctx.globalAlpha = 0.5 * msg.alpha;
+      drawSquare(x - scaledWidth / 2, y, scaledWidth, scaledHeight, "#FF0000");
+
+      // Draw the text
+      ctx.globalAlpha = msg.alpha;
+      drawText1(
+        text,
+        x,
+        y + scaledHeight / 2,
+        scaledHeight - 4,
+        "white",
+        "center",
+        true,
+      );
+
+      // Update the y position for the next message
+      y += vspacing + scaledHeight;
+    }
+    ctx.globalAlpha = 1;
+  }
+
+  // Helper function to draw a square
+  function drawSquare(x, y, width, height, color) {
+    ctx.fillStyle = color;
+    ctx.fillRect(x, y, width, height);
+  }
+  let lastUpdateTime2 = Date.now();
+  function drawMessages2(spacing) {
+        if (global.tryingtoreconnect) return;
+    // Draw messages
+    const vspacing = 4;
+    const baseHeight = 20; // Fixed base height for each message
+    const x = global.screenWidth / 2;
+
+    // Calculate time delta since last update
+    const currentTime = Date.now();
+    const deltaTime = currentTime - lastUpdateTime2;
+    lastUpdateTime2 = currentTime;
+
+    let y = spacing; // Start y position below global.messages
+
+    // Draw each message
+    for (let i = 0; i < global.messages2.length; i++) {
+      const msg = global.messages2[i];
+      const text = msg.text;
+
+      // Measure the text width if it doesn't have one
+      if (msg.len == null) msg.len = measureText(text, baseHeight - 4); // Measure text width
+
+      if (msg.scale == null) msg.scale = 0; // Initialize scale if not present
+
+      const REFERENCE_DELTA_TIME = 10; // Set a reference delta time (in milliseconds)
+
+      if (msg.status > 1) {
+        msg.status -= (0.045 * deltaTime) / REFERENCE_DELTA_TIME;
+        msg.alpha = Math.min(
+          1,
+          msg.alpha + (0.045 * deltaTime) / REFERENCE_DELTA_TIME,
+        );
+        msg.scale = Math.min(
+          1,
+          msg.scale + (0.045 * deltaTime) / REFERENCE_DELTA_TIME,
+        ); // Increase scale
+      } else if (
+        i === 0 &&
+        (global.messages2.length > 1 || Date.now() - msg.time > 9e99)
+      ) {
+        msg.alpha -= (0.045 * deltaTime) / REFERENCE_DELTA_TIME;
+        msg.scale -= (0.045 * deltaTime) / REFERENCE_DELTA_TIME; // Decrease scale
+
+        // Remove message if alpha is less than or equal to 0
+        if (msg.alpha <= 0) {
+          global.messages2.splice(0, 1);
+          i--; // Adjust index since we removed an element
+          continue; // Skip the rest of the loop
+        }
+      }
+if (global.messages2.length > 1) {
+  global.messages2.splice(1);
+}
+      const scaledHeight = baseHeight * msg.scale;
+      const scaledWidth = msg.len * msg.scale;
+
+      // Draw the background
+      ctx.globalAlpha = 0.5 * msg.alpha;
+      drawSquare(x - scaledWidth / 2, y, scaledWidth, scaledHeight, "#00B0E1");
+
+      // Draw the text
+      ctx.globalAlpha = msg.alpha;
+      drawText1(
+        text,
+        x,
+        y + scaledHeight / 2,
+        scaledHeight - 4,
+        "white",
+        "center",
+        true,
+      );
+
+      // Update the y position for the next message
+      y += vspacing + scaledHeight;
+    }
+    ctx.globalAlpha = 1;
+  }
+  let lastUpdateTime3 = Date.now();
+  function drawMessages3(spacing) {
+        if (global.tryingtoreconnect) return;
+    // Draw messages
+    const vspacing = 4;
+    const baseHeight = 20; // Fixed base height for each message
+    const x = global.screenWidth / 2;
+
+    // Calculate time delta since last update
+    const currentTime = Date.now();
+    const deltaTime = currentTime - lastUpdateTime3;
+    lastUpdateTime3 = currentTime;
+
+    let y = spacing; // Start y position below global.messages
+
+    // Draw each message
+    for (let i = 0; i < global.messages3.length; i++) {
+      const msg = global.messages3[i];
+      const text = msg.text;
+
+      // Measure the text width if it doesn't have one
+      if (msg.len == null) msg.len = measureText(text, baseHeight - 4); // Measure text width
+
+      if (msg.scale == null) msg.scale = 0; // Initialize scale if not present
+
+      const REFERENCE_DELTA_TIME = 10; // Set a reference delta time (in milliseconds)
+
+      if (msg.status > 1) {
+        msg.status -= (0.045 * deltaTime) / REFERENCE_DELTA_TIME;
+        msg.alpha = Math.min(
+          1,
+          msg.alpha + (0.045 * deltaTime) / REFERENCE_DELTA_TIME,
+        );
+        msg.scale = Math.min(
+          1,
+          msg.scale + (0.045 * deltaTime) / REFERENCE_DELTA_TIME,
+        ); // Increase scale
+      } else if (
+        i === 0 &&
+        (global.messages3.length > 1 || Date.now() - msg.time > 9e99)
+      ) {
+        msg.alpha -= (0.045 * deltaTime) / REFERENCE_DELTA_TIME;
+        msg.scale -= (0.045 * deltaTime) / REFERENCE_DELTA_TIME; // Decrease scale
+
+        // Remove message if alpha is less than or equal to 0
+        if (msg.alpha <= 0) {
+          global.messages3.splice(0, 1);
+          i--; // Adjust index since we removed an element
+          continue; // Skip the rest of the loop
+        }
+      }
+      if (global.messages3.length > 1) {
+        global.messages3.splice(1);
+      }
+      const scaledHeight = baseHeight * msg.scale;
+      const scaledWidth = msg.len * msg.scale;
+
+      // Draw the background
+      ctx.globalAlpha = 0.5 * msg.alpha;
+      drawSquare(x - scaledWidth / 2, y, scaledWidth, scaledHeight, "#FF5E65");
+
+      // Draw the text
+      ctx.globalAlpha = msg.alpha;
+      drawText1(
+        text,
+        x,
+        y + scaledHeight / 2,
+        scaledHeight - 4,
+        "white",
+        "center",
+        true,
+      );
+
+      // Update the y position for the next message
+      y += vspacing + scaledHeight;
+    }
+    ctx.globalAlpha = 1;
+  }
+  let lastUpdateTimebaba = Date.now();
+  function drawMessages6(spacing) {
+    // Draw messages
+    const vspacing = 4;
+    const baseHeight = 20; // Fixed base height for each message
+    const x = global.screenWidth / 2;
+
+    // Calculate time delta since last update
+    const currentTime = Date.now();
+    const deltaTime = currentTime - lastUpdateTimebaba;
+    lastUpdateTimebaba = currentTime;
+
+    let y = spacing; // Start y position below global.messages
+
+    // Draw each message
+    for (let i = 0; i < global.messagesbaba.length; i++) {
+      const msg = global.messagesbaba[i];
+      const text = msg.text;
+
+      // Measure the text width if it doesn't have one
+      if (msg.len == null) msg.len = measureText(text, baseHeight - 4); // Measure text width
+
+      if (msg.scale == null) msg.scale = 0; // Initialize scale if not present
+
+      const REFERENCE_DELTA_TIME = 10; // Set a reference delta time (in milliseconds)
+
+      if (msg.status > 1) {
+        msg.status -= (0.045 * deltaTime) / REFERENCE_DELTA_TIME;
+        msg.alpha = Math.min(
+          1,
+          msg.alpha + (0.045 * deltaTime) / REFERENCE_DELTA_TIME,
+        );
+        msg.scale = Math.min(
+          1,
+          msg.scale + (0.045 * deltaTime) / REFERENCE_DELTA_TIME,
+        ); // Increase scale
+      } else if (
+        i === 0 &&
+        (global.messagesbaba.length > 1 || Date.now() - msg.time > 9e99)
+      ) {
+        msg.alpha -= (0.045 * deltaTime) / REFERENCE_DELTA_TIME;
+        msg.scale -= (0.045 * deltaTime) / REFERENCE_DELTA_TIME; // Decrease scale
+
+        // Remove message if alpha is less than or equal to 0
+        if (msg.alpha <= 0) {
+          global.messagesbaba.splice(0, 1);
+          i--; // Adjust index since we removed an element
+          continue; // Skip the rest of the loop
+        }
+      }
+      if (global.messagesbaba.length > 1) {
+        global.messagesbaba.splice(1);
+      }
+      const scaledHeight = baseHeight * msg.scale;
+      const scaledWidth = msg.len * msg.scale;
+
+      // Draw the background
+      ctx.globalAlpha = 0.5 * msg.alpha;
+      drawSquare(x - scaledWidth / 2, y, scaledWidth, scaledHeight, "#5FFF64");
+
+      // Draw the text
+      ctx.globalAlpha = msg.alpha;
+      drawText1(
+        text,
+        x,
+        y + scaledHeight / 2,
+        scaledHeight - 4,
+        "white",
+        "center",
+        true,
+      );
+
+      // Update the y position for the next message
+      y += vspacing + scaledHeight;
+    }
+    ctx.globalAlpha = 1;
+  }
+  let lastUpdateTime4 = Date.now();
+  function drawMessages4(spacing) {
+        if (global.tryingtoreconnect) return;
+    // Draw messages
+    const vspacing = 4;
+    const baseHeight = 20; // Fixed base height for each message
+    const x = global.screenWidth / 2;
+
+    // Calculate time delta since last update
+    const currentTime = Date.now();
+    const deltaTime = currentTime - lastUpdateTime4;
+    lastUpdateTime4 = currentTime;
+
+    let y = spacing; // Start y position below global.messages
+
+    // Draw each message
+    for (let i = 0; i < global.messages4.length; i++) {
+      const msg = global.messages4[i];
+      const text = msg.text;
+
+      // Measure the text width if it doesn't have one
+      if (msg.len == null) msg.len = measureText(text, baseHeight - 4); // Measure text width
+
+      if (msg.scale == null) msg.scale = 0; // Initialize scale if not present
+
+      const REFERENCE_DELTA_TIME = 10; // Set a reference delta time (in milliseconds)
+
+      if (msg.status > 1) {
+        msg.status -= (0.045 * deltaTime) / REFERENCE_DELTA_TIME;
+        msg.alpha = Math.min(
+          1,
+          msg.alpha + (0.045 * deltaTime) / REFERENCE_DELTA_TIME,
+        );
+        msg.scale = Math.min(
+          1,
+          msg.scale + (0.045 * deltaTime) / REFERENCE_DELTA_TIME,
+        ); // Increase scale
+      } else if (
+        i === 0 &&
+        (global.messages4.length > 1 || Date.now() - msg.time > 9e99)
+      ) {
+        msg.alpha -= (0.045 * deltaTime) / REFERENCE_DELTA_TIME;
+        msg.scale -= (0.045 * deltaTime) / REFERENCE_DELTA_TIME; // Decrease scale
+
+        // Remove message if alpha is less than or equal to 0
+        if (msg.alpha <= 0) {
+          global.messages4.splice(0, 1);
+          i--; // Adjust index since we removed an element
+          continue; // Skip the rest of the loop
+        }
+      }
+      if (global.messages4.length > 1) {
+        global.messages4.splice(1);
+      }
+      const scaledHeight = baseHeight * msg.scale;
+      const scaledWidth = msg.len * msg.scale;
+
+      // Draw the background
+      ctx.globalAlpha = 0.5 * msg.alpha;
+      drawSquare(x - scaledWidth / 2, y, scaledWidth, scaledHeight, "#FFF83B");
+
+      // Draw the text
+      ctx.globalAlpha = msg.alpha;
+      drawText1(
+        text,
+        x,
+        y + scaledHeight / 2,
+        scaledHeight - 4,
+        "white",
+        "center",
+        true,
+      );
+
+      // Update the y position for the next message
+      y += vspacing + scaledHeight;
+    }
+    ctx.globalAlpha = 1;
+  }
+  function drawMessages5(spacing) {
+        if (global.tryingtoreconnect) return;
+    // Draw messages
+    let vspacing = 4;
+    let len = 0;
+    let height = 18;
+    let x = global.screenWidth / 2;
+    let y = spacing; // Start y position below global.messages2
+
+    // Calculate time delta since last update
+    let currentTime = Date.now();
+    let deltaTime = currentTime - lastUpdateTime;
+    lastUpdateTime = currentTime;
+
+    // Draw each message
+    for (let i = global.messages5.length - 1; i >= 0; i--) {
+      let msg = global.messages5[i];
+      let txt = msg.text;
+      let text = txt;
+
+      // Give it a textobj if it doesn't have one
+      if (msg.len == null) msg.len = measureText(text, height - 4);
+
+      // Draw the background
+      ctx.globalAlpha = 1 * msg.alpha;
+
+      drawBar(
+        x - msg.len / 2,
+        x + msg.len / 2,
+        y + height / 2,
+        height,
+        "#5C6BC0",
+      );
+
+      ctx.globalAlpha = Math.min(1, msg.alpha);
+      // Draw the text
+      drawText(
+        text,
+        x,
+        y + height / 2,
+        height - 4,
+        color.guiwhite,
+        "center",
+        true,
+      );
+      const REFERENCE_DELTA_TIME = 10; // Set a reference delta time (in milliseconds)
+      // Update alpha based on time
+      if (msg.status > 1) {
+        y -= (vspacing + height) * (1 - Math.sqrt(msg.alpha));
+        msg.status -= 0.05 / deltaTime; // Decrease faster
+        msg.alpha += 0.05 / deltaTime; // Increase faster
+      }
+
+      // Iterate and move
+      y += vspacing + height;
+    }
+    ctx.globalAlpha = 1;
+  }
+
+  function drawSkillBars(spacing, alcoveSize) {
+    if (global.mobile) return drawMobileSkillUpgrades(spacing, alcoveSize);
+    // Draw skill bars
+    global.canSkill = !!gui.points;
+    statMenu.set(
+      0 +
+        (global.died ||
+          global.disconnected ||
+          global.statHover ||
+          (global.canSkill &&
+            !gui.skills.every((skill) => skill.cap === skill.amount))),
+    );
+    global.clickables.stat.hide();
+    let vspacing = 4;
+    let height = 18;
+    let gap = 40;
+    let gap1 = 15;
+    let len = alcoveSize; // * global.screenWidth; // The 30 is for the value modifiers
+    let save = len;
+    let x =
+      spacing +
+      (statMenu.get() - 1) *
+        (height +
+          50 +
+          len *
+            ska(
+              gui.skills.reduce(
+                (largest, skill) => Math.max(largest, skill.cap),
+                0,
+              ),
+            ));
+    let y = global.screenHeight - spacing - height;
+    let ticker = 11;
+    let namedata = gui.getStatNames(
+      global.mockups[parseInt(gui.type.split("-")[0])].statnames,
+    );
+    let clickableRatio = canvas.height / global.screenHeight / global.ratio;
+    let mouseX = global.mouse.x * clickableRatio;
+    let mouseY = global.mouse.y * clickableRatio;
+
+    for (let i = 0; i < gui.skills.length; i++) {
+      ticker--;
+
+      //information about the bar
+      let skill = gui.skills[i],
+        name = namedata[ticker - 1],
+        level = skill.amount,
+        col = color[skill.color],
+        cap = skill.softcap,
+        maxLevel = skill.cap;
+      if (!cap) continue;
+      len = save;
+      let max = 0,
+        extension = cap > max,
+        blocking = cap < maxLevel;
+      if (extension) {
+        max = cap;
+      }
+      drawBar(
+        x + height / 2,
+        x + height / 2 + len * ska(cap) - gap1,
+        y + height / 2,
+        height - 4,
+        color.black,
+      );
+      drawBar(
+        x + height / 2,
+        x - height / 2 + len * ska(cap),
+        y + height / 2,
+        height - 6.5,
+        col,
+      );
+   
+      drawBar(
+        x + height / 2,
+        x + height / 2 + len * ska(cap) - gap,
+        y + height / 2,
+        height - 3,
+        color.black,
+      );
+      drawBar(
+        x + height / 2,
+        x + height / 2 + len * ska(level) - gap,
+        y + height / 2,
+        height - 7.5,
+        col,
+      );
+
+      // Blocked-off area
+      if (blocking) {
+        ctx.lineWidth = 1;
+        ctx.strokeStyle = color.grey;
+        for (let j = cap + 1; j < max; j++) {
+          drawGuiLine(
+            x + len * ska(j) - gap,
+            y + 1.5,
+            x + len * ska(j) - gap,
+            y - 3 + height,
+          );
+        }
+      }
+
+      // Vertical dividers
+      ctx.strokeStyle = color.black;
+      ctx.lineWidth = 1;
+      for (let j = 1; j < level + 1; j++) {
+        drawGuiLine(
+          x + len * ska(j) - gap,
+          y + 1.5,
+          x + len * ska(j) - gap,
+          y - 3 + height,
+        );
+      }
+
+      // Skill name
+      len = save * ska(max);
+      let textcolor =
+        level == maxLevel
+          ? col
+          : !gui.points || (cap !== maxLevel && level == cap)
+            ? color.grey
+            : color.guiwhite;
+      drawText(
+        name,
+        Math.round(x + len / 2) + 0.5,
+        y + height / 2,
+        height - 8,
+        textcolor,
+        "center",
+        true,
+      );
+
+      // Skill key
+      drawText(
+        "+",
+        Math.round(x + len - height * 0.3) - 3.5,
+        y + height / 2 + 0.5,
+        height - 5,
+        color.black,
+        "right",
+        true,
+      );
+      drawText(
+        "[" + (ticker % 10) + "]",
+        Math.round(x + len - height * 2) - 1.5,
+        y + height / 2,
+        height - 8,
+        textcolor,
+        "right",
+        true,
+      );
+      if (textcolor === color.guiwhite) {
+        // If it's active
+        global.clickables.stat.place(
+          ticker - 1,
+          x * clickableRatio,
+          y * clickableRatio,
+          len * clickableRatio,
+          height * clickableRatio,
+        );
+      }
+
+      // Skill value
+      if (level) {
+        drawText(
+          textcolor === col ? "MAX" : "+" + level,
+          Math.round(x + len + 4) + 0.5,
+          y + height / 2,
+          height - 5,
+          col,
+          "left",
+          true,
+        );
+      }
+
+      // Move on
+      y -= height + vspacing;
+    }
+    global.clickables.hover.place(
+      0,
+      0,
+      y * clickableRatio,
+      0.8 * len * clickableRatio,
+      (global.screenHeight - y) * clickableRatio,
+    );
+
+    if (gui.points !== 0) {
+      // Draw skillpoints to spend
+      drawText(
+        "x" + gui.points,
+        Math.round(x + len - 2) + 0.5,
+        Math.round(y + height - 4) + 0.5,
+        20,
+        color.guiwhite,
+        "right",
+      );
+    }
+  }
+  function drawMobileSkillUpgrades(spacing, alcoveSize) {
+    spacing += 800; // Adjust vertical position by adding 50 pixels
+    global.canSkill =
+      gui.points > 0 && gui.skills.some((s) => s.amount < s.cap);
+    statMenu.set(global.canSkill || global.died || global.disconnected ? 1 : 0);
+    let n = statMenu.get();
+    global.clickables.stat.hide();
+    let t = alcoveSize / 2,
+      q = alcoveSize / 3,
+      x = 2 * n * spacing - spacing,
+      statNames = gui.getStatNames(
+        global.mockups[parseInt(gui.type.split("-")[0])].statnames,
+      ),
+      clickableRatio = canvas.height / global.screenHeight / global.ratio;
+    if (global.canSkill) {
+      for (let i = 0; i < gui.skills.length; i++) {
+        let skill = gui.skills[i],
+          softcap = skill.softcap;
+        if (softcap <= 0) continue;
+        let amount = skill.amount,
+          skillColor = color[skill.color],
+          cap = skill.cap,
+          name = statNames[9 - i].split(/\s+/),
+          halfNameLength = Math.floor(name.length / 2),
+          [name1, name2] =
+            name.length === 1
+              ? [name[0], null]
+              : [
+                  name.slice(0, halfNameLength).join(" "),
+                  name.slice(halfNameLength).join(" "),
+                ];
+
+        ctx.globalAlpha = 0.5;
+        ctx.fillStyle = skillColor;
+        drawGuiRect(x, spacing, t, (2 * q) / 3);
+
+        ctx.globalAlpha = 0.1;
+        ctx.fillStyle = color.black;
+        drawGuiRect(x, spacing + (((q * 2) / 3) * 2) / 3, t, (q * 2) / 3 / 3);
+
+        ctx.globalAlpha = 1;
+        ctx.fillStyle = color.guiwhite;
+        drawGuiRect(x, spacing + (q * 2) / 3, t, q / 3);
+
+        ctx.fillStyle = skillColor;
+        drawGuiRect(x, spacing + (q * 2) / 3, (t * amount) / softcap, q / 3);
+
+        ctx.strokeStyle = color.black;
+        ctx.lineWidth = 1;
+        for (let j = 1; j < cap; j++) {
+          let width = x + (j / softcap) * t;
+          drawGuiLine(width, spacing + (q * 2) / 3, width, spacing + q);
+        }
+
+        cap === 0 ||
+          !gui.points ||
+          (softcap !== cap && amount === softcap) ||
+          global.clickables.stat.place(
+            9 - i,
+            x * clickableRatio,
+            spacing * clickableRatio,
+            t * clickableRatio,
+            q * clickableRatio,
+          );
+
+        if (name2) {
+          drawText(
+            name2,
+            x + t / 2,
+            spacing + q * 0.55,
+            q / 5,
+            color.guiwhite,
+            "center",
+          );
+          drawText(
+            name1,
+            x + t / 2,
+            spacing + q * 0.3,
+            q / 5,
+            color.guiwhite,
+            "center",
+          );
+        } else {
+          drawText(
+            name1,
+            x + t / 2,
+            spacing + q * 0.425,
+            q / 5,
+            color.guiwhite,
+            "center",
+          );
+        }
+
+        if (amount > 0) {
+          drawText(
+            amount < softcap ? `+${amount}` : "MAX",
+            x + t / 2,
+            spacing + q * 1.3,
+            q / 4,
+            skillColor,
+            "center",
+          );
+        }
+
+        ctx.strokeStyle = color.black;
+        ctx.globalAlpha = 1;
+        ctx.lineWidth = 3;
+        drawGuiLine(x, spacing + (q * 2) / 3, x + t, spacing + (q * 2) / 3);
+        drawGuiRect(x, spacing, t, q, true);
+
+        x += n * (t + 14);
+      }
+
+      if (gui.points > 1) {
+        drawText(
+          `x ${gui.points}`,
+          x,
+          spacing + 20,
+          20,
+          color.guiwhite,
+          "left",
+        );
+      }
+    }
+  }
+
+  function drawSelfInfo(spacing, alcoveSize, max) {
+    //rendering information
+    let vspacing = 4;
+    let len = 1.65 * alcoveSize; // * global.screenWidth;
+    let height = 20;
+    let x = (global.screenWidth - len) / 2;
+    let y = global.screenHeight - spacing - height;
+    ctx.lineWidth = 1;
+
+    // Draw the exp bar
+    drawBar(
+      x,
+      x + len,
+      y + height / 2,
+      height - 3 + config.graphical.barChunk,
+      color.black,
+    );
+    drawBar(x, x + len, y + height / 2, height - 3, "#3c3c3c");
+    drawBar(
+      x,
+      x + len * gui.__s.getProgress(),
+      y + height / 2,
+      height - 3.5,
+      color.gold,
+    );
+
+    // Draw the class type
+    drawText(
+      "Level " + gui.__s.getLevel() + " " + gui.class,
+      x + len / 2,
+      y + height / 2,
+      height - 4,
+      color.guiwhite,
+      "center",
+      true,
+    );
+    height = 14;
+    y -= height + vspacing;
+
+    // Draw the %-of-leader bar
+    drawBar(
+      x + len * 0.1,
+      x + len * 0.9,
+      y + height / 2,
+      height - 3 + config.graphical.barChunk,
+      color.black,
+    );
+    drawBar(
+      x + len * 0.1,
+      x + len * 0.9,
+      y + height / 2,
+      height - 3,
+      "#3c3c3c",
+    );
+
+    drawBar(
+      x + len * 0.1,
+      x + len * (0.1 + 0.8 * (max ? Math.min(1, gui.__s.getScore() / max) : 1)),
+      y + height / 2,
+      height - 3.5,
+      color.green,
+    );
+
+    //write the score and name
+    drawText(
+      "Score: " + util.handleLargeNumber(gui.__s.getScore()),
+      x + len / 2,
+      y + height / 2,
+      height - 2,
+      color.guiwhite,
+      "center",
+      true,
+    );
+    ctx.lineWidth = 4;
+    drawText(
+      global.player.name,
+      Math.round(x + len / 2) + 0.5,
+      Math.round(y - 10 - vspacing) + 0.5,
+      32,
+      global.nameColor,
+      "center",
+    );
+  }
+
+  function drawArrow(x, y, size, direction = "up") {
+    ctx.beginPath();
+    switch (direction) {
+      case "up":
+        ctx.moveTo(x, y - size); // Top point
+        ctx.lineTo(x - size, y + size); // Bottom left point
+        ctx.lineTo(x + size, y + size); // Bottom right point
+        break;
+      case "down":
+        ctx.moveTo(x, y + size); // Bottom point
+        ctx.lineTo(x - size, y - size); // Top left point
+        ctx.lineTo(x + size, y - size); // Top right point
+        break;
+      case "left":
+        ctx.moveTo(x - size, y); // Left point
+        ctx.lineTo(x + size, y - size); // Top right point
+        ctx.lineTo(x + size, y + size); // Bottom right point
+        break;
+      case "right":
+        ctx.moveTo(x + size, y); // Right point
+        ctx.lineTo(x - size, y - size); // Top left point
+        ctx.lineTo(x - size, y + size); // Bottom left point
+        break;
+    }
+    ctx.closePath();
+    ctx.fill();
+    ctx.stroke();
+  }
+  function drawMinimapAndDebug(spacing, alcoveSize) {
+    // Draw minimap and FPS monitors
+    //minimap stuff stards here
+    let minimapScaleFactor = 0.85; // Adjust this value to control the minimap size
+    let len = alcoveSize * minimapScaleFactor;
+    let height = (len / global.gameWidth) * global.gameHeight;
+    if (global.mobile) {
+      height = (len / global.gameWidth / 1.9) * global.gameHeight;
+      len = alcoveSize * 0.6;
+    }
+    if (
+      global.gameHeight > global.gameWidth ||
+      global.gameHeight < global.gameWidth
+    ) {
+      let ratio = [
+        global.gameWidth / global.gameHeight,
+        global.gameHeight / global.gameWidth,
+      ];
+      len /= ratio[1] * 1.5;
+      height /= ratio[1] * 1.5;
+      if (len > alcoveSize * 2) {
+        ratio = len / (alcoveSize * 2);
+      } else if (height > alcoveSize * 2) {
+        ratio = height / (alcoveSize * 2);
+      } else {
+        ratio = 1;
+      }
+      len /= ratio;
+      height /= ratio;
+    }
+    let x = global.screenWidth - spacing - len;
+    let y = global.screenHeight - height - spacing;
+    ctx.globalAlpha = 0.4;
+    let W = global.roomSetup[0].length,
+      H = global.roomSetup.length,
+      i = 0;
+    for (let ycell = 0; ycell < H; ycell++) {
+      let row = global.roomSetup[ycell];
+      let j = 0;
+      for (let xcell = 0; xcell < W; xcell++) {
+        let cell = global.roomSetup[ycell][xcell];
+        ctx.fillStyle = gameDraw.getZoneColor(cell);
+        if (gameDraw.getZoneColor(cell) !== color.white) {
+          drawGuiRect(
+            x + (j * len) / W,
+            y + (i * height) / H,
+            len / W,
+            height / H,
+          );
+        }
+        j++;
+      }
+      i++;
+    }
+    ctx.fillStyle = color.white;
+    drawGuiRect(x, y, len, height);
+    ctx.globalAlpha = 1;
+    ctx.lineWidth = 5;
+    ctx.fillStyle = "#D5D5D5";
+    drawGuiRect(x, y, len, height, true); // Border
+    for (let entity of minimap.get()) {
+      ctx.fillStyle = gameDraw.mixColors(
+        gameDraw.modifyColor(entity.color),
+        color.black,
+        0.3,
+      );
+      ctx.globalAlpha = entity.alpha;
+      switch (entity.type) {
+        case 2:
+          drawGuiRect(
+            x + ((entity.x - entity.size) / global.gameWidth) * len - 0.4,
+            y + ((entity.y - entity.size) / global.gameHeight) * height - 1,
+            ((2 * entity.size) / global.gameWidth) * len + 0.2,
+            ((2 * entity.size) / global.gameWidth) * len + 0.2,
+          );
+          break;
+        case 1:
+          drawGuiCircle(
+            x + (entity.x / global.gameWidth) * len,
+            y + (entity.y / global.gameHeight) * height,
+            (entity.size / global.gameWidth) * len + 0.2,
+          );
+          break;
+        case 0:
+          if (entity.id !== gui.playerid)
+            drawGuiCircle(
+              x + (entity.x / global.gameWidth) * len,
+              y + (entity.y / global.gameHeight) * height,
+              2,
+            );
+          break;
+      }
+    }
+    ctx.globalAlpha = 1;
+    ctx.lineWidth = 1;
+    ctx.strokeStyle = color.black;
+    ctx.fillStyle = color.black;
+    drawGuiCircle(
+      x + (global.player.cx / global.gameWidth) * len - 1,
+      y + (global.player.cy / global.gameHeight) * height - 1,
+      2,
+      false,
+    );
+    if (global.showDebug) {
+      drawGuiRect(x, y - 40, len, 30);
+      lagGraph(lag.get(), x, y - 40, len, 30, color.teal);
+      gapGraph(global.metrics.rendergap, x, y - 40, len, 30, color.pink);
+      timingGraph(GRAPHDATA, x, y - 40, len, 30, color.yellow);
+    }
+    //minimap stuff ends here
+    //debug stuff
+    if (!global.showDebug) y += 14 * 3;
+    // Text
+    function interpolateColor(color1, color2, factor) {
+      const result = color1.map((value, index) => {
+        const blendedValue = Math.round(
+          value + factor * (color2[index] - value),
+        );
+        return Math.min(255, Math.max(0, blendedValue)); // Ensure the value is between 0 and 255
+      });
+
+      return `rgb(${result.join(",")})`;
+    }
+
+    const green = [0, 255, 0]; // RGB values for green
+    const grey = [169, 169, 169]; // RGB values for grey
+    const lightgreen = [185, 232, 126];
+
+    const currentTime = Date.now();
+    const cycleDuration = 1200; // Adjust this value to control the speed of the color transition
+    const factor = (currentTime % cycleDuration) / cycleDuration;
+
+    let rainbowColor;
+
+    if (factor < 0.5) {
+      // Transition from green to grey
+      rainbowColor = interpolateColor(green, lightgreen, factor * 2);
+    } else {
+      // Transition from grey to black
+      rainbowColor = interpolateColor(lightgreen, grey, (factor - 0.5) * 2);
+    }
+
+    if (global.showDebug) {
+      drawText(
+        "Arras2.io",
+        x + len,
+        y - 50 - 6 * 14 - 2,
+        15,
+        rainbowColor,
+        "right",
+      );
+
+
+// Calculate total players
+let totalPlayers = Object.values(playerCounts).reduce((a, b) => a + b, 0);
+
+// Draw player counts
+
+drawText(
+  `${totalPlayers} players`,
+  x + len,
+  y - 50 - 5 * 14,
+  10,
+  color.guiwhite,
+  "right",
+);
+
+
+
+
+
+      drawText(
+        "Prediction: " + Math.round(GRAPHDATA) + "ms",
+        x + len,
+        y - 50 - 4 * 14,
+        10,
+        color.guiwhite,
+        "right",
+      );
+      drawText(
+        `Bandwidth: ${gui.bandwidth.in} in, ${gui.bandwidth.out} out`,
+        x + len,
+        y - 50 - 3 * 14,
+        10,
+        color.guiwhite,
+        "right",
+      );
+      drawText(
+        "Update Rate: " + global.metrics.updatetime + "Hz",
+        x + len,
+        y - 50 - 2 * 14,
+        10,
+        color.guiwhite,
+        "right",
+      );
+      drawText(
+        (100 * gui.fps).toFixed(2) +
+        "% : " +
+          global.metrics.rendertime +
+          " FPS",
+        x + len,
+        y - 50 - 1 * 14,
+        10,
+        global.metrics.rendertime > 10 ? color.guiwhite : color.orange,
+        "right",
+      );
+
+      drawText(
+        global.metrics.latency + " ms - " + global.serverName,
+        x + len,
+        y - 50,
+        10,
+        color.guiwhite,
+        "right",
+      );
+    } else {
+      drawText(
+        "Arras2.io",
+        x + len,
+        y - 50 - 3 * 14 - 2,
+        15,
+        rainbowColor,
+        "right",
+      );
+      // Calculate total players
+let totalPlayers = Object.values(playerCounts).reduce((a, b) => a + b, 0);
+
+
+
+drawText(
+  `${totalPlayers} players`,
+  x + len,
+  y - 50 - 2 * 14,
+  10,
+  color.guiwhite,
+  "right",
+);
+
+      drawText(
+        (100 * gui.fps).toFixed(2) +
+        "% : " +
+          global.metrics.rendertime +
+          " FPS",
+        x + len,
+        y - 50 - 1 * 14,
+        10,
+        global.metrics.rendertime > 10 ? color.guiwhite : color.orange,
+        "right",
+      );
+      drawText(
+        global.metrics.latency + " ms : " + global.metrics.updatetime + "Hz",
+        x + len,
+        y - 50,
+        10,
+        color.guiwhite,
+        "right",
+      );
+    }
+    global.fps = global.metrics.rendertime;
+  }
+
+  function drawLeaderboard(spacing, alcoveSize, max) {
+    // Draw leaderboard
+    let lb = leaderboard.get();
+    let vspacing = 6;
+    let len = alcoveSize; // * global.screenWidth;
+    let height = 14;
+    let textHeight = 12; // Adjust this value to change the text size
+    let x = global.screenWidth - len - spacing;
+    let y = spacing + height + 15;
+    drawText(
+      "Scoreboard",
+      Math.round(x + len / 2) + 0.5,
+      Math.round(y - 10) + 0.5,
+      textHeight + 8,
+      color.guiwhite,
+      "center",
+    );
+    for (let i = 0; i < lb.data.length; i++) {
+      let entry = lb.data[i];
+      drawBar(
+        x,
+        x + len,
+        y + height / 2,
+        height - 1 + config.graphical.barChunk,
+        color.black,
+      );
+      drawBar(x, x + len, y + height / 2, height - 1, "#3c3c3c");
+      let shift = Math.min(1, entry.score / max);
+      drawBar(
+        x,
+        x + len * shift,
+        y + height / 2,
+        height - 1.5,
+        gameDraw.modifyColor(entry.barColor),
+      );
+      // Leadboard name + score
+      let nameColor = entry.nameColor || "#FFFFFF";
+      drawText(
+        entry.label + (": " + util.handleLargeNumber(Math.round(entry.score))),
+        x + len / 2,
+        y + height / 2,
+        textHeight - 3,
+        nameColor,
+        "center",
+        true,
+        1,
+      );
+      
+      // Mini-image
+      let scale = height / (entry.position.axis / 1), // Adjust multiplier as needed
+        xx = x - 1.5 * height - scale * entry.position.middle.x * 0.707,
+        // Other calculations
+        yy = y + 0.5 * height + scale * entry.position.middle.x * 0.707,
+        baseColor = entry.image.color;
+      drawEntity(
+        baseColor,
+        xx,
+        yy,
+        entry.image,
+        1 / scale,
+        1,
+        (scale * scale) / entry.image.size,
+        -Math.PI / 4,
+        true,
+      );
+      // Move down
+      y += vspacing + height;
+    }
+  }
+
+  function drawAvailableUpgrades(spacing, alcoveSize) {
+    global.upgradeMenuVisible = gui.upgrades.length > 0;
+    // Draw upgrade menu
+    upgradeMenu.set(0 + (global.canUpgrade || global.upgradeHover));
+
+    let glide = upgradeMenu.get();
+    global.clickables.upgrade.hide();
+    if (gui.upgrades.length > 0) {
+      global.canUpgrade = true;
+      let internalSpacing = 20;
+      let internalSpacing1 = 8;
+      let len = alcoveSize / 2;
+      let height = len;
+      let x = glide * 2 * spacing - spacing;
+      let initialY = spacing - -15 + internalSpacing;
+      let initialY1 = spacing - -12 + internalSpacing1;
+      let xStart = x;
+      let initialX = x;
+      let rowWidth = 0;
+      let ticker = 0;
+      let upgradeNum = 0;
+      let colorIndex = 10;
+      let upgradeHoverIndex = global.clickables.upgrade.check({
+        x: global.mouse.x,
+        y: global.mouse.y,
+      });
+      let columnCount = Math.max(3, Math.ceil(gui.upgrades.length / 4));
+      let clickableRatio =
+        global.canvas.height / global.screenHeight / global.ratio;
+      let lastBranch = -1;
+      let y; // Initialize y here
+      upgradeSpin += 0.01;
+
+      // Draw "Upgrades:" label
+      let upgradesText = "Upgrades";
+      let upgradesTextWidth = measureText(upgradesText, internalSpacing * 2.3);
+      drawText(
+        upgradesText,
+        xStart + (rowWidth - upgradesTextWidth) / 90,
+        initialY1 - internalSpacing1,
+        internalSpacing1 * 2.75,
+        color.guiwhite,
+        "left",
+        false,
+      );
+
+
+      let mouseX = (global.target.x + global.canvas.width / 2) / clickableRatio;
+      let mouseY =
+        (global.target.y + global.canvas.height / 2) / clickableRatio;
+      for (let i = 0; i < gui.upgrades.length; i++) {
+        let upgrade = gui.upgrades[i];
+        let upgradeBranch = upgrade[0];
+        let upgradeBranchLabel = upgrade[1] == "undefined" ? "" : upgrade[1];
+        let model = upgrade[2];
+
+        // Draw either in the next row or next column
+        if (ticker === columnCount || upgradeBranch != lastBranch) {
+          x = xStart;
+          y += height + internalSpacing;
+          if (upgradeBranch != lastBranch) {
+            if (upgradeBranchLabel.length > 0) {
+              drawText(
+                " " + upgradeBranchLabel,
+                xStart,
+                y + internalSpacing * 2,
+                internalSpacing * 2.3,
+                color.guiwhite,
+                "left",
+                false,
+              );
+              y += 3 * internalSpacing;
+            }
+
+          }
+          lastBranch = upgradeBranch;
+          ticker = 0;
+        } else {
+          x += glide * (len + internalSpacing);
+        }
+
+        if (!y) y = initialY; // Set y to initialY if it's not yet initialized
+        rowWidth = x;
+
+
+    // Calculate upgrade box positions (use scaled values)
+    let boxLeft = x;
+    let boxTop = y;
+    let boxRight = x + len;
+    let boxBottom = y + height;
+
+    // Scale these positions for hover detection
+    let scaledBoxLeft = boxLeft * clickableRatio;
+    let scaledBoxTop = boxTop * clickableRatio;
+    let scaledBoxRight = boxRight * clickableRatio;
+    let scaledBoxBottom = boxBottom * clickableRatio;
+
+    // Set the upgrade box area as clickable using scaled positions
+    global.clickables.upgrade.place(
+        i, 
+        scaledBoxLeft, 
+        scaledBoxTop, 
+        len * clickableRatio, 
+        height * clickableRatio
+    );
+        let picture = util.getEntityImageFromMockup(model, gui.color),
+          position = picture.position,
+          scale = (0.6 * len) / position.axis,
+          entityX =
+            x + 0.5 * len - scale * position.middle.x * Math.cos(upgradeSpin),
+          entityY =
+            y +
+            0.5 * height -
+            scale * position.middle.x * Math.sin(upgradeSpin),
+          baseColor = picture.color;
+
+    // Check if mouse is hovering over the current upgrade box
+    // Compare scaled mouse coordinates to scaled box coordinates
+    if (mouseX > scaledBoxLeft && mouseX < scaledBoxRight && mouseY > scaledBoxTop && mouseY < scaledBoxBottom && !global.disconnected) {
+      ctx.globalAlpha = 0.1; // Set transparency when hovering
+  } else {
+      ctx.globalAlpha = 0.5; // Default transparency
+  }
+
+        ctx.fillStyle = gameDraw.getColor(colorIndex > 18 ? colorIndex - 19 : colorIndex);
+        drawGuiRect(boxLeft, boxTop, len, height); // Use unscaled positions for drawing
+        ctx.globalAlpha = 0.1;
+        ctx.fillStyle = gameDraw.getColor(-10 + colorIndex++);
+        drawGuiRect(boxLeft, boxTop, len, height * 0.6); // Use unscaled positions for drawing
+        ctx.fillStyle = color.black;
+        drawGuiRect(boxLeft, boxTop + height * 0.6, len, height * 0.4); // Use unscaled positions for drawing
+        ctx.globalAlpha = 1;
+
+        // Draw Tank
+        drawEntity(
+          baseColor,
+          entityX,
+          entityY,
+          picture,
+          1,
+          1,
+          scale / picture.size,
+          upgradeSpin,
+          true,
+        );
+        let upgradeKey = getClassUpgradeKey(upgradeNum);
+
+        // Tank name
+        drawText(
+          picture.upgradeName ?? picture.name,
+          x + ((upgradeKey ? 0.9 : 1) * len) / 2,
+          y + height - 6,
+          height / 8 - 3,
+          color.guiwhite,
+          "center",
+        );
+
+        // Upgrade key
+        if (upgradeKey) {
+          drawText(
+            "[" + upgradeKey + "]",
+            x + len - 4,
+            y + height - 6,
+            height / 8 - 3,
+            color.guiwhite,
+            "right",
+          );
+        }
+        ctx.strokeStyle = color.black;
+        ctx.globalAlpha = 1;
+        ctx.lineWidth = 5;
+        drawGuiRect(x, y, len, height, true); // Border
+        ticker++;
+        upgradeNum++;
+      }
+
+      let h = 14,
+        msg = "Ignore",
+        m = measureText(msg, h - 3) + 40;
+      let buttonX =
+          initialX + (rowWidth + len + internalSpacing - initialX) / 2,
+        buttonY = y + height + internalSpacing; // Adjust buttonY based on the final y position after drawing upgrade boxes
+
+      // Draw the background of the button
+      if (global.skipClicked && !global.disconnected) {
+        ctx.fillStyle = "#9B9B9B"; // Change background color when clicked
+      } else if (global.skipbox && !global.disconnected) {
+        ctx.fillStyle = "#C7C3C3"; // Background color
+      } else {
+        ctx.fillStyle = "#AFAEAE"; // Background color
+      }
+
+      // Draw the top half of the button
+      ctx.fillRect(buttonX - m / 2, buttonY - 5, m, (h + 10) / 2);
+
+      // Draw the bottom half of the button in a slightly darker color
+      ctx.fillStyle = "#8F8E8E"; // Darker color for the bottom half
+      ctx.fillRect(
+        buttonX - m / 2,
+        buttonY - 5 + (h + 10) / 2,
+        m,
+        (h + 10) / 2,
+      );
+
+      // Draw the border of the button
+      ctx.strokeStyle = color.black;
+      ctx.lineWidth = 4;
+      ctx.strokeRect(buttonX - m / 2, buttonY - 5, m, h + 10);
+
+      // Draw the text on the button
+      drawText(
+        msg,
+        buttonX,
+        buttonY + h / 2,
+        h - 2,
+        color.guiwhite,
+        "center",
+        true,
+      );
+
+      // Set the clickable area for the button
+      global.clickables.skipUpgrades.place(
+        0,
+        (buttonX - m / 2) * clickableRatio,
+        (buttonY - 5) * clickableRatio,
+        m * clickableRatio,
+        (h + 10) * clickableRatio,
+      );
+    } else {
+      global.canUpgrade = false;
+      global.clickables.upgrade.hide();
+      global.clickables.skipUpgrades.hide();
+    }
+  }
+  function drawMobileforbutton() {
+    if (global.upgradeMenuVisible) return;
+
+  
+    let clickableRatio = canvas.height / global.screenHeight / global.ratio;
+    let h = 30,
+
+    // Update msg based on global.closesettings
+  msg = global.closesettings ? "Close" : "Exit",
+   
+      m = measureText(msg, h - 3) + 20;
+    let buttonX = global.screenWidth / 22,
+      buttonY = global.screenHeight / 26;
+
+      if (global.SettingsClicked && !global.disconnected) {
+      ctx.fillStyle = "#9B9B9B"; // Change background color when clicked
+    } else if (global.Settingsbox && !global.disconnected) {
+      ctx.fillStyle = "#C7C3C3"; // Background color
+    } else {
+      ctx.fillStyle = "#AFAEAE"; // Background color
+    }
+    // Draw the top half of the button
+    ctx.fillRect(buttonX - m / 2, buttonY - 5, m, (h + 10) / 2);
+
+    // Draw the bottom half of the button in a slightly darker color
+    ctx.fillStyle = "#8F8E8E"; // Darker color for the bottom half
+    ctx.fillRect(
+      buttonX - m / 2,
+      buttonY - 5 + (h + 10) / 2,
+      m,
+      (h + 10) / 2,
+    );
+
+    // Draw the border of the button
+    ctx.strokeStyle = color.black;
+    ctx.lineWidth = 4;
+    ctx.strokeRect(buttonX - m / 2, buttonY - 5, m, h + 10);
+
+    // Draw the text on the button
+    drawText(
+      msg,
+      buttonX,
+      buttonY + h / 2 + 3,
+      16,
+      color.guiwhite,
+      "center",
+      true,
+    );
+
+    // Set the clickable area for the button
+    global.clickables.settingsbutton.place(
+      0,
+      (buttonX - m / 2) * clickableRatio,
+      (buttonY - 5) * clickableRatio,
+      m * clickableRatio,
+      (h + 10) * clickableRatio,
+    );
+
+    // If settings have been clicked, draw additional options
+    if (global.hasclickedsettings && global.closesettings || global.discardexit) {
+
+      hasclickedsettings.set();
+      let greyBoxX = global.screenWidth / 14,
+        greyBoxY = global.screenHeight / 5,
+        greyBoxWidth = 120, // Width of the grey box
+        greyBoxHeight = 100, // Height of the grey box
+        greyBoxPadding = -30, // Padding around the text
+        textHeight = 30; // Height of each text line
+      
+      // Draw grey background box
+      ctx.fillStyle = "#9B9B9B";
+      ctx.fillRect(greyBoxX - greyBoxWidth / 2, greyBoxY - greyBoxHeight / 2, greyBoxWidth, greyBoxHeight);
+  
+      // Draw border around the grey box
+      ctx.strokeStyle = color.black;
+      ctx.lineWidth = 4;
+      ctx.strokeRect(greyBoxX - greyBoxWidth / 2, greyBoxY - greyBoxHeight / 2, greyBoxWidth, greyBoxHeight);
+  
+       // Option 6: Exit
+       let textX = greyBoxX;
+      let textY = greyBoxY - greyBoxHeight / 1.8 + greyBoxPadding + textHeight * 3;
+       drawText("Exit", textX, textY, 23, color.guiwhite, "center", true);
+       global.clickables.exit.place(
+           0,
+           (greyBoxX - greyBoxWidth / 2) * clickableRatio,
+           (textY - textHeight / 2) * clickableRatio,
+           greyBoxWidth * clickableRatio,
+           textHeight * clickableRatio
+       );
+    }
+    if (global.choosenexit && !global.discardexit) {
+      let greyBoxX = global.screenWidth / 14,
+        greyBoxY = global.screenHeight / 5,
+        greyBoxWidth = 250, // Width of the grey box
+        greyBoxHeight = 100, // Height of the grey box
+        greyBoxPadding = 10, // Padding around the text
+        textHeight = 30; // Height of each text line
+      
+      // Draw grey background box
+      ctx.fillStyle = "#9B9B9B";
+      ctx.fillRect(greyBoxX - greyBoxWidth / 2, greyBoxY - greyBoxHeight / 2, greyBoxWidth, greyBoxHeight);
+  
+      // Draw border around the grey box
+      ctx.strokeStyle = color.black;
+      ctx.lineWidth = 4;
+      ctx.strokeRect(greyBoxX - greyBoxWidth / 2, greyBoxY - greyBoxHeight / 2, greyBoxWidth, greyBoxHeight);
+  
+      // Draw each option text inside the grey box
+      ctx.fillStyle = color.guiwhite;
+      // Option 1: D-Day
+      let textX = greyBoxX;
+      let textY = greyBoxY - greyBoxHeight / 2 + greyBoxPadding + textHeight * 0;
+      drawText("Are you sure you want to exit?", textX, textY, 15, color.guiwhite, "center", true);
+      
+      // Draw "Yes" button
+      let buttonWidth = 80;
+      let buttonHeight = 40;
+      let buttonPadding = 20;
+      let yesButtonX = greyBoxX - buttonWidth / 2 - buttonPadding;
+      let yesButtonY = greyBoxY;
+      let halfButtonHeight = buttonHeight / 2;
+      if (global.yesClicked && !global.disconnected) {
+        ctx.fillStyle = "#0079EE"; // Change background color when clicked
+      } else if (global.yesbox && !global.disconnected) {
+        ctx.fillStyle = "#3D9FFF"; // Background color
+      } else {
+        ctx.fillStyle = "#1E90FF"; // Background color
+      }
+      // Draw "Yes" button with top and bottom color variation
+
+      ctx.fillRect(yesButtonX - buttonWidth / 2, yesButtonY - buttonHeight / 2, buttonWidth, halfButtonHeight);
+  
+      ctx.fillStyle = "#0174d7"; // Darker color for the bottom half
+      ctx.fillRect(yesButtonX - buttonWidth / 2, yesButtonY - buttonHeight / 2 + halfButtonHeight, buttonWidth, halfButtonHeight);
+  
+      ctx.strokeStyle = color.black;
+      ctx.lineWidth = 4;
+      ctx.strokeRect(yesButtonX - buttonWidth / 2, yesButtonY - buttonHeight / 2, buttonWidth, buttonHeight);
+      drawText("Yes", yesButtonX, yesButtonY, 16, color.guiwhite, "center", true);
+  
+      // Set clickable area for "Yes" button
+      global.clickables.yes.place(
+        0,
+        (yesButtonX - buttonWidth / 2) * clickableRatio,
+        (yesButtonY - buttonHeight / 2) * clickableRatio,
+        buttonWidth * clickableRatio,
+        buttonHeight * clickableRatio
+      );
+  
+      // Draw "No" button
+      let noButtonX = greyBoxX + buttonWidth / 3 + buttonPadding;
+      if (global.noClicked && !global.disconnected) {
+        ctx.fillStyle = "#ff1313"; // Change background color when clicked
+      } else if (global.nobox && !global.disconnected) {
+        ctx.fillStyle = "#ff6969"; // Background color
+      } else {
+        ctx.fillStyle = "#ff4747"; // Red color for No button
+      }
+      ctx.fillRect(noButtonX - buttonWidth / 2, yesButtonY - buttonHeight / 2, buttonWidth, halfButtonHeight);
+  
+      ctx.fillStyle = "#d80000"; // Darker color for the bottom half
+      ctx.fillRect(noButtonX - buttonWidth / 2, yesButtonY - buttonHeight / 2 + halfButtonHeight, buttonWidth, halfButtonHeight);
+  
+      ctx.strokeStyle = color.black;
+      ctx.lineWidth = 4;
+      ctx.strokeRect(noButtonX - buttonWidth / 2, yesButtonY - buttonHeight / 2, buttonWidth, buttonHeight);
+      drawText("No", noButtonX, yesButtonY, 16, color.guiwhite, "center", true);
+  
+      // Set clickable area for "No" button
+      global.clickables.no.place(
+        0,
+        (noButtonX - buttonWidth / 2) * clickableRatio,
+        (yesButtonY - buttonHeight / 2) * clickableRatio,
+        buttonWidth * clickableRatio,
+        buttonHeight * clickableRatio
+      );
+  }
+  
+}
+  
+  function drawMobileButtons(spacing, alcoveSize) {
+    if (!global.mobile) return;
+
+    if (global.clickables.mobileButtons.active == null)
+      global.clickables.mobileButtons.active = false;
+    if (global.clickables.mobileButtons.altFire == null)
+      global.clickables.mobileButtons.altFire = false;
+
+    // Hide the buttons
+    global.clickables.mobileButtons.hide();
+
+    // Some sizing variables
+    let clickableRatio =
+      global.canvas.height / global.screenHeight / global.ratio;
+    let upgradeColumns = Math.ceil(gui.upgrades.length / 9);
+    let yOffset = global.canUpgrade
+      ? ((alcoveSize / 2) /*+ spacing * 2*/ *
+          upgradeMenu.get() *
+          upgradeColumns) /
+          1.5 +
+        spacing * (upgradeColumns + 1.6) +
+        7
+      : 0 + global.canSkill
+        ? alcoveSize / 3 + spacing
+        : 0;
+    let baseSize = (alcoveSize - spacing * 2) / 3;
+
+    function makeButton(index, x, y, width, height, text) {
+      // Set the clickable's position
+      global.clickables.mobileButtons.place(
+        index,
+        x * clickableRatio,
+        y * clickableRatio,
+        width * clickableRatio,
+        height * clickableRatio,
+      );
+
+      // Draw boxes
+      ctx.globalAlpha = 0.5;
+      ctx.fillStyle = color.grey;
+      drawGuiRect(x, y, width, height);
+      ctx.globalAlpha = 0.1;
+      ctx.fillStyle = color.black;
+      drawGuiRect(x, y + height * 0.6, width, height * 0.4);
+      ctx.globalAlpha = 1;
+
+      // Draw text
+      drawText(
+        text,
+        x + width / 2,
+        y + height * 0.5,
+        height * 0.6,
+        color.guiwhite,
+        "center",
+        true,
+      );
+
+      // Draw the borders
+      ctx.strokeStyle = color.black;
+      ctx.lineWidth = 3;
+      drawGuiRect(x, y, width, height, true);
+    }
+
+    function makeButtons(buttons, startX, startY, baseSize) {
+      let x,
+        y,
+        index = 0;
+
+      let resetX = () => (x = startX);
+      let resetY = () => (y = startY);
+
+      resetX();
+      resetY();
+
+      for (let row = 0; row < buttons.length; row++) {
+        for (let col = 0; col < buttons[row].length; col++) {
+          //console.log(buttons[row][col][0], buttons[row][col][3] ?? index);
+          makeButton(
+            buttons[row][col][3] ?? index,
+            x,
+            y,
+            baseSize * (buttons[row][col][1] ?? 1),
+            baseSize * (buttons[row][col][2] ?? 1),
+            buttons[row][col][0],
+          );
+          x += baseSize * (buttons[row][col][1] ?? 1) + spacing;
+          index++;
+        }
+
+        resetX();
+        y +=
+          Math.max(...buttons[row].map((b) => baseSize * (b[2] ?? 1))) +
+          spacing;
+      }
+    }
+
+    let buttons = global.clickables.mobileButtons.active
+      ? [
+          [
+            [global.clickables.mobileButtons.active ? "-" : "+"],
+            [
+              `Alt ${global.clickables.mobileButtons.altFire ? "Manual" : "Disabled"}`,
+              6,
+            ],
+            ["Fullscreen", 5],
+          ],
+          [
+            ["Autofire", 3.5],
+            ["Reverse", 3.5],
+            ["Self-Destruct", 5],
+          ],
+          [
+            ["Autospin", 3.5],
+            ["Override", 3.5],
+            ["Level Up", 5],
+          ],
+          [
+            ["Action", 3.5],
+            ["Special", 3.5],
+            ["Chat", 5],
+          ],
+        ]
+      : [[[global.clickables.mobileButtons.active ? "-" : "+"]]];
+
+    if (global.clickables.mobileButtons.altFire)
+      buttons.push([["\u2756", 2, 2, 12]]);
+
+    makeButtons(buttons, spacing * 2, yOffset + spacing, baseSize);
+  }
+  let initialCameraX = global.player.cx; // Start far away on X-axis
+  let initialCameraY = global.player.cy; // Start far away on Y-axis
+  let cameraMoveDuration = 2000; // 2 seconds
+  let cameraStartTime = null; // Initialize start time
+  
+  // Easing function for smoother camera movement
+  const easeInOutCubic = (t) =>  t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t;
+  
+  const gameDrawAlive = (ratio, drawRatio) => {
+    let GRAPHDATA = 0;
+    renderTimes++;
+// Check if camera movement should be disabled
+if (global.ab) {
+        // Implement slow camera movement logic here (for example, you could make it orbit around the player)
+        const slowCameraSpeed = 1000; // Adjust this value for speed
+        const angle = (getNow() / 1000) * slowCameraSpeed; // Calculate angle for circular motion
+
+        // Calculate new camera position based on the angle
+        global.player.renderx = global.player.cx + Math.cos(angle) * 500; // 100 is the radius
+        global.player.rendery = global.player.cy + Math.sin(angle) * 500;
+}
+    // Check if introduction is showing
+    if (global.aa && !global.aaaa) {
+    
+        // Implement slow camera movement logic here (for example, you could make it orbit around the player)
+        const slowCameraSpeed = 0.1; // Adjust this value for speed
+        const angle = (getNow() / 1000) * slowCameraSpeed; // Calculate angle for circular motion
+
+        // Calculate new camera position based on the angle
+        global.player.renderx = global.player.cx + Math.cos(angle) * 500; // 100 is the radius
+        global.player.rendery = global.player.cy + Math.sin(angle) * 500;
+        
+        // Optionally, you can limit the camera's movement to within certain bounds.
+    } else if (global.disconnected) {
+     
+        // Implement slow camera movement logic here (for example, you could make it orbit around the player)
+        const slowCameraSpeed = 0.1; // Adjust this value for speed
+        const angle = (getNow() / 1000) * slowCameraSpeed; // Calculate angle for circular motion
+
+        // Calculate new camera position based on the angle
+        global.player.renderx = global.player.cx + Math.cos(angle) * 500; // 100 is the radius
+        global.player.rendery = global.player.cy + Math.sin(angle) * 500;
+  }
+else if (global.aaaa) {
+      global.aaaa = true;
+        // Proceed with the existing camera follow logic
+        let currentTime = getNow();
+        if (!cameraStartTime) {
+            cameraStartTime = currentTime; // Set the start time when the function first runs
+        }
+
+        // Calculate how much time has passed since the animation started
+        let elapsedTime = currentTime - cameraStartTime;
+
+        // Move the camera over 2 seconds
+        if (elapsedTime < cameraMoveDuration) {
+            // Calculate the percentage of the animation that has completed
+            let t = elapsedTime / cameraMoveDuration;
+
+            // Apply easing to the progress
+            let smoothT = easeInOutCubic(t);
+
+            // Smoothly interpolate (lerp) the camera's position from the initial far away point to the player's position
+            let cameraX = util.lerp(initialCameraX, global.player.cx, smoothT);
+            let cameraY = util.lerp(initialCameraY, global.player.cy, smoothT);
+
+            // Set the player's rendered position to match the camera
+            global.player.renderx = cameraX;
+            global.player.rendery = cameraY;
+        } else {
+            // After 2 seconds, fix the camera on the player's position
+            global.player.renderx = util.lerp(global.player.renderx, global.player.cx, 0.1, true);
+            global.player.rendery = util.lerp(global.player.rendery, global.player.cy, 0.1, true);
+        }
+    }
+  
+      let px = ratio * global.player.renderx;
+      let py = ratio * global.player.rendery;
+  
+      // Draw the in-game stuff
+      drawFloor(px, py, ratio);
+    
+      drawEntities(px, py, ratio);
+
+      ratio = util.getScreenRatio();
+      scaleScreenRatio(ratio, true);
+    //draw hud
+    let alcoveSize = 200 / ratio; // drawRatio * global.screenWidth;
+    let spacing = 20;
+    gui.__s.update();
+    let lb = leaderboard.get();
+    let max = lb.max;
+    if (global.isspectating) {
+      // Do nothing or skip drawing
+    } else if (global.showTree) {
+      drawUpgradeTree(spacing, alcoveSize);
+    } else if (global.mobile) {
+      if (global.mobile) {
+        // draw joysticks if needed.
+        let radius = Math.min(
+          global.screenWidth * 0.6,
+          global.screenHeight * 0.12,
+        );
+        ctx.globalAlpha = 0.3;
+        ctx.fillStyle = "#ffffff";
+        ctx.beginPath();
+        ctx.arc(
+          (global.screenWidth * 1) / 6,
+          (global.screenHeight * 2) / 3,
+          radius,
+          0,
+          2 * Math.PI,
+        );
+        ctx.arc(
+          (global.screenWidth * 5) / 6,
+          (global.screenHeight * 2) / 3,
+          radius,
+          0,
+          2 * Math.PI,
+        );
+        ctx.fill();
+      }
+      drawMessages(spacing);
+      drawMessages1(spacing);
+      drawMessages2(spacing);
+      drawMessages3(spacing);
+      drawMessagesblue(spacing);
+      drawMessages4(spacing);
+      drawMessages5(spacing);
+      drawMessages6(spacing);
+      drawSkillBars(spacing, alcoveSize);
+    
+      drawSelfInfo(spacing, alcoveSize, max);
+      drawMinimapAndDebug(spacing, alcoveSize);
+      drawLeaderboard(spacing, alcoveSize, max, lb);
+      drawAvailableUpgrades(spacing, alcoveSize);
+    } else if (global.died) {
+      drawMessages(spacing);
+      drawMessages1(spacing);
+      drawMessages2(spacing);
+      drawMessagesblue(spacing);
+ 
+      drawMessages3(spacing);
+      drawMessages4(spacing);
+      drawMessages5(spacing);
+      drawMessages6(spacing);
+      drawSkillBars(spacing, alcoveSize);
+
+      drawMinimapAndDebug(spacing, alcoveSize);
+      drawLeaderboard(spacing, alcoveSize, max, lb);
+    } else if (global.diedbruh) {
+      drawMessages(spacing);
+      drawMessages1(spacing);
+      drawMessages2(spacing);
+      drawMessagesblue(spacing);
+      drawMessages3(spacing);
+   
+      drawMessages4(spacing);
+      drawMessages5(spacing);
+      drawMessages6(spacing);
+      drawSkillBars(spacing, alcoveSize);
+
+      drawMinimapAndDebug(spacing, alcoveSize);
+      drawLeaderboard(spacing, alcoveSize, max, lb);
+    } else if (global.diedseekbruh) {
+      drawMessages(spacing);
+      drawMessages1(spacing);
+      drawMessages2(spacing);
+
+      drawMessagesblue(spacing);
+      drawMessages3(spacing);
+      drawMessages4(spacing);
+      drawMessages5(spacing);
+      drawMessages6(spacing);
+      drawSkillBars(spacing, alcoveSize);
+
+      drawMinimapAndDebug(spacing, alcoveSize);
+      drawLeaderboard(spacing, alcoveSize, max, lb);
+    } else if (!global.aa) {
+      drawMessages(spacing);
+      drawMessages1(spacing);
+      drawMessages2(spacing);
+      drawMessages3(spacing);
+      drawMessagesblue(spacing);
+      drawMessages4(spacing);
+      drawMessages5(spacing);
+      drawMessages6(spacing);
+  
+      drawSkillBars(spacing, alcoveSize);
+      drawSelfInfo(spacing, alcoveSize, max);
+      drawMinimapAndDebug(spacing, alcoveSize);
+      drawLeaderboard(spacing, alcoveSize, max, lb);
+      drawAvailableUpgrades(spacing, alcoveSize);
+    }
+
+    global.metrics.lastrender = getNow();
+  };
+  let getKills = () => {
+    let finalKills = {
+        " kills": [Math.round(global.finalKills[0].get()), 1],
+        " assists": [Math.round(global.finalKills[1].get()), 0.5],
+        " visitors defeated": [Math.round(global.finalKills[2].get()), 3],
+        " polygons destroyed": [Math.round(global.finalKills[3].get()), 0.05],
+      },
+      killCountTexts = [];
+    let destruction = 0;
+    for (let key in finalKills) {
+      if (finalKills[key][0]) {
+        destruction += finalKills[key][0] * finalKills[key][1];
+        killCountTexts.push(finalKills[key][0] + key);
+      }
+    }
+    return (
+      (destruction < 4
+        ? "🎯"
+        : destruction < 8
+          ? "💥"
+          : destruction < 15
+            ? "💢"
+            : destruction < 25
+              ? "🔥"
+              : destruction < 50
+                ? "💣"
+                : destruction < 75
+                  ? "👺"
+                  : destruction < 100
+                    ? "🌶️"
+                    : "💯") +
+      " " +
+      (!killCountTexts.length
+        ? "You haven't killed any entity"
+        : killCountTexts.length == 1
+          ? killCountTexts.join(" and ")
+          : killCountTexts.slice(0, -1).join(", ") +
+            " and " +
+            killCountTexts[killCountTexts.length - 1])
+    );
+  };
+  let getDeath = () => {
+    let txt = "";
+    if (global.finalKillers.length) {
+      txt = "";
+      for (let e of global.finalKillers) {
+        txt +=
+          "" + util.addArticle(util.getEntityImageFromMockup(e).name) + " and ";
+      }
+      txt = txt.slice(0, -4);
+    } else {
+      txt += "An unknown entity";
+    }
+    return txt;
+  };
+
+  const gameDrawDead = (killerName, killerPosition = { x: 0, y: 0 }) => {
+    if (global.diedseekbruh && global.gameStart) {
+      clearScreen(color.black, 0.5);
+      let ratio = util.getScreenRatio();
+
+      let scaleScreenRatio = (by, unset) => {
+        global.screenWidth /= by;
+        global.screenHeight /= by;
+        ctx.scale(by, by);
+        if (!unset) ratio *= by;
+      };
+      scaleScreenRatio(ratio, true);
+
+      let shift = animations.deathScreen.get();
+
+      ctx.translate(0, -shift * global.screenHeight);
+
+      // Draw tank icon and score
+      let x = global.screenWidth / 2,
+        y = global.screenHeight / 2;
+
+      let len = 140,
+        position = global.mockups[parseInt(gui.type.split("-")[0])].position,
+        scale = len / position.axis,
+        xx = global.screenWidth / 2 + 70 + scale * position.middle.x * 0.707,
+        yy = global.screenHeight / 2 - 70 + scale * position.middle.x * 0.707,
+        picture = util.getEntityImageFromMockup(gui.type, gui.color),
+        baseColor = picture.color;
+
+      // Calculate the length of the tank name text
+      let tankName = " " + picture.name;
+      let tankNameLength = ctx.measureText(tankName).width;
+
+      // Adjust the scale of the tank icon based on the length of the tank name text
+      let tankScale = 1 + tankNameLength / 500; // Adjust divisor as needed
+      drawEntity(
+        baseColor,
+        xx,
+        yy,
+        picture,
+        1.5 * tankScale,
+        1 * tankScale,
+        (0.5 * scale) / picture.realSize,
+        -Math.PI / 4,
+        true,
+      );
+
+      // Draw other messages
+      drawText(
+        "You were killed by: ",
+        x,
+        y - 170,
+        18,
+        color.guiwhite,
+        "center",
+      );
+      drawText(getDeath(), x, y - 140, 24, color.guiwhite, "center");
+      drawText(tankName, x + 82, y + 20, 20, color.guiwhite, "center");
+      drawText(
+        "Level: " + gui.__s.getLevel(),
+        x - 177,
+        y - 40,
+        20,
+        color.guiwhite,
+        "center",
+      );
+      drawText(
+        "Score: " + util.formatLargeNumber(Math.round(global.finalScore.get())),
+        x - 150,
+        y - 70,
+        20,
+        color.guiwhite,
+        "center",
+      );
+      drawText(
+        "Time alive: " +
+          util.timeForHumans(Math.round(global.finalLifetime.get())),
+        x - 150,
+        y - 10,
+        20,
+        color.guiwhite,
+        "center",
+      );
+
+      drawText(
+        "Game already started! Cannot join",
+        x,
+        y + 70,
+        24,
+        color.red,
+        "center",
+      );
+
+      ctx.translate(0, shift * global.screenHeight);
+    } else if (global.diedbruh && global.gameStart) {
+      clearScreen(color.black, 0.5);
+      let ratio = util.getScreenRatio();
+
+      let scaleScreenRatio = (by, unset) => {
+        global.screenWidth /= by;
+        global.screenHeight /= by;
+        ctx.scale(by, by);
+        if (!unset) ratio *= by;
+      };
+      scaleScreenRatio(ratio, true);
+
+      let shift = animations.deathScreen.get();
+
+      ctx.translate(0, -shift * global.screenHeight);
+
+      // Draw tank icon and score
+      let x = global.screenWidth / 2,
+        y = global.screenHeight / 2;
+
+      let len = 140,
+        position = global.mockups[parseInt(gui.type.split("-")[0])].position,
+        scale = len / position.axis,
+        xx = global.screenWidth / 2 + 70 + scale * position.middle.x * 0.707,
+        yy = global.screenHeight / 2 - 70 + scale * position.middle.x * 0.707,
+        picture = util.getEntityImageFromMockup(gui.type, gui.color),
+        baseColor = picture.color;
+
+      // Calculate the length of the tank name text
+      let tankName = " " + picture.name;
+      let tankNameLength = ctx.measureText(tankName).width;
+
+      // Adjust the scale of the tank icon based on the length of the tank name text
+      let tankScale = 1 + tankNameLength / 500; // Adjust divisor as needed
+      drawEntity(
+        baseColor,
+        xx,
+        yy,
+        picture,
+        1.5 * tankScale,
+        1 * tankScale,
+        (0.5 * scale) / picture.realSize,
+        -Math.PI / 4,
+        true,
+      );
+
+      // Draw other messages
+      drawText(
+        "You were killed by: ",
+        x,
+        y - 170,
+        18,
+        color.guiwhite,
+        "center",
+      );
+      drawText(getDeath(), x, y - 140, 24, color.guiwhite, "center");
+      drawText(tankName, x + 82, y + 20, 20, color.guiwhite, "center");
+      drawText(
+        "Level: " + gui.__s.getLevel(),
+        x - 177,
+        y - 40,
+        20,
+        color.guiwhite,
+        "center",
+      );
+      drawText(
+        "Score: " + util.formatLargeNumber(Math.round(global.finalScore.get())),
+        x - 150,
+        y - 70,
+        20,
+        color.guiwhite,
+        "center",
+      );
+      drawText(
+        "Time alive: " +
+          util.timeForHumans(Math.round(global.finalLifetime.get())),
+        x - 150,
+        y - 10,
+        20,
+        color.guiwhite,
+        "center",
+      );
+
+      drawText("Arena closed! Cannot join", x, y + 70, 24, color.red, "center");
+
+      ctx.translate(0, shift * global.screenHeight);
+    } else if (global.isspectating) {
+      let clickableRatio = canvas.height / global.screenHeight / global.ratio;
+      let h = 30,
+        msg = "X Stop spectating",
+        m = measureText(msg, h - 3) + 20;
+      let buttonX = global.screenWidth / 12,
+        buttonY = global.screenHeight / 16;
+
+      if (global.cancelspectateClicked && !global.disconnected) {
+        ctx.fillStyle = "#D10202"; // Change background color when clicked
+      } else if (global.cancelspectatebox && !global.disconnected) {
+        ctx.fillStyle = "#FD8989"; // Background color
+      } else {
+        ctx.fillStyle = "#FF5F5F"; // Background color
+      }
+
+      // Draw the top half of the button
+      ctx.fillRect(buttonX - m / 2, buttonY - 5, m, (h + 10) / 2);
+
+      // Draw the bottom half of the button in a slightly darker color
+      ctx.fillStyle = "#CC4C4C"; // Darker color for the bottom half
+      ctx.fillRect(
+        buttonX - m / 2,
+        buttonY - 5 + (h + 10) / 2,
+        m,
+        (h + 10) / 2,
+      );
+
+      // Draw the border of the button
+      ctx.strokeStyle = color.black;
+      ctx.lineWidth = 4;
+      ctx.strokeRect(buttonX - m / 2, buttonY - 5, m, h + 10);
+
+      // Draw the text on the button
+      drawText(
+        msg,
+        buttonX,
+        buttonY + h / 2 + 3,
+        16,
+        color.guiwhite,
+        "center",
+        true,
+      );
+
+      // Set the clickable area for the button
+      global.clickables.cancelspectate.place(
+        0,
+        (buttonX - m / 2) * clickableRatio,
+        (buttonY - 5) * clickableRatio,
+        m * clickableRatio,
+        (h + 10) * clickableRatio,
+      );
+    } else if (global.gameStart || global.showdeathscreen) {
+      clearScreen(color.black, 0.5);
+      let ratio = util.getScreenRatio();
+
+      let scaleScreenRatio = (by, unset) => {
+        global.screenWidth /= by;
+        global.screenHeight /= by;
+        ctx.scale(by, by);
+        if (!unset) ratio *= by;
+      };
+      scaleScreenRatio(ratio, true);
+
+      let shift = animations.deathScreen.get();
+
+      ctx.translate(0, -shift * global.screenHeight);
+
+      // Draw tank icon and score
+      let x = global.screenWidth / 2,
+        y = global.screenHeight / 2;
+
+      let len = 140,
+        position = global.mockups[parseInt(gui.type.split("-")[0])].position,
+        scale = len / position.axis,
+        xx = global.screenWidth / 2 + 70 + scale * position.middle.x * 0.707,
+        yy = global.screenHeight / 2 - 70 + scale * position.middle.x * 0.707,
+        picture = util.getEntityImageFromMockup(gui.type, gui.color),
+        baseColor = picture.color;
+
+      // Calculate the length of the tank name text
+      let tankName = " " + picture.name;
+      let tankNameLength = ctx.measureText(tankName).width;
+
+      // Adjust the scale of the tank icon based on the length of the tank name text
+      let tankScale = 1 + tankNameLength / 500; // Adjust divisor as needed
+      drawEntity(
+        baseColor,
+        xx,
+        yy,
+        picture,
+        1.5 * tankScale,
+        1 * tankScale,
+        (0.5 * scale) / picture.realSize,
+        -Math.PI / 4,
+        true,
+      );
+
+      // Draw other messages
+      drawText(
+        "You were killed by: ",
+        x,
+        y - 170,
+        18,
+        color.guiwhite,
+        "center",
+      );
+      drawText(getDeath(), x, y - 140, 24, color.guiwhite, "center");
+      drawText(tankName, x + 82, y + 20, 20, color.guiwhite, "center");
+      drawText(
+        "Level: " + gui.__s.getLevel(),
+        x - 177,
+        y - 40,
+        20,
+        color.guiwhite,
+        "center",
+      );
+      drawText(
+        "Score: " + util.formatLargeNumber(Math.round(global.finalScore.get())),
+        x - 150,
+        y - 70,
+        20,
+        color.guiwhite,
+        "center",
+      );
+      drawText(
+        "Time alive: " +
+          util.timeForHumans(Math.round(global.finalLifetime.get())),
+        x - 150,
+        y - 10,
+        20,
+        color.guiwhite,
+        "center",
+      );
+      let clickableRatio = canvas.height / global.screenHeight / global.ratio;
+      let h = 30,
+        msg = "Spectate",
+        m = measureText(msg, h - 3) + 20;
+      let buttonX = global.screenWidth / 2.25,
+        buttonY = global.screenHeight / 1.75;
+
+      if (global.spectateClicked && !global.disconnected) {
+        ctx.fillStyle = "#00D1C2"; // Change background color when clicked
+      } else if (global.spectatebox && !global.disconnected) {
+        ctx.fillStyle = "#88fcf4"; // Background color
+      } else {
+        ctx.fillStyle = "#5CFFF4"; // Background color
+      }
+
+      // Draw the top half of the button
+      ctx.fillRect(buttonX - m / 2, buttonY - 5, m, (h + 10) / 2);
+
+      // Draw the bottom half of the button in a slightly darker color
+      ctx.fillStyle = "#4BCCC4"; // Darker color for the bottom half
+      ctx.fillRect(
+        buttonX - m / 2,
+        buttonY - 5 + (h + 10) / 2,
+        m,
+        (h + 10) / 2,
+      );
+
+      // Draw the border of the button
+      ctx.strokeStyle = color.black;
+      ctx.lineWidth = 4;
+      ctx.strokeRect(buttonX - m / 2, buttonY - 5, m, h + 10);
+
+      // Draw the text on the button
+      drawText(
+        msg,
+        buttonX,
+        buttonY + h / 2 + 3,
+        16,
+        color.guiwhite,
+        "center",
+        true,
+      );
+
+      // Set the clickable area for the button
+      global.clickables.spectate.place(
+        0,
+        (buttonX - m / 2) * clickableRatio,
+        (buttonY - 5) * clickableRatio,
+        m * clickableRatio,
+        (h + 10) * clickableRatio,
+      );
+
+      // Remove the old "press enter to respawn" text drawing line
+      // drawText("(press enter to respawn)", x, y + 100, 24, color.guiwhite, "center");
+
+      // Define the new button for "Enter"
+      let enterButtonWidth = 125;
+      let enterButtonHeight = 39;
+      let enterButtonX = global.screenWidth / 1.85 - enterButtonWidth / 2;
+      let enterButtonY = global.screenHeight / 1.765;
+
+      if (global.enterClicked && !global.disconnected) {
+        ctx.fillStyle = "#00DC08"; // Change background color when clicked
+      } else if (global.enterbox && !global.disconnected) {
+        ctx.fillStyle = "#89FD8D"; // Background color
+      } else {
+        ctx.fillStyle = "#65FF5F"; // Background color
+      }
+
+      // Draw the top half of the button
+      ctx.fillRect(
+        enterButtonX,
+        enterButtonY,
+        enterButtonWidth,
+        enterButtonHeight / 2,
+      );
+
+      // Draw the bottom half of the button in a slightly darker color
+      ctx.fillStyle = "#52CC4C"; // Darker color for the bottom half
+      ctx.fillRect(
+        enterButtonX,
+        enterButtonY + enterButtonHeight / 2,
+        enterButtonWidth,
+        enterButtonHeight / 2,
+      );
+
+      // Draw the border of the button
+      ctx.strokeStyle = color.black;
+      ctx.lineWidth = 4;
+      ctx.strokeRect(
+        enterButtonX,
+        enterButtonY,
+        enterButtonWidth,
+        enterButtonHeight,
+      );
+
+      // Draw the text on the button
+      let enterButtonText = "Enter";
+      drawText(
+        enterButtonText,
+        enterButtonX + enterButtonWidth / 2,
+        enterButtonY + enterButtonHeight / 2 + 3,
+        16,
+        color.guiwhite,
+        "center",
+        true,
+      );
+
+      // Set the clickable area for the button
+      global.clickables.enterButton.place(
+        0,
+        enterButtonX * clickableRatio,
+        enterButtonY * clickableRatio,
+        enterButtonWidth * clickableRatio,
+        enterButtonHeight * clickableRatio,
+      );
+
+      ctx.translate(0, shift * global.screenHeight);
+    }
+  };
+
+  const gameDrawErrorScreen = (e) => {
+    global.errordetected = true;
+
+    let ratio = util.getScreenRatio();
+    let scaleScreenRatio = (by, unset) => {
+      global.screenWidth /= by;
+      global.screenHeight /= by;
+      ctx.scale(by, by);
+      if (!unset) ratio *= by;
+    };
+    scaleScreenRatio(ratio, true);
+
+    ctx.fillStyle = "#5AFF47"; // Dark background color
+    ctx.fillRect(0, 0, global.screenWidth, global.screenHeight);
+
+    let shift = animations.disconnected1.get();
+    ctx.translate(0, -shift * global.screenHeight);
+
+    drawTextconnect(
+      "A weird error has been detected.",
+      global.screenWidth / 2,
+      global.screenHeight / 2 - 100,
+      70,
+      color.guiwhite,
+      "center",
+      1,
+    ); // Lower stroke width value, here set to 1
+    drawTextconnect(
+      "You may need to reload the page if the screen doesn't disappear",
+      global.screenWidth / 2,
+      global.screenHeight / 2 - 10,
+      22,
+      color.guiwhite,
+      "center",
+    ); // Lower stroke width value, here set to 1
+    drawTextconnect(
+      "Here is the following error code:",
+      global.screenWidth / 2,
+      global.screenHeight / 2 + 20,
+      22,
+      color.guiwhite,
+      "center",
+    ); // Lower stroke width value, here set to 1
+    drawTextconnect(
+      "" + e,
+      global.screenWidth / 2,
+      global.screenHeight / 2 + 50,
+      22,
+      "#FF0000",
+      "center",
+    );
+    drawTextconnect(
+      "Please send this error code to the developer in order to fix it.",
+      global.screenWidth / 2,
+      global.screenHeight / 2 + 80,
+      22,
+      color.guiwhite,
+      "center",
+    ); // Lower stroke width value, here set to 1
+
+    if (global.allthesanctuarieskilled)
+      drawText(
+        global.sancdiedripforyouanyways || "",
+        global.screenWidth / 2,
+        global.screenHeight / 2 + 30,
+        15,
+        color.orange,
+        "center",
+      );
+
+    ctx.translate(0, shift * global.screenHeight);
+  };
+
+  // Rest of your code...
+// Define global variables for the introduction text
+// Define global variables for the introduction text
+global.introTextAlpha = 0;
+global.introTextState = 'fadeIn'; // Possible states: 'fadeIn', 'display', 'fadeOut'
+global.introTextStartTime = null;
+global.introShown = false; // New variable to track if introduction has been shown
+
+// Update the introduction function to handle the fade-in, display, and fade-out transitions
+const introduction = () => {
+  if (global.gameStart && global.showintroduction && !global.introShown) {
+    setTimeout(() => {
+      global.showintroduction = false;
+    }, 10000); // 10000 milliseconds = 10 seconds
+
+    // Initialize the start time if it's the first time
+    if (!global.introTextStartTime) {
+      global.introTextStartTime = Date.now();
+    }
+
+    // Calculate the elapsed time
+    const elapsedTime = Date.now() - global.introTextStartTime;
+
+    if (global.introTextState === 'fadeIn') {
+      // Fade-in effect (first 2.5 seconds)
+      if (elapsedTime < 2500) {
+        global.introTextAlpha = elapsedTime / 2500; // Linear fade-in
+      } else {
+        global.introTextAlpha = 1;
+        global.introTextState = 'display'; // Switch to display state
+        global.introTextStartTime = Date.now(); // Reset the start time for the display phase
+      }
+    } else if (global.introTextState === 'display') {
+      // Display text (for 5 seconds)
+      if (elapsedTime < 5000) {
+        global.introTextAlpha = 1; // Fully opaque
+      } else {
+        global.introTextState = 'fadeOut'; // Switch to fade-out state
+        global.introTextStartTime = Date.now(); // Reset the start time for the fade-out phase
+      }
+    } else if (global.introTextState === 'fadeOut') {
+      // Fade-out effect (last 2.5 seconds)
+      if (elapsedTime < 2500) {
+        global.introTextAlpha = 1 - (elapsedTime / 2500); // Linear fade-out
+      } else {
+        global.introTextAlpha = 0;
+        global.showintroduction = false; // End introduction
+        global.introShown = true; // Mark introduction as shown
+        global.introTextState = 'fadeIn'; // Reset state for future use
+        global.introTextStartTime = null; // Reset the start time
+      }
+    }
+
+    // Draw the text with the current alpha value
+    ctx.save();
+    ctx.globalAlpha = global.introTextAlpha;
+    if (window.serverAdd === "super-duper-goggles-g475v6p65wwv2vgwp-30004.app.github.dev" || window.serverAdd === "dreadful-superstition-wrg7qgg4x57rcvjj4-30004.app.github.dev" || window.serverAdd === "frightening-shadow-4j7v66grj9qr2qjwq-30004.app.github.dev") {
+      drawTextconnect("D-Day", global.screenWidth / 2, 40, 30, color.guiwhite, "center");
+      drawTextconnect("For blue team, destroy red dominators. For red team, protect your dominators and destroy blue dominators.", global.screenWidth / 2, 70, 20, color.guiwhite, "center");
+    } else if (window.serverAdd === "super-duper-goggles-g475v6p65wwv2vgwp-30002.app.github.dev" || window.serverAdd === "dreadful-superstition-wrg7qgg4x57rcvjj4-30002.app.github.dev" || window.serverAdd === "frightening-shadow-4j7v66grj9qr2qjwq-30002.app.github.dev") {
+      drawTextconnect("Boss Rush", global.screenWidth / 2, 40, 30, color.guiwhite, "center");
+      drawTextconnect("Destroy all the bosses till wave 150 to win", global.screenWidth / 2, 70, 20, color.guiwhite, "center");
+    } 
+    else if (window.serverAdd === "super-duper-goggles-g475v6p65wwv2vgwp-30000.app.github.dev" || window.serverAdd === "dreadful-superstition-wrg7qgg4x57rcvjj4-30000.app.github.dev" || window.serverAdd === "frightening-shadow-4j7v66grj9qr2qjwq-30000.app.github.dev") {
+      drawTextconnect("Domination", global.screenWidth / 2, 40, 30, color.guiwhite, "center");
+      drawTextconnect("Destroy all dominators to win!", global.screenWidth / 2, 70, 20, color.guiwhite, "center");
+    } 
+     else if (window.serverAdd === "super-duper-goggles-g475v6p65wwv2vgwp-30003.app.github.dev" || window.serverAdd === "dreadful-superstition-wrg7qgg4x57rcvjj4-30003.app.github.dev" || window.serverAdd === "frightening-shadow-4j7v66grj9qr2qjwq-30003.app.github.dev") {
+      drawTextconnect("Mothership", global.screenWidth / 2, 40, 30, color.guiwhite, "center");
+      drawTextconnect("Kill your opponent's mothership to win!", global.screenWidth / 2, 70, 20, color.guiwhite, "center");
+    } 
+         else if (window.serverAdd === "super-duper-goggles-g475v6p65wwv2vgwp-30008.app.github.dev" || window.serverAdd === "dreadful-superstition-wrg7qgg4x57rcvjj4-30008.app.github.dev" || window.serverAdd === "frightening-shadow-4j7v66grj9qr2qjwq-30008.app.github.dev") {
+      drawTextconnect("Kill Race", global.screenWidth / 2, 40, 30, color.guiwhite, "center");
+      drawTextconnect("Escape from the dangerous killer to without being killed!", global.screenWidth / 2, 70, 20, color.guiwhite, "center");
+    }    else if (window.serverAdd === "super-duper-goggles-g475v6p65wwv2vgwp-30009.app.github.dev" || window.serverAdd === "dreadful-superstition-wrg7qgg4x57rcvjj4-30009.app.github.dev" || window.serverAdd === "frightening-shadow-4j7v66grj9qr2qjwq-30009.app.github.dev") {
+      drawTextconnect("Core", global.screenWidth / 2, 40, 30, color.guiwhite, "center");
+      drawTextconnect("Stay in the center of the map to win!", global.screenWidth / 2, 70, 20, color.guiwhite, "center");
+
+    }    else if (window.serverAdd === "automatic-space-rotary-phone-57444pjr7vq3vx57-3007.app.github.dev" || window.serverAdd === "dreadful-superstition-wrg7qgg4x57rcvjj4-30007.app.github.dev" || window.serverAdd === "frightening-shadow-4j7v66grj9qr2qjwq-30007.app.github.dev") {
+      drawTextconnect("Closed Beta", global.screenWidth / 2, 40, 30, color.guiwhite, "center");
+      drawTextconnect("A private server with developer powers.", global.screenWidth / 2, 70, 20, color.guiwhite, "center");
+
+    }   else if (window.serverAdd === "super-duper-goggles-g475v6p65wwv2vgwp-30005.app.github.dev" || window.serverAdd === "dreadful-superstition-wrg7qgg4x57rcvjj4-30005.app.github.dev" || window.serverAdd === "frightening-shadow-4j7v66grj9qr2qjwq-30005.app.github.dev") {
+      drawTextconnect("FFA", global.screenWidth / 2, 40, 30, color.guiwhite, "center");
+      drawTextconnect("Fight each other and gain highest score!", global.screenWidth / 2, 70, 20, color.guiwhite, "center");
+
+    } 
+    else if (window.serverAdd === "super-duper-goggles-g475v6p65wwv2vgwp-30001.app.github.dev" || window.serverAdd === "dreadful-superstition-wrg7qgg4x57rcvjj4-30001.app.github.dev" || window.serverAdd === "frightening-shadow-4j7v66grj9qr2qjwq-30001.app.github.dev") {
+      drawTextconnect("2TDM", global.screenWidth / 2, 40, 30, color.guiwhite, "center");
+      drawTextconnect("Fight with your teammates against your opponent's team!", global.screenWidth / 2, 70, 20, color.guiwhite, "center");
+
+    }  else if (window.serverAdd === "super-duper-goggles-g475v6p65wwv2vgwp-30007.app.github.dev" || window.serverAdd === "dreadful-superstition-wrg7qgg4x57rcvjj4-30007.app.github.dev" || window.serverAdd === "frightening-shadow-4j7v66grj9qr2qjwq-30007.app.github.dev") {
+      drawTextconnect("4TDM", global.screenWidth / 2, 40, 30, color.guiwhite, "center");
+      drawTextconnect("Attack with your teammates 3 other teams!", global.screenWidth / 2, 70, 20, color.guiwhite, "center");
+
+    } else if (window.serverAdd === "super-duper-goggles-g475v6p65wwv2vgwp-30006.app.github.dev" || window.serverAdd === "dreadful-superstition-wrg7qgg4x57rcvjj4-30006.app.github.dev" || window.serverAdd === "frightening-shadow-4j7v66grj9qr2qjwq-30006.app.github.dev") {
+      drawTextconnect("Maze", global.screenWidth / 2, 40, 30, color.guiwhite, "center");
+      drawTextconnect("Attack everyone in a labyrinth.", global.screenWidth / 2, 70, 20, color.guiwhite, "center");
+
+    } 
+    ctx.restore();
+  }
+};
+
+
+  const rewardsmasher = () => {
+    if (global.smasherreward) {
+      // Set a timeout to hide the text after 5 seconds
+      setTimeout(() => {
+        global.smasherreward = false;
+      }, 5000); // 5000 milliseconds = 5 seconds
+
+      // Draw the text
+      let text = "Achievement complete:";
+      drawText(text, 20, global.screenHeight / 2, 24, color.guiwhite, "left");
+
+      // Text below "Achievements"
+      let text1 = "What is this new world of diep.io???";
+      drawText(
+        text1,
+        20,
+        global.screenHeight / 2 + 30,
+        16,
+        color.guiwhite,
+        "left",
+      );
+
+      // Text below the previous text
+      let text2 = "Join the game for the first time.";
+      drawText(
+        text2,
+        20,
+        global.screenHeight / 2 + 60,
+        16,
+        color.guiwhite,
+        "left",
+      );
+    }
+  };
+
+  let circleRadius = 0;
+  const maxCircleRadius = Math.sqrt(
+    global.screenWidth ** 2 + global.screenHeight ** 2,
+  ); // Max radius to cover the whole screen
+
+  const gameDrawBeforeStart = () => {
+    global.connecting = true;
+    let expanding = true; // Initialize expanding variable
+    let ratio = util.getScreenRatio();
+
+    let scaleScreenRatio = (by, unset) => {
+      global.screenWidth /= by;
+      global.screenHeight /= by;
+      ctx.scale(by, by);
+      if (!unset) ratio *= by;
+    };
+
+    scaleScreenRatio(ratio, true);
+
+    // Background setup
+    ctx.fillStyle = "#000"; // Dark background color
+    ctx.fillRect(0, 0, global.screenWidth, global.screenHeight);
+
+    let shift = animations.connecting.get();
+    ctx.translate(0, -shift * global.screenHeight);
+
+    // Circle apparition animation
+    const centerX = global.screenWidth / 2;
+    const centerY = global.screenHeight / 2;
+    if (global.gameStart1) {
+      // Reverse the animation if the game has started
+
+      circleRadius = Math.max(0, circleRadius - 15); // Prevent negative radius
+      expanding = false; // Circle is contracting
+    } else {
+      if (circleRadius < maxCircleRadius) {
+        circleRadius += 15; // Adjust speed of radius increase
+      }
+    }
+    // Draw the expanding circle
+    ctx.save();
+    ctx.beginPath();
+    ctx.arc(centerX, centerY, circleRadius, 0, 2 * Math.PI);
+    ctx.clip();
+
+    // Draw the content inside the circle
+    drawContent();
+
+    ctx.restore();
+
+    ctx.translate(0, shift * global.screenHeight);
+  };
+
+  // Function to draw the connecting screen content
+  const drawContent = () => {
+    // Create a light green gradient with cyan-like hints
+    let gradient = ctx.createLinearGradient(
+      0,
+      0,
+      global.screenWidth,
+      global.screenHeight,
+    );
+
+    ctx.fillStyle = gradient;
+    ctx.fillRect(0, 0, global.screenWidth, global.screenHeight);
+
+    // Adjusted speed for ellipsis animation
+    const getEllipsis = () => {
+      const dots = [".", "..", "..."];
+      const interval = 250; // Faster animation (250 milliseconds)
+      const index = Math.floor(Date.now() / interval) % dots.length;
+      return dots[index];
+    };
+
+    let ellipsis = getEllipsis();
+    drawTextconnect(
+      global.daconnectingmsg + ellipsis, // Correct concatenation
+      global.screenWidth / 2,
+      global.screenHeight / 2,
+      50,
+      "#FFFFFF",
+      "center",
+      "Arial",
+      "black",
+    );
+    drawTextconnect(
+      global.mesage,
+      global.screenWidth / 2,
+      global.screenHeight / 2 + 30,
+      15,
+      "#FFFFFF",
+      "center",
+      "Arial",
+      "black",
+    );
+        drawTextconnect(
+      global.message,
+      global.screenWidth / 2,
+      global.screenHeight / 2 + 60,
+      15,
+      "#FFFFFF",
+      "center",
+      "Arial",
+      "black",
+    );
+    drawTextconnect(
+      global.tips,
+      global.screenWidth / 2,
+      global.screenHeight / 2 + 90,
+      25,
+      "#FFFFFF",
+      "center",
+      "Arial",
+      "black",
+    );
+    // Tank animation
+    drawRotatingTank(
+      global.screenWidth / 2,
+      global.screenHeight / 2 - 100,
+      30,
+      color.guiwhite,
+    );
+  };
+
+  // Function to draw a rotating Diep.io tank
+  const drawRotatingTank = (x, y, size) => {
+    ctx.save();
+    ctx.translate(x, y);
+
+    const turretRotation = (Date.now() / 400) % (2 * Math.PI); // Adjust speed of rotation
+    const turretLengthFactor = 0.8; // Adjust this factor to change turret length (80% of tank size)
+    // Draw turret first, so it can be partially covered by the tank body
+    ctx.save();
+    ctx.rotate(turretRotation);
+
+    const turretWidth = 25; // Turret width
+    const turretLength = size * turretLengthFactor; // Turret length, adjustable with a factor
+    const turretOffset = size + turretWidth / 2; // Ensure turret is outside the tank body
+
+    ctx.beginPath();
+    ctx.rect(
+      -turretWidth / 2,
+      -turretOffset - turretLength / 2,
+      turretWidth,
+      turretLength,
+    );
+    ctx.fillStyle = "gray"; // Turret color
+    ctx.lineWidth = 2; // Border width
+    ctx.strokeStyle = "#696969"; // Dark gray color for the turret border
+    ctx.fill();
+    ctx.stroke();
+    ctx.restore();
+    // Ensure text mitering
+    ctx.lineCap = "miter";
+    ctx.lineJoin = "miter";
+    // Draw tank body over the turret
+    ctx.beginPath();
+    ctx.arc(0, 0, size, 0, 2 * Math.PI);
+    ctx.fillStyle = color.blue; // Tank body color
+    ctx.strokeStyle = "#006699"; // Darker blue color for tank body border
+    ctx.fill();
+    ctx.stroke();
+    ctx.restore();
+  };
+
+  // Function to draw text with a black stroke
+  const drawTextconnect = (
+    text,
+    x,
+    y,
+    fontSize,
+    color,
+    alignment,
+    strokeColor = "black",
+  ) => {
+    ctx.font = "bold " + fontSize + "px Ubuntu1";
+    ctx.textAlign = alignment;
+    ctx.fillStyle = color;
+    ctx.strokeStyle = strokeColor;
+    ctx.lineWidth = 2;
+
+    // Draw the stroke first for better visibility
+    ctx.strokeText(text, x, y);
+    ctx.fillText(text, x, y);
+  };
+  const drawTextconnect1 = (
+    text,
+    x,
+    y,
+    fontSize,
+    color,
+    alignment,
+    strokeColor = "black",
+  ) => {
+    ctx.font = "bold " + fontSize + "px Ubuntu1";
+    ctx.textAlign = alignment;
+    ctx.fillStyle = color;
+    ctx.strokeStyle = strokeColor;
+    ctx.lineWidth = 2;
+
+    // Draw the stroke first for better visibility
+    ctx.strokeText(text, x, y);
+    ctx.fillText(text, x, y);
+  };
+const drawGamereconnecting = () => {
+  if (global.waitingloop && global.gameStart && !global.waitingloop1) {
+    drawText(
+      "Waiting for players...",
+      global.screenWidth / 2,
+      20, // Change the y position of the text to 45 pixels down
+      20,
+      color.guiwhite,
+      "center"
+    );
+  }
+};
+
+
+
+  const gameDrawDisconnected = () => {
+    global.disconnected = true;
+
+    let ratio = util.getScreenRatio();
+    let scaleScreenRatio = (by, unset) => {
+      global.screenWidth /= by;
+      global.screenHeight /= by;
+      ctx.scale(by, by);
+      if (!unset) ratio *= by;
+    };
+    scaleScreenRatio(ratio, true);
+if (global.piracy) {
+      ctx.fillStyle = "#FF0000"; // Red background color
+      ctx.fillRect(0, 0, global.screenWidth, global.screenHeight);
+} else
+    if (global.kicked || global.banned || global.banned1) {
+      clearScreen(gameDraw.mixColors("#FF6D6D", color.guiblack, 0.3), 1);
+    } else if (global.connecting && !global.gameStart && global.disconnected) {
+      ctx.fillStyle = "#E03E41"; // Red background color
+      ctx.fillRect(0, 0, global.screenWidth, global.screenHeight);
+    } else {
+      // Apply a semi-transparent overlay to dim the background
+      ctx.globalAlpha = 0.6; // Adjust opacity as needed
+      ctx.fillStyle = "#000000";
+      ctx.fillRect(0, 0, global.screenWidth, global.screenHeight);
+      ctx.globalAlpha = 1; // Reset global alpha
+
+      // Apply a blur effect directly on the main canvas
+      ctx.filter = "blur(10px)"; // Adjust blur radius as needed
+      ctx.drawImage(ctx.canvas, 0, 0, global.screenWidth, global.screenHeight);
+      ctx.filter = "none"; // Reset filter
+    }
+
+    if (global.kicked) {
+      let shift = animations.disconnected1.get();
+      ctx.translate(0, -shift * global.screenHeight);
+
+      // Grey box dimensions
+      const boxWidth = global.screenWidth * 0.3;
+      const boxHeight = 200;
+      const boxX = (global.screenWidth - boxWidth) / 2;
+      const boxY = (global.screenHeight - boxHeight) / 2 - 10;
+      ctx.fillStyle = "#0080FF"; // Semi-transparent grey
+
+      ctx.strokeStyle = "#033568"; // Darker red border
+      ctx.lineWidth = 15; // Set the border width (optional)
+      ctx.strokeRect(boxX, boxY, boxWidth, boxHeight);
+      ctx.fillRect(boxX, boxY, boxWidth, boxHeight);
+
+      drawText(
+        "KICKED",
+        global.screenWidth / 2,
+        global.screenHeight / 2.25,
+        45,
+        color.guiwhite,
+        "center",
+        1,
+      );
+      drawText(
+        "Reason: " + (global.messagekick || "None."),
+        global.screenWidth / 2,
+        global.screenHeight / 2 - 10,
+        22,
+        color.guiwhite,
+        "center",
+        1,
+      ); // Lower stroke width value, here set to 1
+
+      let clickableRatio = canvas.height / global.screenHeight / global.ratio;
+      let h = 30,
+        msg = "Reload",
+        m = measureText(msg, h - 3) + 20;
+      let buttonX = global.screenWidth / 2,
+        buttonY = global.screenHeight / 1.9;
+
+      if (global.reloadClicked) {
+        ctx.fillStyle = "#9B9B9B"; // Change background color when clicked
+      } else if (global.reloadbox) {
+        ctx.fillStyle = "#C7C3C3"; // Background color
+      } else {
+        ctx.fillStyle = "#AFAEAE"; // Background color
+      }
+      // Draw the top half of the button
+      ctx.fillRect(buttonX - m / 2, buttonY - 5, m, (h + 10) / 2);
+
+      // Draw the bottom half of the button in a slightly darker color
+      ctx.fillStyle = "#8F8E8E"; // Darker color for the bottom half
+      ctx.fillRect(
+        buttonX - m / 2,
+        buttonY - 5 + (h + 10) / 2,
+        m,
+        (h + 10) / 2,
+      );
+
+      // Draw the border of the button
+      ctx.strokeStyle = color.black;
+      ctx.lineWidth = 4;
+      ctx.strokeRect(buttonX - m / 2, buttonY - 5, m, h + 10);
+
+      // Draw the text on the button
+      drawText(
+        msg,
+        buttonX,
+        buttonY + h / 2 + 3,
+        16,
+        color.guiwhite,
+        "center",
+        true,
+      );
+
+      // Set the clickable area for the button
+      global.clickables.refreshButton.place(
+        0,
+        (buttonX - m / 2) * clickableRatio,
+        (buttonY - 5) * clickableRatio,
+        m * clickableRatio,
+        (h + 10) * clickableRatio,
+      );
+
+      ctx.translate(0, shift * global.screenHeight);
+    } else if (global.banned) {
+      let shift = animations.disconnected1.get();
+      ctx.translate(0, -shift * global.screenHeight);
+
+      // Grey box dimensions
+      const boxWidth = global.screenWidth * 0.3;
+      const boxHeight = 200;
+      const boxX = (global.screenWidth - boxWidth) / 2;
+      const boxY = (global.screenHeight - boxHeight) / 2 - 10;
+      ctx.fillStyle = "#FF0000"; // Semi-transparent grey
+
+      ctx.strokeStyle = "#8B0000"; // Darker red border
+      ctx.lineWidth = 15; // Set the border width (optional)
+      ctx.strokeRect(boxX, boxY, boxWidth, boxHeight);
+      ctx.fillRect(boxX, boxY, boxWidth, boxHeight);
+
+      drawText(
+        "BANNED",
+        global.screenWidth / 2,
+        global.screenHeight / 2.25,
+        45,
+        color.guiwhite,
+        "center",
+        1,
+      );
+      drawText(
+        "This decision is final.",
+        global.screenWidth / 2,
+        global.screenHeight / 2 - 10,
+        22,
+        color.guiwhite,
+        "center",
+        1,
+      ); // Lower stroke width value, here set to 1
+      drawText(
+        "Please contact the developer.",
+        global.screenWidth / 2,
+        global.screenHeight / 2 + 50,
+        22,
+        color.guiwhite,
+        "center",
+        1,
+      ); // Lower stroke width value, here set to 1
+
+      ctx.translate(0, shift * global.screenHeight);
+    } else if (global.piracy) {
+      let shift = animations.disconnected1.get();
+      ctx.translate(0, -shift * global.screenHeight);
+
+      // Grey box dimensions
+      const boxWidth = global.screenWidth * 0.4;
+      const boxHeight = 200;
+      const boxX = (global.screenWidth - boxWidth) / 2;
+      const boxY = (global.screenHeight - boxHeight) / 2 - 10;
+      ctx.fillStyle = "#ffdd00"; // Semi-transparent grey
+
+      ctx.strokeStyle = "#8b8900"; // Darker red border
+      ctx.lineWidth = 15; // Set the border width (optional)
+      ctx.strokeRect(boxX, boxY, boxWidth, boxHeight);
+      ctx.fillRect(boxX, boxY, boxWidth, boxHeight);
+
+      drawText(
+        "PIRACY IS NO FUN",
+        global.screenWidth / 2,
+        global.screenHeight / 2.25,
+        45,
+        color.guiwhite,
+        "center",
+        1,
+      );
+      drawText(
+        "You're using a modifed game client",
+        global.screenWidth / 2,
+        global.screenHeight / 2 - 10,
+        22,
+        color.guiwhite,
+        "center",
+        1,
+      ); // Lower stroke width value, here set to 1
+      drawText(
+        "Please remove your client and report this to LA3T#4868",
+        global.screenWidth / 2,
+        global.screenHeight / 2 + 50,
+        22,
+        color.guiwhite,
+        "center",
+        1,
+      ); // Lower stroke width value, here set to 1
+
+      ctx.translate(0, shift * global.screenHeight);
+    } else if (global.banned1) {
+      let shift = animations.disconnected1.get();
+      ctx.translate(0, -shift * global.screenHeight);
+
+      // Grey box dimensions
+      const boxWidth = global.screenWidth * 0.3;
+      const boxHeight = 200;
+      const boxX = (global.screenWidth - boxWidth) / 2;
+      const boxY = (global.screenHeight - boxHeight) / 2 - 10;
+      ctx.fillStyle = "#FF0000"; // Semi-transparent grey
+
+      ctx.strokeStyle = "#8B0000"; // Darker red border
+      ctx.lineWidth = 15; // Set the border width (optional)
+      ctx.strokeRect(boxX, boxY, boxWidth, boxHeight);
+      ctx.fillRect(boxX, boxY, boxWidth, boxHeight);
+
+      drawText(
+        "BANNED",
+        global.screenWidth / 2,
+        global.screenHeight / 2.25,
+        45,
+        color.guiwhite,
+        "center",
+        1,
+      );
+       // Check if global.messageban is defined and not empty, otherwise use the default message
+       const banMessage = global.messageban1 || "Temporarily banned.";
+
+       drawText(
+           banMessage,
+           global.screenWidth / 2,
+           global.screenHeight / 2 - 10,
+           22,
+           color.guiwhite,
+           "center",
+           1,
+       ); // Lower stroke width value, here set to 1
+      drawText(
+        "Please wait until the next server restart.",
+        global.screenWidth / 2,
+        global.screenHeight / 2 + 50,
+        22,
+        color.guiwhite,
+        "center",
+        1,
+      ); // Lower stroke width value, here set to 1
+
+      ctx.translate(0, shift * global.screenHeight);
+    } else {
+      let shift = animations.disconnected1.get();
+      ctx.translate(0, -shift * global.screenHeight);
+
+      // Grey box dimensions
+      const boxWidth = global.screenWidth * 0.3;
+      const boxHeight = 200;
+      const boxX = (global.screenWidth - boxWidth) / 2;
+      const boxY = (global.screenHeight - boxHeight) / 2 - 10;
+      ctx.fillStyle = "#a0a0a0"; // Semi-transparent grey
+
+      ctx.strokeStyle = "#000000"; // Darker red border
+      ctx.lineWidth = 15; // Set the border width (optional)
+      ctx.strokeRect(boxX, boxY, boxWidth, boxHeight);
+      ctx.fillRect(boxX, boxY, boxWidth, boxHeight);
+
+      drawText(
+        "DISCONNECTED",
+        global.screenWidth / 2,
+        global.screenHeight / 2.25,
+        45,
+        color.guiwhite,
+        "center",
+        1,
+      );
+      drawText(
+        global.messageerrorsocket || "The connection has closed.",
+        global.screenWidth / 2,
+        global.screenHeight / 2 - 10,
+        22,
+        color.guiwhite,
+        "center",
+        1,
+      ); // Lower stroke width value, here set to 1
+
+      let clickableRatio = canvas.height / global.screenHeight / global.ratio;
+      let h = 30,
+        msg = "Reload",
+        m = measureText(msg, h - 3) + 20;
+      let buttonX = global.screenWidth / 2,
+        buttonY = global.screenHeight / 1.9;
+
+      if (global.reloadClicked) {
+        ctx.fillStyle = "#9B9B9B"; // Change background color when clicked
+      } else if (global.reloadbox) {
+        ctx.fillStyle = "#C7C3C3"; // Background color
+      } else {
+        ctx.fillStyle = "#AFAEAE"; // Background color
+      }
+      // Draw the top half of the button
+      ctx.fillRect(buttonX - m / 2, buttonY - 5, m, (h + 10) / 2);
+
+      // Draw the bottom half of the button in a slightly darker color
+      ctx.fillStyle = "#8F8E8E"; // Darker color for the bottom half
+      ctx.fillRect(
+        buttonX - m / 2,
+        buttonY - 5 + (h + 10) / 2,
+        m,
+        (h + 10) / 2,
+      );
+
+      // Draw the border of the button
+      ctx.strokeStyle = color.black;
+      ctx.lineWidth = 4;
+      ctx.strokeRect(buttonX - m / 2, buttonY - 5, m, h + 10);
+
+      // Draw the text on the button
+      drawText(
+        msg,
+        buttonX,
+        buttonY + h / 2 + 3,
+        16,
+        color.guiwhite,
+        "center",
+        true,
+      );
+      // Set the clickable area for the button
+      global.clickables.refreshButton.place(
+        0,
+        (buttonX - m / 2) * clickableRatio,
+        (buttonY - 5) * clickableRatio,
+        m * clickableRatio,
+        (h + 10) * clickableRatio,
+      );
+
+      ctx.translate(0, shift * global.screenHeight);
+    }
+
+    if (global.allthesanctuarieskilled)
+      drawText(
+        global.sancdiedripforyouanyways || "",
+        global.screenWidth / 2,
+        global.screenHeight / 2 + 30,
+        15,
+        color.orange,
+        "center",
+      );
+  };
+
+  const getCurrentDateID = () => {
+    const currentDate = new Date();
+    const year = currentDate.getFullYear();
+    const month =
+      (currentDate.getMonth() + 1 < 10 ? "0" : "") +
+      (currentDate.getMonth() + 1);
+    const day = (currentDate.getDate() < 10 ? "0" : "") + currentDate.getDate();
+    return year + "-" + month + "-" + day;
+  };
+
+  console.log(getCurrentDateID());
+
+  const getCurrentDateTimeID = () => {
+    const currentDate = new Date();
+    const year = currentDate.getFullYear();
+    const month =
+      (currentDate.getMonth() + 1 < 10 ? "0" : "") +
+      (currentDate.getMonth() + 1);
+    const day = (currentDate.getDate() < 10 ? "0" : "") + currentDate.getDate();
+
+    const hours =
+      (currentDate.getHours() < 10 ? "0" : "") + currentDate.getHours();
+    const minutes =
+      (currentDate.getMinutes() < 10 ? "0" : "") + currentDate.getMinutes();
+    const seconds =
+      (currentDate.getSeconds() < 10 ? "0" : "") + currentDate.getSeconds();
+
+    const timeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+
+    return {
+      dateID: year + "-" + month + "-" + day,
+      time: hours + ":" + minutes + ":" + seconds,
+      timeZone: timeZone,
+    };
+  };
+
+  console.log(getCurrentDateTimeID());
+
+  // The main function
+  function createSnowCanvas() {
+    let snowCanvas = document.createElement("canvas");
+    snowCanvas.id = "snowCanvas";
+    snowCanvas.style.position = "fixed";
+    snowCanvas.style.top = "0";
+    snowCanvas.style.left = "0";
+    snowCanvas.style.width = "100vw";
+    snowCanvas.style.height = "100vh";
+    document.body.insertBefore(snowCanvas, document.body.firstChild);
+    let ctx = snowCanvas.getContext("2d");
+    let snowflakes = [];
+
+    function updateSnow() {
+        if (snowCanvas.width !== window.innerWidth)
+            snowCanvas.width = window.innerWidth;
+        if (snowCanvas.height !== window.innerHeight)
+            snowCanvas.height = window.innerHeight;
+        ctx.clearRect(0, 0, snowCanvas.width, snowCanvas.height);
+
+        for (let flake of snowflakes) {
+            flake.y += flake.vel;
+            if (flake.y > snowCanvas.height) {
+                flake.y = -flake.r;
+                flake.x = Math.random() * snowCanvas.width;
+            }
+            ctx.globalAlpha = flake.alpha;
+            ctx.beginPath();
+            ctx.arc(flake.x, flake.y, flake.r, 0, 2 * Math.PI);
+            ctx.fillStyle = "#ffffff";
+            ctx.fill();
+        }
+
+        if (snowflakes.length < 100) {
+            let x = Math.random() * snowCanvas.width;
+            let y = Math.random() * snowCanvas.height;
+            let r = 2 + Math.random() * 5;
+            let vel = 0.5 + Math.random() * 1;
+            let alpha = Math.random();
+            snowflakes.push({ x, y, r, vel, alpha });
+        }
+
+        if (global.gameStart) snowCanvas.remove();
+        else requestAnimationFrame(updateSnow);
+    }
+
+    updateSnow();
+}
+
+function animloop() {
+  global.animLoopHandle = window.requestAnimationFrame(animloop);
+
+  // Reanimate colors
+  gameDraw.reanimateColors();
+
+  // Smoothly interpolate player view
+  global.player.renderv += (global.player.view - global.player.renderv) / 15;
+
+  // Calculate screen ratio
+  var ratio = config.graphical.screenshotMode ? 2 : util.getRatio();
+
+  // Set the drawing style
+  ctx.lineCap = "round";
+  ctx.lineJoin = "round";
+
+  // Draw the game if it's started and not disconnected
+  if (global.gameStart && !global.disconnected && !global.tryingtoreconnect) {
+      global.time = getNow();
+      
+      // Latency optimizations
+      if (document.getElementById("optFancy").checked || global.optFancy) {
+          if (global.time - lastPing > 0) {
+              global.sendmessagefps = true;
+              let currentTime = Date.now();
+              lastUpdateTime = currentTime;
+              
+              global.socket.ping(global.time);
+              lastPing = global.time;
+              global.metrics.rendertime = renderTimes;
+              renderTimes = 0;
+              global.metrics.updatetime = global.updateTimes;
+              global.updateTimes = 0;
+              
+              global.currentFps = Math.round(1000 / (global.time - lastUpdateTime));
+              global.currentFps = currentFps;
+          }
+      } else if (document.getElementById("betterperformance").checked || global.betternofcway) {
+          if (global.time - lastPing > 3000) {
+              global.sendmessagefps = false;
+              let currentTime = Date.now();
+              lastUpdateTime = currentTime;
+              global.socket.ping(global.time);
+              lastPing = global.time;
+              global.metrics.rendertime = renderTimes;
+              renderTimes = 0;
+              global.metrics.updatetime = global.updateTimes;
+              global.updateTimes = 0;
+              
+              global.currentFps = Math.round(1000 / (global.time - lastUpdateTime));
+              global.currentFps = currentFps;
+          }
+      } else {
+          if (global.time - lastPing > 1000) {
+              global.sendmessagefps = true;
+              let currentTime = Date.now();
+              lastUpdateTime = currentTime;
+              global.socket.ping(global.time);
+              lastPing = global.time;
+              global.metrics.rendertime = renderTimes;
+              renderTimes = 0;
+              global.metrics.updatetime = global.updateTimes;
+              global.updateTimes = 0;
+              
+              global.currentFps = Math.round(1000 / (global.time - lastUpdateTime));
+              global.currentFps = currentFps;
+          }
+      }
+      global.metrics.lag = global.time - global.player.time;
+  }
+
+  // Apply translation for smoother rendering
+  ctx.translate(0.5, 0.5);
+
+  try {
+      if (global.gameStart) {
+          gameDrawAlive(ratio, util.getScreenRatio());
+      } else if (!global.disconnected) {
+          gameDrawBeforeStart();
+      }
+      if (
+          global.died ||
+          global.diedbruh ||
+          global.diedseekbruh ||
+          global.showdeathscreen
+      ) {
+          gameDrawDead();
+      }
+
+      if (global.arenaClosed) {
+          arenaClosed();
+      } else if (global.disconnected) {
+          gameDrawDisconnected();
+      } else if (global.waitingloop && global.gameStart && !global.waitingloop1) {
+          drawGamereconnecting();
+      } else if (global.smasherreward) {
+          rewardsmasher();
+      } else if (global.showintroduction) {
+          introduction();
+      }
+
+      // Undo translation after rendering
+      ctx.translate(-0.5, -0.5);
+
+      // Handle reconnection scenario
+      if (global.reconnected) {
+          console.log("Reconnected and updating game state...");
+          global.reconnected = false; // Reset flag
+          lastPing = global.time; // Update lastPing
+      }
+
+        if (!document.getElementById("snowCanvas")) {
+            createSnowCanvas();
+        }
+    
+  } catch (e) {
+      // Handle errors during rendering
+      gameDrawErrorScreen(e);
+      console.error(e);
+      ctx.translate(-0.5, -0.5);
+  }
+}
+let snowAmount = 0.3; // Reduced likelihood of generating new shapes
+let aeff = 1;
+let cool = 0;
+let counter = 0;
+let counter2 = 0;
+
+// Adjustable speed variables
+let fallingSpeed = 2; // Control the falling speed
+let rotationSpeed = 0.05; // Control the rotation speed
+
+if (snowAmount) {
+    let snowCanvas = document.createElement('canvas');
+    snowCanvas.style.position = 'absolute';
+    snowCanvas.style.top = '0';
+    document.body.insertBefore(snowCanvas, document.body.firstChild);
+
+    let ctx = snowCanvas.getContext('2d');
+    let snow = [];
+
+    // Function to draw shapes with white fill
+    const drawShape = (x, y, r, shape, rotation) => {
+        ctx.save(); // Save the current context
+        ctx.translate(x, y); // Move the origin to the shape's position
+        ctx.rotate(rotation); // Rotate the canvas
+        //ctx.globalAlpha = 0.3; // Example: 50% opacity
+        ctx.beginPath();
+        if (shape === 'circle') {
+            ctx.arc(0, 0, r, 0, 2 * Math.PI);
+        } else if (shape === 'square') {
+            ctx.rect(-r, -r, r * 2, r * 2);
+        } else if (shape === 'triangle') {
+            ctx.moveTo(0, -r);
+            ctx.lineTo(-r, r);
+            ctx.lineTo(r, r);
+            ctx.closePath();
+        }  else if (shape === 'pentagon') {
+          // Correctly define pentagon shape
+          for (let i = 0; i < 5; i++) {
+              ctx.lineTo(r * Math.cos((i * 2 * Math.PI) / 5), r * Math.sin((i * 2 * Math.PI) / 5));
+          }
+          ctx.closePath(); // Close the path
+      }
+
+
+   
+        ctx.strokeStyle = '#ffffff'; // White outline
+        ctx.lineWidth = 5; // Outline width
+        ctx.stroke(); // Draw the outline
+
+        ctx.restore(); // Restore the context to its original state
+    };
+
+      let updateSnow = () => {
+        if (snowCanvas.width !== window.innerWidth) snowCanvas.width = window.innerWidth;
+        if (snowCanvas.height !== window.innerHeight) snowCanvas.height = window.innerHeight;
+        ctx.clearRect(0, 0, snowCanvas.width, snowCanvas.height);
+        for (let p of snow) {
+            p.vel2++;
+            p.x += p.vel * Math.cos(p.dir);
+            p.y += p.vel * Math.sin(p.dir);
+            let a = Math.min(0.4, 1 - (p.y / snowCanvas.height)) * 2;
+            if (a > 0) {
+                ctx.globalAlpha = a;
+                drawShape(p.x, p.y, p.r, p.shape, p.rotation); // Pass rotation to drawShape
+                p.rotation += rotationSpeed; // Update rotation
+            } else if (p.x < 20 || p.x > window.innerWidth + 20 || p.y < -25 || a < 0 || global.gameStart) {
+                p.gone = true;
+            }
+        }
+        if (Math.random() < snowAmount) { // Reduced threshold for generating new shapes
+            if (!global.gameStart) {
+                let aeef = -10;
+                let aee = (snowCanvas.width) * (1 - 2 * Math.random());
+                if (counter % 43) counter2++;
+                counter++;
+                cool += aeff;
+                if (counter % 1440 == 0) aeff *= -1;
+                if (counter % 1 == 0) {
+                    for (let i = 0; i < 360; i += 360 / 1) {
+                        let x = snowCanvas.width / 2 + aee;
+                        let shape = ['circle', 'square', 'triangle', 'pentagon'][Math.floor(Math.random() * 4)]; // Random shape selection
+    
+                        // Set different radius values for different shapes
+                        let r;
+                        if (shape === 'circle') {
+                            r = 10; // Smaller radius for circles
+                        } else {
+                            r = 20; // Larger radius for squares, triangles, and pentagons
+                        }
+                        let dir = Math.PI / 2 + 10 * (1 - 2 * Math.random()) * Math.PI / 180 + 30 * Math.sin(0.3 * counter * Math.PI / 180) * Math.PI / 180;
+                        let vel = fallingSpeed + 2 * Math.random(); // Use adjustable falling speed
+                    
+                        snow.push({ x, y: aeef, r, dir, vel, shape, rotation: 0 }); // Initialize rotation
+                    }
+                }
+            }
+        }
+        if (global.gameStart) {
+            snowCanvas.remove();
+        } else {
+            requestAnimationFrame(updateSnow);
+        }
+    };
+ 
+
+    setInterval(() => {
+        snow = snow.filter(r => !r.gone);
+    }, 2000);
+    updateSnow();
+}
+
+
+
+
+
+})(util, global, config, Canvas, colors, gameDraw, socketStuff);
