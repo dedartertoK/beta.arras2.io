@@ -201,7 +201,11 @@ cursor: pointer;
     transition: color 0.6s; /* Add transition property for opacity and color change */
     opacity: 1; /* Initial opacity */
 }
-
+.color-transition1 {
+    animation:  color-Transition1 0.6s infinite alternate; 
+    transition: color 0.6s; /* Add transition property for opacity and color change */
+    opacity: 1; /* Initial opacity */
+}
 .redirect5:hover {
       
             opacity: 0.5; /* Reset opacity after color change */
@@ -283,6 +287,14 @@ cursor: pointer;
             }
             to {
                 color: rgb(0, 255, 64);
+            }
+        }
+               @keyframes color-Transition1 {
+            from {
+                color: grey;
+            }
+            to {
+                color: #FF8D01;
             }
         }
         
@@ -651,7 +663,7 @@ function openYouTube(event) {
 
     <div id="container">
     <img width=150 height=150 src="https://cdn.glitch.global/7fdbbc0d-3982-4016-95c0-1c33c0f67239/Screenshot%202024-10-13%20153943-modified.png?v=1728829785590" class="icon" alt="arras icon">
-    <h1>Arras<b class="color-transition">2</b>.io</h1>
+    <h1>Arras<b class="color-transition1">2</b>.io</h1>
     <div class="links-container" id="links-container">
         <a id="play-btn" class="redirect5">PLAY</a>
         <a class="d-day" id="changelog-btn">CHANGELOG</a>
