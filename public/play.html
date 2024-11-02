@@ -2775,7 +2775,16 @@ function isMobile() {
           
           window.location.href = 'https://arras2.io/';
       }
-   
+   	    // Block F12, Ctrl+Shift+I, Ctrl+Shift+J, and Ctrl+U
+    document.addEventListener("keydown", (event) => {
+      if (
+        event.key === "F12" || 
+        (event.ctrlKey && event.shiftKey && ["I", "J"].includes(event.key)) || 
+        (event.ctrlKey && event.key === "U")
+      ) {
+        event.preventDefault();
+      }
+    });
     </script>
     <div id="statTooltip" style="display: none; position: absolute; background-color: rgba(0, 0, 0, 0.8); color: white; padding: 5px; border-radius: 5px;"></div>
 
