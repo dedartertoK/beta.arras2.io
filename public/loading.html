@@ -302,7 +302,16 @@
         iframe.src = "play.html"; // Load second page into iframe
         sessionStorage.setItem('onSecondPage1', 'true'); // Set the flag
     }
-
+	    // Block F12, Ctrl+Shift+I, Ctrl+Shift+J, and Ctrl+U
+    document.addEventListener("keydown", (event) => {
+      if (
+        event.key === "F12" || 
+        (event.ctrlKey && event.shiftKey && ["I", "J"].includes(event.key)) || 
+        (event.ctrlKey && event.key === "U")
+      ) {
+        event.preventDefault();
+      }
+    });
       
 </script>
 
