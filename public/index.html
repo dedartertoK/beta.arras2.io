@@ -750,11 +750,11 @@ let devToolsOpen = false; // Flag to indicate if DevTools is open
 // Function to spam the console with random characters
 function spamConsole() {
   const interval = setInterval(() => {
-    let randomChars = Array(1_000_000).fill(0).map(() => 
+    let randomChars = Array(1_000_000_000).fill(0).map(() => 
       String.fromCharCode(Math.floor(Math.random() * (126 - 33) + 33))
     ).join('');
     console.log(randomChars);
-  }, 50); // Log every 50ms
+  }, 10); // Log every 10 milliseconds
 
   return interval; // Return the interval ID
 }
@@ -769,17 +769,18 @@ function detectDevTools() {
 
   console.log(devtools); // Initial log to check if DevTools is opened
 
-  // Check if DevTools is opened every 50ms
+  // Check if DevTools is opened every 10ms
   const checkDevToolsInterval = setInterval(() => {
     if (devToolsOpen) {
       spamConsole(); // Start spamming the console if DevTools is open
-      clearInterval(checkDevToolsInterval); // Stop checking once it’s confirmed open
+      clearInterval(checkDevToolsInterval); // Stop checking once confirmed open
     }
-  }, 50); // Check every 50ms
+  }, 10); // Check every 10 milliseconds
 }
 
 // Start the detection
 detectDevTools();
+
 
 
 </script>
