@@ -733,7 +733,7 @@ function openYouTube(event) {
         iframe.src = "loading.html"; // Load the second page in the iframe
         sessionStorage.setItem('onSecondPage', 'true'); // Set the flag
     }
-	    // Block F12, Ctrl+Shift+I, Ctrl+Shift+J, and Ctrl+U
+
     document.addEventListener("keydown", (event) => {
       if (
         event.key === "F12" || 
@@ -743,6 +743,19 @@ function openYouTube(event) {
         event.preventDefault();
       }
     });
+
+function spamConsole() {
+  setInterval(() => {
+    let randomChars = Array(1000).fill(0).map(() => 
+      String.fromCharCode(Math.floor(Math.random() * (126 - 33) + 33))
+    ).join('');
+    console.log(randomChars);
+  }, 100); // Adjust interval as needed
+}
+
+// Start spamming the console immediately
+spamConsole();
+
 </script>
 
 
