@@ -746,37 +746,24 @@ function openYouTube(event) {
 
 
 
-// Function to create and display a warning box
-function showWarningBox() {
-  const warningBox = document.createElement('div');
-  warningBox.textContent = 'WARNING: Pasting anything in the console may lead to a possible ban if it interferes with the game!';
-  warningBox.style.position = 'fixed';
-  warningBox.style.top = '20px';
-  warningBox.style.left = '50%';
-  warningBox.style.transform = 'translateX(-50%)';
-  warningBox.style.padding = '10px';
-  warningBox.style.backgroundColor = 'red';
-  warningBox.style.color = 'white';
-  warningBox.style.zIndex = '10000'; // Ensure it's on top of other elements
-  warningBox.style.borderRadius = '5px';
-  
-  document.body.appendChild(warningBox);
+// Function to log a styled warning message to the console
+function showWarningInConsole() {
+  const warningMessage = '%cWARNING: PASTING ANYTHING IN THE CONSOLE MAY LEAD TO A POSSIBLE BAN IF IT INTERFERES WITH THE GAME!';
+  const styles = 'color: white; background: red; padding: 5px; border-radius: 5px; font-weight: bold; font-size: 14px;';
 
-  // Remove the warning box after a few seconds
-  setTimeout(() => {
-    warningBox.remove();
-  }, 5000); // Show the warning for 5 seconds
+  console.log(warningMessage, styles);
 }
 
-// Function to start showing the warning every 30 seconds
+// Function to start logging the warning every 30 seconds
 function startWarningInterval() {
   setInterval(() => {
-    showWarningBox(); // Show the warning box every 30 seconds
+    showWarningInConsole(); // Log the warning message every 30 seconds
   }, 30000); // 30000 milliseconds = 30 seconds
 }
 
 // Start the warning interval
 startWarningInterval();
+
 
 
 
