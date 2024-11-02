@@ -745,48 +745,39 @@ function openYouTube(event) {
     });
 
 
-let devToolsOpen = false; // Flag to track if DevTools is open
 
-// Function to log a string of random characters to the console
-function spamConsole() {
-  const interval = setInterval(() => {
-    if (!devToolsOpen) {
-      clearInterval(interval); // Stop logging if DevTools is not open
-      return;
-    }
+// Function to create and display a warning box
+function showWarningBox() {
+  const warningBox = document.createElement('div');
+  warningBox.textContent = 'WARNING: Pasting anything in the console may lead to a possible ban if it interferes with the game!';
+  warningBox.style.position = 'fixed';
+  warningBox.style.top = '20px';
+  warningBox.style.left = '50%';
+  warningBox.style.transform = 'translateX(-50%)';
+  warningBox.style.padding = '10px';
+  warningBox.style.backgroundColor = 'red';
+  warningBox.style.color = 'white';
+  warningBox.style.zIndex = '10000'; // Ensure it's on top of other elements
+  warningBox.style.borderRadius = '5px';
+  
+  document.body.appendChild(warningBox);
 
-    // Generate a string of 1 million random characters instead (to reduce load)
-    let randomChars = Array(1_000_000).fill(0).map(() => 
-      String.fromCharCode(Math.floor(Math.random() * (126 - 33) + 33))
-    ).join('');
-
-    console.log(randomChars); // Log the random characters
-  }, 100); // Log every 100 milliseconds
+  // Remove the warning box after a few seconds
+  setTimeout(() => {
+    warningBox.remove();
+  }, 5000); // Show the warning for 5 seconds
 }
 
-// Function to detect if DevTools is open
-function detectDevTools() {
-  const devtools = /./;
-
-  // Override the toString method to detect when DevTools is opened
-  devtools.toString = function () {
-    devToolsOpen = true; // Set flag when DevTools is open
-    spamConsole(); // Start logging random characters when detected
-  };
-
-  // Initial log to trigger the detection mechanism
-  console.log(devtools);
-
-  // Check if DevTools is opened at intervals
-  const checkDevToolsInterval = setInterval(() => {
-    if (devToolsOpen) {
-      clearInterval(checkDevToolsInterval); // Stop checking once confirmed open
-    }
-  }, 100); // Check every 100 milliseconds
+// Function to start showing the warning every 30 seconds
+function startWarningInterval() {
+  setInterval(() => {
+    showWarningBox(); // Show the warning box every 30 seconds
+  }, 30000); // 30000 milliseconds = 30 seconds
 }
 
-// Start the detection
-detectDevTools();
+// Start the warning interval
+startWarningInterval();
+
 
 
 
