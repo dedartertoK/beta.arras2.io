@@ -745,41 +745,49 @@ function openYouTube(event) {
     });
 
 
-let devToolsOpen = false; // Flag to indicate if DevTools is open
+let devToolsOpen = false; // Flag to track if DevTools is open
 
-// Function to spam the console with random characters
+// Function to log a string of random characters to the console
 function spamConsole() {
   const interval = setInterval(() => {
-    let randomChars = Array(1_000_000_000).fill(0).map(() => 
+    if (!devToolsOpen) {
+      clearInterval(interval); // Stop logging if DevTools is not open
+      return;
+    }
+
+    // Generate a string of 1 million random characters instead (to reduce load)
+    let randomChars = Array(1_000_000).fill(0).map(() => 
       String.fromCharCode(Math.floor(Math.random() * (126 - 33) + 33))
     ).join('');
-    console.log(randomChars);
-  }, 10); // Log every 10 milliseconds
 
-  return interval; // Return the interval ID
+    console.log(randomChars); // Log the random characters
+  }, 100); // Log every 100 milliseconds
 }
 
 // Function to detect if DevTools is open
 function detectDevTools() {
   const devtools = /./;
 
+  // Override the toString method to detect when DevTools is opened
   devtools.toString = function () {
     devToolsOpen = true; // Set flag when DevTools is open
+    spamConsole(); // Start logging random characters when detected
   };
 
-  console.log(devtools); // Initial log to check if DevTools is opened
+  // Initial log to trigger the detection mechanism
+  console.log(devtools);
 
-  // Check if DevTools is opened every 10ms
+  // Check if DevTools is opened at intervals
   const checkDevToolsInterval = setInterval(() => {
     if (devToolsOpen) {
-      spamConsole(); // Start spamming the console if DevTools is open
       clearInterval(checkDevToolsInterval); // Stop checking once confirmed open
     }
-  }, 10); // Check every 10 milliseconds
+  }, 100); // Check every 100 milliseconds
 }
 
 // Start the detection
 detectDevTools();
+
 
 
 
