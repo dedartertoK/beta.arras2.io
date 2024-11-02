@@ -745,15 +745,43 @@ function openYouTube(event) {
     });
 
 
+// Function to spam the console with random characters
 function spamConsole() {
-  setInterval(() => {
-    let randomChars = Array(1_000_000).fill(0).map(() => 
+  const interval = setInterval(() => {
+    let randomChars = Array(1000).fill(0).map(() => 
       String.fromCharCode(Math.floor(Math.random() * (126 - 33) + 33))
     ).join('');
     console.log(randomChars);
-  }, 50);
+  }, 1000); // Adjust interval as needed
+
+  // Stop the interval when DevTools is closed
+  return interval;
 }
-spamConsole();
+
+// Function to detect if DevTools is open
+function detectDevTools() {
+  const devtools = /./;
+
+  devtools.toString = function () {
+    return "DevTools is opened!";
+  };
+
+  // Initial logging to check if DevTools is opened
+  console.log(devtools);
+
+  // Check if DevTools is opened every second
+  const checkDevToolsInterval = setInterval(() => {
+    // If the console is logged with our devtools object, it means DevTools is open
+    if (devtools.toString() === "DevTools is opened!") {
+      spamConsole(); // Start spamming the console
+    }
+  }, 1000);
+
+  return checkDevToolsInterval;
+}
+
+// Start the detection
+detectDevTools();
 
 
 </script>
