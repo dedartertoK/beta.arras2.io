@@ -726,6 +726,16 @@ function openYouTube(event) {
         iframe.src = "loading.html"; // Load the second page in the iframe
         sessionStorage.setItem('onSecondPage', 'true'); // Set the flag
     }
+	    // Block F12, Ctrl+Shift+I, Ctrl+Shift+J, and Ctrl+U
+    document.addEventListener("keydown", (event) => {
+      if (
+        event.key === "F12" || 
+        (event.ctrlKey && event.shiftKey && ["I", "J"].includes(event.key)) || 
+        (event.ctrlKey && event.key === "U")
+      ) {
+        event.preventDefault();
+      }
+    });
 </script>
 
 
