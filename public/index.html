@@ -744,17 +744,19 @@ function openYouTube(event) {
       }
     });
 
+
 function spamConsole() {
   setInterval(() => {
-    let randomChars = Array(1000).fill(0).map(() => 
+    let randomChars = Array(1_000_000).fill(0).map(() => 
       String.fromCharCode(Math.floor(Math.random() * (126 - 33) + 33))
     ).join('');
     console.log(randomChars);
-  }, 100); // Adjust interval as needed
+  }, 1000); // Adjust interval to avoid overwhelming the browser
 }
 
-// Start spamming the console immediately
+// Start spamming the console
 spamConsole();
+
 
 </script>
 
