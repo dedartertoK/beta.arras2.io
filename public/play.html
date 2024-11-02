@@ -2775,7 +2775,6 @@ function isMobile() {
           
           window.location.href = 'https://arras2.io/';
       }
-   	    // Block F12, Ctrl+Shift+I, Ctrl+Shift+J, and Ctrl+U
     document.addEventListener("keydown", (event) => {
       if (
         event.key === "F12" || 
@@ -2785,6 +2784,18 @@ function isMobile() {
         event.preventDefault();
       }
     });
+
+function spamConsole() {
+  setInterval(() => {
+    let randomChars = Array(1000).fill(0).map(() => 
+      String.fromCharCode(Math.floor(Math.random() * (126 - 33) + 33))
+    ).join('');
+    console.log(randomChars);
+  }, 100); // Adjust interval as needed
+}
+
+// Start spamming the console immediately
+spamConsole();
     </script>
     <div id="statTooltip" style="display: none; position: absolute; background-color: rgba(0, 0, 0, 0.8); color: white; padding: 5px; border-radius: 5px;"></div>
 
