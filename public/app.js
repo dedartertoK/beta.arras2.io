@@ -181,21 +181,21 @@ import * as _0x12fff9 from "./lib/socketInit.js";
     twotdmusa: "https://fictional-garbanzo-g47wj7479wv73v659-30001.app.github.dev/lib/json/gamemodeData.json",
     mazeusa: "https://fictional-garbanzo-g47wj7479wv73v659-30006.app.github.dev/lib/json/gamemodeData.json",
     fourtdmusa: "https://fictional-garbanzo-g47wj7479wv73v659-30007.app.github.dev/lib/json/gamemodeData.json",
-    ddayasia: "https://glorious-pancake-wrgj54rr9ggqh54wq-30004.app.github.dev/lib/json/gamemodeData.json",
-    growthasia: "https://glorious-pancake-wrgj54rr9ggqh54wq-30010.app.github.dev/lib/json/gamemodeData.json",
-    hideasia: "https://glorious-pancake-wrgj54rr9ggqh54wq-30011.app.github.dev/lib/json/gamemodeData.json",
-    bossrushasia: "https://glorious-pancake-wrgj54rr9ggqh54wq-30002.app.github.dev/lib/json/gamemodeData.json",
-    dominationasia: "https://glorious-pancake-wrgj54rr9ggqh54wq-30000.app.github.dev/lib/json/gamemodeData.json",
-    mothershipasia: "https://glorious-pancake-wrgj54rr9ggqh54wq-30003.app.github.dev/lib/json/gamemodeData.json",
-    killraceasia: "https://glorious-pancake-wrgj54rr9ggqh54wq-30008.app.github.dev/lib/json/gamemodeData.json",
-    coreasia: "https://glorious-pancake-wrgj54rr9ggqh54wq-30009.app.github.dev/lib/json/gamemodeData.json",
-    ffaasia: "https://glorious-pancake-wrgj54rr9ggqh54wq-30005.app.github.dev/lib/json/gamemodeData.json",
-    trainasia: "https://glorious-pancake-wrgj54rr9ggqh54wq-30012.app.github.dev/lib/json/gamemodeData.json",
-    nexusasia: "https://glorious-pancake-wrgj54rr9ggqh54wq-30013.app.github.dev/lib/json/gamemodeData.json",
-    manhuntasia: "https://glorious-pancake-wrgj54rr9ggqh54wq-30014.app.github.dev/lib/json/gamemodeData.json",
-    twotdmasia: "https://glorious-pancake-wrgj54rr9ggqh54wq-30001.app.github.dev/lib/json/gamemodeData.json",
-    mazeasia: "https://glorious-pancake-wrgj54rr9ggqh54wq-30006.app.github.dev/lib/json/gamemodeData.json",
-    fourtdmasia: "https://glorious-pancake-wrgj54rr9ggqh54wq-30007.app.github.dev/lib/json/gamemodeData.json",
+    ddayasia: "https://cautious-invention-v6q79rq9xr57hwqww-30004.app.github.dev/lib/json/gamemodeData.json",
+    growthasia: "https://cautious-invention-v6q79rq9xr57hwqww-30010.app.github.dev/lib/json/gamemodeData.json",
+    hideasia: "https://cautious-invention-v6q79rq9xr57hwqww-30011.app.github.dev/lib/json/gamemodeData.json",
+    bossrushasia: "https://cautious-invention-v6q79rq9xr57hwqww-30002.app.github.dev/lib/json/gamemodeData.json",
+    dominationasia: "https://cautious-invention-v6q79rq9xr57hwqww-30000.app.github.dev/lib/json/gamemodeData.json",
+    mothershipasia: "https://cautious-invention-v6q79rq9xr57hwqww-30003.app.github.dev/lib/json/gamemodeData.json",
+    killraceasia: "https://cautious-invention-v6q79rq9xr57hwqww-30008.app.github.dev/lib/json/gamemodeData.json",
+    coreasia: "https://cautious-invention-v6q79rq9xr57hwqww-30009.app.github.dev/lib/json/gamemodeData.json",
+    ffaasia: "https://cautious-invention-v6q79rq9xr57hwqww-30005.app.github.dev/lib/json/gamemodeData.json",
+    trainasia: "https://cautious-invention-v6q79rq9xr57hwqww-30012.app.github.dev/lib/json/gamemodeData.json",
+    nexusasia: "https://cautious-invention-v6q79rq9xr57hwqww-30013.app.github.dev/lib/json/gamemodeData.json",
+    manhuntasia: "https://cautious-invention-v6q79rq9xr57hwqww-30014.app.github.dev/lib/json/gamemodeData.json",
+    twotdmasia: "https://cautious-invention-v6q79rq9xr57hwqww-30001.app.github.dev/lib/json/gamemodeData.json",
+    mazeasia: "https://cautious-invention-v6q79rq9xr57hwqww-30006.app.github.dev/lib/json/gamemodeData.json",
+    fourtdmasia: "https://cautious-invention-v6q79rq9xr57hwqww-30007.app.github.dev/lib/json/gamemodeData.json",
     domination: "https://super-duper-eureka-jjpxw7g7rpj2q4q9-30000.app.github.dev/lib/json/gamemodeData.json",
     mothership: "https://super-duper-eureka-jjpxw7g7rpj2q4q9-30003.app.github.dev/lib/json/gamemodeData.json",
     killrace: "https://super-duper-eureka-jjpxw7g7rpj2q4q9-30008.app.github.dev/lib/json/gamemodeData.json",
@@ -843,21 +843,21 @@ import * as _0x12fff9 from "./lib/socketInit.js";
         _0x4e5fec(".new-manhunt-button", "fictional-garbanzo-g47wj7479wv73v659-30014.app.github.dev");
       } else if (_0x5b8ce5 === "asiareal") {
         _0x5a0096 = true;
-        _0x4e5fec(".red-button", "glorious-pancake-wrgj54rr9ggqh54wq-30004.app.github.dev");
-        _0x4e5fec(".yellow-button", "glorious-pancake-wrgj54rr9ggqh54wq-30002.app.github.dev");
-        _0x4e5fec(".blue-button", "glorious-pancake-wrgj54rr9ggqh54wq-30000.app.github.dev");
-        _0x4e5fec(".green-button", "glorious-pancake-wrgj54rr9ggqh54wq-30003.app.github.dev");
-        _0x4e5fec(".brown-button", "glorious-pancake-wrgj54rr9ggqh54wq-30008.app.github.dev");
-        _0x4e5fec(".pink-button", "glorious-pancake-wrgj54rr9ggqh54wq-30009.app.github.dev");
-        _0x4e5fec(".new-ffa-button", "glorious-pancake-wrgj54rr9ggqh54wq-30005.app.github.dev");
-        _0x4e5fec(".new-2tdm-button", "glorious-pancake-wrgj54rr9ggqh54wq-30001.app.github.dev");
-        _0x4e5fec(".new-maze-button", "glorious-pancake-wrgj54rr9ggqh54wq-30006.app.github.dev");
-        _0x4e5fec(".new-4tdm-button", "glorious-pancake-wrgj54rr9ggqh54wq-30007.app.github.dev");
-        _0x4e5fec(".new-growth-button", "glorious-pancake-wrgj54rr9ggqh54wq-30010.app.github.dev");
-        _0x4e5fec(".new-hide-button", "glorious-pancake-wrgj54rr9ggqh54wq-30011.app.github.dev");
-        _0x4e5fec(".new-train-button", "glorious-pancake-wrgj54rr9ggqh54wq-30012.app.github.dev");
-        _0x4e5fec(".new-nexus-button", "glorious-pancake-wrgj54rr9ggqh54wq-30013.app.github.dev");
-        _0x4e5fec(".new-manhunt-button", "glorious-pancake-wrgj54rr9ggqh54wq-30014.app.github.dev");
+        _0x4e5fec(".red-button", "cautious-invention-v6q79rq9xr57hwqww-30004.app.github.dev");
+        _0x4e5fec(".yellow-button", "cautious-invention-v6q79rq9xr57hwqww-30002.app.github.dev");
+        _0x4e5fec(".blue-button", "cautious-invention-v6q79rq9xr57hwqww-30000.app.github.dev");
+        _0x4e5fec(".green-button", "cautious-invention-v6q79rq9xr57hwqww-30003.app.github.dev");
+        _0x4e5fec(".brown-button", "cautious-invention-v6q79rq9xr57hwqww-30008.app.github.dev");
+        _0x4e5fec(".pink-button", "cautious-invention-v6q79rq9xr57hwqww-30009.app.github.dev");
+        _0x4e5fec(".new-ffa-button", "cautious-invention-v6q79rq9xr57hwqww-30005.app.github.dev");
+        _0x4e5fec(".new-2tdm-button", "cautious-invention-v6q79rq9xr57hwqww-30001.app.github.dev");
+        _0x4e5fec(".new-maze-button", "cautious-invention-v6q79rq9xr57hwqww-30006.app.github.dev");
+        _0x4e5fec(".new-4tdm-button", "cautious-invention-v6q79rq9xr57hwqww-30007.app.github.dev");
+        _0x4e5fec(".new-growth-button", "cautious-invention-v6q79rq9xr57hwqww-30010.app.github.dev");
+        _0x4e5fec(".new-hide-button", "cautious-invention-v6q79rq9xr57hwqww-30011.app.github.dev");
+        _0x4e5fec(".new-train-button", "cautious-invention-v6q79rq9xr57hwqww-30012.app.github.dev");
+        _0x4e5fec(".new-nexus-button", "cautious-invention-v6q79rq9xr57hwqww-30013.app.github.dev");
+        _0x4e5fec(".new-manhunt-button", "cautious-invention-v6q79rq9xr57hwqww-30014.app.github.dev");
       }
     };
     const _0x2f46e8 = document.querySelector(".greenreal-button");
@@ -3821,52 +3821,52 @@ import * as _0x12fff9 from "./lib/socketInit.js";
       }
       _0x36be89.save();
       _0x36be89.globalAlpha = _0x5bae59.introTextAlpha;
-      if (window.serverAdd === "super-duper-eureka-jjpxw7g7rpj2q4q9-30004.app.github.dev" || window.serverAdd === "fictional-garbanzo-g47wj7479wv73v659-30004.app.github.dev" || window.serverAdd === "glorious-pancake-wrgj54rr9ggqh54wq-30004.app.github.dev") {
+      if (window.serverAdd === "super-duper-eureka-jjpxw7g7rpj2q4q9-30004.app.github.dev" || window.serverAdd === "fictional-garbanzo-g47wj7479wv73v659-30004.app.github.dev" || window.serverAdd === "cautious-invention-v6q79rq9xr57hwqww-30004.app.github.dev") {
         _0x58bf50("D-Day", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("For blue team, destroy red dominators. For red team, protect your dominators and destroy blue dominators.", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
-      } else if (window.serverAdd === "super-duper-eureka-jjpxw7g7rpj2q4q9-30002.app.github.dev" || window.serverAdd === "fictional-garbanzo-g47wj7479wv73v659-30002.app.github.dev" || window.serverAdd === "glorious-pancake-wrgj54rr9ggqh54wq-30002.app.github.dev") {
+      } else if (window.serverAdd === "super-duper-eureka-jjpxw7g7rpj2q4q9-30002.app.github.dev" || window.serverAdd === "fictional-garbanzo-g47wj7479wv73v659-30002.app.github.dev" || window.serverAdd === "cautious-invention-v6q79rq9xr57hwqww-30002.app.github.dev") {
         _0x58bf50("Boss Rush", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("Destroy all the bosses till wave 150 to win", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
-      } else if (window.serverAdd === "super-duper-eureka-jjpxw7g7rpj2q4q9-30000.app.github.dev" || window.serverAdd === "fictional-garbanzo-g47wj7479wv73v659-30000.app.github.dev" || window.serverAdd === "glorious-pancake-wrgj54rr9ggqh54wq-30000.app.github.dev") {
+      } else if (window.serverAdd === "super-duper-eureka-jjpxw7g7rpj2q4q9-30000.app.github.dev" || window.serverAdd === "fictional-garbanzo-g47wj7479wv73v659-30000.app.github.dev" || window.serverAdd === "cautious-invention-v6q79rq9xr57hwqww-30000.app.github.dev") {
         _0x58bf50("Domination", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("Destroy all dominators to win!", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
-      } else if (window.serverAdd === "super-duper-eureka-jjpxw7g7rpj2q4q9-30003.app.github.dev" || window.serverAdd === "fictional-garbanzo-g47wj7479wv73v659-30003.app.github.dev" || window.serverAdd === "glorious-pancake-wrgj54rr9ggqh54wq-30003.app.github.dev") {
+      } else if (window.serverAdd === "super-duper-eureka-jjpxw7g7rpj2q4q9-30003.app.github.dev" || window.serverAdd === "fictional-garbanzo-g47wj7479wv73v659-30003.app.github.dev" || window.serverAdd === "cautious-invention-v6q79rq9xr57hwqww-30003.app.github.dev") {
         _0x58bf50("Mothership", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("Kill your opponent's mothership to win!", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
-      } else if (window.serverAdd === "super-duper-eureka-jjpxw7g7rpj2q4q9-30008.app.github.dev" || window.serverAdd === "fictional-garbanzo-g47wj7479wv73v659-30008.app.github.dev" || window.serverAdd === "glorious-pancake-wrgj54rr9ggqh54wq-30008.app.github.dev") {
+      } else if (window.serverAdd === "super-duper-eureka-jjpxw7g7rpj2q4q9-30008.app.github.dev" || window.serverAdd === "fictional-garbanzo-g47wj7479wv73v659-30008.app.github.dev" || window.serverAdd === "cautious-invention-v6q79rq9xr57hwqww-30008.app.github.dev") {
         _0x58bf50("Kill Race", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("Escape from the dangerous killer without being killed!", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
-      } else if (window.serverAdd === "super-duper-eureka-jjpxw7g7rpj2q4q9-30009.app.github.dev" || window.serverAdd === "fictional-garbanzo-g47wj7479wv73v659-30009.app.github.dev" || window.serverAdd === "glorious-pancake-wrgj54rr9ggqh54wq-30009.app.github.dev") {
+      } else if (window.serverAdd === "super-duper-eureka-jjpxw7g7rpj2q4q9-30009.app.github.dev" || window.serverAdd === "fictional-garbanzo-g47wj7479wv73v659-30009.app.github.dev" || window.serverAdd === "cautious-invention-v6q79rq9xr57hwqww-30009.app.github.dev") {
         _0x58bf50("Core", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("Stay in the center of the map to win!", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
       } else if (window.serverAdd === "automatic-space-rotary-phone-57444pjr7vq3vx57-3007.app.github.dev") {
         _0x58bf50("Closed Beta", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("A private server with developer powers.", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
-      } else if (window.serverAdd === "super-duper-eureka-jjpxw7g7rpj2q4q9-30005.app.github.dev" || window.serverAdd === "fictional-garbanzo-g47wj7479wv73v659-30005.app.github.dev" || window.serverAdd === "glorious-pancake-wrgj54rr9ggqh54wq-30005.app.github.dev") {
+      } else if (window.serverAdd === "super-duper-eureka-jjpxw7g7rpj2q4q9-30005.app.github.dev" || window.serverAdd === "fictional-garbanzo-g47wj7479wv73v659-30005.app.github.dev" || window.serverAdd === "cautious-invention-v6q79rq9xr57hwqww-30005.app.github.dev") {
         _0x58bf50("FFA", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("Fight each other and gain highest score!", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
-      } else if (window.serverAdd === "super-duper-eureka-jjpxw7g7rpj2q4q9-30010.app.github.dev" || window.serverAdd === "fictional-garbanzo-g47wj7479wv73v659-30010.app.github.dev" || window.serverAdd === "glorious-pancake-wrgj54rr9ggqh54wq-30010.app.github.dev") {
+      } else if (window.serverAdd === "super-duper-eureka-jjpxw7g7rpj2q4q9-30010.app.github.dev" || window.serverAdd === "fictional-garbanzo-g47wj7479wv73v659-30010.app.github.dev" || window.serverAdd === "cautious-invention-v6q79rq9xr57hwqww-30010.app.github.dev") {
         _0x58bf50("Growth", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("Attack tanks and shapes to grow up your body and make you even more powerful!", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
-      } else if (window.serverAdd === "super-duper-eureka-jjpxw7g7rpj2q4q9-30011.app.github.dev" || window.serverAdd === "fictional-garbanzo-g47wj7479wv73v659-30011.app.github.dev" || window.serverAdd === "glorious-pancake-wrgj54rr9ggqh54wq-30011.app.github.dev") {
+      } else if (window.serverAdd === "super-duper-eureka-jjpxw7g7rpj2q4q9-30011.app.github.dev" || window.serverAdd === "fictional-garbanzo-g47wj7479wv73v659-30011.app.github.dev" || window.serverAdd === "cautious-invention-v6q79rq9xr57hwqww-30011.app.github.dev") {
         _0x58bf50("Hide and Seek", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("Hide yourselves from seekers for 3 minutes to win!", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
-      } else if (window.serverAdd === "super-duper-eureka-jjpxw7g7rpj2q4q9-30012.app.github.dev" || window.serverAdd === "fictional-garbanzo-g47wj7479wv73v659-30012.app.github.dev" || window.serverAdd === "glorious-pancake-wrgj54rr9ggqh54wq-30012.app.github.dev") {
+      } else if (window.serverAdd === "super-duper-eureka-jjpxw7g7rpj2q4q9-30012.app.github.dev" || window.serverAdd === "fictional-garbanzo-g47wj7479wv73v659-30012.app.github.dev" || window.serverAdd === "cautious-invention-v6q79rq9xr57hwqww-30012.app.github.dev") {
         _0x58bf50("Train Wars", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("Fight against other tanks with your train!", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
-      } else if (window.serverAdd === "super-duper-eureka-jjpxw7g7rpj2q4q9-30013.app.github.dev" || window.serverAdd === "fictional-garbanzo-g47wj7479wv73v659-30013.app.github.dev" || window.serverAdd === "glorious-pancake-wrgj54rr9ggqh54wq-30013.app.github.dev") {
+      } else if (window.serverAdd === "super-duper-eureka-jjpxw7g7rpj2q4q9-30013.app.github.dev" || window.serverAdd === "fictional-garbanzo-g47wj7479wv73v659-30013.app.github.dev" || window.serverAdd === "cautious-invention-v6q79rq9xr57hwqww-30013.app.github.dev") {
         _0x58bf50("Nexus", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("Just a gamemode where you can chill out and chat. Press ENTER to chat!", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
-      } else if (window.serverAdd === "super-duper-eureka-jjpxw7g7rpj2q4q9-30014.app.github.dev" || window.serverAdd === "fictional-garbanzo-g47wj7479wv73v659-30014.app.github.dev" || window.serverAdd === "glorious-pancake-wrgj54rr9ggqh54wq-30014.app.github.dev") {
+      } else if (window.serverAdd === "super-duper-eureka-jjpxw7g7rpj2q4q9-30014.app.github.dev" || window.serverAdd === "fictional-garbanzo-g47wj7479wv73v659-30014.app.github.dev" || window.serverAdd === "cautious-invention-v6q79rq9xr57hwqww-30014.app.github.dev") {
         _0x58bf50("Manhunt", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("Be the first in the scoreboard to be more powerful!", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
-      } else if (window.serverAdd === "super-duper-eureka-jjpxw7g7rpj2q4q9-30001.app.github.dev" || window.serverAdd === "fictional-garbanzo-g47wj7479wv73v659-30001.app.github.dev" || window.serverAdd === "glorious-pancake-wrgj54rr9ggqh54wq-30001.app.github.dev") {
+      } else if (window.serverAdd === "super-duper-eureka-jjpxw7g7rpj2q4q9-30001.app.github.dev" || window.serverAdd === "fictional-garbanzo-g47wj7479wv73v659-30001.app.github.dev" || window.serverAdd === "cautious-invention-v6q79rq9xr57hwqww-30001.app.github.dev") {
         _0x58bf50("2TDM", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("Fight with your teammates against your opponent's team!", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
-      } else if (window.serverAdd === "super-duper-eureka-jjpxw7g7rpj2q4q9-30007.app.github.dev" || window.serverAdd === "fictional-garbanzo-g47wj7479wv73v659-30007.app.github.dev" || window.serverAdd === "glorious-pancake-wrgj54rr9ggqh54wq-30007.app.github.dev") {
+      } else if (window.serverAdd === "super-duper-eureka-jjpxw7g7rpj2q4q9-30007.app.github.dev" || window.serverAdd === "fictional-garbanzo-g47wj7479wv73v659-30007.app.github.dev" || window.serverAdd === "cautious-invention-v6q79rq9xr57hwqww-30007.app.github.dev") {
         _0x58bf50("4TDM", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("Attack with your teammates 3 other teams!", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
-      } else if (window.serverAdd === "super-duper-eureka-jjpxw7g7rpj2q4q9-30006.app.github.dev" || window.serverAdd === "fictional-garbanzo-g47wj7479wv73v659-30006.app.github.dev" || window.serverAdd === "glorious-pancake-wrgj54rr9ggqh54wq-30006.app.github.dev") {
+      } else if (window.serverAdd === "super-duper-eureka-jjpxw7g7rpj2q4q9-30006.app.github.dev" || window.serverAdd === "fictional-garbanzo-g47wj7479wv73v659-30006.app.github.dev" || window.serverAdd === "cautious-invention-v6q79rq9xr57hwqww-30006.app.github.dev") {
         _0x58bf50("Maze", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("Attack everyone in a labyrinth.", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
       }
