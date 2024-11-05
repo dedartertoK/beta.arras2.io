@@ -151,7 +151,7 @@ import * as _0x12fff9 from "./lib/socketInit.js";
   _0x5bae59.diedseekbruh = false;
   _0x5bae59.connectingmsg = "Loading Mockups...";
   _0x5bae59.daconnectingmsg = "Connecting";
-  _0x5bae59.tips = ["Tip: For better performance and a smoother experience, enable better FPS on the view options!", "Tip: You can press T to see the class tree", "Want to access to the closed beta server? Contact the developer!", "Any cheating scripts such as multibox will result in a ban.", "Tip: You can press X to spinlock your tank to aim better!", "If you don't want to miss the events coming, join the official arras2.io discord server!", "Tip: You can press ENTER to chat with people!", "Want to play other gamemodes? Click on the Switch Gamemode button!"][Math.floor(Math.random() * 8)];
+  _0x5bae59.tips = ["Tip: For better performance and a smoother experience, enable better FPS on settings!", "Tip: You can press T to see the class tree", "Want to access to the closed beta server? Contact the developer!", "Any cheating scripts such as multibox will result in a ban.", "Tip: You can press X to spinlock your tank to aim better!", "If you don't want to miss the events coming, join the official arras2.io discord server!", "Tip: You can press ENTER to chat with people!", "Lagging? Choose the closest region to get the smoothest experience!"][Math.floor(Math.random() * 8)];
   if (_0x5bae59.mobile) {
     document.body.classList.add("mobile");
   }
@@ -159,13 +159,13 @@ import * as _0x12fff9 from "./lib/socketInit.js";
   var _0x4783b2 = "Connected";
   var _0x36b501 = "Unknown";
   const _0x18d63e = {
-    dday: "https://wretched-tomb-xg9949xg6jj39vgg-30004.app.github.dev/lib/json/gamemodeData.json",
-    hide: "https://wretched-tomb-xg9949xg6jj39vgg-30011.app.github.dev/lib/json/gamemodeData.json",
-    train: "https://wretched-tomb-xg9949xg6jj39vgg-30012.app.github.dev/lib/json/gamemodeData.json",
-    nexus: "https://wretched-tomb-xg9949xg6jj39vgg-30013.app.github.dev/lib/json/gamemodeData.json",
-    manhunt: "https://wretched-tomb-xg9949xg6jj39vgg-30014.app.github.dev/lib/json/gamemodeData.json",
-    growth: "https://wretched-tomb-xg9949xg6jj39vgg-30010.app.github.dev/lib/json/gamemodeData.json",
-    bossrush: "https://wretched-tomb-xg9949xg6jj39vgg-30002.app.github.dev/lib/json/gamemodeData.json",
+    dday: "https://super-duper-eureka-jjpxw7g7rpj2q4q9-30004.app.github.dev/lib/json/gamemodeData.json",
+    hide: "https://super-duper-eureka-jjpxw7g7rpj2q4q9-30011.app.github.dev/lib/json/gamemodeData.json",
+    train: "https://super-duper-eureka-jjpxw7g7rpj2q4q9-30012.app.github.dev/lib/json/gamemodeData.json",
+    nexus: "https://super-duper-eureka-jjpxw7g7rpj2q4q9-30013.app.github.dev/lib/json/gamemodeData.json",
+    manhunt: "https://super-duper-eureka-jjpxw7g7rpj2q4q9-30014.app.github.dev/lib/json/gamemodeData.json",
+    growth: "https://super-duper-eureka-jjpxw7g7rpj2q4q9-30010.app.github.dev/lib/json/gamemodeData.json",
+    bossrush: "https://super-duper-eureka-jjpxw7g7rpj2q4q9-30002.app.github.dev/lib/json/gamemodeData.json",
     ddayusa: "https://scaling-goggles-g47ww5996qg9hww6w-30004.app.github.dev/lib/json/gamemodeData.json",
     trainusa: "https://scaling-goggles-g47ww5996qg9hww6w-30012.app.github.dev/lib/json/gamemodeData.json",
     nexususa: "https://scaling-goggles-g47ww5996qg9hww6w-30013.app.github.dev/lib/json/gamemodeData.json",
@@ -196,14 +196,14 @@ import * as _0x12fff9 from "./lib/socketInit.js";
     twotdmasia: "https://glorious-pancake-wrgj54rr9ggqh54wq-30001.app.github.dev/lib/json/gamemodeData.json",
     mazeasia: "https://glorious-pancake-wrgj54rr9ggqh54wq-30006.app.github.dev/lib/json/gamemodeData.json",
     fourtdmasia: "https://glorious-pancake-wrgj54rr9ggqh54wq-30007.app.github.dev/lib/json/gamemodeData.json",
-    domination: "https://wretched-tomb-xg9949xg6jj39vgg-30000.app.github.dev/lib/json/gamemodeData.json",
-    mothership: "https://wretched-tomb-xg9949xg6jj39vgg-30003.app.github.dev/lib/json/gamemodeData.json",
-    killrace: "https://wretched-tomb-xg9949xg6jj39vgg-30008.app.github.dev/lib/json/gamemodeData.json",
-    core: "https://wretched-tomb-xg9949xg6jj39vgg-30009.app.github.dev/lib/json/gamemodeData.json",
-    ffa: "https://wretched-tomb-xg9949xg6jj39vgg-30005.app.github.dev/lib/json/gamemodeData.json",
-    twotdm: "https://wretched-tomb-xg9949xg6jj39vgg-30001.app.github.dev/lib/json/gamemodeData.json",
-    maze: "https://wretched-tomb-xg9949xg6jj39vgg-30006.app.github.dev/lib/json/gamemodeData.json",
-    fourtdm: "https://wretched-tomb-xg9949xg6jj39vgg-30007.app.github.dev/lib/json/gamemodeData.json"
+    domination: "https://super-duper-eureka-jjpxw7g7rpj2q4q9-30000.app.github.dev/lib/json/gamemodeData.json",
+    mothership: "https://super-duper-eureka-jjpxw7g7rpj2q4q9-30003.app.github.dev/lib/json/gamemodeData.json",
+    killrace: "https://super-duper-eureka-jjpxw7g7rpj2q4q9-30008.app.github.dev/lib/json/gamemodeData.json",
+    core: "https://super-duper-eureka-jjpxw7g7rpj2q4q9-30009.app.github.dev/lib/json/gamemodeData.json",
+    ffa: "https://super-duper-eureka-jjpxw7g7rpj2q4q9-30005.app.github.dev/lib/json/gamemodeData.json",
+    twotdm: "https://super-duper-eureka-jjpxw7g7rpj2q4q9-30001.app.github.dev/lib/json/gamemodeData.json",
+    maze: "https://super-duper-eureka-jjpxw7g7rpj2q4q9-30006.app.github.dev/lib/json/gamemodeData.json",
+    fourtdm: "https://super-duper-eureka-jjpxw7g7rpj2q4q9-30007.app.github.dev/lib/json/gamemodeData.json"
   };
   let _0x4acbef = {
     dday: 0,
@@ -809,21 +809,21 @@ import * as _0x12fff9 from "./lib/socketInit.js";
       _0x379d44 = false;
       _0x5a0096 = false;
       if (_0x5b8ce5 === "greenreal") {
-        _0x4e5fec(".red-button", "wretched-tomb-xg9949xg6jj39vgg-30004.app.github.dev");
-        _0x4e5fec(".yellow-button", "wretched-tomb-xg9949xg6jj39vgg-30002.app.github.dev");
-        _0x4e5fec(".blue-button", "wretched-tomb-xg9949xg6jj39vgg-30000.app.github.dev");
-        _0x4e5fec(".green-button", "wretched-tomb-xg9949xg6jj39vgg-30003.app.github.dev");
-        _0x4e5fec(".brown-button", "wretched-tomb-xg9949xg6jj39vgg-30008.app.github.dev");
-        _0x4e5fec(".pink-button", "wretched-tomb-xg9949xg6jj39vgg-30009.app.github.dev");
-        _0x4e5fec(".new-ffa-button", "wretched-tomb-xg9949xg6jj39vgg-30005.app.github.dev");
-        _0x4e5fec(".new-2tdm-button", "wretched-tomb-xg9949xg6jj39vgg-30001.app.github.dev");
-        _0x4e5fec(".new-maze-button", "wretched-tomb-xg9949xg6jj39vgg-30006.app.github.dev");
-        _0x4e5fec(".new-4tdm-button", "wretched-tomb-xg9949xg6jj39vgg-30007.app.github.dev");
-        _0x4e5fec(".new-growth-button", "wretched-tomb-xg9949xg6jj39vgg-30010.app.github.dev");
-        _0x4e5fec(".new-hide-button", "wretched-tomb-xg9949xg6jj39vgg-30011.app.github.dev");
-        _0x4e5fec(".new-train-button", "wretched-tomb-xg9949xg6jj39vgg-30012.app.github.dev");
-        _0x4e5fec(".new-nexus-button", "wretched-tomb-xg9949xg6jj39vgg-30013.app.github.dev");
-        _0x4e5fec(".new-manhunt-button", "wretched-tomb-xg9949xg6jj39vgg-30014.app.github.dev");
+        _0x4e5fec(".red-button", "super-duper-eureka-jjpxw7g7rpj2q4q9-30004.app.github.dev");
+        _0x4e5fec(".yellow-button", "super-duper-eureka-jjpxw7g7rpj2q4q9-30002.app.github.dev");
+        _0x4e5fec(".blue-button", "super-duper-eureka-jjpxw7g7rpj2q4q9-30000.app.github.dev");
+        _0x4e5fec(".green-button", "super-duper-eureka-jjpxw7g7rpj2q4q9-30003.app.github.dev");
+        _0x4e5fec(".brown-button", "super-duper-eureka-jjpxw7g7rpj2q4q9-30008.app.github.dev");
+        _0x4e5fec(".pink-button", "super-duper-eureka-jjpxw7g7rpj2q4q9-30009.app.github.dev");
+        _0x4e5fec(".new-ffa-button", "super-duper-eureka-jjpxw7g7rpj2q4q9-30005.app.github.dev");
+        _0x4e5fec(".new-2tdm-button", "super-duper-eureka-jjpxw7g7rpj2q4q9-30001.app.github.dev");
+        _0x4e5fec(".new-maze-button", "super-duper-eureka-jjpxw7g7rpj2q4q9-30006.app.github.dev");
+        _0x4e5fec(".new-4tdm-button", "super-duper-eureka-jjpxw7g7rpj2q4q9-30007.app.github.dev");
+        _0x4e5fec(".new-growth-button", "super-duper-eureka-jjpxw7g7rpj2q4q9-30010.app.github.dev");
+        _0x4e5fec(".new-hide-button", "super-duper-eureka-jjpxw7g7rpj2q4q9-30011.app.github.dev");
+        _0x4e5fec(".new-train-button", "super-duper-eureka-jjpxw7g7rpj2q4q9-30012.app.github.dev");
+        _0x4e5fec(".new-nexus-button", "super-duper-eureka-jjpxw7g7rpj2q4q9-30013.app.github.dev");
+        _0x4e5fec(".new-manhunt-button", "super-duper-eureka-jjpxw7g7rpj2q4q9-30014.app.github.dev");
       } else if (_0x5b8ce5 === "usareal") {
         _0x379d44 = true;
         _0x4e5fec(".red-button", "scaling-goggles-g47ww5996qg9hww6w-30004.app.github.dev");
@@ -3821,52 +3821,52 @@ import * as _0x12fff9 from "./lib/socketInit.js";
       }
       _0x36be89.save();
       _0x36be89.globalAlpha = _0x5bae59.introTextAlpha;
-      if (window.serverAdd === "wretched-tomb-xg9949xg6jj39vgg-30004.app.github.dev" || window.serverAdd === "scaling-goggles-g47ww5996qg9hww6w-30004.app.github.dev" || window.serverAdd === "glorious-pancake-wrgj54rr9ggqh54wq-30004.app.github.dev") {
+      if (window.serverAdd === "super-duper-eureka-jjpxw7g7rpj2q4q9-30004.app.github.dev" || window.serverAdd === "scaling-goggles-g47ww5996qg9hww6w-30004.app.github.dev" || window.serverAdd === "glorious-pancake-wrgj54rr9ggqh54wq-30004.app.github.dev") {
         _0x58bf50("D-Day", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("For blue team, destroy red dominators. For red team, protect your dominators and destroy blue dominators.", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
-      } else if (window.serverAdd === "wretched-tomb-xg9949xg6jj39vgg-30002.app.github.dev" || window.serverAdd === "scaling-goggles-g47ww5996qg9hww6w-30002.app.github.dev" || window.serverAdd === "glorious-pancake-wrgj54rr9ggqh54wq-30002.app.github.dev") {
+      } else if (window.serverAdd === "super-duper-eureka-jjpxw7g7rpj2q4q9-30002.app.github.dev" || window.serverAdd === "scaling-goggles-g47ww5996qg9hww6w-30002.app.github.dev" || window.serverAdd === "glorious-pancake-wrgj54rr9ggqh54wq-30002.app.github.dev") {
         _0x58bf50("Boss Rush", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("Destroy all the bosses till wave 150 to win", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
-      } else if (window.serverAdd === "wretched-tomb-xg9949xg6jj39vgg-30000.app.github.dev" || window.serverAdd === "scaling-goggles-g47ww5996qg9hww6w-30000.app.github.dev" || window.serverAdd === "glorious-pancake-wrgj54rr9ggqh54wq-30000.app.github.dev") {
+      } else if (window.serverAdd === "super-duper-eureka-jjpxw7g7rpj2q4q9-30000.app.github.dev" || window.serverAdd === "scaling-goggles-g47ww5996qg9hww6w-30000.app.github.dev" || window.serverAdd === "glorious-pancake-wrgj54rr9ggqh54wq-30000.app.github.dev") {
         _0x58bf50("Domination", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("Destroy all dominators to win!", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
-      } else if (window.serverAdd === "wretched-tomb-xg9949xg6jj39vgg-30003.app.github.dev" || window.serverAdd === "scaling-goggles-g47ww5996qg9hww6w-30003.app.github.dev" || window.serverAdd === "glorious-pancake-wrgj54rr9ggqh54wq-30003.app.github.dev") {
+      } else if (window.serverAdd === "super-duper-eureka-jjpxw7g7rpj2q4q9-30003.app.github.dev" || window.serverAdd === "scaling-goggles-g47ww5996qg9hww6w-30003.app.github.dev" || window.serverAdd === "glorious-pancake-wrgj54rr9ggqh54wq-30003.app.github.dev") {
         _0x58bf50("Mothership", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("Kill your opponent's mothership to win!", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
-      } else if (window.serverAdd === "wretched-tomb-xg9949xg6jj39vgg-30008.app.github.dev" || window.serverAdd === "scaling-goggles-g47ww5996qg9hww6w-30008.app.github.dev" || window.serverAdd === "glorious-pancake-wrgj54rr9ggqh54wq-30008.app.github.dev") {
+      } else if (window.serverAdd === "super-duper-eureka-jjpxw7g7rpj2q4q9-30008.app.github.dev" || window.serverAdd === "scaling-goggles-g47ww5996qg9hww6w-30008.app.github.dev" || window.serverAdd === "glorious-pancake-wrgj54rr9ggqh54wq-30008.app.github.dev") {
         _0x58bf50("Kill Race", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("Escape from the dangerous killer without being killed!", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
-      } else if (window.serverAdd === "wretched-tomb-xg9949xg6jj39vgg-30009.app.github.dev" || window.serverAdd === "scaling-goggles-g47ww5996qg9hww6w-30009.app.github.dev" || window.serverAdd === "glorious-pancake-wrgj54rr9ggqh54wq-30009.app.github.dev") {
+      } else if (window.serverAdd === "super-duper-eureka-jjpxw7g7rpj2q4q9-30009.app.github.dev" || window.serverAdd === "scaling-goggles-g47ww5996qg9hww6w-30009.app.github.dev" || window.serverAdd === "glorious-pancake-wrgj54rr9ggqh54wq-30009.app.github.dev") {
         _0x58bf50("Core", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("Stay in the center of the map to win!", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
       } else if (window.serverAdd === "automatic-space-rotary-phone-57444pjr7vq3vx57-3007.app.github.dev") {
         _0x58bf50("Closed Beta", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("A private server with developer powers.", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
-      } else if (window.serverAdd === "wretched-tomb-xg9949xg6jj39vgg-30005.app.github.dev" || window.serverAdd === "scaling-goggles-g47ww5996qg9hww6w-30005.app.github.dev" || window.serverAdd === "glorious-pancake-wrgj54rr9ggqh54wq-30005.app.github.dev") {
+      } else if (window.serverAdd === "super-duper-eureka-jjpxw7g7rpj2q4q9-30005.app.github.dev" || window.serverAdd === "scaling-goggles-g47ww5996qg9hww6w-30005.app.github.dev" || window.serverAdd === "glorious-pancake-wrgj54rr9ggqh54wq-30005.app.github.dev") {
         _0x58bf50("FFA", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("Fight each other and gain highest score!", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
-      } else if (window.serverAdd === "wretched-tomb-xg9949xg6jj39vgg-30010.app.github.dev" || window.serverAdd === "scaling-goggles-g47ww5996qg9hww6w-30010.app.github.dev" || window.serverAdd === "glorious-pancake-wrgj54rr9ggqh54wq-30010.app.github.dev") {
+      } else if (window.serverAdd === "super-duper-eureka-jjpxw7g7rpj2q4q9-30010.app.github.dev" || window.serverAdd === "scaling-goggles-g47ww5996qg9hww6w-30010.app.github.dev" || window.serverAdd === "glorious-pancake-wrgj54rr9ggqh54wq-30010.app.github.dev") {
         _0x58bf50("Growth", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("Attack tanks and shapes to grow up your body and make you even more powerful!", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
-      } else if (window.serverAdd === "wretched-tomb-xg9949xg6jj39vgg-30011.app.github.dev" || window.serverAdd === "scaling-goggles-g47ww5996qg9hww6w-30011.app.github.dev" || window.serverAdd === "glorious-pancake-wrgj54rr9ggqh54wq-30011.app.github.dev") {
+      } else if (window.serverAdd === "super-duper-eureka-jjpxw7g7rpj2q4q9-30011.app.github.dev" || window.serverAdd === "scaling-goggles-g47ww5996qg9hww6w-30011.app.github.dev" || window.serverAdd === "glorious-pancake-wrgj54rr9ggqh54wq-30011.app.github.dev") {
         _0x58bf50("Hide and Seek", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("Hide yourselves from seekers for 3 minutes to win!", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
-      } else if (window.serverAdd === "wretched-tomb-xg9949xg6jj39vgg-30012.app.github.dev" || window.serverAdd === "scaling-goggles-g47ww5996qg9hww6w-30012.app.github.dev" || window.serverAdd === "glorious-pancake-wrgj54rr9ggqh54wq-30012.app.github.dev") {
+      } else if (window.serverAdd === "super-duper-eureka-jjpxw7g7rpj2q4q9-30012.app.github.dev" || window.serverAdd === "scaling-goggles-g47ww5996qg9hww6w-30012.app.github.dev" || window.serverAdd === "glorious-pancake-wrgj54rr9ggqh54wq-30012.app.github.dev") {
         _0x58bf50("Train Wars", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("Fight against other tanks with your train!", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
-      } else if (window.serverAdd === "wretched-tomb-xg9949xg6jj39vgg-30013.app.github.dev" || window.serverAdd === "scaling-goggles-g47ww5996qg9hww6w-30013.app.github.dev" || window.serverAdd === "glorious-pancake-wrgj54rr9ggqh54wq-30013.app.github.dev") {
+      } else if (window.serverAdd === "super-duper-eureka-jjpxw7g7rpj2q4q9-30013.app.github.dev" || window.serverAdd === "scaling-goggles-g47ww5996qg9hww6w-30013.app.github.dev" || window.serverAdd === "glorious-pancake-wrgj54rr9ggqh54wq-30013.app.github.dev") {
         _0x58bf50("Nexus", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("Just a gamemode where you can chill out and chat. Press ENTER to chat!", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
-      } else if (window.serverAdd === "wretched-tomb-xg9949xg6jj39vgg-30014.app.github.dev" || window.serverAdd === "scaling-goggles-g47ww5996qg9hww6w-30014.app.github.dev" || window.serverAdd === "glorious-pancake-wrgj54rr9ggqh54wq-30014.app.github.dev") {
+      } else if (window.serverAdd === "super-duper-eureka-jjpxw7g7rpj2q4q9-30014.app.github.dev" || window.serverAdd === "scaling-goggles-g47ww5996qg9hww6w-30014.app.github.dev" || window.serverAdd === "glorious-pancake-wrgj54rr9ggqh54wq-30014.app.github.dev") {
         _0x58bf50("Manhunt", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("Be the first in the scoreboard to be more powerful!", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
-      } else if (window.serverAdd === "wretched-tomb-xg9949xg6jj39vgg-30001.app.github.dev" || window.serverAdd === "scaling-goggles-g47ww5996qg9hww6w-30001.app.github.dev" || window.serverAdd === "glorious-pancake-wrgj54rr9ggqh54wq-30001.app.github.dev") {
+      } else if (window.serverAdd === "super-duper-eureka-jjpxw7g7rpj2q4q9-30001.app.github.dev" || window.serverAdd === "scaling-goggles-g47ww5996qg9hww6w-30001.app.github.dev" || window.serverAdd === "glorious-pancake-wrgj54rr9ggqh54wq-30001.app.github.dev") {
         _0x58bf50("2TDM", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("Fight with your teammates against your opponent's team!", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
-      } else if (window.serverAdd === "wretched-tomb-xg9949xg6jj39vgg-30007.app.github.dev" || window.serverAdd === "scaling-goggles-g47ww5996qg9hww6w-30007.app.github.dev" || window.serverAdd === "glorious-pancake-wrgj54rr9ggqh54wq-30007.app.github.dev") {
+      } else if (window.serverAdd === "super-duper-eureka-jjpxw7g7rpj2q4q9-30007.app.github.dev" || window.serverAdd === "scaling-goggles-g47ww5996qg9hww6w-30007.app.github.dev" || window.serverAdd === "glorious-pancake-wrgj54rr9ggqh54wq-30007.app.github.dev") {
         _0x58bf50("4TDM", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("Attack with your teammates 3 other teams!", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
-      } else if (window.serverAdd === "wretched-tomb-xg9949xg6jj39vgg-30006.app.github.dev" || window.serverAdd === "scaling-goggles-g47ww5996qg9hww6w-30006.app.github.dev" || window.serverAdd === "glorious-pancake-wrgj54rr9ggqh54wq-30006.app.github.dev") {
+      } else if (window.serverAdd === "super-duper-eureka-jjpxw7g7rpj2q4q9-30006.app.github.dev" || window.serverAdd === "scaling-goggles-g47ww5996qg9hww6w-30006.app.github.dev" || window.serverAdd === "glorious-pancake-wrgj54rr9ggqh54wq-30006.app.github.dev") {
         _0x58bf50("Maze", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("Attack everyone in a labyrinth.", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
       }
