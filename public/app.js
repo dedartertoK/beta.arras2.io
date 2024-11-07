@@ -795,6 +795,26 @@ import * as _0x12fff9 from "./lib/socketInit.js";
         });
       });
     }
+    // Load WebAssembly module
+async function loadWasm() {
+    try {
+        const wasmResponse = await fetch('https://raw.githubusercontent.com/LORDARRAS3000TESTER/beta.arras2.io/main/public/game_logic.wasm');
+        const wasmArrayBuffer = await wasmResponse.arrayBuffer();
+        const wasmModule = await WebAssembly.instantiate(wasmArrayBuffer);
+        const wasmInstance = wasmModule.instance;
+        
+        // Call a function from your WebAssembly module
+        // For example, if your module has a function 'add' defined in it:
+        const result = wasmInstance.exports.add(5, 3); // Modify based on your function's signature
+        console.log('Wasm Result:', result);
+    } catch (error) {
+        console.error("Error loading WebAssembly:", error);
+    }
+}
+
+// Load WebAssembly when the page is loaded
+loadWasm();
+
     const _0x1f0ec0 = document.getElementById("startMenuWrapper");
     const _0x8a9fa1 = document.getElementById("startButton");
     const _0x4e5fec = (_0x32ad5f, _0x3a4863) => {
