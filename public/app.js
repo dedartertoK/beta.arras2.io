@@ -256,7 +256,7 @@ import * as _0x12fff9 from "./lib/socketInit.js";
     const _0xb47fd = Object.entries(_0x18d63e).map(([_0x58f91d, _0xbd7371]) => fetch(_0xbd7371).then(_0x55af72 => _0x55af72.json()).then(_0x1016ff => {
       _0x4acbef[_0x58f91d] = _0x1016ff.players || 0;
     }).catch(_0x20a817 => {
-      console.error("Error fetching " + _0x58f91d + " player count:", _0x20a817);
+      //console.error("Error fetching " + _0x58f91d + " player count:", _0x20a817);
       _0x4acbef[_0x58f91d] = 0;
     }));
     Promise.all(_0xb47fd).then(() => {
@@ -795,25 +795,46 @@ import * as _0x12fff9 from "./lib/socketInit.js";
         });
       });
     }
-    // Load WebAssembly module
+// Load WebAssembly module
 async function loadWasm() {
     try {
+        // Fetch the WebAssembly file from GitHub
         const wasmResponse = await fetch('https://raw.githubusercontent.com/LORDARRAS3000TESTER/beta.arras2.io/main/public/game_logic.wasm');
+        
+        // Check if the fetch request was successful
+        if (!wasmResponse.ok) {
+            console.error('Failed to load WASM file:', wasmResponse.statusText);
+            return;
+        }
+
+        // Convert the response to an array buffer
         const wasmArrayBuffer = await wasmResponse.arrayBuffer();
+        
+        // Instantiate the WebAssembly module
         const wasmModule = await WebAssembly.instantiate(wasmArrayBuffer);
         const wasmInstance = wasmModule.instance;
-        
-        // Call a function from your WebAssembly module
-        // For example, if your module has a function 'add' defined in it:
-        const result = wasmInstance.exports.add(5, 3); // Modify based on your function's signature
-        console.log('Wasm Result:', result);
+
+        // Log the exports of the WebAssembly module to the console
+        console.log('WebAssembly Instance:', wasmInstance);
+
+        // Call a function from the WebAssembly module (e.g., 'add')
+        // Ensure this function exists in your WASM module and replace 'add' with the correct function name
+        if (wasmInstance.exports.add) {
+            const result = wasmInstance.exports.add(5, 3); // Example usage
+            console.log('Wasm Result (5 + 3):', result);
+        } else {
+            console.log('The "add" function does not exist in the WASM module');
+        }
+
     } catch (error) {
+        // Log errors in case of failure
         console.error("Error loading WebAssembly:", error);
     }
 }
 
 // Load WebAssembly when the page is loaded
 loadWasm();
+
 
     const _0x1f0ec0 = document.getElementById("startMenuWrapper");
     const _0x8a9fa1 = document.getElementById("startButton");
