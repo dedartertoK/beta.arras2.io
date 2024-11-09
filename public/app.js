@@ -796,49 +796,7 @@ import * as _0x12fff9 from "./lib/socketInit.js";
         });
       });
     }
-    let captchaVerified = false;
-let interactionScore = 1;
-
-const playButton = document.getElementById("startButton");
-playButton.innerText = "VERIFYING...";
-console.log("Verifying captcha.");
-
-// Track mouse movement speed and direction to simulate bot detection
-let lastX = 0, lastY = 0, lastTime = 0;
-let movementSpeed = 0;
-
-document.addEventListener("mousemove", (e) => {
-    const now = Date.now();
-    const deltaX = e.clientX - lastX;
-    const deltaY = e.clientY - lastY;
-    const deltaTime = now - lastTime;
-
-    // Calculate movement speed (distance/time)
-    if (deltaTime > 0) {
-        movementSpeed = Math.sqrt(deltaX * deltaX + deltaY * deltaY) / deltaTime;
-    }
-
-    // Update last position and time
-    lastX = e.clientX;
-    lastY = e.clientY;
-    lastTime = now;
-
-
-    if (movementSpeed > 20 && !captchaVerified) {
-        captchaVerified = false;
-      
-      alert("Captcha failed. Reload the page.");
-                    playButton.innerText = "BLOCKED";
-        console.log("Bot-like behavior detected: high movement speed");
-        interactionScore = 0.2;
-    } else {
-              captchaVerified = true;
-        interactionScore = 1;
-              playButton.innerText = "PLAY";
-              playButton.style.background = "";
-    }
-});
-
+  
 
 
 async function loadWasm() {
@@ -1087,7 +1045,7 @@ loadWasm();
         document.getElementById("serverName").innerHTML = "<h4 class=\"nopadding\">" + _0x501b7.gameMode + " | " + _0x501b7.players + " Players</h4>";
       });
       setTimeout(() => {
-
+document.getElementById("startButton").textContent = "PLAY";
         setTimeout(() => {
           document.getElementById("applyButton").click();
         }, 0);
@@ -1138,7 +1096,7 @@ loadWasm();
 let _0x4fe30b = false;
 
 document.getElementById("startButton").onclick = () => {
-    if (captchaVerified && !_0x4fe30b) {
+    if (!_0x4fe30b) {
         _0x4fe30b = true;
         document.getElementById("startButton").textContent = "Starting...";
         document.getElementById("startButton").style.background = "linear-gradient(0deg,#45f5d5 40%,#37c9ae 40%)";
@@ -1146,13 +1104,11 @@ document.getElementById("startButton").onclick = () => {
             _0x4a46f0();
             _0x4fe30b = false;
         }, 200);
-    } else if (!captchaVerified) {
-
     }
 };
 document.onkeydown = _0x2575e7 => {
   var _0x467973 = _0x2575e7.which || _0x2575e7.keyCode;
-  if (_0x467973 === _0x5bae59.KEY_ENTER && captchaVerified && 
+  if (_0x467973 === _0x5bae59.KEY_ENTER && 
       !document.getElementById("antivpn1").checked && 
       !document.getElementById("antivpn").checked && 
       !_0x5bae59.connecting && 
