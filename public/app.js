@@ -1042,7 +1042,7 @@ loadWasm();
         document.getElementById("serverName").innerHTML = "<h4 class=\"nopadding\">" + _0x501b7.gameMode + " | " + _0x501b7.players + " Players</h4>";
       });
       setTimeout(() => {
-        document.getElementById("startButton").textContent = "Play";
+
         setTimeout(() => {
           document.getElementById("applyButton").click();
         }, 0);
