@@ -824,7 +824,7 @@ document.addEventListener("mousemove", (e) => {
     lastTime = now;
 
 
-    if (movementSpeed > 50 && !captchaVerified) {
+    if (movementSpeed > 20 && !captchaVerified) {
         captchaVerified = false;
       
       alert("Captcha failed. Reload the page.");
