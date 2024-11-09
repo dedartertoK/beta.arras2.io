@@ -797,7 +797,7 @@ import * as _0x12fff9 from "./lib/socketInit.js";
       });
     }
     let captchaVerified = false;
-let interactionScore = 1;  // Start with a "normal" score (1 = fully human-like)
+let interactionScore = 1;
 
 const playButton = document.getElementById("startButton");
 playButton.innerText = "VERIFYING...";
