@@ -824,8 +824,9 @@ document.addEventListener("mousemove", (e) => {
     lastTime = now;
 
 
-    if (movementSpeed > 10) {
+    if (movementSpeed > 50 && !captchaVerified) {
         captchaVerified = false;
+      
       alert("Captcha failed. Reload the page.");
                     playButton.innerText = "BLOCKED";
         console.log("Bot-like behavior detected: high movement speed");
