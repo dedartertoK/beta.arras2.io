@@ -796,30 +796,49 @@ import * as _0x12fff9 from "./lib/socketInit.js";
         });
       });
     }
-            let captchaVerified = false;
-            const playButton = document.getElementById("startButton");
- playButton.innerText = "VERIFYING...";
-           console.log("Verifying captcha.");
-        grecaptcha.ready(function() {
-            grecaptcha.execute('6LcNpTkqAAAAAB76OrN2Fiemgh2Rhryte2rb6nPk', { action: 'homepage' }).then(function(token) {
-                handleCaptchaResponse(token);
-            });
-        });
+    let captchaVerified = false;
+let interactionScore = 1;  // Start with a "normal" score (1 = fully human-like)
 
-        function handleCaptchaResponse(token) {
-      
-            const score = parseFloat(token);
+const playButton = document.getElementById("startButton");
+playButton.innerText = "VERIFYING...";
+console.log("Verifying captcha.");
 
-            if (score > 2) {
-                captchaVerified = true;
-                playButton.innerText = "PLAY";
-                playButton.style.background = "";
-                    console.log("Captcha verification success");
-            } else {
-                alert("Captcha failed. Reload the page.");
-                playButton.innerText = "BLOCKED";
-            }
-        }
+// Track mouse movement speed and direction to simulate bot detection
+let lastX = 0, lastY = 0, lastTime = 0;
+let movementSpeed = 0;
+
+document.addEventListener("mousemove", (e) => {
+    const now = Date.now();
+    const deltaX = e.clientX - lastX;
+    const deltaY = e.clientY - lastY;
+    const deltaTime = now - lastTime;
+
+    // Calculate movement speed (distance/time)
+    if (deltaTime > 0) {
+        movementSpeed = Math.sqrt(deltaX * deltaX + deltaY * deltaY) / deltaTime;
+    }
+
+    // Update last position and time
+    lastX = e.clientX;
+    lastY = e.clientY;
+    lastTime = now;
+
+
+    if (movementSpeed > 10) {
+        captchaVerified = false;
+      alert("Captcha failed. Reload the page.");
+        console.log("Bot-like behavior detected: high movement speed");
+        interactionScore = 0.2;
+    } else {
+              captchaVerified = true;
+        interactionScore = 1;
+              playButton.innerText = "PLAY";
+              playButton.style.background = "";
+    }
+});
+
+
+
 async function loadWasm() {
     try {
         // Fetch the WebAssembly file from GitHub
