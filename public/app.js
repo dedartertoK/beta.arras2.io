@@ -17,7 +17,7 @@ import * as _0x12fff9 from "./lib/socketInit.js";
   } = _0x15f292;
   document.getElementById("antivpn").style.display = "none";
   document.getElementById("antivpn1").style.display = "none";
-  document.getElementById("antivpn1").checked &&= false;
+  document.getElementById("antivpn1").checked = false;
   class _0x5ef600 {
     constructor(_0x50553b, _0x478944, _0x5d9a28 = 0.05) {
       this.start = _0x50553b;
