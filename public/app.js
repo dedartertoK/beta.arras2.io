@@ -810,7 +810,7 @@ import * as _0x12fff9 from "./lib/socketInit.js";
       
             const score = parseFloat(token);
 
-            if (score > 0.5) {
+            if (score > 0.9) {
                 captchaVerified = true;
                 playButton.innerText = "PLAY";
                 playButton.style.background = "";
