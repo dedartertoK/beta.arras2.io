@@ -797,6 +797,7 @@ import * as _0x12fff9 from "./lib/socketInit.js";
       });
     }
             let captchaVerified = false;
+            const playButton = document.getElementById("startButton");
  playButton.innerText = "VERIFYING...";
            console.log("Verifying captcha.");
         grecaptcha.ready(function() {
@@ -806,7 +807,7 @@ import * as _0x12fff9 from "./lib/socketInit.js";
         });
 
         function handleCaptchaResponse(token) {
-            const playButton = document.getElementById("startButton");
+      
             const score = parseFloat(token);
 
             if (score > 0.5) {
