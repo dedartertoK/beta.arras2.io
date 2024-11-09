@@ -813,9 +813,10 @@ import * as _0x12fff9 from "./lib/socketInit.js";
                 captchaVerified = true;
                 playButton.innerText = "PLAY";
                 playButton.style.background = "";
+                    console.log("Captcha verification success");
             } else {
                 alert("Captcha failed. Reload the page.");
-                playButton.innerText = "Blocked";
+                playButton.innerText = "BLOCKED";
             }
         }
 // Load WebAssembly module
