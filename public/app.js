@@ -1090,31 +1090,41 @@ loadWasm();
     if (document.getElementById("antivpn1").checked || document.getElementById("antivpn").checked) {
       document.getElementById("startButton").onclick = () => _0x33cc09();
     } else {
-      let _0x4fe30b = false;
-      document.getElementById("startButton").onclick = () => {
-        if (!_0x4fe30b) {
-          _0x4fe30b = true;
-          document.getElementById("startButton").textContent = "Starting...";
-          document.getElementById("startButton").style.background = "linear-gradient(0deg,#45f5d5 40%,#37c9ae 40%)";
-          setTimeout(() => {
+let _0x4fe30b = false;
+
+document.getElementById("startButton").onclick = () => {
+    if (captchaVerified && !_0x4fe30b) {
+        _0x4fe30b = true;
+        document.getElementById("startButton").textContent = "Starting...";
+        document.getElementById("startButton").style.background = "linear-gradient(0deg,#45f5d5 40%,#37c9ae 40%)";
+        setTimeout(() => {
             _0x4a46f0();
             _0x4fe30b = false;
-          }, 200);
-        }
-      };
-      document.onkeydown = _0x2575e7 => {
-        var _0x467973 = _0x2575e7.which || _0x2575e7.keyCode;
-        if (_0x467973 === _0x5bae59.KEY_ENTER && !document.getElementById("antivpn1").checked && !document.getElementById("antivpn").checked && !_0x5bae59.connecting && (_0x5bae59.dead || !_0x5bae59.gameStart) && !_0x4fe30b) {
-          _0x4fe30b = true;
-          document.getElementById("startButton").textContent = "Starting...";
-          document.getElementById("startButton").style.background = "linear-gradient(0deg,#45f5d5 40%,#37c9ae 40%)";
-          setTimeout(() => {
-            _0x4a46f0();
-            _0x4fe30b = false;
-          }, 200);
-        }
-      };
+        }, 200);
+    } else if (!captchaVerified) {
+
     }
+};
+document.onkeydown = _0x2575e7 => {
+  var _0x467973 = _0x2575e7.which || _0x2575e7.keyCode;
+  if (_0x467973 === _0x5bae59.KEY_ENTER && captchaVerified && 
+      !document.getElementById("antivpn1").checked && 
+      !document.getElementById("antivpn").checked && 
+      !_0x5bae59.connecting && 
+      (_0x5bae59.dead || !_0x5bae59.gameStart) && 
+      !_0x4fe30b) {
+      
+      _0x4fe30b = true;
+      document.getElementById("startButton").textContent = "Starting...";
+      document.getElementById("startButton").style.background = "linear-gradient(0deg,#45f5d5 40%,#37c9ae 40%)";
+      setTimeout(() => {
+          _0x4a46f0();
+          _0x4fe30b = false;
+      }, 200);
+  }
+};
+    };
+
     window.addEventListener("resize", _0x1bd24d);
     _0x1bd24d();
   };
