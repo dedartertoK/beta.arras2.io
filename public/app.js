@@ -777,6 +777,7 @@ import * as _0x12fff9 from "./lib/socketInit.js";
   var _0x32fde9 = _0x446672();
   var _0x3e2eab = _0x181613();
   window.onload = async () => {
+    
     window.serverAdd = "" || "arras2railway1-production.up.railway.app";
     if (window.serverAdd !== "") {
       _0x5bae59.mockupLoading = new Promise(_0x352dc4 => {
@@ -795,6 +796,28 @@ import * as _0x12fff9 from "./lib/socketInit.js";
         });
       });
     }
+            let captchaVerified = false;
+
+
+        grecaptcha.ready(function() {
+            grecaptcha.execute('6LcNpTkqAAAAAB76OrN2Fiemgh2Rhryte2rb6nPk', { action: 'homepage' }).then(function(token) {
+                handleCaptchaResponse(token);
+            });
+        });
+
+        function handleCaptchaResponse(token) {
+            const playButton = document.getElementById("startButton");
+            const score = parseFloat(token);
+
+            if (score > 0.5) {
+                captchaVerified = true;
+                playButton.innerText = "PLAY";
+                playButton.style.background = "";
+            } else {
+                alert("Captcha failed. Reload the page.");
+                playButton.innerText = "Blocked";
+            }
+        }
 // Load WebAssembly module
 async function loadWasm() {
     try {
