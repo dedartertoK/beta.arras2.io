@@ -797,8 +797,8 @@ import * as _0x12fff9 from "./lib/socketInit.js";
       });
     }
             let captchaVerified = false;
-
-
+ playButton.innerText = "VERIFYING...";
+           console.log("Verifying captcha.");
         grecaptcha.ready(function() {
             grecaptcha.execute('6LcNpTkqAAAAAB76OrN2Fiemgh2Rhryte2rb6nPk', { action: 'homepage' }).then(function(token) {
                 handleCaptchaResponse(token);
@@ -819,7 +819,6 @@ import * as _0x12fff9 from "./lib/socketInit.js";
                 playButton.innerText = "BLOCKED";
             }
         }
-// Load WebAssembly module
 async function loadWasm() {
     try {
         // Fetch the WebAssembly file from GitHub
