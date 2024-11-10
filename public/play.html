@@ -5,18 +5,18 @@
      crossorigin="anonymous"></script>
     <style>
         #gameName .color-changing {
-            color: rgb(0, 255, 64);
-            transition: color 1s;
+            color: rgb(0, 255, 64); /* Initial color (green) */
+            transition: color 1s; /* Transition effect with a duration of 1 second */
         }
 
         #gameName .color-changing:hover {
-            color: grey;
+            color: grey; /* Color on hover (grey) */
         }
 
         .color-transition {
             animation: color-Transition 0.6s infinite alternate; 
-            transition: color 0.6s;
-            opacity: 1;
+            transition: color 0.6s; /* Add transition property for opacity and color change */
+            opacity: 1; /* Initial opacity */
         }
 
         .switchButton {
@@ -76,28 +76,28 @@ margin-left: 700px;
     2px -1px 0 #000,
     -2px -1px 0 #000;
 }
-
+/* Circle styles */
 #circle {
     position: fixed;
     top: 50%;
     left: 50%;
-    width: 0;
-    height: 0;
+    width: 0; /* Start with 0 width */
+    height: 0; /* Start with 0 height */
     background-color: black;
-    border-radius: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 9999;
-    transition: width 1s linear, height 1s linear;
+    border-radius: 50%; /* Make it a circle */
+    transform: translate(-50%, -50%); /* Center it */
+    z-index: 9999; /* Ensure it's on top of other content */
+    transition: width 1s linear, height 1s linear; /* Smooth growth transition */
 }
 
 
 
 @keyframes fadeOut {
     from {
-        opacity: 1;
+        opacity: 1; /* Start fully visible */
     }
     to {
-        opacity: 0;
+        opacity: 0; /* Fade to invisible */
     }
 }
 
@@ -162,18 +162,18 @@ margin-top: 30px;
                 color: rgb(0, 255, 64);
             }
         }
-
-
+    /* Style for the mobile message */
+/* Style for the mobile message */
 #mobileMessage {
     display: none;
-    position: fixed;
+    position: fixed; /* Full viewport coverage */
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
     background-color: black;
     color: red;
-    z-index: 9999;
+    z-index: 9999; /* Ensure it appears on top of other content */
     text-align: center;
 }
 @keyframes fade-up-no-up {
@@ -187,33 +187,33 @@ margin-top: 30px;
   }
 }
 .modal {
-  display: none;
-  position: fixed;
-  z-index: 10000;
-  top: 25%;
-  left: 50%;
-  width: 1000vw;
-  height: 1000vh;
-  transform: translate(-50%, -50%);
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.4);
-  padding: 0;
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed relative to the viewport */
+  z-index: 10000; /* Ensure it stays above other elements */
+  top: 25%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  width: 1000vw; /* Full viewport width */
+  height: 1000vh; /* Full viewport height */
+  transform: translate(-50%, -50%); /* Adjust to center */
+  overflow: auto; /* Enable scrolling if content overflows */
+  background-color: rgba(0, 0, 0, 0.4); /* Black with transparency */
+  padding: 0; /* Remove extra padding */
 }
 
-
+/* Modal Content */
 .modal-content {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  z-index: 10000;
-  transform: translate(-50%, -50%);
+  position: fixed; /* Fixed to the viewport */
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  z-index: 10000; /* Ensure it stays above other elements */
+  transform: translate(-50%, -50%); /* Adjust to center */
   background-color: #fbff00;
-  width: 200vw;
-  height: 100vh;
-  max-width: 800px;
+  width: 200vw; /* Full width of the viewport */
+  height: 100vh; /* 25% of the viewport height */
+  max-width: 800px; /* Limit max width */
   border: 5px rgb(255, 245, 108) solid;
-  padding: 20px;
-  box-sizing: border-box;
+  padding: 20px; /* Add padding inside the modal */
+  box-sizing: border-box; /* Ensure padding doesn’t affect width/height */
 }
 
 .modal.show {
@@ -224,6 +224,7 @@ margin-top: 30px;
   animation: fade-down-no-up 0.5s; 
 }
 
+/* The Close Button */
 .close {
   color: #aaa;
   float: bottom-right;
@@ -354,7 +355,7 @@ margin-top: 30px;
 	);
 
 
-  display: none;
+  display: none; /* Hide by default */
   font: bold 70px/1.5 Ubuntu;
   color: #ffffff;
   top: -18.5%;
@@ -384,13 +385,13 @@ margin-top: 30px;
     );
     font: bold 70px/1.5 Ubuntu;
     color: #ffffff;
-    top: -16%;
+    top: -16%; /* Change this value from -55.5% to -19% */
     left: 20%;
     font-size: 14px;
     padding: 2px 25px;
     border: 4px solid #353430;
     border-radius: 5px;
-    position: absolute;
+    position: absolute; /* Change from relative to absolute */
  text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
 }
 
@@ -412,13 +413,13 @@ margin-top: 30px;
     );
     font: bold 70px/1.5 Ubuntu;
     color: #ffffff;
-    top: -16%;
+    top: -16%; /* Change this value from -55.5% to -19% */
     left: 40%;
     font-size: 14px;
     padding: 2px 25px;
     border: 4px solid #353430;
     border-radius: 5px;
-    position: absolute;
+    position: absolute; /* Change from relative to absolute */
  text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
 }
 
@@ -440,13 +441,13 @@ margin-top: 30px;
     );
     font: bold 70px/1.5 Ubuntu;
     color: #ffffff;
-    top: -16%;
+    top: -16%; /* Change this value from -55.5% to -19% */
     left: 60%;
     font-size: 14px;
     padding: 2px 25px;
     border: 4px solid #353430;
     border-radius: 5px;
-    position: absolute;
+    position: absolute; /* Change from relative to absolute */
  text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
 }
 
@@ -521,7 +522,7 @@ margin-top: 30px;
 		#ffefaa 40%
 	);
 
-  position: fixed;
+  position: fixed; /* Stay in place */
 
   font: bold 70px/1.5 Ubuntu;
   color: #fff;
@@ -542,7 +543,7 @@ margin-top: 30px;
     #45f5d5 40%
   );
 
-  position: fixed;
+  position: fixed; /* Stay in place */
 
   font: bold 70px/1.5 Ubuntu;
   color: #fff;
@@ -563,7 +564,7 @@ margin-top: 30px;
     #68f545 40%
   );
 
-  position: fixed;
+  position: fixed; /* Stay in place */
 
   font: bold 70px/1.5 Ubuntu;
   color: #fff;
@@ -584,7 +585,7 @@ margin-top: 30px;
     #c345f5 40%
   );
 
-  position: fixed;
+  position: fixed; /* Stay in place */
 
   font: bold 70px/1.5 Ubuntu;
   color: #fff;
@@ -605,7 +606,7 @@ margin-top: 30px;
     #45f557 40%
   );
 
-  position: fixed;
+  position: fixed; /* Stay in place */
 
   font: bold 70px/1.5 Ubuntu;
   color: #fff;
@@ -626,7 +627,7 @@ margin-top: 30px;
     #5445f5 40%
   );
 
-  position: fixed;
+  position: fixed; /* Stay in place */
 
   font: bold 70px/1.5 Ubuntu;
   color: #fff;
@@ -647,7 +648,7 @@ margin-top: 30px;
     #f5455f 40%
   );
 
-  position: fixed;
+  position: fixed; /* Stay in place */
 
   font: bold 70px/1.5 Ubuntu;
   color: #fff;
@@ -668,7 +669,7 @@ margin-top: 30px;
     #ffad66 40%
   );
 
-  position: fixed;  Stay in place */
+  position: fixed; /* Stay in place */
 
   font: bold 70px/1.5 Ubuntu;
   color: #fff;
@@ -689,7 +690,7 @@ margin-top: 30px;
     #ff6666 40%
   );
 
-  position: fixed;  Stay in place */
+  position: fixed; /* Stay in place */
 
   font: bold 70px/1.5 Ubuntu;
   color: #fff;
@@ -710,7 +711,7 @@ margin-top: 30px;
     #FFD700 40%
   );
 
-  position: fixed;  Stay in place */
+  position: fixed; /* Stay in place */
 
   font: bold 70px/1.5 Ubuntu;
   color: #fff;
@@ -748,7 +749,7 @@ margin-top: 30px;
 		#5f69f0 40%
 	);
 
-  position: fixed;
+  position: fixed; /* Stay in place */
 
   font: bold 70px/1.5 Ubuntu;
   color: #fff;
@@ -789,8 +790,8 @@ margin-top: 30px;
 		#6bf05f 40%
 	);
 
-  position: fixed;
-  margin-top: 10000px;
+  position: fixed; /* Stay in place */
+  margin-top: 10000px; /* Add margin to separate buttons */
   font: bold 70px/1.5 Ubuntu;
   color: #fff;
   top: -1000%;
@@ -831,8 +832,8 @@ margin-top: 30px;
 		#a83e00 40%
 	);
 
-  position: fixed;
-  margin-top: 10000px;
+  position: fixed; /* Stay in place */
+  margin-top: 10000px; /* Add margin to separate buttons */
   font: bold 70px/1.5 Ubuntu;
   color: #fff;
   top: -1000%;
@@ -863,8 +864,8 @@ margin-top: 30px;
 		#ff47f0 40%
 	);
 
-  position: fixed;
-  margin-top: 10000px;
+  position: fixed; /* Stay in place */
+  margin-top: 10000px; /* Add margin to separate buttons */
   font: bold 70px/1.5 Ubuntu;
   color: #fff;
   top: -1000%;
@@ -904,7 +905,7 @@ background: linear-gradient(
 		#c6d038 40%,
 		#fff566 40%
 	);
-	  position: fixed;
+	  position: fixed; /* Stay in place */
   font: bold 70px/1.5 Ubuntu;
   color: #fff;
   top: -18.5%;
@@ -940,7 +941,7 @@ background: linear-gradient(
 }
 
 .myBtn {
-	  position: fixed;
+	  position: fixed; /* Stay in place */
   background-color: #fff566;
   font: bold 70px/1.5 Ubuntu;
   color: #fff;
@@ -1013,19 +1014,19 @@ h20 {
 }
 #viewOptionsButton {
     background-color: #fff566;
-    font: bold 30px Ubuntu1;
+    font: bold 30px Ubuntu1; /* Adjust font as needed */
     color: #fff;
-    position: relative;
+    position: relative; /* Use absolute positioning */
     top: -20.5%;
-    right: -15%;
+    right: -15%; /* Changed left to right */
     width: 70%;
     height: 60px;
     margin-top: -40px;
-    padding: 0;
+    padding: 0; /* Remove padding for better centering */
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: flex; /* Use flexbox for centering */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
 
     text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
     border: 4px solid #353430;
@@ -1057,6 +1058,10 @@ h20 {
   );
 
 }
+
+
+
+/* Add this CSS to your stylesheet (e.g., style.css) */
 @keyframes shrinkAnimation {
   0% {
     transform:translate(-50%, -50%) scale(1);
@@ -1120,15 +1125,15 @@ h20 {
     padding: 12px 24px;
     font: bold 18px 'Ubuntu', sans-serif;
     color: #fff;
-    background: red;
+    background: red; /* Start with a color */
     border: 4px solid rgba(255, 255, 255, 0.5);
     border-radius: 50px;
     cursor: pointer;
     text-shadow: 0 0 5px rgba(255, 255, 255, 0.8), 0 0 10px rgba(0, 0, 0, 0.8);
     z-index: 1000;
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.6), 0 0 25px rgba(255, 255, 255, 0.4), inset 0 0 10px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.6), 0 0 25px rgba(255, 255, 255, 0.4), inset 0 0 10px rgba(0, 0, 0, 0.8); /* Outer and inner glow */
     animation: rainbowColors 6s ease-in-out infinite, pulseEffect 1s ease-in-out infinite;
-    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; /* Make sure transition applies to all necessary properties */
 }
 
 @keyframes rainbowColors {
@@ -1148,11 +1153,11 @@ h20 {
     100% { transform: scale(1); opacity: 1; box-shadow: 0 0 15px rgba(255, 255, 255, 0.6), 0 0 25px rgba(255, 255, 255, 0.4); }
 }
 
-
+/* Hover effect */
 #premiumButton:hover {
-  transform: scale(1.2);
-    box-shadow: 0 0 40px rgba(255, 255, 255, 1), 0 0 60px rgba(255, 255, 255, 0.7), inset 0 0 30px rgba(255, 255, 255, 0.4);
-    background-color: #ff5733;
+  transform: scale(1.2); /* Increase size on hover */
+    box-shadow: 0 0 40px rgba(255, 255, 255, 1), 0 0 60px rgba(255, 255, 255, 0.7), inset 0 0 30px rgba(255, 255, 255, 0.4); /* Stronger and larger shadow */
+    background-color: #ff5733; /* Change background color on hover */
     filter: brightness(115%);
 }
 #premiumButton:hover::after {
@@ -1168,7 +1173,7 @@ h20 {
     transform: translate(-50%, -50%) scale(0);
     animation: rippleEffect 0.6s linear;
 }
-
+/* Active (click) effect */
 #premiumButton:active {
 
     filter: brightness(90%);
@@ -1210,18 +1215,18 @@ h20 {
 
 #settingsMenu {
   position: absolute;
-  top: -100%;
+  top: -100%; /* Move the menu off-screen at the start */
   right: 0%;
   width: auto;
   height: auto;
   background: #C6C6C6;
   border: 5px solid #767676;
   user-select: none;
-
+  /* Add transition properties */
   transition: top 1s ease;
 }
 
-
+/* Add keyframes for the animation */
 @keyframes slideDown {
   0% { top: -100%; }
   100% { top: 45px; }
@@ -1232,7 +1237,7 @@ h20 {
   100% { top: -100%; }
 }
 
-
+/* Add the animation to the settingsMenu */
 #settingsMenu.slide-in {
   animation: slideDown 1s forwards;
 }
@@ -1255,7 +1260,7 @@ h20 {
 
 
 h1.game-mode {
-  position: absolute;
+  position: absolute; /* Stay in place */
 top: -7%;
     left: 49.5%;
     transform: translate(-50%, -50%);
@@ -1263,10 +1268,10 @@ top: -7%;
   
     color: white;
     text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
-    pointer-events: none;
+    pointer-events: none; /* make the text non-clickable */
   }
     h1.region {
-  position: absolute;
+  position: absolute; /* Stay in place */
 top: -21%;
     left: 49.5%;
     transform: translate(-50%, -50%);
@@ -1274,10 +1279,10 @@ top: -21%;
   
     color: white;
     text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
-    pointer-events: none;
+    pointer-events: none; /* make the text non-clickable */
   }
   h1.game-mode1 {
-  position: absolute;
+  position: absolute; /* Stay in place */
 top: 29%;
     left: 49.5%;
     transform: translate(-50%, -50%);
@@ -1285,7 +1290,7 @@ top: 29%;
   
     color: white;
     text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
-    pointer-events: none;
+    pointer-events: none; /* make the text non-clickable */
   }
   #advancedcontrols {
     position: absolute;
@@ -1300,7 +1305,7 @@ top: 29%;
     text-align: center;
   }
   h1.game-mode2 {
-  position: absolute;
+  position: absolute; /* Stay in place */
 top: 36%;
     left: 49.5%;
     transform: translate(-50%, -50%);
@@ -1308,10 +1313,10 @@ top: 36%;
   
     color: white;
     text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
-    pointer-events: none;
+    pointer-events: none; /* make the text non-clickable */
   }
   h1.game-mode3 {
-  position: absolute;
+  position: absolute; /* Stay in place */
 top: 39%;
     left: 49.5%;
     transform: translate(-50%, -50%);
@@ -1319,7 +1324,7 @@ top: 39%;
   
     color: white;
     text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
-    pointer-events: none;
+    pointer-events: none; /* make the text non-clickable */
   }
   .taleof {
     position: absolute;
@@ -1329,13 +1334,13 @@ top: 39%;
     left: 25%;
     color: white;
     text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
-    pointer-events: none;
+    pointer-events: none; /* make the text non-clickable */
   }
 #mobileMessage .messageContent {
-    position: absolute;
-    top: 50%;
+    position: absolute; /* Position relative to the #mobileMessage */
+    top: 50%; /* Margin from the top of the viewport */
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%); /* Center horizontally */
     font-size: 24px;
 }
 #optColorsChange {
@@ -1350,7 +1355,7 @@ top: 39%;
     width: 215px;
   height: 20px;
 }
-
+/*MOBILE CSS*/
 body.mobile .icon {
   width: 55px;
   height: 55px;
@@ -1415,8 +1420,8 @@ body.mobile .span {
     padding: 20px;
     border-radius: 5px;
     color: white;
-    overflow-y: auto;
-    max-height: 20vh;
+    overflow-y: auto; /* Add scrollability */
+    max-height: 20vh; /* Set maximum height to 80% of viewport height */
     animation: fade-up-no-up 0.5s; 
     font-weight: bold;
   text-align: center;
@@ -1455,8 +1460,8 @@ body.mobile #sliderButton2 {
     cursor: pointer;
     font-size: 18px;
     color: white;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+    transition: transform 0.3s ease; /* Smooth scaling */
 }
 
 #homeButton i {
@@ -1465,17 +1470,17 @@ body.mobile #sliderButton2 {
 
 #homeButton:hover {
   background-color: rgba(255, 255, 255, 0.3);
-    transform: scale(1.1);
+    transform: scale(1.1); /* Slightly enlarge on hover */
 }
 
 #homeButton:active {
   background-color: rgba(255, 255, 255, 0);
-    transform: scale(1.1);
+    transform: scale(1.1); /* Slightly enlarge on hover */
 }
 
-    
+        /* Style for the placeholder text color */
         #chatInput::placeholder {
-            color: white;
+            color: white; /* Set the placeholder text color to white */
         }
         #startMenuBtnsContainer {
 	display: flex;
@@ -1729,16 +1734,22 @@ body.mobile #sliderButton2 {
           <br>
           <span id="totalplayersblue">? players</span>
       </button>
+      
+
       <button class="beige-button beige-button-half">
         Closed Beta
         <br>
         <span id="totalplayersbeige">? players</span>
       </button>
+      
+      <!-- FFA Button -->
       <button class="new-ffa-button">
         FFA
         <br>
         <span id="totalplayersffa">? players</span>
       </button>
+      
+      <!-- 2TDM Button -->
       <button class="new-2tdm-button">
         2TDM
         <br>
@@ -1755,7 +1766,10 @@ body.mobile #sliderButton2 {
         <br>
         <span id="totalplayersnexus">? players</span>
       </button>
+    
+      
     </button>
+    
     <div class="button-container"></div>
     <button class="green-button green-button-half">
       Mothership
@@ -1774,11 +1788,14 @@ body.mobile #sliderButton2 {
   <br>
   <span id="totalplayerspink">? players</span>
 </button>
+  <!-- MAZE Button -->
   <button class="new-maze-button">
     MAZE
     <br>
     <span id="totalplayersmaze">? players</span>
   </button>
+  
+  <!-- 4TDM Button -->
   <button class="new-4tdm-button">
     4TDM
     <br>
@@ -1821,7 +1838,10 @@ body.mobile #sliderButton2 {
                                 <button id="startButton" tabindex="2">LOADING...</button>
                             </div>
                         </div>
+                        
+                       <!-- Trigger/Open The Modal -->
                      <!--   <button id="viewOptionsButton">Options</button>-->
+
 <!-- The Modal -->
 <div id="myModal" class="modal">
 
@@ -1904,6 +1924,7 @@ body.mobile #sliderButton2 {
   <div id="offline-message" style="display:none;">
     No internet connection, cannot load arras2.io
   </div>
+    <!-- Mobile message -->
 <div id="mobileMessage">
     <div class="messageContent">Mobile is not supported on Arras2.io yet.</div>
 </div>
@@ -1937,17 +1958,26 @@ body.mobile #sliderButton2 {
     <script>
       document.querySelectorAll('.red-button, .green-button, .blue-button, .yellow-button, .beige-button, .brown-button, .pink-button, .new-ffa-button, .new-hide-button, .new-train-button,.new-nexus-button,.new-manhunt-button,.new-2tdm-button, .new-maze-button,.new-growth-button .new-4tdm-button').forEach(button => {
     button.addEventListener('click', function() {
+        // Remove the 'clicked' class from all buttons
         document.querySelectorAll('.red-button, .green-button, .blue-button, .yellow-button, .beige-button, .brown-button, .pink-button, .new-ffa-button, .new-hide-button, .new-train-button,.new-nexus-button,.new-manhunt-button,.new-2tdm-button, .new-maze-button,.new-growth-button .new-4tdm-button').forEach(btn => btn.classList.remove('clicked'));
+        
+        // Add the 'clicked' class to the clicked button
         this.classList.add('clicked');
     });
 });
+
+      // Get the modal
 var modal = document.getElementById("myModal");
+
+
+  // Get the red button
   var redBtn = document.querySelector(".red-button");
   var europeBtn = document.querySelector(".greenreal-button");
   var usaBtn = document.querySelector(".usareal-button");
   var asiaBtn = document.querySelector(".asiareal-button");
   var blueBtn = document.querySelector(".blue-button");
   var startBtn = document.getElementById("startButton");
+  // Get the yellow button
   var yellowBtn = document.querySelector(".yellow-button");
   var greenBtn = document.querySelector(".green-button");
   var brownBtn = document.querySelector(".brown-button");
@@ -1963,18 +1993,25 @@ var modal = document.getElementById("myModal");
   var trainBtn = document.querySelector(".new-train-button");
   var nexusBtn = document.querySelector(".new-nexus-button");
   var manhuntBtn = document.querySelector(".new-manhunt-button");
+
+// When the user clicks on the button, open the modal	background: linear-gradient(
   var settingsButton = document.getElementById("settingsButton");
 var settingsMenu = document.getElementById("settingsMenu");
 
-var currentIP = '';
-const allowedIP = '88.126.207.146';
-const localhostIPs = ['127.0.0.1', '::1'];
+var currentIP = ''; // Variable to hold the user's IP
+const allowedIP = '88.126.207.146'; // Example allowed external IP
+const localhostIPs = ['127.0.0.1', '::1']; // Localhost IP addresses (IPv4 and IPv6)
+
 var pinkButton = document.querySelector(".pink-button");
 if (document.getElementById("antivpn1").checked) {
   document.getElementById("antivpn1").checked = false;
 }
+ // Home button click event
  document.getElementById('homeButton').addEventListener('click', function () {
+        // Clear sessionStorage flags when going home
         sessionStorage.clear();
+
+        // Redirect logic (circle animation)
         var circle = document.createElement('div');
         circle.id = 'circle';
         document.body.appendChild(circle);
@@ -1987,55 +2024,78 @@ if (document.getElementById("antivpn1").checked) {
           window.top.location.replace("https://arras2.io/");
         }, 1000);
     });
+
+
+
+
+  // Show/Hide settings menu on button click
   settingsButton.onclick = function (event) {
-    event.stopPropagation();
+    event.stopPropagation(); // Prevent click from bubbling up to the body
+
       settingsMenu.style.display = "block";
       settingsMenu.classList.remove('slide-out');
       settingsMenu.classList.add('open');
     
   };
+
+  // Hide settings menu when clicking outside of it
   document.addEventListener('click', function(event) {
     if (settingsMenu.style.display === "block" && !settingsMenu.contains(event.target) && !settingsButton.contains(event.target)) {
       settingsMenu.classList.remove('open');
       settingsMenu.classList.add('slide-out');
       setTimeout(function() {
         settingsMenu.style.display = "none";
-      }, 300);
+      }, 300); // Delay for smooth slide-out animation
     }
   });
+
 var btn = document.getElementById("viewOptionsButton");
 var span = document.getElementsByClassName("close")[0];
+// Show the modal when the button is clicked
 /*btn.onclick = function() {
   modal.style.display = "block";
   modal.classList.remove('hide');
   modal.classList.add('show');
 }*/
+
+// Hide the modal when the 'x' (span) is clicked
 span.onclick = function() {
   closeModal();
 }
+
+// Hide the modal when clicking outside the modal-content
 modal.onclick = function(event) {
   if (event.target === modal) {
     closeModal();
   }
 }
+
+// Function to close the modal with animation
 function closeModal() {
   modal.classList.remove('show');
   modal.classList.add('hide');
   setTimeout(function() {
     modal.style.display = "none";
-  }, 400);
+  }, 400); // Adjust the delay to match your animation duration
 }
+
+
+        // Example anti-VPN logic (ensure both boxes are unchecked)
         if (!document.getElementById("antivpn").checked || !document.getElementById("antivpn1").checked) {
       console.log("Anti-VPN checks passed. Current IP:", currentIP);
+   // Function to check if either anti-VPN checkbox is checked
 function isAntiVPNChecked() {
   return document.getElementById("antivpn").checked || document.getElementById("antivpn1").checked;
 }
+    // Check if the IP is allowed or if it's a localhost IP
+  // Fetch user's IP address using your API
   fetch('https://webserverip.onrender.com/api/getPublicIP')
   .then(response => response.json())
   .then(data => {
     currentIP = data.ip;
+  // When the user clicks on the red button, open the modal and change the filter brightness to 50%
   redBtn.addEventListener("click", function() {
-    if (isAntiVPNChecked()) return;
+    if (isAntiVPNChecked()) return; // Do nothing if anti-VPN is checked
     beigeBtn.style.background = "linear-gradient(0deg,#ffde91 40%,#ffefaa 40%)";
     beigeBtn.style.border = "4px solid #353430";
   redBtn.style.background = "linear-gradient(0deg,#f05f5f 40%,#b10000 40%)";
@@ -2070,7 +2130,7 @@ manhuntBtn.style.background = "linear-gradient(0deg,#37c959 40%, #45f557 40%)";
  manhuntBtn.style.border = "4px solid #353430";
 });
 europeBtn.addEventListener("click", function() {
-  if (isAntiVPNChecked()) return;
+  if (isAntiVPNChecked()) return; // Do nothing if anti-VPN is checked
   europeBtn.style.background = "linear-gradient(0deg, #81f05f 40%,#37db00 40%)";
   europeBtn.style.border = "4px solid #353430";
   asiaBtn.style.background = "linear-gradient(0deg,#a32300 40%,#ff2600 40%)";
@@ -2079,7 +2139,7 @@ europeBtn.addEventListener("click", function() {
   usaBtn.style.border = "4px solid #353430";
 });
 asiaBtn.addEventListener("click", function() {
-  if (isAntiVPNChecked()) return;
+  if (isAntiVPNChecked()) return; // Do nothing if anti-VPN is checked
   europeBtn.style.background = "linear-gradient(0deg,#37db00 40%,#81f05f 40%)";
   europeBtn.style.border = "4px solid #353430";
   asiaBtn.style.background = "linear-gradient(0deg,#ff2600 40%,#a32300 40%)";
@@ -2088,7 +2148,7 @@ asiaBtn.addEventListener("click", function() {
   usaBtn.style.border = "4px solid #353430";
 });
 usaBtn.addEventListener("click", function() {
-  if (isAntiVPNChecked()) return;
+  if (isAntiVPNChecked()) return; // Do nothing if anti-VPN is checked
   europeBtn.style.background = "linear-gradient(0deg,#37db00 40%,#81f05f 40%)";
   europeBtn.style.border = "4px solid #353430";
   asiaBtn.style.background = "linear-gradient(0deg,#a32300 40%,#ff2600 40%)";
@@ -2096,8 +2156,9 @@ usaBtn.addEventListener("click", function() {
   usaBtn.style.background = "linear-gradient(0deg,#523fbb 40%,  #2a276b 40%)";
   usaBtn.style.border = "4px solid #353430";
 });
+  // When the user clicks on the yellow button, open the modal and change the filter brightness to 50%
   yellowBtn.addEventListener("click", function() {
-    if (isAntiVPNChecked()) return;
+    if (isAntiVPNChecked()) return; // Do nothing if anti-VPN is checked
     beigeBtn.style.background = "linear-gradient(0deg,#ffde91 40%,#ffefaa 40%)";
     beigeBtn.style.border = "4px solid #353430";
     yellowBtn.style.background = "linear-gradient(0deg,#fff566 40%,#c6d038 40%)";
@@ -2131,8 +2192,9 @@ usaBtn.addEventListener("click", function() {
 manhuntBtn.style.background = "linear-gradient(0deg,#37c959 40%, #45f557 40%)";
  manhuntBtn.style.border = "4px solid #353430";
   });
+    // When the user clicks on the yellow button, open the modal and change the filter brightness to 50%
     blueBtn.addEventListener("click", function() {
-      if (isAntiVPNChecked()) return;
+      if (isAntiVPNChecked()) return; // Do nothing if anti-VPN is checked
       beigeBtn.style.background = "linear-gradient(0deg,#ffde91 40%,#ffefaa 40%)";
       beigeBtn.style.border = "4px solid #353430";
       blueBtn.style.background = "linear-gradient(0deg,#5f69f0 40%,#0012b1 40%)";
@@ -2166,8 +2228,9 @@ manhuntBtn.style.background = "linear-gradient(0deg,#37c959 40%, #45f557 40%)";
 manhuntBtn.style.background = "linear-gradient(0deg,#37c959 40%, #45f557 40%)";
  manhuntBtn.style.border = "4px solid #353430";
   });
+      // When the user clicks on the yellow button, open the modal and change the filter brightness to 50%
       greenBtn.addEventListener("click", function() {
-        if (isAntiVPNChecked()) return;
+        if (isAntiVPNChecked()) return; // Do nothing if anti-VPN is checked
         beigeBtn.style.background = "linear-gradient(0deg,#ffde91 40%,#ffefaa 40%)";
         beigeBtn.style.border = "4px solid #353430";
         greenBtn.style.background = "linear-gradient(0deg,#6bf05f 40%,#0fb100 40%)";
@@ -2202,7 +2265,7 @@ manhuntBtn.style.background = "linear-gradient(0deg,#37c959 40%, #45f557 40%)";
  manhuntBtn.style.border = "4px solid #353430";
   });
 brownBtn.addEventListener("click", function() {
-  if (isAntiVPNChecked()) return;
+  if (isAntiVPNChecked()) return; // Do nothing if anti-VPN is checked
   beigeBtn.style.background = "linear-gradient(0deg,#ffde91 40%,#ffefaa 40%)";
   beigeBtn.style.border = "4px solid #353430";
   brownBtn.style.background = "linear-gradient(0deg,#a83e00 40%,#582000 40%)";
@@ -2237,7 +2300,12 @@ manhuntBtn.style.background = "linear-gradient(0deg,#37c959 40%, #45f557 40%)";
  manhuntBtn.style.border = "4px solid #353430";
   });
   pinkBtn.addEventListener("click", function() {
-    if (isAntiVPNChecked()) return;
+    if (isAntiVPNChecked()) return; // Do nothing if anti-VPN is checked
+
+
+
+    // Check if the IP is allowed or if it's a localhost IP
+   // if (currentIP === allowedIP || localhostIPs.includes(currentIP)) {
     beigeBtn.style.background = "linear-gradient(0deg,#ffde91 40%,#ffefaa 40%)";
     beigeBtn.style.border = "4px solid #353430";
     pinkBtn.style.background = "linear-gradient(0deg,#ff47f0 40%,#b10099 40%)";
@@ -2272,7 +2340,12 @@ manhuntBtn.style.background = "linear-gradient(0deg,#37c959 40%, #45f557 40%)";
  manhuntBtn.style.border = "4px solid #353430";
     })
     ffaBtn.addEventListener("click", function() {
-    if (isAntiVPNChecked()) return;
+    if (isAntiVPNChecked()) return; // Do nothing if anti-VPN is checked
+
+
+
+    // Check if the IP is allowed or if it's a localhost IP
+   // if (currentIP === allowedIP || localhostIPs.includes(currentIP)) {
     beigeBtn.style.background = "linear-gradient(0deg,#ffde91 40%,#ffefaa 40%)";
     beigeBtn.style.border = "4px solid #353430";
     pinkBtn.style.background = "linear-gradient(0deg,#b10099 40%,#ff47f0 40%)";
@@ -2307,7 +2380,12 @@ manhuntBtn.style.background = "linear-gradient(0deg,#37c959 40%, #45f557 40%)";
  manhuntBtn.style.border = "4px solid #353430";
     })
     twotdmBtn.addEventListener("click", function() {
-    if (isAntiVPNChecked()) return;
+    if (isAntiVPNChecked()) return; // Do nothing if anti-VPN is checked
+
+
+
+    // Check if the IP is allowed or if it's a localhost IP
+   // if (currentIP === allowedIP || localhostIPs.includes(currentIP)) {
     beigeBtn.style.background = "linear-gradient(0deg,#ffde91 40%,#ffefaa 40%)";
     beigeBtn.style.border = "4px solid #353430";
     pinkBtn.style.background = "linear-gradient(0deg,#b10099 40%,#ff47f0 40%)";
@@ -2342,7 +2420,12 @@ manhuntBtn.style.background = "linear-gradient(0deg,#37c959 40%, #45f557 40%)";
  manhuntBtn.style.border = "4px solid #353430";
     })
     mazeBtn.addEventListener("click", function() {
-    if (isAntiVPNChecked()) return;
+    if (isAntiVPNChecked()) return; // Do nothing if anti-VPN is checked
+
+
+
+    // Check if the IP is allowed or if it's a localhost IP
+   // if (currentIP === allowedIP || localhostIPs.includes(currentIP)) {
     beigeBtn.style.background = "linear-gradient(0deg,#ffde91 40%,#ffefaa 40%)";
     beigeBtn.style.border = "4px solid #353430";
     pinkBtn.style.background = "linear-gradient(0deg,#b10099 40%,#ff47f0 40%)";
@@ -2377,7 +2460,12 @@ manhuntBtn.style.background = "linear-gradient(0deg,#37c959 40%, #45f557 40%)";
  manhuntBtn.style.border = "4px solid #353430";
     })
     fourtdmBtn.addEventListener("click", function() {
-    if (isAntiVPNChecked()) return;
+    if (isAntiVPNChecked()) return; // Do nothing if anti-VPN is checked
+
+
+
+    // Check if the IP is allowed or if it's a localhost IP
+   // if (currentIP === allowedIP || localhostIPs.includes(currentIP)) {
     beigeBtn.style.background = "linear-gradient(0deg,#ffde91 40%,#ffefaa 40%)";
     beigeBtn.style.border = "4px solid #353430";
     pinkBtn.style.background = "linear-gradient(0deg,#b10099 40%,#ff47f0 40%)";
@@ -2414,7 +2502,10 @@ manhuntBtn.style.background = "linear-gradient(0deg,#37c959 40%, #45f557 40%)";
      
   beigeBtn.addEventListener("click", function() {
     if (currentIP !== allowedIP) return;
-    if (isAntiVPNChecked()) return;
+    if (isAntiVPNChecked()) return; // Do nothing if anti-VPN is checked
+
+
+
     beigeBtn.style.background = "linear-gradient(0deg,#ffefaa 40%,#ffde91 40%)";
     beigeBtn.style.border = "4px solid #353430";
     pinkBtn.style.background = "linear-gradient(0deg,#b10099 40%,#ff47f0 40%)";
@@ -2449,7 +2540,10 @@ manhuntBtn.style.background = "linear-gradient(0deg,#37c959 40%, #45f557 40%)";
  manhuntBtn.style.border = "4px solid #353430";
     })
    growthBtn.addEventListener("click", function() {
-    if (isAntiVPNChecked()) return;
+    if (isAntiVPNChecked()) return; // Do nothing if anti-VPN is checked
+
+
+
     beigeBtn.style.background = "linear-gradient(0deg,#ffde91 40%,#ffefaa 40%)";
     beigeBtn.style.border = "4px solid #353430";
     pinkBtn.style.background = "linear-gradient(0deg,#b10099 40%,#ff47f0 40%)";
@@ -2482,7 +2576,10 @@ manhuntBtn.style.background = "linear-gradient(0deg,#37c959 40%, #45f557 40%)";
  manhuntBtn.style.border = "4px solid #353430";
     })
    hideBtn.addEventListener("click", function() {
-    if (isAntiVPNChecked()) return;
+    if (isAntiVPNChecked()) return; // Do nothing if anti-VPN is checked
+
+
+
     beigeBtn.style.background = "linear-gradient(0deg,#ffde91 40%,#ffefaa 40%)";
     beigeBtn.style.border = "4px solid #353430";
     pinkBtn.style.background = "linear-gradient(0deg,#b10099 40%,#ff47f0 40%)";
@@ -2515,7 +2612,10 @@ manhuntBtn.style.background = "linear-gradient(0deg,#37c959 40%, #45f557 40%)";
  manhuntBtn.style.border = "4px solid #353430";
     })
     trainBtn.addEventListener("click", function() {
-    if (isAntiVPNChecked()) return;
+    if (isAntiVPNChecked()) return; // Do nothing if anti-VPN is checked
+
+
+
     beigeBtn.style.background = "linear-gradient(0deg,#ffde91 40%,#ffefaa 40%)";
     beigeBtn.style.border = "4px solid #353430";
     pinkBtn.style.background = "linear-gradient(0deg,#b10099 40%,#ff47f0 40%)";
@@ -2548,7 +2648,10 @@ manhuntBtn.style.background = "linear-gradient(0deg,#37c959 40%, #45f557 40%)";
  manhuntBtn.style.border = "4px solid #353430";
     })
     nexusBtn.addEventListener("click", function() {
-    if (isAntiVPNChecked()) return;
+    if (isAntiVPNChecked()) return; // Do nothing if anti-VPN is checked
+
+
+
     beigeBtn.style.background = "linear-gradient(0deg,#ffde91 40%,#ffefaa 40%)";
     beigeBtn.style.border = "4px solid #353430";
     pinkBtn.style.background = "linear-gradient(0deg,#b10099 40%,#ff47f0 40%)";
@@ -2581,7 +2684,10 @@ manhuntBtn.style.background = "linear-gradient(0deg,#37c959 40%, #45f557 40%)";
  manhuntBtn.style.border = "4px solid #353430";
     })
     manhuntBtn.addEventListener("click", function() {
-    if (isAntiVPNChecked()) return;
+    if (isAntiVPNChecked()) return; // Do nothing if anti-VPN is checked
+
+
+
     beigeBtn.style.background = "linear-gradient(0deg,#ffde91 40%,#ffefaa 40%)";
     beigeBtn.style.border = "4px solid #353430";
     pinkBtn.style.background = "linear-gradient(0deg,#b10099 40%,#ff47f0 40%)";
@@ -2616,10 +2722,13 @@ manhuntBtn.style.background = "linear-gradient(0deg,#45f557 40%, #37c959 40%)";
   .catch(error => {
     console.error("Error fetching IP address:", error);
   });
-    });
+    }); 
+
     } else {
       console.log("VPN detected or Anti-VPN check failed.");
     }
+
+
     </script>
     <script>
    const body = {
@@ -2632,6 +2741,7 @@ $("#startMenuSlidingTrigger").on('click', function() {
         $(this).html('<h3>close options/help v</h3>');
         $(".slider").css({ "top": "-265px" });
         
+
     } else {
         $(this).html('<h3>view options/help ></h3>');
         $(".slider").css({ "top": 0 });
@@ -2653,6 +2763,7 @@ $("#startMenuSlidingTrigger").on('click', function() {
 }
 
 checkConnection();
+// Mobile detection and message display
 function isMobile() {
             return /Mobi|Android/i.test(navigator.userAgent);
         }
