@@ -1,5 +1,5 @@
 [[redirects]]
   from = "/*"
-  to = "/index.html"
+  to = "/play.html"
   status = 200
   force = true
