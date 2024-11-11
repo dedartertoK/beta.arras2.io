@@ -159,13 +159,13 @@ import * as _0x12fff9 from "./lib/socketInit.js";
   var _0x4783b2 = "Connected";
   var _0x36b501 = "Unknown";
   const _0x18d63e = {
-    dday: "https://effective-cod-jjqp9v649q79c5gv7-30004.app.github.dev/lib/json/gamemodeData.json",
-    hide: "https://effective-cod-jjqp9v649q79c5gv7-30011.app.github.dev/lib/json/gamemodeData.json",
-    train: "https://effective-cod-jjqp9v649q79c5gv7-30012.app.github.dev/lib/json/gamemodeData.json",
-    nexus: "https://effective-cod-jjqp9v649q79c5gv7-30013.app.github.dev/lib/json/gamemodeData.json",
-    manhunt: "https://effective-cod-jjqp9v649q79c5gv7-30014.app.github.dev/lib/json/gamemodeData.json",
-    growth: "https://effective-cod-jjqp9v649q79c5gv7-30010.app.github.dev/lib/json/gamemodeData.json",
-    bossrush: "https://effective-cod-jjqp9v649q79c5gv7-30002.app.github.dev/lib/json/gamemodeData.json",
+    dday: "https://opulent-space-cod-694xpgjw5gg7h47vp-30004.app.github.dev/lib/json/gamemodeData.json",
+    hide: "https://opulent-space-cod-694xpgjw5gg7h47vp-30011.app.github.dev/lib/json/gamemodeData.json",
+    train: "https://opulent-space-cod-694xpgjw5gg7h47vp-30012.app.github.dev/lib/json/gamemodeData.json",
+    nexus: "https://opulent-space-cod-694xpgjw5gg7h47vp-30013.app.github.dev/lib/json/gamemodeData.json",
+    manhunt: "https://opulent-space-cod-694xpgjw5gg7h47vp-30014.app.github.dev/lib/json/gamemodeData.json",
+    growth: "https://opulent-space-cod-694xpgjw5gg7h47vp-30010.app.github.dev/lib/json/gamemodeData.json",
+    bossrush: "https://opulent-space-cod-694xpgjw5gg7h47vp-30002.app.github.dev/lib/json/gamemodeData.json",
     ddayusa: "https://special-sniffle-r4p5w9w56pwxf5j49-30004.app.github.dev/lib/json/gamemodeData.json",
     trainusa: "https://special-sniffle-r4p5w9w56pwxf5j49-30012.app.github.dev/lib/json/gamemodeData.json",
     nexususa: "https://special-sniffle-r4p5w9w56pwxf5j49-30013.app.github.dev/lib/json/gamemodeData.json",
@@ -196,14 +196,14 @@ import * as _0x12fff9 from "./lib/socketInit.js";
     twotdmasia: "https://effective-capybara-g47vrg5vv7752v9g5-30001.app.github.dev/lib/json/gamemodeData.json",
     mazeasia: "https://effective-capybara-g47vrg5vv7752v9g5-30006.app.github.dev/lib/json/gamemodeData.json",
     fourtdmasia: "https://effective-capybara-g47vrg5vv7752v9g5-30007.app.github.dev/lib/json/gamemodeData.json",
-    domination: "https://effective-cod-jjqp9v649q79c5gv7-30000.app.github.dev/lib/json/gamemodeData.json",
-    mothership: "https://effective-cod-jjqp9v649q79c5gv7-30003.app.github.dev/lib/json/gamemodeData.json",
-    killrace: "https://effective-cod-jjqp9v649q79c5gv7-30008.app.github.dev/lib/json/gamemodeData.json",
-    core: "https://effective-cod-jjqp9v649q79c5gv7-30009.app.github.dev/lib/json/gamemodeData.json",
-    ffa: "https://effective-cod-jjqp9v649q79c5gv7-30005.app.github.dev/lib/json/gamemodeData.json",
-    twotdm: "https://effective-cod-jjqp9v649q79c5gv7-30001.app.github.dev/lib/json/gamemodeData.json",
-    maze: "https://effective-cod-jjqp9v649q79c5gv7-30006.app.github.dev/lib/json/gamemodeData.json",
-    fourtdm: "https://effective-cod-jjqp9v649q79c5gv7-30007.app.github.dev/lib/json/gamemodeData.json"
+    domination: "https://opulent-space-cod-694xpgjw5gg7h47vp-30000.app.github.dev/lib/json/gamemodeData.json",
+    mothership: "https://opulent-space-cod-694xpgjw5gg7h47vp-30003.app.github.dev/lib/json/gamemodeData.json",
+    killrace: "https://opulent-space-cod-694xpgjw5gg7h47vp-30008.app.github.dev/lib/json/gamemodeData.json",
+    core: "https://opulent-space-cod-694xpgjw5gg7h47vp-30009.app.github.dev/lib/json/gamemodeData.json",
+    ffa: "https://opulent-space-cod-694xpgjw5gg7h47vp-30005.app.github.dev/lib/json/gamemodeData.json",
+    twotdm: "https://opulent-space-cod-694xpgjw5gg7h47vp-30001.app.github.dev/lib/json/gamemodeData.json",
+    maze: "https://opulent-space-cod-694xpgjw5gg7h47vp-30006.app.github.dev/lib/json/gamemodeData.json",
+    fourtdm: "https://opulent-space-cod-694xpgjw5gg7h47vp-30007.app.github.dev/lib/json/gamemodeData.json"
   };
   let _0x4acbef = {
     dday: 0,
@@ -853,21 +853,21 @@ loadWasm();
       _0x379d44 = false;
       _0x5a0096 = false;
       if (_0x5b8ce5 === "greenreal") {
-        _0x4e5fec(".red-button", "effective-cod-jjqp9v649q79c5gv7-30004.app.github.dev");
-        _0x4e5fec(".yellow-button", "effective-cod-jjqp9v649q79c5gv7-30002.app.github.dev");
-        _0x4e5fec(".blue-button", "effective-cod-jjqp9v649q79c5gv7-30000.app.github.dev");
-        _0x4e5fec(".green-button", "effective-cod-jjqp9v649q79c5gv7-30003.app.github.dev");
-        _0x4e5fec(".brown-button", "effective-cod-jjqp9v649q79c5gv7-30008.app.github.dev");
-        _0x4e5fec(".pink-button", "effective-cod-jjqp9v649q79c5gv7-30009.app.github.dev");
-        _0x4e5fec(".new-ffa-button", "effective-cod-jjqp9v649q79c5gv7-30005.app.github.dev");
-        _0x4e5fec(".new-2tdm-button", "effective-cod-jjqp9v649q79c5gv7-30001.app.github.dev");
-        _0x4e5fec(".new-maze-button", "effective-cod-jjqp9v649q79c5gv7-30006.app.github.dev");
-        _0x4e5fec(".new-4tdm-button", "effective-cod-jjqp9v649q79c5gv7-30007.app.github.dev");
-        _0x4e5fec(".new-growth-button", "effective-cod-jjqp9v649q79c5gv7-30010.app.github.dev");
-        _0x4e5fec(".new-hide-button", "effective-cod-jjqp9v649q79c5gv7-30011.app.github.dev");
-        _0x4e5fec(".new-train-button", "effective-cod-jjqp9v649q79c5gv7-30012.app.github.dev");
-        _0x4e5fec(".new-nexus-button", "effective-cod-jjqp9v649q79c5gv7-30013.app.github.dev");
-        _0x4e5fec(".new-manhunt-button", "effective-cod-jjqp9v649q79c5gv7-30014.app.github.dev");
+        _0x4e5fec(".red-button", "opulent-space-cod-694xpgjw5gg7h47vp-30004.app.github.dev");
+        _0x4e5fec(".yellow-button", "opulent-space-cod-694xpgjw5gg7h47vp-30002.app.github.dev");
+        _0x4e5fec(".blue-button", "opulent-space-cod-694xpgjw5gg7h47vp-30000.app.github.dev");
+        _0x4e5fec(".green-button", "opulent-space-cod-694xpgjw5gg7h47vp-30003.app.github.dev");
+        _0x4e5fec(".brown-button", "opulent-space-cod-694xpgjw5gg7h47vp-30008.app.github.dev");
+        _0x4e5fec(".pink-button", "opulent-space-cod-694xpgjw5gg7h47vp-30009.app.github.dev");
+        _0x4e5fec(".new-ffa-button", "opulent-space-cod-694xpgjw5gg7h47vp-30005.app.github.dev");
+        _0x4e5fec(".new-2tdm-button", "opulent-space-cod-694xpgjw5gg7h47vp-30001.app.github.dev");
+        _0x4e5fec(".new-maze-button", "opulent-space-cod-694xpgjw5gg7h47vp-30006.app.github.dev");
+        _0x4e5fec(".new-4tdm-button", "opulent-space-cod-694xpgjw5gg7h47vp-30007.app.github.dev");
+        _0x4e5fec(".new-growth-button", "opulent-space-cod-694xpgjw5gg7h47vp-30010.app.github.dev");
+        _0x4e5fec(".new-hide-button", "opulent-space-cod-694xpgjw5gg7h47vp-30011.app.github.dev");
+        _0x4e5fec(".new-train-button", "opulent-space-cod-694xpgjw5gg7h47vp-30012.app.github.dev");
+        _0x4e5fec(".new-nexus-button", "opulent-space-cod-694xpgjw5gg7h47vp-30013.app.github.dev");
+        _0x4e5fec(".new-manhunt-button", "opulent-space-cod-694xpgjw5gg7h47vp-30014.app.github.dev");
       } else if (_0x5b8ce5 === "usareal") {
         _0x379d44 = true;
         _0x4e5fec(".red-button", "special-sniffle-r4p5w9w56pwxf5j49-30004.app.github.dev");
@@ -3873,52 +3873,52 @@ document.onkeydown = _0x2575e7 => {
       }
       _0x36be89.save();
       _0x36be89.globalAlpha = _0x5bae59.introTextAlpha;
-      if (window.serverAdd === "effective-cod-jjqp9v649q79c5gv7-30004.app.github.dev" || window.serverAdd === "special-sniffle-r4p5w9w56pwxf5j49-30004.app.github.dev" || window.serverAdd === "effective-capybara-g47vrg5vv7752v9g5-30004.app.github.dev") {
+      if (window.serverAdd === "opulent-space-cod-694xpgjw5gg7h47vp-30004.app.github.dev" || window.serverAdd === "special-sniffle-r4p5w9w56pwxf5j49-30004.app.github.dev" || window.serverAdd === "effective-capybara-g47vrg5vv7752v9g5-30004.app.github.dev") {
         _0x58bf50("D-Day", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("For blue team, destroy red dominators. For red team, protect your dominators and destroy blue dominators.", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
-      } else if (window.serverAdd === "effective-cod-jjqp9v649q79c5gv7-30002.app.github.dev" || window.serverAdd === "special-sniffle-r4p5w9w56pwxf5j49-30002.app.github.dev" || window.serverAdd === "effective-capybara-g47vrg5vv7752v9g5-30002.app.github.dev") {
+      } else if (window.serverAdd === "opulent-space-cod-694xpgjw5gg7h47vp-30002.app.github.dev" || window.serverAdd === "special-sniffle-r4p5w9w56pwxf5j49-30002.app.github.dev" || window.serverAdd === "effective-capybara-g47vrg5vv7752v9g5-30002.app.github.dev") {
         _0x58bf50("Boss Rush", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("Destroy all the bosses till wave 150 to win", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
-      } else if (window.serverAdd === "effective-cod-jjqp9v649q79c5gv7-30000.app.github.dev" || window.serverAdd === "special-sniffle-r4p5w9w56pwxf5j49-30000.app.github.dev" || window.serverAdd === "effective-capybara-g47vrg5vv7752v9g5-30000.app.github.dev") {
+      } else if (window.serverAdd === "opulent-space-cod-694xpgjw5gg7h47vp-30000.app.github.dev" || window.serverAdd === "special-sniffle-r4p5w9w56pwxf5j49-30000.app.github.dev" || window.serverAdd === "effective-capybara-g47vrg5vv7752v9g5-30000.app.github.dev") {
         _0x58bf50("Domination", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("Destroy all dominators to win!", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
-      } else if (window.serverAdd === "effective-cod-jjqp9v649q79c5gv7-30003.app.github.dev" || window.serverAdd === "special-sniffle-r4p5w9w56pwxf5j49-30003.app.github.dev" || window.serverAdd === "effective-capybara-g47vrg5vv7752v9g5-30003.app.github.dev") {
+      } else if (window.serverAdd === "opulent-space-cod-694xpgjw5gg7h47vp-30003.app.github.dev" || window.serverAdd === "special-sniffle-r4p5w9w56pwxf5j49-30003.app.github.dev" || window.serverAdd === "effective-capybara-g47vrg5vv7752v9g5-30003.app.github.dev") {
         _0x58bf50("Mothership", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("Kill your opponent's mothership to win!", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
-      } else if (window.serverAdd === "effective-cod-jjqp9v649q79c5gv7-30008.app.github.dev" || window.serverAdd === "special-sniffle-r4p5w9w56pwxf5j49-30008.app.github.dev" || window.serverAdd === "effective-capybara-g47vrg5vv7752v9g5-30008.app.github.dev") {
+      } else if (window.serverAdd === "opulent-space-cod-694xpgjw5gg7h47vp-30008.app.github.dev" || window.serverAdd === "special-sniffle-r4p5w9w56pwxf5j49-30008.app.github.dev" || window.serverAdd === "effective-capybara-g47vrg5vv7752v9g5-30008.app.github.dev") {
         _0x58bf50("Kill Race", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("Escape from the dangerous killer without being killed!", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
-      } else if (window.serverAdd === "effective-cod-jjqp9v649q79c5gv7-30009.app.github.dev" || window.serverAdd === "special-sniffle-r4p5w9w56pwxf5j49-30009.app.github.dev" || window.serverAdd === "effective-capybara-g47vrg5vv7752v9g5-30009.app.github.dev") {
+      } else if (window.serverAdd === "opulent-space-cod-694xpgjw5gg7h47vp-30009.app.github.dev" || window.serverAdd === "special-sniffle-r4p5w9w56pwxf5j49-30009.app.github.dev" || window.serverAdd === "effective-capybara-g47vrg5vv7752v9g5-30009.app.github.dev") {
         _0x58bf50("Core", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("Stay in the center of the map to win!", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
       } else if (window.serverAdd === "automatic-space-rotary-phone-57444pjr7vq3vx57-3007.app.github.dev") {
         _0x58bf50("Closed Beta", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("A private server with developer powers.", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
-      } else if (window.serverAdd === "effective-cod-jjqp9v649q79c5gv7-30005.app.github.dev" || window.serverAdd === "special-sniffle-r4p5w9w56pwxf5j49-30005.app.github.dev" || window.serverAdd === "effective-capybara-g47vrg5vv7752v9g5-30005.app.github.dev") {
+      } else if (window.serverAdd === "opulent-space-cod-694xpgjw5gg7h47vp-30005.app.github.dev" || window.serverAdd === "special-sniffle-r4p5w9w56pwxf5j49-30005.app.github.dev" || window.serverAdd === "effective-capybara-g47vrg5vv7752v9g5-30005.app.github.dev") {
         _0x58bf50("FFA", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("Fight each other and gain highest score!", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
-      } else if (window.serverAdd === "effective-cod-jjqp9v649q79c5gv7-30010.app.github.dev" || window.serverAdd === "special-sniffle-r4p5w9w56pwxf5j49-30010.app.github.dev" || window.serverAdd === "effective-capybara-g47vrg5vv7752v9g5-30010.app.github.dev") {
+      } else if (window.serverAdd === "opulent-space-cod-694xpgjw5gg7h47vp-30010.app.github.dev" || window.serverAdd === "special-sniffle-r4p5w9w56pwxf5j49-30010.app.github.dev" || window.serverAdd === "effective-capybara-g47vrg5vv7752v9g5-30010.app.github.dev") {
         _0x58bf50("Growth", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("Attack tanks and shapes to grow up your body and make you even more powerful!", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
-      } else if (window.serverAdd === "effective-cod-jjqp9v649q79c5gv7-30011.app.github.dev" || window.serverAdd === "special-sniffle-r4p5w9w56pwxf5j49-30011.app.github.dev" || window.serverAdd === "effective-capybara-g47vrg5vv7752v9g5-30011.app.github.dev") {
+      } else if (window.serverAdd === "opulent-space-cod-694xpgjw5gg7h47vp-30011.app.github.dev" || window.serverAdd === "special-sniffle-r4p5w9w56pwxf5j49-30011.app.github.dev" || window.serverAdd === "effective-capybara-g47vrg5vv7752v9g5-30011.app.github.dev") {
         _0x58bf50("Hide and Seek", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("Hide yourselves from seekers for 3 minutes to win!", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
-      } else if (window.serverAdd === "effective-cod-jjqp9v649q79c5gv7-30012.app.github.dev" || window.serverAdd === "special-sniffle-r4p5w9w56pwxf5j49-30012.app.github.dev" || window.serverAdd === "effective-capybara-g47vrg5vv7752v9g5-30012.app.github.dev") {
+      } else if (window.serverAdd === "opulent-space-cod-694xpgjw5gg7h47vp-30012.app.github.dev" || window.serverAdd === "special-sniffle-r4p5w9w56pwxf5j49-30012.app.github.dev" || window.serverAdd === "effective-capybara-g47vrg5vv7752v9g5-30012.app.github.dev") {
         _0x58bf50("Train Wars", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("Fight against other tanks with your train!", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
-      } else if (window.serverAdd === "effective-cod-jjqp9v649q79c5gv7-30013.app.github.dev" || window.serverAdd === "special-sniffle-r4p5w9w56pwxf5j49-30013.app.github.dev" || window.serverAdd === "effective-capybara-g47vrg5vv7752v9g5-30013.app.github.dev") {
+      } else if (window.serverAdd === "opulent-space-cod-694xpgjw5gg7h47vp-30013.app.github.dev" || window.serverAdd === "special-sniffle-r4p5w9w56pwxf5j49-30013.app.github.dev" || window.serverAdd === "effective-capybara-g47vrg5vv7752v9g5-30013.app.github.dev") {
         _0x58bf50("Nexus", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("Just a gamemode where you can chill out and chat. Press ENTER to chat!", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
-      } else if (window.serverAdd === "effective-cod-jjqp9v649q79c5gv7-30014.app.github.dev" || window.serverAdd === "special-sniffle-r4p5w9w56pwxf5j49-30014.app.github.dev" || window.serverAdd === "effective-capybara-g47vrg5vv7752v9g5-30014.app.github.dev") {
+      } else if (window.serverAdd === "opulent-space-cod-694xpgjw5gg7h47vp-30014.app.github.dev" || window.serverAdd === "special-sniffle-r4p5w9w56pwxf5j49-30014.app.github.dev" || window.serverAdd === "effective-capybara-g47vrg5vv7752v9g5-30014.app.github.dev") {
         _0x58bf50("Manhunt", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("Be the first in the scoreboard to be more powerful!", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
-      } else if (window.serverAdd === "effective-cod-jjqp9v649q79c5gv7-30001.app.github.dev" || window.serverAdd === "special-sniffle-r4p5w9w56pwxf5j49-30001.app.github.dev" || window.serverAdd === "effective-capybara-g47vrg5vv7752v9g5-30001.app.github.dev") {
+      } else if (window.serverAdd === "opulent-space-cod-694xpgjw5gg7h47vp-30001.app.github.dev" || window.serverAdd === "special-sniffle-r4p5w9w56pwxf5j49-30001.app.github.dev" || window.serverAdd === "effective-capybara-g47vrg5vv7752v9g5-30001.app.github.dev") {
         _0x58bf50("2TDM", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("Fight with your teammates against your opponent's team!", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
-      } else if (window.serverAdd === "effective-cod-jjqp9v649q79c5gv7-30007.app.github.dev" || window.serverAdd === "special-sniffle-r4p5w9w56pwxf5j49-30007.app.github.dev" || window.serverAdd === "effective-capybara-g47vrg5vv7752v9g5-30007.app.github.dev") {
+      } else if (window.serverAdd === "opulent-space-cod-694xpgjw5gg7h47vp-30007.app.github.dev" || window.serverAdd === "special-sniffle-r4p5w9w56pwxf5j49-30007.app.github.dev" || window.serverAdd === "effective-capybara-g47vrg5vv7752v9g5-30007.app.github.dev") {
         _0x58bf50("4TDM", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("Attack with your teammates 3 other teams!", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
-      } else if (window.serverAdd === "effective-cod-jjqp9v649q79c5gv7-30006.app.github.dev" || window.serverAdd === "special-sniffle-r4p5w9w56pwxf5j49-30006.app.github.dev" || window.serverAdd === "effective-capybara-g47vrg5vv7752v9g5-30006.app.github.dev") {
+      } else if (window.serverAdd === "opulent-space-cod-694xpgjw5gg7h47vp-30006.app.github.dev" || window.serverAdd === "special-sniffle-r4p5w9w56pwxf5j49-30006.app.github.dev" || window.serverAdd === "effective-capybara-g47vrg5vv7752v9g5-30006.app.github.dev") {
         _0x58bf50("Maze", _0x5bae59.screenWidth / 2, 40, 30, _0x53f6d6.guiwhite, "center");
         _0x58bf50("Attack everyone in a labyrinth.", _0x5bae59.screenWidth / 2, 70, 20, _0x53f6d6.guiwhite, "center");
       }
