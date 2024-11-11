@@ -1547,9 +1547,11 @@ body.mobile #sliderButton2 {
 }
 
 
-.multiline-tooltip[tooltip]:before {
-  white-space: pre-line; /* Allows multiline text */
+.multiline-tooltip::before {
+  content: "With premium, you get:\A- Premium features\AAnd more!";
+  white-space: pre-line;
 }
+
 
       .menu-btns [tooltip]:before {left: 100%; top: 50%; bottom: unset; transform: translate(10px, -50%); font-size: 20px;}
       [stroke] {position: relative;}
@@ -1846,7 +1848,7 @@ body.mobile #sliderButton2 {
     <br>
     <span id="totalplayerstrain">? players</span>
   </button>
-<button id="premiumButton" class="multiline-tooltip" tooltip="With premium, you get:\A- Premium features\AAnd more!">Get Premium!</button>
+<button id="premiumButton" class="multiline-tooltip">Get Premium!</button>
 <h1 class="game-mode1" id="bruhliterally">Total players</h1>
 <h1 class="game-mode2" id="totalPlayerCount">???</h1>
 <noscript>
