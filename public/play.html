@@ -1518,41 +1518,9 @@ body.mobile #sliderButton2 {
       .btn:not(.btn-active):active:after, .tabs .btn-active:after {background: rgba(0, 0, 0, .1);}
       .gamemodes .btn-active {border-color: hsla(0, 0%, 100%, .4);}
       .btn>* {z-index: 1;}
-[tooltip] {
-  position: relative;
-}
-
-[tooltip]:before {
-  content: attr(tooltip);
-  position: absolute;
-  left: -20%;
-  bottom: -70%;
-  transform: translate(-30%, -5px);
-  font-family: Ubuntu1;
-  background: rgba(0, 0, 0, .5);
-  color: #fff;
-  white-space: nowrap; /* Default single-line style */
-  pointer-events: none;
-  opacity: 0;
-  transition: opacity .5s;
-  text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
-  padding: 5px;
-  border-radius: 4px;
-  font-size: 20px;
-  z-index: 2;
-}
-
-[tooltip]:hover:before {
-  opacity: 1;
-}
-
-
-.multiline-tooltip::before {
-  content: "With premium, you get:\A- Premium features\AAnd more!";
-  white-space: pre-line;
-}
-
-
+      [tooltip] {position: relative;}
+      [tooltip]:before {content: attr(tooltip); position: absolute; left: -20%; bottom: -70%; transform: translate(-30%, -5px); font-family: Ubuntu1; background: rgba(0, 0, 0, .5); color: #fff; white-space: nowrap; pointer-events: none; opacity: 0; transition: opacity .5s; text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000; padding: 5px; border-radius: 4px; font-size: 20px; z-index: 2;}
+      [tooltip]:hover:before {opacity: 1;}
       .menu-btns [tooltip]:before {left: 100%; top: 50%; bottom: unset; transform: translate(10px, -50%); font-size: 20px;}
       [stroke] {position: relative;}
       [stroke]:before {content: attr(stroke); -webkit-text-stroke: 0.1em #000;}
@@ -1848,7 +1816,7 @@ body.mobile #sliderButton2 {
     <br>
     <span id="totalplayerstrain">? players</span>
   </button>
-<button id="premiumButton" class="multiline-tooltip">Get Premium!</button>
+<button id="premiumButton" tooltip="With premium, you get premium features and more!">Get Premium!</button>
 <h1 class="game-mode1" id="bruhliterally">Total players</h1>
 <h1 class="game-mode2" id="totalPlayerCount">???</h1>
 <noscript>
