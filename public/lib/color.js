@@ -306,7 +306,7 @@ var color = {
         "magenta": "#be7ff5",
         "grey": "#A7A7AF",
         "dgrey": "#666666",
-        "white": "#cfcfcf",
+        "white": "#dbdbdb",
         "guiblack": "#000000",
         "paletteSize": 10,
         "border": 0.4
