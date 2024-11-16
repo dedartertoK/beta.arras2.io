@@ -75,7 +75,7 @@ const speedcheckloop = () => {
                         entities[i].kill();
                     }
                 }
-                sockets.broadcast("Server overloaded! Restarting...");
+                sockets.broadcast("Unfortunately, the Server overloaded! Restarting...");
 global.overloaded = true;
  
                                     }, )
