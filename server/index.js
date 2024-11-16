@@ -533,7 +533,14 @@ const bossSelections = [{
     nameType: "alviss",
     message: "The darkness arrives as the realms are torn apart!",
     chance: 0.1,
-}];
+},{
+    bosses: [Class.rhea],
+    location: "norm",
+    amount: [1],
+    nameType: "rhea",
+    message: "The world tremors as the celetials are reborn anew!",
+    chance: 0.1,
+}],    
 
 let spawnBosses = minibossCount => {
     if (!minibossCount && !timer--) {
