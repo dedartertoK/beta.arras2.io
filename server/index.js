@@ -534,10 +534,10 @@ const bossSelections = [{
     message: "The darkness arrives as the realms are torn apart!",
     chance: 0.1,
 },{
-    bosses: [Class.rhea],
+    bosses: [Class.odin],
     location: "norm",
     amount: [1],
-    nameType: "rhea",
+    nameType: "odin",
     message: "The world tremors as the celetials are reborn anew!",
     chance: 0.1,
 }],    
