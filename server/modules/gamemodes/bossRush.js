@@ -55,6 +55,7 @@ class BossRush {
             [ 35, "zaphkiel"],
             [ 35, "nyx"],
             [ 35, "theia"],
+            [ 35, "odin"],
 
             //eternals
             [ 99, "legionaryCrasher" /*fucking mid*/],
