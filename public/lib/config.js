@@ -8,12 +8,12 @@ const config = {
       darkBorders: false,
       fancyAnimations: true,
       colors: "DiepIO",
-      pointy: true,
+      pointy: false,
       fontSizeBoost: 1.4,
       fontStrokeRatio: 4.5,
       neon: false,
-      coloredHealthbars: false,
-      seperatedHealthbars: false
+      coloredHealthbars: true,
+      seperatedHealthbars: true
     },
     lag: {
       unresponsive: false,
