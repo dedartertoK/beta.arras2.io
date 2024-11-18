@@ -165,7 +165,7 @@ module.exports = {
  // Welcome message once a player spawns.
  WELCOME_MESSAGE: function() {
     if (c.SIEGE_LOOP) {
-        return "You have spawned! Welcome to the game.\n"
+        return "You have spawned! Welcome to the game(Overrated).\n"
              + "You will be invulnerable for 60 seconds until you move or shoot.\n"
              + "The gamemode changes everytimes the server restarts.\n"
              + "Remember to kill all the crashers and sentries to defeat a wave!";
